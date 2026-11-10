@@ -15,7 +15,8 @@ from unittest.mock import patch
 
 from extract import ExtractionError, extract_file, is_mason_source, perl_extract
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+from sgn_checkout import SGN as PROJECT_ROOT
+from sgn_checkout import needs_sgn
 
 
 # Audited grammar traversal or explicit source-fixture boundary.
@@ -155,6 +156,7 @@ my $title=$c->i18n->p('special.title', 'Human title');
         self.assertFalse(is_mason_source("assets/mason/autohandler"))
         self.assertFalse(is_mason_source("mason/../script/autohandler"))
 
+    @needs_sgn
     def test_all_tracked_native_special_components_are_parseable_as_data(self):
         if (PROJECT_ROOT / ".git").exists():
             # Worktrees have a .git file; repositories have a .git directory.
@@ -201,6 +203,7 @@ my $title=$c->i18n->p('special.title', 'Human title');
                 for row in rows:
                     self.assertTrue(row["reference"].startswith(relative + ":"))
 
+    @needs_sgn
     def test_actual_native_user_controller_nine_login_contexts(self):
         path = PROJECT_ROOT / "lib/SGN/Controller/AJAX/User.pm"
         records = extract_file(path, PROJECT_ROOT)

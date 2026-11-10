@@ -24,11 +24,11 @@ from catalog import (
     read_mo,
     source_revision,
 )
+import sections
 from extract import ExtractionError, extract, extract_file, po_quote, pot
 from pack import validate_ast, validate_catalog, validate_pack
 
 SCRIPT_ROOT = Path(__file__).resolve().parent
-PROJECT_ROOT = SCRIPT_ROOT.parents[1]
 
 
 class ExtractionTests(unittest.TestCase):
@@ -259,15 +259,14 @@ class CompilerTests(unittest.TestCase):
             base = Path(directory)
             root = base / "application"
             (root / "locale").mkdir(parents=True)
-            (root / "static/js").mkdir(parents=True)
-            (root / "static/js/sgn-i18n.js").symlink_to(PROJECT_ROOT / "static/js/sgn-i18n.js")
             source = root / "demo.js"
             source.write_text("SGN.i18n.p('demo.label', 'Trial name');\n")
             original_source = source.read_bytes()
             (root / "locale/sources.txt").write_text("demo.js\n")
             messages = extract(root, ["demo.js"])
             template = pot(messages)
-            (root / "locale/sgn.pot").write_text(template)
+            catalogs = base / "catalogs"
+            sections.write_templates(catalogs, {"common": template})
             po = base / "translator/fr/LC_MESSAGES/sgn.po"
             po.parent.mkdir(parents=True)
             text = init_po(messages, "fr", "ltr", "nplurals=2; plural=(n > 1);", "Français")
@@ -281,8 +280,10 @@ class CompilerTests(unittest.TestCase):
             command = [
                 sys.executable,
                 str(SCRIPT_ROOT / "catalog.py"),
-                "--root",
+                "--sgn",
                 str(root),
+                "--catalogs",
+                str(catalogs),
                 "build",
                 "--po",
                 str(po),
@@ -299,7 +300,8 @@ class CompilerTests(unittest.TestCase):
             )
             validate_catalog(catalog)
             self.assertEqual(source.read_bytes(), original_source)
-            self.assertEqual((root / "locale/sgn.pot").read_text(), template)
+            self.assertEqual(sections.read_templates(catalogs), {"common": template})
+            self.assertFalse((catalogs / "fr").exists())
             self.assertFalse((root / "locale/fr").exists())
             rejected_output = base / "duplicate-output"
             duplicate = subprocess.run(
@@ -340,8 +342,10 @@ class CompilerTests(unittest.TestCase):
 
     def test_update_preserves_translations_and_updates_provenance_automatically(self):
         with tempfile.TemporaryDirectory() as directory:
-            root = Path(directory)
-            (root / "locale/es/LC_MESSAGES").mkdir(parents=True)
+            root = Path(directory) / "sgn"
+            catalogs = Path(directory) / "catalogs"
+            (root / "locale").mkdir(parents=True)
+            (catalogs / "es").mkdir(parents=True)
             (root / "locale/sources.txt").write_text("demo.js\n")
             (root / "demo.js").write_text(
                 (
@@ -354,7 +358,7 @@ class CompilerTests(unittest.TestCase):
                 'msgid "Trial name"\nmsgstr ""',
                 'msgid "Trial name"\nmsgstr "Nombre del ensayo"',
             )
-            po = root / "locale/es/LC_MESSAGES/sgn.po"
+            po = catalogs / "es/common.po"
             po.write_text(text)
             with (root / "demo.js").open("a") as handle:
                 handle.write("SGN.i18n.p('demo.new', 'New message');\n")
@@ -362,8 +366,10 @@ class CompilerTests(unittest.TestCase):
                 [
                     sys.executable,
                     str(SCRIPT_ROOT / "catalog.py"),
-                    "--root",
+                    "--sgn",
                     str(root),
+                    "--catalogs",
+                    str(catalogs),
                     "update",
                 ],
                 capture_output=True,
@@ -377,7 +383,9 @@ class CompilerTests(unittest.TestCase):
                 "X-SGN-Source-Revision: " + source_revision(extract(root, ["demo.js"])),
                 po.read_text(),
             )
-            self.assertIn('msgctxt "demo.new"', (root / "locale/sgn.pot").read_text())
+            self.assertIn('msgctxt "demo.new"', (catalogs / "templates/common.pot").read_text())
+            self.assertIn('msgctxt "demo.new"', po.read_text())
+            self.assertEqual(sorted(p.name for p in catalogs.rglob("*") if p.is_file()), ["common.po", "common.pot"])
 
 
 class PackTests(unittest.TestCase):
@@ -735,9 +743,8 @@ class WorkflowPartitionTests(unittest.TestCase):
     def test_default_build_writes_indexed_sections_and_removes_stale_full_output(self):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
-            (root / "locale/uk/LC_MESSAGES").mkdir(parents=True)
-            (root / "static/js").mkdir(parents=True)
-            (root / "static/js/sgn-i18n.js").symlink_to(PROJECT_ROOT / "static/js/sgn-i18n.js")
+            catalogs = root / "catalogs"
+            (root / "locale").mkdir(parents=True)
             (root / "common.js").write_text("SGN.i18n.p('common.save', 'Save');")
             (root / "trial.js").write_text("SGN.i18n.p('trial.title', 'Trial');")
             (root / "locale/sources.txt").write_text("common.js\ntrial.js\n")
@@ -755,11 +762,16 @@ class WorkflowPartitionTests(unittest.TestCase):
                 )
             )
             messages = extract(root, ["common.js", "trial.js"])
-            (root / "locale/sgn.pot").write_text(pot(messages))
+            manifest = json.loads((root / "locale/workflows.json").read_text())
+            templates = sections.templates_for(messages, partition_sources(root, messages), manifest)
+            self.assertEqual(sorted(templates), ["common", "trial_card"])
+            sections.write_templates(catalogs, templates)
             text = init_po(messages, "uk", "ltr", "nplurals=2; plural=(n != 1);")
             text = text.replace('msgid "Save"\nmsgstr ""', 'msgid "Save"\nmsgstr "Зберегти"')
             text = text.replace('msgid "Trial"\nmsgstr ""', 'msgid "Trial"\nmsgstr "Дослід"')
-            (root / "locale/uk/LC_MESSAGES/sgn.po").write_text(text)
+            owners, names = sections.owners_from_templates(catalogs / "templates")
+            sections.write_language(catalogs / "uk", sections.split(text, owners, names))
+            self.assertEqual(sections.merge(sections.read_language(catalogs / "uk")), text)
             output = root / "output"
             (output / "uk").mkdir(parents=True)
             (output / "uk/sgn.json").write_text("old generated output")
@@ -767,8 +779,10 @@ class WorkflowPartitionTests(unittest.TestCase):
                 [
                     sys.executable,
                     str(SCRIPT_ROOT / "catalog.py"),
-                    "--root",
+                    "--sgn",
                     str(root),
+                    "--catalogs",
+                    str(catalogs),
                     "build",
                     "--output",
                     str(output),

@@ -12,6 +12,7 @@ from contextlib import contextmanager
 from pathlib import Path
 
 import catalog
+import sections
 from catalog_format import MAX_RELEASE_BYTES, json_bytes, read_json
 
 TOOLS = Path(__file__).resolve().parent
@@ -91,16 +92,14 @@ def notice_files(base, source_mode=False):
                 raise ValueError("Notices must be regular files, not symlinks")
             if path.is_file():
                 result[path.relative_to(notices)] = path
-    parents = (base, base / "locale") if source_mode else (base,)
-    for parent in parents:
-        for pattern in ("LICENSE*", "COPYING*", "NOTICE*", "TRANSLATION_SOURCES.md"):
-            for path in parent.glob(pattern):
-                if path.is_symlink():
-                    raise ValueError("Notices must be regular files, not symlinks")
-                if path.is_file():
-                    name = Path("locale") / path.name if parent != base else Path(path.name)
-                    result.setdefault(name, path)
-    attribution = base / "docs/i18n/TRANSLATION_SOURCES.md"
+    for pattern in ("LICENSE*", "COPYING*", "NOTICE*", "TRANSLATION_SOURCES.md"):
+        for path in base.glob(pattern):
+            if path.is_symlink():
+                raise ValueError("Notices must be regular files, not symlinks")
+            if path.is_file():
+                result.setdefault(Path(path.name), path)
+    # In source mode the base is this translation repository.
+    attribution = base / "docs/TRANSLATION_SOURCES.md"
     if source_mode and attribution.is_file() and not attribution.is_symlink():
         result[Path("TRANSLATION_SOURCES.md")] = attribution
     return result
@@ -158,13 +157,19 @@ def prepare(args):
         paths = [path.absolute() for path in args.po]
         notices = notice_files(args.release.resolve().parent)
     else:
+        if args.root is None:
+            raise ValueError("Give --sgn PATH: the SGN source checkout for this release")
         root = args.root.resolve()
         messages = catalog.source_messages(root)
         release = catalog.freeze_release(root, messages, args.application_version)
+        # Section files of each language are joined into one PO per language.
+        merged = tempfile.TemporaryDirectory(prefix="sgn-i18n-languages-")
         paths = (
-            [path.absolute() for path in args.po] if args.po else sorted((root / "locale").glob("*/LC_MESSAGES/sgn.po"))
+            [path.absolute() for path in args.po]
+            if args.po
+            else sections.merged_languages(args.catalogs.resolve(), Path(merged.name))
         )
-        notices = notice_files(root, source_mode=True)
+        notices = notice_files(sections.REPOSITORY, source_mode=True)
     translations = po_inputs(paths)
     data = json_bytes(release)
     if len(data) > MAX_RELEASE_BYTES:
@@ -401,7 +406,12 @@ def main():
     source = command.add_mutually_exclusive_group(required=True)
     source.add_argument("--application-version")
     source.add_argument("--release", type=Path)
-    command.add_argument("--root", type=Path, default=Path.cwd())
+    command.add_argument(
+        "--sgn", "--root", dest="root", type=Path, help="SGN source checkout (with --application-version)"
+    )
+    command.add_argument(
+        "--catalogs", type=Path, default=sections.CATALOGS, help="catalog folder (default: po/ in this repository)"
+    )
     command.add_argument("--po", type=Path, action="append")
     command = commands.add_parser("package", help="make ready packs from saved workspace translations")
     command.add_argument("--workspace", type=Path, required=True)

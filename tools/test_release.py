@@ -20,7 +20,8 @@ import pack
 from catalog_format import read_json, sha256_hex
 from plural import parse_plural, validate_ast
 
-ROOT = Path(__file__).resolve().parents[2]
+from sgn_checkout import SGN, needs_sgn
+
 TOOLS = Path(__file__).resolve().parent
 
 
@@ -122,13 +123,16 @@ class ReleaseTests(unittest.TestCase):  # pylint: disable=too-many-public-method
     def test_shared_command_accepts_source_root_after_command(self):
         """The documented launcher and old direct syntax read the same source."""
         source = self.root / "source"
+        catalogs = self.root / "catalogs"
         (source / "locale").mkdir(parents=True)
         (source / "locale/sources.txt").write_text("")
-        receipt = self.command("sgn-i18n", "extract", "--root", source)
+        receipt = self.command("sgn-i18n", "extract", "--sgn", source, "--catalogs", catalogs)
         self.assertEqual(receipt["messages"], 0)
-        template = (source / "locale/sgn.pot").read_bytes()
-        self.assertEqual(self.command("catalog.py", "--root", source, "extract"), receipt)
-        self.assertEqual((source / "locale/sgn.pot").read_bytes(), template)
+        template = (catalogs / "templates/common.pot").read_bytes()
+        # The old option name --root still names the SGN checkout.
+        self.assertEqual(self.command("catalog.py", "--root", source, "--catalogs", catalogs, "extract"), receipt)
+        self.assertEqual((catalogs / "templates/common.pot").read_bytes(), template)
+        self.assertFalse((source / "locale/sgn.pot").exists())
         result = subprocess.run(
             [sys.executable, str(TOOLS / "sgn-i18n"), "freeze", "--help"],
             capture_output=True,
@@ -136,7 +140,7 @@ class ReleaseTests(unittest.TestCase):  # pylint: disable=too-many-public-method
             check=False,
         )
         self.assertEqual(result.returncode, 0, result.stderr)
-        self.assertIn("--root", result.stdout)
+        self.assertIn("--sgn", result.stdout)
 
     def test_install_and_activate_needs_no_copied_hash_and_is_idempotent(self):
         """One command derives identity from the validated pack and preserves history."""
@@ -436,9 +440,10 @@ class ReleaseTests(unittest.TestCase):  # pylint: disable=too-many-public-method
         )
         self.assertFalse((self.root / "invalid").exists())
 
+    @needs_sgn
     def test_plural_trees_match_all_existing_runtime_fixtures(self):
         """Plural trees match all existing runtime fixtures."""
-        fixtures = json.loads((ROOT / "t/unit/SGN/i18n-fixtures.json").read_text())
+        fixtures = json.loads((SGN / "t/unit/SGN/i18n-fixtures.json").read_text())
         for locale, data in fixtures["catalogs"].items():
             with self.subTest(locale=locale):
                 self.assertEqual(parse_plural(data["pluralForms"])["ast"], data["pluralAst"])

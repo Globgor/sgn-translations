@@ -13,7 +13,8 @@ from unittest.mock import patch
 
 from extract import ExtractionError, extract_file, javascript_extract
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
+from sgn_checkout import SGN as PROJECT_ROOT
+from sgn_checkout import needs_sgn
 
 
 # Independent syntax boundaries use separate unittest methods.
@@ -338,6 +339,7 @@ SGN.i18n.p('page.js', 'Client text');
                     [{"source": "SGN.i18n.p('ctx','Text');", "line_offset": 0}],
                 )
 
+    @needs_sgn
     def test_actual_marked_native_sources_and_call_locations(self):
         expected = {"js/source/legacy/CXGN/Trial.js": 40}
         for relative, count in expected.items():

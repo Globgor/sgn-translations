@@ -10,6 +10,8 @@ import subprocess
 import tempfile
 from pathlib import Path
 
+import sections
+
 from catalog_format import (
     API,
     LOCALE,
@@ -25,6 +27,9 @@ from catalog_format import (
     validate_language_name,
 )
 from extract import extract, po_quote, pot
+
+# Build output stays in this repository, never in the SGN checkout.
+BUILD = sections.REPOSITORY / "build"
 from plural import parse_plural
 
 
@@ -434,12 +439,67 @@ def freeze_release(root, messages, version):
     )
 
 
+def section_templates(root, messages):
+    """Return {section: POT text} for an SGN checkout's current messages."""
+    manifest_path = root / "locale/workflows.json"
+    if not manifest_path.is_file():
+        return {sections.COMMON: pot(messages)}
+    groups = partition_sources(root, messages)
+    return sections.templates_for(messages, groups, json.loads(manifest_path.read_text()))
+
+
+def update_language(directory, template, revision, owners, names):
+    """Merge one language's section files with the full template and split again."""
+    with tempfile.TemporaryDirectory(prefix="sgn-i18n-merge-") as temporary:
+        source = Path(temporary) / "source.po"
+        source.write_text(sections.merge(sections.read_language(directory)), encoding="utf-8")
+        merged = Path(temporary) / "merged.po"
+        run = subprocess.run(
+            [
+                "msgmerge",
+                "--quiet",
+                "--no-wrap",
+                "-o",
+                str(merged),
+                str(source),
+                str(template),
+            ],
+            capture_output=True,
+            text=True,
+            timeout=10,
+            check=False,
+        )
+        if run.returncode:
+            raise ValueError("msgmerge rejected " + str(directory))
+        text = merged.read_text(encoding="utf-8")
+    revision_line = po_quote("X-SGN-Source-Revision: " + revision + "\n")
+    if re.search(r'^"X-SGN-Source-Revision:.*"$', text, re.M):
+        text = re.sub(
+            r'^"X-SGN-Source-Revision:.*"$',
+            lambda _, line=revision_line: line,
+            text,
+            flags=re.M,
+        )
+    else:
+        text = text.replace(
+            '"Content-Transfer-Encoding: 8bit\\n"',
+            '"Content-Transfer-Encoding: 8bit\\n"\n' + revision_line,
+        )
+    sections.write_language(directory, sections.split(text, owners, names), replace=True)
+
+
+def output_path(path):
+    """Relative output paths are relative to the current folder."""
+    return path if path.is_absolute() else Path.cwd() / path
+
+
 # Audited grammar traversal or explicit source-fixture boundary.
 # pylint: disable=too-many-branches,too-many-locals,too-many-statements
 def main():
     """Run the command-line operation and fail on invalid input."""
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("--root", type=Path, default=Path.cwd())
+    parser.add_argument("--sgn", "--root", dest="root", type=Path)
+    parser.add_argument("--catalogs", type=Path, default=sections.CATALOGS)
     commands = parser.add_subparsers(dest="command", required=True)
     commands.add_parser("extract")
     commands.add_parser("update")
@@ -447,7 +507,7 @@ def main():
     freeze.add_argument("--output", type=Path, required=True)
     freeze.add_argument("--application-version", required=True)
     build = commands.add_parser("build")
-    build.add_argument("--output", type=Path, default=Path("locale/build"))
+    build.add_argument("--output", type=Path, default=BUILD)
     build.add_argument("--release", type=Path, help="compile from a validated frozen release without source parsers")
     build.add_argument(
         "--legacy-single-file",
@@ -468,22 +528,33 @@ def main():
     init.add_argument("--output", type=Path, required=True)
     init.add_argument("--name", help="native language name, such as Français; optional for old packs")
     # Keep direct catalog.py callers compatible; the shared launcher uses
-    # COMMAND --root PATH like every other command option.
+    # COMMAND --sgn PATH like every other command option. --root is the old name.
     for command in commands.choices.values():
         command.add_argument(
+            "--sgn",
             "--root",
+            dest="root",
             type=Path,
             default=argparse.SUPPRESS,
-            help="application source root (default: current directory)",
+            help="SGN source checkout that holds locale/sources.txt and locale/workflows.json",
+        )
+        command.add_argument(
+            "--catalogs",
+            type=Path,
+            default=argparse.SUPPRESS,
+            help="catalog folder with templates/ and one folder per language (default: po/ in this repository)",
         )
     args = parser.parse_args()
-    root = args.root.resolve()
+    catalogs = args.catalogs.resolve()
     release_path = getattr(args, "release", None)
     release = validate_release(read_json(release_path, limit=MAX_RELEASE_BYTES)) if release_path else None
+    if not release and args.root is None:
+        raise ValueError("give --sgn PATH: the SGN source checkout to read messages from")
+    root = args.root.resolve() if args.root is not None else None
     messages = release["messages"] if release else source_messages(root)
     if args.command == "freeze":
         release = freeze_release(root, messages, args.application_version)
-        output = args.output if args.output.is_absolute() else root / args.output
+        output = output_path(args.output)
         template = output.with_suffix(".pot")
         if output.exists() or template.exists():
             raise ValueError("refusing to overwrite an existing release snapshot")
@@ -504,48 +575,21 @@ def main():
             )
         )
     elif args.command == "extract":
-        output = root / "locale/sgn.pot"
-        output.parent.mkdir(parents=True, exist_ok=True)
-        output.write_text(pot(messages), encoding="utf-8")
-        print(json.dumps({"messages": len(messages), "sourceRevision": source_revision(messages)}))
+        templates = section_templates(root, messages)
+        sections.write_templates(catalogs, templates)
+        print(
+            json.dumps(
+                {"messages": len(messages), "sections": len(templates), "sourceRevision": source_revision(messages)}
+            )
+        )
     elif args.command == "update":
-        template = root / "locale/sgn.pot"
-        template.write_text(pot(messages), encoding="utf-8")
-        for path in sorted((root / "locale").glob("*/LC_MESSAGES/sgn.po")):
-            with tempfile.TemporaryDirectory(prefix="sgn-i18n-merge-") as temporary:
-                merged = Path(temporary) / "merged.po"
-                run = subprocess.run(
-                    [
-                        "msgmerge",
-                        "--quiet",
-                        "--no-wrap",
-                        "-o",
-                        str(merged),
-                        str(path),
-                        str(template),
-                    ],
-                    capture_output=True,
-                    text=True,
-                    timeout=10,
-                    check=False,
-                )
-                if run.returncode:
-                    raise ValueError("msgmerge rejected " + str(path))
-                text = merged.read_text(encoding="utf-8")
-                revision_line = po_quote("X-SGN-Source-Revision: " + source_revision(messages) + "\n")
-                if re.search(r'^"X-SGN-Source-Revision:.*"$', text, re.M):
-                    text = re.sub(
-                        r'^"X-SGN-Source-Revision:.*"$',
-                        lambda _, line=revision_line: line,
-                        text,
-                        flags=re.M,
-                    )
-                else:
-                    text = text.replace(
-                        '"Content-Transfer-Encoding: 8bit\\n"',
-                        '"Content-Transfer-Encoding: 8bit\\n"\n' + revision_line,
-                    )
-                path.write_text(text, encoding="utf-8")
+        sections.write_templates(catalogs, section_templates(root, messages))
+        owners, names = sections.owners_from_templates(catalogs / sections.TEMPLATES)
+        with tempfile.TemporaryDirectory(prefix="sgn-i18n-template-") as temporary:
+            template = Path(temporary) / "sgn.pot"
+            template.write_text(pot(messages), encoding="utf-8")
+            for directory in sections.languages(catalogs):
+                update_language(directory, template, source_revision(messages), owners, names)
         print(json.dumps({"updated": True, "sourceRevision": source_revision(messages)}))
     elif args.command == "init":
         if args.output.exists():
@@ -557,17 +601,19 @@ def main():
             encoding="utf-8",
         )
     else:
-        expected = pot(messages)
-        if not release and (root / "locale/sgn.pot").read_text(encoding="utf-8") != expected:
-            raise ValueError("POT is stale; run extract and merge/review translations")
+        if not release and sections.read_templates(catalogs) != section_templates(root, messages):
+            raise ValueError("templates are stale; run update and review translations")
+        # The split section files of each language are joined into one PO per
+        # language in a temporary folder; the compiler below is unchanged.
+        merged = tempfile.TemporaryDirectory(prefix="sgn-i18n-languages-")
         paths = (
-            [path if path.is_absolute() else root / path for path in args.po]
+            [path.absolute() for path in args.po]
             if args.po
-            else sorted((root / "locale").glob("*/LC_MESSAGES/sgn.po"))
+            else sections.merged_languages(catalogs, Path(merged.name)) if catalogs.is_dir() else []
         )
         if not paths:
             raise ValueError("no PO files selected; provide --po for a release workspace")
-        output = args.output if args.output.is_absolute() else root / args.output
+        output = output_path(args.output)
         if (release or (root / "locale/workflows.json").is_file()) and not args.legacy_single_file:
             partitions = (
                 {name: [messages[i] for i in indices] for name, indices in release["partitions"].items()}

@@ -129,14 +129,21 @@ class WorkflowTests(unittest.TestCase):
     def test_source_prepare_extracts_once_and_never_updates_the_source_po_or_pot(self):
         """Only source extraction is captured; GNU merge and workspace output are actual."""
         source = self.root / "source"
-        original = source / "locale/uk/LC_MESSAGES/sgn.po"
+        catalogs = self.root / "catalogs"
+        original = catalogs / "uk/common.po"
         original.parent.mkdir(parents=True)
         original.write_bytes(self.po.read_bytes())
-        old_template = source / "locale/sgn.pot"
+        old_template = catalogs / "templates/common.pot"
+        old_template.parent.mkdir(parents=True)
         old_template.write_text("Preserved original source POT\n")
         output = self.root / "source-workspace"
         args = argparse.Namespace(
-            release=None, root=source, po=None, application_version="source-commit-fixture", output=output
+            release=None,
+            root=source,
+            catalogs=catalogs,
+            po=None,
+            application_version="source-commit-fixture",
+            output=output,
         )
         with patch.object(catalog, "source_messages", return_value=self.messages) as extraction:
             workflow.prepare(args)

@@ -22,8 +22,11 @@ const figures = [1, 2, 3, 4].map(number => ({
 for (const figure of figures) {
     const target = path.join(root, figure.pdf);
     if (!fs.existsSync(target)) {
-        const original = path.resolve(__dirname, '..', figure.pdf);
-        assert(fs.existsSync(original), 'Original static figure is missing: ' + figure.pdf);
+        // build.R ships these figures; otherwise take them from SGN's English manual.
+        const sgn = process.env.SGN_CHECKOUT;
+        const original = sgn ? path.resolve(sgn, 'docs/r_markdown_docs', figure.pdf) : '';
+        assert(original && fs.existsSync(original),
+            'Original static figure is missing: ' + figure.pdf + ' (rebuild with build.R or set SGN_CHECKOUT)');
         fs.mkdirSync(path.dirname(target), {recursive:true});
         fs.copyFileSync(original, target);
     }

@@ -12,7 +12,11 @@ import unittest
 # pylint: disable=missing-function-docstring
 from pathlib import Path
 
-ROOT = Path(__file__).resolve().parents[2] / "docs/r_markdown_docs"
+from sgn_checkout import SGN, needs_sgn
+
+# English chapters come from the SGN checkout; translations live in manual/ here.
+ROOT = SGN / "docs/r_markdown_docs" if SGN else None
+MANUAL = Path(__file__).resolve().parents[1] / "manual"
 LANGUAGES = ("uk", "es", "ar")
 
 
@@ -38,6 +42,7 @@ def number_tokens(text):
     return collections.Counter(re.findall(r"\d+(?:\.\d+)?", text))
 
 
+@needs_sgn
 class ManualTranslationTests(unittest.TestCase):
     """Exercise the manual translation tests contracts."""
 
@@ -48,23 +53,35 @@ class ManualTranslationTests(unittest.TestCase):
     def copies(self):
         for locale in LANGUAGES:
             for chapter in self.chapters:
-                yield locale, chapter, (ROOT / chapter).read_text(), (ROOT / "i18n" / locale / chapter).read_text()
+                yield locale, chapter, (ROOT / chapter).read_text(), (MANUAL / locale / chapter).read_text()
 
     @unittest.skipUnless(shutil.which("Rscript"), "Rscript not installed")
     def test_build_help_and_invalid_outputs_do_not_render_or_write(self):
         with tempfile.TemporaryDirectory() as temporary:
             scratch = Path(temporary)
             alias = scratch / "manual-link"
-            alias.symlink_to(ROOT, target_is_directory=True)
-            command = ["Rscript", "--vanilla", str(ROOT / "build.R")]
-            result = subprocess.run(command + ["--help"], capture_output=True, text=True, check=False)
+            alias.symlink_to(MANUAL, target_is_directory=True)
+            result = subprocess.run(
+                ["Rscript", "--vanilla", str(MANUAL / "build.R"), "--help"], capture_output=True, text=True, check=False
+            )
             self.assertEqual(result.returncode, 0, result.stderr)
             self.assertIn("/absolute/output", result.stdout)
+            result = subprocess.run(
+                ["Rscript", "--vanilla", str(MANUAL / "build.R"), "uk", str(scratch / "output")],
+                capture_output=True,
+                text=True,
+                check=False,
+            )
+            self.assertNotEqual(result.returncode, 0)
+            self.assertIn("Usage:", result.stderr)
+            command = ["Rscript", "--vanilla", str(MANUAL / "build.R"), "--sgn", str(SGN)]
             cases = [
                 (["uk"], "Usage:"),
                 (["uk", "relative-output"], "absolute path"),
                 (["uk", str(ROOT / "generated")], "overlap"),
                 (["uk", str(ROOT.parent)], "overlap"),
+                (["uk", str(MANUAL / "generated")], "overlap"),
+                (["uk", str(MANUAL.parent)], "overlap"),
                 (["uk", "/"], "overlap"),
                 (["uk", str(alias / "generated")], "overlap"),
                 (["uk", str(scratch / "missing" / ".." / "manual-link" / "generated")], "overlap"),
@@ -78,6 +95,7 @@ class ManualTranslationTests(unittest.TestCase):
                     self.assertIn(error, result.stderr)
             self.assertEqual(list(scratch.iterdir()), [alias])
             self.assertFalse((ROOT / "generated").exists())
+            self.assertFalse((MANUAL / "generated").exists())
             existing = scratch / "existing-reader"
             existing.mkdir()
             (existing / "index.html").write_text("Keep existing reader")
@@ -90,7 +108,7 @@ class ManualTranslationTests(unittest.TestCase):
         self.assertTrue(self.chapters)
         for locale in LANGUAGES:
             self.assertEqual(
-                sorted(p.name for p in (ROOT / "i18n" / locale).glob("*.Rmd")),
+                sorted(p.name for p in (MANUAL / locale).glob("*.Rmd")),
                 sorted(self.chapters),
             )
 
@@ -118,7 +136,7 @@ class ManualTranslationTests(unittest.TestCase):
                 for chapter in self.chapters
                 for value in re.findall(
                     r"(?m)^#{1,6}[^\n]*\{#([^}\s]+)[^}]*\}",
-                    (ROOT / "i18n" / locale / chapter).read_text(),
+                    (MANUAL / locale / chapter).read_text(),
                 )
             ]
             self.assertTrue(ids)
