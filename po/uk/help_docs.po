@@ -1,0 +1,708 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/uk.po
+# Translation of ISO 3166-1 to Ukrainian
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
+# SPDX-FileCopyrightText: 2010-2013, 2015, 2019, 2020, 2021, 2022, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/uk.po
+# Translation of ISO 3166-3 to Ukrainian
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
+# SPDX-FileCopyrightText: 2010-2013, 2015, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: uk\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: Українська\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-SGN-Direction: ltr\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+#: mason/help/blast.mas:6
+msgctxt "help.blast.categories_label"
+msgid "Categories"
+msgstr "Категорії"
+
+#: mason/help/blast.mas:6
+msgctxt "help.blast.category_database_tail"
+msgid " pull-down menu. Each category contains a number of BLAST databases which can be selected in the "
+msgstr " спадне меню. У кожній категорії є кілька баз BLAST, які можна вибрати в меню "
+
+#: mason/help/blast.mas:6
+msgctxt "help.blast.database_categories"
+msgid "To make finding the right BLAST database faster, the databases are organized into different categories, which can be selected using the "
+msgstr "Щоб швидше знайти потрібну базу BLAST, бази впорядковано за категоріями, які можна вибрати в меню "
+
+#: mason/help/blast.mas:6
+msgctxt "help.blast.database_label"
+msgid "Database"
+msgstr "База даних"
+
+#: mason/help/blast.mas:6
+msgctxt "help.blast.database_menu_tail"
+msgid " pull down menu."
+msgstr " розкривному меню."
+
+#: mason/help/blast.mas:24
+msgctxt "help.blast.download_report"
+msgid "The raw BLAST report can be downloaded using the download link in the Results section header."
+msgstr "Необроблений звіт BLAST можна завантажити за посиланням у заголовку розділу Results."
+
+#: mason/help/blast.mas:10
+msgctxt "help.blast.enter_query"
+msgid "Enter the sequence in the Query textarea and choose the appropriate format from the format selector (for example, nucleotide fasta). Choose the appropriate blast program (for example, blastn for running a nucleotide query against a nucleotide database). The default is autodetect, which should detect the format you entered and convert it to the correct sequence format to run blast automatically."
+msgstr "Введіть послідовність у поле Query і виберіть відповідний формат (наприклад, nucleotide fasta). Виберіть програму blast (наприклад, blastn для пошуку нуклеотидного запиту в нуклеотидній базі). Типово встановлено autodetect: параметр має визначити введений формат і автоматично перетворити його на формат, потрібний для запуску blast."
+
+#: mason/help/blast.mas:14
+msgctxt "help.blast.evalue"
+msgid "Select an appropriate e-value threshold. The default of 1e-10 should work for most common applications."
+msgstr "Виберіть відповідний поріг e-value. Значення за замовчуванням 1e-10 підходить для більшості типових випадків."
+
+#: mason/help/blast.mas:27
+msgctxt "help.blast.extract_description"
+msgid "You can extract sequences from the BLAST databases using identifiers or key words in the annotation of the sequences. Click on the \"Extract sequences from BLAST databases\" section and enter the search string. It will search in the database selected above."
+msgstr "Із баз BLAST можна отримати послідовності за ідентифікаторами або ключовими словами в анотаціях послідовностей. Відкрийте розділ \"Витягти послідовності з баз BLAST\" і введіть пошуковий рядок. Пошук виконується у вибраній вище базі."
+
+#: mason/help/blast.mas:26
+msgctxt "help.blast.extract_heading"
+msgid "Extract sequences from BLAST databases"
+msgstr "Видобування послідовностей із баз BLAST"
+
+#: mason/help/blast.mas:4
+msgctxt "help.blast.intro"
+msgid "BLAST on this site is based on NCBI BLAST and is accessible on "
+msgstr "BLAST на цьому сайті працює на основі NCBI BLAST і доступний за адресою "
+
+#: mason/help/blast.mas:12
+msgctxt "help.blast.low_complexity"
+msgid "If you would like to filter the query for low-complexity sequence, leave the Filter checkbox selected. This is the recommended setting."
+msgstr "Якщо потрібно відфільтрувати низькокомплексну послідовність запиту, залиште прапорець Filter позначеним. Це рекомендоване налаштування."
+
+#: mason/help/blast.mas:18
+msgctxt "help.blast.output_description"
+msgid "You can choose different output options. The \"Overview graph\" option will show a graphic represenations of the hits in the database. The \"Coverage graph\" displays a graphical representation how the matches line up on the query sequence. The \"Bioperl\" parser displays a formatted version of the BLAST report with embedded links to other pages on the site. The \"Basic\" version shows the raw output of the BLAST report. Note that if the query contains several sequences (such as multi-fasta), the output will always default to the \"Basic\" parse option."
+msgstr "Можна вибрати різні параметри виводу. Параметр \"Оглядовий графік\" показує графічне представлення збігів у базі даних. \"Графік покриття\" відображає, як збіги розташовані вздовж послідовності запиту. Парсер \"Bioperl\" показує відформатований звіт BLAST із посиланнями на інші сторінки сайту. Варіант \"Basic\" показує необроблений звіт BLAST. Якщо запит містить кілька послідовностей (наприклад, multi-fasta), типово завжди використовується параметр розбору \"Basic\"."
+
+#: mason/help/blast.mas:16
+msgctxt "help.blast.output_options"
+msgid "Output options"
+msgstr "Параметри виводу"
+
+#: mason/help/blast.mas:20
+msgctxt "help.blast.results"
+msgid "Results"
+msgstr "Результати"
+
+#: mason/help/blast.mas:22
+msgctxt "help.blast.results_behavior"
+msgid "The Results section will show the output (depending on your chosen Output options) when a BLAST analysis has been run. When the analysis is finished, the Input parameters sections will be collapsed and the Results section opened. To re-run a query, simply click on the + sign in the Input parameter section header to view that section again and adjust the parameters."
+msgstr "У розділі Results буде показано результат виконаного аналізу BLAST відповідно до вибраних Параметри виводу. Після завершення аналізу розділ Вхідні параметри згорнеться, а Results відкриється. Щоб повторити запит, натисніть знак + у заголовку Вхідні параметри і змініть параметри."
+
+#: mason/help/blast.mas:8
+msgctxt "help.blast.select_category_database"
+msgid "Select the category, then the database."
+msgstr "Спочатку виберіть категорію, потім базу даних."
+
+#: mason/help/blast.mas:2
+msgctxt "help.blast.title"
+msgid "BLAST Help"
+msgstr "Довідка BLAST"
+
+#: mason/help/contact.mas:99
+msgctxt "help.contact.aria_close"
+msgid "Close"
+msgstr "Закрити"
+
+#: mason/help/contact.mas:48
+msgctxt "help.contact.challenge"
+msgid "What is "
+msgstr "Скільки буде "
+
+#: mason/help/contact.mas:109
+msgctxt "help.contact.close"
+msgid "Close"
+msgstr "Закрити"
+
+#: mason/help/contact.mas:74
+msgctxt "help.contact.deactivated_email"
+msgid "Note that the contact email address %{email} has been deactivated due to extreme levels of spam. "
+msgstr "Зверніть увагу: контактну адресу %{email} вимкнено через надмірну кількість спаму. "
+
+#: mason/help/contact.mas:160 mason/help/contact.mas:173
+msgctxt "help.contact.error_heading"
+msgid "Error"
+msgstr "Помилка"
+
+#: mason/help/contact.mas:41
+msgctxt "help.contact.field.body"
+msgid "Body"
+msgstr "Текст повідомлення"
+
+#: mason/help/contact.mas:24 mason/help/contact.mas:73
+msgctxt "help.contact.field.email"
+msgid "Email"
+msgstr "Електронна пошта"
+
+#: mason/help/contact.mas:23
+msgctxt "help.contact.field.name"
+msgid "Name"
+msgstr "Ім’я"
+
+#: mason/help/contact.mas:25
+msgctxt "help.contact.field.subject"
+msgid "Subject"
+msgstr "Тема"
+
+#: mason/help/contact.mas:100
+msgctxt "help.contact.form_title"
+msgid "Contact Form"
+msgstr "Контактна форма"
+
+#: mason/help/contact.mas:126
+msgctxt "help.contact.human_check"
+msgid "Please prove you are a human by answering the simple math question."
+msgstr "Підтвердьте, що ви людина, відповівши на просте математичне запитання."
+
+#: mason/help/contact.mas:77
+msgctxt "help.contact.mailing_address"
+msgid "Mailing Address"
+msgstr "Поштова адреса"
+
+#: mason/help/contact.mas:8
+msgctxt "help.contact.page_title"
+msgid "Contact %{site}"
+msgstr "Зв’язатися з %{site}"
+
+#: mason/help/contact.mas:172
+msgctxt "help.contact.posting_error_prefix"
+msgid "Error posting message! Please contact us. : "
+msgstr "Не вдалося надіслати повідомлення! Зв’яжіться з нами. : "
+
+#: mason/help/contact.mas:57
+msgctxt "help.contact.required_prefix"
+msgid "Fields Marked With "
+msgstr "Поля, позначені "
+
+#: mason/help/contact.mas:57
+msgctxt "help.contact.required_suffix"
+msgid " Are Required."
+msgstr " є обов’язковими."
+
+#: mason/help/contact.mas:61
+msgctxt "help.contact.submit"
+msgid "Submit"
+msgstr "Надіслати"
+
+#: mason/help/contact.mas:163
+msgctxt "help.contact.success_heading"
+msgid "Success"
+msgstr "Успішно"
+
+#: mason/help/contact.mas:162
+msgctxt "help.contact.thanks"
+msgid "Thank you for your message. We will reply as soon as possible."
+msgstr "Дякуємо за повідомлення. Ми відповімо якомога швидше."
+
+#: mason/help/contact.mas:68
+msgctxt "help.contact.title"
+msgid "Contact Us"
+msgstr "Зв’язатися з нами"
+
+#: mason/help/contact.mas:74
+msgctxt "help.contact.use_form"
+msgid "Use this contact form instead."
+msgstr "Натомість скористайтеся цією контактною формою."
+
+#: mason/help/contact.mas:138
+msgctxt "help.contact.validation.body"
+msgid "Body is required. Please fill in this field."
+msgstr "Обов’язково введіть текст повідомлення. Заповніть це поле."
+
+#: mason/help/contact.mas:135
+msgctxt "help.contact.validation.email"
+msgid "Email is required. Please fill in this field."
+msgstr "Обов’язково вкажіть адресу електронної пошти. Заповніть це поле."
+
+#: mason/help/contact.mas:132
+msgctxt "help.contact.validation.name"
+msgid "Name is required. Please fill in this field."
+msgstr "Обов’язково вкажіть ім’я. Заповніть це поле."
+
+#: mason/help/contact.mas:129
+msgctxt "help.contact.validation.subject"
+msgid "Subject is required. Please fill in this field."
+msgstr "Обов’язково вкажіть тему. Заповніть це поле."
+
+#: mason/help/datasets.mas:8
+msgctxt "help.datasets.create_heading"
+msgid "Creating Datasets"
+msgstr "Створення наборів даних"
+
+#: mason/help/datasets.mas:10
+msgctxt "help.datasets.create_text"
+msgid ""
+"Datasets are generated in the Wizard. Up to 4 identifiers\n"
+"can be selected. First select the categories and entries in each column. In\n"
+"this example we have selected Trials, Accessions, and Genotyping Protocols.\n"
+"Then enter a name in the “Create New Dataset” section. In this example we have\n"
+"used “Tinker QTL 2021”. After creating the dataset, you can make it public for\n"
+"others to use by first selecting the dataset using the “Load Dataset”\n"
+"list then selecting the “Make Public” button."
+msgstr "Набори створюються у Wizard. Можна вибрати до 4 ідентифікаторів. Спочатку виберіть категорії та записи в кожному стовпці. У цьому прикладі вибрано Досліди, Зразки і Протоколи генотипування. Потім введіть назву в розділі “Створити новий набір даних”. У прикладі використано “Tinker QTL 2021”. Після створення набору його можна відкрити для інших: виберіть набір у списку “Завантажити набір даних”, а потім натисніть “Зробити загальнодоступним”."
+
+#: mason/help/datasets.mas:26
+msgctxt "help.datasets.publications_text"
+msgid ""
+"Datasets can also be used in publications for linking available\n"
+"data. Copy the URL from the detail page found in the Search Datasets\n"
+"page."
+msgstr "Набори даних також можна використовувати в публікаціях для посилань на доступні дані. Скопіюйте URL зі сторінки відомостей, яку відкриває пошук наборів даних."
+
+#: mason/help/datasets.mas:14
+msgctxt "help.datasets.retrieve_heading"
+msgid "Retrieving Datasets"
+msgstr "Отримання наборів даних"
+
+#: mason/help/datasets.mas:16
+msgctxt "help.datasets.retrieve_text"
+msgid ""
+"To retrieve a dataset in the Wizard, select the dataset in\n"
+"the “Load Dataset” input then select the “Load” button. This will populate the\n"
+"columns in the Wizard and then allow you to download and analyze the dataset."
+msgstr "Щоб отримати набір у Wizard, виберіть його у полі “Завантажити набір даних”, а потім натисніть “Завантажити”. Стовпці Wizard буде заповнено, після чого можна завантажити й аналізувати набір."
+
+#: mason/help/datasets.mas:19
+msgctxt "help.datasets.search_heading"
+msgid "Searching Datasets"
+msgstr "Пошук наборів даних"
+
+#: mason/help/datasets.mas:21
+msgctxt "help.datasets.search_text"
+msgid ""
+"To search for a dataset, select the “Datasets” link in the\n"
+"toolbar at the top right of the website. Selecting the Dataset name will\n"
+"give you a Dataset Detail page"
+msgstr "Щоб знайти набір даних, виберіть посилання “Набори даних” на панелі у верхній правій частині сайту. Натиснувши назву набору, ви відкриєте сторінку його опису."
+
+#: mason/help/datasets.mas:2
+msgctxt "help.datasets.title"
+msgid "Dataset Help"
+msgstr "Довідка щодо наборів даних"
+
+#: mason/help/datasets.mas:4
+msgctxt "help.datasets.working_heading"
+msgid "Working with Datasets"
+msgstr "Робота з наборами даних"
+
+#: mason/help/datasets.mas:6
+msgctxt "help.datasets.working_text"
+msgid ""
+"Datasets are collections of identifiers that are stored in\n"
+"the database. Datasets can be composed of accessions, plots, traits, locations,\n"
+"and trials. Datasets are attached to the individual user’s account, and can\n"
+"only be created and seen by the user while logged in. SGN databases use \n"
+"Datasets in analysis tools on the website such as Wizard, GWAS, GS,\n"
+"Heritability, and Stability tools."
+msgstr "Набори даних — це колекції ідентифікаторів, що зберігаються в базі даних. До наборів можуть входити зразки, ділянки, ознаки, місця та досліди. Набори прив’язані до облікового запису користувача; створювати й переглядати їх можна лише після входу в систему. Бази SGN використовують набори даних в інструментах аналізу на сайті, зокрема Wizard, GWAS, GS, «Успадковуваність» і «Стабільність»."
+
+#: mason/help/heritability.mas:3
+msgctxt "help.heritability.input_heading"
+msgid "Input options"
+msgstr "Параметри введення"
+
+#: mason/help/heritability.mas:5
+msgctxt "help.heritability.input_text"
+msgid "Heritability is a tool that utilizes a dataset to run an R script in the backend. The dataset should include trials and traits. To begin the analysis, users must first select the dataset they wish to analyze. Traits can be filtered using the 'outliers' tool. The R package 'lmerTest' will adapt to your dataset. For instance, if the dataset includes different years and locations, those factors will be considered as interactions with genotypes."
+msgstr "Успадковуваність використовує набір даних для запуску R-скрипту на сервері. Набір має містити досліди й ознаки. Щоб почати аналіз, виберіть набір даних. Ознаки можна відфільтрувати інструментом “Викиди”. Пакет R “lmerTest” адаптується до набору даних. Наприклад, якщо набір містить різні роки й місця, ці фактори враховуватимуться як взаємодії з генотипами."
+
+#: mason/help/heritability.mas:7
+msgctxt "help.heritability.results_heading"
+msgid "Results"
+msgstr "Результати"
+
+#: mason/help/heritability.mas:9
+msgctxt "help.heritability.results_text"
+msgid "Results are summarized in a downloadable table in CSV format."
+msgstr "Підсумки подано в таблиці, яку можна завантажити у форматі CSV."
+
+#: mason/help/heritability.mas:1
+msgctxt "help.heritability.title"
+msgid "Heritability Help"
+msgstr "Довідка з успадковуваності"
+
+#: mason/help/index.mas:3
+msgctxt "help.index.brapi_standard"
+msgid "BrAPI standard"
+msgstr "стандарт BrAPI"
+
+#: mason/help/index.mas:18
+msgctxt "help.index.citation_intro"
+msgid "To cite Breedbase, use the following publication:"
+msgstr "Для цитування Breedbase використовуйте таку публікацію:"
+
+#: mason/help/index.mas:11
+msgctxt "help.index.developer_link"
+msgid "developers is also available"
+msgstr "розробників"
+
+#: mason/help/index.mas:11
+msgctxt "help.index.developer_prefix"
+msgid "A guide for "
+msgstr "Також доступний посібник для "
+
+#: mason/help/index.mas:3
+msgctxt "help.index.intro"
+msgid "Breedbase is a comprehensive breeding management and analysis software. It can be used to design field layouts, collect "
+msgstr "Breedbase — це комплексне програмне забезпечення для керування селекцією й аналізу. Його можна використовувати для планування польових схем, збору "
+
+#: mason/help/index.mas:3
+msgctxt "help.index.intro_tail"
+msgid ", support the collection of genotyping samples in a field, store large amounts of high density genotypic information, and provide Genomic Selection related analyses and predictions. Breedbase supports the "
+msgstr ", підтримки збору зразків для генотипування в полі, зберігання великих обсягів генотипових даних високої щільності, а також аналізу й прогнозування для геномної селекції. Breedbase підтримує стандарт "
+
+#: mason/help/index.mas:9
+msgctxt "help.index.manual_link"
+msgid "Breedbase and SGN manual"
+msgstr "посібнику Breedbase та SGN"
+
+#: mason/help/index.mas:9
+msgctxt "help.index.manual_prefix"
+msgid "The complete Breedbase help is available from the "
+msgstr "Повна довідка Breedbase доступна в "
+
+#: mason/help/index.mas:3
+msgctxt "help.index.phenotyping_link"
+msgid "phenotypic and other information using Phenoapps software"
+msgstr "фенотипових та інших даних за допомогою програмного забезпечення Phenoapps"
+
+#: mason/help/index.mas:1
+msgctxt "help.index.title"
+msgid "Breedbase Help"
+msgstr "Довідка Breedbase"
+
+#: mason/help/index.mas:10
+msgctxt "help.index.video_prefix"
+msgid "Video Tutorials are available on "
+msgstr "Відеоуроки доступні на "
+
+#: mason/qtl/submission/guide/qtl_analysis.mas:16
+msgctxt "help.qtl.analysis_heading"
+msgid "Step 6: QTL analysis"
+msgstr "Крок 6: Аналіз QTL"
+
+#: mason/qtl/submission/guide/qtl_analysis.mas:21
+msgctxt "help.qtl.analysis_link"
+msgid "here"
+msgstr "тут"
+
+#: mason/qtl/submission/guide/qtl_analysis.mas:21
+msgctxt "help.qtl.analysis_text"
+msgid "Now that the QTL data is uploaded to the database, you can proceed to perform the on-the-fly QTL analysis for one trait at a time. On the population page, click the graph icon under the 'QTL(s)' column and in a couple of minutes you will be taken to a page with the genome wide QTL mapping output. Further help can be found "
+msgstr "Тепер, коли дані QTL завантажено до бази, можна виконувати аналіз QTL на льоту — по одній ознаці за раз. На сторінці популяції натисніть піктограму графіка в стовпці “QTL(s)”; за кілька хвилин відкриється сторінка з результатами повногеномного картування QTL. Додаткову довідку можна знайти "
+
+#: mason/qtl/submission/guide/contact.mas:16
+msgctxt "help.qtl.contact.heading"
+msgid "Contact us"
+msgstr "Зв’язатися з нами"
+
+#: mason/qtl/submission/guide/contact.mas:21
+msgctxt "help.qtl.contact.link"
+msgid "development team"
+msgstr "командою розробки"
+
+#: mason/qtl/submission/guide/contact.mas:21
+msgctxt "help.qtl.contact.text"
+msgid "If you have any questions or feedback, please contact the "
+msgstr "Якщо у вас є запитання чи відгуки, зв’яжіться з "
+
+#: mason/qtl/submission/guide/index.mas:27
+msgctxt "help.qtl.detailed_guide"
+msgid "Detailed guide:"
+msgstr "Докладні настанови:"
+
+#: mason/qtl/submission/guide/further_reading.mas:15
+msgctxt "help.qtl.further_reading.heading"
+msgid "Further reading"
+msgstr "Додаткові матеріали"
+
+#: mason/qtl/submission/guide/further_reading.mas:20
+msgctxt "help.qtl.further_reading.intro"
+msgid "You can find detailed documentation of the tool here: "
+msgstr "Докладну документацію до інструмента можна знайти тут: "
+
+#: mason/qtl/submission/guide/index.mas:21
+msgctxt "help.qtl.intro"
+msgid ""
+"This document guides QTL data submitters on the process of loading the data, \n"
+"  setting statistical parameters and finally the QTL mapping."
+msgstr "Цей документ описує процес завантаження даних QTL, налаштування статистичних параметрів і виконання QTL-картування."
+
+#: mason/qtl/submission/guide/population_details.mas:37
+msgctxt "help.qtl.population.backcross_parents"
+msgid "Recurrent and donor parents:"
+msgstr "Рекурентний і донорний батьки:"
+
+#: mason/qtl/submission/guide/population_details.mas:37
+msgctxt "help.qtl.population.backcross_text"
+msgid " In the same format as the female and male parents but required only in case of backcross population."
+msgstr " Укажіть у тому самому форматі, що й материнський та батьківський компоненти; ці дані потрібні лише для популяції зворотного схрещування."
+
+#: mason/qtl/submission/guide/population_details.mas:25
+msgctxt "help.qtl.population.cross_type"
+msgid "Cross type:"
+msgstr "Тип схрещування:"
+
+#: mason/qtl/submission/guide/population_details.mas:25
+msgctxt "help.qtl.population.cross_type_text"
+msgid " at this stage only inter cross (F2), backcross, RIL (from both sibling mating and selfing) diploid populations are supported."
+msgstr " наразі підтримуються лише диплоїдні популяції міжлінійного схрещування (F2), зворотного схрещування та RIL (отримані як схрещуванням сибсів, так і самозапиленням)."
+
+#: mason/qtl/submission/guide/population_details.mas:31
+msgctxt "help.qtl.population.description"
+msgid "Population description:"
+msgstr "Опис популяції:"
+
+#: mason/qtl/submission/guide/population_details.mas:31
+msgctxt "help.qtl.population.description_text"
+msgid " provide an abstract style characterization of the population including experimental design highlights."
+msgstr " стисло охарактеризуйте популяцію та зазначте основні особливості плану експерименту."
+
+#: mason/qtl/submission/guide/population_details.mas:28
+msgctxt "help.qtl.population.name"
+msgid "Population name:"
+msgstr "Назва популяції:"
+
+#: mason/qtl/submission/guide/population_details.mas:28
+msgctxt "help.qtl.population.name_text"
+msgid " provide a concise and precise name for the population. This will also serve as the genetic map name of the population."
+msgstr " укажіть коротку й точну назву популяції. Вона також буде назвою генетичної карти популяції."
+
+#: mason/qtl/submission/guide/population_details.mas:22
+msgctxt "help.qtl.population.organism"
+msgid "Select organism:"
+msgstr "Виберіть організм:"
+
+#: mason/qtl/submission/guide/population_details.mas:22
+msgctxt "help.qtl.population.organism_text"
+msgid " fill in the common name of the species the population belongs to. Press the 'associate organism' button. Then proceed with the rest of the form."
+msgstr " введіть загальну назву виду, до якого належить популяція. Натисніть кнопку “пов’язати організм”, а потім заповніть решту форми."
+
+#: mason/qtl/submission/guide/population_details.mas:34
+msgctxt "help.qtl.population.parents"
+msgid "Female and male parents:"
+msgstr "Материнський і батьківський компоненти:"
+
+#: mason/qtl/submission/guide/population_details.mas:34
+msgctxt "help.qtl.population.parents_text"
+msgid " Include the species name and cultivar name. Eg. "
+msgstr " Укажіть назву виду та сорту. Наприклад: "
+
+#: mason/qtl/submission/guide/population_details.mas:41
+msgctxt "help.qtl.population.public"
+msgid "Do you want to make the data public:"
+msgstr "Зробити дані загальнодоступними:"
+
+#: mason/qtl/submission/guide/population_details.mas:41
+msgctxt "help.qtl.population.public_text"
+msgid " Choose 'Yes' or 'No' depending on whether you want to share the QTL data with the community or not."
+msgstr " Виберіть “Yes” або “No” залежно від того, чи хочете ви надати спільноті доступ до даних QTL."
+
+#: mason/qtl/submission/guide/population_details.mas:15
+msgctxt "help.qtl.population_heading"
+msgid "Step 1:  Population details"
+msgstr "Крок 1: Відомості про популяцію"
+
+#: mason/qtl/submission/guide/statistics.mas:41
+msgctxt "help.qtl.statistics.imputations"
+msgid "No. of imputations:"
+msgstr "Кількість імпутацій:"
+
+#: mason/qtl/submission/guide/statistics.mas:41
+msgctxt "help.qtl.statistics.imputations_text"
+msgid " applicable only for 'Multiple Imputation' mapping method and 'Simulate' QTL genotype probability method."
+msgstr " параметр застосовується лише для методу картування “Multiple Imputation” і методу ймовірності генотипу QTL “Simulate”."
+
+#: mason/qtl/submission/guide/statistics.mas:29
+msgctxt "help.qtl.statistics.mapping_imputation_intro"
+msgid " Use "
+msgstr " Використовуйте "
+
+#: mason/qtl/submission/guide/statistics.mas:29
+msgctxt "help.qtl.statistics.mapping_imputation_tail"
+msgid " only if you want to estimate the QTL genotype based on random imputation."
+msgstr " лише якщо потрібно оцінити генотип QTL на основі випадкової імпутації."
+
+#: mason/qtl/submission/guide/statistics.mas:29
+msgctxt "help.qtl.statistics.mapping_method"
+msgid "QTL mapping method:"
+msgstr "Метод картування QTL:"
+
+#: mason/qtl/submission/guide/statistics.mas:29
+msgctxt "help.qtl.statistics.mapping_select"
+msgid " You can select"
+msgstr " Можна вибрати"
+
+#: mason/qtl/submission/guide/statistics.mas:29
+msgctxt "help.qtl.statistics.mapping_standard"
+msgid " for standard interval mapping or for an approximation of it "
+msgstr " для стандартного інтервального картування або його наближення "
+
+#: mason/qtl/submission/guide/statistics.mas:26
+msgctxt "help.qtl.statistics.model"
+msgid "QTL model:"
+msgstr "Модель QTL:"
+
+#: mason/qtl/submission/guide/statistics.mas:26
+msgctxt "help.qtl.statistics.model_development"
+msgid " (the two-dimension two genome QTL scan is under development)"
+msgstr " (двовимірне сканування геному для двох QTL перебуває в розробці)"
+
+#: mason/qtl/submission/guide/statistics.mas:26
+msgctxt "help.qtl.statistics.model_text"
+msgid " Select the one dimension single QTL genome scan"
+msgstr " Виберіть одновимірне сканування геному для одного QTL"
+
+#: mason/qtl/submission/guide/statistics.mas:29
+msgctxt "help.qtl.statistics.or"
+msgid " or "
+msgstr " або "
+
+#: mason/qtl/submission/guide/statistics.mas:44
+msgctxt "help.qtl.statistics.permutations"
+msgid "No. of permutations and significance level:"
+msgstr "Кількість перестановок і рівень значущості:"
+
+#: mason/qtl/submission/guide/statistics.mas:44
+msgctxt "help.qtl.statistics.permutations_text"
+msgid " select the number of permutations to perform and the error rate for the calculation of the LOD threshold."
+msgstr " виберіть кількість перестановок і рівень помилки для розрахунку порогу LOD."
+
+#: mason/qtl/submission/guide/statistics.mas:32
+msgctxt "help.qtl.statistics.probability_method"
+msgid "QTL genotype probability method:"
+msgstr "Метод визначення ймовірності генотипу QTL:"
+
+#: mason/qtl/submission/guide/statistics.mas:32
+msgctxt "help.qtl.statistics.probability_text"
+msgid " Select 'Calculate' if you want the QTL genotype to be estimated based the observed marker data. This method must be selected if you selected 'Maximum Likelihood' or 'Haley-Knot Regression'. If you selected 'Multiple Imputation' then choose the 'Simulate' method."
+msgstr " Виберіть “Calculate”, щоб оцінити генотип QTL за спостереженими даними маркерів. Цей метод потрібно вибрати разом із “Maximum Likelihood” або “Haley-Knot Regression”. Якщо вибрано “Multiple Imputation”, оберіть “Simulate”."
+
+#: mason/qtl/submission/guide/statistics.mas:38
+msgctxt "help.qtl.statistics.scan_size"
+msgid "Genome scan size (cM):"
+msgstr "Розмір кроку геномного сканування (cM):"
+
+#: mason/qtl/submission/guide/statistics.mas:38
+msgctxt "help.qtl.statistics.scan_size_text"
+msgid " select the genome size (interval) you want the QTL genotype probabilities to be calculated."
+msgstr " виберіть інтервал геномного сканування для розрахунку ймовірностей генотипу QTL."
+
+#: mason/qtl/submission/guide/statistics.mas:35
+msgctxt "help.qtl.statistics.significance"
+msgid "Genotype probability significance level:"
+msgstr "Рівень значущості ймовірності генотипу:"
+
+#: mason/qtl/submission/guide/statistics.mas:35
+msgctxt "help.qtl.statistics.significance_text"
+msgid " select the genotyping error rate you want to allow."
+msgstr " виберіть допустимий рівень помилки генотипування."
+
+#: mason/qtl/submission/guide/statistics.mas:16
+msgctxt "help.qtl.statistics_heading"
+msgid "Step 5: Statistical parameters"
+msgstr "Крок 5: Статистичні параметри"
+
+#: mason/qtl/submission/guide/statistics.mas:22
+msgctxt "help.qtl.statistics_intro"
+msgid "The qtl analysis uses R/QTL package and implements an interval mapping with the following parameters. "
+msgstr "Для аналізу QTL використовується пакет R/QTL і метод інтервального картування з такими параметрами. "
+
+#: mason/qtl/submission/guide/index.mas:17
+msgctxt "help.qtl.title"
+msgid "QTL Data Submission Guidelines"
+msgstr "Настанови з подання даних QTL"
+
+#: mason/qtl/submission/guide/traits_list.mas:16
+msgctxt "help.qtl.traits_heading"
+msgid "Step 2: Traits list"
+msgstr "Крок 2: Перелік ознак"
+
+#: mason/qtl/submission/guide/traits_list.mas:21
+msgctxt "help.qtl.traits_intro"
+msgid "The traits list file needs to be in a text file and should look like the following format."
+msgstr "Файл із переліком ознак має бути текстовим і мати наведений нижче формат."
+
+#: mason/qtl/submission/guide/traits_list.mas:33
+msgctxt "help.qtl.traits_ontology"
+msgid "Use of the Solanaceae Phenotype Ontology is highly encouraged to allow cross-study comparative analysis but not required."
+msgstr "Наполегливо рекомендуємо використовувати онтологію фенотипів пасльонових, щоб уможливити порівняльний аналіз між дослідженнями, але це не є обов’язковим."
+
+#: mason/qtl/submission/guide/traits_list.mas:31
+msgctxt "help.qtl.traits_optional"
+msgid "The definition and unit are optional but would make the phenotype data more informative to users of the database."
+msgstr "Визначення й одиниця виміру необов’язкові, але вони зроблять фенотипові дані інформативнішими для користувачів бази."
+
+#: lib/SGN/Controller/Help.pm:39
+msgctxt "help.route.help_page"
+msgid "Help page"
+msgstr "Сторінка довідки"
+
+#: lib/SGN/Controller/Help.pm:39
+msgctxt "help.route.missing"
+msgid "The requested page could not be found. "
+msgstr "Запитану сторінку не знайдено. "
+
+#: mason/help/solgwas.mas:4
+msgctxt "help.solgwas.input_heading"
+msgid "Input options"
+msgstr "Параметри введення"
+
+#: mason/help/solgwas.mas:6
+msgctxt "help.solgwas.input_text"
+msgid "SolGWAS is meant to be used in conjunction with datasets. The dataset must contain a Genotyping protocol and one or more Trials. The user should first select the dataset they wish to analyze. The list of phenotypes available will then be filled. The user can then select a phenotype of interest, as well as selecting whether to include principal components or kinship covariates in the model."
+msgstr "SolGWAS призначено для роботи з наборами даних. Набір має містити протокол генотипування та один або кілька Досліди. Спершу виберіть набір для аналізу. Після цього заповниться список доступних фенотипів. Виберіть потрібний фенотип і вкажіть, чи включати до моделі головні компоненти або коваріати спорідненості."
+
+#: mason/help/solgwas.mas:8
+msgctxt "help.solgwas.results_heading"
+msgid "Results"
+msgstr "Результати"
+
+#: mason/help/solgwas.mas:10
+msgctxt "help.solgwas.results_text"
+msgid "Once the \"Run SolGWAS\" button is pressed, several plots will be displayed. These include a Manhattan plot and a QQ plot."
+msgstr "Після натискання кнопки “Запустити SolGWAS” буде показано кілька графіків, зокрема графік Мангеттена і QQ plot."
+
+#: mason/help/solgwas.mas:2
+msgctxt "help.solgwas.title"
+msgid "SolGWAS Help"
+msgstr "Довідка щодо SolGWAS"
+
+#: mason/help/file_upload_type.mas:38
+msgctxt "upload.formats.default_type"
+msgid "Data"
+msgstr "Дані"
+
+#: mason/help/file_upload_type.mas:14
+msgctxt "upload.formats.optional_columns"
+msgid "Optional columns may be left out, if not used in your data."
+msgstr "Необов’язкові стовпці можна не додавати, якщо вони не використовуються у ваших даних."
+
+#: mason/help/file_upload_type.mas:10
+msgctxt "upload.formats.supported"
+msgid "%{type} may be uploaded using any of the supported file types: MS Excel (%{xls} or %{xlsx}), comma-separated file (%{csv}), LibreOffice / OpenOffice OpenDocument spreadsheet (%{ods}), tab-delimited file (%{txt} or %{tsv}), or semicolon-separated file (%{ssv})."
+msgstr "%{type} можна завантажити в одному з підтримуваних форматів: MS Excel (%{xls} або %{xlsx}), файл із розділювачем-комою (%{csv}), електронна таблиця LibreOffice / OpenOffice OpenDocument (%{ods}), файл із розділювачем-табуляцією (%{txt} або %{tsv}) або файл із розділювачем-крапкою з комою (%{ssv})."

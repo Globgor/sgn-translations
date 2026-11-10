@@ -1,0 +1,243 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/uk.po
+# Translation of ISO 3166-1 to Ukrainian
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
+# SPDX-FileCopyrightText: 2010-2013, 2015, 2019, 2020, 2021, 2022, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/uk.po
+# Translation of ISO 3166-3 to Ukrainian
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
+# SPDX-FileCopyrightText: 2010-2013, 2015, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: uk\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: Українська\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-SGN-Direction: ltr\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+#: js/source/entries/environments.js:125
+msgctxt "climate.interface.alpha_range_error"
+msgid "Alpha must be a number between 0 and 1."
+msgstr "Альфа має бути числом між 0 і 1."
+
+#: js/source/entries/environments.js:154
+msgctxt "climate.interface.analysis_finished"
+msgid "Analysis finished."
+msgstr "Аналіз завершено."
+
+#: js/source/entries/environments.js:162
+msgctxt "climate.interface.analysis_run_error"
+msgid "An error occurred while running environment stratification."
+msgstr "Під час виконання стратифікації середовищ сталася помилка."
+
+#: js/source/entries/environments.js:139
+msgctxt "climate.interface.analysis_running"
+msgid "Running environment stratification..."
+msgstr "Виконується стратифікація середовищ..."
+
+#: js/source/entries/environments.js:83
+msgctxt "climate.interface.dataset_prepare_error"
+msgid "An error occurred while preparing the dataset."
+msgstr "Під час підготовки набору даних сталася помилка."
+
+#: js/source/entries/environments.js:345
+msgctxt "climate.interface.environment_label"
+msgid "Environment:"
+msgstr "Середовище:"
+
+#: js/source/entries/environments.js:344
+msgctxt "climate.interface.group_label"
+msgid "Group:"
+msgstr "Група:"
+
+#: js/source/entries/environments.js:367
+msgctxt "climate.interface.locations_without_coordinates"
+msgid "Locations without coordinates are not shown:"
+msgstr "Місця без координат не показано:"
+
+#: js/source/entries/environments.js:27
+msgctxt "climate.interface.login_required"
+msgid "You must be logged in to use Environment Stratification"
+msgstr "Щоб користуватися стратифікацією середовищ, увійдіть у систему."
+
+#: js/source/entries/environments.js:287
+msgctxt "climate.interface.map_library_unavailable"
+msgid "Map library is not available."
+msgstr "Бібліотека карт недоступна."
+
+#: js/source/entries/environments.js:305
+msgctxt "climate.interface.no_mapped_locations_with_coordinates"
+msgid "No mapped locations have latitude and longitude coordinates."
+msgstr "Для жодного місця на карті немає координат широти й довготи."
+
+#: js/source/entries/environments.js:481 js/source/entries/environments.js:501
+msgctxt "climate.interface.no_results_are_available_to_download"
+msgid "No results are available to download."
+msgstr "Немає результатів для завантаження."
+
+#: js/source/entries/environments.js:406
+msgctxt "climate.interface.no_rows_to_display"
+msgid "No rows to display."
+msgstr "Немає рядків для показу."
+
+#: js/source/entries/environments.js:391
+msgctxt "climate.interface.not_statistically_different"
+msgid "not statistically different"
+msgstr "статистично не відрізняються"
+
+#: js/source/entries/environments.js:108
+msgctxt "climate.interface.phenotype_file_read_error"
+msgid "An error occurred while reading the phenotype file."
+msgstr "Під час читання файла фенотипових даних сталася помилка."
+
+#: js/source/entries/environments.js:179
+msgctxt "climate.interface.select_one_dataset"
+msgid "Please select one dataset."
+msgstr "Виберіть один набір даних."
+
+#: js/source/entries/environments.js:183
+msgctxt "climate.interface.select_only_one_dataset"
+msgid "Please select only one dataset."
+msgstr "Виберіть лише один набір даних."
+
+#: js/source/entries/environments.js:121
+msgctxt "climate.interface.trait_required"
+msgid "Please select a trait."
+msgstr "Виберіть ознаку."
+
+#: js/source/entries/environments.js:334 js/source/entries/environments.js:346
+msgctxt "climate.interface.trial_label"
+msgid "Trial:"
+msgstr "Дослід:"
+
+#: js/source/entries/environments.js:391
+msgctxt "climate.interface.ungrouped_or_statistically_distinct"
+msgid "Ungrouped or statistically distinct"
+msgstr "Не згруповано або статистично відмінні"
+
+#: js/source/entries/environments.js:487
+msgctxt "climate.interface.xlsx_export_library_is_not_available"
+msgid "XLSX export library is not available."
+msgstr "Бібліотека експорту XLSX недоступна."
+
+#: js/source/entries/environments.js:534
+msgctxt "climate.interface.xlsx_export_library_is_not_compatible_with_this_page"
+msgid "XLSX export library is not compatible with this page."
+msgstr "Бібліотека експорту XLSX несумісна з цією сторінкою."
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:8
+msgctxt "climate.noaa.analyze_noaa_ncdc_weather_data"
+msgid "Analyze NOAA NCDC Weather Data"
+msgstr "Аналіз погодних даних NOAA NCDC"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:97
+msgctxt "climate.noaa.can_t_be_accessed_without_a_token_please_visit_https_www_ncdc_noaa_gov_cdo_web_token_to_generate_a_valid_ac"
+msgid ""
+" can't be accessed without a token.\r\n"
+"Please visit https://www.ncdc.noaa.gov/cdo-web/token to generate a valid access token, then include the token in sgn_local.conf"
+msgstr ""
+" недоступні без токена.\r\n"
+"Створіть чинний токен доступу на https://www.ncdc.noaa.gov/cdo-web/token і додайте його до sgn_local.conf"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:97
+msgctxt "climate.noaa.configuration_variable_noaa_ncdc_access_token_is_undefined_data_from_station"
+msgid "Configuration variable 'noaa_ncdc_access_token' is undefined. Data from station "
+msgstr "Змінна конфігурації 'noaa_ncdc_access_token' не визначена. Дані станції "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:119
+msgctxt "climate.noaa.could_not_verify_the_noaa_stationid_you_provided_go_to_manage_locations_and_make_sure_your_location_has_a_v"
+msgid "Could not verify the NOAA StationID you provided. Go to Manage->Locations and make sure your location has a valid NOAA station id!"
+msgstr "Не вдалося перевірити наданий NOAA StationID. Відкрийте керування місцями та перевірте, чи задано чинний ID станції NOAA!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:48
+msgctxt "climate.noaa.cumulative_values_by_year"
+msgid "Cumulative Values by Year: "
+msgstr "Накопичені значення за роками: "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:41
+msgctxt "climate.noaa.daily_temperature_and_precipitation_chart"
+msgid "Daily Temperature and Precipitation Chart"
+msgstr "Графік добової температури й опадів"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:30
+msgctxt "climate.noaa.end_date_yyyy_mm_dd"
+msgid "End Date (YYYY-MM-DD): "
+msgstr "Кінцева дата (YYYY-MM-DD): "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:173
+msgctxt "climate.noaa.error_getting_noaa_ncdc_analysis"
+msgid "Error getting NOAA NCDC analysis!"
+msgstr "Помилка отримання аналізу NOAA NCDC!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:135
+msgctxt "climate.noaa.error_getting_noaa_ncdc_id_for_location"
+msgid "Error getting NOAA NCDC ID for location!"
+msgstr "Помилка отримання ID NOAA NCDC для місця!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:115
+msgctxt "climate.noaa.found_a_valid_noaa_station_for_this_location"
+msgid "Found a valid NOAA Station for this location: "
+msgstr "Знайдено чинну станцію NOAA для цього місця: "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:130
+msgctxt "climate.noaa.no_noaa_ncdc_station_id_for_this_location_go_to_manage_locations_and_edit_your_location_to_add_a_valid_noaa"
+msgid "No NOAA NCDC station id for this location. Go to Manage->Locations and edit your location to add a valid NOAA station id!"
+msgstr "Для цього місця не задано ID станції NOAA NCDC. Відкрийте керування місцями й додайте чинний ID станції NOAA!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:153
+msgctxt "climate.noaa.please_give_a_end_date"
+msgid "Please give a end date!"
+msgstr "Задайте кінцеву дату!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:149
+msgctxt "climate.noaa.please_give_a_start_date"
+msgid "Please give a start date!"
+msgstr "Задайте початкову дату!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:38
+msgctxt "climate.noaa.results"
+msgid "Results: "
+msgstr "Результати: "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:12
+msgctxt "climate.noaa.select_location"
+msgid "Select Location: "
+msgstr "Виберіть місце: "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:22
+msgctxt "climate.noaa.start_date_yyyy_mm_dd"
+msgid "Start Date (YYYY-MM-DD): "
+msgstr "Початкова дата (YYYY-MM-DD): "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:169
+msgctxt "climate.noaa.there_was_an_error_getting_noaa_analysis"
+msgid "There was an error getting NOAA analysis!"
+msgstr "Помилка отримання аналізу NOAA!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:67
+msgctxt "climate.noaa.window_end_yyyy_mm_dd_optional"
+msgid "Window End (YYYY-MM-DD) (Optional): "
+msgstr "Кінець періоду (YYYY-MM-DD) (необов’язково): "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:59
+msgctxt "climate.noaa.window_start_yyyy_mm_dd_optional"
+msgid "Window Start (YYYY-MM-DD) (Optional): "
+msgstr "Початок періоду (YYYY-MM-DD) (необов’язково): "

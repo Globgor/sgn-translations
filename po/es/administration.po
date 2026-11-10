@@ -1,0 +1,89 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/es.po
+# Translation of ISO 3166-1 to Spanish; Castilian
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2001 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2001 Juan Manuel García Molina <juanmagm@mail.com>
+# SPDX-FileCopyrightText: 2004-2008, 2010 Javier Fernández-Sanguino <jfs@debian.org>
+# SPDX-FileCopyrightText: 2013 zamir <hades_ni@yahoo.com>
+# SPDX-FileCopyrightText: 2019 Rodrigo Lledó <rodhos92@gmail.com>
+# SPDX-FileCopyrightText: 2021 Adolfo Jayme Barrientos <fitojb@ubuntu.com>
+# SPDX-FileCopyrightText: 2023 Kamborio <Kamborio15@users.noreply.hosted.weblate.org>
+# SPDX-FileCopyrightText: 2025 Walter Paterno <walter.paterno@gmail.com>
+# SPDX-FileCopyrightText: 2025 Chris Leonard <cjlhomeaddress@gmail.com>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/es.po
+# Translation of ISO 3166-3 to Spanish; Castilian
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2001 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2001 Juan Manuel García Molina <juanmagm@mail.com>
+# SPDX-FileCopyrightText: 2004-2008, 2010 Javier Fernández-Sanguino <jfs@debian.org>
+# SPDX-FileCopyrightText: 2013 zamir <hades_ni@yahoo.com>
+# SPDX-FileCopyrightText: 2023 Kamborio <Kamborio15@users.noreply.hosted.weblate.org>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: es\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: Español\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-SGN-Direction: ltr\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+#: lib/SGN/Controller/Catalog.pm:80
+msgctxt "administration.catalog.item_not_found"
+msgid "The requested catalog item does not exist."
+msgstr "El artículo solicitado del catálogo no existe."
+
+#: mason/dbstats/recent_activity.mas:20
+msgctxt "administration.interface.include_items_without_date"
+msgid "include items without a date"
+msgstr "incluir elementos sin fecha"
+
+#: mason/dbstats/recent_activity.mas:81
+msgctxt "administration.interface.including_dateless_items"
+msgid "Including data items that do not have an associated date."
+msgstr "También se incluyen los datos que no tienen una fecha asociada."
+
+#: mason/site/status.mas:9
+msgctxt "administration.interface.logins"
+msgid "Logins"
+msgstr "Inicios de sesión"
+
+#: mason/dbstats/recent_activity.mas:11
+msgctxt "administration.interface.recent_activity"
+msgid "Recent activity"
+msgstr "Actividad reciente"
+
+#: mason/dbstats/recent_activity.mas:80
+msgctxt "administration.interface.showing_items_from_date"
+msgid "Showing database items generated from date:"
+msgstr "Se muestran los elementos de la base de datos generados desde la fecha:"
+
+#: mason/site/status.mas:7
+msgctxt "administration.interface.site_status"
+msgid "Site Status"
+msgstr "Estado del sitio"
+
+#: mason/dbstats/recent_activity.mas:80
+msgctxt "administration.interface.to_date"
+msgid "to date:"
+msgstr "hasta la fecha:"
+
+#: lib/SGN/Controller/SiteStatus.pm:21
+msgctxt "administration.status.insufficient_privileges"
+msgid "You do not have the required privileges to view this page"
+msgstr "No tiene los permisos necesarios para ver esta página"

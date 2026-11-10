@@ -1,0 +1,3212 @@
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mason/qtl/qtl_form/pop_form.mas:57 mason/stock/related_stock.mas:106
+msgctxt "accession.related_stock.header.cross_type"
+msgid "Cross type"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:482 mason/breeders_toolbox/add_new_trait_dialogs.mas:35 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1008 mason/stock/accession_usage.mas:66
+msgctxt "accession.usage.header.variable"
+msgid "Observation Variable"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:190
+msgctxt "analysis.interface.10_quantiles"
+msgid "10% Quantiles"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:226
+msgctxt "analysis.interface.1_auxiliary_file_to_archive_optional_e_g_log_file"
+msgid "(1) Auxiliary File To Archive (optional) (e.g. log file, param file, grm input file):"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:234
+msgctxt "analysis.interface.1_auxiliary_file_type_optional"
+msgid "(1) Auxiliary File Type (optional):"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:82
+msgctxt "analysis.interface.1_choose_a_dataset"
+msgid "1. Choose a dataset"
+msgstr ""
+
+#: mason/tools/stability/index.mas:98
+msgctxt "analysis.interface.1_dataset_must_have_at_least_trials_and_trait_s"
+msgid "1. Dataset must have at least trials and trait(s)."
+msgstr ""
+
+#: mason/tools/heritability/index.mas:98
+msgctxt "analysis.interface.1_the_dataset_must_contain_trails_and_numerical_traits_inclusion"
+msgid "1. The dataset must contain trails and numerical traits. Inclusion of accession, plots, locations, and years is optional."
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:191
+msgctxt "analysis.interface.20_quantiles"
+msgid "20% Quantiles"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:192
+msgctxt "analysis.interface.25_quantiles"
+msgid "25% Quantiles"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:244
+msgctxt "analysis.interface.2_auxiliary_file_to_archive_optional_e_g_log_file"
+msgid "(2) Auxiliary File To Archive (optional) (e.g. log file, param file, grm input file):"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:252
+msgctxt "analysis.interface.2_auxiliary_file_type_optional"
+msgid "(2) Auxiliary File Type (optional):"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:99
+msgctxt "analysis.interface.2_the_model_will_adapt_to_your_dataset_for_instance"
+msgid "2. The model will adapt to your dataset. For instance, if the dataset has more than one location, then the model will take the interaction among locations and accessions."
+msgstr ""
+
+#: mason/tools/stability/index.mas:99
+msgctxt "analysis.interface.2_trials_must_be_placed_in_more_than_1_location"
+msgid "2. Trials must be placed in more than 1 location."
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:193
+msgctxt "analysis.interface.33_quantiles"
+msgid "33% Quantiles"
+msgstr ""
+
+#: mason/tools/stability/index.mas:100
+msgctxt "analysis.interface.3_accessions_must_be_placed_in_all_locations_with_replications"
+msgid "3. Accessions must be placed in all locations with replications. Check the trial design to make sure it has replications."
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:262
+msgctxt "analysis.interface.3_auxiliary_file_to_archive_optional_e_g_log_file"
+msgid "(3) Auxiliary File To Archive (optional) (e.g. log file, param file, grm input file):"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:270
+msgctxt "analysis.interface.3_auxiliary_file_type_optional"
+msgid "(3) Auxiliary File Type (optional):"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:100
+msgctxt "analysis.interface.3_traits_with_more_than_60_of_missing_data_are"
+msgid "3. Traits with more than 60% of missing data are removed from the analysis."
+msgstr ""
+
+#: mason/tools/heritability/index.mas:101
+msgctxt "analysis.interface.4_outliers_can_be_removed_by_accessing_the"
+msgid "4. Outliers can be removed by accessing the"
+msgstr ""
+
+#: mason/tools/stability/index.mas:101
+msgctxt "analysis.interface.4_the_same_trait_must_be_available_in_all_selected"
+msgid "4. The same trait must be available in all selected locations. Missing data is acceptable for some replications, however the model won't work if it is missing data in all replications."
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:194
+msgctxt "analysis.interface.5_quantiles"
+msgid "5% Quantiles"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:102
+msgctxt "analysis.interface.5_selecting_the_exclude_dataset_outliers_heritability_is_calculated_using"
+msgid "5. Selecting the 'Exclude dataset outliers', heritability is calculated using filtered data."
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:263
+msgctxt "analysis.interface.accession_names"
+msgid "Accession Names:"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:58
+msgctxt "analysis.interface.accession_names_for_genetic_blups_genetic_results"
+msgid "Accession Names (for genetic blups, genetic results)"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:161
+msgctxt "analysis.interface.add_new_interaction"
+msgid "add new interaction"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:172
+msgctxt "analysis.interface.add_new_variable_slope_intersect"
+msgid "add new variable slope/intersect"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:212
+msgctxt "analysis.interface.adjusted_means_blues"
+msgid "Adjusted means (BLUEs)"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:210
+msgctxt "analysis.interface.adjusted_means_blups"
+msgid "Adjusted means (BLUPs)"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:124 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:159 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:426 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:248
+msgctxt "analysis.interface.all_available"
+msgid "All Available"
+msgstr ""
+
+#: js/source/legacy/SGN/Histogram.js:9
+msgctxt "analysis.interface.all_count_values_were_the_same_value_of_value"
+msgid "All %{count} values were the same value of %{value}."
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:188
+msgctxt "analysis.interface.an_analysis_is_stored_independently_however_it_maintains_associations_to"
+msgid "An analysis is stored independently; however, it maintains associations to the results for the accessions and traits involved. In the case where a model is being trained for predictions e.g. genomic selection or CNN image predictions, those trained model weights can be saved."
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/Analysis.pm:179 lib/SGN/Controller/AJAX/Analysis.pm:83
+msgctxt "analysis.interface.an_analysis_with_name_analysis_name_already_exists_in_the"
+msgid "An analysis with name %{analysis_name} already exists in the database. Please choose another name."
+msgstr ""
+
+#: lib/CXGN/Analysis.pm:429
+msgctxt "analysis.interface.an_error_occurred_creating_the_analysis_design"
+msgid "An error occurred creating the analysis design."
+msgstr ""
+
+#: mason/tools/stability/index.mas:189
+msgctxt "analysis.interface.an_error_occurred_please_check_the_datase"
+msgid "An error occurred, please check the datase."
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/SpatialModel.pm:570
+msgctxt "analysis.interface.an_error_occurred_saving_spatial_corrections_to_this_trial_it"
+msgid "An error occurred saving spatial corrections to this trial. It may still be saved as a standalone analysis. \n %{error} \n"
+msgstr ""
+
+#: lib/CXGN/Analysis/AnalysisCreate.pm:677
+msgctxt "analysis.interface.an_error_occurred_storing_nalysis_result_stocks_error"
+msgid "An error occurred storing nalysis result stocks (%{error}).\n"
+msgstr ""
+
+#: lib/CXGN/Analysis.pm:551
+msgctxt "analysis.interface.an_error_occurred_storing_the_phenotypes_stored_phenotype_error"
+msgid "An error occurred storing the phenotypes: %{stored_phenotype_error}\n"
+msgstr ""
+
+#: lib/CXGN/Analysis/AnalysisCreate.pm:625
+msgctxt "analysis.interface.an_error_occurred_storing_the_values_error"
+msgid "An error occurred storing the values (%{error}).\n"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:257 mason/tools/solgwas/index.mas:201
+msgctxt "analysis.interface.an_error_occurred_the_is_some_problem_with_data"
+msgid "An error occurred, the is some problem with data"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:267 mason/tools/solgwas/index.mas:177 mason/tools/solgwas/index.mas:212 mason/tools/solgwas/index.mas:294 mason/tools/stability/index.mas:539
+msgctxt "analysis.interface.an_error_occurred_the_service_may_temporarily_be_unavailable"
+msgid "An error occurred, the service may temporarily be unavailable"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:194
+msgctxt "analysis.interface.an_error_occurred_the_service_may_temporarily_be_unavailable_ponto"
+msgid "An error occurred, the service may temporarily be unavailable, ponto 1 selectDataset "
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:462
+msgctxt "analysis.interface.an_error_occurred_uploading_analysis"
+msgid "An error occurred uploading analysis"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:605
+msgctxt "analysis.interface.an_error_occurred_while_calculating_statistics"
+msgid "An error occurred while calculating statistics."
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:876
+msgctxt "analysis.interface.an_error_occurred_while_fetching_project_data"
+msgid "An error occurred while fetching project data."
+msgstr ""
+
+#: mason/analyses/model_detail.mas:41
+msgctxt "analysis.interface.analyses_results"
+msgid "Analyses Results"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:33
+msgctxt "analysis.interface.analysis"
+msgid "Analysis"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:716 mason/analyses/analysis_calculate_statistics.mas:761 mason/analyses/store_new_analysis_values_and_model.mas:698 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1601 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1646
+msgctxt "analysis.interface.analysis_and_or_model_saved"
+msgid "Analysis and/or model saved!"
+msgstr ""
+
+#: mason/analyses/model_detail_page_analyses_section.mas:9
+msgctxt "analysis.interface.analysis_description"
+msgid "Analysis Description"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:225 mason/analyses/store_new_analysis_values_and_model.mas:458 mason/analyses/upload_analysis_dialogs.mas:43
+msgctxt "analysis.interface.analysis_description_857d74"
+msgid "Analysis Description:"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:281
+msgctxt "analysis.interface.analysis_design_if_left_blank_design_will_be_created_using"
+msgid "Analysis Design (If left blank, design will be created using above accession names):"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:701
+msgctxt "analysis.interface.analysis_f44e85"
+msgid "analysis"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:194
+msgctxt "analysis.interface.analysis_info"
+msgid "Analysis Info"
+msgstr ""
+
+#: mason/analyses/analysis_details.mas:23 mason/analyses/index.mas:45 mason/analyses/model_detail_page_analyses_section.mas:8
+msgctxt "analysis.interface.analysis_name"
+msgid "Analysis Name"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:219 mason/analyses/upload_analysis_dialogs.mas:37
+msgctxt "analysis.interface.analysis_name_must_be_unique"
+msgid "Analysis Name (must be unique):"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:452
+msgctxt "analysis.interface.analysis_name_template_must_be_unique"
+msgid "Analysis Name Template (must be unique):"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:55
+msgctxt "analysis.interface.analysis_of"
+msgid "Analysis Of:"
+msgstr ""
+
+#: mason/tools/stability/index.mas:373
+msgctxt "analysis.interface.analysis_processed_with_no_phenotypic_imputation"
+msgid "Analysis processed with no phenotypic imputation."
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:49
+msgctxt "analysis.interface.analysis_protocol_describe_the_analysis_as_a_formula_arbitrarily_e"
+msgid "Analysis Protocol (describe the analysis as a formula arbitrarily) (e.g. lme4(t1 ~ rep + accession)):"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:299
+msgctxt "analysis.interface.analysis_result_summary_values"
+msgid "Analysis Result Summary Values:"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/Analysis.pm:325
+msgctxt "analysis.interface.analysis_result_type_not_accepted"
+msgid "Analysis result type not accepted!"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:287
+msgctxt "analysis.interface.analysis_result_values"
+msgid "Analysis Result Values:"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:293
+msgctxt "analysis.interface.analysis_result_values_type"
+msgid "Analysis Result Values Type:"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:206
+msgctxt "analysis.interface.analysis_results"
+msgid "Analysis Results"
+msgstr ""
+
+#: mason/analytics_protocols/detail.mas:37
+msgctxt "analysis.interface.analytics_protocol_details"
+msgid "Analytics Protocol Details"
+msgstr ""
+
+#: mason/analytics_protocols/analytics_protocols_details.mas:22 mason/analytics_protocols/index.mas:38
+msgctxt "analysis.interface.analytics_protocol_name"
+msgid "Analytics Protocol Name"
+msgstr ""
+
+#: mason/analyses/index.mas:57 mason/analyses/index.mas:87
+msgctxt "analysis.interface.application"
+msgid "Application"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:382
+msgctxt "analysis.interface.application_name"
+msgid "Application Name:"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:162
+msgctxt "analysis.interface.application_name_e_g_myamazingpipeline"
+msgid "Application Name (e.g. MyAmazingPipeline):"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:388
+msgctxt "analysis.interface.application_version"
+msgid "Application Version:"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:168
+msgctxt "analysis.interface.application_version_e_g_v1_01"
+msgid "Application Version (e.g. v1.01):"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:198
+msgctxt "analysis.interface.archive_main_phenotype_data_file_type_required_e_g_myamazingpipeline"
+msgid "Archive Main Phenotype Data File Type (required) (e.g. MyAmazingPipeline_MainPhenotypeFile):"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:400
+msgctxt "analysis.interface.archive_model_file_type"
+msgid "Archive Model File Type:"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:216
+msgctxt "analysis.interface.archive_model_file_type_optional_e_g_myamazingpipeline_modelweights_rds"
+msgid "Archive Model File Type (optional) (e.g. MyAmazingPipeline_ModelWeights.Rds or MyAmazingPipeline_CNNWeights.hdf5):"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:412
+msgctxt "analysis.interface.archive_training_data_file_type"
+msgid "Archive Training Data File Type:"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/Analysis.pm:375
+msgctxt "analysis.interface.archived_file_not_valid_upload_original_name"
+msgid "Archived file not valid: %{upload_original_name}."
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:218
+msgctxt "analysis.interface.are_allowed_to_restore_the_dataset_to_original_values"
+msgid "are allowed to restore the dataset to original values."
+msgstr ""
+
+#: mason/analyses/model_deletion.mas:19
+msgctxt "analysis.interface.are_you_sure_you_want_to_delete_this_model"
+msgid "Are you sure you want to delete this model?"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:418
+msgctxt "analysis.interface.auxiliary_files_to_archive"
+msgid "Auxiliary Files to Archive:"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:33 mason/tools/solgwas/index.mas:33 mason/tools/stability/index.mas:36
+msgctxt "analysis.interface.available_datasets"
+msgid "Available Datasets:"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:142
+msgctxt "analysis.interface.available_factors"
+msgid "Available Factors"
+msgstr ""
+
+#: mason/tools/stability/index.mas:61
+msgctxt "analysis.interface.available_methods"
+msgid "Available Methods:"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:44 mason/tools/solgwas/index.mas:43 mason/tools/stability/index.mas:42
+msgctxt "analysis.interface.available_nbsptraits"
+msgid "Available&nbspTraits:"
+msgstr ""
+
+#: mason/breeders_toolbox/progress.mas:54
+msgctxt "analysis.interface.average"
+msgid "average"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:108 mason/tools/heritability/index.mas:85 mason/tools/solgwas/index.mas:96 mason/tools/stability/index.mas:111 mason/tools/stability/index.mas:124 mason/tools/stability/index.mas:88
+msgctxt "analysis.interface.basic_8675"
+msgid "Basic&#8675;"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:217
+msgctxt "analysis.interface.breeder"
+msgid "BREEDER"
+msgstr ""
+
+#: mason/breeders_toolbox/progress.mas:14
+msgctxt "analysis.interface.breeding_progress"
+msgid "Breeding Progress"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:119
+msgctxt "analysis.interface.build_mixed_model"
+msgid "Build mixed model"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:118
+msgctxt "analysis.interface.build_model"
+msgid "Build Model"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:199
+msgctxt "analysis.interface.button"
+msgid "button."
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:15
+msgctxt "analysis.interface.calculate_statistics"
+msgid "Calculate statistics"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/GCPC.pm:170 lib/SGN/Controller/AJAX/Heritability.pm:82 lib/SGN/Controller/AJAX/MixedModels.pm:382 lib/SGN/Controller/AJAX/QualityControl.pm:102 lib/SGN/Controller/AJAX/QualityControl.pm:202 lib/SGN/Controller/AJAX/Solgwas.pm:111 lib/SGN/Controller/AJAX/SpatialModel.pm:82 lib/SGN/Controller/AJAX/Stability.pm:90
+msgctxt "analysis.interface.can_t_find_data"
+msgid "Can't find data."
+msgstr ""
+
+#: mason/breeders_toolbox/progress.mas:133
+msgctxt "analysis.interface.cannot_show_graph"
+msgid "cannot show graph"
+msgstr ""
+
+#: mason/tools/boxplotter.mas:101
+msgctxt "analysis.interface.choose_a_dataset"
+msgid "Choose a dataset!"
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js:71 js/source/legacy/qualityControl/qualityControl.js:71
+msgctxt "analysis.interface.choose_a_population"
+msgid "Choose a population"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:78 mason/tools/qualityControl/dataset_quality_control.mas:85
+msgctxt "analysis.interface.choose_dataset"
+msgid "Choose Dataset"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:88 mason/tools/qualityControl/dataset_quality_control.mas:91
+msgctxt "analysis.interface.choose_dataset_and_continue"
+msgid "Choose Dataset and continue"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:145
+msgctxt "analysis.interface.choose_dataset_and_dependent_variable_first"
+msgid "[ Choose dataset and dependent variable first ]"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:99
+msgctxt "analysis.interface.choose_dependent_variable"
+msgid "Choose Dependent Variable"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:122
+msgctxt "analysis.interface.choose_engine"
+msgid "Choose engine"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:86
+msgctxt "analysis.interface.choose_the_dataset_for_qc"
+msgid "Choose the dataset for QC"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:79
+msgctxt "analysis.interface.choose_the_dataset_for_your_analysis"
+msgid "Choose the dataset for your analysis"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:100
+msgctxt "analysis.interface.choose_the_dependent_variable_for_your_analysis"
+msgid "Choose the dependent variable for your analysis"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:198
+msgctxt "analysis.interface.clicking_on"
+msgid "Clicking on"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:305
+msgctxt "analysis.interface.compose_trait_info_with_time_term_optional"
+msgid "Compose Trait Info With Time Term(optional):"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:100
+msgctxt "analysis.interface.compose_trait_info_with_time_term_optional_key_value_comma"
+msgid "Compose Trait Info With Time Term (optional) (key||||value comma separated. e.g. harvest info|CO_323:0000101||||day 10|TIME:0002020) (all uploaded variables must be represented here):"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:98 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:115 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:382 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:204
+msgctxt "analysis.interface.compute_genotypes_from_parents"
+msgid "Compute Genotypes From Parents:"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:115
+msgctxt "analysis.interface.correlations"
+msgid "Correlations"
+msgstr ""
+
+#: lib/CXGN/AnalysisModel/GetModel.pm:190 lib/CXGN/AnalysisModel/GetModel.pm:229
+msgctxt "analysis.interface.could_not_save_file_model_aux_original_name_in_archive"
+msgid "Could not save file %{model_aux_original_name} in archive."
+msgstr ""
+
+#: lib/CXGN/AnalysisModel/GetModel.pm:152
+msgctxt "analysis.interface.could_not_save_file_model_original_name_in_archive"
+msgid "Could not save file %{model_original_name} in archive."
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:122
+msgctxt "analysis.interface.create_a_new_model_if_needed"
+msgid "Create a New Model if Needed"
+msgstr ""
+
+#: mason/tools/boxplotter.mas:15
+msgctxt "analysis.interface.create_boxplots"
+msgid "Create Boxplots"
+msgstr ""
+
+#: mason/tools/solgwas/index.mas:36
+msgctxt "analysis.interface.create_dataset"
+msgid "Create Dataset"
+msgstr ""
+
+#: mason/analyses/analysis_details.mas:90 mason/analytics_protocols/analytics_protocols_details.mas:54
+msgctxt "analysis.interface.created"
+msgid "Created"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:217
+msgctxt "analysis.interface.curator"
+msgid "CURATOR"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:218
+msgctxt "analysis.interface.curators"
+msgid "CURATORS"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:170
+msgctxt "analysis.interface.data_after_filtering"
+msgid "Data After Filtering"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:177
+msgctxt "analysis.interface.data_files_from_this_analysis_model"
+msgid "Data files from this analysis model"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:205
+msgctxt "analysis.interface.data_successfully_restored"
+msgid "Data successfully restored!"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:97
+msgctxt "analysis.interface.dataset"
+msgid "Dataset:"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:251
+msgctxt "analysis.interface.dataset_id"
+msgid "Dataset ID:"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:88
+msgctxt "analysis.interface.dataset_id_optional"
+msgid "Dataset ID (optional):"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:101
+msgctxt "analysis.interface.datasets_tab"
+msgid "Datasets tab"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:34
+msgctxt "analysis.interface.define_the_analysis"
+msgid "Define the analysis"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:112
+msgctxt "analysis.interface.define_the_model_used_to_generate_the_analysis_results"
+msgid "Define the model used to generate the analysis results"
+msgstr ""
+
+#: mason/analyses/model_deletion.mas:13 mason/analyses/model_deletion.mas:26 mason/analyses/model_detail.mas:43
+msgctxt "analysis.interface.delete_model"
+msgid "Delete Model"
+msgstr ""
+
+#: mason/analyses/model_detail.mas:43
+msgctxt "analysis.interface.delete_model_from_the_database"
+msgid "Delete model from the database."
+msgstr ""
+
+#: mason/analyses/model_deletion.mas:52
+msgctxt "analysis.interface.deleted_model"
+msgid "DELETED MODEL!"
+msgstr ""
+
+#: mason/tools/boxplotter.mas:80
+msgctxt "analysis.interface.developed_at_the"
+msgid "developed at the"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:201
+msgctxt "analysis.interface.do_you_want_to_save_the_analysis_results"
+msgid "Do you want to save the analysis results?:"
+msgstr ""
+
+#: mason/tools/boxplotter.mas:76
+msgctxt "analysis.interface.download_boxplot_svg"
+msgid "Download Boxplot SVG"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:123 mason/tools/heritability/index.mas:359 mason/tools/qualityControl/validated_trials.mas:99 mason/tools/stability/index.mas:121 mason/tools/stability/index.mas:469
+msgctxt "analysis.interface.download_csv"
+msgid "Download CSV"
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js:264
+msgctxt "analysis.interface.download_heritability_coefficients"
+msgid "Download heritability coefficients"
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js:264
+msgctxt "analysis.interface.download_qc_comments"
+msgid "Download QC comments"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:108 mason/tools/heritability/index.mas:85 mason/tools/solgwas/index.mas:96 mason/tools/stability/index.mas:111 mason/tools/stability/index.mas:124 mason/tools/stability/index.mas:88
+msgctxt "analysis.interface.download_results_in_basic_format"
+msgid "Download results in basic format"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:108 mason/tools/heritability/index.mas:85 mason/tools/solgwas/index.mas:96 mason/tools/stability/index.mas:111 mason/tools/stability/index.mas:124 mason/tools/stability/index.mas:88
+msgctxt "analysis.interface.download_results_in_tabular_format"
+msgid "Download results in tabular format"
+msgstr ""
+
+#: mason/analytics_protocols/index.mas:29
+msgctxt "analysis.interface.drone_imagery_analytics"
+msgid "Drone Imagery Analytics"
+msgstr ""
+
+#: mason/analyses/index.mas:31
+msgctxt "analysis.interface.drone_imagery_statistics"
+msgid "Drone Imagery Statistics"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js:141 js/source/entries/mixedmodels.js:162
+msgctxt "analysis.interface.dropped"
+msgid "Dropped!"
+msgstr ""
+
+#: mason/tools/stability/index.mas:379
+msgctxt "analysis.interface.effect"
+msgid "Effect"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:135
+msgctxt "analysis.interface.enter_maximum"
+msgid "Enter maximum"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:132
+msgctxt "analysis.interface.enter_minimum"
+msgid "Enter minimum"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js:307 mason/tools/heritability/index.mas:235 mason/tools/solgwas/index.mas:259
+msgctxt "analysis.interface.error"
+msgid "error!"
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js:242
+msgctxt "analysis.interface.error_1_occured_preparing_the_phenotype_data_for_qualitycontrol_analysis"
+msgid "Error 1 occurred preparing the phenotype data for qualityControl analysis."
+msgstr ""
+
+#: js/source/entries/mixedmodels.js:180
+msgctxt "analysis.interface.error_1e7938"
+msgid "ERROR!!!!!"
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js:285
+msgctxt "analysis.interface.error_2_occured_running_the_heritability_analysis"
+msgid "Error 2 occurred running the heritability analysis."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js:280
+msgctxt "analysis.interface.error_2_occured_running_the_qualitycontrol_analysis"
+msgid "Error 2 occurred running the qualityControl analysis."
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js:191
+msgctxt "analysis.interface.error_3_occured_preparing_the_additive_genetic_data_for_heritability"
+msgid "Error 3 occurred preparing the additive genetic data for heritability analysis."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js:191
+msgctxt "analysis.interface.error_3_occured_preparing_the_additive_genetic_data_for_qualitycontrol"
+msgid "Error 3 occurred preparing the additive genetic data for qualityControl analysis."
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:503 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1029
+msgctxt "analysis.interface.error_calculating_statistics"
+msgid "Error calculating statistics!"
+msgstr ""
+
+#: mason/analyses/model_deletion.mas:58
+msgctxt "analysis.interface.error_deleting_analysis_model"
+msgid "Error deleting analysis model!"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:115 js/source/entries/qualitycontrol.js:218
+msgctxt "analysis.interface.error_during_ajax_request"
+msgid "Error during AJAX request!"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:212
+msgctxt "analysis.interface.error_during_restore"
+msgid "Error during restore!"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:277
+msgctxt "analysis.interface.error_fetching_data_for_boxplot"
+msgid "Error fetching data for boxplot: "
+msgstr ""
+
+#: mason/analyses/model_details.mas:99
+msgctxt "analysis.interface.error_getting_analysis_details"
+msgid "Error getting analysis details!"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:145 js/source/entries/qualitycontrol.js:66
+msgctxt "analysis.interface.error_in_ajax_request"
+msgid "Error in AJAX request: "
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/SpatialModel.pm:547 lib/SGN/Controller/AJAX/SpatialModel.pm:594 lib/SGN/Controller/AJAX/SpatialModel.pm:632
+msgctxt "analysis.interface.error_no_trial_with_id_trial_id_found"
+msgid "Error: no trial with ID %{trial_id} found.\n"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/Analysis.pm:390
+msgctxt "analysis.interface.error_parsing_file_upload_original_name"
+msgid "Error parsing file %{upload_original_name}."
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:715
+msgctxt "analysis.interface.error_saving_analysis"
+msgid "Error saving analysis!"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:771 mason/analyses/analysis_calculate_statistics.mas:777 mason/analyses/analysis_calculate_statistics.mas:784 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1656 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1662 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1669
+msgctxt "analysis.interface.error_saving_analysis_multiple"
+msgid "Error saving analysis multiple!"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:180
+msgctxt "analysis.interface.error_saving_outliers"
+msgid "Error saving outliers: "
+msgstr ""
+
+#: lib/CXGN/Analysis.pm:482
+msgctxt "analysis.interface.error_saving_trial_item"
+msgid "Error saving trial: %{item}"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:50 mason/tools/solgwas/index.mas:49 mason/tools/stability/index.mas:59
+msgctxt "analysis.interface.exclude_dataset_outliers"
+msgid "Exclude dataset outliers"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:26 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:32 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:324 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:20 mason/breeders_toolbox/manage_drone_imagery.mas:1342 mason/breeders_toolbox/manage_drone_imagery.mas:2014
+msgctxt "analysis.interface.field_trial_s"
+msgid "Field Trial(s):"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:182
+msgctxt "analysis.interface.file_upload"
+msgid "File Upload"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:187 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:393
+msgctxt "analysis.interface.fixed_effect_continuous_trait_quantile_binning"
+msgid "Fixed Effect Continuous Trait Quantile Binning:"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:181 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:387
+msgctxt "analysis.interface.fixed_effect_trait"
+msgid "Fixed Effect Trait:"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:172 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:378
+msgctxt "analysis.interface.fixed_effects"
+msgid "Fixed Effects:"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:151
+msgctxt "analysis.interface.fixed_factors"
+msgid "Fixed factors"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:160
+msgctxt "analysis.interface.fixed_factors_with_interaction"
+msgid "Fixed factors with interaction"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:643 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1333
+msgctxt "analysis.interface.gblup_analysis"
+msgid "GBLUP analysis"
+msgstr ""
+
+#: mason/tools/stability/index.mas:382
+msgctxt "analysis.interface.genotype_rank"
+msgid "Genotype Rank"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:92 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:109 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:376 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:198
+msgctxt "analysis.interface.genotyping_protocol_to_calculate_genomic_relationship_matrix_optional_if_none"
+msgid "Genotyping Protocol To Calculate Genomic Relationship Matrix (optional. If none selected, an identity matrix is used):"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:217 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:290 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:421
+msgctxt "analysis.interface.go_to_save_analysis_results_for_fitted_values"
+msgid "Go To Save Analysis Results For Fitted Values"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:213 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:285 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:416
+msgctxt "analysis.interface.go_to_save_analysis_results_for_genetic_and_environment_blups"
+msgid "Go To Save Analysis Results For Genetic and Environment BLUPS and Residuals"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:214 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:286 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:417
+msgctxt "analysis.interface.go_to_save_analysis_results_for_genetic_blups"
+msgid "Go To Save Analysis Results For Genetic BLUPS"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:216 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:289 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:420
+msgctxt "analysis.interface.go_to_save_analysis_results_for_residuals"
+msgid "Go To Save Analysis Results For Residuals"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:215 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:287 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:418
+msgctxt "analysis.interface.go_to_save_analysis_results_for_spatial_blups"
+msgid "Go To Save Analysis Results For Spatial BLUPS"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:640 mason/analyses/analysis_calculate_statistics.mas:643 mason/analyses/analysis_calculate_statistics.mas:705 mason/analyses/analysis_calculate_statistics.mas:764 mason/analyses/store_new_analysis_values_and_model.mas:701 mason/analyses/store_new_analysis_values_and_model.mas:704 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1330 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1333 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1489 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1492 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1649
+msgctxt "analysis.interface.go_to_saved"
+msgid "Go to saved"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:104 mason/tools/stability/index.mas:124
+msgctxt "analysis.interface.graphics"
+msgid "Graphics"
+msgstr ""
+
+#: js/source/entries/boxplotter.js:25
+msgctxt "analysis.interface.group_by"
+msgid "Group By"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:80 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:366 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:98 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:189
+msgctxt "analysis.interface.high_throughput_phenotyping_data"
+msgid "High-throughput Phenotyping Data"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:107
+msgctxt "analysis.interface.histogram"
+msgid "[Histogram]"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:112 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:147 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:414 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:236
+msgctxt "analysis.interface.how_to_calculate_the_relationship_matrix_with_high_throughput_phenotypes"
+msgid "How to calculate the relationship matrix with high-throughput phenotypes:"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:133 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:168 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:435 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:257
+msgctxt "analysis.interface.htp_blues_inversion_tolerance"
+msgid "HTP BLUEs Inversion Tolerance:"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:492 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1018 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:914
+msgctxt "analysis.interface.htp_relationship_matrix"
+msgid "HTP Relationship Matrix"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:79
+msgctxt "analysis.interface.identity"
+msgid "Identity"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:608
+msgctxt "analysis.interface.if_model_id_is_given_then_you_should_not_give"
+msgid "If Model ID is given, then you should not give a new model name!"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:612
+msgctxt "analysis.interface.if_model_id_is_given_then_you_should_not_give_87fb7a"
+msgid "If Model ID is given, then you should not give a new model description!"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:426
+msgctxt "analysis.interface.if_you_give_a_new_model_aux_file_1_please"
+msgid "If you give a new model aux file 1, please give a new model aux file 1 type also"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:430
+msgctxt "analysis.interface.if_you_give_a_new_model_aux_file_2_please"
+msgid "If you give a new model aux file 2, please give a new model aux file 2 type also"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:434
+msgctxt "analysis.interface.if_you_give_a_new_model_aux_file_3_please"
+msgid "If you give a new model aux file 3, please give a new model aux file 3 type also"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:422
+msgctxt "analysis.interface.if_you_give_a_new_model_file_please_give_a"
+msgid "If you give a new model file, please give a new model file type also"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:199
+msgctxt "analysis.interface.if_you_want_to_ignore_this_step_please_click_on"
+msgid "If you want to ignore this step, please click on"
+msgstr ""
+
+#: mason/tools/stability/index.mas:102
+msgctxt "analysis.interface.impuation"
+msgid "Impuation:"
+msgstr ""
+
+#: mason/tools/stability/index.mas:103
+msgctxt "analysis.interface.imputation_is_based_on_genotypes_average_using_the_r_package"
+msgid "Imputation is based on genotypes average using the R package mice. The imputation accuracy is processed by subsetting the data and calculating the correlation between imputed and original data."
+msgstr ""
+
+#: mason/tools/solgwas/index.mas:60
+msgctxt "analysis.interface.include_kinship_matrix_in_model"
+msgid "Include kinship matrix in model"
+msgstr ""
+
+#: mason/tools/solgwas/index.mas:63
+msgctxt "analysis.interface.include_principal_components_in_model"
+msgid "Include principal components in model"
+msgstr ""
+
+#: lib/CXGN/MixedModels.pm:267 lib/CXGN/MixedModels.pm:398
+msgctxt "analysis.interface.interaction_needs_to_be_pairs"
+msgid "interaction needs to be pairs :-("
+msgstr ""
+
+#: lib/CXGN/MixedModels.pm:173
+msgctxt "analysis.interface.interaction_terms_are_not_correctly_defined"
+msgid "Interaction terms are not correctly defined."
+msgstr ""
+
+#: lib/CXGN/MixedModels.pm:302 lib/CXGN/MixedModels.pm:409
+msgctxt "analysis.interface.intersects_needs_to_be_pairs"
+msgid "intersects needs to be pairs :-("
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:151 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:202 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:453 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:288
+msgctxt "analysis.interface.inversion_tolerance"
+msgid "Inversion Tolerance:"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:58
+msgctxt "analysis.interface.items_per_page"
+msgid "Items per page:"
+msgstr ""
+
+#: js/source/entries/boxplotter.js:53
+msgctxt "analysis.interface.loading"
+msgid "Loading ..."
+msgstr ""
+
+#: mason/tools/stability/index.mas:379 mason/tools/stability/index.mas:382 mason/tools/stability/index.mas:785
+msgctxt "analysis.interface.location"
+msgid "Location"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:568 mason/tools/qualityControl/dataset_quality_control.mas:155 mason/tools/qualityControl/dataset_quality_control.mas:174
+msgctxt "analysis.interface.location_id"
+msgid "Location ID"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:156 mason/tools/qualityControl/dataset_quality_control.mas:175
+msgctxt "analysis.interface.location_name"
+msgid "Location Name"
+msgstr ""
+
+#: mason/tools/stability/index.mas:382
+msgctxt "analysis.interface.location_rank"
+msgid "Location Rank"
+msgstr ""
+
+#: mason/tools/boxplotter.mas:95
+msgctxt "analysis.interface.login_required_to_display_boxplots"
+msgid "Login required to display boxplots"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:138 mason/tools/stability/index.mas:148
+msgctxt "analysis.interface.login_required_to_display_heritability"
+msgid "Login required to display heritability"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:190
+msgctxt "analysis.interface.main_phenotype_data_file_to_archive_required_this_should_be"
+msgid "Main Phenotype Data File To Archive (required) (this should be the primary data file input into the model e.g. MyPhenotypes.csv):"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:128 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:163 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:430 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:252
+msgctxt "analysis.interface.mature_growth_stage"
+msgid "Mature Growth Stage"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:134
+msgctxt "analysis.interface.maximum_limit"
+msgid "Maximum limit:"
+msgstr ""
+
+#: mason/tools/stability/index.mas:379 mason/tools/stability/index.mas:382
+msgctxt "analysis.interface.means"
+msgid "Means"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:131
+msgctxt "analysis.interface.minimum_limit"
+msgid "Minimum limit:"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:17
+msgctxt "analysis.interface.mixed_model_analysis"
+msgid "Mixed Model Analysis"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:111
+msgctxt "analysis.interface.model"
+msgid "Model"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:640 mason/analyses/store_new_analysis_values_and_model.mas:704 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1330
+msgctxt "analysis.interface.model_9372c4"
+msgid "model"
+msgstr ""
+
+#: mason/analyses/model_details.mas:21
+msgctxt "analysis.interface.model_description"
+msgid "Model Description"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:135 mason/breeders_toolbox/manage_drone_imagery.mas:1465 mason/breeders_toolbox/manage_drone_imagery.mas:2176
+msgctxt "analysis.interface.model_description_d66e45"
+msgid "Model Description:"
+msgstr ""
+
+#: mason/analyses/model_detail.mas:39
+msgctxt "analysis.interface.model_details"
+msgid "Model Details"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:394
+msgctxt "analysis.interface.model_file_to_archive"
+msgid "Model File To Archive:"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:208
+msgctxt "analysis.interface.model_file_to_archive_optional_this_should_be_a_model"
+msgid "Model File To Archive (optional) (this should be a model weights file):"
+msgstr ""
+
+#: mason/analyses/model_detail_page_section.mas:69 mason/analyses/model_details.mas:45
+msgctxt "analysis.interface.model_files"
+msgid "Model Files"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:358
+msgctxt "analysis.interface.model_id"
+msgid "Model ID:"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:312
+msgctxt "analysis.interface.model_info"
+msgid "Model Info"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:141
+msgctxt "analysis.interface.model_is_public"
+msgid "Model Is Public:"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:364
+msgctxt "analysis.interface.model_language"
+msgid "Model Language:"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:150
+msgctxt "analysis.interface.model_language_e_g_r_python_f90"
+msgid "Model Language (e.g. R, Python, F90):"
+msgstr ""
+
+#: mason/analyses/index.mas:75 mason/analyses/model_detail_page_section.mas:22 mason/analyses/model_details.mas:13
+msgctxt "analysis.interface.model_name"
+msgid "Model Name"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:129
+msgctxt "analysis.interface.model_name_must_be_unique"
+msgid "Model Name (must be unique):"
+msgstr ""
+
+#: mason/analyses/model_detail_page_section.mas:56 mason/analyses/model_details.mas:37
+msgctxt "analysis.interface.model_properties"
+msgid "Model Properties"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:376
+msgctxt "analysis.interface.model_properties_2f4cf1"
+msgid "Model Properties:"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:156
+msgctxt "analysis.interface.model_properties_required_key_value_comma_separated_e_g_conversion"
+msgid "Model Properties (required) (key:value comma separated e.g. conversion_criteria:0.01,protocol_id:2):"
+msgstr ""
+
+#: mason/analyses/index.mas:51 mason/analyses/index.mas:81 mason/analyses/model_detail_page_section.mas:47 mason/analyses/model_details.mas:29
+msgctxt "analysis.interface.model_type"
+msgid "Model Type"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:370 mason/breeders_toolbox/manage_drone_imagery.mas:1444 mason/breeders_toolbox/manage_drone_imagery.mas:2182
+msgctxt "analysis.interface.model_type_726f29"
+msgid "Model Type:"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:130
+msgctxt "analysis.interface.model_will_appear_here_in_lme4_format"
+msgid "[model will appear here in lme4 format]"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:69
+msgctxt "analysis.interface.multivariate_genetic_2dspl_spatial_effects_across_location_years"
+msgid "Multivariate genetic + 2Dspl spatial effects across location_years"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:68
+msgctxt "analysis.interface.multivariate_genetic_effects_using_grm_across_location_years"
+msgid "Multivariate genetic effects using GRM across location_years"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:58
+msgctxt "analysis.interface.my_model_is_not_shown_so_create_new_model"
+msgid "My Model is Not Shown, So Create New Model"
+msgstr ""
+
+#: lib/CXGN/Analysis.pm:345
+msgctxt "analysis.interface.need_a_breeding_program_to_store_an_analysis"
+msgid "Need a breeding program to store an analysis."
+msgstr ""
+
+#: lib/CXGN/Analysis.pm:339
+msgctxt "analysis.interface.need_a_description_to_store_an_analysis"
+msgid "Need a description to store an analysis."
+msgstr ""
+
+#: lib/CXGN/Analysis.pm:342
+msgctxt "analysis.interface.need_a_name_to_store_an_analysis"
+msgid "Need a name to store an analysis."
+msgstr ""
+
+#: lib/CXGN/Analysis.pm:336
+msgctxt "analysis.interface.need_an_field_to_store_an_analysis"
+msgid "Need an %{field} to store an analysis."
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:336
+msgctxt "analysis.interface.new_model_description"
+msgid "New Model Description:"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:342
+msgctxt "analysis.interface.new_model_is_public"
+msgid "New Model Is Public:"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:330
+msgctxt "analysis.interface.new_model_name_must_be_unique"
+msgid "New Model Name (must be unique):"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:112 mason/tools/qualityControl/dataset_quality_control.mas:189 mason/tools/qualityControl/dataset_quality_control.mas:207
+msgctxt "analysis.interface.next_step"
+msgid "Next step"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:199
+msgctxt "analysis.interface.next_step_095272"
+msgid "'Next step'"
+msgstr ""
+
+#: lib/CXGN/Analysis/AnalysisCreate.pm:388
+msgctxt "analysis.interface.no_analysis_name_given_but_trying_to_save_an_analysis"
+msgid "No analysis name given, but trying to save an analysis."
+msgstr ""
+
+#: mason/analytics_protocols/analytics_protocols_details.mas:28
+msgctxt "analysis.interface.no_analytics_protocol_name"
+msgid "[No Analytics Protocol Name]"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:184
+msgctxt "analysis.interface.no_data_available_for_the_selected_trait"
+msgid "No data available for the selected trait!"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/GCPC.pm:366
+msgctxt "analysis.interface.no_genotyping_protocols_found_in_this_dataset_please_choose_another"
+msgid "No genotyping protocols found in this dataset! Please choose another dataset!"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/Analytics.pm:79
+msgctxt "analysis.interface.no_id_given"
+msgid "No ID given!"
+msgstr ""
+
+#: mason/analyses/model_detail_page_section.mas:28
+msgctxt "analysis.interface.no_model_name"
+msgid "[No Model Name]"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/SpatialModel.pm:610 lib/SGN/Controller/AJAX/SpatialModel.pm:648
+msgctxt "analysis.interface.no_spatial_corrections_associated_with_this_trial"
+msgid "No spatial corrections associated with this trial.\n"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:872
+msgctxt "analysis.interface.no_valid_data_found_or_data_format_issue"
+msgid "No valid data found or data format issue"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/GCPC.pm:354
+msgctxt "analysis.interface.none_of_the_traits_in_the_selection_index_are_present"
+msgid "None of the traits in the selection index are present in the dataset. Please choose another selection index."
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:228
+msgctxt "analysis.interface.not_available"
+msgid "[not available]"
+msgstr ""
+
+#: js/source/entries/boxplotter.js:84
+msgctxt "analysis.interface.not_enough_data_with_the_given_constraints"
+msgid "Not Enough Data with the Given Constraints"
+msgstr ""
+
+#: mason/tools/boxplotter.mas:62
+msgctxt "analysis.interface.note_constraints_other_than_accessions_traits_trials_locations_and_program"
+msgid "Note: Constraints other than accessions, traits, trials, locations, and program will be ignored"
+msgstr ""
+
+#: mason/tools/stability/index.mas:664
+msgctxt "analysis.interface.number_of_locations"
+msgid "Number of Locations"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:41
+msgctxt "analysis.interface.observation_variables_phenotyped_in_the_selected_field_trial_s"
+msgid "Observation Variables Phenotyped in the Selected Field Trial(s):"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:86
+msgctxt "analysis.interface.observations"
+msgid "Observations"
+msgstr ""
+
+#: mason/breeders_toolbox/progress.mas:56
+msgctxt "analysis.interface.observations_count"
+msgid "observations [count]"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:218
+msgctxt "analysis.interface.only"
+msgid "Only"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:208
+msgctxt "analysis.interface.only_curators_are_allowed_undo_validated_trial_please_contact_a"
+msgid "Only curators are allowed undo validated trial. Please contact a curator."
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:174
+msgctxt "analysis.interface.only_curators_or_breeders_are_allowed_to_validated_trials_please"
+msgid "Only curators or breeders are allowed to validated trials. Please contact a curator."
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:193
+msgctxt "analysis.interface.other_traits_as_outlier"
+msgid "Other Traits as Outlier"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:117
+msgctxt "analysis.interface.outliers_range"
+msgid "Outliers Range"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:171
+msgctxt "analysis.interface.outliers_successfully_stored"
+msgid "Outliers successfully stored!"
+msgstr ""
+
+#: mason/tools/stability/index.mas:104
+msgctxt "analysis.interface.output"
+msgid "Output:"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:52
+msgctxt "analysis.interface.page_1"
+msgid "Page 1"
+msgstr ""
+
+#: mason/tools/boxplotter.mas:80
+msgctxt "analysis.interface.phenotype_boxplotter"
+msgid "Phenotype BoxPlotter"
+msgstr ""
+
+#: mason/tools/stability/index.mas:71
+msgctxt "analysis.interface.phenotype_impute"
+msgid "Phenotype Impute:"
+msgstr ""
+
+#: mason/tools/heritability/heritability.mas:52
+msgctxt "analysis.interface.phenotypic_heritability_analysis"
+msgid "Phenotypic heritability analysis"
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js:242
+msgctxt "analysis.interface.please_check_if_the_data_has_replicates"
+msgid "Please check if the data has replicates."
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js:277
+msgctxt "analysis.interface.please_check_if_there_is_numerical_data_and_replicates_for"
+msgid "Please, check if there is numerical data and replicates for this trial."
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:640
+msgctxt "analysis.interface.please_give_a_model_application_name"
+msgid "Please give a model application name"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:644
+msgctxt "analysis.interface.please_give_a_model_application_version"
+msgid "Please give a model application version"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:620
+msgctxt "analysis.interface.please_give_a_model_description"
+msgid "Please give a model description"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:628
+msgctxt "analysis.interface.please_give_a_model_language"
+msgid "Please give a model language"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:616
+msgctxt "analysis.interface.please_give_a_model_name"
+msgid "Please give a model name"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:636
+msgctxt "analysis.interface.please_give_a_model_properties_json_object"
+msgid "Please give a model properties JSON object"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:632
+msgctxt "analysis.interface.please_give_a_model_type"
+msgid "Please give a model type"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:406
+msgctxt "analysis.interface.please_give_a_new_model_application_name"
+msgid "Please give a new model application name"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:410
+msgctxt "analysis.interface.please_give_a_new_model_application_version"
+msgid "Please give a new model application version"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:390
+msgctxt "analysis.interface.please_give_a_new_model_description"
+msgid "Please give a new model description"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:398
+msgctxt "analysis.interface.please_give_a_new_model_language"
+msgid "Please give a new model language"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:402
+msgctxt "analysis.interface.please_give_a_new_model_properties_at_least_one_key"
+msgid "Please give a new model properties. At least one key:value!"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:591
+msgctxt "analysis.interface.please_give_a_statistical_ontology_term"
+msgid "Please give a statistical ontology term"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:567
+msgctxt "analysis.interface.please_give_an_analysis_description"
+msgid "Please give an analysis description"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:563
+msgctxt "analysis.interface.please_give_an_analysis_name"
+msgid "Please give an analysis name"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:324
+msgctxt "analysis.interface.please_give_an_analysis_name_and_description"
+msgid "Please give an analysis name and description"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:328
+msgctxt "analysis.interface.please_give_an_analysis_protocol"
+msgid "Please give an analysis protocol"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:579
+msgctxt "analysis.interface.please_give_an_analysis_protocol_e_g_lmer_grain_yield"
+msgid "Please give an analysis protocol e.g. lmer(grain_yield ~ replicate + 1|germplasmName)"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:523 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1049
+msgctxt "analysis.interface.please_give_an_analysis_template_description"
+msgid "Please give an analysis template description"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:519 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1045
+msgctxt "analysis.interface.please_give_an_analysis_template_name"
+msgid "Please give an analysis template name"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:527 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1053
+msgctxt "analysis.interface.please_give_an_analysis_template_year"
+msgid "Please give an analysis template year"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:571
+msgctxt "analysis.interface.please_give_an_analysis_year"
+msgid "Please give an analysis year"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:583
+msgctxt "analysis.interface.please_give_analysis_accession_names"
+msgid "Please give analysis accession names"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:603
+msgctxt "analysis.interface.please_give_analysis_result_summary_info"
+msgid "Please give analysis result summary info"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:595
+msgctxt "analysis.interface.please_give_analysis_result_values"
+msgid "Please give analysis result values"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:599
+msgctxt "analysis.interface.please_give_analysis_result_values_type"
+msgid "Please give analysis result values type"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:587
+msgctxt "analysis.interface.please_give_analysis_trait_names"
+msgid "Please give analysis trait names"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:203 mason/tools/heritability/index.mas:278 mason/tools/solgwas/index.mas:222 mason/tools/solgwas/index.mas:267 mason/tools/solgwas/index.mas:303 mason/tools/stability/index.mas:322
+msgctxt "analysis.interface.please_select_a_dataset_and_trait"
+msgid "Please select a dataset and trait."
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:267 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:611 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:476 mason/breeders_toolbox/manage_drone_imagery.mas:4192 mason/breeders_toolbox/manage_drone_imagery.mas:4388 mason/breeders_toolbox/manage_drone_imagery.mas:4596 mason/breeders_toolbox/manage_drone_imagery.mas:4756 mason/breeders_toolbox/manage_drone_imagery.mas:4825 mason/breeders_toolbox/manage_drone_imagery.mas:7783
+msgctxt "analysis.interface.please_select_a_field_trial_first"
+msgid "Please select a field trial first!"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:344
+msgctxt "analysis.interface.please_select_a_results_file"
+msgid "Please select a results file"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:340
+msgctxt "analysis.interface.please_select_a_statistical_ontology_term"
+msgid "Please select a statistical ontology term"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:80
+msgctxt "analysis.interface.please_select_a_trait_to_see_the_boxplot"
+msgid "Please select a trait to see the boxplot!"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js:411 js/source/entries/qualitycontrol.js:643 mason/breeders_toolbox/radargraph.mas:181 mason/tools/heritability/index.mas:384 mason/tools/solgwas/index.mas:366 mason/tools/stability/index.mas:806
+msgctxt "analysis.interface.please_select_at_least_one_dataset"
+msgid "Please select at least one dataset!"
+msgstr ""
+
+#: mason/tools/stability/index.mas:325
+msgctxt "analysis.interface.please_select_if_phenotype_imputation_is_required"
+msgid "Please select if phenotype imputation is required."
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:292
+msgctxt "analysis.interface.please_select_one_observation_variable"
+msgid "Please select one observation variable!"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js:414 js/source/entries/qualitycontrol.js:646 mason/tools/heritability/index.mas:387 mason/tools/solgwas/index.mas:369 mason/tools/stability/index.mas:809
+msgctxt "analysis.interface.please_select_only_one_dataset"
+msgid "Please select only one dataset!"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js:273
+msgctxt "analysis.interface.please_select_only_one_trait_at_a_time_to_see"
+msgid "Please select only one trait at a time to see the histogram!"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:332
+msgctxt "analysis.interface.please_select_result_values_type"
+msgid "Please select result values type"
+msgstr ""
+
+#: mason/tools/stability/index.mas:327
+msgctxt "analysis.interface.please_select_the_stability_method"
+msgid "Please select the stability method."
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:394
+msgctxt "analysis.interface.please_specify_if_the_new_model_is_public"
+msgid "Please specify if the new model is public"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:624
+msgctxt "analysis.interface.please_tell_if_a_model_is_public"
+msgid "Please tell if a model is public"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:59
+msgctxt "analysis.interface.plot_names_for_plot_predictions_spatial_temporal_results"
+msgid "Plot Names (for plot predictions, spatial, temporal results)"
+msgstr ""
+
+#: mason/tools/stability/index.mas:97
+msgctxt "analysis.interface.preparing_dataset"
+msgid "Preparing Dataset:"
+msgstr ""
+
+#: mason/tools/stability/index.mas:127
+msgctxt "analysis.interface.press_control_or_cmd_to_select_multiple_accessions"
+msgid "Press control (or cmd) to select multiple accessions."
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:40
+msgctxt "analysis.interface.project_location"
+msgid "Project Location"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:39
+msgctxt "analysis.interface.project_name"
+msgid "Project Name"
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js:292
+msgctxt "analysis.interface.qc_comments"
+msgid "QC - comments"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:16
+msgctxt "analysis.interface.quality_control"
+msgid "Quality Control"
+msgstr ""
+
+#: mason/tools/qualityControl/qualityControl.mas:52
+msgctxt "analysis.interface.quality_control_tool_st4gi"
+msgid "Quality Control Tool (st4gi)"
+msgstr ""
+
+#: mason/breeders_toolbox/radargraph.mas:40
+msgctxt "analysis.interface.radar_graph"
+msgid "Radar Graph"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:181
+msgctxt "analysis.interface.random_factors"
+msgid "Random factors"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:171
+msgctxt "analysis.interface.random_factors_with_variable_slope_intersects"
+msgid "Random factors with variable slope/intersects"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:151
+msgctxt "analysis.interface.raw_data_available"
+msgid "Raw Data Available"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:76 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:362 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:94 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:184
+msgctxt "analysis.interface.relationship_matrix_type"
+msgid "Relationship Matrix Type:"
+msgstr ""
+
+#: mason/breeders_toolbox/radargraph.mas:48
+msgctxt "analysis.interface.render_graph"
+msgid "Render Graph"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:175
+msgctxt "analysis.interface.replicate"
+msgid "Replicate"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:127 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:162 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:429 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:251
+msgctxt "analysis.interface.reproductive_growth_stage"
+msgid "Reproductive Growth Stage"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:764 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1649
+msgctxt "analysis.interface.residuals_analysis"
+msgid "residuals analysis"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:219
+msgctxt "analysis.interface.restore"
+msgid "Restore"
+msgstr ""
+
+#: mason/analytics_protocols/detail.mas:39
+msgctxt "analysis.interface.result_files"
+msgid "Result Files"
+msgstr ""
+
+#: mason/analytics_protocols/detail.mas:39
+msgctxt "analysis.interface.result_files_and_figures"
+msgid "Result files and figures."
+msgstr ""
+
+#: mason/analyses/analysis_details.mas:98 mason/analytics_protocols/analytics_protocols_details.mas:74
+msgctxt "analysis.interface.result_summary"
+msgid "Result Summary"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:94
+msgctxt "analysis.interface.result_summary_optional_key_value_comma_separated_e_g_genetic"
+msgid "Result Summary (optional) (key:value comma separated. e.g. genetic_variance:0.6,phenotypic_variance:0.8):"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:82
+msgctxt "analysis.interface.results_file_csv"
+msgid "Results File (.csv):"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:197
+msgctxt "analysis.interface.run_analysis_and_go_to_next_step"
+msgid "Run analysis and go to next step"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:70
+msgctxt "analysis.interface.run_heritability"
+msgid "Run Heritability"
+msgstr ""
+
+#: mason/tools/heritability/heritability.mas:57
+msgctxt "analysis.interface.run_heritability_23333a"
+msgid "Run heritability"
+msgstr ""
+
+#: mason/tools/qualityControl/qualityControl.mas:57
+msgctxt "analysis.interface.run_qc"
+msgid "Run QC"
+msgstr ""
+
+#: mason/tools/solgwas/index.mas:80
+msgctxt "analysis.interface.run_solgwas"
+msgid "Run SolGWAS"
+msgstr ""
+
+#: mason/tools/stability/index.mas:82
+msgctxt "analysis.interface.run_stability"
+msgid "Run Stability"
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js:219
+msgctxt "analysis.interface.running_heritability"
+msgid "Running heritability..."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js:219
+msgctxt "analysis.interface.running_qualitycontrol_please_wait"
+msgid "Running qualityControl... please wait..."
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:233
+msgctxt "analysis.interface.save_adjusted_blues"
+msgid "Save adjusted BLUEs"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:218
+msgctxt "analysis.interface.save_adjusted_means"
+msgid "Save adjusted means"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:181 mason/analyses/store_new_analysis_values_and_model.mas:446
+msgctxt "analysis.interface.save_analysis_results"
+msgid "Save Analysis Results"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:195
+msgctxt "analysis.interface.save_analysis_results_73b6e1"
+msgid "Save analysis results"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:481
+msgctxt "analysis.interface.save_analysis_results_and_model"
+msgid "Save Analysis Results And Model"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:353
+msgctxt "analysis.interface.save_analysis_results_and_or_model"
+msgid "Save Analysis Results And/Or Model"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:240
+msgctxt "analysis.interface.save_blues"
+msgid "Save BLUEs"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:227
+msgctxt "analysis.interface.save_blups"
+msgid "Save BLUPs"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:313
+msgctxt "analysis.interface.save_model_information"
+msgid "Save model information"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:212 mason/tools/qualityControl/dataset_quality_control.mas:213
+msgctxt "analysis.interface.save_outliers"
+msgid "Save Outliers"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:427
+msgctxt "analysis.interface.saved_successfully"
+msgid "Saved successfully"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:880 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1929 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1986
+msgctxt "analysis.interface.saving_spatial_blups_currently_only_implemented_for_a_single_trial"
+msgid "Saving spatial BLUPs currently only implemented for a single trial, so only select one field trial in your analysis"
+msgstr ""
+
+#: mason/tools/stability/index.mas:673
+msgctxt "analysis.interface.scaled_stability"
+msgid "Scaled Stability"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:161 mason/tools/qualityControl/dataset_quality_control.mas:180 mason/tools/qualityControl/validated_trials.mas:89
+msgctxt "analysis.interface.sd"
+msgid "SD"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:29
+msgctxt "analysis.interface.search_tool"
+msgid "Search tool..."
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:176 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:382
+msgctxt "analysis.interface.select_a_continuous_trait_e_g_soil_elevation_curvature"
+msgid "Select a continuous trait (e.g. soil elevation curvature)"
+msgstr ""
+
+#: mason/tools/boxplotter.mas:53
+msgctxt "analysis.interface.select_a_dataset"
+msgid "Select a Dataset"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:115
+msgctxt "analysis.interface.select_a_model"
+msgid "Select a Model:"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:66 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:353 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:70
+msgctxt "analysis.interface.select_a_model_ba25d3"
+msgid "Select A Model"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:319
+msgctxt "analysis.interface.select_a_model_if_not_a_new_model"
+msgid "Select a Model (If Not A New Model):"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:101
+msgctxt "analysis.interface.select_a_trait_for_qc"
+msgid "Select a Trait for QC"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:36 mason/tools/solgwas/index.mas:37 mason/tools/stability/index.mas:38
+msgctxt "analysis.interface.select_dataset"
+msgid "Select Dataset"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:141
+msgctxt "analysis.interface.select_fixed_min_and_max"
+msgid "Select Fixed Min and Max"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:28 mason/tools/solgwas/index.mas:28 mason/tools/stability/index.mas:33
+msgctxt "analysis.interface.select_input_data"
+msgid "Select Input Data"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:198
+msgctxt "analysis.interface.select_other_traits"
+msgid "'Select Other Traits'"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:200
+msgctxt "analysis.interface.select_other_traits_048bad"
+msgid "Select Other Traits"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:52 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:350 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:67
+msgctxt "analysis.interface.select_statistics_to_calculate"
+msgid "Select statistics to calculate"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:22
+msgctxt "analysis.interface.select_the_field_trial_s_you_are_interested_in"
+msgid "Select the field trial(s) you are interested in."
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:37
+msgctxt "analysis.interface.select_the_observation_variable_you_are_interested_in"
+msgid "Select the observation variable you are interested in"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:128
+msgctxt "analysis.interface.selecting_this_box_it_will_set_fixed_minimum_and_maximum"
+msgid "Selecting this box, it will set fixed minimum and maximum for all locations."
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:194
+msgctxt "analysis.interface.set_plot_as_outlier_for_other_traits"
+msgid "Set Plot as Outlier for Other Traits"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:117
+msgctxt "analysis.interface.show_100"
+msgid "Show 100%"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:121
+msgctxt "analysis.interface.show_bottom_25"
+msgid "Show bottom 25%"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:120
+msgctxt "analysis.interface.show_bottom_5"
+msgid "Show bottom 5%"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:122
+msgctxt "analysis.interface.show_bottom_50"
+msgid "Show bottom 50%"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:123
+msgctxt "analysis.interface.show_bottom_75"
+msgid "Show bottom 75%"
+msgstr ""
+
+#: mason/breeders_toolbox/progress.mas:38
+msgctxt "analysis.interface.show_graph"
+msgid "Show Graph"
+msgstr ""
+
+#: mason/breeders_toolbox/progress.mas:33
+msgctxt "analysis.interface.show_stats"
+msgid "Show Stats"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:114
+msgctxt "analysis.interface.show_top_10"
+msgid "Show top 10%"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:115
+msgctxt "analysis.interface.show_top_25"
+msgid "Show top 25%"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:113
+msgctxt "analysis.interface.show_top_5"
+msgid "Show top 5%"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:116
+msgctxt "analysis.interface.show_top_50"
+msgid "Show top 50%"
+msgstr ""
+
+#: mason/analyses/index.mas:31
+msgctxt "analysis.interface.single_multi_trial_gebv_analysis"
+msgid "Single/Multi Trial GEBV Analysis"
+msgstr ""
+
+#: mason/tools/solgwas/index.mas:26
+msgctxt "analysis.interface.solgwas"
+msgid "SolGWAS"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/GCPC.pm:359
+msgctxt "analysis.interface.some_of_the_traits_in_the_selection_index_are_not"
+msgid "Some of the traits in the selection index are not in the dataset (%{missing_traits}). Their weights will be ignored."
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:125
+msgctxt "analysis.interface.sommer_with_spatial_correction_spl2d"
+msgid "sommer with spatial correction spl2D"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:705 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1489
+msgctxt "analysis.interface.spatial_blup_analysis"
+msgid "spatial BLUP analysis"
+msgstr ""
+
+#: mason/tools/stability/index.mas:30
+msgctxt "analysis.interface.stability"
+msgid "Stability"
+msgstr ""
+
+#: mason/tools/stability/index.mas:379
+msgctxt "analysis.interface.stability_rank"
+msgid "Stability Rank"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:75
+msgctxt "analysis.interface.statistcs"
+msgid "Statistics"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:275
+msgctxt "analysis.interface.statistical_ontology_term"
+msgid "Statistical Ontology Term:"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:76
+msgctxt "analysis.interface.statistical_ontology_term_from_sgnstat"
+msgid "Statistical Ontology Term (from SGNSTAT):"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:482 mason/analyses/analysis_calculate_statistics.mas:51 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1008 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:349 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:66
+msgctxt "analysis.interface.statistics"
+msgid "Statistics"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:210 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:282 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:523 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:413
+msgctxt "analysis.interface.statistics_results"
+msgid "Statistics results"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:489 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:1015 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:911
+msgctxt "analysis.interface.stats_file_or_log"
+msgid "Stats file or log"
+msgstr ""
+
+#: mason/breeders_toolbox/progress.mas:55
+msgctxt "analysis.interface.std_dev"
+msgid "std dev"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:456
+msgctxt "analysis.interface.successfully_saved_page_will_now_refresh"
+msgid "Successfully saved! Page will now refresh!"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:426 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:927
+msgctxt "analysis.interface.sum_square_residual"
+msgid "Sum square residual:"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:108 mason/tools/heritability/index.mas:85 mason/tools/solgwas/index.mas:96 mason/tools/stability/index.mas:111 mason/tools/stability/index.mas:124 mason/tools/stability/index.mas:88
+msgctxt "analysis.interface.table_8675"
+msgid "Table&#8675;"
+msgstr ""
+
+#: mason/tools/stability/index.mas:105
+msgctxt "analysis.interface.the_ammi_graphic_shows_stable_varieties_with_horizintal_lines_the"
+msgid "The AMMI graphic shows stable varieties with horizontal lines. The slope is proportional to their stability index."
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/MixedModels.pm:265 lib/SGN/Controller/AJAX/MixedModels.pm:288
+msgctxt "analysis.interface.the_analysis_could_not_be_completed_the_factors_may_not"
+msgid "The analysis could not be completed. The factors may not have sufficient numbers of levels to complete the analysis. Please choose other parameters."
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:26
+msgctxt "analysis.interface.the_header_row_should_have_stock_name_in_the_first"
+msgid "The header row should have 'stock_name' in the first column and subsequent column headers should be for a trait variable e.g. 'plant height|CO_323:0000123'"
+msgstr ""
+
+#: mason/tools/stability/index.mas:370
+msgctxt "analysis.interface.the_imputation_accuracy_correlation_is"
+msgid "The imputation accuracy (correlation) is"
+msgstr ""
+
+#: lib/CXGN/AnalysisModel/SaveModel.pm:168
+msgctxt "analysis.interface.the_model_name_model_name_has_already_been_used_please"
+msgid "The model name: %{model_name} has already been used! Please use a new name."
+msgstr ""
+
+#: lib/SGN/Controller/Analysis.pm:60
+msgctxt "analysis.interface.the_requested_analysis_id_does_not_exist_in_the_database"
+msgid "The requested analysis ID does not exist in the database or has been deleted."
+msgstr ""
+
+#: lib/SGN/Controller/Analytics.pm:62
+msgctxt "analysis.interface.the_requested_analytics_protocol_id_does_not_exist_in_the"
+msgid "The requested analytics protocol ID does not exist in the database."
+msgstr ""
+
+#: lib/SGN/Controller/Analysis.pm:108
+msgctxt "analysis.interface.the_requested_model_id_does_not_exist_in_the_database"
+msgid "The requested model ID does not exist in the database."
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/MixedModels.pm:161
+msgctxt "analysis.interface.there_are_no_factors_with_multiple_levels_in_this_dataset"
+msgid "There are no factors with multiple levels in this dataset."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js:272
+msgctxt "analysis.interface.there_is_no_qualitycontrol_output_for_this_dataset"
+msgid "There is no qualityControl output for this dataset."
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:197
+msgctxt "analysis.interface.this_is_an_option_to_set_selected_plots_as_outliers"
+msgid "This is an option to set selected plots as outliers for other traits as well."
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:197
+msgctxt "analysis.interface.this_is_an_optional_step_and_is_only_available_when"
+msgid "This is an optional step and is only available when there are actual results to save. Please move on to saving the model weights if there are no results to save."
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:216
+msgctxt "analysis.interface.this_is_the_validation_process_trials_cleaned_of_outliers_can"
+msgid "This is the validation process. Trials cleaned of outliers can be used in downstream analysis."
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/Analysis.pm:794
+msgctxt "analysis.interface.this_model_still_has_analyses_associated_please_delete_the_analyses"
+msgid "This model still has analyses associated! Please delete the analyses before deleting this model!"
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js:234 js/source/legacy/qualityControl/qualityControl.js:234
+msgctxt "analysis.interface.this_population_has_no_phenotype_data"
+msgid "This population has no phenotype data."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js:184
+msgctxt "analysis.interface.this_population_has_no_valid_traits_to_qclate"
+msgid "This population has no valid traits to qclate."
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:315
+msgctxt "analysis.interface.this_step_may_be_pre_populated_if_you_are_using"
+msgid "This step may be pre-populated if you are using a model that is already saved in the database. If there is no input enabled, move to the next step."
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:26
+msgctxt "analysis.interface.this_table_presents_all_trials_that_have_been_thoroughly_filtered"
+msgid "This table presents all trials that have been thoroughly filtered and validated through the Quality Control Tool."
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js:184
+msgctxt "analysis.interface.this_trial_has_no_valid_traits_to_calculate_heritability"
+msgid "This trial has no valid traits to calculate heritability."
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:187
+msgctxt "analysis.interface.this_workflow_will_guide_you_through_storing_a_new_analysis"
+msgid "This workflow will guide you through storing a new analysis and the results, and saving model weights"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:24
+msgctxt "analysis.interface.this_workflow_will_guide_you_through_uploading_an_analysis_to"
+msgid "This workflow will guide you through uploading an analysis to the database"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:121 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:156 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:423 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:245
+msgctxt "analysis.interface.time_points_to_use"
+msgid "Time Points to Use:"
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:217
+msgctxt "analysis.interface.to_validate_a_dataset_you_will_need_privilieges_as"
+msgid "To validate a dataset you will need privilieges as"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:406
+msgctxt "analysis.interface.training_data_file_to_archive"
+msgid "Training Data File To Archive:"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:269
+msgctxt "analysis.interface.trait_names"
+msgid "Trait Names:"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:36 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:334 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:42 mason/breeders_toolbox/manage_drone_imagery.mas:1258 mason/breeders_toolbox/manage_drone_imagery.mas:1353
+msgctxt "analysis.interface.trait_selection"
+msgid "Trait Selection"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/QualityControl.pm:173
+msgctxt "analysis.interface.trait_trait_is_already_validated_data_for_trials_list_projects"
+msgid "Trait %{trait} is already validated data for trials: %{list_projects}"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:257
+msgctxt "analysis.interface.trial_id"
+msgid "Trial ID:"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:67
+msgctxt "analysis.interface.univariate_genetic_effects_across_location_years"
+msgid "Univariate genetic effects across location_years"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:125 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:249
+msgctxt "analysis.interface.up_to_latest_days_after_planting_selecting_in_traits"
+msgid "Up to latest days after planting selecting in traits"
+msgstr ""
+
+#: mason/analyses/index.mas:31 mason/analyses/upload_analysis_dialogs.mas:15
+msgctxt "analysis.interface.upload_analysis"
+msgid "Upload Analysis"
+msgstr ""
+
+#: mason/tools/mixedmodels.mas:93
+msgctxt "analysis.interface.use_validated_trials"
+msgid "Use validated trials"
+msgstr ""
+
+#: mason/tools/qualityControl/validated_trials.mas:42
+msgctxt "analysis.interface.validated_by"
+msgid "Validated By"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:607
+msgctxt "analysis.interface.value"
+msgid "Value:"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:126 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:161 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:428 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:250
+msgctxt "analysis.interface.vegetative_growth_stage"
+msgid "Vegetative Growth Stage"
+msgstr ""
+
+#: mason/analyses/model_detail.mas:41
+msgctxt "analysis.interface.view_analyses_derived_from_this_model"
+msgid "View analyses derived from this model."
+msgstr ""
+
+#: mason/analytics_protocols/detail.mas:37
+msgctxt "analysis.interface.view_basic_information_about_the_analytics_protocol"
+msgid "View basic information about the analytics protocol."
+msgstr ""
+
+#: mason/analyses/model_detail.mas:39
+msgctxt "analysis.interface.view_basic_information_about_the_model"
+msgid "View basic information about the model."
+msgstr ""
+
+#: mason/tools/solgwas/index.mas:64
+msgctxt "analysis.interface.view_pca_plot"
+msgid "View PCA Plot"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:46 mason/tools/solgwas/index.mas:45
+msgctxt "analysis.interface.view_trait_histogram"
+msgid "View Trait Histogram"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/Analysis.pm:77
+msgctxt "analysis.interface.you_are_trying_to_save_an_analysis_but_no_name"
+msgid "You are trying to save an analysis, but no name was given."
+msgstr ""
+
+#: mason/tools/heritability/index.mas:152
+msgctxt "analysis.interface.you_must_be_logged_in_to_use_heritability"
+msgid "You must be logged in to use Heritability"
+msgstr ""
+
+#: mason/tools/solgwas/index.mas:127
+msgctxt "analysis.interface.you_must_be_logged_in_to_use_solgwas"
+msgid "You must be logged in to use SolGWAS"
+msgstr ""
+
+#: mason/tools/stability/index.mas:162
+msgctxt "analysis.interface.you_must_be_logged_in_to_use_stability"
+msgid "You must be logged in to use Stability"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/Analysis.pm:849 lib/SGN/Controller/AJAX/Analytics.pm:142
+msgctxt "analysis.interface.you_must_have_permission_to_do_this_please_contact_us"
+msgid "You must have permission to do this! Please contact us!"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:25
+msgctxt "analysis.interface.you_should_have_a_spreadsheet_csv_where_the_first_column"
+msgid "You should have a spreadsheet (.csv) where the first column names the accession names or plots, and the subsequent columns have result values."
+msgstr ""
+
+#: mason/tools/qualityControl/dataset_quality_control.mas:198
+msgctxt "analysis.interface.you_will_see_available_traits_in_your_dataset"
+msgid "you will see available traits in your dataset."
+msgstr ""
+
+#: mason/analyses/index.mas:40
+msgctxt "analysis.interface.your_analyses"
+msgid "Your Analyses"
+msgstr ""
+
+#: mason/analyses/index.mas:29
+msgctxt "analysis.interface.your_analyses_and_analysis_models"
+msgid "Your Analyses and Analysis Models"
+msgstr ""
+
+#: mason/analytics_protocols/index.mas:27
+msgctxt "analysis.interface.your_analytics_protocols"
+msgid "Your Analytics Protocols"
+msgstr ""
+
+#: mason/tools/heritability/index.mas:115 mason/tools/heritability/index.mas:92 mason/tools/solgwas/index.mas:103 mason/tools/stability/index.mas:92
+msgctxt "analysis.interface.your_browser_does_not_support_the_html5_canvas"
+msgid "Your browser does not support the HTML5 canvas"
+msgstr ""
+
+#: mason/analyses/index.mas:70
+msgctxt "analysis.interface.your_models"
+msgid "Your Models"
+msgstr ""
+
+#: js/source/legacy/CXGN/Phenome/Qtl.js:126
+msgctxt "analysis.qtl.browser.please_wait"
+msgid "Please wait...."
+msgstr ""
+
+#: js/source/legacy/CXGN/Phenome/Qtl.js:115
+msgctxt "analysis.qtl.browser.running_qtl_analysis_please_wait"
+msgid "Running QTL Analysis...Please wait..."
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:421
+msgctxt "analysis.qtl.server.bayesian_credible_interval"
+msgid "Based on 95% Bayesian Credible Interval"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:110
+msgctxt "analysis.qtl.server.chromosome_link"
+msgid "Chromosome %{linkage_group} (%{left_marker}, %{right_marker})"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:262
+msgctxt "analysis.qtl.server.closest_marker_to_peak"
+msgid "The closest marker to the peak position (%{position} cM)"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:420
+msgctxt "analysis.qtl.server.confidence_interval"
+msgid "Confidence interval"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:431
+msgctxt "analysis.qtl.server.correlation_data"
+msgid "Correlation data"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:437
+msgctxt "analysis.qtl.server.courtesy_of"
+msgid "Courtesy of"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:434
+msgctxt "analysis.qtl.server.external_marker_link_description"
+msgid "genetic markers in the tomato F2.2000 reference map region (+5cM) matching the QTL region and gene models from the ITAG annotated tomato genome."
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:433
+msgctxt "analysis.qtl.server.external_marker_link_label"
+msgid "View/download"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:360
+msgctxt "analysis.qtl.server.genome_scan_size"
+msgid "Genome scan size (cM)"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:430
+msgctxt "analysis.qtl.server.genotype_data"
+msgid "Genotype data"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:356
+msgctxt "analysis.qtl.server.genotype_probability_method"
+msgid "QTL genotype probability method"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:371
+msgctxt "analysis.qtl.server.genotype_significance_level"
+msgid "QTL genotype significance level"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:428 lib/SGN/Controller/Qtl.pm:552
+msgctxt "analysis.qtl.server.guideline"
+msgid "Guideline"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:261
+msgctxt "analysis.qtl.server.highest_lod_score"
+msgid "Highest LOD score is %{score} at %{position} cM"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:375
+msgctxt "analysis.qtl.server.imputation_count"
+msgid "No. of imputations"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:113 lib/SGN/Controller/Qtl.pm:144 lib/SGN/Controller/Qtl.pm:179 lib/SGN/Controller/Qtl.pm:83
+msgctxt "analysis.qtl.server.invalid_population_id"
+msgid "is not a valid population id"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:415
+msgctxt "analysis.qtl.server.lod_threshold"
+msgid "LOD threshold"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:348
+msgctxt "analysis.qtl.server.mapping_method"
+msgid "Mapping method"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:352
+msgctxt "analysis.qtl.server.mapping_model"
+msgid "Mapping model"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:51
+msgctxt "analysis.qtl.server.missing_required_argument"
+msgid "QTL detail page error:  A required argument is missing"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:74
+msgctxt "analysis.qtl.server.no_population_for_id"
+msgid "There is no QTL population for %{population_id}"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:412
+msgctxt "analysis.qtl.server.not_calculated"
+msgid "Not calculated"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:367
+msgctxt "analysis.qtl.server.permutation_count"
+msgid "No. of permutations"
+msgstr ""
+
+#: cgi-bin/phenome/qtl.pl:364
+msgctxt "analysis.qtl.server.permutation_significance_level"
+msgid "Permutation significance level"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:429
+msgctxt "analysis.qtl.server.phenotype_data"
+msgid "Phenotype data"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:546
+msgctxt "analysis.qtl.server.population_id_expected_digits"
+msgid "This form expects an all digit population id, instead of"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:538
+msgctxt "analysis.qtl.server.population_id_missing"
+msgid "Population id argument is missing"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:544
+msgctxt "analysis.qtl.server.population_id_unaccepted"
+msgid "is not an accepted argument."
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:69
+msgctxt "analysis.qtl.server.population_not_qtl"
+msgid "%{population_id} is not a QTL population."
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:105 lib/SGN/Controller/Qtl.pm:136 lib/SGN/Controller/Qtl.pm:171 lib/SGN/Controller/Qtl.pm:193
+msgctxt "analysis.qtl.server.population_not_qtl_id"
+msgid "is not a QTL population id"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:419
+msgctxt "analysis.qtl.server.run_solqtl_alt"
+msgid "run solqtl"
+msgstr ""
+
+#: lib/SGN/Controller/Qtl.pm:432
+msgctxt "analysis.qtl.server.trait_acronym_key"
+msgid "Trait-acronym key"
+msgstr ""
+
+#: mason/qtl/qtl_load/population_exists.mas:27
+msgctxt "analysis.qtl.ui.already_exists_in_the_database_to_continue_loading_qtl_data"
+msgid "already \n                   exists in the database. To continue loading QTL data\n                   for a new population, try with a different population \n                   name."
+msgstr ""
+
+#: mason/qtl/qtl_load/check_organism.mas:35
+msgctxt "analysis.qtl.ui.and_check"
+msgid "and check."
+msgstr ""
+
+#: mason/qtl/qtl_load/compare_file_names.mas:33
+msgctxt "analysis.qtl.ui.and_check_the_file_you_are_trying_to_upload_or"
+msgid "and check the file you are trying to upload or if you keep \n                     having problem with it contact us."
+msgstr ""
+
+#: mason/qtl/qtl_load/trait_columns.mas:27
+msgctxt "analysis.qtl.ui.and_rearrange_the_order_of_the_columns_and_upload_the"
+msgid "and \n                 rearrange the order of the columns and upload the file again or if \n                 you keep having problem with it contact us."
+msgstr ""
+
+#: mason/qtl/qtl_load/population_exists.mas:32
+msgctxt "analysis.qtl.ui.and_try_to_use_a_different_name_or_if_you"
+msgid "and try to use a different name or if you keep having \n                  problem with it contact us."
+msgstr ""
+
+#: mason/qtl/qtl_load/check_organism.mas:30
+msgctxt "analysis.qtl.ui.as_a_first_step_please_make_sure_you_have_spelled"
+msgid "As a first step, please make sure you have spelled \n                  the species correctly."
+msgstr ""
+
+#: mason/qtl/qtl_form/organism_form.mas:25
+msgctxt "analysis.qtl.ui.associate_organism"
+msgid "associate organism"
+msgstr ""
+
+#: mason/qtl/qtl_load/check_organism.mas:34 mason/qtl/qtl_load/compare_file_names.mas:32 mason/qtl/qtl_load/population_exists.mas:31 mason/qtl/qtl_load/trait_columns.mas:27
+msgctxt "analysis.qtl.ui.back"
+msgid "back"
+msgstr ""
+
+#: mason/qtl/qtl_form/intro.mas:51
+msgctxt "analysis.qtl.ui.begin_uploading"
+msgid "Begin Uploading"
+msgstr ""
+
+#: mason/qtl/qtl/index.mas:94
+msgctxt "analysis.qtl.ui.browse_qtl_region"
+msgid "Browse QTL region"
+msgstr ""
+
+#: mason/qtl/qtl_load/check_organism.mas:44
+msgctxt "analysis.qtl.ui.check_parental_accession_s"
+msgid "Check parental accession(s)"
+msgstr ""
+
+#: mason/qtl/qtl_form/intro.mas:26
+msgctxt "analysis.qtl.ui.citation"
+msgid "Citation"
+msgstr ""
+
+#: mason/qtl/qtl_form/organism_form.mas:18
+msgctxt "analysis.qtl.ui.common_name"
+msgid "Common name:"
+msgstr ""
+
+#: mason/qtl/qtl_form/confirm.mas:40
+msgctxt "analysis.qtl.ui.confirmation"
+msgid "Confirmation"
+msgstr ""
+
+#: mason/qtl/qtl_load/check_organism.mas:38
+msgctxt "analysis.qtl.ui.contact_us"
+msgid "contact us."
+msgstr ""
+
+#: mason/qtl/population/data_access.mas:28
+msgctxt "analysis.qtl.ui.data_access"
+msgid "Data access"
+msgstr ""
+
+#: mason/qtl/qtl_load/compare_file_names.mas:40
+msgctxt "analysis.qtl.ui.data_files"
+msgid "Data files"
+msgstr ""
+
+#: mason/qtl/qtl_load/missing_data.mas:34
+msgctxt "analysis.qtl.ui.data_for_the_following_field_s_is_missing"
+msgid "Data for the following field(s) is missing: "
+msgstr ""
+
+#: mason/qtl/population/stat_tools.mas:46
+msgctxt "analysis.qtl.ui.diagnostic_tests"
+msgid "Diagnostic tests"
+msgstr ""
+
+#: mason/qtl/population/stat_tools.mas:56
+msgctxt "analysis.qtl.ui.displayed_on_the_legend_of_the_analysis_output"
+msgid "displayed on the legend of the analysis output."
+msgstr ""
+
+#: mason/qtl/qtl_form/pop_form.mas:84
+msgctxt "analysis.qtl.ui.do_you_want_to_make_the_data_public"
+msgid "Do you want to make the data public?"
+msgstr ""
+
+#: mason/qtl/qtl_form/pop_form.mas:80
+msgctxt "analysis.qtl.ui.donor_parent"
+msgid "Donor parent"
+msgstr ""
+
+#: mason/qtl/qtl_form/pop_form.mas:39
+msgctxt "analysis.qtl.ui.female_parent"
+msgid "Female parent"
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:22
+msgctxt "analysis.qtl.ui.first_if_you_would_like_to_have_the_formatting_of"
+msgid "first. If you \n  would like to have the formatting of your dataset checked \n  beforehand, send your data to:"
+msgstr ""
+
+#: mason/qtl/qtl_load/compare_file_names.mas:29
+msgctxt "analysis.qtl.ui.for_this_step_and_one_of_the_steps_before_it"
+msgid "for this step and one of the \n                     steps before it."
+msgstr ""
+
+#: mason/qtl/qtl_form/pop_form.mas:38 mason/qtl/qtl_form/pop_form.mas:39
+msgctxt "analysis.qtl.ui.format_eg"
+msgid "format eg."
+msgstr ""
+
+#: mason/qtl/population/genetic_map.mas:30
+msgctxt "analysis.qtl.ui.genetic_map"
+msgid "Genetic map"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:33
+msgctxt "analysis.qtl.ui.genome_scan_size_cm"
+msgid "Genome scan size (cM):"
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:31
+msgctxt "analysis.qtl.ui.genotype_data_file_tab_delimited_and"
+msgid "Genotype data file (tab delimited) and"
+msgstr ""
+
+#: mason/qtl/qtl_form/geno_form.mas:25
+msgctxt "analysis.qtl.ui.genotype_dataset"
+msgid "Genotype Dataset"
+msgstr ""
+
+#: mason/qtl/qtl_form/geno_form.mas:30
+msgctxt "analysis.qtl.ui.genotype_dataset_a98c9c"
+msgid "Genotype Dataset:"
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:20
+msgctxt "analysis.qtl.ui.guidelines"
+msgid "guidelines"
+msgstr ""
+
+#: mason/qtl/qtl_load/population_exists.mas:29
+msgctxt "analysis.qtl.ui.if_you_are_trying_to_load_more_or_change_data"
+msgid "If you are trying to load more or change data to an \n                  existing population contact us."
+msgstr ""
+
+#: mason/qtl/qtl_form/intro.mas:43
+msgctxt "analysis.qtl.ui.if_you_have_any_problems_uploading_your_data_or_remarks"
+msgid "If you have any problems uploading your data or remarks, \n                please send your feedback to:"
+msgstr ""
+
+#: mason/qtl/qtl_load/check_organism.mas:37
+msgctxt "analysis.qtl.ui.if_you_keep_having_the_same_problem_with_it"
+msgid "if you keep having the same problem with it"
+msgstr ""
+
+#: mason/qtl/qtl_load/population_exists.mas:27
+msgctxt "analysis.qtl.ui.it_appears_that_a_population"
+msgid "It appears that a population"
+msgstr ""
+
+#: mason/qtl/qtl_load/check_organism.mas:29
+msgctxt "analysis.qtl.ui.it_appears_that_sgn_currently_does_not_support_this_species"
+msgid "It appears that SGN currently does not support \n                  this species ("
+msgstr ""
+
+#: mason/qtl/population/traits_list.mas:30
+msgctxt "analysis.qtl.ui.lines"
+msgid "Lines"
+msgstr ""
+
+#: mason/qtl/qtl_form/pop_form.mas:38
+msgctxt "analysis.qtl.ui.male_parent"
+msgid "Male parent"
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:33
+msgctxt "analysis.qtl.ui.markers_with_their_sequences_need_to_be_already_in_sgn"
+msgid "Markers with their sequences need to be already in SGN. \n      Read"
+msgstr ""
+
+#: mason/qtl/qtl_load/missing_data.mas:48
+msgctxt "analysis.qtl.ui.missing_data"
+msgid "Missing Data:"
+msgstr ""
+
+#: mason/qtl/qtl_form/pop_form.mas:53
+msgctxt "analysis.qtl.ui.must_be_filled"
+msgid "must be filled."
+msgstr ""
+
+#: mason/qtl/population/traits_list.mas:30
+msgctxt "analysis.qtl.ui.no_of"
+msgid "No. of"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:30
+msgctxt "analysis.qtl.ui.no_of_imputations"
+msgid "No. of imputations:"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:120
+msgctxt "analysis.qtl.ui.no_of_permutations"
+msgid "No. of permutations:"
+msgstr ""
+
+#: mason/qtl/population/summary.mas:41 mason/solgs/population/summary.mas:52
+msgctxt "analysis.qtl.ui.no_of_traits"
+msgid "No. of traits"
+msgstr ""
+
+#: mason/qtl/search/results.mas:48 mason/solgs/search/result/populations.mas:70 mason/solgs/search/result/traits.mas:49
+msgctxt "analysis.qtl.ui.no_results_found_for"
+msgid "No results found for"
+msgstr ""
+
+#: mason/qtl/search/results.mas:52
+msgctxt "analysis.qtl.ui.no_results_search_again_with_with_a_trait_name"
+msgid "No results. Search again with with a trait name."
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:33
+msgctxt "analysis.qtl.ui.not_required_for_marker_regression"
+msgid "not required for \n                                   Marker Regression"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:35
+msgctxt "analysis.qtl.ui.not_required_for_marker_regression_55357a"
+msgid "not required for Marker Regression"
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:33
+msgctxt "analysis.qtl.ui.on_how_to_submit_markers_to_sgn"
+msgid "on how \n      to submit markers to SGN."
+msgstr ""
+
+#: mason/qtl/qtl_form/confirm.mas:45
+msgctxt "analysis.qtl.ui.on_the_next_page_you_will_see_the_population_data"
+msgid "On the next page you will see the population data summary. \n             The qtl analysis is performed on-the-fly and you need to click the \n             graph icon  corresponding to the trait of your interest to proceed \n             with the QTL mapping analysis. The QTL analysis takes a few minutes, \n             so please be patient."
+msgstr ""
+
+#: mason/qtl/population/data_access.mas:31
+msgctxt "analysis.qtl.ui.or_sgn"
+msgid "or \n    SGN:"
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:30
+msgctxt "analysis.qtl.ui.phenotype_data_file_tab_delimited"
+msgid "Phenotype data file (tab delimited),"
+msgstr ""
+
+#: mason/qtl/qtl_form/pheno_form.mas:25
+msgctxt "analysis.qtl.ui.phenotype_dataset"
+msgid "Phenotype Dataset"
+msgstr ""
+
+#: mason/qtl/qtl_form/pheno_form.mas:30
+msgctxt "analysis.qtl.ui.phenotype_dataset_17c08e"
+msgid "Phenotype Dataset:"
+msgstr ""
+
+#: mason/qtl/qtl_load/check_organism.mas:34 mason/qtl/qtl_load/compare_file_names.mas:32 mason/qtl/qtl_load/population_exists.mas:31 mason/qtl/qtl_load/trait_columns.mas:27
+msgctxt "analysis.qtl.ui.please_go"
+msgid "Please go"
+msgstr ""
+
+#: mason/qtl/qtl_load/missing_data.mas:43
+msgctxt "analysis.qtl.ui.please_go_back_and_fill_in_the_missing_information"
+msgid "Please go back and fill in the missing information."
+msgstr ""
+
+#: mason/qtl/population/stat_tools.mas:54
+msgctxt "analysis.qtl.ui.please_proceed_with_your_qtl_analysis_of_your_trait_of"
+msgid "Please proceed with your QTL analysis of your trait of interest."
+msgstr ""
+
+#: mason/qtl/population/index.mas:39
+msgctxt "analysis.qtl.ui.population_summary"
+msgid "Population summary"
+msgstr ""
+
+#: mason/qtl/qtl/index.mas:70
+msgctxt "analysis.qtl.ui.position_cm"
+msgid "Position (cM)"
+msgstr ""
+
+#: mason/qtl/qtl/index.mas:66
+msgctxt "analysis.qtl.ui.qtl_95_confidence_interval"
+msgid "QTL 95% Confidence Interval"
+msgstr ""
+
+#: mason/qtl/qtl/index.mas:32
+msgctxt "analysis.qtl.ui.qtl_for"
+msgid "QTL for "
+msgstr ""
+
+#: mason/qtl/qtl/index.mas:39
+msgctxt "analysis.qtl.ui.qtl_for_trait_in_population"
+msgid "QTL for %{trait} in %{population}"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:83
+msgctxt "analysis.qtl.ui.qtl_genotype_probability_significance_level"
+msgid "QTL genotype probability significance level:"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:34
+msgctxt "analysis.qtl.ui.qtl_genotype_probablity_method"
+msgid "QTL genotype probability method:"
+msgstr ""
+
+#: mason/qtl/qtl/index.mas:42
+msgctxt "analysis.qtl.ui.qtl_map_for_trait"
+msgid "QTL map for %{trait}"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:62
+msgctxt "analysis.qtl.ui.qtl_mapping_method"
+msgid "QTL mapping method:"
+msgstr ""
+
+#: mason/qtl/qtl/index.mas:82
+msgctxt "analysis.qtl.ui.qtl_markers_genetic_positions_and_comparative_map_viewer"
+msgid "QTL markers' genetic positions and Comparative Map Viewer"
+msgstr ""
+
+#: mason/qtl/qtl/genome_positions.mas:25
+msgctxt "analysis.qtl.ui.qtl_markers_genomic_matches"
+msgid "QTL markers' genomic matches"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:54
+msgctxt "analysis.qtl.ui.qtl_model"
+msgid "QTL model:"
+msgstr ""
+
+#: mason/qtl/qtl_load/population_exists.mas:39
+msgctxt "analysis.qtl.ui.qtl_population"
+msgid "QTL population"
+msgstr ""
+
+#: mason/qtl/search/results.mas:19
+msgctxt "analysis.qtl.ui.qtl_search_results"
+msgid "QTL search results"
+msgstr ""
+
+#: mason/qtl/qtl_load/check_organism.mas:32
+msgctxt "analysis.qtl.ui.read_also_the_guidline_for_the_nomenclature_format_you_have"
+msgid "Read also the guideline for the nomenclature format \n                  you have to use to submit the parental lines."
+msgstr ""
+
+#: mason/qtl/qtl_form/pop_form.mas:78
+msgctxt "analysis.qtl.ui.recurrent_parent"
+msgid "Recurrent parent"
+msgstr ""
+
+#: mason/qtl/qtl/index.mas:70
+msgctxt "analysis.qtl.ui.remark"
+msgid "Remark"
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:25
+msgctxt "analysis.qtl.ui.required_data"
+msgid "Required data:"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:32
+msgctxt "analysis.qtl.ui.required_only_if_permutation_analysis_lod_threshold_is_run"
+msgid "required only if permutation analysis \n                                  (LOD threshold) is run"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:30
+msgctxt "analysis.qtl.ui.required_only_if_the_simulate_method_is_selected_for_the"
+msgid "required only if the \n                                Simulate method is selected for the \n                                calculation of QTL genotype probability \n                                method and Multiple Imputation"
+msgstr ""
+
+#: mason/qtl/qtl_form/pop_form.mas:28
+msgctxt "analysis.qtl.ui.select_organism"
+msgid "[Select Organism]"
+msgstr ""
+
+#: mason/qtl/population/index.mas:55
+msgctxt "analysis.qtl.ui.set_statistical_parameters"
+msgid "Set statistical parameters"
+msgstr ""
+
+#: mason/qtl/population/stat_tools.mas:38
+msgctxt "analysis.qtl.ui.set_your_own_qtl_analysis_parameters"
+msgid "Set your own QTL analysis parameters"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:31
+msgctxt "analysis.qtl.ui.significance_level_of_permutation_test"
+msgid "Significance level of permutation test:"
+msgstr ""
+
+#: mason/qtl/waitmessage.mas:22
+msgctxt "analysis.qtl.ui.solqtl_is_running_please_wait_this_may_take_a_few"
+msgid "solQTL is running ..... \n                Please wait ..... \n                       This may take \n                            a few minutes.\n    "
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:28
+msgctxt "analysis.qtl.ui.some_basic_information_about_the_population"
+msgid "Some basic information about the population,"
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:32
+msgctxt "analysis.qtl.ui.statistical_parameters"
+msgid "Statistical parameters."
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:46
+msgctxt "analysis.qtl.ui.statistical_parameters_2710f5"
+msgid "Statistical Parameters"
+msgstr ""
+
+#: mason/qtl/qtl_form/intro.mas:31
+msgctxt "analysis.qtl.ui.step_0_introduction"
+msgid "Step 0: Introduction"
+msgstr ""
+
+#: mason/qtl/qtl_form/pop_form.mas:45
+msgctxt "analysis.qtl.ui.step_1_submit_qtl_population_details"
+msgid "Step 1: Submit QTL Population Details"
+msgstr ""
+
+#: mason/qtl/qtl_form/trait_form.mas:23
+msgctxt "analysis.qtl.ui.step_2_submit_trait_data"
+msgid "Step 2: Submit Trait Data"
+msgstr ""
+
+#: mason/qtl/qtl_form/pheno_form.mas:24
+msgctxt "analysis.qtl.ui.step_3_submit_phenotype_data"
+msgid "Step 3: Submit Phenotype Data"
+msgstr ""
+
+#: mason/qtl/qtl_form/geno_form.mas:24
+msgctxt "analysis.qtl.ui.step_4_submit_genotype_data"
+msgid "Step 4: Submit Genotype Data"
+msgstr ""
+
+#: mason/qtl/qtl_form/stat_form.mas:43
+msgctxt "analysis.qtl.ui.step_5_submit_statistical_parameters"
+msgid "Step 5: Submit Statistical Parameters"
+msgstr ""
+
+#: mason/qtl/qtl_form/confirm.mas:39
+msgctxt "analysis.qtl.ui.step_6_confirmation"
+msgid "Step 6: Confirmation"
+msgstr ""
+
+#: mason/qtl/population/index.mas:28
+msgctxt "analysis.qtl.ui.submit_qtl_population"
+msgid "Submit QTL population"
+msgstr ""
+
+#: mason/qtl/population/stat_tools.mas:55
+msgctxt "analysis.qtl.ui.the_default_parameters_for_qtl_analysis_are"
+msgid "The default parameters for QTL analysis are"
+msgstr ""
+
+#: mason/qtl/population/data_access.mas:31
+msgctxt "analysis.qtl.ui.the_qtl_data_for_this_population_is_not_public_yet"
+msgid "The QTL data for this population is not public yet. If you are the \n    data owner or SGN curator, login to access the data. \n    Others who would like to know more about the data \n    can contact the owner of the data:"
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:22
+msgctxt "analysis.qtl.ui.the_uploading_of_qtl_data_needs_to_be_done_in"
+msgid "The uploading of QTL data needs to be done in one session. \n  Therefore, prepare your data files in the required format before \n  starting the process. Please read the submission"
+msgstr ""
+
+#: mason/qtl/qtl_form/confirm.mas:46
+msgctxt "analysis.qtl.ui.to_continue_to_the_qtl_analysis_page_follow_the_link"
+msgid "To continue to the QTL analysis page, follow the link below:"
+msgstr ""
+
+#: mason/qtl/population/index.mas:88
+msgctxt "analysis.qtl.ui.trait_acronyms"
+msgid "Trait acronyms"
+msgstr ""
+
+#: mason/qtl/qtl_form/trait_form.mas:24
+msgctxt "analysis.qtl.ui.trait_dataset"
+msgid "Trait Dataset"
+msgstr ""
+
+#: mason/qtl/qtl_form/trait_form.mas:28
+msgctxt "analysis.qtl.ui.trait_dataset_11aa15"
+msgid "Trait dataset:"
+msgstr ""
+
+#: mason/qtl/qtl_form/general_intro.mas:29
+msgctxt "analysis.qtl.ui.traits_data_file_tab_delimited"
+msgid "Traits data file (tab delimited),"
+msgstr ""
+
+#: mason/qtl/qtl_load/trait_columns.mas:32
+msgctxt "analysis.qtl.ui.traits_file"
+msgid "Traits file"
+msgstr ""
+
+#: mason/qtl/population/stat_tools.mas:81
+msgctxt "analysis.qtl.ui.under_development"
+msgid "Under development."
+msgstr ""
+
+#: mason/qtl/population/stat_tools.mas:32
+msgctxt "analysis.qtl.ui.use_default_qtl_parameters"
+msgid "Use default QTL parameters"
+msgstr ""
+
+#: mason/qtl/qtl_load/compare_file_names.mas:28
+msgctxt "analysis.qtl.ui.you_are_trying_to_upload_file_s_with_the_same"
+msgid "You are trying to upload file(s) with the same name"
+msgstr ""
+
+#: mason/qtl/qtl_form/confirm.mas:44
+msgctxt "analysis.qtl.ui.you_have_successfully_uploaded_your_qtl_data"
+msgid "You have successfully uploaded your QTL data."
+msgstr ""
+
+#: mason/analytics_protocols/index.mas:41 mason/breeders_toolbox/cross/intercross_file_info.mas:38 mason/breeders_toolbox/cross/intercross_file_info.mas:51 mason/breeders_toolbox/genotyping_protocol/details.mas:94 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:1116 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:141 mason/search/genotyping_protocols.mas:27
+msgctxt "cross.forms.create_date"
+msgid "Create Date"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:21 mason/breeders_toolbox/cross/crossing_experiment_and_trial_linkage.mas:15 mason/breeders_toolbox/cross/crossing_experiment_and_trial_linkage.mas:28 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:27 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:319 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:15 mason/breeders_toolbox/drone_imagery/raw_image_section.mas:107 mason/breeders_toolbox/manage_drone_imagery.mas:1243 mason/breeders_toolbox/manage_drone_imagery.mas:1423 mason/breeders_toolbox/manage_drone_imagery.mas:1525 mason/breeders_toolbox/manage_drone_imagery.mas:1613 mason/breeders_toolbox/manage_drone_imagery.mas:1733 mason/breeders_toolbox/manage_drone_imagery.mas:1796 mason/breeders_toolbox/manage_drone_imagery.mas:2084
+msgctxt "cross.pages.field_trial"
+msgid "Field Trial"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:231 mason/analyses/store_new_analysis_values_and_model.mas:464 mason/analyses/upload_analysis_dialogs.mas:64 mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:241 mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:893 mason/breeders_toolbox/cross/add_cross_dialogs.mas:76 mason/breeders_toolbox/cross/add_crossing_trial_dialogs.mas:42 mason/breeders_toolbox/cross/edit_crossingtrial_details_dialog.mas:31 mason/breeders_toolbox/cross/upload_crosses_dialogs.mas:87 mason/breeders_toolbox/genotyping_data_project/add_existing_genotyping_plate_dialog.mas:24 mason/breeders_toolbox/genotyping_data_project/edit_genotyping_project_details_dialog.mas:33 mason/breeders_toolbox/genotyping_trials/edit_genotyping_trial_details_dialog.mas:33 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:102 mason/breeders_toolbox/program/add_product_profile_dialog.mas:17 mason/breeders_toolbox/program/upload_profile_dialog.mas:55 mason/order/add_catalog_item_dialog.mas:46 mason/order/add_catalog_using_list_dialog.mas:56 mason/order/edit_catalog_details_dialog.mas:98 mason/propagation/add_propagation_project.mas:58 mason/propagation/edit_propagation_project_details_dialog.mas:29 mason/tracking_activities/add_new_activity_project.mas:58 mason/tracking_activities/edit_tracking_activity_project_details.mas:30 mason/transformation/add_transformation_project_dialog.mas:47 mason/transformation/edit_transformation_project_details.mas:29
+msgctxt "cross.ui.breeding_program.2c9b17e"
+msgid "Breeding Program:"
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:186 mason/analyses/upload_analysis_dialogs.mas:23 mason/breeders_toolbox/add_derived_accessions_using_list_dialog.mas:15 mason/breeders_toolbox/add_new_trait_dialogs.mas:15 mason/breeders_toolbox/add_new_trait_dialogs.mas:295 mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:21 mason/breeders_toolbox/cross/add_cross_dialogs.mas:32 mason/breeders_toolbox/cross/add_crossing_trial_dialogs.mas:20 mason/breeders_toolbox/cross/upload_crosses_dialogs.mas:22 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:1073 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:24 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_qc_dialogs.mas:24 mason/propagation/add_propagation_project.mas:20 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:20 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:20 mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:30 mason/tracking_activities/add_new_activity_project.mas:20 mason/tracking_activities/generate_tracking_identifiers_dialog.mas:20 mason/transformation/add_transformation_project_dialog.mas:20
+msgctxt "cross.ui.intro"
+msgid "Intro"
+msgstr ""
+
+#: mason/analyses/analysis_details.mas:43 mason/breeders_toolbox/cross/crossingtrial_details.mas:45 mason/breeders_toolbox/genotyping_data_project/details.mas:45 mason/propagation/propagation_project_details.mas:60 mason/tracking_activities/activity_project_details.mas:65 mason/transformation/transformation_project_details.mas:50
+msgctxt "cross.ui.no_breeding_program"
+msgid "[No Breeding Program]"
+msgstr ""
+
+#: mason/analyses/analysis_details.mas:68 mason/analyses/model_detail_page_section.mas:40 mason/analytics_protocols/analytics_protocols_details.mas:40 mason/breeders_toolbox/cross/crossingtrial_details.mas:109 mason/breeders_toolbox/genotyping_data_project/details.mas:107 mason/propagation/propagation_project_details.mas:97 mason/tracking_activities/activity_project_details.mas:102 mason/transformation/transformation_project_details.mas:87
+msgctxt "cross.ui.no_description"
+msgid "[No Description]"
+msgstr ""
+
+#: mason/analyses/analysis_details.mas:56 mason/breeders_toolbox/cross/crossingtrial_details.mas:71 mason/breeders_toolbox/genotyping_data_project/details.mas:71 mason/propagation/propagation_project_details.mas:86 mason/tracking_activities/activity_project_details.mas:91 mason/transformation/transformation_project_details.mas:76
+msgctxt "cross.ui.no_year"
+msgid "[No Year]"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:183 mason/analytics_protocols/analytics_protocols_result_files.mas:10 mason/breeders_toolbox/cross/intercross_file_info.mas:40 mason/breeders_toolbox/cross/intercross_file_info.mas:53 mason/breeders_toolbox/view_file.mas:36 mason/homepage/phenotype_uploads.mas:13
+msgctxt "file_viewer.ui.type"
+msgid "File Type"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js:549 js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js:66 js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js:70 mason/breeders_toolbox/folder/folder_new.mas:220 mason/breeders_toolbox/genotyping_data_project/genotype_archived_vcf.mas:49 mason/search/cross/cross_search_using_female.mas:108 mason/search/cross/cross_search_using_male.mas:110 mason/search/cross/progeny_search_using_female.mas:107 mason/search/cross/progeny_search_using_male.mas:106
+msgctxt "folder.new.request_error"
+msgid "An error occurred"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/Analysis.pm:204 lib/SGN/Controller/AJAX/Analysis.pm:230 lib/SGN/Controller/AJAX/Analysis.pm:256 lib/SGN/Controller/AJAX/Analysis.pm:284 lib/SGN/Controller/AJAX/Analysis.pm:309 lib/SGN/Controller/AJAX/Analysis.pm:365 lib/SGN/Controller/AJAX/GenotypesVCFUpload.pm:226 lib/SGN/Controller/AJAX/GenotypesVCFUpload.pm:293 lib/SGN/Controller/AJAX/GenotypesVCFUpload.pm:426
+msgctxt "genotype.file.could_not_save_file_upload_original_name_in_archive"
+msgid "Could not save file %{upload_original_name} in archive."
+msgstr ""
+
+#: mason/analyses/store_new_analysis_values_and_model.mas:245 mason/search/markers/search.mas:127
+msgctxt "genotype.marker.protocol"
+msgid "Protocol:"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:81 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:367 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:99 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:188 mason/breeders_toolbox/genotype_data_project.mas:72 mason/breeders_toolbox/genotype_data_project.mas:74 mason/breeders_toolbox/genotyping_trials/detail.mas:237 mason/breeders_toolbox/genotyping_trials/detail.mas:239
+msgctxt "genotype.plate.genotyping_data"
+msgid "Genotyping Data"
+msgstr ""
+
+#: mason/analyses/model_details.mas:90 mason/analytics_protocols/analytics_protocols_result_files.mas:11 mason/breeders_toolbox/create_tissue_samples_dialogs.mas:55 mason/breeders_toolbox/genotyping_protocol/genotype_data.mas:20 mason/breeders_toolbox/genotyping_protocol/pcr_genotype_data.mas:70 mason/breeders_toolbox/manage_drone_imagery.mas:1273 mason/breeders_toolbox/tissue_samples/field_trials_with_tissue_samples.mas:25 mason/breeders_toolbox/tissue_samples/genotyping_trials.mas:24 mason/breeders_toolbox/tissue_samples/sampling_trials.mas:23 mason/qtl/population/download.mas:33 mason/stock/direct_genotypes.mas:15
+msgctxt "global.download"
+msgid "Download"
+msgstr ""
+
+#: mason/analytics_protocols/analytics_protocols_result_files.mas:9 mason/breeders_toolbox/file_share/file_dump_share_files.mas:7 mason/breeders_toolbox/genotyping_data_project/genotype_archived_vcf.mas:9
+msgctxt "global.file_dump_share_files.file_name"
+msgid "File Name"
+msgstr ""
+
+#: mason/analyses/analysis_details.mas:36 mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:934 mason/breeders_toolbox/decision_meeting/accession_meeting_section.mas:24 mason/breeders_toolbox/decision_meeting/add_meeting_dialog.mas:34 mason/breeders_toolbox/genotyping_data_project/details.mas:38 mason/breeders_toolbox/genotyping_trials/detail.mas:65 mason/dbstats/recent_activity.mas:32 mason/dbstats/recent_activity.mas:41 mason/dbstats/recent_activity.mas:50 mason/dbstats/recent_activity.mas:59 mason/index_logged_in_user.mas:58 mason/index_logged_in_user.mas:67 mason/order/catalog_item_details.mas:41 mason/propagation/propagation_project_details.mas:53 mason/tools/trialallocation.mas:224 mason/tracking_activities/activity_project_details.mas:58 mason/transformation/transformation_project_details.mas:43
+msgctxt "global.index_logged_in_user.breeding_program"
+msgid "Breeding Program"
+msgstr ""
+
+#: mason/breeders_toolbox/progress.mas:53 mason/index_logged_in_user.mas:50
+msgctxt "global.index_logged_in_user.year"
+msgid "year"
+msgstr ""
+
+#: mason/breeders_toolbox/progress.mas:26 mason/breeders_toolbox/radargraph.mas:44 mason/breeders_toolbox/sampling_trials/create_sampling_trials_dialogs.mas:155 mason/tools/mixedmodels.mas:222 mason/tools/mixedmodels.mas:235 mason/tools/mixedmodels.mas:242
+msgctxt "global.loading"
+msgid "[loading...]"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:358 mason/breeders_toolbox/file_share/manage_file_share_dump.mas:58 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:1462 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:1531 mason/breeders_toolbox/trial/change_plot_accessions_dialogs.mas:171 mason/order/upload_catalog_items_dialog.mas:148 mason/propagation/upload_propagation_group_ids_dialog.mas:162 mason/propagation/upload_propagation_id_status_dialog.mas:153 mason/propagation/upload_propagation_ids_dialog.mas:157 mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:1145 mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:1216 mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:1278 mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:1293 mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:1401 mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:1470 mason/transformation/upload_qPCR_data_dialog.mas:320 mason/transformation/upload_transformation_ids_dialog.mas:152 mason/transformation/upload_transgenic_historical_data_dialog.mas:163 mason/transformation/upload_transgenic_lines_dialog.mas:151
+msgctxt "global.manage_file_share_dump.select_file"
+msgid "Please select a file"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:206 mason/analyses/upload_analysis_dialogs.mas:282 mason/breeders_toolbox/add_derived_accessions_using_list_dialog.mas:61 mason/breeders_toolbox/add_new_trait_dialogs.mas:263 mason/breeders_toolbox/file_share/manage_file_share_dump.mas:37 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:473 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_qc_dialogs.mas:87 mason/breeders_toolbox/manage_populations_dialogs.mas:115 mason/breeders_toolbox/manage_populations_dialogs.mas:61 mason/breeders_toolbox/manage_populations_dialogs.mas:89 mason/breeders_toolbox/trial/accession_rank_workflow.mas:71 mason/breeders_toolbox/trial/change_plot_accessions_dialogs.mas:73 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:184 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:187 mason/breeders_toolbox/trial/time_series_accessions_workflow.mas:77 mason/homepage/phenotypes.mas:25 mason/ontology/compose_trait.mas:165 mason/order/catalog.mas:142 mason/order/catalog_transgenic_lines.mas:24 mason/order/catalog_transgenic_lines.mas:99 mason/order/create_ontology_file_dialog.mas:30 mason/order/re_open_dialog.mas:22 mason/order/re_order_dialog.mas:30 mason/propagation/add_propagation_project.mas:106 mason/qtl/qtl_form/geno_form.mas:34 mason/qtl/qtl_form/pheno_form.mas:34 mason/qtl/qtl_form/pop_form.mas:91 mason/qtl/qtl_form/stat_form.mas:153 mason/qtl/qtl_form/trait_form.mas:32 mason/stock/download_stock_phenotypes_dialog.mas:148 mason/tools/trait_designer.mas:108 mason/tools/treatment_designer.mas:99 mason/tracking_activities/add_new_activity_project.mas:106 mason/tracking_activities/generate_tracking_identifiers_dialog.mas:58 mason/tracking_activities/update_status_dialog.mas:62 mason/transformation/add_transformant_names_dialog.mas:40 mason/transformation/add_transformants_using_list_dialog.mas:30 mason/transformation/add_transformation_control_dialog.mas:100 mason/transformation/add_transformation_control_dialog.mas:30 mason/transformation/add_transformation_identifier_dialog.mas:67 mason/transformation/add_transformation_project_dialog.mas:95 mason/transformation/set_default_plant_material_dialog.mas:30 mason/transformation/set_transformant_names_dialog.mas:39
+msgctxt "global.manage_file_share_dump.submit"
+msgid "Submit"
+msgstr ""
+
+#: mason/qtl/search/results.mas:26 mason/qtl/search/results.mas:44 mason/search/annotation/genes.mas:23 mason/search/cross/cross_search_using_female.mas:45 mason/search/cross/cross_search_using_male.mas:46 mason/search/cross/parent_search.mas:32 mason/search/cross/progeny_search_using_female.mas:47 mason/search/cross/progeny_search_using_male.mas:46 mason/search/stocks_using_genotypes.mas:105 mason/search/vectors.mas:136 mason/solgs/search/result/traits.mas:29 mason/solgs/search/result/traits.mas:45
+msgctxt "global.search.annotation.genes.search_results"
+msgid "Search Results"
+msgstr ""
+
+#: mason/qtl/population/summary.mas:31 mason/search/datasets.mas:21 mason/solgs/population/summary.mas:49
+msgctxt "global.search.datasets.owner"
+msgid "Owner"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:101 mason/analyses/store_new_analysis_values_and_model.mas:204 mason/analyses/store_new_analysis_values_and_model.mas:346 mason/analyses/upload_analysis_dialogs.mas:145 mason/breeders_toolbox/breeder_search_page.mas:351 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:118 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:127 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:136 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:190 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:385 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:394 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:403 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:207 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:216 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:225 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:82 mason/breeders_toolbox/drone_imagery/generate_plot_polygons_standard_process_raw_images_section_ground_control_points.mas:17 mason/breeders_toolbox/drone_imagery/upload_drone_imagery_dialogs.mas:352 mason/breeders_toolbox/genotyping_trials/delete_genotyping_plate.mas:79 mason/breeders_toolbox/genotyping_trials/submit_plates_dialog.mas:111 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:244 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:437 mason/breeders_toolbox/manage_drone_imagery.mas:102 mason/breeders_toolbox/manage_drone_imagery.mas:416 mason/breeders_toolbox/noaa_ncdc_analysis.mas:51 mason/breeders_toolbox/trial/change_plot_accessions_dialogs.mas:102 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:106 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:116 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:126 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:136 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:172 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:96 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:145 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:155 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:68 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:78 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:88 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:98 mason/breeders_toolbox/trial/set_phenotypes_fully_uploaded.mas:22 mason/breeders_toolbox/trial/time_series_accessions_workflow.mas:59 mason/breeders_toolbox/trial/time_series_accessions_workflow.mas:68 mason/qtl/qtl_form/pop_form.mas:86 mason/stock/download_stock_phenotypes_dialog.mas:101 mason/stock/download_stock_phenotypes_dialog.mas:111 mason/stock/download_stock_phenotypes_dialog.mas:121 mason/stock/download_stock_phenotypes_dialog.mas:71 mason/stock/download_stock_phenotypes_dialog.mas:81 mason/stock/download_stock_phenotypes_dialog.mas:91 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:100 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:100 mason/tools/nirs/nirs_analysis_plot_spectra_dialogs.mas:51 mason/tools/nirs/nirs_analysis_train_dialogs.mas:48
+msgctxt "global.search_wizard.no"
+msgid "No"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:102 mason/analyses/store_new_analysis_values_and_model.mas:205 mason/analyses/store_new_analysis_values_and_model.mas:345 mason/analyses/upload_analysis_dialogs.mas:144 mason/breeders_toolbox/breeder_search_page.mas:352 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:119 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:128 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:137 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:191 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:386 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:395 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:404 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:208 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:217 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:226 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:83 mason/breeders_toolbox/drone_imagery/generate_plot_polygons_standard_process_raw_images_section_ground_control_points.mas:18 mason/breeders_toolbox/drone_imagery/standard_process_raw_images.mas:2084 mason/breeders_toolbox/drone_imagery/upload_drone_imagery_dialogs.mas:351 mason/breeders_toolbox/genotyping_trials/delete_genotyping_plate.mas:78 mason/breeders_toolbox/genotyping_trials/submit_plates_dialog.mas:112 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:245 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:438 mason/breeders_toolbox/manage_drone_imagery.mas:417 mason/breeders_toolbox/manage_drone_imagery.mas:6813 mason/breeders_toolbox/noaa_ncdc_analysis.mas:52 mason/breeders_toolbox/trial/change_plot_accessions_dialogs.mas:101 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:107 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:117 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:127 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:137 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:173 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:97 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:146 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:156 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:69 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:79 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:89 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:99 mason/breeders_toolbox/trial/set_phenotypes_fully_uploaded.mas:21 mason/breeders_toolbox/trial/time_series_accessions_workflow.mas:60 mason/breeders_toolbox/trial/time_series_accessions_workflow.mas:69 mason/qtl/qtl_form/pop_form.mas:85 mason/stock/download_stock_phenotypes_dialog.mas:102 mason/stock/download_stock_phenotypes_dialog.mas:112 mason/stock/download_stock_phenotypes_dialog.mas:122 mason/stock/download_stock_phenotypes_dialog.mas:72 mason/stock/download_stock_phenotypes_dialog.mas:82 mason/stock/download_stock_phenotypes_dialog.mas:92 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:99 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:99 mason/tools/nirs/nirs_analysis_plot_spectra_dialogs.mas:50 mason/tools/nirs/nirs_analysis_train_dialogs.mas:49
+msgctxt "global.search_wizard.yes"
+msgid "Yes"
+msgstr ""
+
+#: mason/analyses/analysis_details.mas:50 mason/breeders_toolbox/create_tissue_samples_dialogs.mas:49 mason/breeders_toolbox/progress.mas:93 mason/breeders_toolbox/tissue_samples/field_trials_with_tissue_samples.mas:19 mason/breeders_toolbox/tissue_samples/genotyping_trials.mas:19 mason/breeders_toolbox/tissue_samples/sampling_trials.mas:19 mason/solgs/search/combine_trials_table.mas:40 mason/solgs/search/result/confirm/populations_list.mas:29 mason/solgs/search/selection_populations.mas:71
+msgctxt "global.trial_table.year"
+msgid "Year"
+msgstr ""
+
+#: mason/analyses/analysis_calculate_statistics.mas:33 mason/analyses/analysis_calculate_statistics.mas:48 mason/analyses/store_new_analysis_values_and_model.mas:191 mason/analyses/store_new_analysis_values_and_model.mas:213 mason/analyses/upload_analysis_dialogs.mas:108 mason/analyses/upload_analysis_dialogs.mas:30 mason/breeders_toolbox/create_tissue_samples_dialogs.mas:31 mason/breeders_toolbox/create_tissue_samples_dialogs.mas:65 mason/breeders_toolbox/create_tissue_samples_dialogs.mas:75 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:331 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:346 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:39 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:63 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:27 mason/breeders_toolbox/drone_imagery/drone_imagery_export_imaging_events.mas:45 mason/breeders_toolbox/drone_imagery/drone_imagery_export_imaging_events.mas:68 mason/breeders_toolbox/drone_imagery/standard_process_raw_images.mas:33 mason/breeders_toolbox/drone_imagery/standard_process_raw_images.mas:345 mason/breeders_toolbox/drone_imagery/standard_process_raw_images.mas:369 mason/breeders_toolbox/drone_imagery/standard_process_raw_images.mas:67 mason/breeders_toolbox/drone_imagery/standard_process_raw_images.mas:81 mason/breeders_toolbox/drone_imagery/upload_drone_imagery_dialogs.mas:154 mason/breeders_toolbox/drone_imagery/upload_drone_imagery_dialogs.mas:213 mason/breeders_toolbox/drone_imagery/upload_drone_imagery_dialogs.mas:54 mason/breeders_toolbox/manage_drone_imagery.mas:1255 mason/breeders_toolbox/manage_drone_imagery.mas:1270 mason/breeders_toolbox/manage_drone_imagery.mas:1334 mason/breeders_toolbox/manage_drone_imagery.mas:1350 mason/breeders_toolbox/manage_drone_imagery.mas:1372 mason/breeders_toolbox/manage_drone_imagery.mas:1388 mason/breeders_toolbox/manage_drone_imagery.mas:1412 mason/breeders_toolbox/manage_drone_imagery.mas:1435 mason/breeders_toolbox/manage_drone_imagery.mas:1522 mason/breeders_toolbox/manage_drone_imagery.mas:1538 mason/breeders_toolbox/manage_drone_imagery.mas:1562 mason/breeders_toolbox/manage_drone_imagery.mas:1578 mason/breeders_toolbox/manage_drone_imagery.mas:1602 mason/breeders_toolbox/manage_drone_imagery.mas:1625 mason/breeders_toolbox/manage_drone_imagery.mas:1682 mason/breeders_toolbox/manage_drone_imagery.mas:1698 mason/breeders_toolbox/manage_drone_imagery.mas:1722 mason/breeders_toolbox/manage_drone_imagery.mas:1745 mason/breeders_toolbox/manage_drone_imagery.mas:1761 mason/breeders_toolbox/manage_drone_imagery.mas:1785 mason/breeders_toolbox/manage_drone_imagery.mas:1808 mason/breeders_toolbox/manage_drone_imagery.mas:2006 mason/breeders_toolbox/manage_drone_imagery.mas:2024 mason/breeders_toolbox/manage_drone_imagery.mas:2049 mason/breeders_toolbox/manage_drone_imagery.mas:2074 mason/breeders_toolbox/manage_drone_imagery.mas:2097 mason/breeders_toolbox/manage_drone_imagery.mas:375 mason/breeders_toolbox/manage_drone_imagery.mas:399 mason/breeders_toolbox/manage_drone_imagery.mas:50 mason/breeders_toolbox/manage_drone_imagery.mas:535 mason/breeders_toolbox/manage_drone_imagery.mas:82 mason/breeders_toolbox/sampling_trials/create_sampling_trials_dialogs.mas:220 mason/breeders_toolbox/sampling_trials/create_sampling_trials_dialogs.mas:34 mason/breeders_toolbox/sampling_trials/create_sampling_trials_dialogs.mas:94 mason/breeders_toolbox/trial/genotype_comparison_workflow.mas:44 mason/tools/nirs/nirs_analysis_plot_spectra_dialogs.mas:19 mason/tools/nirs/nirs_analysis_plot_spectra_dialogs.mas:29 mason/tools/nirs/nirs_analysis_plot_spectra_dialogs.mas:39 mason/tools/nirs/nirs_analysis_plot_spectra_dialogs.mas:57 mason/tools/nirs/nirs_analysis_predict_dialogs.mas:19 mason/tools/nirs/nirs_analysis_predict_dialogs.mas:34 mason/tools/nirs/nirs_analysis_train_dialogs.mas:20 mason/tools/nirs/nirs_analysis_train_dialogs.mas:36 mason/tools/nirs/nirs_analysis_train_dialogs.mas:56 mason/tools/nirs/nirs_analysis_train_dialogs.mas:83
+msgctxt "global.workflow.next_step"
+msgid "Go to Next Step"
+msgstr ""
+
+#: mason/analyses/index.mas:60 mason/analyses/index.mas:90 mason/i18n/language_selector.mas:3
+msgctxt "language.select"
+msgid "Language"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/Analysis.pm:832 lib/SGN/Controller/AJAX/Analysis.pm:841 lib/SGN/Controller/AJAX/Analytics.pm:125 lib/SGN/Controller/AJAX/Analytics.pm:134 lib/SGN/Controller/AJAX/FileShareDump.pm:123 lib/SGN/Controller/AJAX/FileShareDump.pm:132
+msgctxt "lists_datasets.fileshare_api.login_required"
+msgid "You must be logged in to do this!"
+msgstr ""
+
+#: mason/breeders_toolbox/progress.mas:20 mason/dataset/outliers.mas:13 mason/tools/qualityControl/dataset_quality_control.mas:100
+msgctxt "lists_datasets.pages.select_trait"
+msgid "Select Trait"
+msgstr ""
+
+#: mason/analyses/analysis_details.mas:82 mason/site/toolbar/dataset.mas:1 mason/tools/boxplotter.mas:50 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:80 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:80
+msgctxt "lists_datasets.shared.dataset"
+msgid "Dataset"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:659 js/source/legacy/CXGN/SelectionIndex.js:75 mason/tools/qualityControl/dataset_quality_control.mas:107 mason/tools/qualityControl/validated_trials.mas:108 mason/tools/qualityControl/validated_trials.mas:473
+msgctxt "phenotype.root.select_a_trait"
+msgid "Select a trait"
+msgstr ""
+
+#: mason/qtl/population/index.mas:92 mason/qtl/search/results.mas:29 mason/stock/add_phenotype.mas:87 mason/stock/traits.mas:12
+msgctxt "phenotype.root.trait_name.4f3e5b7"
+msgid "Trait name"
+msgstr ""
+
+#: js/source/entries/boxplotter.js:18 mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:197
+msgctxt "seedlot.variable"
+msgid "Variable"
+msgstr ""
+
+#: mason/analyses/upload_analysis_dialogs.mas:336 mason/breeders_toolbox/add_seedlot_dialogs.mas:309
+msgctxt "seedlots.ui.please_select_a_breeding_program"
+msgid "Please select a breeding program"
+msgstr ""
+
+#: mason/analytics_protocols/analytics_protocols_details.mas:62 mason/search/stocks.mas:134
+msgctxt "stock_search.section.properties"
+msgid "Properties"
+msgstr ""
+
+#: mason/analyses/model_deletion.mas:19 mason/breeders_toolbox/trial/trial_deletion.mas:20
+msgctxt "trial.card.deletion.proceed"
+msgid "Proceed with deletion below..."
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js:607 mason/breeders_toolbox/manage_plot_phenotyping.mas:23 mason/breeders_toolbox/trial/edit_fieldMap.mas:538 mason/breeders_toolbox/trial/edit_fieldMap.mas:539 mason/breeders_toolbox/trial/phenotype_heatmap.mas:1808
+msgctxt "trial.fieldmap_edit.plot_label.plot_prefix"
+msgid "Plot:"
+msgstr ""
+
+#: mason/analyses/detail.mas:50 mason/breeders_toolbox/trial.mas:187
+msgctxt "trial.spatial_export.open"
+msgid "Download Spatial Layout"
+msgstr ""
+
+#: mason/analyses/analysis_details.mas:29 mason/breeders_toolbox/trial/trial_details.mas:124
+msgctxt "trial.summary.empty.name"
+msgid "[No Trial Name]"
+msgstr ""

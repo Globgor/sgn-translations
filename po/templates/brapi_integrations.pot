@@ -1,0 +1,182 @@
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mason/brapiclient/authentication.mas:40 mason/brapiclient/authentication.mas:55
+msgctxt "integrations.auth.error"
+msgid "An error occurred"
+msgstr ""
+
+#: mason/brapiclient/authentication.mas:11
+msgctxt "integrations.auth.login_button"
+msgid "Login"
+msgstr ""
+
+#: mason/brapiclient/authentication.mas:8
+msgctxt "integrations.auth.login_heading"
+msgid "Login"
+msgstr ""
+
+#: mason/brapiclient/authentication.mas:36
+msgctxt "integrations.auth.login_success"
+msgid "Successfully logged in!"
+msgstr ""
+
+#: mason/brapiclient/authentication.mas:15
+msgctxt "integrations.auth.logout_button"
+msgid "Logout"
+msgstr ""
+
+#: mason/brapiclient/authentication.mas:14
+msgctxt "integrations.auth.logout_heading"
+msgid "Logout"
+msgstr ""
+
+#: mason/brapiclient/authentication.mas:51
+msgctxt "integrations.auth.logout_success"
+msgid "Successfully logged out!"
+msgstr ""
+
+#: mason/brapiclient/authentication.mas:10
+msgctxt "integrations.auth.password_placeholder"
+msgid "Password"
+msgstr ""
+
+#: mason/brapiclient/authentication.mas:9
+msgctxt "integrations.auth.username_placeholder"
+msgid "Your Username"
+msgstr ""
+
+#: mason/brapi/authorize.mas:22
+msgctxt "integrations.consent.access_request"
+msgid " would like to access "
+msgstr ""
+
+#: mason/brapi/authorize.mas:23
+msgctxt "integrations.consent.authorize"
+msgid "Authorize Access"
+msgstr ""
+
+#: mason/brapi/authorize.mas:24
+msgctxt "integrations.consent.deny"
+msgid "Deny Access"
+msgstr ""
+
+#: mason/brapi/authorize.mas:22
+msgctxt "integrations.consent.explanation"
+msgid " through your account. Use the buttons below to authorize or deny this request."
+msgstr ""
+
+#: mason/brapi/authorize.mas:21
+msgctxt "integrations.consent.hello"
+msgid "Hello "
+msgstr ""
+
+#: mason/brapi/authorize.mas:9
+msgctxt "integrations.consent.title"
+msgid "BrAPI Client Authorization"
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:13
+msgctxt "integrations.oidc.callback_error"
+msgid "Received error in the callback params. "
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:34
+msgctxt "integrations.oidc.client_id_missing"
+msgid " The client ID is not configured for '%{provider}'."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:30
+msgctxt "integrations.oidc.configuration_url_missing"
+msgid "The well known url is not configured for '%{provider}'."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:46
+msgctxt "integrations.oidc.email_not_verified"
+msgid "Your email is not verified with the external provider. Please verify your email with %{provider} first."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:54
+msgctxt "integrations.oidc.email_other_user"
+msgid "The provided email '%{email}' is associated with a different user '%{other_username}'. Please contact your system administrator for more help."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:58
+msgctxt "integrations.oidc.email_user_missing"
+msgid "No system user was found with the email '%{email}'. If you have not yet registered for an account, please do so first. Otherwise, please contact your system administrator."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:16
+msgctxt "integrations.oidc.fetch_certificate"
+msgid "Failed to fetch provider's certificate. "
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:10
+msgctxt "integrations.oidc.fetch_configuration"
+msgid "Failed to fetch well known url. "
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:19
+msgctxt "integrations.oidc.fetch_token"
+msgid "Failed to fetch access token. "
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:22
+msgctxt "integrations.oidc.fetch_userinfo"
+msgid "Failed to fetch  userinfo. "
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:62
+msgctxt "integrations.oidc.mirror_site"
+msgid "This site is a mirror site and does not support adding users. Please go to the main site to create an account."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:50
+msgctxt "integrations.oidc.multiple_email_users"
+msgid "Multiple users were found to have the email: '%{email}'. Please contact your system administrator for more help."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:26
+msgctxt "integrations.oidc.provider_not_configured"
+msgid "The provider '%{provider}' is not configured for this instance."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:42
+msgctxt "integrations.oidc.state_mismatch"
+msgid "The state returned by the provider does not match the initiating state. Please try to login again, or contact your system administrator for more help."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:38
+msgctxt "integrations.oidc.state_verifier_missing"
+msgid "The state verifier could not be found. Please try to login again, or contact your system administrator."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:66
+msgctxt "integrations.oidc.username_short"
+msgid "The username '%{username}' is too short. Username must be 7 or more characters."
+msgstr ""
+
+#: mason/authenticate/oidc/error.mas:70
+msgctxt "integrations.oidc.username_spaces"
+msgid "The username '%{username}' contains spaces."
+msgstr ""
+
+#: mason/brapiclient/home.mas:28
+msgctxt "integrations.settings.calls_panel"
+msgid "Calls Testing"
+msgstr ""
+
+#: mason/brapiclient/home.mas:34
+msgctxt "integrations.settings.local"
+msgid "local"
+msgstr ""
+
+#: mason/brapiclient/home.mas:32
+msgctxt "integrations.settings.url_select"
+msgid "URL Select"
+msgstr ""

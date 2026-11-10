@@ -1,0 +1,3393 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/uk.po
+# Translation of ISO 3166-1 to Ukrainian
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
+# SPDX-FileCopyrightText: 2010-2013, 2015, 2019, 2020, 2021, 2022, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/uk.po
+# Translation of ISO 3166-3 to Ukrainian
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
+# SPDX-FileCopyrightText: 2010-2013, 2015, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: uk\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: Українська\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-SGN-Direction: ltr\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:216
+#: mason/stock/upload_additional_accessions_file.mas:139
+msgctxt "accession.files.files.header.options"
+msgid "Options"
+msgstr "Параметри"
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadGrafts.js:78
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:95
+#: mason/stock/upload_additional_accessions_file.mas:95
+msgctxt "accession.files.required_file"
+msgid "Please select a file"
+msgstr "Виберіть файл"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:32
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:253
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:280
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:307
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:344
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:381
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:830
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_qc_dialogs.mas:62
+#: mason/stock/upload_additional_accessions_file.mas:20
+msgctxt "accession.files.template_info"
+msgid "Template information"
+msgstr "Інформація про шаблон"
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadGrafts.js:59
+#: js/source/legacy/CXGN/BreedersToolbox/UploadRenameAccessions.js:60
+msgctxt "accession.rename.issues"
+msgid "The Following Issues Were Identified"
+msgstr "Виявлено такі проблеми"
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadGrafts.js:67
+#: js/source/legacy/CXGN/BreedersToolbox/UploadRenameAccessions.js:68
+msgctxt "accession.rename.no_issues"
+msgid "There Were No Issues Identified"
+msgstr "Проблем не виявлено"
+
+#: js/source/entries/vectorViewer.js:459 js/source/entries/vectorViewer.js:587
+#: lib/SGN/Controller/AJAX/SequencedAccessions.pm:103
+#: lib/SGN/Controller/AJAX/SequencedAccessions.pm:106
+msgctxt "accession.sequencing.action.delete"
+msgid "Delete"
+msgstr "Видалити"
+
+#: lib/SGN/Controller/ActivityInfo.pm:88
+#: lib/SGN/Controller/Transformation.pm:102 mason/order/order_details.mas:36
+#: mason/order/stocks.mas:231 mason/order/stocks.mas:246
+#: mason/order/stocks.mas:68 mason/order/stocks.mas:92
+#: mason/stock/index.mas:488
+msgctxt "accession.stock.section.comments"
+msgid "Comments"
+msgstr "Коментарі"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:42
+#: mason/breeders_toolbox/cross/add_progenies_dialogs.mas:143
+#: mason/breeders_toolbox/cross/add_progenies_dialogs.mas:21
+#: mason/breeders_toolbox/cross/upload_crosses_dialogs.mas:129
+#: mason/breeders_toolbox/cross/upload_update_crosses.mas:157
+#: mason/breeders_toolbox/cross/upload_update_crosses.mas:27
+#: mason/breeders_toolbox/trial/change_plot_accessions_dialogs.mas:63
+#: mason/breeders_toolbox/upload_derived_accessions_dialog.mas:23
+#: mason/propagation/upload_propagation_group_ids_dialog.mas:24
+#: mason/propagation/upload_propagation_id_status_dialog.mas:23
+#: mason/propagation/upload_propagation_ids_dialog.mas:23
+#: mason/transformation/upload_transformation_ids_dialog.mas:24
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:27
+msgctxt "cross.ui.upload_file.9798051"
+msgid "Upload File:"
+msgstr "Завантажити файл:"
+
+#: cgi-bin/maps/physical/vector_info.pl:29 cgi-bin/search/est.pl:67
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:657
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:997
+msgctxt "global.est.sequence"
+msgid "Sequence"
+msgstr "Послідовність"
+
+#: cgi-bin/tools/vector/index.pl:177 mason/breeders_toolbox/download.mas:156
+#: mason/breeders_toolbox/download.mas:57
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:40
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:27
+#: mason/stock/download_stock_phenotypes_dialog.mas:32
+msgctxt "lists_datasets.download.format.39442ac"
+msgid "Format:"
+msgstr "Формат:"
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:510
+#: mason/breeders_toolbox/identifier_generation/list_identifier_generation.mas:11
+msgctxt "program.identifiers.list.header.current_number"
+msgid "Current Number"
+msgstr "Поточний номер"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1907
+#: mason/breeders_toolbox/manage_roles.mas:137
+msgctxt "program.roles.error.response"
+msgid "Error: %{error}"
+msgstr "Помилка: %{error}"
+
+#: lib/SGN/Controller/ActivityInfo.pm:87
+#: lib/SGN/Controller/Transformation.pm:101
+#: mason/propagation/inactive_propagation_id_section.mas:38
+#: mason/propagation/propagation_id_section.mas:82
+msgctxt "seedlot.updated_date"
+msgid "Updated Date"
+msgstr "Дата оновлення"
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:413
+#: mason/breeders_toolbox/seedlot_maintenance/table.mas:919
+msgctxt "seedlot_maintenance_table.ui.property_operator"
+msgid "operator"
+msgstr "оператор"
+
+#: mason/transformation/manage_transformation.mas:23
+msgctxt "transformation.about_transformation_projects_and_transformation_ids"
+msgid "About Transformation Projects and Transformation IDs"
+msgstr "Про проєкти трансформації та ID трансформацій"
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:120
+msgctxt "transformation.accession_name_accession_name_can_be_either_new_or_existing"
+msgid "accession_name (accession name can be either new or existing transgenic accession. If you are uploading a file using existing transgenic accessions, you must indicate '1' in the 'existing_accession' column. Please check the optional fields below."
+msgstr "accession_name (назва зразка може стосуватися нового або наявного трансгенного зразка. Якщо ви завантажуєте файл із наявними трансгенними зразками, вкажіть '1' у стовпці 'existing_accession'. Перегляньте необов’язкові поля нижче."
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:148
+#: mason/transformation/upload_transformation_ids_dialog.mas:114
+msgctxt "transformation.accession_name_must_exist_in_the_database"
+msgid "accession_name (must exist in the database)"
+msgstr "accession_name (має існувати в базі даних)"
+
+#: mason/transformation/transformation_project.mas:49
+msgctxt "transformation.active_transformation_ids"
+msgid "Active Transformation IDs"
+msgstr "Активні ID трансформацій"
+
+#: mason/transformation/add_transformation_project_dialog.mas:37
+msgctxt "transformation.add_a_transformation_project"
+msgid "Add a transformation project"
+msgstr "Додати проєкт трансформації"
+
+#: mason/transformation/transformants_section.mas:23
+#: mason/transformation/transgenic_line_details_section.mas:22
+msgctxt "transformation.add_accessions_to_a_list"
+msgid "Add accessions to a List"
+msgstr "Додати зразки до списку"
+
+#: mason/transformation/add_transformant_names_dialog.mas:18
+msgctxt "transformation.add_new_transformant_accession_names"
+msgid "Add New Transformant (Accession) Names"
+msgstr "Додати назви нових трансформантів (зразків)"
+
+#: mason/transformation/transformation.mas:78
+msgctxt "transformation.add_new_transformants_accessions"
+msgid "Add New Transformants (Accessions)"
+msgstr "Додати нові трансформанти (зразки)"
+
+#: mason/transformation/add_transformants_using_list_dialog.mas:13
+msgctxt "transformation.add_new_transformants_using_a_list"
+msgid "Add New Transformants Using a List"
+msgstr "Додати нові трансформанти зі списку"
+
+#: mason/transformation/add_transformation_identifier_dialog.mas:16
+#: mason/transformation/transformation_project_details.mas:141
+msgctxt "transformation.add_new_transformation_id"
+msgid "Add New Transformation ID"
+msgstr "Додати новий ID трансформації"
+
+#: mason/transformation/add_transformation_project_dialog.mas:14
+msgctxt "transformation.add_new_transformation_project"
+msgid "Add New Transformation Project"
+msgstr "Додати новий проєкт трансформації"
+
+#: mason/transformation/add_transformants_using_list_dialog.mas:64
+msgctxt "transformation.add_transformants_error"
+msgid "Add Transformants Error"
+msgstr "Помилка додавання трансформантів"
+
+#: mason/transformation/manage_transformation.mas:16
+msgctxt "transformation.add_transformation_project"
+msgid "Add Transformation Project"
+msgstr "Додати проєкт трансформації"
+
+#: mason/transformation/manage_transformation.mas:16
+msgctxt "transformation.add_vector_construct"
+msgid "Add Vector Construct"
+msgstr "Додати векторну конструкцію"
+
+#: mason/transformation/transformants_section.mas:23
+#: mason/transformation/transgenic_line_details_section.mas:22
+msgctxt "transformation.adding_transgenic_lines_accessions_to_a_new_or_exisiting_list"
+msgid "Adding transgenic lines (accessions) to a new or existing list"
+msgstr "Додавання трансгенних ліній (зразків) до нового або наявного списку"
+
+#: cgi-bin/tools/vector/index.pl:177
+msgctxt "transformation.all_not_recommended"
+msgid "all (not recommended)"
+msgstr "усі (не рекомендовано)"
+
+#: mason/transformation/add_transformants_using_list_dialog.mas:129
+msgctxt "transformation.an_error_occurred_adding_new_transformants"
+msgid "An error occurred adding new transformants"
+msgstr "Сталася помилка під час додавання нових трансформантів"
+
+#: mason/transformation/add_transformant_names_dialog.mas:113
+msgctxt "transformation.an_error_occurred_creating_new_transformants"
+msgid "An error occurred creating new transformants"
+msgstr "Сталася помилка під час створення нових трансформантів"
+
+#: mason/transformation/add_transformation_identifier_dialog.mas:167
+msgctxt "transformation.an_error_occurred_creating_transformation_id"
+msgid "An error occurred creating transformation ID"
+msgstr "Сталася помилка під час створення ID трансформації"
+
+#: mason/transformation/edit_transformation_details.mas:152
+msgctxt "transformation.an_error_occurred_updating_transformation_id_details"
+msgid "An error occurred updating transformation ID details"
+msgstr "Сталася помилка під час оновлення відомостей про ID трансформації"
+
+#: mason/transformation/transformation_project_tree.mas:98
+msgctxt "transformation.an_error_occurred_while_loading_the_transformation_project_data"
+msgid "An error occurred while loading the transformation project data."
+msgstr "Сталася помилка під час завантаження даних про проєкти трансформації."
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:121
+msgctxt "transformation.as_a_control"
+msgid "as a control"
+msgstr "як контроль"
+
+#: mason/transformation/add_transformation_control_dialog.mas:136
+msgctxt "transformation.as_a_control_do_you_want_to_replace_with_a"
+msgid " as a control. Do you want to replace with a new one?"
+msgstr " як контроль. Замінити його новим?"
+
+#: mason/transformation/transformant_details.mas:28
+#: mason/transformation/upload_qPCR_data_dialog.mas:40
+msgctxt "transformation.assay_date"
+msgid "Assay Date:"
+msgstr "Дата аналізу:"
+
+#: mason/transformation/manage_transformation.mas:31
+msgctxt "transformation.autogenerated_names"
+msgid "autogenerated names"
+msgstr "автоматично створені назви"
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:122
+msgctxt "transformation.batch_number_transgenic_plants_containing_the_same_vector_construct_in"
+msgid "batch_number (transgenic plants containing the same vector construct in the same batch will be grouped in an auto-generated transformation ID and will be automatically linked to control plants included in the same batch. You can have more than one batch in the same file."
+msgstr "batch_number (трансгенні рослини з однаковою векторною конструкцією в одній партії буде згруповано під автоматично створеним ID трансформації та автоматично пов’язано з контрольними рослинами цієї партії. В одному файлі може бути кілька партій."
+
+#: mason/transformation/transformation_project_tree.mas:24
+msgctxt "transformation.breeding_programs_folders_transformation_projects"
+msgid "Breeding Programs -- Folders -- Transformation Projects"
+msgstr "Селекційні програми -- Папки -- Проєкти трансформації"
+
+#: cgi-bin/maps/physical/vector_info.pl:28
+msgctxt "transformation.cloning_vector"
+msgid "Cloning Vector "
+msgstr "Вектор клонування "
+
+#: cgi-bin/maps/physical/vector_info.pl:17
+msgctxt "transformation.cloning_vector_information"
+msgid "Cloning Vector Information"
+msgstr "Відомості про вектор клонування"
+
+#: mason/transformation/inactive_transformation_ids_in_project.mas:17
+#: mason/transformation/transformation.mas:62
+#: mason/transformation/transformation.mas:64
+#: mason/transformation/transformations_in_project.mas:16
+msgctxt "transformation.control"
+msgid "Control"
+msgstr "Контроль"
+
+#: mason/transformation/transformation.mas:90
+msgctxt "transformation.control_transgenic_lines"
+msgid "Control Transgenic Lines"
+msgstr "Контрольні трансгенні лінії"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:155
+msgctxt "transformation.cq_data_of_an_endogenous_control_genea_and_two_targets"
+msgid "Cq data of an endogenous control (geneA) and two targets (geneB and geneC). Each sample has two replicates. Note: there is no need to group the same replicate together as in the sample spreadsheet."
+msgstr "Дані Cq ендогенного контролю (geneA) та двох цілей (geneB і geneC). Кожна проба має два повторення. Примітка: однакові повторення не потрібно групувати разом, як у прикладі таблиці."
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:151
+msgctxt "transformation.cq_must_be_numeric_values_cq_values_are_used_to"
+msgid "Cq (must be numeric values. Cq values are used to calculate normalized values, both Cq and the derived normalized values are stored in the database. If there is no Cq value, please use ND)"
+msgstr "Cq (значення мають бути числовими. Значення Cq використовують для обчислення нормалізованих значень; і Cq, і похідні нормалізовані значення зберігаються в базі даних. Якщо значення Cq немає, використовуйте ND)"
+
+#: lib/CXGN/Transformation/ParseUpload/Plugin/CTqPCRData.pm:93
+msgctxt "transformation.cq_value_is_not_a_number_or_nd_cq_value"
+msgid "Cq value is not a number or 'ND': %{Cq_value}."
+msgstr "Значення Cq не є числом або 'ND': %{Cq_value}."
+
+#: mason/transformation/transformation_project_details.mas:104
+msgctxt "transformation.default_plant_material.2b9a162"
+msgid "Default Plant Material"
+msgstr "Рослинний матеріал за замовчуванням"
+
+#: mason/transformation/manage_transformation.mas:31
+msgctxt "transformation.default_plant_material.b50ac0e"
+msgid "default plant material"
+msgstr "рослинний матеріал за замовчуванням"
+
+#: mason/transformation/transformation_project.mas:51
+msgctxt "transformation.delete_project_or_transformation_ids"
+msgid "Delete Project or Transformation IDs"
+msgstr "Видалити проєкт або ID трансформацій"
+
+#: cgi-bin/tools/vector/index.pl:224
+msgctxt "transformation.delete_sequence.6d6e1a9"
+msgid "Delete sequence"
+msgstr "Видалити послідовність"
+
+#: cgi-bin/tools/vector/index.pl:222
+msgctxt "transformation.delete_sequence.9004e80"
+msgid "Delete Sequence"
+msgstr "Видалити послідовність"
+
+#: mason/transformation/transformation.mas:96
+msgctxt "transformation.delete_transformation_id"
+msgid "Delete Transformation ID"
+msgstr "Видалити ID трансформації"
+
+#: mason/transformation/transformation_project.mas:51
+msgctxt "transformation.delete_transformation_project_or_transformation_ids_in_this_project"
+msgid "Delete transformation project or transformation IDs in this project."
+msgstr "Видалити проєкт трансформації або ID трансформацій у ньому."
+
+#: mason/transformation/transformation.mas:47
+msgctxt "transformation.details_for_transformation_name"
+msgid "Details for transformation '%{name}'"
+msgstr "Відомості про трансформацію '%{name}'"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:116
+#: mason/transformation/upload_transgenic_lines_dialog.mas:33
+#: mason/transformation/upload_transgenic_lines_dialog.mas:44
+#: mason/transformation/upload_transgenic_lines_dialog.mas:66
+#: mason/transformation/upload_transgenic_lines_dialog.mas:77
+#: mason/transformation/upload_transgenic_lines_dialog.mas:87
+#: mason/transformation/upload_transgenic_lines_dialog.mas:9
+msgctxt "transformation.dialog.close"
+msgid "Close"
+msgstr "Закрити"
+
+#: mason/transformation/add_transformation_project_dialog.mas:28
+msgctxt "transformation.each_auto_generated_transformant_accession_name_has_transformation_id_as"
+msgid "Each auto-generated transformant (accession) name has transformation ID as basename and an incremental serial number."
+msgstr "Кожна автоматично створена назва трансформанта (зразка) має ID трансформації як основу та послідовний порядковий номер."
+
+#: mason/transformation/manage_transformation.mas:32
+msgctxt "transformation.each_breeding_program_can_store_multiple_sets_of_naming_formats"
+msgid "Each breeding program can store multiple sets of naming formats for autogenerated names. All stored naming formats and related metadata are displayed in the Autogenerated Name Metadata section on the 'Manage Breeding Programs' page. The link for adding Autogenerated Name Metadata can be found on both the 'Manage Breeding Programs' page and on the 'Manage Transformations' page."
+msgstr "Кожна селекційна програма може зберігати кілька наборів форматів автоматичного створення назв. Усі збережені формати та пов’язані метадані відображаються в розділі метаданих автоматично створених назв на сторінці «Керування селекційними програмами». Посилання для додавання цих метаданих є на сторінках «Керування селекційними програмами» і «Керування трансформаціями»."
+
+#: mason/transformation/add_transformation_project_dialog.mas:25
+msgctxt "transformation.each_transformation_experiment_is_linked_to_a_globally_unique_transformation"
+msgid "Each transformation experiment is linked to a globally unique transformation ID."
+msgstr "Кожен дослід із трансформації пов’язаний із глобально унікальним ID трансформації."
+
+#: mason/transformation/manage_transformation.mas:30
+msgctxt "transformation.each_transformation_project_can_be_automatically_linked_to_a_tracking"
+msgid "Each transformation project can be automatically linked to a tracking project (please contact us)."
+msgstr "Кожен проєкт трансформації можна автоматично пов’язати з проєктом відстеження (зверніться до нас)."
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:150
+msgctxt "transformation.each_vector_construct_can_be_associated_with_more_than_one"
+msgid "Each vector construct can be associated with more than one gene by using comma-separated values (e.g., geneA,geneB,geneC)."
+msgstr "Кожна векторна конструкція може бути пов’язана з кількома генами через значення, розділені комами (наприклад, geneA,geneB,geneC)."
+
+#: mason/transformation/edit_transformation_details.mas:15
+msgctxt "transformation.edit_transformation_details"
+msgid "Edit Transformation Details"
+msgstr "Редагувати відомості про трансформацію"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:34
+msgctxt "transformation.endogenous_control"
+msgid "Endogenous Control:"
+msgstr "Ендогенний контроль:"
+
+#: mason/transformation/add_transformation_project_dialog.mas:38
+msgctxt "transformation.enter_basic_information_about_the_transformation_project"
+msgid "Enter basic information about the transformation project"
+msgstr "Введіть основні відомості про проєкт трансформації"
+
+#: lib/CXGN/TrackingActivity/AddTrackingIdentifier.pm:129
+msgctxt "transformation.error_creating_a_tracking_identifier_error"
+msgid "Error creating a tracking identifier: %{error}\n"
+msgstr "Помилка створення ідентифікатора відстеження: %{error}\n"
+
+#: lib/CXGN/Transformation/CreateTransformantAutogeneratedNames.pm:99
+msgctxt "transformation.error_retrieving_autogenerated_name_metadata"
+msgid "Error retrieving autogenerated name metadata!\n"
+msgstr "Помилка отримання метаданих автоматичних назв!\n"
+
+#: mason/transformation/add_transformation_control_dialog.mas:148
+msgctxt "transformation.error_retrieving_transformation_id_info"
+msgid "Error retrieving transformation ID info"
+msgstr "Помилка отримання відомостей про ID трансформації"
+
+#: mason/transformation/edit_transformation_details.mas:70
+msgctxt "transformation.error_saving_transformation_details"
+msgid "Error Saving Transformation Details"
+msgstr "Помилка збереження відомостей про трансформацію"
+
+#: lib/CXGN/TrackingActivity/ActivityInfo.pm:144
+msgctxt "transformation.error_storing_tracking_information_error"
+msgid "Error storing tracking information: %{error}\n"
+msgstr "Помилка збереження відомостей відстеження: %{error}\n"
+
+#: lib/CXGN/Transformation/AddTransformationIdentifier.pm:112
+msgctxt "transformation.error_transformation_identifier_transformation_identifier_already_ex"
+msgid "Error: Transformation identifier: %{transformation_identifier} already exists in the database."
+msgstr "Помилка: ідентифікатор трансформації %{transformation_identifier} уже існує в базі даних."
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:128
+msgctxt "transformation.existing_accession_if_you_previously_added_uploaded_transgenic_accessions_without"
+msgid "existing_accession (If you previously added/uploaded transgenic accessions without linking to a transformation ID and you would like to link those names to a transformation ID, please indicate \"1\" for the \"existing_accession\" column.)"
+msgstr "existing_accession (якщо раніше ви додали або завантажили трансгенні зразки без зв’язку з ID трансформації та хочете пов’язати ці назви з ID трансформації, вкажіть \"1\" у стовпці \"existing_accession\".)"
+
+#: mason/transformation/add_transformation_project_dialog.mas:101
+msgctxt "transformation.finished_your_transformation_project_is_now_in_the_database"
+msgid "Finished! Your transformation project is now in the database"
+msgstr "Готово! Ваш проєкт трансформації тепер у базі даних"
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:121
+msgctxt "transformation.for_any_transformation_id_please_use_the_link_set_transformation"
+msgid "for any transformation ID, please use the link \"Set Transformation Control\" on the transformation ID detail page.)"
+msgstr "для будь-якого ID трансформації, скористайтеся посиланням «Задати контроль трансформації» на сторінці відомостей про ID трансформації.)"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:154
+msgctxt "transformation.for_example"
+msgid "For example:"
+msgstr "Наприклад:"
+
+#: mason/transformation/manage_transformation.mas:31
+msgctxt "transformation.for_newly_generated_transformants"
+msgid "for newly generated transformants."
+msgstr "для нових трансформантів."
+
+#: cgi-bin/tools/vector/index.pl:222
+msgctxt "transformation.from_position"
+msgid "From position"
+msgstr "Від позиції"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:150
+msgctxt "transformation.gene_gene_names_in_the_spreadsheet_must_be_stored_in"
+msgid "gene (gene names in the spreadsheet must be stored in the database as genes in the vector construct or the selected endogenous control."
+msgstr "gene (назви генів у таблиці мають бути збережені в базі даних як гени векторної конструкції або вибраного ендогенного контролю."
+
+#: lib/CXGN/Transformation/ParseUpload/Plugin/CTqPCRData.pm:87
+#: lib/CXGN/Transformation/ParseUpload/Plugin/NormalizedqPCRData.pm:73
+msgctxt "transformation.gene_not_in_this_vector_construct_gene_name"
+msgid "Gene not in this vector construct: %{gene_name}."
+msgstr "Гена немає в цій векторній конструкції: %{gene_name}."
+
+#: mason/transformation/transformation_project_details.mas:149
+msgctxt "transformation.go_to_transformation_progress"
+msgid "Go to Transformation Progress"
+msgstr "Перейти до перебігу трансформації"
+
+#: js/source/entries/vectorViewer.js:265
+msgctxt "transformation.helper.add_feature"
+msgid "Add feature"
+msgstr "Додати елемент"
+
+#: lib/SGN/Controller/AJAX/Grafting.pm:277
+msgctxt "transformation.helper.all_grafts_are_already_in_the_database_nothing_remains_to_be_done"
+msgid "All grafts are already in the database. Nothing remains to be done :-) "
+msgstr "Усі щеплення вже є в базі даних. Більше нічого робити не потрібно :-) "
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:256
+msgctxt "transformation.helper.all_vectors_in_your_list_already_exist_in_the_database_3"
+msgid "All vectors in your list already exist in the database. (3)"
+msgstr "Усі вектори вашого списку вже є в базі даних. (3)"
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:376
+msgctxt "transformation.helper.all_vectors_in_your_list_now_exist_in_the_database_2"
+msgid "All vectors in your list now exist in the database. 2"
+msgstr "Усі вектори вашого списку тепер існують у базі даних. 2"
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadGrafts.js:101
+msgctxt "transformation.helper.an_error_occured_no_grafts_were_saved_try_fixing_your_file_for_the_i"
+msgid "An Error Occurred: No grafts were saved! Try Fixing Your File For The Issues Identified In the Validation. "
+msgstr "Сталася помилка: щеплень не збережено! Спробуйте виправити у файлі проблеми, виявлені під час перевірки. "
+
+#: js/source/entries/vectorViewer.js:330
+msgctxt "transformation.helper.an_error_occurred"
+msgid "An error occurred! "
+msgstr "Сталася помилка! "
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:966
+msgctxt "transformation.helper.an_error_occurred_attempting_to_delete_the_transformation_id_error_d"
+msgid "An error occurred attempting to delete the transformation ID. (%{error_details})"
+msgstr "Сталася помилка під час спроби видалити ID трансформації. (%{error_details})"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1053
+msgctxt "transformation.helper.an_error_occurred_attempting_to_set_the_transformation_id_as_a_contr"
+msgid "An error occurred attempting to set the transformation ID as a control. (%{error_details})"
+msgstr "Сталася помилка під час спроби задати ID трансформації як контроль. (%{error_details})"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1009
+msgctxt "transformation.helper.an_error_occurred_attempting_to_set_transformation_control_error_det"
+msgid "An error occurred attempting to set transformation control. (%{error_details})"
+msgstr "Сталася помилка під час спроби задати контроль трансформації. (%{error_details})"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1429
+msgctxt "transformation.helper.an_error_occurred_attempting_to_set_transformation_control_for_batch"
+msgid "An error occurred attempting to set transformation control for batch: %{batch_number}. (%{error_details})"
+msgstr "Сталася помилка під час спроби задати контроль трансформації для партії %{batch_number}. (%{error_details})"
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:65
+msgctxt "transformation.helper.an_error_occurred_in_processing_sorry"
+msgid "An error occurred in processing. sorry"
+msgstr "Сталася помилка під час обробки. Перепрошуємо"
+
+#: js/source/legacy/CXGN/Transformation.js:61
+#: js/source/legacy/CXGN/Transformation.js:95
+msgctxt "transformation.helper.an_error_occurred_setting_transformation_control"
+msgid "An error occurred setting transformation control"
+msgstr "Сталася помилка під час встановлення контролю трансформації"
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadGrafts.js:113
+msgctxt "transformation.helper.an_error_occurred_storing_the_grafts_none_were_uploaded"
+msgid "An error occurred storing the grafts. None were uploaded."
+msgstr "Сталася помилка під час збереження щеплень. Жодного не завантажено."
+
+#: lib/SGN/Controller/AJAX/Treatment.pm:160
+msgctxt "transformation.helper.an_error_occurred_trying_to_create_treatment_error_details"
+msgid "An error occurred trying to create treatment: %{error_details}"
+msgstr "Сталася помилка під час спроби створити обробку: %{error_details}"
+
+#: js/source/entries/vectorViewer.js:214 js/source/entries/vectorViewer.js:251
+msgctxt "transformation.helper.an_error_occurred_while_trying_to_save_the_vector_data"
+msgid "An error occurred while trying to save the vector data."
+msgstr "Сталася помилка під час спроби зберегти дані вектора."
+
+#: js/source/entries/vectorViewer.js:404
+msgctxt "transformation.helper.are_you_sure_that_you_would_like_to_delete_this_row_with_id"
+msgid "Are you sure that you would like to delete this row with id ? "
+msgstr "Ви впевнені, що хочете видалити цей рядок з id ? "
+
+#: js/source/legacy/CXGN/Transformation.js:3
+msgctxt "transformation.helper.are_you_sure_you_want_to_delete_this_transformation_id_the_deletion_"
+msgid "Are you sure you want to delete this transformation ID? The deletion cannot be undone."
+msgstr "Ви впевнені, що хочете видалити цей ID трансформації? Видалення неможливо скасувати."
+
+#: lib/CXGN/Stock/Vector/ParseUpload/Plugin/VectorsXLS.pm:89
+msgctxt "transformation.helper.cell_a1_uniquename_is_missing_from_the_header"
+msgid "Cell A1: uniquename is missing from the header"
+msgstr "Клітинка A1: у заголовку немає uniquename"
+
+#: lib/CXGN/Stock/Vector/ParseUpload/Plugin/VectorsXLS.pm:105
+msgctxt "transformation.helper.cell_a_row_name_vector_name_missing"
+msgid "Cell A%{row_name}: vector_name missing."
+msgstr "Клітинка A%{row_name}: немає vector_name."
+
+#: lib/CXGN/Stock/ParseUpload/Plugin/TransformationIdentifiersGeneric.pm:84
+msgctxt "transformation.helper.cell_a_row_num_duplicate_transformation_identifier_transformation_id"
+msgid "Cell A%{row_num}: duplicate transformation identifier: %{transformation_id}. Transformation Identifier must be unique."
+msgstr "Клітинка A%{row_num}: повторний ідентифікатор трансформації %{transformation_id}. Ідентифікатор трансформації має бути унікальним."
+
+#: js/source/entries/vectorViewer.js:455 js/source/entries/vectorViewer.js:89
+msgctxt "transformation.helper.color"
+msgid "Color"
+msgstr "Колір"
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:816
+#: lib/SGN/Controller/AJAX/Transformation.pm:477
+#: lib/SGN/Controller/ActivityInfo.pm:51
+#: lib/SGN/Controller/Transformation.pm:89
+msgctxt "transformation.helper.completed"
+msgid "COMPLETED"
+msgstr "ЗАВЕРШЕНО"
+
+#: js/source/entries/vectorViewer.js:505 js/source/entries/vectorViewer.js:520
+msgctxt "transformation.helper.delete_row"
+msgid "Delete row "
+msgstr "Видалити рядок "
+
+#: js/source/entries/vectorViewer.js:392
+msgctxt "transformation.helper.edit_feature"
+msgid "Edit feature"
+msgstr "Редагувати елемент"
+
+#: js/source/entries/vectorViewer.js:454
+msgctxt "transformation.helper.end"
+msgid "End"
+msgstr "Кінець"
+
+#: js/source/entries/vectorViewer.js:86
+msgctxt "transformation.helper.end_coord"
+msgid "End Coord"
+msgstr "Кінцева координата"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1395
+msgctxt "transformation.helper.error_adding_new_accessions_for_vector_contruct_vector_construct_in_"
+msgid "Error adding new accessions for vector construct: %{vector_construct} in batch %{batch_number}."
+msgstr "Помилка додавання нових зразків для векторної конструкції %{vector_construct} у партії %{batch_number}."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1344
+msgctxt "transformation.helper.error_all_accessions_in_the_same_file_should_have_the_same_accession"
+msgid "Error! All accessions in the same file should have the same accession type (either an existing accession in the database or new accession)."
+msgstr "Помилка! Усі зразки в одному файлі мають бути одного типу (наявні в базі даних або нові)."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1376
+msgctxt "transformation.helper.error_cannot_generate_transformation_identifier_for_vector_construct.05673e1"
+msgid "Error! Cannot generate transformation identifier for vector construct: %{vector_construct} in batch: %{batch_number}."
+msgstr "Помилка! Неможливо створити ідентифікатор трансформації для векторної конструкції %{vector_construct} у партії %{batch_number}."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1370
+msgctxt "transformation.helper.error_cannot_generate_transformation_identifier_for_vector_construct.f8408b0"
+msgid "Error! Cannot generate transformation identifier for vector construct: %{vector_construct} in batch: %{batch_number}. %{add_transformation_id_error}."
+msgstr "Помилка! Неможливо створити ідентифікатор трансформації для векторної конструкції %{vector_construct} у партії %{batch_number}. %{add_transformation_id_error}."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:303
+#: lib/SGN/Controller/AJAX/Transformation.pm:538
+msgctxt "transformation.helper.error_generating_transformant_names"
+msgid "Error generating transformant names"
+msgstr "Помилка створення назв трансформантів"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1409
+msgctxt "transformation.helper.error_linking_accession_names_with_tansformation_info_for_vector_con"
+msgid "Error linking accession names with transformation info for vector construct: %{vector_construct} in batch %{batch_number}."
+msgstr "Помилка зв’язування назв зразків із даними трансформації для векторної конструкції %{vector_construct} у партії %{batch_number}."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:681
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:759
+msgctxt "transformation.helper.error_no_material_entry_found_in_the_database"
+msgid "Error. No material entry found in the database."
+msgstr "Помилка. Запис матеріалу не знайдено в базі даних."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:671
+msgctxt "transformation.helper.error_no_tracking_identifier_entry_found_in_the_database"
+msgid "Error. No tracking identifier entry found in the database."
+msgstr "Помилка. Запис ідентифікатора відстеження не знайдено в базі даних."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:170
+msgctxt "transformation.helper.error_project_name_project_name_was_not_found_in_the_database"
+msgid "Error! Project name: %{project_name} was not found in the database.\n"
+msgstr "Помилка! Назву проєкту %{project_name} не знайдено в базі даних.\n"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:600
+msgctxt "transformation.helper.error_saving_tracking_information"
+msgid "Error saving tracking information"
+msgstr "Помилка збереження відомостей відстеження"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:653
+msgctxt "transformation.helper.error_transformation_identifier_transformation_name_was_not_found_in"
+msgid "Error! Transformation Identifier: %{transformation_name} was not found in the database.\n"
+msgstr "Помилка! Ідентифікатор трансформації %{transformation_name} не знайдено в базі даних.\n"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1330
+msgctxt "transformation.helper.error_vector_construct_vector_construct_in_batch_batch_number_is_ass"
+msgid "Error! Vector construct: %{vector_construct} in batch: %{batch_number} is assigned as both a control and a construct. Please check is_a_control column."
+msgstr "Помилка! Векторну конструкцію %{vector_construct} у партії %{batch_number} задано і як контроль, і як конструкцію. Перевірте стовпець is_a_control."
+
+#: js/source/entries/vectorViewer.js:452
+msgctxt "transformation.helper.feature"
+msgid "Feature"
+msgstr "Елемент"
+
+#: js/source/entries/vectorViewer.js:80
+msgctxt "transformation.helper.feature_name"
+msgid "Feature Name"
+msgstr "Назва елемента"
+
+#: lib/SGN/Controller/AJAX/Grafting.pm:237
+msgctxt "transformation.helper.first_column_must_have_header_scion_accession_not_scion_accession"
+msgid "First column must have header 'scion accession' (not '%{scion_accession}'); "
+msgstr "Перший стовпець має мати заголовок 'scion accession' (а не '%{scion_accession}'); "
+
+#: lib/SGN/Controller/AJAX/Grafting.pm:89
+msgctxt "transformation.helper.grafting_upload_requires_a_tab_delimited_file_excel_files_xls_and_xl"
+msgid "Grafting upload requires a tab delimited file. Excel files (.xls and .xlsx) are currently not supported. Please convert the file and try again."
+msgstr "Для завантаження щеплень потрібен файл із розділювачами табуляції. Файли Excel (.xls і .xlsx) наразі не підтримуються. Перетворіть файл і спробуйте ще раз."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:415
+msgctxt "transformation.helper.input"
+msgid "input"
+msgstr "ввід"
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:275
+msgctxt "transformation.helper.input_is_not_a_positive_integer"
+msgid "Input is not a positive integer"
+msgstr "Введені дані не є додатним цілим числом"
+
+#: lib/SGN/Controller/Transformation.pm:71
+msgctxt "transformation.helper.is_a_control"
+msgid "is a control"
+msgstr "є контролем"
+
+#: js/source/entries/vectorViewer.js:451
+msgctxt "transformation.helper.no"
+msgid "No."
+msgstr "№"
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:76
+msgctxt "transformation.helper.no_vectors_to_add"
+msgid "No vectors to add"
+msgstr "Немає векторів для додавання"
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:417
+msgctxt "transformation.helper.notes"
+msgid "notes"
+msgstr "примітки"
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:509
+msgctxt "transformation.helper.obsoleted"
+msgid "Obsoleted"
+msgstr "Позначено як застарілі"
+
+#: lib/SGN/Controller/AJAX/VectorConstruct.pm:232
+msgctxt "transformation.helper.only_a_curator_can_add_vectors_without_using_the_fuzzy_search"
+msgid "Only a curator can add vectors without using the fuzzy search!"
+msgstr "Лише куратор може додавати вектори без нечіткого пошуку!"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1586
+msgctxt "transformation.helper.only_a_submitter_or_a_curator_can_upload_relative_expression_data"
+msgid "Only a submitter or a curator can upload relative expression data"
+msgstr "Завантажувати дані відносної експресії може лише користувач із правом подання даних або куратор"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:327
+msgctxt "transformation.helper.only_a_submitter_or_a_curator_can_upload_transformation_identifiers"
+msgid "Only a submitter or a curator can upload transformation identifiers"
+msgstr "Завантажувати ідентифікатори трансформації може лише користувач із правом подання даних або куратор"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1253
+msgctxt "transformation.helper.only_a_submitter_or_a_curator_can_upload_transgenic_historical_data"
+msgid "Only a submitter or a curator can upload transgenic historical data"
+msgstr "Завантажувати історичні трансгенні дані може лише користувач із правом подання даних або куратор"
+
+#: js/source/entries/vectorViewer.js:456 js/source/entries/vectorViewer.js:92
+msgctxt "transformation.helper.orientation"
+msgid "Orientation"
+msgstr "Орієнтація"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:207
+#: lib/SGN/Controller/AJAX/Transformation.pm:860
+msgctxt "transformation.helper.plant_material_does_not_exist_or_does_not_exist_as_accession_uniquen"
+msgid "Plant material does not exist or does not exist as accession uniquename."
+msgstr "Рослинний матеріал не існує або не існує як унікальна назва зразка."
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadGrafts.js:67
+msgctxt "transformation.helper.please_click_the_store_button_to_save_the_grafts_to_the_database"
+msgid "Please click the \"Store\" button to save the grafts to the database."
+msgstr "Натисніть кнопку «Зберегти», щоб зберегти щеплення в базі даних."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:296
+msgctxt "transformation.helper.please_set_up_prefix_for_autogenerated_names_for_this_transformation"
+msgid "Please set up prefix for autogenerated names for this transformation project before using tracking tool"
+msgstr "Перед використанням інструмента відстеження налаштуйте префікс автоматичних назв для цього проєкту трансформації"
+
+#: lib/SGN/Controller/AJAX/Search/Treatment.pm:183
+msgctxt "transformation.helper.plots"
+msgid "Plots:"
+msgstr "Ділянки:"
+
+#: js/source/entries/vectorViewer.js:182
+msgctxt "transformation.helper.save_current_changes"
+msgid "Save current changes?"
+msgstr "Зберегти поточні зміни?"
+
+#: lib/SGN/Controller/AJAX/Grafting.pm:255
+msgctxt "transformation.helper.scion_and_rootstock_scion_and_rootstock_designate_the_same_accession"
+msgid "Scion and rootstock (%{scion} and %{rootstock}) designate the same accession. Not generating a graft.\n"
+msgstr "Прищепа та підщепа (%{scion} і %{rootstock}) позначають той самий зразок. Щеплення не створюється.\n"
+
+#: lib/SGN/Controller/AJAX/Grafting.pm:241
+msgctxt "transformation.helper.second_column_must_have_header_rootstock_accession_not_rootstock_acc"
+msgid "Second column must have header 'rootstock accession' (not '%{rootstock_accession}'); "
+msgstr "Другий стовпець має мати заголовок 'rootstock accession' (а не '%{rootstock_accession}'); "
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:508
+msgctxt "transformation.helper.selected"
+msgid "Selected"
+msgstr "Відібрано"
+
+#: js/source/entries/vectorViewer.js:213 js/source/entries/vectorViewer.js:250
+msgctxt "transformation.helper.sequence_successfully_saved"
+msgid "Sequence successfully saved!"
+msgstr "Послідовність успішно збережено!"
+
+#: js/source/entries/vectorViewer.js:83
+msgctxt "transformation.helper.start_coord"
+msgid "Start Coord"
+msgstr "Початкова координата"
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:222
+msgctxt "transformation.helper.synonym_of"
+msgid " (SYNONYM OF: "
+msgstr " (СИНОНІМ ДЛЯ: "
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:814
+#: lib/SGN/Controller/AJAX/Transformation.pm:475
+#: lib/SGN/Controller/ActivityInfo.pm:48
+#: lib/SGN/Controller/Transformation.pm:86
+msgctxt "transformation.helper.terminated"
+msgid "TERMINATED"
+msgstr "ПРИПИНЕНО"
+
+#: lib/SGN/Controller/AJAX/Treatment.pm:90
+msgctxt "transformation.helper.the_default_value_of_the_treatment_is_not_in_the_categories_list"
+msgid "The default value of the treatment is not in the categories list.\n"
+msgstr "Значення обробки за замовчуванням відсутнє у списку категорій.\n"
+
+#: lib/SGN/Controller/AJAX/Treatment.pm:94
+msgctxt "transformation.helper.the_default_value_you_supplied_contains_special_characters"
+msgid "The default value you supplied contains special characters.\n"
+msgstr "Надане значення за замовчуванням містить спеціальні символи.\n"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1689
+msgctxt "transformation.helper.the_error_storing_qpcr_data_for_transformant_name"
+msgid "The error storing qPCR data for: %{transformant_name}"
+msgstr "Помилка збереження даних qPCR для: %{transformant_name}"
+
+#: lib/CXGN/Stock/ParseUpload/Plugin/TransformationIdentifiersGeneric.pm:62
+#: lib/CXGN/Transformation/ParseUpload/Plugin/CTqPCRData.pm:71
+#: lib/CXGN/Transformation/ParseUpload/Plugin/NormalizedqPCRData.pm:68
+msgctxt "transformation.helper.the_following_accessions_are_not_in_the_database_or_are_not_in_the_d"
+msgid "The following accessions are not in the database, or are not in the database as uniquenames: %{value1}"
+msgstr "Таких зразків немає в базі даних або їх немає як унікальних назв: %{value1}"
+
+#: lib/CXGN/Stock/ParseUpload/Plugin/TransformationIdentifiersGeneric.pm:50
+#: lib/CXGN/Stock/Vector/ParseUpload/Plugin/VectorsGeneric.pm:65
+#: lib/CXGN/Transformation/ParseUpload/Plugin/CTqPCRData.pm:59
+#: lib/CXGN/Transformation/ParseUpload/Plugin/NormalizedqPCRData.pm:57
+msgctxt "transformation.helper.the_following_columns_are_not_recognized_value1_please_check_the_spr"
+msgid "The following columns are not recognized: %{value1}. Please check the spreadsheet format for the allowed columns."
+msgstr "Такі стовпці не розпізнано: %{value1}. Перевірте допустимі стовпці у вимогах до формату таблиці."
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:283
+msgctxt "transformation.helper.the_following_new_vectors_will_be_added"
+msgid "The following new vectors will be added:"
+msgstr "Буде додано такі нові вектори:"
+
+#: lib/CXGN/Stock/Vector/ParseUpload/Plugin/VectorsGeneric.pm:83
+msgctxt "transformation.helper.the_following_vector_construct_names_are_already_used_in_the_databas"
+msgid "The following vector construct names are already used in the database (as different stock types): %{value1}"
+msgstr "Такі назви векторних конструкцій уже використано в базі даних (для інших типів матеріалу): %{value1}"
+
+#: lib/CXGN/Stock/ParseUpload/Plugin/TransformationIdentifiersGeneric.pm:68
+msgctxt "transformation.helper.the_following_vector_constructs_are_not_in_the_database_or_are_not_i"
+msgid "The following vector constructs are not in the database, or are not in the database as uniquenames: %{value1}"
+msgstr "Таких векторних конструкцій немає в базі даних або їх немає як унікальних назв: %{value1}"
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:56
+msgctxt "transformation.helper.the_following_vectors_were_added"
+msgid "The following vectors were added!"
+msgstr "Такі вектори додано!"
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:302
+msgctxt "transformation.helper.the_following_vectors_will_be_updated"
+msgid "The following vectors will be updated:"
+msgstr "Буде оновлено такі вектори:"
+
+#: lib/SGN/Controller/AJAX/Treatment.pm:98
+msgctxt "transformation.helper.the_maximum_value_cannot_be_less_than_the_minimum_value"
+msgid "The maximum value cannot be less than the minimum value.\n"
+msgstr "Максимальне значення не може бути меншим за мінімальне.\n"
+
+#: lib/SGN/Controller/Transformation.pm:42
+msgctxt "transformation.helper.the_requested_transformation_does_not_exist"
+msgid "The requested transformation does not exist."
+msgstr "Запитаної трансформації не існує."
+
+#: lib/SGN/Controller/ActivityInfo.pm:185
+msgctxt "transformation.helper.the_tracking_identifier_does_not_exist_or_has_been_deleted"
+msgid "The tracking identifier does not exist or has been deleted."
+msgstr "Ідентифікатор відстеження не існує або його видалено."
+
+#: js/source/legacy/CXGN/Transformation.js:51
+msgctxt "transformation.helper.the_transformation_control_was_stored_successfully"
+msgid "The transformation control was stored successfully."
+msgstr "Контроль трансформації успішно збережено."
+
+#: lib/SGN/Controller/AJAX/VectorViewer.pm:232
+#: lib/SGN/Controller/AJAX/VectorViewer.pm:62
+msgctxt "transformation.helper.the_vector_construct_with_id_c_stash_vector_stock_id_does_not_seem_t"
+msgid "The vector construct with id \".$c->stash->{vector_stock_id}.\" does not seem to exist"
+msgstr "Векторної конструкції з id \".$c->stash->{vector_stock_id}.\" схоже, не існує"
+
+#: lib/SGN/Controller/AJAX/Grafting.pm:272
+msgctxt "transformation.helper.there_was_a_problem_validating_graft_between_scion_and_rootstock_val"
+msgid "There was a problem validating graft between %{scion} and %{rootstock} (%{value3})"
+msgstr "Виникла проблема під час перевірки щеплення між %{scion} і %{rootstock} (%{value3})"
+
+#: lib/SGN/Controller/AJAX/VectorConstruct.pm:179
+msgctxt "transformation.helper.there_was_an_error_storing_vector_s"
+msgid "There was an error storing vector %s"
+msgstr "Сталася помилка під час збереження вектора %s"
+
+#: js/source/legacy/CXGN/Transformation.js:85
+msgctxt "transformation.helper.this_transformation_id_was_set_as_a_control_successfully"
+msgid "This transformation ID was set as a control successfully."
+msgstr "Цей ID трансформації успішно задано як контроль."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:407
+msgctxt "transformation.helper.timestamp"
+msgid "timestamp"
+msgstr "часова мітка"
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:193
+msgctxt "transformation.helper.total_number_already_in_the_database"
+msgid "Total number already in the database("
+msgstr "Усього вже є в базі даних("
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js:271
+msgctxt "transformation.helper.total_number_to_be_added"
+msgid "Total number to be added("
+msgstr "Усього буде додано("
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:200
+msgctxt "transformation.helper.tracking_identifier_name_already_exists_in_database_value1"
+msgid "Tracking identifier name already exists in database: %{value1}"
+msgstr "Назва ідентифікатора відстеження вже існує в базі даних: %{value1}"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:668
+msgctxt "transformation.helper.transformant_name_already_exists_in_database_value1"
+msgid "Transformant name already exists in database: %{value1}"
+msgstr "Назва трансформанта вже існує в базі даних: %{value1}"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:202
+msgctxt "transformation.helper.transformation_id_already_exists_please_use_another_name"
+msgid "Transformation ID already exists. Please use another name"
+msgstr "ID трансформації вже існує. Використайте іншу назву"
+
+#: lib/CXGN/Stock/ParseUpload/Plugin/TransformationIdentifiersGeneric.pm:75
+msgctxt "transformation.helper.transformation_identifier_already_exists_in_database_value1"
+msgid "Transformation Identifier already exists in database: %{value1}"
+msgstr "Ідентифікатор трансформації вже існує в базі даних: %{value1}"
+
+#: lib/SGN/Controller/AJAX/Treatment.pm:86
+msgctxt "transformation.helper.treatment_format_must_be_numeric_categorical_date_percent_counter_bo"
+msgid "Treatment format must be numeric, categorical, date, percent, counter, boolean, text, or ontology.\n"
+msgstr "Формат обробки має бути numeric, categorical, date, percent, counter, boolean, text або ontology.\n"
+
+#: lib/SGN/Controller/AJAX/Search/Treatment.pm:183
+msgctxt "transformation.helper.trials"
+msgid "Trials:"
+msgstr "Досліди:"
+
+#: lib/SGN/Controller/AJAX/VectorViewer.pm:252
+msgctxt "transformation.helper.unknown_data_format_for_vector_format"
+msgid "Unknown data format for vector: %{format}"
+msgstr "Невідомий формат даних вектора: %{format}"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:212
+msgctxt "transformation.helper.vector_construct_does_not_exist_or_does_not_exist_as_vector_construc"
+msgid "vector construct does not exist or does not exist as vector construct uniquename."
+msgstr "Векторна конструкція не існує або не існує як унікальна назва векторної конструкції."
+
+#: lib/CXGN/Stock/Vector/ParseUpload/Plugin/VectorsXLS.pm:117
+msgctxt "transformation.helper.vector_k_occures_value2_times_in_the_file_vector_names_must_be_uniqu"
+msgid "Vector %{k} occurs %{value2} times in the file. Vector names must be unique. Please remove duplicated vector names."
+msgstr "Вектор %{k} трапляється у файлі %{value2} разів. Назви векторів мають бути унікальними. Видаліть дублікати назв."
+
+#: lib/SGN/Controller/AJAX/Treatment.pm:28
+#: lib/SGN/Controller/AJAX/Treatment.pm:37
+msgctxt "transformation.helper.you_do_not_have_permission_to_design_new_treatments"
+msgid "You do not have permission to design new treatments.\n"
+msgstr "У вас немає дозволу на створення нових обробок.\n"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:627
+msgctxt "transformation.helper.you_do_not_have_sufficient_privileges_to_add_new_transformants"
+msgid "You do not have sufficient privileges to add new transformants."
+msgstr "У вас недостатньо прав, щоб додати нові трансформанти."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:148
+msgctxt "transformation.helper.you_do_not_have_sufficient_privileges_to_add_tracking_identifiers"
+msgid "You do not have sufficient privileges to add tracking identifiers."
+msgstr "У вас недостатньо прав, щоб додати ідентифікатори відстеження."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:72
+msgctxt "transformation.helper.you_do_not_have_sufficient_privileges_to_create_tracking_activity_pr"
+msgid "You do not have sufficient privileges to create tracking activity project."
+msgstr "У вас недостатньо прав, щоб створити проєкт відстеження дій."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:259
+msgctxt "transformation.helper.you_do_not_have_sufficient_privileges_to_record_new_information"
+msgid "You do not have sufficient privileges to record new information."
+msgstr "У вас недостатньо прав, щоб записати нові відомості."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:955
+msgctxt "transformation.helper.you_do_not_have_the_correct_role_to_delete_transformation_id_please_"
+msgid "You do not have the correct role to delete transformation ID. Please contact us."
+msgstr "У вас немає належної ролі для видалення ID трансформації. Зверніться до нас."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:739
+msgctxt "transformation.helper.you_do_not_have_the_correct_role_to_reverse_status_of_this_tracking_"
+msgid "You do not have the correct role to reverse status of this tracking identifier. Please contact us."
+msgstr "У вас немає належної ролі для скасування стану цього ідентифікатора відстеження. Зверніться до нас."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:658
+msgctxt "transformation.helper.you_do_not_have_the_correct_role_to_update_status_please_contact_us"
+msgid "You do not have the correct role to update status. Please contact us."
+msgstr "У вас немає належної ролі для оновлення стану. Зверніться до нас."
+
+#: lib/SGN/Controller/AJAX/VectorViewer.pm:260
+msgctxt "transformation.helper.you_do_not_have_the_privileges_to_import_vector_data"
+msgid "You do not have the privileges to import vector data."
+msgstr "У вас немає прав для імпорту даних вектора."
+
+#: lib/SGN/Controller/AJAX/VectorViewer.pm:47
+msgctxt "transformation.helper.you_do_not_have_the_privileges_to_store_vectors"
+msgid "You do not have the privileges to store vectors."
+msgstr "У вас немає прав для збереження векторів."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:182
+msgctxt "transformation.helper.you_have_insufficient_privileges_to_add_a_transformation_id"
+msgid "you have insufficient privileges to add a transformation ID."
+msgstr "У вас недостатньо прав, щоб додати ID трансформації."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:65
+msgctxt "transformation.helper.you_have_insufficient_privileges_to_add_a_transformation_project"
+msgid "you have insufficient privileges to add a transformation project."
+msgstr "У вас недостатньо прав, щоб додати проєкт трансформації."
+
+#: lib/SGN/Controller/AJAX/Grafting.pm:172
+#: lib/SGN/Controller/AJAX/Grafting.pm:71
+msgctxt "transformation.helper.you_have_insufficient_privileges_to_add_grafts"
+msgid "You have insufficient privileges to add grafts."
+msgstr "У вас недостатньо прав, щоб додати щеплення."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:519
+msgctxt "transformation.helper.you_have_insufficient_privileges_to_add_new_transformants"
+msgid "you have insufficient privileges to add new transformants."
+msgstr "У вас недостатньо прав, щоб додати нові трансформанти."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1896
+msgctxt "transformation.helper.you_have_insufficient_privileges_to_edit_this_transformation_metadat"
+msgid "you have insufficient privileges to edit this transformation metadata."
+msgstr "У вас недостатньо прав, щоб редагувати ці метадані трансформації."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:990
+msgctxt "transformation.helper.you_have_insufficient_privileges_to_set_a_control_for_this_transform"
+msgid "you have insufficient privileges to set a control for this transformation ID."
+msgstr "У вас недостатньо прав, щоб задати контроль для цього ID трансформації."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:784
+msgctxt "transformation.helper.you_have_insufficient_privileges_to_set_autogenerated_name_format_fo"
+msgid "you have insufficient privileges to set autogenerated name format for this project."
+msgstr "У вас недостатньо прав, щоб задати формат автоматичних назв для цього проєкту."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:838
+msgctxt "transformation.helper.you_have_insufficient_privileges_to_set_default_plant_material_for_t"
+msgid "you have insufficient privileges to set default plant material for this project."
+msgstr "У вас недостатньо прав, щоб задати рослинний матеріал за замовчуванням для цього проєкту."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1034
+msgctxt "transformation.helper.you_have_insufficient_privileges_to_set_this_transformation_id_as_a_"
+msgid "you have insufficient privileges to set this transformation ID as a control."
+msgstr "У вас недостатньо прав, щоб задати цей ID трансформації як контроль."
+
+#: lib/SGN/Controller/AJAX/VectorConstruct.pm:105
+msgctxt "transformation.helper.you_must_be_logged_in_to_add_a_vector"
+msgid "You must be logged in to add a vector!"
+msgstr "Щоб додати вектор, потрібно увійти!"
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:255
+msgctxt "transformation.helper.you_must_be_logged_in_to_add_new_information"
+msgid "You must be logged in to add new information."
+msgstr "Потрібно увійти, щоб додати нові відомості."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:144
+msgctxt "transformation.helper.you_must_be_logged_in_to_generate_tracking_identifiers"
+msgid "You must be logged in to generate tracking identifiers."
+msgstr "Потрібно увійти, щоб створити ідентифікатори відстеження."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:735
+msgctxt "transformation.helper.you_must_be_logged_in_to_reverse_status_of_this_tracking_identifier"
+msgid "You must be logged in to reverse status of this tracking identifier"
+msgstr "Потрібно увійти, щоб скасувати стан цього ідентифікатора відстеження"
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:654
+msgctxt "transformation.helper.you_must_be_logged_in_to_update_status"
+msgid "You must be logged in to update status"
+msgstr "Потрібно увійти, щоб оновити стан"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1568
+#: lib/SGN/Controller/AJAX/Transformation.pm:1577
+msgctxt "transformation.helper.you_must_be_logged_in_to_upload_relative_expression_data"
+msgid "You must be logged in to upload relative expression data!"
+msgstr "Потрібно увійти, щоб завантажити дані відносної експресії!"
+
+#: lib/SGN/Controller/AJAX/VectorConstruct.pm:209
+#: lib/SGN/Controller/AJAX/VectorConstruct.pm:218
+msgctxt "transformation.helper.you_must_be_logged_in_to_upload_this_vector_info"
+msgid "You must be logged in to upload this vector info!"
+msgstr "Потрібно увійти, щоб завантажити ці відомості про вектор!"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:309
+msgctxt "transformation.helper.you_must_be_logged_in_to_upload_transformation_identifers"
+msgid "You must be logged in to upload transformation identifiers!"
+msgstr "Щоб завантажити ідентифікатори трансформації, потрібно увійти в систему!"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:318
+msgctxt "transformation.helper.you_must_be_logged_in_to_upload_transformation_identifiers"
+msgid "You must be logged in to upload transformation identifiers!"
+msgstr "Потрібно увійти, щоб завантажити ідентифікатори трансформації!"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1244
+#: lib/SGN/Controller/AJAX/Transformation.pm:1258
+msgctxt "transformation.helper.you_must_be_logged_in_to_upload_transgenic_historical_data"
+msgid "You must be logged in to upload transgenic historical data!"
+msgstr "Потрібно увійти, щоб завантажити історичні трансгенні дані!"
+
+#: lib/SGN/Controller/AJAX/Treatment.pm:78
+msgctxt "transformation.helper.you_must_supply_a_definition"
+msgid "You must supply a definition.\n"
+msgstr "Потрібно вказати визначення.\n"
+
+#: lib/SGN/Controller/AJAX/Treatment.pm:74
+msgctxt "transformation.helper.you_must_supply_a_name"
+msgid "You must supply a name.\n"
+msgstr "Потрібно вказати назву.\n"
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:157
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.06550e6"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program_name} to add tracking identifiers."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{program_name}, щоб додати ідентифікатори відстеження."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:343
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.0c75877"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{breeding_program_name} to upload transformation identifiers."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{breeding_program_name}, щоб завантажити ідентифікатори трансформації."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1043
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.2abe0e7"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program_name} to set this transformation ID as a control."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{program_name}, щоб задати цей ID трансформації як контроль."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1270
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.3a55376"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{breeding_program_name} to upload transgenic historical data."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{breeding_program_name}, щоб завантажити історичні трансгенні дані."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:82
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.3f5957e"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program_name} to add tracking project."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{program_name}, щоб додати проєкт відстеження."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:847
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.5f9634b"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program_name} to set default plant material for transformation."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{program_name}, щоб задати рослинний матеріал за замовчуванням для трансформації."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:999
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.8eae049"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program_name} to set a control for this transformation ID."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{program_name}, щоб задати контроль для цього ID трансформації."
+
+#: lib/SGN/Controller/AJAX/TrackingActivity.pm:268
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.a87f650"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program_name} to record new information."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{program_name}, щоб записати нові відомості."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:528
+#: lib/SGN/Controller/AJAX/Transformation.pm:636
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.c067f25"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program_name} to add new transformants."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{program_name}, щоб додати нові трансформанти."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:75
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.c1ec515"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program_name} to add new transformation project."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{program_name}, щоб додати новий проєкт трансформації."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:793
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.c959ba8"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program_name} to set autogenerated name format for new transformants."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{program_name}, щоб задати формат автоматичних назв для нових трансформантів."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:191
+msgctxt "transformation.helper.you_need_to_be_either_a_curator_or_a_submitter_associated_with_breed.e80a02f"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program_name} to add transformation identifiers."
+msgstr "Ви маєте бути куратором або користувачем із правом подання даних, пов’язаним із селекційною програмою %{program_name}, щоб додати ідентифікатори трансформації."
+
+#: lib/SGN/Controller/AJAX/VectorViewer.pm:221
+msgctxt "transformation.helper.you_need_to_be_logged_in_to_store_vectors"
+msgid "You need to be logged in to store vectors."
+msgstr "Потрібно увійти, щоб зберегти вектори."
+
+#: lib/SGN/Controller/AJAX/VectorViewer.pm:113
+msgctxt "transformation.helper.you_need_to_be_logged_in_to_view_vector_data"
+msgid "You need to be logged in to view vector data."
+msgstr "Потрібно увійти, щоб переглянути дані вектора."
+
+#: lib/SGN/Controller/AJAX/VectorViewer.pm:41
+msgctxt "transformation.helper.you_need_to_be_logged_in_with_corresponding_privileges_to_store_vect"
+msgid "You need to be logged in with corresponding privileges to store vectors."
+msgstr "Для збереження векторів потрібно увійти з відповідними правами."
+
+#: lib/SGN/Controller/AJAX/Treatment.pm:82
+msgctxt "transformation.helper.you_supplied_a_definition_but_it_seems_short_please_ensure_the_defin"
+msgid "You supplied a definition, but it seems short. Please ensure the definition fully describes the treatment and allows it to be differentiated from other treatments.\n"
+msgstr "Надане визначення здається закоротким. Переконайтеся, що воно повністю описує обробку та дає змогу відрізнити її від інших обробок.\n"
+
+#: mason/transformation/manage_transformation.mas:39
+msgctxt "transformation.if_transformation_project_is_linked_to_a_tracking_project_in"
+msgid "If transformation project is linked to a tracking project, in addition to basic information for each transformation, details of experimental procedure such as co-culture date, media type, media-change date, selection date can be recorded."
+msgstr "Якщо проєкт трансформації пов’язано з проєктом відстеження, для кожної трансформації, крім основних відомостей, можна записувати деталі процедури: дату спільного культивування, тип середовища, дату заміни середовища та дату відбору."
+
+#: mason/transformation/add_transformation_project_dialog.mas:105
+msgctxt "transformation.if_your_transformation_project_is_automatically_linked_to_the_tracking"
+msgid "If your transformation project is automatically linked to the tracking tool, please set up a naming format for the autogenerated names of your transformation project before using the tracking tool."
+msgstr "Якщо проєкт трансформації автоматично пов’язано з інструментом відстеження, перед використанням цього інструмента налаштуйте формат автоматичних назв проєкту трансформації."
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:120
+msgctxt "transformation.important_all_accessions_in_the_file_should_be_the_same"
+msgid "IMPORTANT: all accessions in the file should be the same type (either new or existing accession type)."
+msgstr "ВАЖЛИВО: усі зразки у файлі мають бути одного типу (нові або наявні)."
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:122
+msgctxt "transformation.important_please_include_all_accessions_from_the_same_batch_in"
+msgid "IMPORTANT: please include all accessions from the same batch in one file."
+msgstr "ВАЖЛИВО: додайте всі зразки однієї партії до одного файлу."
+
+#: mason/transformation/transformation_project.mas:50
+msgctxt "transformation.inactive_transformation_ids"
+msgid "Inactive Transformation IDs"
+msgstr "Неактивні ID трансформацій"
+
+#: cgi-bin/tools/vector/index.pl:218
+msgctxt "transformation.insert_at_position"
+msgid "Insert at position"
+msgstr "Вставити в позиції"
+
+#: cgi-bin/tools/vector/index.pl:218
+msgctxt "transformation.insert_sequence.926ec50"
+msgid "Insert Sequence"
+msgstr "Вставити послідовність"
+
+#: cgi-bin/tools/vector/index.pl:220
+msgctxt "transformation.insert_sequence.f1cd3f7"
+msgid "Insert sequence"
+msgstr "Вставити послідовність"
+
+#: lib/CXGN/Transformation/CreateTransformantAutogeneratedNames.pm:140
+msgctxt "transformation.invalid_names_names"
+msgid "Invalid Names: %{names}!\n"
+msgstr "Недійсні назви: %{names}!\n"
+
+#: mason/transformation/add_transformation_identifier_dialog.mas:49
+msgctxt "transformation.is_a_control"
+msgid "Is a Control:"
+msgstr "Є контролем:"
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:127
+msgctxt "transformation.is_a_control_if_you_would_like_to_set_any.3f52abb"
+msgid "is_a_control (if you would like to set any new accession as a control for any batch, please indicate \"1\" for the \"is_a_control\" column.)"
+msgstr "is_a_control (щоб задати новий зразок як контроль для певної партії, вкажіть \"1\" у стовпці \"is_a_control\".)"
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:121
+msgctxt "transformation.is_a_control_if_you_would_like_to_set_any.5bd8d71"
+msgid "is_a_control (if you would like to set any transformation identifier"
+msgstr "is_a_control (якщо потрібно задати будь-який ідентифікатор трансформації"
+
+#: mason/transformation/manage_transformation.mas:33
+msgctxt "transformation.links_for_setting_a_naming_format_for_autogenerated_names_and"
+msgid "Links for setting a naming format for autogenerated names and for setting default plant material can be found on the 'Transformation Project' detail page."
+msgstr "Посилання для налаштування формату автоматично створених назв і рослинного матеріалу за замовчуванням є на сторінці відомостей про проєкт трансформації."
+
+#: mason/transformation/manage_transformation.mas:20
+msgctxt "transformation.manage_transformations"
+msgid "Manage Transformations"
+msgstr "Керування трансформаціями"
+
+#: lib/CXGN/Transformation/StoreTransgeneExpressionData.pm:229
+msgctxt "transformation.more_than_one_assay_metadata_stockprop_found_for_vector_construct_ve"
+msgid "More than one assay metadata stockprop found for vector construct: %{vector_construct_name}!"
+msgstr "Для векторної конструкції %{vector_construct_name} знайдено більше одного stockprop метаданих аналізу!"
+
+#: lib/CXGN/Transformation/StoreTransgeneExpressionData.pm:195
+msgctxt "transformation.more_than_one_expression_data_stockprop_found_for_transformant_name"
+msgid "More than one expression data stockprop found for: %{transformant_name}!"
+msgstr "Для %{transformant_name} знайдено більше одного stockprop даних експресії!"
+
+#: mason/transformation/transformation_project_tree.mas:39
+msgctxt "transformation.move_transformation_project_s_to_folder"
+msgid "Move transformation project(s) to folder"
+msgstr "Перемістити проєкти трансформації до папки"
+
+#: mason/transformation/add_transformant_names_dialog.mas:24
+msgctxt "transformation.name_format"
+msgid "Name Format:"
+msgstr "Формат назв:"
+
+#: mason/transformation/transformation.mas:66
+#: mason/transformation/transformation_project_details.mas:92
+msgctxt "transformation.name_format_for_transformants"
+msgid "Name Format for Transformants"
+msgstr "Формат назв трансформантів"
+
+#: cgi-bin/maps/physical/vector_info.pl:24
+msgctxt "transformation.no_sequence_information_for_vector"
+msgid "No sequence information for vector "
+msgstr "Немає відомостей про послідовність для вектора "
+
+#: mason/transformation/transformation_project_details.mas:36
+msgctxt "transformation.no_transformation_project_name"
+msgid "[No Transformation Project Name]"
+msgstr "[Немає назви проєкту трансформації]"
+
+#: cgi-bin/maps/physical/vector_info.pl:22
+msgctxt "transformation.no_vector_found_with_id"
+msgid "No vector found with ID '"
+msgstr "Не знайдено вектора з ID '"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:46
+msgctxt "transformation.normalization_method"
+msgid "Normalization Method:"
+msgstr "Метод нормалізації:"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:278
+msgctxt "transformation.normalized_values_are_calculated_using_the_formula"
+msgid "Normalized values are calculated using the formula:"
+msgstr "Нормалізовані значення обчислюють за формулою:"
+
+#: mason/transformation/transformation_project_details.mas:109
+#: mason/transformation/transformation_project_details.mas:98
+msgctxt "transformation.not_set"
+msgid "[Not Set]"
+msgstr "[Не задано]"
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:120
+msgctxt "transformation.notes_additional_information_about_transformation_identifier"
+msgid "notes (additional information about transformation identifier)"
+msgstr "notes (додаткові відомості про ідентифікатор трансформації)"
+
+#: mason/transformation/control_transformants_section.mas:21
+#: mason/transformation/transformant_details.mas:42
+#: mason/transformation/transgenic_line_details_section.mas:51
+msgctxt "transformation.number_of_insertions"
+msgid "Number of Insertions"
+msgstr "Кількість вставок"
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:129
+msgctxt "transformation.number_of_insertions_you_can_indicate_number_of_transgene_insertions"
+msgid "number_of_insertions (You can indicate number of transgene insertions during transgenic historical data upload.)"
+msgstr "number_of_insertions (кількість вставок трансгена можна вказати під час завантаження історичних трансгенних даних.)"
+
+#: mason/stock/vector_related_accessions.mas:51
+#: mason/transformation/transformants_section.mas:53
+#: mason/transformation/transgenic_line_details_section.mas:52
+msgctxt "transformation.obsolete_accession"
+msgid "Obsolete Accession"
+msgstr "Позначити зразок як застарілий"
+
+#: mason/transformation/obsolete_accessions_dialog.mas:15
+#: mason/transformation/transformation.mas:87
+msgctxt "transformation.obsolete_accessions"
+msgid "Obsolete Accessions"
+msgstr "Позначити зразки як застарілі"
+
+#: mason/transformation/transformants_section.mas:31
+#: mason/transformation/transgenic_line_details_section.mas:30
+msgctxt "transformation.obsolete_accessions_in_bulk"
+msgid "Obsolete Accessions in Bulk"
+msgstr "Масово позначити зразки як застарілі"
+
+#: lib/CXGN/Trait/Treatment.pm:65
+msgctxt "transformation.parent_term_s_value1_could_not_be_found_in_the_database"
+msgid "Parent term(s) %{value1} could not be found in the database.\n"
+msgstr "Батьківські терміни %{value1} не знайдено в базі даних.\n"
+
+#: mason/transformation/add_transformation_identifier_dialog.mas:29
+#: mason/transformation/add_transformation_identifier_dialog.mas:36
+#: mason/transformation/set_default_plant_material_dialog.mas:20
+msgctxt "transformation.plant_material_accession_name"
+msgid "Plant Material (accession name):"
+msgstr "Рослинний матеріал (назва зразка):"
+
+#: mason/transformation/add_transformation_identifier_dialog.mas:121
+#: mason/transformation/set_default_plant_material_dialog.mas:79
+msgctxt "transformation.plant_material_is_required"
+msgid "Plant material is required"
+msgstr "Потрібен рослинний матеріал"
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:121
+msgctxt "transformation.please_indicate_1_for_the_is_a_control_column_to"
+msgid ", please indicate \"1\" for the \"is_a_control\" column. To"
+msgstr ", вкажіть \"1\" у стовпці \"is_a_control\". Щоб"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:310
+msgctxt "transformation.please_provide_assay_date"
+msgid "Please provide assay date"
+msgstr "Вкажіть дату аналізу"
+
+#: mason/transformation/add_transformation_control_dialog.mas:131
+msgctxt "transformation.please_select_a_control"
+msgid "Please select a control"
+msgstr "Виберіть контроль"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:315
+msgctxt "transformation.please_select_a_normalization_method"
+msgid "Please select a normalization method"
+msgstr "Виберіть метод нормалізації"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:300
+msgctxt "transformation.please_select_a_tissue_type"
+msgid "Please select a tissue type"
+msgstr "Виберіть тип тканини"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:305
+msgctxt "transformation.please_select_an_endogenous_control"
+msgid "Please select an endogenous control"
+msgstr "Виберіть ендогенний контроль"
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:149
+msgctxt "transformation.please_set_a_default_plant_material_for_this_project_before"
+msgid "Please set a default plant material for this project before uploading your data."
+msgstr "Перед завантаженням даних задайте рослинний матеріал за замовчуванням для цього проєкту."
+
+#: mason/transformation/add_transformant_names_dialog.mas:79
+msgctxt "transformation.please_set_name_format_for_autogenerated_names_for_this_project"
+msgid "Please set name format for autogenerated names for this project first. You can find Set Autogenerated Names link on the project page"
+msgstr "Спочатку налаштуйте формат автоматично створених назв для цього проєкту. Посилання «Налаштувати автоматичні назви» є на сторінці проєкту"
+
+#: cgi-bin/tools/vector/index.pl:177
+msgctxt "transformation.popular_4bp_cutters"
+msgid "popular 4bp cutters"
+msgstr "поширені ферменти з сайтами 4bp"
+
+#: cgi-bin/tools/vector/index.pl:177
+msgctxt "transformation.popular_6bp_cutters"
+msgid "popular 6bp cutters"
+msgstr "поширені ферменти з сайтами 6bp"
+
+#: mason/transformation/manage_transformation.mas:34
+msgctxt "transformation.progress_of_each_experiment_can_be_easily_tracked_and_organized"
+msgid "Progress of each experiment can be easily tracked and organized. Ongoing transformation experiments are grouped in the same table on the 'Transformation Project' detail page. Once the status of a particular experiment is updated to completed/discarded status, the completed/discarded experiment will be automatically moved to a separate table."
+msgstr "Перебіг кожного досліду легко відстежувати й організовувати. Поточні досліди з трансформації згруповано в одній таблиці на сторінці відомостей про проєкт трансформації. Коли стан досліду змінюється на завершений/відбракований, його автоматично переміщують до окремої таблиці."
+
+#: mason/stock/accession_related_transformation_info.mas:44
+#: mason/transformation/transformant_details.mas:48
+msgctxt "transformation.qpcr_assay_date"
+msgid "qPCR Assay Date"
+msgstr "Дата аналізу qPCR"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:242
+msgctxt "transformation.qpcr_data"
+msgid "qPCR Data"
+msgstr "Дані qPCR"
+
+#: mason/stock/accession_related_transformation_info.mas:43
+#: mason/transformation/transformant_details.mas:47
+msgctxt "transformation.qpcr_tissue_type"
+msgid "qPCR Tissue Type"
+msgstr "Тип тканини qPCR"
+
+#: mason/transformation/transformant_details.mas:45
+msgctxt "transformation.relative"
+msgid "(Relative)"
+msgstr "(Відносне)"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:149
+msgctxt "transformation.replicate_number_if_there_is_no_replicate_please_indicate_1"
+msgid "replicate_number (If there is no replicate, please indicate 1. If any sample has replicates, the derived normalized value is an average value.)"
+msgstr "replicate_number (якщо повторення немає, вкажіть 1. Якщо проба має повторення, похідне нормалізоване значення є середнім.)"
+
+#: mason/tracking_activities/activity_info_details.mas:174
+#: mason/transformation/transformation_update_status_section.mas:18
+msgctxt "transformation.reverse_status"
+msgid "Reverse Status"
+msgstr "Скасувати стан"
+
+#: mason/tracking_activities/activity_project.mas:49
+msgctxt "transformation.root.active_tracking_ids"
+msgid "Active Tracking IDs"
+msgstr "Активні ID відстеження"
+
+#: mason/tracking_activities/activity_info_details.mas:119
+#: mason/tracking_activities/record_activity.mas:109
+msgctxt "transformation.root.activity_details"
+msgid "Activity Details"
+msgstr "Відомості про дії"
+
+#: mason/tracking_activities/add_new_activity_project.mas:48
+msgctxt "transformation.root.activity_type"
+msgid "Activity Type:"
+msgstr "Тип дій:"
+
+#: mason/tracking_activities/add_new_activity_project.mas:158
+msgctxt "transformation.root.activity_type_is_required"
+msgid "Activity type is required"
+msgstr "Потрібен тип дій"
+
+#: mason/vectorviewer/vectorviewer.mas:153
+msgctxt "transformation.root.add_a_feature"
+msgid "Add a feature"
+msgstr "Додати елемент"
+
+#: mason/stock/accession_related_transformation_info.mas:67
+#: mason/stock/accession_related_transformation_info.mas:89
+msgctxt "transformation.root.add_accession_names_to_a_list"
+msgid "Add accession names to a List"
+msgstr "Додати назви зразків до списку"
+
+#: mason/vectorviewer/vectorviewer.mas:196
+msgctxt "transformation.root.add_edit_a_restriction_enzyme_site"
+msgid "Add/Edit a restriction enzyme site"
+msgstr "Додати/редагувати сайт рестрикційного ферменту"
+
+#: mason/tracking_activities/active_tracking_identifiers.mas:34
+msgctxt "transformation.root.add_identifiers_to_a_list"
+msgid "Add Identifiers to a List"
+msgstr "Додати ідентифікатори до списку"
+
+#: mason/vectorviewer/vectorviewer.mas:100
+msgctxt "transformation.root.add_new_feature"
+msgid "Add new feature"
+msgstr "Додати новий елемент"
+
+#: mason/tracking_activities/add_new_activity_project.mas:14
+msgctxt "transformation.root.add_new_tracking_activities_project"
+msgid "Add New Tracking Activities Project"
+msgstr "Додати новий проєкт відстеження дій"
+
+#: mason/stock/add_vector.mas:110
+msgctxt "transformation.root.add_new_vector"
+msgid "Add new vector"
+msgstr "Додати новий вектор"
+
+#: mason/stock/add_vector.mas:23
+msgctxt "transformation.root.add_new_vector_and_details"
+msgid "Add new vector and details."
+msgstr "Додати новий вектор і відомості."
+
+#: mason/tracking_activities/add_new_activity_project.mas:38
+msgctxt "transformation.root.add_project_info"
+msgid "Add project info"
+msgstr "Додати відомості про проєкт"
+
+#: mason/vectorviewer/vectorviewer.mas:115
+msgctxt "transformation.root.add_restriction_enzyme_site"
+msgid "Add restriction enzyme site"
+msgstr "Додати сайт рестрикційного ферменту"
+
+#: mason/tracking_activities/manage_activities.mas:14
+msgctxt "transformation.root.add_tracking_activities_project"
+msgid "Add Tracking Activities Project"
+msgstr "Додати проєкт відстеження дій"
+
+#: mason/vectorviewer/vectorviewer.mas:235
+msgctxt "transformation.root.add_vector_data"
+msgid "Add vector data:"
+msgstr "Додати дані вектора:"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:159
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:23
+msgctxt "transformation.root.add_vectors"
+msgid "Add Vectors"
+msgstr "Додати вектори"
+
+#: mason/stock/accession_related_transformation_info.mas:67
+#: mason/stock/accession_related_transformation_info.mas:89
+msgctxt "transformation.root.adding_accession_names_to_a_new_or_exisiting_list"
+msgid "Adding accession names to a new or existing list"
+msgstr "Додавання назв зразків до нового або наявного списку"
+
+#: mason/tracking_activities/active_tracking_identifiers.mas:34
+msgctxt "transformation.root.adding_identifiers_in_this_project_to_a_new_or_exisiting"
+msgid "Adding identifiers in this project to a new or existing list"
+msgstr "Додавання ідентифікаторів цього проєкту до нового або наявного списку"
+
+#: mason/breeders_toolbox/upload_graft_dialogs.mas:45
+msgctxt "transformation.root.already_in_the_system"
+msgid "Already in the system:"
+msgstr "Уже є в системі:"
+
+#: mason/stock/add_vector.mas:150
+msgctxt "transformation.root.an_error_occured_while_storing_vectors"
+msgid "An Error occurred while storing vectors."
+msgstr "Сталася помилка під час збереження векторів."
+
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:189
+msgctxt "transformation.root.an_error_occurred_generating_identifiers"
+msgid "An error occurred generating identifiers"
+msgstr "Сталася помилка під час створення ідентифікаторів"
+
+#: mason/transformation/set_default_plant_material_dialog.mas:107
+msgctxt "transformation.root.an_error_occurred_saving_default_plant_material"
+msgid "An error occurred saving default plant material"
+msgstr "Помилка збереження рослинного матеріалу за замовчуванням"
+
+#: mason/tracking_activities/activity_info_details.mas:269
+#: mason/tracking_activities/record_activity.mas:265
+msgctxt "transformation.root.an_error_occurred_saving_new_information"
+msgid "An error occurred saving new information"
+msgstr "Сталася помилка під час збереження нових відомостей"
+
+#: mason/tracking_activities/add_new_activity_project.mas:214
+msgctxt "transformation.root.an_error_occurred_saving_new_tracking_activities_project"
+msgid "An error occurred saving new tracking activities project"
+msgstr "Сталася помилка під час збереження нового проєкту відстеження дій"
+
+#: mason/tracking_activities/update_status_dialog.mas:165
+msgctxt "transformation.root.an_error_occurred_updating_status"
+msgid "An error occurred updating status"
+msgstr "Сталася помилка під час оновлення стану"
+
+#: mason/tools/treatment_designer.mas:43
+msgctxt "transformation.root.application_type"
+msgid "Application type:"
+msgstr "Тип застосування:"
+
+#: mason/transformation/transformation_project_deletion.mas:48
+msgctxt "transformation.root.are_you_sure_you_want_to_delete_this_transformation_project"
+msgid "Are you sure you want to delete this transformation project? The deletion cannot be undone."
+msgstr "Ви впевнені, що хочете видалити цей проєкт трансформації? Видалення неможливо скасувати."
+
+#: mason/transformation/obsolete_accessions_dialog.mas:104
+msgctxt "transformation.root.are_you_sure_you_want_to_obsolete_these_accessions"
+msgid "Are you sure you want to obsolete these accessions:"
+msgstr "Ви впевнені, що хочете позначити ці зразки як застарілі:"
+
+#: mason/tracking_activities/update_status_dialog.mas:177
+msgctxt "transformation.root.are_you_sure_you_want_to_reverse_status_of_this"
+msgid "Are you sure you want to reverse status of this "
+msgstr "Ви впевнені, що хочете скасувати стан цього "
+
+#: mason/stock/add_vector.mas:41
+msgctxt "transformation.root.auto_generate_uniquename"
+msgid "Auto generate uniquename"
+msgstr "Автоматично створювати унікальну назву"
+
+#: mason/stock/add_vector.mas:56
+msgctxt "transformation.root.backbone"
+msgid "Backbone"
+msgstr "Основа вектора"
+
+#: mason/stock/add_vector.mas:80
+msgctxt "transformation.root.bacterial_resistant_marker"
+msgid "Bacterial Resistant Marker"
+msgstr "Маркер бактеріальної стійкості"
+
+#: mason/tracking_activities/activity_project_tree.mas:23
+msgctxt "transformation.root.breeding_programs_folders_tracking_activities"
+msgid "Breeding Programs -- Folders -- Tracking Activities"
+msgstr "Селекційні програми -- Папки -- Відстеження дій"
+
+#: mason/stock/add_vector.mas:86
+msgctxt "transformation.root.cassette_name"
+msgid "Cassette Name"
+msgstr "Назва касети"
+
+#: mason/stock/add_vector.mas:44
+msgctxt "transformation.root.cloning_organism_host"
+msgid "Cloning Organism Host"
+msgstr "Організм-хазяїн для клонування"
+
+#: mason/tools/vectorviewer.mas:268 mason/tools/vectorviewer.mas:91
+#: mason/vectorviewer/vectorviewer.mas:160
+#: mason/vectorviewer/vectorviewer.mas:97
+msgctxt "transformation.root.color"
+msgid "Color"
+msgstr "Колір"
+
+#: mason/tracking_activities/update_status_dialog.mas:46
+msgctxt "transformation.root.completed"
+msgid "completed"
+msgstr "завершено"
+
+#: mason/tracking_activities/update_status_usage_info_dialog.mas:30
+msgctxt "transformation.root.completed_or_terminated_status_can_be_reversed_by_using_undo"
+msgid "Completed or Terminated status can be reversed by using UNDO option. Deleting a process/experiment cannot be undone"
+msgstr "Завершений або припинений стан можна скасувати через UNDO. Видалення процесу/досліду скасувати неможливо"
+
+#: mason/stock/accession_related_transformation_info.mas:79
+msgctxt "transformation.root.control_transformants_accessions"
+msgid "Control Transformants (Accessions)"
+msgstr "Контрольні трансформанти (зразки)"
+
+#: mason/stock/vector_related_accessions.mas:19
+msgctxt "transformation.root.copy_accessions_to_a_list"
+msgid "Copy Accessions to a List"
+msgstr "Копіювати зразки до списку"
+
+#: mason/transformation/obsoleted_accessions.mas:31
+msgctxt "transformation.root.copy_obsoleted_accessions_to_a_list"
+msgid "Copy obsoleted accessions to a List"
+msgstr "Копіювати застарілі зразки до списку"
+
+#: mason/transformation/obsoleted_accessions.mas:31
+msgctxt "transformation.root.copy_the_obsoleted_accession_names_to_a_new_or_exisiting"
+msgid "Copy the obsoleted accession names to a new or existing list"
+msgstr "Копіювати назви застарілих зразків до нового або наявного списку"
+
+#: mason/search/treatments.mas:89
+msgctxt "transformation.root.copy_the_treatment_names_currently_selected_in_the_search_results"
+msgid "Copy the treatment names currently selected in the search results table to a new or existing list"
+msgstr "Копіювати вибрані в таблиці результатів назви обробок до нового або наявного списку"
+
+#: mason/stock/add_vector.mas:14
+msgctxt "transformation.root.create_a_new_vector"
+msgid "Create a New Vector"
+msgstr "Створити новий вектор"
+
+#: mason/tools/vectorviewer.mas:311 mason/tools/vectorviewer.mas:99
+#: mason/vectorviewer/vectorviewer.mas:112
+msgctxt "transformation.root.cut_coord.bd2974e"
+msgid "Cut Coord"
+msgstr "Координата розрізу"
+
+#: mason/vectorviewer/vectorviewer.mas:203
+msgctxt "transformation.root.cut_coord.d1ab7be"
+msgid "Cut coord"
+msgstr "Координата розрізу"
+
+#: mason/transformation/transformation_project_deletion.mas:12
+msgctxt "transformation.root.delete_transformation_ids"
+msgid "Delete Transformation IDs"
+msgstr "Видалити ID трансформацій"
+
+#: mason/transformation/transformation_project_deletion.mas:27
+msgctxt "transformation.root.delete_transformation_project.18671e2"
+msgid "Delete Transformation Project"
+msgstr "Видалити проєкт трансформації"
+
+#: mason/transformation/transformation_project_deletion.mas:34
+msgctxt "transformation.root.delete_transformation_project.8007a6e"
+msgid "Delete transformation project"
+msgstr "Видалити проєкт трансформації"
+
+#: mason/tracking_activities/update_status_usage_info_dialog.mas:23
+msgctxt "transformation.root.deleting_a_process_experiment_removes_its_identifier_from_the_database"
+msgid "Deleting a process/experiment removes its identifier from the database. Marking a process/experiment as completed/terminated inactivates that process/experiment, but its related information is still kept in the database."
+msgstr "Видалення процесу/досліду вилучає його ідентифікатор із бази даних. Позначення процесу/досліду як завершеного/припиненого робить його неактивним, але зберігає пов’язані відомості в базі даних."
+
+#: mason/tools/treatment_designer.mas:6
+msgctxt "transformation.root.design_new_experimental_treatments"
+msgid "Design new experimental treatments"
+msgstr "Створення нових експериментальних обробок"
+
+#: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:10
+msgctxt "transformation.root.download_obsolete_metadata_using_a_list"
+msgid "Download Obsolete Metadata Using a List"
+msgstr "Завантажити застарілі метадані за списком"
+
+#: mason/tools/treatment_designer.mas:103
+msgctxt "transformation.root.download_treatment_ontology"
+msgid "Download Treatment Ontology"
+msgstr "Завантажити онтологію обробок"
+
+#: mason/tracking_activities/add_new_activity_project.mas:28
+msgctxt "transformation.root.each_tracking_identifier_has_its_own_details_page_in_addition"
+msgid "Each tracking identifier has its own details page. In addition to the record page, you can record data directly using this details page. Tracking Identifier details page displays details of each data entry including an input, operator and timestamp as well as a summary of multiple entries of the same data type"
+msgstr "Кожен ідентифікатор відстеження має власну сторінку відомостей. Окрім сторінки запису, дані можна записувати безпосередньо на цій сторінці. Вона показує кожен запис, зокрема введені дані, оператора й часову мітку, а також зведення кількох записів одного типу даних"
+
+#: mason/tracking_activities/edit_tracking_activity_project_details.mas:16
+msgctxt "transformation.root.edit_tracking_activity_project_details"
+msgid "Edit Tracking Activity Project Details"
+msgstr "Редагувати відомості про проєкт відстеження дій"
+
+#: mason/vectorviewer/vectorviewer.mas:97
+msgctxt "transformation.root.end"
+msgid "End"
+msgstr "Кінець"
+
+#: mason/tools/vectorviewer.mas:265 mason/tools/vectorviewer.mas:91
+msgctxt "transformation.root.end_coord.22a497a"
+msgid "End Coord"
+msgstr "Кінцева координата"
+
+#: mason/vectorviewer/vectorviewer.mas:160
+msgctxt "transformation.root.end_coord.c3b2295"
+msgid "End coord"
+msgstr "Кінцева координата"
+
+#: mason/tracking_activities/add_new_activity_project.mas:39
+msgctxt "transformation.root.enter_basic_information_about_the_project"
+msgid "Enter basic information about the project"
+msgstr "Введіть основні відомості про проєкт"
+
+#: mason/transformation/obsolete_accessions_dialog.mas:130
+msgctxt "transformation.root.error_obsoleting_accessions"
+msgid "Error obsoleting accessions."
+msgstr "Помилка позначення зразків як застарілих."
+
+#: mason/tracking_activities/update_status_dialog.mas:130
+msgctxt "transformation.root.error_retrieving_source_info"
+msgid "Error retrieving source info"
+msgstr "Помилка отримання відомостей про джерело"
+
+#: mason/transformation/edit_transformation_project_details.mas:110
+msgctxt "transformation.root.error_saving_project_details"
+msgid "Error Saving Project Details"
+msgstr "Помилка збереження відомостей про проєкт"
+
+#: mason/tracking_activities/edit_tracking_activity_project_details.mas:125
+msgctxt "transformation.root.error_saving_tracking_activity_project_details"
+msgid "Error Saving Tracking Activity Project Details"
+msgstr "Помилка збереження відомостей про проєкт відстеження дій"
+
+#: mason/transformation/set_transformant_names_dialog.mas:112
+msgctxt "transformation.root.error_storing_autogenerated_name_format"
+msgid "Error storing autogenerated name format!"
+msgstr "Помилка збереження формату автоматично створених назв!"
+
+#: mason/tools/treatment_designer.mas:7
+msgctxt "transformation.root.experimental_treatments_are_applied_to_the_stocks_of_a_trial"
+msgid "Experimental treatments are applied to the stocks of a trial. Subplots, plants, and tissue samples inherit treatments from their parent stocks."
+msgstr "Експериментальні обробки застосовують до матеріалів досліду. Підділянки, рослини та проби тканини успадковують обробки від батьківських матеріалів."
+
+#: mason/vectorviewer/vectorviewer.mas:97
+msgctxt "transformation.root.feature"
+msgid "Feature"
+msgstr "Елемент"
+
+#: mason/vectorviewer/vectorviewer.mas:93
+msgctxt "transformation.root.feature_list"
+msgid "Feature list"
+msgstr "Список елементів"
+
+#: mason/tools/vectorviewer.mas:259
+msgctxt "transformation.root.feature_name"
+msgid "Feature Name"
+msgstr "Назва елемента"
+
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:65
+msgctxt "transformation.root.finished_tracking_identifiers_were_stored"
+msgid "Finished! Tracking Identifiers were stored"
+msgstr "Готово! Ідентифікатори відстеження збережено"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:192
+msgctxt "transformation.root.found_vectors"
+msgid "Found Vectors"
+msgstr "Знайдені вектори"
+
+#: mason/tools/treatment_designer.mas:90
+msgctxt "transformation.root.full_name_as_in_legacy_experiment_treatment_experiment_treatment"
+msgid "Full name, as in 'Legacy experiment treatment|EXPERIMENT_TREATMENT:0000001'"
+msgstr "Повна назва, як у 'Legacy experiment treatment|EXPERIMENT_TREATMENT:0000001'"
+
+#: mason/search/vectors.mas:72
+msgctxt "transformation.root.gene.46dbe41"
+msgid "Gene:"
+msgstr "Ген:"
+
+#: mason/stock/add_vector.mas:92
+msgctxt "transformation.root.gene.ef7ea42"
+msgid "Gene"
+msgstr "Ген"
+
+#: mason/tracking_activities/activity_project.mas:49
+msgctxt "transformation.root.generate_identifier_barcodes"
+msgid "Generate Identifier Barcodes"
+msgstr "Створити штрихкоди ідентифікаторів"
+
+#: mason/tracking_activities/activity_project_details.mas:133
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:14
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:30
+msgctxt "transformation.root.generate_tracking_identifiers"
+msgid "Generate Tracking Identifiers"
+msgstr "Створити ідентифікатори відстеження"
+
+#: mason/tracking_activities/activity_info_details.mas:47
+#: mason/tracking_activities/record_activity.mas:87
+msgctxt "transformation.root.go_to_project_page"
+msgid "Go to Project Page"
+msgstr "Перейти до сторінки проєкту"
+
+#: mason/tracking_activities/activity_project_details.mas:139
+msgctxt "transformation.root.go_to_transformation_page"
+msgid "Go to Transformation Page"
+msgstr "Перейти до сторінки трансформації"
+
+#: mason/tools/vectorviewer.mas:37
+msgctxt "transformation.root.go_wild"
+msgid "Go wild!"
+msgstr "Експериментуйте!"
+
+#: mason/breeders_toolbox/upload_graft_dialogs.mas:100
+msgctxt "transformation.root.graft_may_be_uploaded_in_tab_delimited_text_file_format"
+msgid "Graft may be uploaded in tab-delimited text file format"
+msgstr "Щеплення можна завантажувати в текстовому файлі з розділювачами табуляції"
+
+#: mason/stock/add_vector.mas:74
+msgctxt "transformation.root.host_antibiotic_resistant_marker"
+msgid "Host Antibiotic Resistant Marker"
+msgstr "Маркер стійкості хазяїна до антибіотиків"
+
+#: mason/tracking_activities/record_activity.mas:31
+msgctxt "transformation.root.identifier_name"
+msgid "Identifier Name:"
+msgstr "Назва ідентифікатора:"
+
+#: mason/vectorviewer/vectorviewer.mas:235
+msgctxt "transformation.root.if_the_vectorviewer_is_empty_such_as_on_a_newly"
+msgid "If the VectorViewer is empty, such as on a newly created vector page, you can upload a file describing the vector structure. If you have a Genbank-formatted file (usually with a .gb extension), you can go to the \"Upload Additional Files\" section and upload it. Make sure it retains the .gb extension, as the vectorviewer will recognize the file by this extension. The parsed data from the file will be used to display the vector."
+msgstr "Якщо VectorViewer порожній, наприклад на сторінці щойно створеного вектора, можна завантажити файл з описом структури вектора. Якщо є файл у форматі Genbank (зазвичай із розширенням .gb), перейдіть до розділу «Завантажити додаткові файли» та завантажте його. Збережіть розширення .gb, оскільки переглядач розпізнає файл за ним. Розібрані дані файлу буде використано для відображення вектора."
+
+#: mason/tracking_activities/add_new_activity_project.mas:29
+msgctxt "transformation.root.if_you_would_like_to_track_preparation_process_for_requested"
+msgid "If you would like to track preparation process for requested items from ordering tool, ordering tool can be connected with tracking tool (please contact us)."
+msgstr "Якщо потрібно відстежувати підготовку матеріалів, запитаних через інструмент замовлень, його можна пов’язати з інструментом відстеження (зверніться до нас)."
+
+#: mason/tracking_activities/activity_project.mas:50
+msgctxt "transformation.root.inactive_tracking_ids"
+msgid "Inactive Tracking IDs"
+msgstr "Неактивні ID відстеження"
+
+#: mason/stock/add_vector.mas:62
+msgctxt "transformation.root.inherent_marker"
+msgid "Inherent Marker"
+msgstr "Власний маркер"
+
+#: mason/tracking_activities/activity_info_details.mas:74
+#: mason/tracking_activities/record_activity.mas:61
+msgctxt "transformation.root.input"
+msgid "Input:"
+msgstr "Ввід:"
+
+#: mason/tracking_activities/activity_info_details.mas:61
+#: mason/tracking_activities/record_activity.mas:48
+msgctxt "transformation.root.input_type"
+msgid "Input Type:"
+msgstr "Тип вводу:"
+
+#: mason/search/vectors.mas:46
+msgctxt "transformation.root.keywords"
+msgid "Keywords:"
+msgstr "Ключові слова:"
+
+#: mason/search/treatments.mas:112
+msgctxt "transformation.root.leave_blank_to_see_all_treatments"
+msgid "Leave blank to see all treatments"
+msgstr "Залиште порожнім, щоб показати всі обробки"
+
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:47
+msgctxt "transformation.root.list_of_items"
+msgid "List of Items:"
+msgstr "Список елементів:"
+
+#: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:16
+msgctxt "transformation.root.list_of_obsoleted_stocks"
+msgid "List of Obsoleted Stocks:"
+msgstr "Список застарілих матеріалів:"
+
+#: mason/vectorviewer/vectorviewer.mas:145
+msgctxt "transformation.root.load"
+msgid "Load !!!"
+msgstr "Завантажити !!!"
+
+#: mason/tools/vectorviewer.mas:433 mason/tools/vectorviewer.mas:80
+#: mason/vectorviewer/vectorviewer.mas:141
+msgctxt "transformation.root.load_vector"
+msgid "Load Vector"
+msgstr "Завантажити вектор"
+
+#: mason/tracking_activities/add_new_activity_project.mas:75
+msgctxt "transformation.root.location_of_this_project"
+msgid "Location of this project:"
+msgstr "Місце цього проєкту:"
+
+#: mason/tracking_activities/update_status_dialog.mas:30
+msgctxt "transformation.root.mark_this_experiment_as_completed_or_terminated"
+msgid "Mark this experiment as completed or terminated"
+msgstr "Позначити цей дослід як завершений або припинений"
+
+#: mason/tracking_activities/activity_info_details.mas:54
+msgctxt "transformation.root.material"
+msgid "Material:"
+msgstr "Матеріал:"
+
+#: mason/tracking_activities/record_activity.mas:41
+msgctxt "transformation.root.material_name"
+msgid "Material Name:"
+msgstr "Назва матеріалу:"
+
+#: mason/vectorviewer/vectorviewer.mas:243
+msgctxt "transformation.root.more_information_is_available_in_the_breedbase_manual"
+msgid "More information is available in the Breedbase manual."
+msgstr "Докладніші відомості наведено в посібнику Breedbase."
+
+#: mason/tracking_activities/activity_project_tree.mas:39
+msgctxt "transformation.root.move_tracking_project_s_to_folder"
+msgid "Move tracking project(s) to folder"
+msgstr "Перемістити проєкти відстеження до папки"
+
+#: mason/transformation/set_transformant_names_dialog.mas:56
+msgctxt "transformation.root.naming_format_has_been_set_for_this_project"
+msgid "Naming format has been set for this project."
+msgstr "Формат назв для цього проєкту встановлено."
+
+#: mason/tracking_activities/activity_info_details.mas:150
+#: mason/tracking_activities/record_activity.mas:146
+msgctxt "transformation.root.new_information_was_saved"
+msgid "New information was saved."
+msgstr "Нові відомості збережено."
+
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:68
+msgctxt "transformation.root.new_tracking_identifiers_were_generated_successfully"
+msgid "New tracking identifiers were generated successfully"
+msgstr "Нові ідентифікатори відстеження успішно створено"
+
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:115
+msgctxt "transformation.root.new_tracking_identifiers_were_saved"
+msgid "New tracking identifiers were saved."
+msgstr "Нові ідентифікатори відстеження збережено."
+
+#: mason/tools/treatment_designer.mas:16
+msgctxt "transformation.root.new_treatment_name"
+msgid "New treatment name:"
+msgstr "Назва нової обробки:"
+
+#: mason/tools/treatment_designer.mas:167
+msgctxt "transformation.root.new_treatment_saved"
+msgid "New treatment saved."
+msgstr "Нову обробку збережено."
+
+#: mason/vectorviewer/vectorviewer.mas:97
+msgctxt "transformation.root.no"
+msgid "No."
+msgstr "№"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:119
+msgctxt "transformation.root.no_definition_available"
+msgid "no definition available"
+msgstr "визначення відсутнє"
+
+#: mason/transformation/inactive_transformation_ids_in_project.mas:18
+#: mason/transformation/transformations_in_project.mas:17
+msgctxt "transformation.root.no_of_transformants_accessions"
+msgid "No of Transformants (Accessions)"
+msgstr "Кількість трансформантів (зразків)"
+
+#: mason/tracking_activities/activity_project_details.mas:51
+msgctxt "transformation.root.no_record_type"
+msgid "[No Record Type]"
+msgstr "[Немає типу запису]"
+
+#: mason/tracking_activities/activity_project_details.mas:36
+msgctxt "transformation.root.no_tracking_activity_project_name"
+msgid "[No Tracking Activity Project Name]"
+msgstr "[Немає назви проєкту відстеження дій]"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:56
+msgctxt "transformation.root.note_use_the_fuzzy_search_to_match_similar_names_to"
+msgid "Note: Use the fuzzy search to match similar names to prevent uploading of duplicate vectors. Fuzzy searching is much slower than regular search. Only a curator can disable the fuzzy search."
+msgstr "Примітка: використовуйте нечіткий пошук подібних назв, щоб запобігти завантаженню дублікатів векторів. Нечіткий пошук значно повільніший за звичайний. Вимкнути його може лише куратор."
+
+#: mason/stock/accession_related_transformation_info.mas:37
+msgctxt "transformation.root.number_of_insertions"
+msgid "Number of Insertions:"
+msgstr "Кількість вставок:"
+
+#: mason/stock/accession_related_transformation_info.mas:31
+msgctxt "transformation.root.number_of_insertions_and_expression_data"
+msgid "Number of Insertions and Expression Data"
+msgstr "Кількість вставок і дані експресії"
+
+#: mason/transformation/transformation_project_deletion.mas:79
+msgctxt "transformation.root.number_of_transformants"
+msgid "Number of Transformants"
+msgstr "Кількість трансформантів"
+
+#: mason/transformation/obsoleted_accessions.mas:19
+#: mason/transformation/obsoleted_transformants_section.mas:32
+msgctxt "transformation.root.obsoleted_by"
+msgid "Obsoleted by"
+msgstr "Позначив як застарілий"
+
+#: mason/transformation/obsoleted_transformants_section.mas:5
+msgctxt "transformation.root.obsoleted_transgenic_lines_accessions"
+msgid "Obsoleted Transgenic Lines (Accessions)"
+msgstr "Застарілі трансгенні лінії (зразки)"
+
+#: mason/tracking_activities/update_status_usage_info_dialog.mas:17
+msgctxt "transformation.root.only_curators_can_update_status_to_completed_terminated_or_undo"
+msgid "Only curators can update status to completed/terminated or undo the update status."
+msgstr "Лише куратори можуть змінювати стан на завершений/припинений або скасовувати цю зміну."
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:146
+msgctxt "transformation.root.organization_name_for_added_vectors_optional"
+msgid "Organization name for added vectors (optional)"
+msgstr "Назва організації для доданих векторів (необов’язково)"
+
+#: mason/tools/vectorviewer.mas:271 mason/tools/vectorviewer.mas:91
+#: mason/vectorviewer/vectorviewer.mas:160
+#: mason/vectorviewer/vectorviewer.mas:97
+msgctxt "transformation.root.orientation"
+msgid "Orientation"
+msgstr "Орієнтація"
+
+#: mason/tracking_activities/activity_info_details.mas:236
+#: mason/tracking_activities/record_activity.mas:232
+msgctxt "transformation.root.please_provide_an_input"
+msgid "Please provide an input"
+msgstr "Введіть дані"
+
+#: mason/tracking_activities/record_activity.mas:26
+msgctxt "transformation.root.please_scan_a_tracking_identifier_barcode"
+msgid "Please scan a tracking identifier barcode"
+msgstr "Відскануйте штрихкод ідентифікатора відстеження"
+
+#: mason/tracking_activities/record_activity.mas:223
+msgctxt "transformation.root.please_scan_an_identifier_name_barcode"
+msgid "Please scan an identifier name barcode"
+msgstr "Відскануйте штрихкод назви ідентифікатора"
+
+#: mason/transformation/set_transformant_names_dialog.mas:88
+msgctxt "transformation.root.please_select_a_name_format"
+msgid "Please select a name format"
+msgstr "Виберіть формат назви"
+
+#: mason/transformation/set_transformant_names_dialog.mas:25
+msgctxt "transformation.root.please_select_a_naming_format"
+msgid "Please select a naming format"
+msgstr "Виберіть формат назв"
+
+#: mason/tracking_activities/update_status_dialog.mas:135
+msgctxt "transformation.root.please_select_a_status_type"
+msgid "Please select a status type"
+msgstr "Виберіть тип стану"
+
+#: mason/transformation/obsolete_accessions_dialog.mas:96
+msgctxt "transformation.root.please_select_accessions_that_you_would_like_to_obsolete"
+msgid "Please select accessions that you would like to obsolete"
+msgstr "Виберіть зразки, які потрібно позначити як застарілі"
+
+#: mason/transformation/set_transformant_names_dialog.mas:80
+msgctxt "transformation.root.please_set_up_autogenerated_name_format_for_your_breeding_program"
+msgid "Please set up autogenerated name format for your breeding program first"
+msgstr "Спочатку налаштуйте формат автоматично створених назв для селекційної програми"
+
+#: mason/tracking_activities/add_new_activity_project.mas:114
+msgctxt "transformation.root.please_use_generate_tracking_identifiers_link_on_your_tracking_activities"
+msgid "Please use \"Generate Tracking Identifiers\" link on your tracking activities project page to generate tracking identifiers for each project."
+msgstr "Скористайтеся посиланням «Створити ідентифікатори відстеження» на сторінці проєкту відстеження дій, щоб створити ідентифікатори для кожного проєкту."
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:143
+msgctxt "transformation.root.population_name_for_added_vectors_optional"
+msgid "Population name for added vectors (optional)"
+msgstr "Назва популяції для доданих векторів (необов’язково)"
+
+#: mason/tracking_activities/edit_tracking_activity_project_details.mas:22
+msgctxt "transformation.root.projec_name"
+msgid "Project Name:"
+msgstr "Назва проєкту:"
+
+#: mason/tracking_activities/activity_project_tree.mas:33
+msgctxt "transformation.root.project"
+msgid "project ("
+msgstr "проєкт ("
+
+#: mason/tracking_activities/activity_project.mas:48
+msgctxt "transformation.root.project_details"
+msgid "Project Details"
+msgstr "Відомості про проєкт"
+
+#: mason/stock/add_vector.mas:98
+msgctxt "transformation.root.promotors"
+msgid "Promotors"
+msgstr "Промотори"
+
+#: mason/vectorviewer/vectorviewer.mas:230
+msgctxt "transformation.root.quick_instructions_for_the_vectorviewer"
+msgid "Quick Instructions for the VectorViewer"
+msgstr "Коротка інструкція для VectorViewer"
+
+#: mason/tools/vectorviewer.mas:99 mason/vectorviewer/vectorviewer.mas:112
+msgctxt "transformation.root.re_site"
+msgid "RE Site"
+msgstr "Сайт рестрикції"
+
+#: mason/tracking_activities/record_activity.mas:23
+msgctxt "transformation.root.record_activity"
+msgid "Record Activity"
+msgstr "Записати дію"
+
+#: mason/tracking_activities/add_new_activity_project.mas:27
+msgctxt "transformation.root.record_page_allows_you_to_record_inputs_of_different_data"
+msgid "Record page allows you to record inputs of different data types. The link can be found on the project page. To record new information, you can retrieve any tracking identifier by scanning a barcode."
+msgstr "Сторінка запису дає змогу вводити дані різних типів. Посилання є на сторінці проєкту. Для запису нових відомостей можна знайти ідентифікатор відстеження, відсканувавши штрихкод."
+
+#: mason/tracking_activities/activity_project_details.mas:43
+msgctxt "transformation.root.record_type"
+msgid "Record Type"
+msgstr "Тип запису"
+
+#: mason/tools/treatment_designer.mas:47
+msgctxt "transformation.root.repeated_application"
+msgid "Repeated application"
+msgstr "Повторне застосування"
+
+#: mason/vectorviewer/vectorviewer.mas:108
+msgctxt "transformation.root.restriction_enzyme_list"
+msgid "Restriction enzyme list"
+msgstr "Список рестрикційних ферментів"
+
+#: mason/tools/vectorviewer.mas:308
+msgctxt "transformation.root.restriction_enzyme_site"
+msgid "Restriction Enzyme Site"
+msgstr "Сайт рестрикційного ферменту"
+
+#: mason/breeders_toolbox/upload_graft_dialogs.mas:120
+msgctxt "transformation.root.rootstock_accession_must_exist_in_the_database"
+msgid "rootstock accession (must exist in the database)"
+msgstr "rootstock accession (має існувати в базі даних)"
+
+#: mason/tools/vectorviewer.mas:425 mason/tools/vectorviewer.mas:79
+msgctxt "transformation.root.save_vector.2e65205"
+msgid "Save Vector"
+msgstr "Зберегти вектор"
+
+#: mason/vectorviewer/vectorviewer.mas:132
+msgctxt "transformation.root.save_vector.85f55b7"
+msgid "Save Vector!"
+msgstr "Зберегти вектор!"
+
+#: mason/stock/add_vector.mas:146
+msgctxt "transformation.root.saved"
+msgid "Saved!"
+msgstr "Збережено!"
+
+#: mason/vectorviewer/vectorviewer.mas:239
+msgctxt "transformation.root.saving_your_changes"
+msgid "Saving your changes:"
+msgstr "Збереження змін:"
+
+#: mason/tracking_activities/record_activity.mas:36
+msgctxt "transformation.root.scan_barcode"
+msgid "Scan Barcode"
+msgstr "Сканувати штрихкод"
+
+#: mason/breeders_toolbox/upload_graft_dialogs.mas:119
+msgctxt "transformation.root.scion_accession_exact_name_must_exist_in_the_database"
+msgid "scion accession (exact name must exist in the database)"
+msgstr "scion accession (точна назва має існувати в базі даних)"
+
+#: mason/search/treatments.mas:25
+msgctxt "transformation.root.search_any_treatment_name_or_piece_of_name"
+msgid "Search any treatment name or piece of name"
+msgstr "Шукати будь-яку назву обробки або частину назви"
+
+#: mason/search/vectors.mas:103
+msgctxt "transformation.root.search_fields"
+msgid "Search fields:"
+msgstr "Поля пошуку:"
+
+#: mason/search/treatments.mas:29
+msgctxt "transformation.root.search_treatment_id"
+msgid "Search Treatment ID:"
+msgstr "Пошук за ID обробки:"
+
+#: mason/search/treatments.mas:23
+msgctxt "transformation.root.search_treatment_name"
+msgid "Search Treatment Name:"
+msgstr "Пошук за назвою обробки:"
+
+#: mason/search/treatments.mas:35
+msgctxt "transformation.root.search_treatment_synonym"
+msgid "Search Treatment Synonym:"
+msgstr "Пошук за синонімом обробки:"
+
+#: mason/search/vectors.mas:13
+msgctxt "transformation.root.search_vectors"
+msgid "Search Vectors"
+msgstr "Пошук векторів"
+
+#: mason/transformation/set_transformant_names_dialog.mas:21
+msgctxt "transformation.root.select_a_format"
+msgid "Select a format:"
+msgstr "Виберіть формат:"
+
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:140
+msgctxt "transformation.root.select_a_list_of_materials"
+msgid "Select a list of materials"
+msgstr "Виберіть список матеріалів"
+
+#: mason/tracking_activities/update_status_dialog.mas:45
+msgctxt "transformation.root.select_a_status_type"
+msgid "Select a status type"
+msgstr "Виберіть тип стану"
+
+#: mason/tracking_activities/add_new_activity_project.mas:51
+msgctxt "transformation.root.select_an_activity_type"
+msgid "Select an activity type"
+msgstr "Виберіть тип дій"
+
+#: mason/stock/add_vector.mas:68
+msgctxt "transformation.root.selection_marker"
+msgid "Selection Marker"
+msgstr "Селективний маркер"
+
+#: mason/transformation/set_transformant_names_dialog.mas:15
+msgctxt "transformation.root.set_autogenerated_names_for_transformants_in_this_project"
+msgid "Set Autogenerated Names for Transformants in this Project"
+msgstr "Налаштувати автоматично створені назви трансформантів у цьому проєкті"
+
+#: mason/transformation/set_default_plant_material_dialog.mas:14
+msgctxt "transformation.root.set_default_plant_material_for_transformation"
+msgid "Set Default Plant Material for Transformation"
+msgstr "Установити рослинний матеріал за замовчуванням для трансформації"
+
+#: mason/tools/treatment_designer.mas:86
+msgctxt "transformation.root.should_not_be_a_variable_term_will_be_the_treatment"
+msgid ""
+"Should not be a variable term.\n"
+"Will be the treatment root term by default if none are added."
+msgstr ""
+"Не має бути терміном змінної.\n"
+"За замовчуванням буде кореневий термін обробки, якщо жодного не додано."
+
+#: mason/tools/treatment_designer.mas:46
+msgctxt "transformation.root.single_application"
+msgid "Single application"
+msgstr "Одноразове застосування"
+
+#: mason/tools/vectorviewer.mas:262 mason/tools/vectorviewer.mas:91
+msgctxt "transformation.root.start_coord.c39b242"
+msgid "Start Coord"
+msgstr "Початкова координата"
+
+#: mason/vectorviewer/vectorviewer.mas:160
+msgctxt "transformation.root.start_coord.fe77de8"
+msgid "Start coord"
+msgstr "Початкова координата"
+
+#: mason/tracking_activities/update_status_dialog.mas:42
+msgctxt "transformation.root.status_type"
+msgid "Status Type:"
+msgstr "Тип стану:"
+
+#: mason/stock/add_vector.mas:50
+msgctxt "transformation.root.strain"
+msgid "Strain"
+msgstr "Штам"
+
+#: mason/search/treatments.mas:47
+msgctxt "transformation.root.subset_treatments"
+msgid "Subset Treatments:"
+msgstr "Підмножина обробок:"
+
+#: mason/breeders_toolbox/upload_graft_dialogs.mas:40
+msgctxt "transformation.root.successfully_created"
+msgid "Successfully created:"
+msgstr "Успішно створено:"
+
+#: mason/search/vectors.mas:82
+msgctxt "transformation.root.t_number"
+msgid "T-number:"
+msgstr "T-номер:"
+
+#: mason/tracking_activities/update_status_dialog.mas:47
+msgctxt "transformation.root.terminated"
+msgid "terminated"
+msgstr "припинено"
+
+#: mason/tracking_activities/update_status_usage_info_dialog.mas:22
+msgctxt "transformation.root.terminating_a_process_experiment_is_different_from_deleting_a_process"
+msgid "Terminating a process/experiment is different from deleting a process/experiment."
+msgstr "Припинення процесу/досліду відрізняється від його видалення."
+
+#: mason/stock/add_vector.mas:104
+msgctxt "transformation.root.terminators"
+msgid "Terminators"
+msgstr "Термінатори"
+
+#: mason/transformation/set_default_plant_material_dialog.mas:47
+msgctxt "transformation.root.the_default_plant_material_was_set_successfully"
+msgid "The default plant material was set successfully."
+msgstr "Рослинний матеріал за замовчуванням успішно встановлено."
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:94
+msgctxt "transformation.root.the_first_row_header_must_contain_the_uniquename_column_additional"
+msgid "The first row (header) must contain the uniquename column. Additional information can be included by selecting optional column(s) (see below). :"
+msgstr "Перший рядок (заголовок) має містити стовпець uniquename. Додаткові відомості можна включити, вибравши необов’язкові стовпці (див. нижче). :"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:196
+msgctxt "transformation.root.the_following_vectors_already_exist_in_the_database"
+msgid "The following vectors already exist in the database:"
+msgstr "Такі вектори вже існують у базі даних:"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:149
+msgctxt "transformation.root.the_following_vectors_are_new_and_will_be_added_to"
+msgid "The following vectors are new and will be added to the database:"
+msgstr "Такі вектори є новими й будуть додані до бази даних:"
+
+#: mason/breeders_toolbox/upload_graft_dialogs.mas:125
+msgctxt "transformation.root.the_graft_accession_will_be_created_in_the_database_upon"
+msgid "The graft accession will be created in the database upon upload. The name of the graft will be \"scion\"+\"rootstock\", where \"+\" is the default graft separator character. The default separator can be changed before upload. The default can be changed in the sgn_local.conf, default_graft_separator key."
+msgstr "Зразок щеплення буде створено в базі даних під час завантаження. Його назва буде \"scion\"+\"rootstock\", де \"+\" — символ розділювача за замовчуванням. Розділювач можна змінити перед завантаженням. Значення за замовчуванням можна змінити в sgn_local.conf, ключ default_graft_separator."
+
+#: mason/breeders_toolbox/upload_graft_dialogs.mas:38
+msgctxt "transformation.root.the_graft_upload_was_successful"
+msgid "The graft upload was successful."
+msgstr "Щеплення успішно завантажено."
+
+#: mason/tracking_activities/update_status_dialog.mas:79
+msgctxt "transformation.root.the_status_of_this_experiment_has_been_updated"
+msgid "The status of this experiment has been updated."
+msgstr "Стан цього досліду оновлено."
+
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:93
+msgctxt "transformation.root.the_tracking_identifier_for_you_materials_were_generated_successfully"
+msgid "The tracking identifier for you materials were generated successfully."
+msgstr "Ідентифікатори відстеження для ваших матеріалів успішно створено."
+
+#: mason/vectorviewer/vectorviewer.mas:233
+msgctxt "transformation.root.the_vectorviewer_appears_in_a_section_in_the_vector_detail"
+msgid "The VectorViewer appears in a section in the vector detail page and can be used to visualize the vector, as well as edit aspects of the vector annotation."
+msgstr "VectorViewer розміщено в розділі сторінки відомостей про вектор. Він дає змогу переглядати вектор і редагувати окремі елементи його анотації."
+
+#: mason/tracking_activities/update_status_dialog.mas:101
+msgctxt "transformation.root.this_experiment_has_been_restored"
+msgid "This experiment has been restored."
+msgstr "Цей дослід відновлено."
+
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:161
+msgctxt "transformation.root.this_list_did_not_pass_validation_names_in_the_list"
+msgid "This list did not pass validation. Names in the list must exist in the database and are the selected material type."
+msgstr "Цей список не пройшов перевірку. Назви зі списку мають існувати в базі даних і відповідати вибраному типу матеріалу."
+
+#: mason/transformation/delete_transformation_section.mas:7
+msgctxt "transformation.root.this_transformation_id_has_associated_transformants_cannot_delete"
+msgid "This transformation ID has associated transformants. Cannot delete!"
+msgstr "Цей ID трансформації має пов’язані трансформанти. Видалення неможливе!"
+
+#: mason/tracking_activities/add_new_activity_project.mas:52
+msgctxt "transformation.root.tissue_culture"
+msgid "Tissue Culture"
+msgstr "Культура тканин"
+
+#: mason/vectorviewer/vectorviewer.mas:237
+msgctxt "transformation.root.to_edit_the_vector_annotations"
+msgid "To edit the vector annotations"
+msgstr "Щоб редагувати анотації вектора"
+
+#: mason/vectorviewer/vectorviewer.mas:135
+msgctxt "transformation.root.to_save_edits_please_click_on_the_save_button"
+msgid "To save edits, please click on the Save button."
+msgstr "Щоб зберегти зміни, натисніть кнопку «Зберегти»."
+
+#: mason/tools/treatment_designer.mas:9
+msgctxt "transformation.root.to_see_if_your_treatment_has_already_been_made_before"
+msgid "to see if your treatment has already been made before designing new treatments."
+msgstr "щоб перевірити, чи вже створено вашу обробку, перш ніж створювати нові."
+
+#: mason/tracking_activities/activity_info_details.mas:34
+msgctxt "transformation.root.tracking_activities_of_name"
+msgid "Tracking Activities of '%{name}'"
+msgstr "Відстеження дій для '%{name}'"
+
+#: mason/tracking_activities/add_new_activity_project.mas:21
+msgctxt "transformation.root.tracking_activities_tool"
+msgid "Tracking Activities Tool"
+msgstr "Інструмент відстеження дій"
+
+#: mason/tracking_activities/activity_project_details.mas:30
+msgctxt "transformation.root.tracking_activity_project_name"
+msgid "Tracking Activity Project Name"
+msgstr "Назва проєкту відстеження дій"
+
+#: mason/tracking_activities/add_new_activity_project.mas:24
+msgctxt "transformation.root.tracking_identifier_is_a_globally_unique_name_assigned_to_each.4ceedb3"
+msgid "Tracking identifier is a globally unique name assigned to each material for capturing tracking information."
+msgstr "Ідентифікатор відстеження — це глобально унікальна назва, призначена кожному матеріалу для запису відомостей відстеження."
+
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:22
+msgctxt "transformation.root.tracking_identifier_is_a_globally_unique_name_assigned_to_each.808b20a"
+msgid "Tracking identifier is a globally unique name assigned to each material for capturing tracking information. By providing a list of materials, tracking identifier for each item is auto-generated by combining project name, item name and an incrementing number suffix. All items in a list must be the same stock type."
+msgstr "Ідентифікатор відстеження — глобально унікальна назва, призначена кожному матеріалу для запису відомостей відстеження. Для списку матеріалів ідентифікатор кожного елемента створюється автоматично з назви проєкту, назви елемента й послідовно зростаючого числового суфікса. Усі елементи списку мають бути одного типу матеріалу."
+
+#: mason/tracking_activities/generate_tracking_identifiers_dialog.mas:21
+msgctxt "transformation.root.tracking_identifiers"
+msgid "Tracking Identifiers"
+msgstr "Ідентифікатори відстеження"
+
+#: mason/tracking_activities/add_new_activity_project.mas:25
+msgctxt "transformation.root.tracking_identifiers_are_organized_using_tracking_activities_projects"
+msgid "Tracking identifiers are organized using Tracking Activities projects"
+msgstr "Ідентифікатори відстеження організовано за проєктами відстеження дій"
+
+#: mason/stock/accession_related_transformation_info.mas:57
+msgctxt "transformation.root.transformants_accessions_derived_from_the_same_transformation_id"
+msgid "Transformants (Accessions) Derived from the same Transformation ID"
+msgstr "Трансформанти (зразки), отримані від того самого ID трансформації"
+
+#: mason/tracking_activities/add_new_activity_project.mas:53
+msgctxt "transformation.root.transformation"
+msgid "Transformation"
+msgstr "Трансформація"
+
+#: mason/stock/accession_related_transformation_info.mas:12
+msgctxt "transformation.root.transformation_experiment"
+msgid "Transformation Experiment"
+msgstr "Дослід із трансформації"
+
+#: mason/tools/treatment_designer.mas:28
+msgctxt "transformation.root.treatment_format"
+msgid "Treatment format:"
+msgstr "Формат обробки:"
+
+#: mason/search/treatments.mas:72
+msgctxt "transformation.root.treatment_id"
+msgid "Treatment ID"
+msgstr "ID обробки"
+
+#: mason/search/treatments.mas:91
+msgctxt "transformation.root.treatment_s_selected"
+msgid "treatment(s) selected."
+msgstr "обробок вибрано."
+
+#: mason/search/treatments.mas:12
+msgctxt "transformation.root.treatment_search"
+msgid "Treatment Search"
+msgstr "Пошук обробок"
+
+#: mason/tools/treatment_designer.mas:9
+msgctxt "transformation.root.treatment_search_page"
+msgid "treatment search page"
+msgstr "сторінку пошуку обробок"
+
+#: mason/tools/treatment_designer.mas:114
+msgctxt "transformation.root.treatment_terms"
+msgid "Treatment terms"
+msgstr "Терміни обробок"
+
+#: mason/search/vectors.mas:304
+msgctxt "transformation.root.type_a_valid_value"
+msgid "Type a valid value!"
+msgstr "Введіть дійсне значення!"
+
+#: mason/tracking_activities/update_status_usage_info_dialog.mas:28
+msgctxt "transformation.root.undo_updating_status"
+msgid "Undo updating status:"
+msgstr "Скасування оновлення стану:"
+
+#: mason/stock/add_vector.mas:35
+msgctxt "transformation.root.uniquename"
+msgid "Uniquename"
+msgstr "Унікальна назва"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:111
+msgctxt "transformation.root.uniquename_vector_name_must_be_unique"
+msgid "uniquename (vector name must be unique)"
+msgstr "uniquename (назва вектора має бути унікальною)"
+
+#: mason/tools/vectorviewer.mas:81
+msgctxt "transformation.root.update_reset"
+msgid "Update/Reset"
+msgstr "Оновити/скинути"
+
+#: mason/tracking_activities/update_status_usage_info_dialog.mas:13
+msgctxt "transformation.root.update_status_as_completed_terminated_and_undo_options"
+msgid "Update Status as Completed/Terminated and Undo Options"
+msgstr "Оновлення стану на завершений/припинений і скасування змін"
+
+#: mason/vectorviewer/vectorviewer.mas:82
+msgctxt "transformation.root.update_view"
+msgid "Update View"
+msgstr "Оновити відображення"
+
+#: mason/tracking_activities/update_status_usage_info_dialog.mas:20
+msgctxt "transformation.root.updating_status_to_completed_terminated_vs_deleting"
+msgid "Updating status to completed/terminated vs. Deleting:"
+msgstr "Оновлення стану на завершений/припинений і видалення:"
+
+#: mason/breeders_toolbox/upload_graft_dialogs.mas:78
+msgctxt "transformation.root.upload_grafting_file"
+msgid "Upload Grafting File:"
+msgstr "Завантажити файл щеплень:"
+
+#: mason/breeders_toolbox/upload_graft_dialogs.mas:65
+msgctxt "transformation.root.upload_grafting_information"
+msgid "Upload Grafting Information"
+msgstr "Завантажити відомості про щеплення"
+
+#: mason/stock/add_vector.mas:24
+msgctxt "transformation.root.upload_vectors"
+msgid "Upload Vectors"
+msgstr "Завантажити вектори"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:87
+msgctxt "transformation.root.upload_vectors_template_information"
+msgid "Upload Vectors Template Information"
+msgstr "Відомості про шаблон завантаження векторів"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:48
+msgctxt "transformation.root.use_fuzzy_search"
+msgid "Use Fuzzy Search:"
+msgstr "Використовувати нечіткий пошук:"
+
+#: mason/stock/add_vector.mas:17
+msgctxt "transformation.root.vector_details"
+msgid "Vector details"
+msgstr "Відомості про вектор"
+
+#: mason/vectorviewer/vectorviewer.mas:119
+msgctxt "transformation.root.vector_length"
+msgid "Vector length"
+msgstr "Довжина вектора"
+
+#: mason/search/vectors.mas:171 mason/search/vectors.mas:235
+#: mason/search/vectors.mas:257 mason/vectorviewer/vectorviewer.mas:119
+msgctxt "transformation.root.vector_name"
+msgid "Vector Name"
+msgstr "Назва вектора"
+
+#: mason/search/vectors.mas:64
+msgctxt "transformation.root.vector_search"
+msgid "Vector search"
+msgstr "Пошук векторів"
+
+#: mason/tools/vectorviewer.mas:34
+msgctxt "transformation.root.vector_viewer"
+msgid "Vector Viewer"
+msgstr "Переглядач векторів"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:69
+msgctxt "transformation.root.vectors"
+msgid "Vectors"
+msgstr "Вектори"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:214
+msgctxt "transformation.root.vectors_saved"
+msgid "Vectors Saved"
+msgstr "Вектори збережено"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:137
+msgctxt "transformation.root.vectors_to_be_added"
+msgid "Vectors to be Added"
+msgstr "Вектори для додавання"
+
+#: mason/breeders_toolbox/add_vectors_dialogs.mas:174
+msgctxt "transformation.root.vectors_were_found_with_similar_names"
+msgid "Vectors were found with similar names."
+msgstr "Знайдено вектори з подібними назвами."
+
+#: mason/vectorviewer/vectorviewer.mas:223
+msgctxt "transformation.root.vectorviewer_quick_instructions"
+msgid "VectorViewer Quick Instructions"
+msgstr "Коротка інструкція VectorViewer"
+
+#: mason/search/vectors.mas:143
+msgctxt "transformation.root.view_another_property"
+msgid "View Another Property:"
+msgstr "Переглянути іншу властивість:"
+
+#: mason/tracking_activities/activity_project.mas:50
+msgctxt "transformation.root.view_information_about_completed_or_terminated_tracking_ids_in_this"
+msgid "View information about completed or terminated tracking ids in this project."
+msgstr "Перегляд відомостей про ID завершених або припинених процесів відстеження в цьому проєкті."
+
+#: mason/tracking_activities/activity_project.mas:49
+msgctxt "transformation.root.view_information_about_ongoing_tracking_ids_in_this_project"
+msgid "View information about ongoing tracking ids in this project."
+msgstr "Перегляд відомостей про поточні ID відстеження в цьому проєкті."
+
+#: mason/vectorviewer/vectorviewer.mas:239
+msgctxt "transformation.root.when_you_edit_the_vector_the_changes_are_not_saved"
+msgid "When you edit the vector, the changes are not saved. You can save the changes by clicking the \"Save changes\" button."
+msgstr "Під час редагування вектора зміни не зберігаються автоматично. Щоб зберегти їх, натисніть кнопку «Зберегти зміни»."
+
+#: mason/vectorviewer/vectorviewer.mas:237
+msgctxt "transformation.root.you_can_add_edit_or_remove_features_from_the_vector"
+msgid "you can add, edit or remove features from the vector using the feature and restriction enzyme tables below the vector diagram. To remove an element, click on the \"delete\" button in the corresponding row. To edit an element, click on the \"edit\" button in the corresponding row. To add new feature elements, click on the \"Add Feature\" button below the table. To add a new restriction enzyme, click on the \"Add Restriction Enzyme\" button below the restriction enzyme table."
+msgstr "Можна додавати, редагувати або видаляти елементи вектора через таблиці елементів і рестрикційних ферментів під діаграмою. Для видалення натисніть «видалити» у відповідному рядку, для редагування — «редагувати». Новий елемент додається кнопкою «Додати елемент» під таблицею. Новий рестрикційний фермент додається кнопкою «Додати рестрикційний фермент» під відповідною таблицею."
+
+#: mason/tracking_activities/update_status_usage_info_dialog.mas:24
+msgctxt "transformation.root.you_can_delete_a_process_experiment_only_if_there_is"
+msgid "You can delete a process/experiment only if there is no associated data"
+msgstr "Видалити процес/дослід можна лише за відсутності пов’язаних даних"
+
+#: mason/tracking_activities/add_new_activity_project.mas:26
+msgctxt "transformation.root.you_can_generate_tracking_identifiers_by_using_a_link_on"
+msgid "You can generate tracking identifiers by using a link on the Tracking Activities project page"
+msgstr "Ідентифікатори відстеження можна створювати за посиланням на сторінці проєкту відстеження дій"
+
+#: mason/tracking_activities/update_status_usage_info_dialog.mas:25
+msgctxt "transformation.root.you_can_still_access_the_details_page_but_the_page"
+msgid "You can still access the details page but the page is marked as \"COMPLETED\" or \"TERMINATED\". You can no longer add additional info to that page."
+msgstr "Сторінка відомостей залишається доступною, але позначається як \"COMPLETED\" або \"TERMINATED\". Додавати до неї нові відомості більше не можна."
+
+#: mason/tracking_activities/add_new_activity_project.mas:22
+msgctxt "transformation.root.you_can_use_tracking_tool_to_track_and_record_activity"
+msgid "You can use tracking tool to track and record activity information related to materials stored in the database (i.e. tracking tissue culture process of an accession). Data types of each process can be customized (please contact us)."
+msgstr "Інструмент відстеження дає змогу відстежувати й записувати відомості про дії з матеріалами, збереженими в базі даних (наприклад, процес культури тканин зразка). Типи даних кожного процесу можна налаштувати (зверніться до нас)."
+
+#: mason/vectorviewer/vectorviewer.mas:241
+msgctxt "transformation.root.you_can_zoom_in_and_out_of_the_vector_using"
+msgid ": you can zoom in and out of the vector using the \"+\" and \"-\" buttons."
+msgstr ": масштаб вектора можна збільшувати та зменшувати кнопками «+» і «-»."
+
+#: mason/transformation/transformation_project_deletion.mas:14
+msgctxt "transformation.root.you_cannot_delete_any_transformation_id_with_associated_transformants_but"
+msgid "You cannot delete any transformation ID with associated transformants, but you can mark the transformation ID as terminated."
+msgstr "Неможливо видалити ID трансформації з пов’язаними трансформантами, але його можна позначити як припинений."
+
+#: mason/transformation/transformation_project_deletion.mas:29
+msgctxt "transformation.root.you_cannot_delete_any_transformation_project_with_associated_transformation_ids"
+msgid "You cannot delete any transformation project with associated transformation IDs. Please delete those associated transformation IDs in the project first."
+msgstr "Неможливо видалити проєкт трансформації з пов’язаними ID трансформацій. Спочатку видаліть ці ID у проєкті."
+
+#: mason/tracking_activities/add_new_activity_project.mas:112
+msgctxt "transformation.root.your_project_is_now_in_the_database"
+msgid "Your project is now in the database"
+msgstr "Ваш проєкт тепер у базі даних"
+
+#: mason/vectorviewer/vectorviewer.mas:241
+msgctxt "transformation.root.zooming_in_and_out"
+msgid "zooming in and out"
+msgstr "збільшення та зменшення"
+
+#: mason/transformation/add_transformation_control_dialog.mas:21
+msgctxt "transformation.select_a_control"
+msgid "Select a control:"
+msgstr "Виберіть контроль:"
+
+#: mason/transformation/transformation.mas:80
+msgctxt "transformation.select_a_control_for_this_transformation_id"
+msgid "Select a Control for this Transformation ID"
+msgstr "Вибрати контроль для цього ID трансформації"
+
+#: mason/transformation/add_transformants_using_list_dialog.mas:19
+msgctxt "transformation.select_a_list_of_accessions_to_add"
+msgid "Select a List of Accessions to Add:"
+msgstr "Виберіть список зразків для додавання:"
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:121
+msgctxt "transformation.set_a_control"
+msgid "set a control"
+msgstr "задати контроль"
+
+#: mason/transformation/add_transformation_control_dialog.mas:84
+msgctxt "transformation.set_as_a_control"
+msgid "Set as a Control"
+msgstr "Задати як контроль"
+
+#: mason/transformation/transformation_project_details.mas:139
+msgctxt "transformation.set_autogenerated_names_for_transformants"
+msgid "Set Autogenerated Names for Transformants"
+msgstr "Налаштувати автоматичні назви трансформантів"
+
+#: mason/transformation/transformation_project_details.mas:139
+msgctxt "transformation.set_default_plant_material"
+msgid "Set Default Plant Material"
+msgstr "Задати рослинний матеріал за замовчуванням"
+
+#: mason/transformation/add_transformation_control_dialog.mas:90
+msgctxt "transformation.set_this_transformation_id_as_a_control.5635753"
+msgid "Set this Transformation ID as a Control:"
+msgstr "Задати цей ID трансформації як контроль:"
+
+#: mason/transformation/transformation.mas:80
+msgctxt "transformation.set_this_transformation_id_as_a_control.f4b815b"
+msgid "Set this Transformation ID as a Control"
+msgstr "Задати цей ID трансформації як контроль"
+
+#: mason/transformation/add_transformation_control_dialog.mas:15
+#: mason/transformation/transformation.mas:80
+msgctxt "transformation.set_transformation_control"
+msgid "Set Transformation Control"
+msgstr "Задати контроль трансформації"
+
+#: mason/transformation/add_transformation_control_dialog.mas:63
+msgctxt "transformation.set_transformation_control_error"
+msgid "Set Transformation Control Error"
+msgstr "Помилка встановлення контролю трансформації"
+
+#: cgi-bin/tools/vector/index.pl:177
+msgctxt "transformation.show_restriction_sites"
+msgid "Show restriction sites"
+msgstr "Показати сайти рестрикції"
+
+#: mason/transformation/add_transformant_names_dialog.mas:57
+msgctxt "transformation.the_new_transformants_accessions_were_saved_successfully"
+msgid "The new transformants (accessions) were saved successfully."
+msgstr "Нові трансформанти (зразки) успішно збережено."
+
+#: mason/transformation/add_transformants_using_list_dialog.mas:48
+msgctxt "transformation.the_new_transformants_were_stored_successfully"
+msgid "The new transformants were stored successfully."
+msgstr "Нові трансформанти успішно збережено."
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:89
+msgctxt "transformation.the_qpcr_data_were_saved_successfully"
+msgid "The qPCR data were saved successfully."
+msgstr "Дані qPCR успішно збережено."
+
+#: mason/transformation/add_transformation_identifier_dialog.mas:84
+msgctxt "transformation.the_transformation_id_was_saved_successfully"
+msgid "The transformation ID was saved successfully."
+msgstr "ID трансформації успішно збережено."
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:52
+msgctxt "transformation.the_transformation_identifiers_were_saved_successfully"
+msgid "The transformation identifiers were saved successfully."
+msgstr "Ідентифікатори трансформації успішно збережено."
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:58
+msgctxt "transformation.the_transgenic_data_were_saved_successfully"
+msgid "The transgenic data were saved successfully."
+msgstr "Трансгенні дані успішно збережено."
+
+#: lib/CXGN/Transformation/ParseUpload/Plugin/CTqPCRData.pm:81
+msgctxt "transformation.this_accession_doesn_t_contain_expected_vector_construct_accession"
+msgid "This accession doesn't contain expected vector construct: %{accession}"
+msgstr "Цей зразок не містить очікуваної векторної конструкції: %{accession}"
+
+#: lib/CXGN/Transformation/Transformation.pm:633
+msgctxt "transformation.this_new_transformation_id_already_exists_in_the_database_please_use"
+msgid "This new transformation ID already exists in the database. Please use another name.\n"
+msgstr "Новий ID трансформації вже існує в базі даних. Використайте іншу назву.\n"
+
+#: lib/CXGN/Transformation/Transformation.pm:485
+msgctxt "transformation.this_stock_id_is_not_a_transformation_id_cannot_delete"
+msgid "This stock id is not a transformation ID. Cannot delete.\n"
+msgstr "Цей id матеріалу не є ID трансформації. Видалення неможливе.\n"
+
+#: mason/transformation/add_transformation_control_dialog.mas:136
+msgctxt "transformation.this_transformation_id_already_has"
+msgid "This transformation ID already has "
+msgstr "Цей ID трансформації вже має "
+
+#: lib/CXGN/Transformation/Transformation.pm:561
+msgctxt "transformation.this_transformation_id_has_already_been_set_as_a_control.5ebf206"
+msgid "This transformation ID has already been set as a control.\n"
+msgstr "Цей ID трансформації вже задано як контроль.\n"
+
+#: mason/transformation/add_transformation_control_dialog.mas:153
+msgctxt "transformation.this_transformation_id_has_already_been_set_as_a_control.99bc68b"
+msgid "This transformation ID has already been set as a control"
+msgstr "Цей ID трансформації вже задано як контроль"
+
+#: mason/transformation/transformant_details.mas:17
+#: mason/transformation/upload_qPCR_data_dialog.mas:28
+msgctxt "transformation.tissue_type"
+msgid "Tissue Type:"
+msgstr "Тип тканини:"
+
+#: cgi-bin/tools/vector/index.pl:222
+msgctxt "transformation.to_position"
+msgid "to position"
+msgstr "до позиції"
+
+#: mason/transformation/manage_transformation.mas:31
+msgctxt "transformation.to_streamline_transformation_experiments_you_can_set"
+msgid "To streamline transformation experiments, you can set"
+msgstr "Щоб спростити досліди з трансформації, можна задати"
+
+#: lib/CXGN/TrackingActivity/AddActivityProject.pm:116
+msgctxt "transformation.tracking_activity_project_not_saved_breeding_program_does_not_exist"
+msgid "Tracking activity project not saved: Breeding program does not exist"
+msgstr "Проєкт відстеження дій не збережено: селекційна програма не існує"
+
+#: lib/CXGN/TrackingActivity/AddActivityProject.pm:111
+msgctxt "transformation.tracking_activity_project_not_saved_project_name_already_exists"
+msgid "Tracking activity project not saved: Project name already exists"
+msgstr "Проєкт відстеження дій не збережено: назва проєкту вже існує"
+
+#: mason/tracking_activities/active_tracking_identifiers.mas:18
+#: mason/tracking_activities/inactive_tracking_identifiers.mas:14
+#: mason/transformation/transformation.mas:72
+msgctxt "transformation.tracking_identifier"
+msgid "Tracking Identifier"
+msgstr "Ідентифікатор відстеження"
+
+#: lib/CXGN/TrackingActivity/AddTrackingIdentifier.pm:87
+msgctxt "transformation.tracking_identifier_already_used_in_the_database"
+msgid "%{tracking_identifier} already used in the database! "
+msgstr "%{tracking_identifier} уже використовується в базі даних! "
+
+#: lib/CXGN/TrackingActivity/ActivityInfo.pm:103
+msgctxt "transformation.tracking_identifier_could_not_be_found"
+msgid "%{tracking_identifier} could not be found."
+msgstr "%{tracking_identifier} не знайдено."
+
+#: lib/CXGN/Transformation/StoreTransgeneExpressionData.pm:247
+msgctxt "transformation.transaction_error_storing_qpcr_data_for_transformant_name_transactio"
+msgid "Transaction error storing qPCR data for %{transformant_name}: %{transaction_error}\n"
+msgstr "Помилка транзакції під час збереження даних qPCR для %{transformant_name}: %{transaction_error}\n"
+
+#: mason/transformation/add_transformation_identifier_dialog.mas:22
+#: mason/transformation/edit_transformation_details.mas:21
+msgctxt "transformation.transformation_id.2d7a636"
+msgid "Transformation ID:"
+msgstr "ID трансформації:"
+
+#: mason/stock/accession_related_transformation_info.mas:21
+#: mason/stock/vector_related_accessions.mas:44
+#: mason/tracking_activities/active_tracking_identifiers.mas:20
+#: mason/tracking_activities/inactive_tracking_identifiers.mas:17
+#: mason/tracking_activities/update_status_dialog.mas:19
+#: mason/transformation/edit_transformation_details.mas:114
+#: mason/transformation/inactive_transformation_ids_in_project.mas:12
+#: mason/transformation/obsoleted_accessions.mas:21
+#: mason/transformation/transformant_details.mas:50
+#: mason/transformation/transformation.mas:56
+#: mason/transformation/transformation_project_deletion.mas:77
+#: mason/transformation/transformations_in_project.mas:12
+msgctxt "transformation.transformation_id.6f39808"
+msgid "Transformation ID"
+msgstr "ID трансформації"
+
+#: mason/transformation/add_transformation_project_dialog.mas:26
+msgctxt "transformation.transformation_id_captures_information_about_plant_material_and_vector_construct"
+msgid "Transformation ID captures information about plant material and vector construct used in that experiment."
+msgstr "ID трансформації містить відомості про рослинний матеріал і векторну конструкцію, використані в досліді."
+
+#: lib/CXGN/Transformation/Transformation.pm:482
+msgctxt "transformation.transformation_id_has_associated_transformants_cannot_delete"
+msgid "Transformation ID has associated transformants. Cannot delete.\n"
+msgstr "ID трансформації має пов’язані трансформанти. Видалення неможливе.\n"
+
+#: mason/transformation/add_transformation_identifier_dialog.mas:115
+msgctxt "transformation.transformation_id_is_required"
+msgid "Transformation ID is required"
+msgstr "Потрібен ID трансформації"
+
+#: mason/transformation/manage_transformation.mas:38
+msgctxt "transformation.transformation_identifier_captures_related_information_for_each_experiment_including_vector"
+msgid "Transformation identifier captures related information for each experiment including vector construct, plant material and transformants generated."
+msgstr "Ідентифікатор трансформації містить пов’язані відомості про кожен дослід, зокрема векторну конструкцію, рослинний матеріал і отримані трансформанти."
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:113
+msgctxt "transformation.transformation_identifier_must_be_unique"
+msgid "transformation_identifier (must be unique)"
+msgstr "transformation_identifier (має бути унікальним)"
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:124
+msgctxt "transformation.transformation_identifiers"
+msgid "Transformation Identifiers"
+msgstr "Ідентифікатори трансформації"
+
+#: mason/transformation/transformation_project_tree.mas:34
+msgctxt "transformation.transformation_project"
+msgid "transformation project ("
+msgstr "проєкт трансформації ("
+
+#: mason/transformation/transformation_project.mas:48
+msgctxt "transformation.transformation_project_details"
+msgid "Transformation Project Details"
+msgstr "Відомості про проєкт трансформації"
+
+#: mason/transformation/transformation_project_details.mas:30
+msgctxt "transformation.transformation_project_name"
+msgid "Transformation Project Name"
+msgstr "Назва проєкту трансформації"
+
+#: lib/CXGN/Transformation/AddTransformationProject.pm:85
+msgctxt "transformation.transformation_project_not_saved_breeding_program_does_not_exist"
+msgid "Transformation project not saved: Breeding program does not exist"
+msgstr "Проєкт трансформації не збережено: селекційна програма не існує"
+
+#: lib/CXGN/Transformation/AddTransformationProject.pm:81
+msgctxt "transformation.transformation_project_not_saved_project_name_already_exists"
+msgid "Transformation project not saved: Project name already exists"
+msgstr "Проєкт трансформації не збережено: назва проєкту вже існує"
+
+#: mason/transformation/manage_transformation.mas:29
+msgctxt "transformation.transformation_projects_allow_you_to_organize_and_track_progress_of"
+msgid "Transformation projects allow you to organize and track progress of different transformation experiments."
+msgstr "Проєкти трансформації дають змогу організовувати різні досліди з трансформації та відстежувати їхній перебіг."
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:132
+msgctxt "transformation.transgenic_historical_data"
+msgid "Transgenic Historical Data"
+msgstr "Історичні трансгенні дані"
+
+#: lib/CXGN/Transformation/StoreTransgeneExpressionData.pm:147
+msgctxt "transformation.transgenic_line_cound_not_be_found_in_the_database_transformant_name"
+msgid "Transgenic line could not be found in the database: %{transformant_name}!"
+msgstr "Трансгенну лінію не знайдено в базі даних: %{transformant_name}!"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1999
+msgctxt "transformation.transgenic_lines.archive_failed"
+msgid "Could not save file %{filename} in archive"
+msgstr "Не вдалося зберегти файл %{filename} в архіві"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:56
+msgctxt "transformation.transgenic_lines.close_reload"
+msgid "Close & Reload"
+msgstr "Закрити й оновити"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:67
+msgctxt "transformation.transgenic_lines.error_title"
+msgid "Upload Transgenic Lines Error"
+msgstr "Помилка завантаження трансгенних ліній"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:16
+msgctxt "transformation.transgenic_lines.file_format_information"
+msgid "File format information"
+msgstr "Відомості про формат файлу"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:92
+msgctxt "transformation.transgenic_lines.header"
+msgid "Header:"
+msgstr "Заголовок:"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:94
+msgctxt "transformation.transgenic_lines.header_instruction"
+msgid "The first row (header) should contain the following:"
+msgstr "Перший рядок (заголовок) має містити:"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:109
+msgctxt "transformation.transgenic_lines.identifier_must_exist"
+msgid "must exist in the database"
+msgstr "має бути в базі даних"
+
+#: lib/CXGN/Transformation/ParseUpload/Plugin/TransgenicLinesGeneric.pm:56
+msgctxt "transformation.transgenic_lines.identifiers_not_found"
+msgid "The following transformation identifiers are not in the database: %{identifiers}"
+msgstr "У базі даних немає таких ідентифікаторів трансформації: %{identifiers}"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:110
+msgctxt "transformation.transgenic_lines.line_name_must_not_exist"
+msgid "must NOT exist in the database"
+msgstr "НЕ має бути в базі даних"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1951
+#: lib/SGN/Controller/AJAX/Transformation.pm:1965
+msgctxt "transformation.transgenic_lines.login_required"
+msgid "You must be logged in to upload transgenic lines!"
+msgstr "Щоб завантажити трансгенні лінії, потрібно увійти в систему!"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:109
+msgctxt "transformation.transgenic_lines.multiple_identifiers"
+msgid "Multiple transformation identifiers can be included in the same spreadsheet."
+msgstr "В одній таблиці можна вказати кілька ідентифікаторів трансформації."
+
+#: lib/CXGN/Transformation/ParseUpload/Plugin/TransgenicLinesGeneric.pm:63
+msgctxt "transformation.transgenic_lines.name_exists"
+msgid "Transgenic Line name already exists in database: %{name}"
+msgstr "Назва трансгенної лінії вже є в базі даних: %{name}"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:2012
+msgctxt "transformation.transgenic_lines.parse_errors_unavailable"
+msgid "Could not get parsing errors"
+msgstr "Не вдалося отримати помилки розбору файлу"
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1977
+msgctxt "transformation.transgenic_lines.program_role_required"
+msgid "You need to be either a curator, or a submitter associated with breeding program %{program} to upload transgenic lines."
+msgstr "Щоб завантажити трансгенні лінії, потрібно бути куратором або мати право подання даних у селекційній програмі %{program}."
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:107
+msgctxt "transformation.transgenic_lines.required_fields"
+msgid "Required fields:"
+msgstr "Обов’язкові поля:"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:51
+msgctxt "transformation.transgenic_lines.saved_successfully"
+msgid "The transgenic lines were saved successfully."
+msgstr "Трансгенні лінії збережено."
+
+#: lib/SGN/Controller/AJAX/Transformation.pm:1960
+msgctxt "transformation.transgenic_lines.submitter_or_curator_required"
+msgid "Only a submitter or a curator can upload transgenic lines"
+msgstr "Завантажувати трансгенні лінії можуть лише користувачі з правом подання даних або куратори"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:45
+msgctxt "transformation.transgenic_lines.success_title"
+msgid "Success"
+msgstr "Успішно"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:14
+msgctxt "transformation.transgenic_lines.template_information"
+msgid "Template Information"
+msgstr "Відомості про шаблон"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:88
+msgctxt "transformation.transgenic_lines.template_title"
+msgid "Upload Template Information For Transgenic Lines"
+msgstr "Відомості про шаблон завантаження трансгенних ліній"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:113
+msgctxt "transformation.transgenic_lines.type_name"
+msgid "Transgenic Lines"
+msgstr "Трансгенні лінії"
+
+#: lib/CXGN/Transformation/ParseUpload/Plugin/TransgenicLinesGeneric.pm:44
+msgctxt "transformation.transgenic_lines.unrecognized_columns"
+msgid "The following columns are not recognized: %{columns}. Please check the spreadsheet format for the allowed columns."
+msgstr "Не розпізнано такі стовпці: %{columns}. Перевірте дозволені стовпці в описі формату таблиці."
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:34
+msgctxt "transformation.transgenic_lines.upload"
+msgid "Upload"
+msgstr "Завантажити"
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:23
+msgctxt "transformation.transgenic_lines.upload_file"
+msgid "Upload File: "
+msgstr "Завантажити файл: "
+
+#: mason/transformation/upload_transgenic_lines_dialog.mas:10
+msgctxt "transformation.transgenic_lines.upload_title"
+msgid "Upload Transgenic Lines"
+msgstr "Завантажити трансгенні лінії"
+
+#: mason/transformation/transgenic_line_details_section.mas:12
+msgctxt "transformation.transgenic_lines_accessions"
+msgid "Transgenic Lines (Accessions)"
+msgstr "Трансгенні лінії (зразки)"
+
+#: mason/transformation/transformants_section.mas:13
+msgctxt "transformation.transgenic_lines_accessions_derived_from_this_transformation"
+msgid "Transgenic Lines (Accessions) Derived from this Transformation "
+msgstr "Трансгенні лінії (зразки), отримані від цієї трансформації "
+
+#: cgi-bin/tools/vector/index.pl:177
+msgctxt "transformation.unique_cutters"
+msgid "unique cutters"
+msgstr "ферменти з одним сайтом розрізання"
+
+#: mason/transformation/transformation.mas:94
+msgctxt "transformation.update_status_of_this_transformation_id"
+msgid "Update status of this transformation ID."
+msgstr "Оновити стан цього ID трансформації."
+
+#: mason/transformation/transformation.mas:69
+msgctxt "transformation.updated_status_info"
+msgid "Updated Status Info"
+msgstr "Відомості про оновлений стан"
+
+#: cgi-bin/tools/vector/index.pl:177
+msgctxt "transformation.upload"
+msgid "upload"
+msgstr "завантажити"
+
+#: cgi-bin/tools/vector/index.pl:177
+msgctxt "transformation.upload_a_genbank_file"
+msgid "Upload a genbank file"
+msgstr "Завантажити файл genbank"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:60
+msgctxt "transformation.upload_file_cq_values"
+msgid "Upload File (Cq values):"
+msgstr "Завантажити файл (значення Cq):"
+
+#: mason/transformation/transformation_project_details.mas:141
+msgctxt "transformation.upload_new_transformation_ids"
+msgid "Upload New Transformation IDs"
+msgstr "Завантажити нові ID трансформацій"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:13
+msgctxt "transformation.upload_qpcr_data_cq_values"
+msgid "Upload qPCR Data (Cq values)"
+msgstr "Завантажити дані qPCR (значення Cq)"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:105
+msgctxt "transformation.upload_qpcr_data_error"
+msgid "Upload qPCR Data Error"
+msgstr "Помилка завантаження даних qPCR"
+
+#: mason/transformation/upload_qPCR_data_dialog.mas:126
+msgctxt "transformation.upload_template_information_for_qpcr_data_cq_values"
+msgid "Upload Template Information For qPCR Data (Cq values)"
+msgstr "Відомості про шаблон завантаження даних qPCR (значення Cq)"
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:89
+msgctxt "transformation.upload_template_information_for_transformation_identifiers"
+msgid "Upload Template Information For Transformation Identifiers"
+msgstr "Відомості про шаблон завантаження ідентифікаторів трансформації"
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:95
+msgctxt "transformation.upload_template_information_for_transgenic_historical_data"
+msgid "Upload Template Information For Transgenic Historical Data"
+msgstr "Відомості про шаблон завантаження історичних трансгенних даних"
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:68
+msgctxt "transformation.upload_transformation_identifiers_error"
+msgid "Upload Transformation Identifiers Error"
+msgstr "Помилка завантаження ідентифікаторів трансформації"
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:11
+msgctxt "transformation.upload_transformation_ids"
+msgid "Upload Transformation IDs"
+msgstr "Завантажити ID трансформацій"
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:14
+msgctxt "transformation.upload_transgenic_data"
+msgid "Upload Transgenic Data"
+msgstr "Завантажити трансгенні дані"
+
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:74
+msgctxt "transformation.upload_transgenic_data_error"
+msgid "Upload Transgenic Data Error"
+msgstr "Помилка завантаження трансгенних даних"
+
+#: mason/transformation/transformation_project_details.mas:144
+msgctxt "transformation.upload_transgenic_historical_data"
+msgid "Upload Transgenic Historical Data"
+msgstr "Завантажити історичні трансгенні дані"
+
+#: mason/transformation/transformation_project_details.mas:142
+msgctxt "transformation.upload_transgenic_lines"
+msgid "Upload Transgenic Lines"
+msgstr "Завантажити трансгенні лінії"
+
+#: mason/transformation/transformants_section.mas:56
+#: mason/transformation/transgenic_line_details_section.mas:55
+msgctxt "transformation.used_as_a_parent_cannot_obsolete"
+msgid "Used as a parent, cannot obsolete"
+msgstr "Використовується як батьківська форма, неможливо позначити як застарілий"
+
+#: mason/transformation/manage_transformation.mas:31
+msgctxt "transformation.used_for_transformation_and_set"
+msgid "used for transformation and set"
+msgstr "для трансформації та налаштувати"
+
+#: mason/transformation/manage_transformation.mas:40
+msgctxt "transformation.using_transformation_tool_togehter_with_autogenerated_name_feature_new_transformants"
+msgid "Using transformation tool together with autogenerated name feature, new transformants can be added to the database simply by indicating number of transformants. The generated transformants will be automatically stored in the database as new accessions."
+msgstr "Поєднання інструмента трансформації з автоматичним створенням назв дає змогу додавати трансформанти до бази даних, лише вказавши їх кількість. Отримані трансформанти буде автоматично збережено як нові зразки."
+
+#: mason/transformation/add_transformation_identifier_dialog.mas:43
+msgctxt "transformation.vector_construct.dc7aa9e"
+msgid "Vector Construct:"
+msgstr "Векторна конструкція:"
+
+#: lib/CXGN/Transformation/StoreTransgeneExpressionData.pm:158
+msgctxt "transformation.vector_construct_cound_not_be_found_in_the_database_vector_construct"
+msgid "Vector construct could not be found in the database: %{vector_construct_name}!"
+msgstr "Векторну конструкцію не знайдено в базі даних: %{vector_construct_name}!"
+
+#: mason/transformation/add_transformation_identifier_dialog.mas:127
+msgctxt "transformation.vector_construct_is_required"
+msgid "Vector construct is required"
+msgstr "Потрібна векторна конструкція"
+
+#: mason/transformation/upload_transformation_ids_dialog.mas:115
+#: mason/transformation/upload_transgenic_historical_data_dialog.mas:121
+msgctxt "transformation.vector_construct_must_exist_in_the_database"
+msgid "vector_construct (must exist in the database)"
+msgstr "vector_construct (має існувати в базі даних)"
+
+#: cgi-bin/tools/vector/index.pl:192
+msgctxt "transformation.vector_drawing"
+msgid "Vector Drawing"
+msgstr "Побудова схеми вектора"
+
+#: cgi-bin/tools/vector/index.pl:175 cgi-bin/tools/vector/index.pl:28
+msgctxt "transformation.vector_drawing_application"
+msgid "Vector drawing application"
+msgstr "Застосунок для побудови схем векторів"
+
+#: cgi-bin/tools/vector/index.pl:177
+msgctxt "transformation.vector_name"
+msgid "Vector name"
+msgstr "Назва вектора"
+
+#: cgi-bin/maps/physical/vector_info.pl:20
+msgctxt "transformation.vector_not_found"
+msgid "Vector not found."
+msgstr "Вектор не знайдено."
+
+#: mason/transformation/transformation.mas:90
+msgctxt "transformation.view_control_transgenic_lines_of_this_transformation_id"
+msgid "View control transgenic lines of this transformation ID."
+msgstr "Перегляд контрольних трансгенних ліній цього ID трансформації."
+
+#: mason/transformation/transformation_project.mas:50
+msgctxt "transformation.view_information_about_completed_or_terminated_transformation_ids_in_this"
+msgid "View information about completed or terminated transformation ids in this project."
+msgstr "Перегляд відомостей про ID завершених або припинених трансформацій у цьому проєкті."
+
+#: mason/transformation/transformation_project.mas:49
+msgctxt "transformation.view_information_about_ongoing_transformation_ids_in_this_project"
+msgid "View information about ongoing transformation ids in this project."
+msgstr "Перегляд відомостей про поточні ID трансформацій у цьому проєкті."
+
+#: cgi-bin/tools/vector/index.pl:229
+msgctxt "transformation.view_sequence"
+msgid "View sequence"
+msgstr "Переглянути послідовність"
+
+#: mason/transformation/manage_transformation.mas:36
+msgctxt "transformation.what_are_transformation_identifiers"
+msgid "What are transformation identifiers?"
+msgstr "Що таке ідентифікатори трансформації?"
+
+#: mason/transformation/manage_transformation.mas:27
+msgctxt "transformation.what_are_transformation_projects.9369612"
+msgid "What are transformation projects?"
+msgstr "Що таке проєкти трансформації?"
+
+#: mason/transformation/add_transformation_project_dialog.mas:21
+msgctxt "transformation.what_are_transformation_projects.b3cc06c"
+msgid "What are Transformation Projects?"
+msgstr "Що таке проєкти трансформації?"
+
+#: mason/transformation/add_transformation_project_dialog.mas:27
+msgctxt "transformation.you_can_use_transformation_details_page_to_automatically_add_new"
+msgid "You can use transformation details page to automatically add new transformant (accession) names to database by simply indicating the number of transformants generated."
+msgstr "На сторінці відомостей про трансформацію можна автоматично додати до бази даних назви нових трансформантів (зразків), лише вказавши кількість отриманих трансформантів."
+
+#: mason/transformation/add_transformation_project_dialog.mas:23
+msgctxt "transformation.you_can_use_transformation_projects_to_manage_and_organize_your"
+msgid "You can use Transformation Projects to manage and organize your transformation experiemnts"
+msgstr "Проєкти трансформації допомагають керувати дослідами з трансформації та організовувати їх"
+
+#: mason/transformation/add_transformation_project_dialog.mas:104
+msgctxt "transformation.you_can_use_your_transformation_project_page_to_create_transformation"
+msgid "You can use your transformation project page to create transformation IDs."
+msgstr "На сторінці проєкту трансформації можна створювати ID трансформацій."
+
+#: mason/tracking_activities/activity_info_details.mas:182
+#: mason/transformation/transformation_update_status_section.mas:26
+msgctxt "transformation.you_need_to_be_logged_in_or_you_do_not"
+msgid "You need to be logged in or you do not have sufficient privileges to update status of this tracking identifier."
+msgstr "Потрібно увійти або у вас недостатньо прав для оновлення стану цього ідентифікатора відстеження."
+
+#: mason/tools/treatment_designer.mas:108
+msgctxt "treatment.rebuild_paths"
+msgid "Rebuild cvterm paths"
+msgstr "Перебудувати шляхи cvterm"
+
+#: mason/tools/treatment_designer.mas:106
+msgctxt "treatment.select_ontology"
+msgid "Select an ontology..."
+msgstr "Виберіть онтологію..."
+
+#: lib/SGN/Controller/ActivityInfo.pm:86
+#: lib/SGN/Controller/Transformation.pm:100
+#: mason/breeders_toolbox/trial/trial_status.mas:37
+#: mason/propagation/inactive_propagation_id_section.mas:39
+#: mason/propagation/propagation_id_section.mas:83
+msgctxt "trial.card.status.updated_by"
+msgid "Updated by"
+msgstr "Оновив(-ла)"
+
+#: js/source/entries/vectorViewer.js:453
+#: mason/breeders_toolbox/trial/trial_entry_numbers_template_dialog.mas:143
+#: mason/breeders_toolbox/trial/trial_entry_numbers_template_dialog.mas:30
+#: mason/vectorviewer/vectorviewer.mas:97
+msgctxt "trial.entry_template.start"
+msgid "Start"
+msgstr "Почати"
+
+#: js/source/legacy/CXGN/Transformation.js:26
+#: mason/breeders_toolbox/cross/crossing_experiment_deletion.mas:132
+#: mason/breeders_toolbox/cross/crossing_experiment_deletion.mas:71
+#: mason/breeders_toolbox/cross/crossing_experiment_deletion.mas:99
+#: mason/breeders_toolbox/genotyping_data_project/genotyping_project_deletion.mas:100
+#: mason/breeders_toolbox/genotyping_data_project/genotyping_project_deletion.mas:139
+#: mason/breeders_toolbox/genotyping_data_project/genotyping_project_deletion.mas:166
+#: mason/breeders_toolbox/genotyping_trials/delete_genotyping_plate.mas:129
+#: mason/breeders_toolbox/genotyping_trials/delete_genotyping_plate.mas:171
+#: mason/breeders_toolbox/trial/trial_soil_data.mas:78
+#: mason/transformation/transformation_project_deletion.mas:67
+msgctxt "trial.soil_table.delete_error"
+msgid "An error occurred during deletion"
+msgstr "Сталася помилка під час видалення"
+
+#: js/source/legacy/CXGN/Transformation.js:17
+#: mason/breeders_toolbox/cross/crossing_experiment_deletion.mas:123
+#: mason/breeders_toolbox/cross/crossing_experiment_deletion.mas:62
+#: mason/breeders_toolbox/cross/crossing_experiment_deletion.mas:90
+#: mason/breeders_toolbox/genotyping_data_project/genotyping_project_deletion.mas:130
+#: mason/breeders_toolbox/genotyping_data_project/genotyping_project_deletion.mas:157
+#: mason/breeders_toolbox/genotyping_data_project/genotyping_project_deletion.mas:91
+#: mason/breeders_toolbox/trial/trial_soil_data.mas:69
+#: mason/transformation/transformation_project_deletion.mas:58
+msgctxt "trial.soil_table.delete_success"
+msgid "Deletion was successful"
+msgstr "Дані успішно видалено"

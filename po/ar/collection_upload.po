@@ -1,0 +1,1562 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/ar.po
+# Translation of ISO 3166-1 to Arabic
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2002 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2004 Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>
+# SPDX-FileCopyrightText: 2006, 2008, 2010 Ossama M. Khayat <okhayat@yahoo.com>
+# SPDX-FileCopyrightText: 2018, 2019 ButterflyOfFire <ButterflyOfFire@protonmail.com>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/ar.po
+# Translation of ISO 3166-3 to Arabic
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2002 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2004 Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>
+# SPDX-FileCopyrightText: 2006, 2008, 2010 Ossama M. Khayat <okhayat@yahoo.com>
+# SPDX-FileCopyrightText: 2019 ButterflyOfFire <ButterflyOfFire@protonmail.com>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: العربية\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-SGN-Direction: rtl\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+#: mason/breeders_toolbox/manage_upload.mas:100
+#: mason/breeders_toolbox/manage_upload.mas:123
+#: mason/breeders_toolbox/manage_upload.mas:146
+#: mason/breeders_toolbox/manage_upload.mas:170
+#: mason/breeders_toolbox/manage_upload.mas:195
+#: mason/breeders_toolbox/manage_upload.mas:218
+#: mason/breeders_toolbox/manage_upload.mas:253
+#: mason/breeders_toolbox/manage_upload.mas:30
+#: mason/breeders_toolbox/manage_upload.mas:52
+#: mason/breeders_toolbox/manage_upload.mas:77
+#: mason/genomes/sequenced_accessions.mas:26
+#: mason/stock/sequencing_status.mas:113
+msgctxt "accession.sequencing.table.manage"
+msgid "Manage"
+msgstr "إدارة"
+
+#: mason/breeders_toolbox/manage_upload.mas:227
+msgctxt "collection.add_a_cross"
+msgid "Add A Cross"
+msgstr "إضافة تهجين"
+
+#: mason/breeders_toolbox/manage_upload.mas:176
+msgctxt "collection.add_a_seedlot"
+msgid "Add A Seedlot"
+msgstr "إضافة دفعة بذور"
+
+#: mason/breeders_toolbox/manage_upload.mas:128
+msgctxt "collection.add_accessions_using_list"
+msgid "Add Accessions Using List"
+msgstr "إضافة عينات وراثية باستخدام قائمة"
+
+#: mason/breeders_toolbox/manage_upload.mas:151
+msgctxt "collection.add_new_population"
+msgid "Add New Population"
+msgstr "إضافة مجموعة جديدة"
+
+#: mason/breeders_toolbox/manage_upload.mas:253
+msgctxt "collection.collection"
+msgid "Collection"
+msgstr "الجمع"
+
+#: mason/breeders_toolbox/manage_upload.mas:82
+msgctxt "collection.create_an_igd_genotyping_plate"
+msgid "Create An IGD Genotyping Plate"
+msgstr "إنشاء صفيحة تنميط جيني IGD"
+
+#: mason/breeders_toolbox/manage_upload.mas:258
+msgctxt "collection.create_fieldbook_layout_file"
+msgid "Create Fieldbook Layout File"
+msgstr "إنشاء ملف تخطيط Fieldbook"
+
+#: mason/breeders_toolbox/manage_upload.mas:259
+msgctxt "collection.create_fieldbook_trait_file"
+msgid "Create Fieldbook Trait File"
+msgstr "إنشاء ملف صفات Fieldbook"
+
+#: mason/breeders_toolbox/manage_upload.mas:260
+msgctxt "collection.create_phenotyping_spreadsheet"
+msgid "Create Phenotyping Spreadsheet"
+msgstr "إنشاء جدول بيانات ظاهرية"
+
+#: mason/breeders_toolbox/manage_upload.mas:58
+msgctxt "collection.design_a_new_trial"
+msgid "Design A New Trial"
+msgstr "تصميم تجربة جديدة"
+
+#: mason/breeders_toolbox/trial/create_datacollector_dialog.mas:14
+msgctxt "collection.download_datacollector_for"
+msgid "Download Datacollector for "
+msgstr "تنزيل Datacollector لـ "
+
+#: mason/breeders_toolbox/manage_upload.mas:134
+msgctxt "collection.go_to_accessions_search"
+msgid "Go To Accessions Search"
+msgstr "الانتقال إلى البحث عن العينات الوراثية"
+
+#: mason/breeders_toolbox/manage_upload.mas:131
+#: mason/breeders_toolbox/manage_upload.mas:154
+#: mason/breeders_toolbox/manage_upload.mas:203
+msgctxt "collection.go_to_manage_accessions_page"
+msgid "Go To Manage Accessions Page"
+msgstr "الانتقال إلى صفحة إدارة العينات الوراثية"
+
+#: mason/breeders_toolbox/manage_upload.mas:234
+msgctxt "collection.go_to_manage_crosses_page"
+msgid "Go To Manage Crosses Page"
+msgstr "الانتقال إلى صفحة إدارة التهجينات"
+
+#: mason/breeders_toolbox/manage_upload.mas:108
+#: mason/breeders_toolbox/manage_upload.mas:111
+msgctxt "collection.go_to_manage_locations"
+msgid "Go To Manage Locations"
+msgstr "الانتقال إلى إدارة المواقع"
+
+#: mason/breeders_toolbox/manage_upload.mas:267
+msgctxt "collection.go_to_manage_phenotypes_page"
+msgid "Go To Manage Phenotypes Page"
+msgstr "الانتقال إلى صفحة إدارة البيانات الظاهرية"
+
+#: mason/breeders_toolbox/manage_upload.mas:179
+#: mason/breeders_toolbox/manage_upload.mas:182
+msgctxt "collection.go_to_manage_seedlots_page"
+msgid "Go To Manage Seedlots Page"
+msgstr "الانتقال إلى صفحة إدارة دفعات البذور"
+
+#: mason/breeders_toolbox/manage_upload.mas:38
+msgctxt "collection.go_to_ontology_browser"
+msgid "Go To Ontology Browser"
+msgstr "الانتقال إلى متصفح الأنطولوجيا"
+
+#: mason/breeders_toolbox/manage_upload.mas:206
+#: mason/breeders_toolbox/manage_upload.mas:237
+msgctxt "collection.go_to_search_crosses"
+msgid "Go To Search Crosses"
+msgstr "الانتقال إلى البحث عن التهجينات"
+
+#: mason/breeders_toolbox/manage_upload.mas:270
+msgctxt "collection.go_to_search_wizard"
+msgid "Go To Search Wizard"
+msgstr "الانتقال إلى معالج البحث"
+
+#: mason/breeders_toolbox/manage_upload.mas:157
+msgctxt "collection.go_to_stock_search"
+msgid "Go To Stock Search"
+msgstr "الانتقال إلى البحث عن المواد"
+
+#: mason/breeders_toolbox/manage_upload.mas:35
+msgctxt "collection.go_to_trait_request_form"
+msgid "Go To Trait Request Form"
+msgstr "الانتقال إلى نموذج طلب صفة"
+
+#: mason/breeders_toolbox/manage_upload.mas:41
+msgctxt "collection.go_to_trait_search"
+msgid "Go To Trait Search"
+msgstr "الانتقال إلى البحث عن الصفات"
+
+#: mason/breeders_toolbox/manage_upload.mas:64
+#: mason/breeders_toolbox/manage_upload.mas:88
+msgctxt "collection.go_to_trial_search"
+msgid "Go To Trial Search"
+msgstr "الانتقال إلى البحث عن التجارب"
+
+#: mason/breeders_toolbox/manage_upload.mas:192
+msgctxt "collection.pedigrees"
+msgid "Pedigrees"
+msgstr "الأنساب"
+
+#: mason/breeders_toolbox/manage_upload.mas:218
+msgctxt "collection.plan"
+msgid "Plan"
+msgstr "التخطيط"
+
+#: lib/SGN/Controller/FieldBook.pm:201
+msgctxt "collection.server.could_not_create_excel_file"
+msgid "Could not create excel file "
+msgstr "تعذر إنشاء ملف Excel "
+
+#: lib/CXGN/Fieldbook/DownloadTrial.pm:204
+msgctxt "collection.server.could_not_create_file"
+msgid "Could not create file."
+msgstr "تعذر إنشاء الملف."
+
+#: lib/CXGN/Trial/Download/Plugin/DataCollectorExcel.pm:439
+msgctxt "collection.server.datacollector_file_created"
+msgid "DataCollector File created!"
+msgstr "تم إنشاء ملف DataCollector!"
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/FieldBook.pm:287
+msgctxt "collection.server.error_parsing_line_line_number_timestamp_needs_to_be"
+msgid "Error parsing line %{line_number}: timestamp needs to be of form YYYY-MM-DD HH:MM:SS-0000 or YYYY-MM-DD HH:MM:SS+0000"
+msgstr "خطأ في تحليل السطر %{line_number}: يجب أن يكون الطابع الزمني بالتنسيق YYYY-MM-DD HH:MM:SS-0000 أو YYYY-MM-DD HH:MM:SS+0000"
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/FieldBook.pm:282
+msgctxt "collection.server.error_parsing_line_line_number_unit_trait_or_value"
+msgid "Error parsing line %{line_number}: unit, trait, or value is undefined."
+msgstr "خطأ في تحليل السطر %{line_number}: وحدة الرصد أو الصفة أو القيمة غير معرّفة."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/FieldBook.pm:299
+msgctxt "collection.server.error_stock_id_unit_value_does_not_exist_in"
+msgid "Error: stock id %{unit_value} does not exist in the database."
+msgstr "خطأ: معرّف المادة %{unit_value} غير موجود في قاعدة البيانات."
+
+#: lib/CXGN/Trial/Download/Plugin/DataCollectorExcel.pm:64
+msgctxt "collection.server.no_design_found_for_this_trial_a_trial_design"
+msgid "No design found for this trial. A trial design must exist in order to create this file"
+msgstr "لم يعثر على تصميم لهذه التجربة. يجب أن يتوفر تصميم للتجربة لإنشاء هذا الملف"
+
+#: lib/SGN/Controller/FieldBook.pm:193
+msgctxt "collection.server.no_trial_id_supplied"
+msgid "No trial id supplied"
+msgstr "لم يقدم معرّف التجربة"
+
+#: lib/SGN/Controller/FieldBook.pm:197
+msgctxt "collection.server.trial_does_not_exist_with_id_trial_id"
+msgid "Trial does not exist with id %{trial_id}"
+msgstr "لا توجد تجربة بالمعرّف %{trial_id}"
+
+#: mason/breeders_toolbox/trial/create_datacollector_dialog.mas:21
+msgctxt "collection.trait_list"
+msgid "Trait List: "
+msgstr "قائمة الصفات: "
+
+#: mason/breeders_toolbox/manage_upload.mas:57
+msgctxt "collection.upload_an_existing_trial"
+msgid "Upload An Existing Trial"
+msgstr "تحميل تجربة موجودة"
+
+#: mason/breeders_toolbox/manage_upload.mas:16
+msgctxt "collection.upload_data"
+msgid "Upload Data"
+msgstr "تحميل البيانات"
+
+#: mason/breeders_toolbox/manage_upload.mas:231
+msgctxt "collection.upload_family_names"
+msgid "Upload Family Names"
+msgstr "تحميل أسماء العائلات"
+
+#: mason/breeders_toolbox/manage_upload.mas:263
+msgctxt "collection.upload_fieldbook_database_file"
+msgid "Upload Fieldbook Database File"
+msgstr "تحميل ملف قاعدة بيانات Fieldbook"
+
+#: mason/breeders_toolbox/manage_upload.mas:226
+msgctxt "collection.upload_many_new_crosses"
+msgid "Upload Many New Crosses"
+msgstr "تحميل تهجينات جديدة متعددة"
+
+#: mason/breeders_toolbox/manage_upload.mas:105
+msgctxt "collection.upload_many_new_locations"
+msgid "Upload Many New Locations"
+msgstr "تحميل مواقع جديدة متعددة"
+
+#: mason/breeders_toolbox/manage_upload.mas:200
+msgctxt "collection.upload_many_pedigrees"
+msgid "Upload Many Pedigrees"
+msgstr "تحميل أنساب متعددة"
+
+#: mason/breeders_toolbox/manage_upload.mas:175
+msgctxt "collection.upload_many_seedlots"
+msgid "Upload Many Seedlots"
+msgstr "تحميل دفعات بذور متعددة"
+
+#: mason/breeders_toolbox/manage_upload.mas:264
+msgctxt "collection.upload_phenotyping_spreadsheet"
+msgid "Upload Phenotyping Spreadsheet"
+msgstr "تحميل جدول بيانات ظاهرية"
+
+#: mason/breeders_toolbox/manage_upload.mas:229
+msgctxt "collection.upload_progeny_names_that_are_not_in_database"
+msgid "Upload progeny names that are NOT in database"
+msgstr "تحميل أسماء ذرية غير موجودة في قاعدة البيانات"
+
+# Untranslated Data Collector UI; editorial translation pending.
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:129
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:172
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:186
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:293
+msgctxt "datacollector.ui.close"
+msgid "Close"
+msgstr "إغلاق"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:151
+msgctxt "datacollector.ui.data_level"
+msgid "Data Level: "
+msgstr "مستوى البيانات: "
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:192
+msgctxt "datacollector.ui.excel_required"
+msgid "Must be in %{xls} or %{xlsx} excel file format"
+msgstr "يجب أن يكون بتنسيق Excel %{xls} أو %{xlsx}"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:159
+msgctxt "datacollector.ui.file"
+msgid "Data Collector File: "
+msgstr "ملف جامع البيانات: "
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:139
+msgctxt "datacollector.ui.format"
+msgid "Datacollector Format"
+msgstr "تنسيق جامع البيانات"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:196
+msgctxt "datacollector.ui.header_intro"
+msgid "The first row (header) should contain the following:"
+msgstr "يجب أن يحتوي الصف الأول (صف العناوين) على ما يلي:"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:224
+msgctxt "datacollector.ui.multiple_traits"
+msgid "Two or more traits can be uploaded at the same time."
+msgstr "يمكن تحميل صفتين أو أكثر في الوقت نفسه."
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:193
+msgctxt "datacollector.ui.no_text"
+msgid "(tab-delimited text formats are NOT supported)"
+msgstr "(تنسيقات النص المفصول بعلامات الجدولة غير مدعومة)"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:220
+msgctxt "datacollector.ui.notes"
+msgid "Notes"
+msgstr "ملاحظات"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:223
+msgctxt "datacollector.ui.ontology_note"
+msgid "If trait file was not generated from the database, consult the Trait Ontology to ensure you have the correct trait id."
+msgstr "إذا لم يُنشأ ملف الصفات من قاعدة البيانات، فراجع أنطولوجيا الصفات للتأكد من استخدام معرف الصفة الصحيح."
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:260
+msgctxt "datacollector.ui.plain_example"
+msgid "Example without timestamps: "
+msgstr "مثال دون طوابع زمنية: "
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:216
+msgctxt "datacollector.ui.plot_required"
+msgid "%{column} (must exist in the database)"
+msgstr "%{column} (يجب أن يكون موجودا في قاعدة البيانات)"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:154
+msgctxt "datacollector.ui.plots"
+msgid "Plots"
+msgstr "القطع"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:214
+msgctxt "datacollector.ui.required"
+msgid "Required fields:"
+msgstr "الحقول المطلوبة:"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:195
+msgctxt "datacollector.ui.sheet_header"
+msgid "%{sheet} Sheet Header: (%{number}th Sheet in Workbook)"
+msgstr "عنوان الورقة %{sheet}: (الورقة رقم %{number} في المصنف)"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:232
+msgctxt "datacollector.ui.timestamp_example"
+msgid "Example with timestamps: "
+msgstr "مثال مع طوابع زمنية: "
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:231
+msgctxt "datacollector.ui.timestamp_format"
+msgid "Timestamp format must be %{negative} or %{positive}"
+msgstr "يجب أن يكون تنسيق الطابع الزمني %{negative} أو %{positive}"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:229
+msgctxt "datacollector.ui.timestamp_help"
+msgid "To include timestamp information for your measurements, click the checkbox \"Includes Timestamps\"."
+msgstr "لتضمين معلومات الطابع الزمني لقياساتك، حدد مربع «تتضمن طوابع زمنية»."
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:145
+msgctxt "datacollector.ui.timestamp_included"
+msgid "Timestamps Included: "
+msgstr "الطوابع الزمنية مضمنة: "
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:230
+msgctxt "datacollector.ui.timestamp_values"
+msgid "For timestamps, values should be recorded as %{with_timestamp}. For no timestamps, values should be recorded as %{without_timestamp}."
+msgstr "مع الطوابع الزمنية، يجب تسجيل القيم بالشكل %{with_timestamp}. ودون الطوابع الزمنية، يجب تسجيلها بالشكل %{without_timestamp}."
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:227
+msgctxt "datacollector.ui.timestamps"
+msgid "Timestamps:"
+msgstr "الطوابع الزمنية:"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:130
+msgctxt "datacollector.ui.title"
+msgid "Upload Data Collector File"
+msgstr "تحميل ملف جامع البيانات"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:222
+msgctxt "datacollector.ui.trait_example"
+msgid "For %{trait} in cassava, %{column} should be written as %{example}."
+msgstr "بالنسبة إلى %{trait} في الكسافا، يجب كتابة %{column} بالشكل %{example}."
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:217
+msgctxt "datacollector.ui.trait_required"
+msgid "%{column} (must exist in the trait ontology)"
+msgstr "%{column} (يجب أن يكون موجودا في أنطولوجيا الصفات)"
+
+#: mason/breeders_toolbox/upload_phenotype_datacollector.mas:174
+msgctxt "datacollector.ui.verify_first"
+msgid "First Verify Your File"
+msgstr "تحقق من الملف أولاً"
+
+#: mason/fieldbook/home.mas:46
+msgctxt "fieldbook.brapi.authorize"
+msgid "Select %{action} to allow Field Book to use your account"
+msgstr "حدد %{action} للسماح لـ Field Book باستخدام حسابك"
+
+#: mason/fieldbook/home.mas:41
+msgctxt "fieldbook.brapi.enable"
+msgid "Make sure %{enable} is checked"
+msgstr "تأكد من تحديد %{enable}"
+
+#: mason/fieldbook/home.mas:43
+msgctxt "fieldbook.brapi.import_settings"
+msgid "Choose the %{action} action"
+msgstr "اختر الإجراء %{action}"
+
+#: mason/fieldbook/home.mas:37
+msgctxt "fieldbook.brapi.intro"
+msgid "To connect Field Book to this database via BrAPI, from within the Field Book app:"
+msgstr "لربط Field Book بقاعدة البيانات هذه عبر BrAPI، من داخل تطبيق Field Book:"
+
+#: mason/fieldbook/home.mas:45
+msgctxt "fieldbook.brapi.login"
+msgid "This should then direct you to login to the database with your username and password"
+msgstr "سينقلك ذلك بعد ذلك إلى صفحة تسجيل الدخول إلى قاعدة البيانات لإدخال اسم المستخدم وكلمة المرور"
+
+#: mason/fieldbook/home.mas:40
+msgctxt "fieldbook.brapi.open"
+msgid "Open the %{brapi} settings"
+msgstr "افتح إعدادات %{brapi}"
+
+#: mason/fieldbook/home.mas:42
+msgctxt "fieldbook.brapi.scan_barcode"
+msgid "Tap the %{action} option in the toolbar"
+msgstr "اضغط على خيار %{action} في شريط الأدوات"
+
+#: mason/fieldbook/home.mas:44
+msgctxt "fieldbook.brapi.scan_code"
+msgid "Scan the QR code to the left"
+msgstr "امسح رمز QR الموجود على اليسار"
+
+#: mason/fieldbook/home.mas:39
+msgctxt "fieldbook.brapi.settings"
+msgid "Go to the Field Book %{settings}"
+msgstr "انتقل إلى إعدادات Field Book %{settings}"
+
+#: mason/fieldbook/home.mas:47
+msgctxt "fieldbook.brapi.sources"
+msgid "Check to use this database as the default %{import_source} and %{export_source}"
+msgstr "حدد قاعدة البيانات هذه كمصدر الاستيراد الافتراضي %{import_source} ومصدر التصدير الافتراضي %{export_source}"
+
+#: mason/fieldbook/home.mas:24
+msgctxt "fieldbook.brapi.subtitle"
+msgid "Scan the QRCode with Field Book to configure the app for this database for BrAPI access"
+msgstr "امسح رمز QR باستخدام Field Book لتهيئة التطبيق للوصول إلى قاعدة البيانات هذه عبر BrAPI"
+
+# Model-draft Field Book help/file-table messages; human review remains open.
+#: mason/fieldbook/home.mas:24
+msgctxt "fieldbook.brapi.title"
+msgid "BrAPI setup"
+msgstr "إعداد BrAPI"
+
+#: mason/breeders_toolbox/trial/create_datacollector_dialog.mas:28
+#: mason/breeders_toolbox/trial/download_layout_interface_dialog.mas:154
+msgctxt "fieldbook.export.data_level"
+msgid "Data Level: "
+msgstr "مستوى البيانات: "
+
+#: mason/breeders_toolbox/trial/create_datacollector_dialog.mas:32
+#: mason/breeders_toolbox/trial/download_layout_interface_dialog.mas:158
+msgctxt "fieldbook.export.plants"
+msgid "Plants"
+msgstr "النباتات"
+
+#: mason/breeders_toolbox/trial/create_datacollector_dialog.mas:31
+#: mason/breeders_toolbox/trial/download_layout_interface_dialog.mas:157
+msgctxt "fieldbook.export.plots"
+msgid "Plots"
+msgstr "القطع"
+
+#: mason/fieldbook/home.mas:110
+msgctxt "fieldbook.files.delete"
+msgid "Delete"
+msgstr "حذف"
+
+#: mason/fieldbook/home.mas:109
+msgctxt "fieldbook.files.filename"
+msgid "Filename"
+msgstr "اسم الملف"
+
+#: mason/fieldbook/home.mas:163
+msgctxt "fieldbook.files.remove_confirm"
+msgid "Do you really want to remove all data associated with this file (id=%{file_id})"
+msgstr "هل تريد حقًا إزالة جميع البيانات المرتبطة بهذا الملف (المعرّف=%{file_id})؟"
+
+#: mason/fieldbook/home.mas:179
+msgctxt "fieldbook.files.remove_error"
+msgid "An error occurred!"
+msgstr "حدث خطأ!"
+
+#: mason/fieldbook/home.mas:173
+msgctxt "fieldbook.files.remove_success"
+msgid "SUCCESS!"
+msgstr "نجاح!"
+
+#: mason/fieldbook/home.mas:129
+msgctxt "fieldbook.files.removed"
+msgid "Removed Phenotype Files"
+msgstr "ملفات البيانات المظهرية المحذوفة"
+
+#: mason/fieldbook/home.mas:136
+msgctxt "fieldbook.files.reupload"
+msgid "re-upload"
+msgstr "إعادة الرفع"
+
+#: mason/fieldbook/home.mas:106
+msgctxt "fieldbook.files.upload"
+msgid "Upload"
+msgstr "رفع"
+
+#: mason/fieldbook/home.mas:106
+msgctxt "fieldbook.files.uploaded"
+msgid "Uploaded Phenotype Files"
+msgstr "ملفات البيانات المظهرية المرفوعة"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:82
+msgctxt "fieldbook.format.collector"
+msgid "%{column}: Observation collector's name."
+msgstr "%{column}: اسم جامع الملاحظة."
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:74
+msgctxt "fieldbook.format.format_export"
+msgid "When exporting a Phenotype File from Fieldbook, the file should already be in this format. Please check to make sure your file was exported correctly"
+msgstr "عند تصدير ملف بيانات مظهرية من Field Book، ينبغي أن يكون الملف بهذا التنسيق بالفعل. يرجى التأكد من تصدير الملف بشكل صحيح."
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:73
+msgctxt "fieldbook.format.format_title"
+msgid "Fieldbook files can be uploaded in .xlsx or .csv format"
+msgstr "يمكن رفع ملفات Field Book بتنسيق .xlsx أو .csv"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:78
+msgctxt "fieldbook.format.stock"
+msgid "%{plot} or %{plant} or %{subplot} or %{tissue_sample}: This should be one of these stock IDs that already exist in the database."
+msgstr "%{plot} أو %{plant} أو %{subplot} أو %{tissue_sample}: يجب أن يكون أحد معرّفات المخزون الموجودة مسبقًا في قاعدة البيانات."
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:81
+msgctxt "fieldbook.format.timestamp"
+msgid "%{column}: Timestamp of the observation."
+msgstr "%{column}: الطابع الزمني للملاحظة."
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:79
+msgctxt "fieldbook.format.trait"
+msgid "%{column}: A trait that exists in the database."
+msgstr "%{column}: صفة موجودة في قاعدة البيانات."
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:80
+msgctxt "fieldbook.format.value"
+msgid "%{column}: Corresponding value for the observed trait."
+msgstr "%{column}: القيمة المقابلة للصفة المرصودة."
+
+#: mason/fieldbook/home.mas:64
+msgctxt "fieldbook.layout.create_files"
+msgid "To use Field Book you need a Field Layout File and a Trait File; both can be created on this page."
+msgstr "لاستخدام Field Book، تحتاج إلى ملف مخطط حقل وملف صفات؛ ويمكن إنشاء كليهما في هذه الصفحة."
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:118
+msgctxt "fieldbook.layout.deleted"
+msgid "Layout deleted successfully."
+msgstr "حُذف المخطط بنجاح."
+
+#: mason/fieldbook/home.mas:60
+msgctxt "fieldbook.layout.description"
+msgid "Field Book is an app for collecting phenotypic data on field research plots using an android tablet computer."
+msgstr "Field Book تطبيق لجمع البيانات المظهرية من قطع التجارب الحقلية باستخدام جهاز لوحي يعمل بنظام Android."
+
+#: mason/fieldbook/home.mas:64
+msgctxt "fieldbook.layout.move_files"
+msgid "Once you have created and downloaded your Field Layout and Trait files, move them onto your mobile device into the Field Book directories (generally %{layout_path} for your Field Layout Files and %{trait_path} for your trait files.)"
+msgstr "بعد إنشاء ملفات مخطط الحقل والصفات وتنزيلها، انقلها إلى أدلة Field Book على جهازك المحمول (عادةً %{layout_path} لملفات مخطط الحقل و%{trait_path} لملفات الصفات)."
+
+#: mason/fieldbook/home.mas:62
+msgctxt "fieldbook.layout.software"
+msgid "Field Book Software"
+msgstr "برنامج Field Book"
+
+#: mason/fieldbook/home.mas:58 mason/fieldbook/home.mas:74
+msgctxt "fieldbook.layout.title"
+msgid "Field Layout Files"
+msgstr "ملفات مخطط الحقل"
+
+#: mason/fieldbook/home.mas:66
+msgctxt "fieldbook.layout.units"
+msgid "By using Field Book with the Field Layout and Trait Files created here, you can be sure that your traits are properly defined and your experimental units, whether they are plots or plants or tissue samples, are also properly defined."
+msgstr "باستخدام Field Book مع ملفات مخطط الحقل والصفات المنشأة هنا، يمكنك التأكد من تعريف الصفات والوحدات التجريبية، سواء أكانت قطعًا أم نباتات أم عينات أنسجة، على نحو سليم."
+
+#: lib/SGN/Controller/AJAX/FieldBook.pm:187
+#: lib/SGN/Controller/AJAX/FieldBook.pm:69
+msgctxt "fieldbook.server.login_required"
+msgid "You need to be logged in to create a field book"
+msgstr "يجب تسجيل الدخول لإنشاء ملف Field Book"
+
+#: lib/SGN/Controller/AJAX/FieldBook.pm:191
+#: lib/SGN/Controller/AJAX/FieldBook.pm:73
+msgctxt "fieldbook.server.permission"
+msgid "You have insufficient privileges to create a field book."
+msgstr "ليست لديك صلاحيات كافية لإنشاء ملف Field Book."
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:43
+msgctxt "fieldbook.table.empty"
+msgid "No data available in table"
+msgstr "لا تتوفر بيانات في الجدول"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:46
+msgctxt "fieldbook.table.filtered"
+msgid "(filtered from %{maximum} total entries)"
+msgstr "(تمت التصفية من إجمالي %{maximum} سجلًا)"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:53
+msgctxt "fieldbook.table.first"
+msgid "First"
+msgstr "الأول"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:44
+msgctxt "fieldbook.table.info"
+msgid "Showing %{start} to %{end} of %{total} entries"
+msgstr "عرض السجلات من %{start} إلى %{end} من أصل %{total}"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:45
+msgctxt "fieldbook.table.info_empty"
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "عرض السجلات من 0 إلى 0 من أصل 0"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:54
+msgctxt "fieldbook.table.last"
+msgid "Last"
+msgstr "الأخير"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:47
+msgctxt "fieldbook.table.length"
+msgid "Show %{menu} entries"
+msgstr "عرض %{menu} سجلًا"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:48
+msgctxt "fieldbook.table.loading"
+msgid "Loading..."
+msgstr "جارٍ التحميل..."
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:55
+msgctxt "fieldbook.table.next"
+msgid "Next"
+msgstr "التالي"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:56
+msgctxt "fieldbook.table.previous"
+msgid "Previous"
+msgstr "السابق"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:49
+msgctxt "fieldbook.table.processing"
+msgid "Processing..."
+msgstr "جارٍ المعالجة..."
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:50
+msgctxt "fieldbook.table.search"
+msgid "Search:"
+msgstr "بحث:"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:59
+msgctxt "fieldbook.table.sort_ascending"
+msgid ": activate to sort column ascending"
+msgstr ": فعّل لفرز العمود تصاعديًا"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:60
+msgctxt "fieldbook.table.sort_descending"
+msgid ": activate to sort column descending"
+msgstr ": فعّل لفرز العمود تنازليًا"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:51
+msgctxt "fieldbook.table.zero"
+msgid "No matching records found"
+msgstr "لم يُعثر على سجلات مطابقة"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:199
+msgctxt "fieldbook.trait.client.create_failed"
+msgid "An error occurred creating the trait file."
+msgstr "حدث خطأ أثناء إنشاء ملف الصفات."
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:169
+msgctxt "fieldbook.trait.client.name_required"
+msgid "A trait file name is required."
+msgstr "يجب إدخال اسم لملف الصفات."
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:92
+#: mason/breeders_toolbox/breeding_program.mas:56
+#: mason/breeders_toolbox/cross/add_family_members_using_list_dialog.mas:97
+#: mason/breeders_toolbox/trial/greenhouse_add_additional_accessions_dialog.mas:135
+#: mason/transformation/add_transformants_using_list_dialog.mas:87
+msgctxt "fieldbook.trait.client.select_list"
+msgid "Select a list"
+msgstr "اختر قائمة"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:126
+msgctxt "fieldbook.trait.client.selected"
+msgid "Selected: %{count}"
+msgstr "المحدد: %{count}"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:124
+msgctxt "fieldbook.trait.client.total"
+msgid "Traits: %{count}"
+msgstr "الصفات: %{count}"
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js:161
+msgctxt "fieldbook.trait.client.traits_required"
+msgid "Traits, from a list or selected individually, are required."
+msgstr "يجب اختيار الصفات من قائمة أو تحديدها بشكل منفرد."
+
+#: mason/fieldbook/create_trait_file_dialog.mas:44
+#: mason/fieldbook/create_trait_file_dialog.mas:55
+#: mason/fieldbook/create_trait_file_dialog.mas:6
+#: mason/fieldbook/create_trait_file_dialog.mas:70
+msgctxt "fieldbook.trait.ui.close"
+msgid "Close"
+msgstr "إغلاق"
+
+#: mason/fieldbook/create_trait_file_dialog.mas:45
+#: mason/order/create_ontology_file_dialog.mas:30
+msgctxt "fieldbook.trait.ui.create"
+msgid "Create File"
+msgstr "إنشاء ملف"
+
+#: mason/fieldbook/create_trait_file_dialog.mas:62
+msgctxt "fieldbook.trait.ui.created"
+msgid "The trait file was created successfully."
+msgstr "تم إنشاء ملف الصفات بنجاح."
+
+#: mason/fieldbook/create_trait_file_dialog.mas:56
+msgctxt "fieldbook.trait.ui.created_title"
+msgid "Trait File Created"
+msgstr "تم إنشاء ملف الصفات"
+
+#: mason/fieldbook/create_trait_file_dialog.mas:65
+msgctxt "fieldbook.trait.ui.download"
+msgid "Download File"
+msgstr "تنزيل الملف"
+
+#: mason/fieldbook/create_trait_file_dialog.mas:35
+#: mason/order/create_ontology_file_dialog.mas:20
+msgctxt "fieldbook.trait.ui.file_name"
+msgid "File name:"
+msgstr "اسم الملف:"
+
+#: mason/fieldbook/create_trait_file_dialog.mas:37
+#: mason/order/create_ontology_file_dialog.mas:22
+msgctxt "fieldbook.trait.ui.file_name_placeholder"
+msgid "Type name here"
+msgstr "أدخل الاسم هنا"
+
+#: mason/fieldbook/create_trait_file_dialog.mas:29
+msgctxt "fieldbook.trait.ui.include_notes"
+msgid "Include Notes Trait "
+msgstr "تضمين صفة «الملاحظات» "
+
+#: mason/fieldbook/create_trait_file_dialog.mas:22
+msgctxt "fieldbook.trait.ui.loading"
+msgid "[Loading...]"
+msgstr "[جارٍ التحميل...]"
+
+#: mason/fieldbook/create_trait_file_dialog.mas:25
+msgctxt "fieldbook.trait.ui.no_selection"
+msgid "No Selection"
+msgstr "لم يتم الاختيار"
+
+#: mason/fieldbook/create_trait_file_dialog.mas:13
+msgctxt "fieldbook.trait.ui.select_list"
+msgid "Select a list of traits: "
+msgstr "اختر قائمة الصفات: "
+
+#: mason/fieldbook/create_trait_file_dialog.mas:19
+msgctxt "fieldbook.trait.ui.select_traits"
+msgid "Or select traits directly: "
+msgstr "أو اختر الصفات بشكل منفرد: "
+
+#: mason/fieldbook/create_trait_file_dialog.mas:45
+msgctxt "fieldbook.trait.ui.submit_title"
+msgid "Submit"
+msgstr "إرسال"
+
+#: mason/fieldbook/create_trait_file_dialog.mas:7
+msgctxt "fieldbook.trait.ui.title"
+msgid "Create a Trait File for the Android Fieldbook App"
+msgstr "إنشاء ملف صفات لتطبيق Field Book على Android"
+
+#: mason/fieldbook/home.mas:83 mason/fieldbook/home.mas:98
+msgctxt "fieldbook.ui.delete_file"
+msgid "Delete File"
+msgstr "حذف الملف"
+
+#: mason/fieldbook/home.mas:83 mason/fieldbook/home.mas:98
+msgctxt "fieldbook.ui.download_file"
+msgid "Download File"
+msgstr "تنزيل الملف"
+
+#: mason/fieldbook/home.mas:74 mason/fieldbook/home.mas:93
+msgctxt "fieldbook.ui.new"
+msgid "New"
+msgstr "جديد"
+
+#: mason/fieldbook/home.mas:22
+msgctxt "fieldbook.ui.title"
+msgid "Field Book Tools"
+msgstr "أدوات Field Book"
+
+#: mason/fieldbook/home.mas:93
+msgctxt "fieldbook.ui.trait_files"
+msgid "Trait Files"
+msgstr "ملفات الصفات"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:10
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:100
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:55
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:67
+msgctxt "fieldbook_upload.ui.close"
+msgid "Close"
+msgstr "إغلاق"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:27
+msgctxt "fieldbook_upload.ui.data_level"
+msgid "Data Level: "
+msgstr "مستوى البيانات: "
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:38
+msgctxt "fieldbook_upload.ui.file"
+msgid "Fieldbook File: "
+msgstr "ملف Field Book: "
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:21
+msgctxt "fieldbook_upload.ui.format_info"
+msgid "File format information"
+msgstr "معلومات عن تنسيق الملف"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:44
+msgctxt "fieldbook_upload.ui.images"
+msgid "Optional: Images ZipFile (.zip): "
+msgstr "اختياري: ملف ZIP للصور (.zip): "
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:17
+msgctxt "fieldbook_upload.ui.intro"
+msgid "Upload Exported Fieldbook Phenotype File in Database Format for Plots or Plants"
+msgstr "تحميل ملف بيانات النمط الظاهري المُصدَّر من Field Book بتنسيق قاعدة البيانات للقطع التجريبية أو النباتات"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:31
+msgctxt "fieldbook_upload.ui.plants"
+msgid "Plants"
+msgstr "النباتات"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:30
+msgctxt "fieldbook_upload.ui.plots"
+msgid "Plots"
+msgstr "القطع التجريبية"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:23
+msgctxt "fieldbook_upload.ui.spreadsheet_format"
+msgid "Spreadsheet Format"
+msgstr "تنسيق جدول البيانات"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:57
+msgctxt "fieldbook_upload.ui.store"
+msgid "Store"
+msgstr "حفظ"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:32
+msgctxt "fieldbook_upload.ui.subplots"
+msgid "Subplots"
+msgstr "القطع الفرعية"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:68
+msgctxt "fieldbook_upload.ui.template_info"
+msgid "Template Information"
+msgstr "معلومات عن القالب"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:33
+msgctxt "fieldbook_upload.ui.tissue_samples"
+msgid "Tissue Samples"
+msgstr "عينات الأنسجة"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:11
+msgctxt "fieldbook_upload.ui.title"
+msgid "Upload Fieldbook File"
+msgstr "تحميل ملف Field Book"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:56
+#: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:550
+#: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:602
+#: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:667
+msgctxt "fieldbook_upload.ui.verify"
+msgid "Verify"
+msgstr "تحقق"
+
+#: mason/fieldbook/upload_phenotype_fieldbook.mas:57
+#: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:551
+#: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:603
+#: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:668
+msgctxt "fieldbook_upload.ui.verify_first"
+msgid "First Verify Your File"
+msgstr "تحقق من الملف أولاً"
+
+# Untranslated ODK presentation; editorial translation pending.
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:67
+msgctxt "odk.about.actions"
+msgid "What do I do from this page?"
+msgstr "ماذا يمكنني أن أفعل من هذه الصفحة؟"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:69
+msgctxt "odk.about.crossing"
+msgid "ONA is currently being used for collecting crossing information. This requires exporting a crossing plan from here to the ONA server. The crossing plan guides collection of cross information and this data is synched with ONA using ODK. From here, we run a script twice a day, which pulls data on ONA into our database."
+msgstr "تُستخدم ONA حاليا لجمع معلومات التهجين. ويتطلب ذلك تصدير خطة تهجين من هنا إلى خادم ONA. توجه خطة التهجين جمع معلومات التهجين، وتتم مزامنة هذه البيانات مع ONA باستخدام ODK. نشغّل من هنا برنامجا نصيا مرتين يوميا ينقل بيانات ONA إلى قاعدة بياناتنا."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:66
+msgctxt "odk.about.mobile"
+msgid "ODK is an application that allows mobile data collection using user defined forms on Android or IOS devices."
+msgstr "ODK تطبيق يتيح جمع البيانات عبر الأجهزة المحمولة باستخدام نماذج يحددها المستخدم على أجهزة Android أو IOS."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:66
+msgctxt "odk.about.partner"
+msgid "Currently we are working with %{service} as an ODK service."
+msgstr "نعمل حاليا مع %{service} بوصفه خدمة ODK."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:66
+msgctxt "odk.about.services"
+msgid "Many services have developed web interfaces to better streamline the ODK experience."
+msgstr "طورت خدمات عديدة واجهات ويب لتسهيل استخدام ODK."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:66
+msgctxt "odk.about.services_help"
+msgid "These services assist in creating forms, deploying forms to your mobile application, and visualizing data uploaded back from the mobile device."
+msgstr "تساعد هذه الخدمات في إنشاء النماذج ونشرها في تطبيقك المحمول وعرض البيانات المرفوعة من الجهاز المحمول."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:66
+msgctxt "odk.about.site"
+msgid "To find out more go to the %{site}."
+msgstr "لمعرفة المزيد، انتقل إلى %{site}."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:66
+msgctxt "odk.about.site_label"
+msgid "ODK site"
+msgstr "موقع ODK"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:66
+msgctxt "odk.about.sync"
+msgid "Data collected on the device can be instantaneously synched to the ODK server."
+msgstr "يمكن مزامنة البيانات المجمعة على الجهاز فورا مع خادم ODK."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:65
+msgctxt "odk.about.title"
+msgid "What is ODK?"
+msgstr "ما هو ODK؟"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:577
+msgctxt "odk.client.available_forms_error"
+msgid "Error retrieving available ODK crossing forms"
+msgstr "خطأ في جلب نماذج تهجين ODK المتاحة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:657
+msgctxt "odk.client.crossing_error"
+msgid "Error retrieving ODK crossing data."
+msgstr "خطأ في جلب بيانات تهجين ODK."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:634
+msgctxt "odk.client.phenotyping_error"
+msgid "Error retrieving ODK phenotyping data."
+msgstr "خطأ في جلب البيانات الظاهرية ODK."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:630
+msgctxt "odk.client.phenotyping_unavailable"
+msgid "Not currently working."
+msgstr "لا يعمل حاليا."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:569
+msgctxt "odk.client.saved_forms_error"
+msgid "Error retrieving saved ODK ONA forms"
+msgstr "خطأ في جلب نماذج ODK ONA المحفوظة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:679
+msgctxt "odk.client.schedule_error"
+msgid "Error scheduling import of ODK crossing data."
+msgstr "خطأ في جدولة استيراد بيانات تهجين ODK."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:537
+msgctxt "odk.client.summary_error"
+msgid "Error retrieving available ODK cross summary"
+msgstr "خطأ في جلب ملخص تهجين ODK المتاح"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:474
+msgctxt "odk.plot.active_eight_weeks"
+msgid "Active Seeds 8weeks"
+msgstr "بذور نشطة 8weeks"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:469
+msgctxt "odk.plot.active_two_weeks"
+msgid "Active Seeds 2weeks"
+msgstr "بذور نشطة 2weeks"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:493
+msgctxt "odk.plot.activity_date"
+msgid "Date of Activity"
+msgstr "تاريخ النشاط"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:437
+msgctxt "odk.plot.bad_seeds"
+msgid "Bad Seeds"
+msgstr "بذور رديئة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:459
+msgctxt "odk.plot.contamination"
+msgid "Contamination"
+msgstr "التلوث"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:439
+msgctxt "odk.plot.embryo_rescued"
+msgid "Embryo Rescued Seeds"
+msgstr "بذور إنقاذ الأجنة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:435
+msgctxt "odk.plot.good_seeds"
+msgid "Good Seeds"
+msgstr "بذور جيدة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:454
+msgctxt "odk.plot.hardening"
+msgid "Hardening"
+msgstr "الأقلمة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:444
+msgctxt "odk.plot.humidity_chamber"
+msgid "Screenhouse Humidity Chamber"
+msgstr "غرفة الرطوبة في البيت الشبكي"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:449
+msgctxt "odk.plot.rooting"
+msgid "Rooting"
+msgstr "التجذير"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:430
+msgctxt "odk.plot.seeds_extracted"
+msgid "Total Seeds Extracted"
+msgstr "إجمالي البذور المستخرجة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:464
+msgctxt "odk.plot.subcultures"
+msgid "Subcultures Count"
+msgstr "عدد المزارع الفرعية"
+
+#: lib/SGN/Controller/AJAX/ODK.pm:202
+msgctxt "odk.server.crossing_service_ona_only"
+msgid "Error: We only support ONA as an ODK crossing service for now."
+msgstr "خطأ: ندعم حاليا ONA فقط بوصفها خدمة ODK للتهجين."
+
+#: lib/SGN/Controller/AJAX/ODK.pm:86 lib/SGN/Controller/AJAX/ODK.pm:95
+msgctxt "odk.server.login_forms_required"
+msgid "You must be logged in to look at ONA forms!"
+msgstr "يجب تسجيل الدخول لعرض نماذج ONA!"
+
+#: lib/SGN/Controller/AJAX/ODK.pm:145 lib/SGN/Controller/AJAX/ODK.pm:154
+msgctxt "odk.server.login_import_required"
+msgid "You must be logged in to request ODK crossing data import!"
+msgstr "يجب تسجيل الدخول لطلب استيراد بيانات تهجين ODK!"
+
+#: lib/SGN/Controller/AJAX/ODK.pm:399 lib/SGN/Controller/AJAX/ODK.pm:408
+#: lib/SGN/Controller/AJAX/ODK.pm:470 lib/SGN/Controller/AJAX/ODK.pm:479
+msgctxt "odk.server.login_progress_required"
+msgid "You must be logged in to see ODK crossing data progress!"
+msgstr "يجب تسجيل الدخول لعرض تقدم بيانات تهجين ODK!"
+
+#: lib/SGN/Controller/AJAX/ODK.pm:531 lib/SGN/Controller/AJAX/ODK.pm:540
+msgctxt "odk.server.login_saved_forms_required"
+msgid "You must be logged in to see your saved odk ona forms!"
+msgstr "يجب تسجيل الدخول لعرض نماذج odk ona المحفوظة!"
+
+#: lib/SGN/Controller/AJAX/ODK.pm:307 lib/SGN/Controller/AJAX/ODK.pm:316
+msgctxt "odk.server.login_schedule_list_required"
+msgid "You must be logged in to see scheduled ODK crossing data import!"
+msgstr "يجب تسجيل الدخول لعرض الاستيراد المجدول لبيانات تهجين ODK!"
+
+#: lib/SGN/Controller/AJAX/ODK.pm:225 lib/SGN/Controller/AJAX/ODK.pm:234
+msgctxt "odk.server.login_schedule_required"
+msgid "You must be logged in to schedule ODK crossing data import!"
+msgstr "يجب تسجيل الدخول لجدولة استيراد بيانات تهجين ODK!"
+
+# Untranslated ODK wishlist login error; editorial translation pending.
+#: lib/SGN/Controller/AJAX/ODK.pm:354 lib/SGN/Controller/AJAX/ODK.pm:363
+msgctxt "odk.server.login_wishlists_required"
+msgid "You must be logged in to see ODK cross wishlists!"
+msgstr "يجب تسجيل الدخول لعرض قوائم رغبات تهجين ODK!"
+
+#: lib/SGN/Controller/AJAX/ODK.pm:63
+msgctxt "odk.server.phenotyping_service_smap_only"
+msgid "Error: We only support SMAP as an ODK phenotyping service for now."
+msgstr "خطأ: ندعم حاليا SMAP فقط بوصفها خدمة ODK لجمع البيانات الظاهرية."
+
+#: lib/SGN/Controller/AJAX/ODK.pm:212
+msgctxt "odk.server.scheduling_contact_required"
+msgid "Please use contact form. Currently this cannot be set through the website."
+msgstr "يرجى استخدام نموذج الاتصال. لا يمكن إعداد ذلك من خلال الموقع حاليا."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:515
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:518
+msgctxt "odk.status.accession_name"
+msgid "Accession Name: "
+msgstr "اسم العينة الوراثية: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:518
+msgctxt "odk.status.flowering"
+msgid "Flowering:"
+msgstr "الإزهار:"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:515
+msgctxt "odk.status.image"
+msgid "Image: "
+msgstr "الصورة: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:515
+msgctxt "odk.status.location"
+msgid "Status Location: "
+msgstr "موقع الحالة: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:515
+msgctxt "odk.status.note"
+msgid "Note: "
+msgstr "ملاحظة: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:518
+msgctxt "odk.status.plant_sex"
+msgid "Plant Sex: "
+msgstr "جنس النبات: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:515
+msgctxt "odk.status.status"
+msgid "Status:"
+msgstr "الحالة:"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:515
+msgctxt "odk.status.status_text"
+msgid "Status: "
+msgstr "الحالة: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:515
+msgctxt "odk.status.trial_name"
+msgid "Trial Name: "
+msgstr "اسم التجربة: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:515
+msgctxt "odk.status.user"
+msgid "User: "
+msgstr "المستخدم: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:407
+msgctxt "odk.table.cross_information"
+msgid "Cross Information"
+msgstr "معلومات التهجين"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:503
+msgctxt "odk.table.date"
+msgid "Date"
+msgstr "التاريخ"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:324
+msgctxt "odk.table.empty"
+msgid "No data available in table"
+msgstr "لا توجد بيانات في الجدول"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:327
+msgctxt "odk.table.filtered"
+msgid "(filtered from %{maximum} total entries)"
+msgstr "(مصفّى من إجمالي %{maximum} سجل)"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:334
+msgctxt "odk.table.first"
+msgid "First"
+msgstr "الأول"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:325
+msgctxt "odk.table.info"
+msgid "Showing %{start} to %{end} of %{total} entries"
+msgstr "عرض %{start} إلى %{end} من %{total} سجل"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:326
+msgctxt "odk.table.info_empty"
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "عرض 0 إلى 0 من 0 سجل"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:335
+msgctxt "odk.table.last"
+msgid "Last"
+msgstr "الأخير"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:328
+msgctxt "odk.table.length"
+msgid "Show %{menu} entries"
+msgstr "عرض %{menu} سجل"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:329
+msgctxt "odk.table.loading"
+msgid "Loading..."
+msgstr "جارٍ التحميل..."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:336
+msgctxt "odk.table.next"
+msgid "Next"
+msgstr "التالي"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:337
+msgctxt "odk.table.previous"
+msgid "Previous"
+msgstr "السابق"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:330
+msgctxt "odk.table.processing"
+msgid "Processing..."
+msgstr "جارٍ المعالجة..."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:331
+msgctxt "odk.table.search"
+msgid "Search:"
+msgstr "بحث:"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:407
+msgctxt "odk.table.seed_graphs"
+msgid "Seeds Produced Graphs"
+msgstr "رسوم البذور المنتجة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:340
+msgctxt "odk.table.sort_ascending"
+msgid ": activate to sort column ascending"
+msgstr ": فعّل لترتيب العمود تصاعديًا"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:341
+msgctxt "odk.table.sort_descending"
+msgid ": activate to sort column descending"
+msgstr ": فعّل لترتيب العمود تنازليًا"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:503
+msgctxt "odk.table.status"
+msgid "Status"
+msgstr "الحالة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:332
+msgctxt "odk.table.zero"
+msgid "No matching records found"
+msgstr "لم يُعثر على سجلات مطابقة"
+
+# Untranslated ODK tree presentation; editorial translation pending.
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:287
+msgctxt "odk.tree.cross_name"
+msgid "Cross Name: %{name}"
+msgstr "اسم التهجين: %{name}"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:263
+msgctxt "odk.tree.crossed_wishlist_entry"
+msgid "Crossed Wishlist Entry: %{entry}"
+msgstr "إدخال قائمة الرغبات الذي تم تهجينه: %{entry}"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:289
+msgctxt "odk.tree.no_crosses"
+msgid "No Crosses"
+msgstr "لا توجد تهجينات"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:291
+msgctxt "odk.tree.no_crosses_performed"
+msgid "No Crosses Performed"
+msgstr "لم تُنفذ تهجينات"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:257
+msgctxt "odk.tree.planned_parents"
+msgid "Planned Female Accession: %{female}. Planned Female Plot: %{plot}. Planned Male Accession(s): %{males}."
+msgstr "العينة الوراثية الأنثوية المخططة: %{female}. القطعة الأنثوية المخططة: %{plot}. العينات الوراثية الذكرية المخططة: %{males}."
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:281
+msgctxt "odk.tree.plot_status"
+msgid "STATUS = %{status}"
+msgstr "الحالة = %{status}"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:266
+msgctxt "odk.tree.possibly_crossed_wishlist_entry"
+msgid "Possibly Crossed Wishlist Entry: %{entry}: Cross Performed But Not On This Wishlist Female Plot"
+msgstr "إدخال قائمة رغبات ربما تم تهجينه: %{entry}: نُفذ التهجين ولكن ليس في القطعة الأنثوية لهذه القائمة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:260
+msgctxt "odk.tree.wishlist_entry_no_crosses"
+msgid "Wishlist Entry: %{entry} : No Crosses"
+msgstr "إدخال قائمة الرغبات: %{entry} : لا توجد تهجينات"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:271
+msgctxt "odk.tree.wishlist_female_accession"
+msgid "Wishlist Female Accession: %{name}"
+msgstr "العينة الوراثية الأنثوية في قائمة الرغبات: %{name}"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:274
+msgctxt "odk.tree.wishlist_female_plot"
+msgid "Wishlist Female Plot: %{name}"
+msgstr "القطعة الأنثوية في قائمة الرغبات: %{name}"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:285
+msgctxt "odk.tree.wishlist_male_accession"
+msgid "Wishlist Male Accession: %{name}"
+msgstr "العينة الوراثية الذكرية في قائمة الرغبات: %{name}"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:131
+msgctxt "odk.ui.confirm"
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:166
+msgctxt "odk.ui.cross_summary"
+msgid "Summary of Received Cross Data"
+msgstr "ملخص بيانات التهجين المستلمة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:80
+msgctxt "odk.ui.crossing_title"
+msgid "Crossing Data: ONA ODK Application"
+msgstr "بيانات التهجين: تطبيق ONA ODK"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:104
+msgctxt "odk.ui.import_crossing"
+msgid "Import Crossing Data from Selected Form on ONA"
+msgstr "استيراد بيانات التهجين من النموذج المحدد في ONA"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:211
+msgctxt "odk.ui.import_phenotyping"
+msgid "Import Phenotype Data from SMAP"
+msgstr "استيراد البيانات الظاهرية من SMAP"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:159
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:168
+msgctxt "odk.ui.loading_summary"
+msgid "[LOADING...]"
+msgstr "[جارٍ التحميل...]"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:188
+msgctxt "odk.ui.loading_tree"
+msgid "[loading...]"
+msgstr "[جارٍ التحميل...]"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:95
+msgctxt "odk.ui.management"
+msgid "Management"
+msgstr "الإدارة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:127
+msgctxt "odk.ui.none"
+msgid "None"
+msgstr "لا شيء"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:138
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:595
+msgctxt "odk.ui.not_set"
+msgid "Not Set"
+msgstr "غير محدد"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:123
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:600
+msgctxt "odk.ui.once_daily"
+msgid "Once per day at midnight"
+msgstr "مرة يوميا عند منتصف الليل"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:125
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:603
+msgctxt "odk.ui.once_hourly"
+msgid "Once per hour"
+msgstr "مرة كل ساعة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:126
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:597
+msgctxt "odk.ui.once_minute"
+msgid "Once per minute"
+msgstr "مرة كل دقيقة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:209
+msgctxt "odk.ui.phenotyping_title"
+msgid "Phenotype Data: SMAP ODK Application"
+msgstr "البيانات الظاهرية: تطبيق SMAP ODK"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:157
+msgctxt "odk.ui.plant_summary"
+msgid "Summary of Received Plant Status"
+msgstr "ملخص حالات النباتات المستلمة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:151
+msgctxt "odk.ui.progress"
+msgid "Progress"
+msgstr "التقدم"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:182
+msgctxt "odk.ui.progress_columns"
+msgid "All Cross Wishlist Entries-- Crosses Completed -- Lab Actions Completed"
+msgstr "جميع إدخالات قوائم رغبات التهجين-- التهجينات المكتملة -- الإجراءات المختبرية المكتملة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:177
+msgctxt "odk.ui.progress_tree"
+msgid "Progress Tree"
+msgstr "شجرة التقدم"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:120
+msgctxt "odk.ui.schedule_form"
+msgid "Schedule Import For Selected Form: "
+msgstr "جدولة الاستيراد للنموذج المحدد: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:135
+msgctxt "odk.ui.scheduled_time"
+msgid "Scheduled Time: "
+msgstr "الوقت المجدول: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:178
+msgctxt "odk.ui.search_tree"
+msgid "Search Across Tree"
+msgstr "البحث في الشجرة"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:86
+msgctxt "odk.ui.select_form"
+msgid "Select An ODK Form on ONA: "
+msgstr "حدد نموذج ODK في ONA: "
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:60
+msgctxt "odk.ui.title"
+msgid "Manage ODK Data Collection"
+msgstr "إدارة جمع بيانات ODK"
+
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:124
+#: mason/breeders_toolbox/manage_odk_data_collection.mas:606
+msgctxt "odk.ui.twice_daily"
+msgid "Twice daily at midnight and noon"
+msgstr "مرتين يوميا عند منتصف الليل والظهر"
+
+#: lib/SGN/Controller/AJAX/DataCollectorDownload.pm:65
+#: lib/SGN/Controller/AJAX/PhenotypesDownload.pm:83
+msgctxt "phenotype.server.the_requested_trial_value_does_not_have_plant"
+msgid "The requested trial (%{value}) does not have plant entries. Please create the plant entries first."
+msgstr "لا تحتوي التجربة المطلوبة (%{value}) على سجلات نباتات. أنشئ هذه السجلات أولًا."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:132
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:531
+msgctxt "phenotype_upload.datacollector_error.missing_block_number"
+msgid "No %{column} in header."
+msgstr "يفتقد العنوان %{column}."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:145
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:538
+msgctxt "phenotype_upload.datacollector_error.missing_control"
+msgid "No %{column} in header."
+msgstr "يفتقد العنوان %{column}."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:80
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:497
+msgctxt "phenotype_upload.datacollector_error.missing_header"
+msgid "Spreadsheet is missing %{column} and at least one trait in header."
+msgstr "يفتقد عنوان الجدول %{column} وصفة واحدة على الأقل."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:93
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:504
+msgctxt "phenotype_upload.datacollector_error.missing_plot_name"
+msgid "No %{column} in header."
+msgstr "يفتقد العنوان %{column}."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:119
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:524
+msgctxt "phenotype_upload.datacollector_error.missing_plot_number"
+msgid "No %{column} in header."
+msgstr "يفتقد العنوان %{column}."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:158
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:545
+msgctxt "phenotype_upload.datacollector_error.missing_rep_number"
+msgid "No %{column} in header."
+msgstr "يفتقد العنوان %{column}."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:106
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:517
+msgctxt "phenotype_upload.datacollector_error.missing_stock_name"
+msgid "No %{accession} or %{family} or %{cross} in header."
+msgstr "يفتقد العنوان %{accession} أو %{family} أو %{cross}."
+
+# Untranslated Data Collector diagnostics; editorial translation pending.
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:218
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:70
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:490
+msgctxt "phenotype_upload.datacollector_error.missing_tab"
+msgid "No %{number}th tab found in your Excel file."
+msgstr "لم يتم العثور على علامة التبويب رقم %{number} في ملف Excel الخاص بك."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:266
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:555
+msgctxt "phenotype_upload.datacollector_error.timestamp_format"
+msgid "Timestamp needs to be of form %{negative} or %{positive}"
+msgstr "يجب أن يكون الطابع الزمني بالتنسيق %{negative} أو %{positive}"
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/DataCollectorSpreadsheet.pm:276
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:559
+msgctxt "phenotype_upload.datacollector_error.value_timestamp_missing"
+msgid "Value or timestamp missing."
+msgstr "القيمة أو الطابع الزمني مفقود."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/FieldBook.pm:149
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/FieldBook.pm:262
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:453
+msgctxt "phenotype_upload.fieldbook_error.missing_trait_value"
+msgid "trait or value column not found. Make sure to use the database Fieldbook format."
+msgstr "لم يُعثر على عمود trait أو value. تأكد من استخدام تنسيق Fieldbook الخاص بقاعدة البيانات."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/FieldBook.pm:107
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:450
+msgctxt "phenotype_upload.fieldbook_error.no_header"
+msgid "File has no header row."
+msgstr "لا يحتوي الملف على صفّ للعناوين."
+
+#: lib/CXGN/Phenotypes/ParseUpload/Plugin/FieldBook.pm:96
+#: lib/SGN/Controller/AJAX/PhenotypesUpload.pm:447
+msgctxt "phenotype_upload.fieldbook_error.too_short"
+msgid "File has less than 2 lines."
+msgstr "عدد أسطر الملف أقل من 2."
+
+#: mason/breeders_toolbox/manage_upload.mas:85
+#: mason/breeders_toolbox/program/program_project_section.mas:15
+msgctxt "program.project_section.manage_plates"
+msgid "Go To Manage Genotyping Plates"
+msgstr "الانتقال إلى إدارة ألواح التنميط الجيني"
+
+#: mason/breeders_toolbox/manage_upload.mas:61
+#: mason/breeders_toolbox/program/program_project_section.mas:12
+msgctxt "program.project_section.manage_trials"
+msgid "Go To Manage Trials"
+msgstr "الانتقال إلى إدارة التجارب"
+
+#: mason/breeders_toolbox/trial/create_datacollector_dialog.mas:95
+#: mason/breeders_toolbox/trial/trial_plants.mas:213
+#: mason/breeders_toolbox/trial/trial_subplots.mas:212
+msgctxt "trial.card.error_prefix"
+msgid "Error: "
+msgstr "خطأ: "
+
+#: mason/breeders_toolbox/trial/create_datacollector_dialog.mas:73
+#: mason/breeders_toolbox/trial/create_spreadsheet_dialog.mas:185
+msgctxt "trial.spreadsheet.trait_list_required"
+msgid "You must select a Trait List first"
+msgstr "يجب تحديد قائمة صفات أولاً."

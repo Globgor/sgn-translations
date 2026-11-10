@@ -1,0 +1,210 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/uk.po
+# Translation of ISO 3166-1 to Ukrainian
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
+# SPDX-FileCopyrightText: 2010-2013, 2015, 2019, 2020, 2021, 2022, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/uk.po
+# Translation of ISO 3166-3 to Ukrainian
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
+# SPDX-FileCopyrightText: 2010-2013, 2015, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: uk\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: Українська\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-SGN-Direction: ltr\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+#: mason/brapiclient/authentication.mas:40
+#: mason/brapiclient/authentication.mas:55
+msgctxt "integrations.auth.error"
+msgid "An error occurred"
+msgstr "Сталася помилка"
+
+#: mason/brapiclient/authentication.mas:11
+msgctxt "integrations.auth.login_button"
+msgid "Login"
+msgstr "Увійти"
+
+#: mason/brapiclient/authentication.mas:8
+msgctxt "integrations.auth.login_heading"
+msgid "Login"
+msgstr "Вхід"
+
+#: mason/brapiclient/authentication.mas:36
+msgctxt "integrations.auth.login_success"
+msgid "Successfully logged in!"
+msgstr "Вхід виконано!"
+
+#: mason/brapiclient/authentication.mas:15
+msgctxt "integrations.auth.logout_button"
+msgid "Logout"
+msgstr "Вийти"
+
+#: mason/brapiclient/authentication.mas:14
+msgctxt "integrations.auth.logout_heading"
+msgid "Logout"
+msgstr "Вихід"
+
+#: mason/brapiclient/authentication.mas:51
+msgctxt "integrations.auth.logout_success"
+msgid "Successfully logged out!"
+msgstr "Вихід виконано!"
+
+#: mason/brapiclient/authentication.mas:10
+msgctxt "integrations.auth.password_placeholder"
+msgid "Password"
+msgstr "Пароль"
+
+#: mason/brapiclient/authentication.mas:9
+msgctxt "integrations.auth.username_placeholder"
+msgid "Your Username"
+msgstr "Ваше ім’я користувача"
+
+#: mason/brapi/authorize.mas:22
+msgctxt "integrations.consent.access_request"
+msgid " would like to access "
+msgstr " бажає отримати доступ до "
+
+#: mason/brapi/authorize.mas:23
+msgctxt "integrations.consent.authorize"
+msgid "Authorize Access"
+msgstr "Дозволити доступ"
+
+#: mason/brapi/authorize.mas:24
+msgctxt "integrations.consent.deny"
+msgid "Deny Access"
+msgstr "Відмовити в доступі"
+
+#: mason/brapi/authorize.mas:22
+msgctxt "integrations.consent.explanation"
+msgid " through your account. Use the buttons below to authorize or deny this request."
+msgstr " через ваш обліковий запис. Дозвольте або відхиліть цей запит кнопками нижче."
+
+#: mason/brapi/authorize.mas:21
+msgctxt "integrations.consent.hello"
+msgid "Hello "
+msgstr "Вітаємо, "
+
+#: mason/brapi/authorize.mas:9
+msgctxt "integrations.consent.title"
+msgid "BrAPI Client Authorization"
+msgstr "Авторизація клієнта BrAPI"
+
+#: mason/authenticate/oidc/error.mas:13
+msgctxt "integrations.oidc.callback_error"
+msgid "Received error in the callback params. "
+msgstr "Отримано помилку в параметрах відповіді сервісу входу. "
+
+#: mason/authenticate/oidc/error.mas:34
+msgctxt "integrations.oidc.client_id_missing"
+msgid " The client ID is not configured for '%{provider}'."
+msgstr " Ідентифікатор клієнта не налаштовано для '%{provider}'."
+
+#: mason/authenticate/oidc/error.mas:30
+msgctxt "integrations.oidc.configuration_url_missing"
+msgid "The well known url is not configured for '%{provider}'."
+msgstr "URL конфігурації не налаштовано для '%{provider}'."
+
+#: mason/authenticate/oidc/error.mas:46
+msgctxt "integrations.oidc.email_not_verified"
+msgid "Your email is not verified with the external provider. Please verify your email with %{provider} first."
+msgstr "Вашу електронну адресу не підтверджено в зовнішньому сервісі. Спочатку підтвердьте її в %{provider}."
+
+#: mason/authenticate/oidc/error.mas:54
+msgctxt "integrations.oidc.email_other_user"
+msgid "The provided email '%{email}' is associated with a different user '%{other_username}'. Please contact your system administrator for more help."
+msgstr "Електронна адреса '%{email}' пов’язана з іншим користувачем '%{other_username}'. Зверніться до адміністратора."
+
+#: mason/authenticate/oidc/error.mas:58
+msgctxt "integrations.oidc.email_user_missing"
+msgid "No system user was found with the email '%{email}'. If you have not yet registered for an account, please do so first. Otherwise, please contact your system administrator."
+msgstr "Користувача з електронною адресою '%{email}' не знайдено. Якщо ви ще не зареєструвалися, спочатку створіть обліковий запис. Інакше зверніться до адміністратора."
+
+#: mason/authenticate/oidc/error.mas:16
+msgctxt "integrations.oidc.fetch_certificate"
+msgid "Failed to fetch provider's certificate. "
+msgstr "Не вдалося отримати сертифікат сервісу входу. "
+
+#: mason/authenticate/oidc/error.mas:10
+msgctxt "integrations.oidc.fetch_configuration"
+msgid "Failed to fetch well known url. "
+msgstr "Не вдалося отримати конфігурацію сервісу входу. "
+
+#: mason/authenticate/oidc/error.mas:19
+msgctxt "integrations.oidc.fetch_token"
+msgid "Failed to fetch access token. "
+msgstr "Не вдалося отримати токен доступу. "
+
+#: mason/authenticate/oidc/error.mas:22
+msgctxt "integrations.oidc.fetch_userinfo"
+msgid "Failed to fetch  userinfo. "
+msgstr "Не вдалося отримати відомості про користувача. "
+
+#: mason/authenticate/oidc/error.mas:62
+msgctxt "integrations.oidc.mirror_site"
+msgid "This site is a mirror site and does not support adding users. Please go to the main site to create an account."
+msgstr "Це дзеркальний сайт, на якому не можна додавати користувачів. Щоб створити обліковий запис, перейдіть на основний сайт."
+
+#: mason/authenticate/oidc/error.mas:50
+msgctxt "integrations.oidc.multiple_email_users"
+msgid "Multiple users were found to have the email: '%{email}'. Please contact your system administrator for more help."
+msgstr "Знайдено кількох користувачів з електронною адресою '%{email}'. Зверніться до адміністратора."
+
+#: mason/authenticate/oidc/error.mas:26
+msgctxt "integrations.oidc.provider_not_configured"
+msgid "The provider '%{provider}' is not configured for this instance."
+msgstr "Сервіс входу '%{provider}' не налаштовано для цього сайту."
+
+#: mason/authenticate/oidc/error.mas:42
+msgctxt "integrations.oidc.state_mismatch"
+msgid "The state returned by the provider does not match the initiating state. Please try to login again, or contact your system administrator for more help."
+msgstr "Стан входу, повернутий сервісом, не збігається з початковим. Спробуйте увійти ще раз або зверніться до адміністратора."
+
+#: mason/authenticate/oidc/error.mas:38
+msgctxt "integrations.oidc.state_verifier_missing"
+msgid "The state verifier could not be found. Please try to login again, or contact your system administrator."
+msgstr "Не знайдено код перевірки стану входу. Спробуйте увійти ще раз або зверніться до адміністратора."
+
+#: mason/authenticate/oidc/error.mas:66
+msgctxt "integrations.oidc.username_short"
+msgid "The username '%{username}' is too short. Username must be 7 or more characters."
+msgstr "Ім’я користувача '%{username}' закоротке. Воно має містити щонайменше 7 символів."
+
+#: mason/authenticate/oidc/error.mas:70
+msgctxt "integrations.oidc.username_spaces"
+msgid "The username '%{username}' contains spaces."
+msgstr "Ім’я користувача '%{username}' містить пробіли."
+
+#: mason/brapiclient/home.mas:28
+msgctxt "integrations.settings.calls_panel"
+msgid "Calls Testing"
+msgstr "Перевірка викликів"
+
+#: mason/brapiclient/home.mas:34
+msgctxt "integrations.settings.local"
+msgid "local"
+msgstr "локальний"
+
+#: mason/brapiclient/home.mas:32
+msgctxt "integrations.settings.url_select"
+msgid "URL Select"
+msgstr "Вибір URL"

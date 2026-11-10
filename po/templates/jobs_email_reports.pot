@@ -1,0 +1,27 @@
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mason/reports/overview.mas:7
+msgctxt "jobs.interface.database_overview_report"
+msgid "Database Overview Report"
+msgstr ""
+
+#: mason/reports/index.mas:11
+msgctxt "jobs.interface.overview"
+msgid "Overview"
+msgstr ""
+
+#: mason/reports/index.mas:8
+msgctxt "jobs.interface.reports"
+msgid "Reports"
+msgstr ""
+
+#: mason/reports/overview.mas:15
+msgctxt "jobs.interface.total_count"
+msgid "Total Count"
+msgstr ""

@@ -1,0 +1,3181 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/uk.po
+# Translation of ISO 3166-1 to Ukrainian
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
+# SPDX-FileCopyrightText: 2010-2013, 2015, 2019, 2020, 2021, 2022, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/uk.po
+# Translation of ISO 3166-3 to Ukrainian
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
+# SPDX-FileCopyrightText: 2010-2013, 2015, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: uk\n"
+"Language: uk\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: Українська\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+"X-SGN-Direction: ltr\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+#: lib/CXGN/File/Parse/Plugin/Plain.pm:84
+#: lib/CXGN/File/Parse/Plugin/Spreadsheet.pm:68
+msgctxt "file.parse.duplicate_header"
+msgid "The column header %{header} was duplicated in column %{column} of your file and should only be included once."
+msgstr "Заголовок %{header} повторюється в стовпці %{column} файлу й має бути вказаний лише один раз."
+
+#: lib/CXGN/File/Parse.pm:470
+msgctxt "file.parse.duplicate_value"
+msgid "Column %{column} requires unique values, but %{value} appears more than once in rows %{rows}"
+msgstr "Стовпець %{column} вимагає унікальних значень, але %{value} повторюється в рядках %{rows}"
+
+#: lib/CXGN/File/Parse.pm:389
+msgctxt "file.parse.empty"
+msgid "The file has no data"
+msgstr "Файл не містить даних"
+
+#: lib/CXGN/File/Parse.pm:345
+msgctxt "file.parse.missing"
+msgid "The file %{file} does not exist"
+msgstr "Файл %{file} не існує"
+
+#: lib/CXGN/File/Parse.pm:486
+msgctxt "file.parse.no_plugin"
+msgid "No appropriate file parsing plugin for file: %{file}, type: %{type}"
+msgstr "Немає відповідного модуля розбору файлу: %{file}, тип: %{type}"
+
+#: lib/CXGN/File/Parse/Plugin/Plain.pm:62
+msgctxt "file.parse.open_failed"
+msgid "Could not read file: %{detail}"
+msgstr "Не вдалося прочитати файл: %{detail}"
+
+#: lib/CXGN/File/Parse/Plugin/Plain.pm:45
+msgctxt "file.parse.plain_type"
+msgid "Invalid type %{type} for plain parse plugin"
+msgstr "Неприпустимий тип %{type} для модуля розбору текстових файлів"
+
+#: lib/CXGN/File/Parse.pm:366
+msgctxt "file.parse.read_failed"
+msgid "Encountered error while reading and parsing file: %{detail}"
+msgstr "Сталася помилка читання та розбору файлу: %{detail}"
+
+#: lib/CXGN/File/Parse.pm:399
+msgctxt "file.parse.required_column"
+msgid "Required column %{column} is missing"
+msgstr "Відсутній обов’язковий стовпець %{column}"
+
+#: lib/CXGN/File/Parse.pm:431
+msgctxt "file.parse.required_value"
+msgid "Required column %{column} does not have a value in row %{row}"
+msgstr "Обов’язковий стовпець %{column} не містить значення в рядку %{row}"
+
+#: lib/CXGN/File/Parse/Plugin/Spreadsheet.pm:40
+msgctxt "file.parse.spreadsheet_type"
+msgid "Invalid type %{type} for spreadsheet parse plugin"
+msgstr "Неприпустимий тип %{type} для модуля розбору електронних таблиць"
+
+#: mason/breeders_toolbox/file_list.mas:22
+msgctxt "file_list.action.delete"
+msgid "Delete"
+msgstr "Видалити"
+
+#: mason/breeders_toolbox/file_list.mas:24
+msgctxt "file_list.action.download"
+msgid "Download"
+msgstr "Завантажити"
+
+#: mason/breeders_toolbox/file_list.mas:106
+msgctxt "file_list.datatable.aria_ascending"
+msgid ": activate to sort column ascending"
+msgstr ": активуйте для сортування стовпця за зростанням"
+
+#: mason/breeders_toolbox/file_list.mas:107
+msgctxt "file_list.datatable.aria_descending"
+msgid ": activate to sort column descending"
+msgstr ": активуйте для сортування стовпця за спаданням"
+
+#: mason/breeders_toolbox/file_list.mas:90
+msgctxt "file_list.datatable.empty"
+msgid "No data available in table"
+msgstr "У таблиці немає даних"
+
+#: mason/breeders_toolbox/file_list.mas:100
+msgctxt "file_list.datatable.first"
+msgid "First"
+msgstr "Перша"
+
+#: mason/breeders_toolbox/file_list.mas:91
+msgctxt "file_list.datatable.info"
+msgid "Showing %{start} to %{end} of %{total} entries"
+msgstr "Показано від %{start} до %{end} із %{total} записів"
+
+#: mason/breeders_toolbox/file_list.mas:92
+msgctxt "file_list.datatable.info_empty"
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Показано від 0 до 0 із 0 записів"
+
+#: mason/breeders_toolbox/file_list.mas:93
+msgctxt "file_list.datatable.info_filtered"
+msgid "(filtered from %{max} total entries)"
+msgstr "(відфільтровано з %{max} записів)"
+
+#: mason/breeders_toolbox/file_list.mas:101
+msgctxt "file_list.datatable.last"
+msgid "Last"
+msgstr "Остання"
+
+#: mason/breeders_toolbox/file_list.mas:94
+msgctxt "file_list.datatable.length_menu"
+msgid "Show %{menu} entries"
+msgstr "Показувати %{menu} записів"
+
+#: mason/breeders_toolbox/file_list.mas:95
+msgctxt "file_list.datatable.loading"
+msgid "Loading..."
+msgstr "Завантаження..."
+
+#: mason/breeders_toolbox/file_list.mas:102
+msgctxt "file_list.datatable.next"
+msgid "Next"
+msgstr "Наступна"
+
+#: mason/breeders_toolbox/file_list.mas:103
+msgctxt "file_list.datatable.previous"
+msgid "Previous"
+msgstr "Попередня"
+
+#: mason/breeders_toolbox/file_list.mas:96
+msgctxt "file_list.datatable.processing"
+msgid "Processing..."
+msgstr "Обробка..."
+
+#: mason/breeders_toolbox/file_list.mas:97
+msgctxt "file_list.datatable.search"
+msgid "Search:"
+msgstr "Пошук:"
+
+#: mason/breeders_toolbox/file_list.mas:98
+msgctxt "file_list.datatable.zero"
+msgid "No matching records found"
+msgstr "Відповідних записів не знайдено"
+
+#: mason/breeders_toolbox/file_list.mas:13
+msgctxt "file_list.header.date_uploaded"
+msgid "Date Uploaded"
+msgstr "Дата завантаження"
+
+#: mason/breeders_toolbox/file_list.mas:13
+msgctxt "file_list.header.filename"
+msgid "Filename"
+msgstr "Назва файлу"
+
+#: mason/breeders_toolbox/file_list.mas:13
+msgctxt "file_list.header.options"
+msgid "Options"
+msgstr "Дії"
+
+# Model-draft accessible file/worksheet region labels; editorial review pending.
+#: mason/breeders_toolbox/file_list.mas:48
+msgctxt "file_list.ui.scroll_region"
+msgid "File table"
+msgstr "Таблиця файлів"
+
+#: mason/breeders_toolbox/view_file.mas:57
+msgctxt "file_viewer.ui.contents"
+msgid "File Contents"
+msgstr "Вміст файлу"
+
+#: mason/breeders_toolbox/view_file.mas:35
+msgctxt "file_viewer.ui.filename"
+msgid "Filename"
+msgstr "Назва файлу"
+
+#: mason/breeders_toolbox/view_file.mas:29
+#: mason/breeders_toolbox/view_file.mas:32
+msgctxt "file_viewer.ui.info"
+msgid "File Info"
+msgstr "Відомості про файл"
+
+#: mason/breeders_toolbox/view_file.mas:38
+msgctxt "file_viewer.ui.parser"
+msgid "Parser"
+msgstr "Парсер"
+
+#: mason/breeders_toolbox/view_file.mas:94
+msgctxt "file_viewer.ui.sheet_region"
+msgid "Worksheet data"
+msgstr "Дані аркуша"
+
+#: mason/breeders_toolbox/view_file.mas:37
+msgctxt "file_viewer.ui.sheets"
+msgid "Number of Sheets"
+msgstr "Кількість аркушів"
+
+# Model-draft file viewer and table controls; human editorial review pending.
+#: mason/breeders_toolbox/view_file.mas:23
+msgctxt "file_viewer.ui.title"
+msgid "File Viewer"
+msgstr "Перегляд файлів"
+
+#: cgi-bin/bulk/display.pl:214
+msgctxt "global.bulk.display.line"
+msgid "line"
+msgstr "рядок"
+
+#: cgi-bin/bulk/display.pl:616
+msgctxt "global.bulk.display.new_search"
+msgid "New Search"
+msgstr "Новий пошук"
+
+#: cgi-bin/bulk/display.pl:178
+msgctxt "global.bulk.display.no_data"
+msgid "No data was retrieved. Please verify your input parameters. Thanks.<br /><br />"
+msgstr "Дані не отримано. Перевірте параметри введення. Дякуємо.<br /><br />"
+
+#: cgi-bin/bulk/display.pl:514 cgi-bin/search/markers/markersearch.pl:243
+msgctxt "global.bulk.display.of"
+msgid "of"
+msgstr "з"
+
+#: cgi-bin/bulk/display.pl:513
+msgctxt "global.bulk.display.page"
+msgid "Page"
+msgstr "Сторінка"
+
+#: cgi-bin/bulk/display.pl:61
+msgctxt "global.bulk.display.page_title"
+msgid "Browse Bulk Results"
+msgstr "Перегляд результатів масового завантаження"
+
+#: cgi-bin/bulk/display.pl:159
+msgctxt "global.bulk.display.results_title"
+msgid "Bulk download results"
+msgstr "Результати масового завантаження"
+
+#: cgi-bin/bulk/index.pl:10
+msgctxt "global.bulk.index.description"
+msgid "Download information for a list of identifiers, or for complete datasets with FTP."
+msgstr "Завантажте інформацію для списку ідентифікаторів або повні набори даних через FTP."
+
+#: cgi-bin/bulk/index.pl:11
+msgctxt "global.bulk.index.heading"
+msgid "SGN Bulk"
+msgstr "Масове завантаження SGN"
+
+#: cgi-bin/bulk/input.pl:776
+msgctxt "global.bulk.input.bac_end_search.arizona"
+msgid "Arizona-style clone name"
+msgstr "назва клону у форматі Arizona"
+
+#: cgi-bin/bulk/input.pl:778
+msgctxt "global.bulk.input.bac_end_search.chromosome"
+msgid "Clone name with chromosome"
+msgstr "назва клону з хромосомою"
+
+#: cgi-bin/bulk/input.pl:777
+msgctxt "global.bulk.input.bac_end_search.cornell"
+msgid "Old Cornell-style clone name"
+msgstr "стара назва клону у форматі Cornell"
+
+#: cgi-bin/bulk/input.pl:675
+msgctxt "global.bulk.input.bac_search.arizona"
+msgid "Arizona-style clone name"
+msgstr "назва клону у форматі Arizona"
+
+#: cgi-bin/bulk/input.pl:677
+msgctxt "global.bulk.input.bac_search.chromosome"
+msgid "Clone name with chromosome"
+msgstr "назва клону з хромосомою"
+
+#: cgi-bin/bulk/input.pl:676
+msgctxt "global.bulk.input.bac_search.cornell"
+msgid "Old Cornell-style clone name"
+msgstr "стара назва клону у форматі Cornell"
+
+#: cgi-bin/bulk/input.pl:528
+msgctxt "global.bulk.input.convert_button"
+msgid "Convert"
+msgstr "Перетворити"
+
+#: cgi-bin/bulk/input.pl:400
+msgctxt "global.bulk.input.convert_title"
+msgid "Check this box to convert each unigene in the list to its equivalent in the most current corresponding unigene build(s), if available"
+msgstr "Позначте цей пункт, щоб перетворити кожен уніген зі списку на відповідник у найновішій відповідній збірці унігенів, якщо він доступний"
+
+#: cgi-bin/bulk/input.pl:40
+msgctxt "global.bulk.input.email_us"
+msgid "email us"
+msgstr "напишіть нам"
+
+#: cgi-bin/bulk/input.pl:881
+msgctxt "global.bulk.input.ftp_access"
+msgid "The SGN FTP site can also be accessed directly through %{ftp_link} using a browser or ftp program."
+msgstr "До FTP-сайту SGN також можна перейти безпосередньо через %{ftp_link} за допомогою браузера або FTP-клієнта."
+
+#: cgi-bin/bulk/input.pl:922
+msgctxt "global.bulk.input.ftp_blast_annotations"
+msgid "Highest-ranked hits vs. Genbank NR and Arabidopsis for all SGN unigenes."
+msgstr "Найрейтинговіші збіги з Genbank NR та Arabidopsis для всіх унігенів SGN."
+
+#: cgi-bin/bulk/input.pl:925
+msgctxt "global.bulk.input.ftp_cosii"
+msgid "COSII marker data"
+msgstr "Дані маркерів COSII"
+
+#: cgi-bin/bulk/input.pl:919
+msgctxt "global.bulk.input.ftp_est_sequences"
+msgid "Sequence and quality files for all SGN ESTs, organized by library"
+msgstr "Файли послідовностей і значень якості для всіх EST SGN, упорядковані за бібліотеками"
+
+#: cgi-bin/bulk/input.pl:879
+msgctxt "global.bulk.input.ftp_intro"
+msgid "Download complete datasets."
+msgstr "Завантажте повні набори даних."
+
+#: cgi-bin/bulk/input.pl:923
+msgctxt "global.bulk.input.ftp_manual_annotations"
+msgid "Manual annotations for a number of SGN unigenes"
+msgstr "Анотації вручну для низки унігенів SGN"
+
+#: cgi-bin/bulk/input.pl:920
+msgctxt "global.bulk.input.ftp_maps_and_markers"
+msgid "Marker sequences and marker position lists for all SGN maps"
+msgstr "Послідовності маркерів і списки позицій маркерів для всіх карт SGN"
+
+#: cgi-bin/bulk/input.pl:921
+msgctxt "global.bulk.input.ftp_physical_mapping"
+msgid "Raw data files for Tomato HindIII BAC library FPC and overgo analyses"
+msgstr "Файли необроблених даних для бібліотеки BAC Tomato HindIII, FPC та аналізів overgo"
+
+#: cgi-bin/bulk/input.pl:878
+msgctxt "global.bulk.input.ftp_title"
+msgid "SGN FTP site"
+msgstr "FTP-сайт SGN"
+
+#: cgi-bin/bulk/input.pl:924
+msgctxt "global.bulk.input.ftp_tomato_genome"
+msgid "Tomato genomic data, including BAC end and full BAC sequences"
+msgstr "Геномні дані Tomato, зокрема кінцеві фрагменти BAC і повні послідовності BAC"
+
+#: cgi-bin/bulk/input.pl:880
+msgctxt "global.bulk.input.ftp_top"
+msgid "ftp top level"
+msgstr "кореневий каталог FTP"
+
+#: cgi-bin/bulk/input.pl:918
+msgctxt "global.bulk.input.ftp_unigene_builds"
+msgid "Sequence, quality, and membership information for all SGN unigene builds"
+msgstr "Послідовності, значення якості та відомості про членство для всіх збірок унігенів SGN"
+
+#: cgi-bin/bulk/input.pl:927
+msgctxt "global.bulk.input.ftp_user_requests"
+msgid "Custom-generated datasets for individual users (mail special requests to %{email})"
+msgstr "Набори даних, створені на замовлення окремих користувачів (для спеціальних запитів напишіть на %{email})"
+
+#: cgi-bin/bulk/input.pl:38
+msgctxt "global.bulk.input.intro"
+msgid "Download Unigene or BAC information using a list of identifiers, or complete datasets with FTP."
+msgstr "Завантажте інформацію про Unigene або BAC за списком ідентифікаторів чи повні набори даних через FTP."
+
+#: cgi-bin/bulk/input.pl:42
+msgctxt "global.bulk.input.limit_note"
+msgid "The SGN bulk download is limited to 10,000 identifiers per request.  If you need more, please either split your query into multiple parts, download a full dataset from the FTP site, or %{email_link} and we will be happy to generate a custom dataset for you."
+msgstr "Масове завантаження SGN обмежене 10,000 ідентифікаторами на запит.  Якщо потрібно більше, розділіть запит на кілька частин, завантажте повний набір даних із FTP-сайту або %{email_link} — ми із задоволенням підготуємо для вас спеціальний набір даних."
+
+#: cgi-bin/bulk/input.pl:39 cgi-bin/bulk/input.pl:877
+#: cgi-bin/markers/cos_markers.pl:56
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:1003
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:988
+#: mason/tools/label_designer/index.mas:7
+#: mason/transformation/obsolete_accessions_dialog.mas:32
+msgctxt "global.bulk.input.note_label"
+msgid "Note:"
+msgstr "Примітка:"
+
+#: cgi-bin/bulk/input.pl:595
+msgctxt "global.bulk.input.output_text"
+msgid "text"
+msgstr "текст"
+
+#: cgi-bin/bulk/input.pl:594
+msgctxt "global.bulk.input.output_type"
+msgid "Output type:"
+msgstr "Тип виводу:"
+
+#: cgi-bin/bulk/input.pl:282 cgi-bin/bulk/input.pl:37
+msgctxt "global.bulk.input.page_title"
+msgid "Bulk download"
+msgstr "Масове завантаження"
+
+#: cgi-bin/bulk/input.pl:198 cgi-bin/bulk/input.pl:281
+#: cgi-bin/bulk/input.pl:405 cgi-bin/bulk/input.pl:532
+#: cgi-bin/bulk/input.pl:683 cgi-bin/bulk/input.pl:790
+msgctxt "global.bulk.input.print_debug"
+msgid "print debug statements"
+msgstr "виводити діагностичні повідомлення"
+
+#: cgi-bin/bulk/input.pl:60
+msgctxt "global.bulk.input.tab_array"
+msgid "Array spot ID"
+msgstr "Ідентифікатор точки мікроматриці"
+
+#: cgi-bin/bulk/input.pl:58
+msgctxt "global.bulk.input.tab_clone"
+msgid "Clone name"
+msgstr "Назва клону"
+
+#: cgi-bin/bulk/input.pl:66
+msgctxt "global.bulk.input.tab_convert"
+msgid "Unigene ID Converter"
+msgstr "Перетворення ідентифікаторів Unigene"
+
+#: cgi-bin/bulk/input.pl:64
+msgctxt "global.bulk.input.tab_full"
+msgid "Full datasets"
+msgstr "Повні набори даних"
+
+#: cgi-bin/bulk/input.pl:62
+msgctxt "global.bulk.input.tab_unigene"
+msgid "Unigene ID"
+msgstr "Ідентифікатор Unigene"
+
+#: mason/dataset/publish.mas:113
+msgctxt "global.dataset_publish.account_login"
+msgid "Make sure you have an account and are logged in to %{service}"
+msgstr "Переконайтеся, що ви маєте обліковий запис і ввійшли до %{service}"
+
+#: mason/dataset/publish.mas:698
+msgctxt "global.dataset_publish.action.edit_on"
+msgid "Edit on %{service}"
+msgstr "Редагувати у %{service}"
+
+#: mason/dataset/publish.mas:699
+msgctxt "global.dataset_publish.action.publish"
+msgid "Publish"
+msgstr "Опублікувати"
+
+#: mason/dataset/publish.mas:700
+msgctxt "global.dataset_publish.action.reserve_doi"
+msgid "Reserve DOI"
+msgstr "Зарезервувати DOI"
+
+#: mason/dataset/publish.mas:557
+msgctxt "global.dataset_publish.add_files_to_dataset"
+msgid "Add files to selected dataset"
+msgstr "Додати файли до вибраного набору даних"
+
+#: mason/dataset/publish.mas:147
+msgctxt "global.dataset_publish.additional_authors"
+msgid "Additional Authors (one per line):"
+msgstr "Додаткові автори (по одному в рядку):"
+
+#: mason/dataset/publish.mas:724
+msgctxt "global.dataset_publish.analyzing"
+msgid "Analyzing Dataset..."
+msgstr "Аналіз набору даних..."
+
+#: mason/dataset/publish.mas:222 mason/dataset/publish.mas:279
+msgctxt "global.dataset_publish.authors"
+msgid "Authors:"
+msgstr "Автори:"
+
+#: mason/dataset/publish.mas:148
+msgctxt "global.dataset_publish.auto_author"
+msgid "You will automatically be added as an Author"
+msgstr "Вас буде автоматично додано як автора"
+
+#: mason/dataset/publish.mas:1176
+msgctxt "global.dataset_publish.confirm.doi_generated"
+msgid "A DOI has been generated for this dataset on %{service}"
+msgstr "Для цього набору даних у %{service} створено DOI"
+
+#: mason/dataset/publish.mas:1132
+msgctxt "global.dataset_publish.confirm.publish"
+msgid "Are you sure you want to publish this dataset now? This cannot be undone."
+msgstr "Опублікувати цей набір даних зараз? Цю дію не можна скасувати."
+
+#: mason/dataset/publish.mas:1143
+msgctxt "global.dataset_publish.confirm.published"
+msgid "The dataset has been published and is now publicly available on %{service}"
+msgstr "Набір даних опубліковано й тепер він загальнодоступний у %{service}"
+
+#: mason/dataset/publish.mas:890
+msgctxt "global.dataset_publish.confirm.remove"
+msgid "Are you sure you want to unlink this published metadata from the dataset?  This will remove the archived data on this server and the connection between the dataset and the external service.  This will NOT remove anything from the external service."
+msgstr "Від’єднати опубліковані метадані від набору даних? Архівні дані на цьому сервері та зв’язок між набором даних і зовнішньою службою буде видалено. Дані у зовнішній службі НЕ буде видалено."
+
+#: mason/dataset/publish.mas:1165
+msgctxt "global.dataset_publish.confirm.reserve_doi"
+msgid "Are you sure you want to reserve a DOI now?  If the external dataset is still private, the DOI will become active once it is published.  Once a DOI is active, it cannot be disabled."
+msgstr "Зарезервувати DOI зараз? Якщо зовнішній набір даних приватний, DOI стане активним після його публікації. Активний DOI не можна вимкнути."
+
+#: mason/dataset/publish.mas:917
+msgctxt "global.dataset_publish.confirm.upload"
+msgid "Are you sure you want to upload the files to %{service} now?"
+msgstr "Завантажити файли до %{service} зараз?"
+
+#: mason/dataset/publish.mas:197
+msgctxt "global.dataset_publish.confirm_all_correct"
+msgid "Make sure everything is correct before publishing!"
+msgstr "Перед публікацією переконайтеся, що все правильно!"
+
+#: mason/dataset/publish.mas:121 mason/dataset/publish.mas:206
+#: mason/dataset/publish.mas:263
+msgctxt "global.dataset_publish.connect_accounts"
+msgid "Connect Accounts"
+msgstr "Підключити облікові записи"
+
+#: mason/dataset/publish.mas:125 mason/dataset/publish.mas:210
+#: mason/dataset/publish.mas:267
+msgctxt "global.dataset_publish.connected_account"
+msgid "You are connected to this %{service} account:"
+msgstr "Ви підключені до цього облікового запису %{service}:"
+
+#: mason/dataset/publish.mas:777
+msgctxt "global.dataset_publish.could_not_generate"
+msgid "Could not generate file"
+msgstr "Не вдалося створити файл"
+
+#: mason/dataset/publish.mas:571
+msgctxt "global.dataset_publish.create_dataset_and_add_files"
+msgid "Create new dataset and add files"
+msgstr "Створити набір даних і додати файли"
+
+#: mason/dataset/publish.mas:533
+msgctxt "global.dataset_publish.create_new_dataset"
+msgid "Create a new %{service} dataset"
+msgstr "Створити новий набір даних у %{service}"
+
+#: mason/dataset/publish.mas:135
+msgctxt "global.dataset_publish.create_new_dataset_prompt"
+msgid "Create a new dataset"
+msgstr "Створити новий набір даних"
+
+#: mason/dataset/publish.mas:774
+msgctxt "global.dataset_publish.created_file"
+msgid "Created archived file: %{file}"
+msgstr "Створено архівний файл: %{file}"
+
+#: mason/dataset/publish.mas:934
+msgctxt "global.dataset_publish.creating_dataset"
+msgid "Creating new dataset: %{title}"
+msgstr "Створення нового набору даних: %{title}"
+
+#: mason/dataset/publish.mas:30
+msgctxt "global.dataset_publish.date_published"
+msgid "Date Published"
+msgstr "Дата публікації"
+
+#: mason/dataset/publish.mas:129 mason/dataset/publish.mas:214
+#: mason/dataset/publish.mas:271
+msgctxt "global.dataset_publish.disconnect_accounts"
+msgid "Disconnect Accounts"
+msgstr "Від’єднати облікові записи"
+
+#: mason/dataset/publish.mas:254
+msgctxt "global.dataset_publish.doi_private_warning"
+msgid "This dataset on %{service} is still private. The generated DOI will become active once the dataset is published and made public."
+msgstr "Цей набір даних на %{service} ще приватний. Створений DOI стане активним після публікації набору даних і надання загальнодоступності."
+
+#: mason/dataset/publish.mas:127 mason/dataset/publish.mas:212
+#: mason/dataset/publish.mas:269
+msgctxt "global.dataset_publish.email"
+msgid "Email:"
+msgstr "Електронна пошта:"
+
+#: mason/dataset/publish.mas:593
+msgctxt "global.dataset_publish.error.article_details"
+msgid "Could not get article details"
+msgstr "Не вдалося отримати відомості про статтю"
+
+#: mason/dataset/publish.mas:586
+msgctxt "global.dataset_publish.error.article_details_detail"
+msgid "Could not get article details [%{error}]"
+msgstr "Не вдалося отримати відомості про статтю [%{error}]"
+
+#: mason/dataset/publish.mas:996
+msgctxt "global.dataset_publish.error.article_required"
+msgid "Please provide a name for the new dataset"
+msgstr "Укажіть назву нового набору даних"
+
+#: mason/dataset/publish.mas:523
+msgctxt "global.dataset_publish.error.articles"
+msgid "Could not get account articles"
+msgstr "Не вдалося отримати статті облікового запису"
+
+#: mason/dataset/publish.mas:408
+msgctxt "global.dataset_publish.error.connection"
+msgid "Could not update connection info"
+msgstr "Не вдалося оновити дані підключення"
+
+#: mason/dataset/publish.mas:400
+msgctxt "global.dataset_publish.error.connection_detail"
+msgid "Could not update connection info [%{error}]"
+msgstr "Не вдалося оновити дані підключення [%{error}]"
+
+#: mason/dataset/publish.mas:1018
+msgctxt "global.dataset_publish.error.create_article"
+msgid "Could not create new article"
+msgstr "Не вдалося створити нову статтю"
+
+#: mason/dataset/publish.mas:1011
+msgctxt "global.dataset_publish.error.create_article_detail"
+msgid "Could not create new article [%{error}]"
+msgstr "Не вдалося створити статтю [%{error}]"
+
+#: mason/dataset/publish.mas:997
+msgctxt "global.dataset_publish.error.description_required"
+msgid "Please provide a description for the new dataset"
+msgstr "Укажіть опис нового набору даних"
+
+#: mason/dataset/publish.mas:1117
+msgctxt "global.dataset_publish.error.finalize"
+msgid "Could not finalize file: %{type}"
+msgstr "Не вдалося завершити файл: %{type}"
+
+#: mason/dataset/publish.mas:1110
+msgctxt "global.dataset_publish.error.finalize_detail"
+msgid "Could not finalize file: %{type} [%{error}]"
+msgstr "Не вдалося завершити файл: %{type} [%{error}]"
+
+#: mason/dataset/publish.mas:808
+msgctxt "global.dataset_publish.error.generate_detail"
+msgid "Could not generate %{type} file [%{error}]"
+msgstr "Не вдалося створити файл %{type} [%{error}]"
+
+#: mason/dataset/publish.mas:815
+msgctxt "global.dataset_publish.error.generate_type"
+msgid "Could not generate %{type} file"
+msgstr "Не вдалося створити файл %{type}"
+
+#: mason/dataset/publish.mas:739
+msgctxt "global.dataset_publish.error.init"
+msgid "Could not initialize dataset archive files"
+msgstr "Не вдалося ініціалізувати архівні файли набору даних"
+
+#: mason/dataset/publish.mas:731
+msgctxt "global.dataset_publish.error.init_detail"
+msgid "Could not initialize dataset archive files [%{error}]"
+msgstr "Не вдалося ініціалізувати архівні файли набору даних [%{error}]"
+
+#: mason/dataset/publish.mas:615
+msgctxt "global.dataset_publish.error.issues"
+msgid "Could not get dataset published issues"
+msgstr "Не вдалося отримати відомості про публікації набору даних"
+
+#: mason/dataset/publish.mas:608
+msgctxt "global.dataset_publish.error.issues_detail"
+msgid "Could not get the dataset published issues [%{error}]"
+msgstr "Не вдалося отримати опубліковані випуски набору даних [%{error}]"
+
+#: mason/dataset/publish.mas:1128 mason/dataset/publish.mas:1161
+#: mason/dataset/publish.mas:848 mason/dataset/publish.mas:869
+msgctxt "global.dataset_publish.error.no_article"
+msgid "The selected dataset archive is not associated with an external article!"
+msgstr "Вибраний архів набору даних не пов’язаний із зовнішньою статтею!"
+
+#: mason/dataset/publish.mas:478
+msgctxt "global.dataset_publish.error.popup_required"
+msgid "You must allow popup windows in your browser to continue"
+msgstr "Щоб продовжити, дозвольте спливні вікна у браузері"
+
+#: mason/dataset/publish.mas:1150
+msgctxt "global.dataset_publish.error.publish"
+msgid "Could not publish dataset"
+msgstr "Не вдалося опублікувати набір даних"
+
+#: mason/dataset/publish.mas:1139
+msgctxt "global.dataset_publish.error.publish_detail"
+msgid "Could not publish dataset [%{error}]"
+msgstr "Не вдалося опублікувати набір даних [%{error}]"
+
+#: mason/dataset/publish.mas:902
+msgctxt "global.dataset_publish.error.remove_issues"
+msgid "Could not remove dataset published issues"
+msgstr "Не вдалося видалити відомості про публікації набору даних"
+
+#: mason/dataset/publish.mas:895
+msgctxt "global.dataset_publish.error.remove_issues_detail"
+msgid "Could not remove dataset published issues [%{error}]"
+msgstr "Не вдалося видалити опубліковані випуски набору даних [%{error}]"
+
+#: mason/dataset/publish.mas:1183
+msgctxt "global.dataset_publish.error.reserve_doi"
+msgid "Could not reserve a DOI for this dataset"
+msgstr "Не вдалося зарезервувати DOI для цього набору даних"
+
+#: mason/dataset/publish.mas:1172
+msgctxt "global.dataset_publish.error.reserve_doi_detail"
+msgid "Could not reserve a DOI for this dataset [%{error}]"
+msgstr "Не вдалося зарезервувати DOI для цього набору даних [%{error}]"
+
+#: mason/dataset/publish.mas:345
+msgctxt "global.dataset_publish.error.services"
+msgid "Could not get external services"
+msgstr "Не вдалося отримати список зовнішніх служб"
+
+#: mason/dataset/publish.mas:1049
+msgctxt "global.dataset_publish.error.submit"
+msgid "Could not submit data_type: %{type}"
+msgstr "Не вдалося надіслати тип даних: %{type}"
+
+#: mason/dataset/publish.mas:1042
+msgctxt "global.dataset_publish.error.submit_detail"
+msgid "Could not submit data type: %{type} [%{error}]"
+msgstr "Не вдалося надіслати тип даних: %{type} [%{error}]"
+
+#: mason/dataset/publish.mas:1086
+msgctxt "global.dataset_publish.error.upload"
+msgid "Could not upload file: %{type}"
+msgstr "Не вдалося завантажити файл: %{type}"
+
+#: mason/dataset/publish.mas:1079
+msgctxt "global.dataset_publish.error.upload_detail"
+msgid "Could not upload file: %{type} [%{error}]"
+msgstr "Не вдалося завантажити файл: %{type} [%{error}]"
+
+#: mason/dataset/publish.mas:3
+msgctxt "global.dataset_publish.external_service_fallback"
+msgid "the external service"
+msgstr "зовнішньому сервісі"
+
+#: mason/dataset/publish.mas:32
+msgctxt "global.dataset_publish.files"
+msgid "Files"
+msgstr "Файли"
+
+#: mason/dataset/publish.mas:224 mason/dataset/publish.mas:281
+msgctxt "global.dataset_publish.files_label"
+msgid "Files:"
+msgstr "Файли:"
+
+#: mason/dataset/publish.mas:755
+msgctxt "global.dataset_publish.files_to_generate"
+msgid "Files to generate:"
+msgstr "Файли для створення:"
+
+#: mason/dataset/publish.mas:287
+msgctxt "global.dataset_publish.generate_a_doi"
+msgid "Generate a DOI"
+msgstr "Створити DOI"
+
+#: mason/dataset/publish.mas:43 mason/dataset/publish.mas:45
+msgctxt "global.dataset_publish.generate_archive"
+msgid "Generate Archive Files"
+msgstr "Створити архівні файли"
+
+#: mason/dataset/publish.mas:713
+msgctxt "global.dataset_publish.generate_first"
+msgid "To publish this dataset, first generate a set of archived files."
+msgstr "Щоб опублікувати цей набір даних, спочатку створіть архівні файли."
+
+#: mason/dataset/publish.mas:77
+msgctxt "global.dataset_publish.generating_archive"
+msgid "Generating Archive Files"
+msgstr "Створення архівних файлів"
+
+#: mason/dataset/publish.mas:119 mason/dataset/publish.mas:204
+#: mason/dataset/publish.mas:261
+msgctxt "global.dataset_publish.grant_access"
+msgid "Grant %{project} access to your %{service} account"
+msgstr "Надати %{project} доступ до вашого облікового запису %{service}"
+
+#: mason/dataset/publish.mas:103 mason/dataset/publish.mas:196
+msgctxt "global.dataset_publish.important"
+msgid "IMPORTANT!"
+msgstr "ВАЖЛИВО!"
+
+#: mason/dataset/publish.mas:66 mason/order/manage_catalog_usage_info.mas:26
+msgctxt "global.dataset_publish.important_notes"
+msgid "Important Notes:"
+msgstr "Важливі примітки:"
+
+#: mason/dataset/publish.mas:56
+msgctxt "global.dataset_publish.info_title"
+msgid "Information about Publishing Datasets"
+msgstr "Відомості про публікацію наборів даних"
+
+#: mason/dataset/publish.mas:757
+msgctxt "global.dataset_publish.item_count"
+msgid "Item Count"
+msgstr "Кількість елементів"
+
+#: mason/dataset/publish.mas:230
+msgctxt "global.dataset_publish.make_public"
+msgid "Publish & Make Public"
+msgstr "Опублікувати й відкрити для всіх"
+
+#: mason/dataset/publish.mas:150
+msgctxt "global.dataset_publish.metadata_update_note"
+msgid "The dataset metadata can be updated later on %{service} until the dataset on %{service} is published and made public."
+msgstr "Метадані набору даних можна оновлювати у %{service}, доки набір даних у %{service} не опубліковано та не відкрито для загального доступу."
+
+#: mason/dataset/publish.mas:126 mason/dataset/publish.mas:211
+#: mason/dataset/publish.mas:268
+msgctxt "global.dataset_publish.name"
+msgid "Name:"
+msgstr "Ім’я:"
+
+#: mason/dataset/publish.mas:568
+msgctxt "global.dataset_publish.new"
+msgid "NEW"
+msgstr "НОВИЙ"
+
+#: mason/dataset/publish.mas:713
+msgctxt "global.dataset_publish.not_published"
+msgid "This dataset has not been published"
+msgstr "Цей набір даних ще не опубліковано"
+
+#: mason/dataset/publish.mas:46
+msgctxt "global.dataset_publish.only_owner_generate"
+msgid "Only the dataset owner can generate archive files"
+msgstr "Лише власник набору даних може створювати архівні файли"
+
+#: mason/dataset/publish.mas:68
+msgctxt "global.dataset_publish.permanent_note"
+msgid "Once the external dataset has been published (made public), the uploaded files and metadata are permanently available.  Any changes you make will need to be republished to a new version of the external dataset."
+msgstr "Після публікації зовнішнього набору даних (відкриття для загального доступу) завантажені файли й метадані будуть доступні постійно. Будь-які зміни потрібно буде опублікувати в новій версії зовнішнього набору даних."
+
+#: mason/dataset/publish.mas:4
+msgctxt "global.dataset_publish.permanently_available"
+msgid "permanently available"
+msgstr "назавжди доступними"
+
+#: mason/dataset/publish.mas:973
+msgctxt "global.dataset_publish.progress.all_files_uploaded"
+msgid "All Files Uploaded!"
+msgstr "Усі файли завантажено!"
+
+#: mason/dataset/publish.mas:961
+msgctxt "global.dataset_publish.progress.finalizing_file"
+msgid "Finalizing File"
+msgstr "Завершення обробки файлу"
+
+#: mason/dataset/publish.mas:945
+msgctxt "global.dataset_publish.progress.sending_type"
+msgid "Sending data type: %{type}"
+msgstr "Надсилання типу даних: %{type}"
+
+#: mason/dataset/publish.mas:968
+msgctxt "global.dataset_publish.progress.uploaded_file"
+msgid "Uploaded file: %{type}"
+msgstr "Завантажений файл: %{type}"
+
+#: mason/dataset/publish.mas:955
+msgctxt "global.dataset_publish.progress.uploading_chunk"
+msgid "Uploading chunk: %{count}/%{total}"
+msgstr "Завантаження частини: %{count}/%{total}"
+
+#: mason/dataset/publish.mas:160 mason/dataset/publish.mas:165
+msgctxt "global.dataset_publish.progress_percent_complete"
+msgid "60% Complete"
+msgstr "60% завершено"
+
+#: mason/dataset/publish.mas:196
+msgctxt "global.dataset_publish.public_warning"
+msgid "Once you make the external dataset public, all of the uploaded files and metadata become %{permanent} and cannot be removed or modified from this version of the dataset.  If you need to make updates, changes can be made and new files can be uploaded and a new version of the external dataset will need to be published (the original version will still be accessible)."
+msgstr "Після відкриття зовнішнього набору даних для загального доступу всі завантажені файли й метадані стануть %{permanent} і їх не можна буде видалити або змінити в цій версії набору даних. Щоб внести оновлення, потрібно буде завантажити нові файли й опублікувати нову версію зовнішнього набору даних (початкова версія залишиться доступною)."
+
+#: mason/dataset/publish.mas:189
+msgctxt "global.dataset_publish.publish_dataset"
+msgid "Publish Dataset"
+msgstr "Опублікувати набір даних"
+
+#: mason/dataset/publish.mas:33
+msgctxt "global.dataset_publish.published_to"
+msgid "Published To"
+msgstr "Опубліковано в"
+
+#: mason/dataset/publish.mas:57
+msgctxt "global.dataset_publish.publishing_definition"
+msgid "Dataset publishing allows the owner of a dataset to take a snapshot of the data contained within the dataset and publish it to an external service (such as FigShare), where it can be made publicly available and have a DOI assigned to it."
+msgstr "Публікація набору даних дає його власнику змогу зафіксувати його вміст і опублікувати знімок у зовнішній службі (наприклад, FigShare), зробити його загальнодоступним і призначити йому DOI."
+
+#: mason/dataset/publish.mas:5
+msgctxt "global.dataset_publish.publishing_disabled"
+msgid "Dataset Publishing has not been enabled on this database."
+msgstr "Публікацію наборів даних у цій базі даних не ввімкнено."
+
+#: mason/dataset/publish.mas:6
+msgctxt "global.dataset_publish.publishing_disabled_external"
+msgid "You may generate archive files but they cannot be published to an external service.  Contact an administrator to have this feature enabled."
+msgstr "Можна створити архівні файли, але опублікувати їх у зовнішньому сервісі неможливо. Зверніться до адміністратора, щоб увімкнути цю можливість."
+
+#: mason/dataset/publish.mas:133
+msgctxt "global.dataset_publish.select_dataset"
+msgid "Select a %{service} dataset to associate this data with:"
+msgstr "Виберіть набір даних %{service}, з яким потрібно пов’язати ці дані:"
+
+#: mason/dataset/publish.mas:109
+msgctxt "global.dataset_publish.select_service"
+msgid "Select the external service to upload this dataset to:"
+msgstr "Виберіть зовнішню службу, до якої завантажити цей набір даних:"
+
+#: mason/dataset/publish.mas:153
+msgctxt "global.dataset_publish.send_attach_note"
+msgid "Send and attach the files to the selected %{service} dataset."
+msgstr "Надішліть і прикріпіть файли до вибраного набору даних %{service}."
+
+#: mason/dataset/publish.mas:155
+msgctxt "global.dataset_publish.send_files"
+msgid "Send Files"
+msgstr "Надіслати файли"
+
+#: mason/dataset/publish.mas:220 mason/dataset/publish.mas:277
+msgctxt "global.dataset_publish.service"
+msgid "Service:"
+msgstr "Служба:"
+
+#: mason/dataset/publish.mas:690
+msgctxt "global.dataset_publish.status.not_uploaded"
+msgid "Not uploaded"
+msgstr "Не завантажено"
+
+#: mason/dataset/publish.mas:680
+msgctxt "global.dataset_publish.status.preview"
+msgid "Preview"
+msgstr "Попередній перегляд"
+
+#: mason/dataset/publish.mas:682
+msgctxt "global.dataset_publish.status.private"
+msgid "Published to a private dataset"
+msgstr "Опубліковано в приватному наборі даних"
+
+#: mason/dataset/publish.mas:675
+msgctxt "global.dataset_publish.status.public"
+msgid "Public"
+msgstr "Публічний"
+
+#: mason/dataset/publish.mas:247 mason/dataset/publish.mas:63
+msgctxt "global.dataset_publish.step_doi"
+msgid "Reserve a DOI"
+msgstr "Зарезервувати DOI"
+
+#: mason/dataset/publish.mas:63
+msgctxt "global.dataset_publish.step_doi_desc"
+msgid "generate a Digital Object Identifier (DOI) for the external dataset that can be used as a reference in publications."
+msgstr "створити Digital Object Identifier (DOI) для зовнішнього набору даних, який можна цитувати в публікаціях."
+
+#: mason/dataset/publish.mas:60
+msgctxt "global.dataset_publish.step_generate"
+msgid "Generate the archived files"
+msgstr "Створити архівні файли"
+
+#: mason/dataset/publish.mas:60
+msgctxt "global.dataset_publish.step_generate_desc"
+msgid "this creates a static snapshot of the data within the dataset at the time when the files are generated"
+msgstr "це створює незмінний знімок даних набору на момент створення файлів"
+
+#: mason/dataset/publish.mas:62
+msgctxt "global.dataset_publish.step_publish"
+msgid "Publish the external dataset"
+msgstr "Опублікувати набір даних у зовнішній службі"
+
+#: mason/dataset/publish.mas:62
+msgctxt "global.dataset_publish.step_publish_desc"
+msgid "make the external dataset publicly available for others to find"
+msgstr "зробити зовнішній набір даних загальнодоступним"
+
+#: mason/dataset/publish.mas:61
+msgctxt "global.dataset_publish.step_upload"
+msgid "Upload the files to an external service"
+msgstr "Завантажити файли до зовнішньої служби"
+
+#: mason/dataset/publish.mas:61
+msgctxt "global.dataset_publish.step_upload_desc"
+msgid "this will upload the archived files to a new or existing dataset on the external service"
+msgstr "це завантажить архівні файли до нового або наявного набору даних у зовнішній службі"
+
+#: mason/dataset/publish.mas:58
+msgctxt "global.dataset_publish.steps_intro"
+msgid "The steps to publish a dataset are:"
+msgstr "Етапи публікації набору даних:"
+
+#: mason/dataset/publish.mas:138 mason/dataset/publish.mas:221
+#: mason/dataset/publish.mas:278
+msgctxt "global.dataset_publish.title"
+msgid "Title:"
+msgstr "Назва:"
+
+#: mason/dataset/publish.mas:103
+msgctxt "global.dataset_publish.upload_acknowledgement"
+msgid "By continuing to upload these files, you acknowledge that this data is allowed to be shared on %{service} and can be made publicly available (once the dataset on %{service} is published)."
+msgstr "Продовжуючи завантаження цих файлів, ви підтверджуєте, що ці дані дозволено поширювати у %{service} і зробити загальнодоступними (після публікації набору даних у %{service})."
+
+#: mason/dataset/publish.mas:96
+msgctxt "global.dataset_publish.upload_dataset"
+msgid "Upload Dataset"
+msgstr "Завантажити набір даних"
+
+#: mason/dataset/publish.mas:1226
+msgctxt "global.dataset_publish.upload_failed"
+msgid "Upload Failed"
+msgstr "Не вдалося завантажити"
+
+#: mason/dataset/publish.mas:31
+msgctxt "global.dataset_publish.user"
+msgid "User"
+msgstr "Користувач"
+
+#: mason/dataset/publish.mas:115
+msgctxt "global.dataset_publish.view_account"
+msgid "View your %{service} account"
+msgstr "Переглянути обліковий запис %{service}"
+
+#: mason/dataset/publish.mas:225 mason/dataset/publish.mas:282
+msgctxt "global.dataset_publish.view_details"
+msgid "View Details on %{service}"
+msgstr "Переглянути відомості на %{service}"
+
+#: js/source/entries/dataset_scatterplot.js:263
+#: js/source/entries/dataset_scatterplot.js:284
+msgctxt "global.dataset_scatterplot.alert.outliers_reset"
+msgid "outliers successfully reset!"
+msgstr "Викиди успішно скинуто!"
+
+#: js/source/entries/dataset_scatterplot.js:245
+#: js/source/entries/dataset_scatterplot.js:368
+msgctxt "global.dataset_scatterplot.alert.outliers_stored"
+msgid "outliers successfully stored!"
+msgstr "Збережені викиди успішно записано!"
+
+#: js/source/entries/dataset_scatterplot.js:520
+#: mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:165
+msgctxt "global.dataset_scatterplot.axis.trait_value"
+msgid "Trait Value"
+msgstr "Значення ознаки"
+
+#: js/source/entries/dataset_scatterplot.js:336
+msgctxt "global.dataset_scatterplot.button.add_rosner_outliers"
+msgid "Add Rosner test outliers"
+msgstr "Додати викиди за тестом Rosner"
+
+#: js/source/entries/dataset_scatterplot.js:683
+msgctxt "global.dataset_scatterplot.legend.current_cutoff_outlier"
+msgid "outliers from current cutoff"
+msgstr "викиди за поточним порогом"
+
+#: js/source/entries/dataset_scatterplot.js:699
+msgctxt "global.dataset_scatterplot.legend.left_cutoff"
+msgid "L. Cutoff"
+msgstr "Лівий поріг"
+
+#: js/source/entries/dataset_scatterplot.js:671
+msgctxt "global.dataset_scatterplot.legend.normal_data_point"
+msgid "normal data point"
+msgstr "звичайна точка даних"
+
+#: js/source/entries/dataset_scatterplot.js:707
+msgctxt "global.dataset_scatterplot.legend.right_cutoff"
+msgid "R. Cutoff"
+msgstr "Правий поріг"
+
+#: js/source/entries/dataset_scatterplot.js:677
+msgctxt "global.dataset_scatterplot.legend.stored_outlier"
+msgid "outliers value stored in database"
+msgstr "значення викиду збережено в базі даних"
+
+#: js/source/entries/dataset_scatterplot.js:546
+msgctxt "global.dataset_scatterplot.tooltip.id"
+msgid "id:"
+msgstr "ідентифікатор:"
+
+#: js/source/entries/dataset_scatterplot.js:546
+msgctxt "global.dataset_scatterplot.tooltip.value"
+msgid "val:"
+msgstr "значення:"
+
+#: mason/breeders_toolbox/file_share/file_dump_share_files.mas:8
+msgctxt "global.file_dump_share_files.user_name"
+msgid "User Name"
+msgstr "Ім’я користувача"
+
+#: js/source/legacy/dataset.js:6
+msgctxt "global.legacy_dataset.delete_confirm"
+msgid "Dataset. Are you sure you would like to delete it? Deletion cannot be undone."
+msgstr "Набір даних. Ви впевнені, що хочете його видалити? Цю дію неможливо скасувати."
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:15
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:36
+msgctxt "global.manage_file_share_dump.close"
+msgid "Close"
+msgstr "Закрити"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:71
+msgctxt "global.manage_file_share_dump.no_file"
+msgid "No file selected"
+msgstr "Файл не вибрано"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:9
+msgctxt "global.manage_file_share_dump.shared_files"
+msgid "Shared Files"
+msgstr "Спільні файли"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:9
+msgctxt "global.manage_file_share_dump.subtitle"
+msgid "View and download shared data files. Note that these are unstructured data files; please upload structured data into database!"
+msgstr "Переглядайте та завантажуйте спільні файли даних. Зверніть увагу: це неструктуровані файли даних; структуровані дані слід завантажувати до бази даних!"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:7
+msgctxt "global.manage_file_share_dump.title"
+msgid "File Share Dump"
+msgstr "Обмін файлами"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:9
+msgctxt "global.manage_file_share_dump.upload_button"
+msgid "Upload Unstructured File To Share"
+msgstr "Завантажити неструктурований файл для спільного доступу"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:26
+msgctxt "global.manage_file_share_dump.upload_file_label"
+msgid "Upload File: "
+msgstr "Завантажити файл: "
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:20
+msgctxt "global.manage_file_share_dump.upload_select_file"
+msgid "Select a file from your computer to upload to the file dump to share."
+msgstr "Виберіть файл на своєму комп’ютері, щоб завантажити його до сховища файлів для спільного доступу."
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:84
+msgctxt "global.manage_file_share_dump.upload_success"
+msgid "File uploaded successfully"
+msgstr "Файл успішно завантажено"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:16
+msgctxt "global.manage_file_share_dump.upload_title"
+msgid "Upload File to Share"
+msgstr "Завантажити файл для спільного доступу"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:21
+msgctxt "global.manage_file_share_dump.upload_unstructured_note"
+msgid "Note, this is to upload unstructured data. Please continue to upload structured data into the actual database in order to use the organizational and analysis tools in Breedbase."
+msgstr "Це завантаження неструктурованих даних. Структуровані дані й надалі завантажуйте безпосередньо до бази даних, щоб використовувати організаційні та аналітичні інструменти Breedbase."
+
+#: js/source/modules/wizard-datasets.js:148
+msgctxt "global.wizard_datasets.compatibility_console_error"
+msgid "Error storing tool compatibility, check console."
+msgstr "Помилка збереження сумісності інструментів; перевірте консоль."
+
+#: js/source/modules/wizard-datasets.js:144
+msgctxt "global.wizard_datasets.compatibility_store_error"
+msgid "Error storing tool compatibility: %{error}"
+msgstr "Помилка збереження сумісності інструментів: %{error}"
+
+#: js/source/modules/wizard-datasets.js:157
+msgctxt "global.wizard_datasets.create_compatibility_error"
+msgid "Error storing dataset or checking tool compatibility: %{error}"
+msgstr "Помилка збереження набору даних або перевірки сумісності інструментів: %{error}"
+
+#: js/source/modules/wizard-datasets.js:104
+msgctxt "global.wizard_datasets.create_failed_empty"
+msgid "Dataset creation failed. No data is selected."
+msgstr "Не вдалося створити набір даних. Дані не вибрано."
+
+#: js/source/modules/wizard-datasets.js:139
+msgctxt "global.wizard_datasets.create_success"
+msgid ""
+"Dataset %{name} created with: %{details}. \n"
+"Compatibility check will run in background."
+msgstr ""
+"Створено набір даних %{name} з такими даними: %{details}. \n"
+"Перевірка сумісності виконається у фоновому режимі."
+
+#: js/source/modules/wizard-datasets.js:57
+msgctxt "global.wizard_datasets.delete_confirm"
+msgid ""
+"Dataset %{name} contains: %{details}\n"
+"Are you sure you would like to delete it? Deletion cannot be undone."
+msgstr ""
+"Набір даних %{name} містить: %{details}\n"
+"Ви впевнені, що хочете його видалити? Цю дію неможливо скасувати."
+
+#: js/source/modules/wizard-datasets.js:125
+msgctxt "global.wizard_datasets.network_error"
+msgid "Network error!"
+msgstr "Помилка мережі!"
+
+#: js/source/modules/wizard-datasets.js:130
+msgctxt "global.wizard_datasets.store_error"
+msgid "Error storing dataset: %{error}"
+msgstr "Помилка збереження набору даних: %{error}"
+
+#: js/source/modules/wizard-downloads.js:60
+msgctxt "global.wizard_downloads.accessions_count"
+msgid "%{count} accessions"
+msgstr "%{count} акцесій"
+
+#: js/source/modules/wizard-downloads.js:77
+msgctxt "global.wizard_downloads.chromosome_markerset_conflict"
+msgid "Please indicate either chromosome or markerset, not both."
+msgstr "Укажіть або хромосому, або набір маркерів, але не обидва значення."
+
+#: js/source/modules/wizard-downloads.js:253
+msgctxt "global.wizard_downloads.no_protocol_selected"
+msgid "No protocol selected"
+msgstr "Протокол не вибрано"
+
+#: js/source/modules/wizard-downloads.js:253
+msgctxt "global.wizard_downloads.protocol_select_one"
+msgid "Please select only 1 protocol"
+msgstr "Виберіть лише 1 протокол"
+
+#: js/source/modules/wizard-downloads.js:253
+msgctxt "global.wizard_downloads.protocols_count"
+msgid "%{count} protocols"
+msgstr "%{count} протоколів"
+
+#: js/source/modules/wizard-downloads.js:154
+#: js/source/modules/wizard-downloads.js:179
+#: js/source/modules/wizard-downloads.js:251
+#: js/source/modules/wizard-downloads.js:60
+msgctxt "global.wizard_downloads.too_few"
+msgid "Too few"
+msgstr "Замало"
+
+#: js/source/modules/wizard-downloads.js:154
+#: js/source/modules/wizard-downloads.js:179
+#: js/source/modules/wizard-downloads.js:251
+msgctxt "global.wizard_downloads.trials_count"
+msgid "%{count} trials"
+msgstr "%{count} дослідів"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:61
+msgctxt "lists.details.content_name"
+msgid "Content Name"
+msgstr "Назва вмісту"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:73
+msgctxt "lists.details.current_weight"
+msgid "Current Weight"
+msgstr "Поточна маса"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:33
+msgctxt "lists.details.download"
+msgid "Download List Items"
+msgstr "Завантажити елементи списку"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:23
+msgctxt "lists.details.id"
+msgid "List ID"
+msgstr "Ідентифікатор списку"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:25
+msgctxt "lists.details.item_count"
+msgid "Number of Items"
+msgstr "Кількість елементів"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:18
+msgctxt "lists.details.title"
+msgid "Details for List '%{name}'"
+msgstr "Відомості про список «%{name}»"
+
+#: lib/CXGN/List.pm:719
+msgctxt "lists.model.bulk_add_failed"
+msgid "An error occurred in bulk addition to list. (%{detail})"
+msgstr "Під час пакетного додавання до списку сталася помилка. (%{detail})"
+
+#: lib/CXGN/List.pm:410
+msgctxt "lists.model.delete_element_failed"
+msgid "An error occurred while attempting to delete item %{element}"
+msgstr "Під час спроби видалити елемент %{element} сталася помилка"
+
+#: lib/CXGN/List.pm:448
+msgctxt "lists.model.delete_element_id_failed"
+msgid "An error occurred while attempting to delete item %{id}"
+msgstr "Під час спроби видалити елемент %{id} сталася помилка"
+
+#: lib/CXGN/List.pm:226
+msgctxt "lists.model.delete_failed"
+msgid "An error occurred while deleting list with id %{id}: %{detail}"
+msgstr "Під час видалення списку з ідентифікатором %{id} сталася помилка: %{detail}"
+
+#: lib/CXGN/List.pm:352
+msgctxt "lists.model.description_update_failed"
+msgid "An error occurred updating the list description (%{detail})"
+msgstr "Під час оновлення опису списку сталася помилка (%{detail})"
+
+#: lib/CXGN/List.pm:370
+msgctxt "lists.model.element_exists"
+msgid "The element %{element} already exists"
+msgstr "Елемент %{element} уже існує"
+
+#: lib/CXGN/List.pm:366
+msgctxt "lists.model.empty_element"
+msgid "Empty list elements are not allowed"
+msgstr "Порожні елементи списку не дозволені"
+
+#: lib/CXGN/List.pm:289
+msgctxt "lists.model.name_exists"
+msgid "The list name %{name} already exists. Please choose another name."
+msgstr "Список із назвою %{name} уже існує. Виберіть іншу назву."
+
+#: lib/CXGN/List.pm:299
+msgctxt "lists.model.name_update_failed"
+msgid "An error occurred updating the list name (%{detail})"
+msgstr "Під час оновлення назви списку сталася помилка (%{detail})"
+
+#: lib/CXGN/List.pm:518
+msgctxt "lists.model.remove_element_failed"
+msgid "An error occurred while attempting to remove item %{item}"
+msgstr "Під час спроби вилучити елемент %{item} сталася помилка"
+
+#: lib/CXGN/List.pm:495
+msgctxt "lists.model.replace_element_failed"
+msgid "An error occurred while attempting to update item %{item}"
+msgstr "Під час спроби оновити елемент %{item} сталася помилка"
+
+#: lib/CXGN/List.pm:381
+msgctxt "lists.model.store_element_failed"
+msgid "An error occurred storing the element %{element} (%{detail})"
+msgstr "Під час збереження елемента %{element} сталася помилка (%{detail})"
+
+#: lib/CXGN/List.pm:317
+msgctxt "lists.model.type_not_found"
+msgid "The specified type does not exist"
+msgstr "Указаний тип не існує"
+
+#: lib/CXGN/List.pm:471
+msgctxt "lists.model.update_element_id_failed"
+msgid "An error occurred while attempting to update item %{id}"
+msgstr "Під час спроби оновити елемент %{id} сталася помилка"
+
+#: mason/breeders_toolbox/download.mas:730
+#: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:41
+msgctxt "lists.selector.please_select"
+msgid "Please select"
+msgstr "Будь ласка, виберіть"
+
+#: lib/SGN/Controller/AJAX/List.pm:539
+msgctxt "lists.server.elements_required"
+msgid "You must provide one or more elements to add to the list"
+msgstr "Укажіть один або кілька елементів для додавання до списку."
+
+#: lib/SGN/Controller/AJAX/List.pm:1078 lib/SGN/Controller/AJAX/List.pm:630
+msgctxt "lists.server.not_allowed"
+msgid "You have insufficient privileges to manipulate this list."
+msgstr "Ви не маєте прав для зміни цього списку."
+
+#: lib/SGN/Controller/AJAX/List.pm:209
+msgctxt "lists.server.sign_in_create"
+msgid "You must be logged in to use lists"
+msgstr "Щоб користуватися списками, потрібно увійти до системи."
+
+#: lib/SGN/Controller/AJAX/List.pm:1075
+msgctxt "lists.server.sign_in_edit"
+msgid "You must be logged in to manipulate this list."
+msgstr "Щоб змінювати цей список, потрібно увійти до системи."
+
+#: lib/SGN/Controller/AJAX/List.pm:605
+msgctxt "lists.server.sign_in_exists"
+msgid "You need to be logged in to use lists."
+msgstr "Щоб користуватися списками, потрібно увійти до системи."
+
+#: lib/SGN/Controller/AJAX/List.pm:1091 lib/SGN/Controller/AJAX/List.pm:1236
+#: lib/SGN/Controller/AJAX/List.pm:1302 lib/SGN/Controller/AJAX/List.pm:328
+#: lib/SGN/Controller/AJAX/List.pm:345 lib/SGN/Controller/AJAX/List.pm:43
+msgctxt "lists.server.sign_in_use"
+msgid "You must be logged in to use lists."
+msgstr "Щоб користуватися списками, потрібно увійти до системи."
+
+#: lib/SGN/Controller/AJAX/List.pm:192
+msgctxt "lists.server.type_missing"
+msgid "List type not found: %{type}"
+msgstr "Тип списку не знайдено: %{type}"
+
+#: lib/SGN/Controller/AJAX/List.pm:185
+msgctxt "lists.server.type_owner"
+msgid "Only the list owner can change the type of a list"
+msgstr "Змінити тип списку може лише його власник."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1438
+msgctxt "lists_datasets.api_dataset.cannot_open_file_to_read_contents"
+msgid "Cannot open file to read contents"
+msgstr "Не вдалося відкрити файл для читання вмісту"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:993
+msgctxt "lists_datasets.api_dataset.cannot_open_the_file_file"
+msgid "Cannot open the %{file} file"
+msgstr "Не вдалося відкрити файл %{file}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1235
+msgctxt "lists_datasets.api_dataset.could_not_finalize_the_file_upload_for_type"
+msgid "Could not finalize the file upload for %{type}"
+msgstr "Не вдалося завершити завантаження файлу для %{type}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:947
+msgctxt "lists_datasets.api_dataset.could_not_generate_archive_file"
+msgid "Could not generate archive file"
+msgstr "Не вдалося створити архівний файл"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1370
+msgctxt "lists_datasets.api_dataset.could_not_get_a_doi_for_the_selected_article"
+msgid "Could not get a DOI for the selected article"
+msgstr "Не вдалося отримати DOI для вибраного запису"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1027
+msgctxt "lists_datasets.api_dataset.could_not_get_metadata_for_new_file_file"
+msgid "Could not get metadata for new file %{file}"
+msgstr "Не вдалося отримати метадані нового файлу %{file}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1040
+msgctxt "lists_datasets.api_dataset.could_not_get_upload_metadata_for_new_file_file"
+msgid "Could not get upload metadata for new file %{file}"
+msgstr "Не вдалося отримати метадані завантаження нового файлу %{file}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1015
+msgctxt "lists_datasets.api_dataset.could_not_initialize_new_file_file"
+msgid "Could not initialize new file %{file}"
+msgstr "Не вдалося ініціалізувати новий файл %{file}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1307
+msgctxt "lists_datasets.api_dataset.could_not_publish_the_selected_article"
+msgid "Could not publish the selected article"
+msgstr "Не вдалося опублікувати вибраний запис"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1154
+msgctxt "lists_datasets.api_dataset.could_not_upload_the_file_file"
+msgid "Could not upload the file %{file}"
+msgstr "Не вдалося завантажити файл %{file}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:544
+msgctxt "lists_datasets.api_dataset.deleting_datasets_requires_login"
+msgid "Deleting datasets requires login"
+msgstr "Для видалення наборів даних потрібно увійти"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:528
+msgctxt "lists_datasets.api_dataset.error_calculating_tool_compatibility_detail"
+msgid ""
+"Error calculating tool compatibility:\n"
+"%{detail}"
+msgstr ""
+"Помилка обчислення сумісності з інструментами:\n"
+"%{detail}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:432
+msgctxt "lists_datasets.api_dataset.error_retrieving_analyses_using_this_dataset_detail"
+msgid "Error retrieving analyses using this dataset. %{detail}"
+msgstr "Помилка отримання аналізів, що використовують цей набір даних. %{detail}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1476
+#: lib/SGN/Controller/AJAX/Dataset.pm:37 lib/SGN/Controller/AJAX/Dataset.pm:826
+msgctxt "lists_datasets.api_dataset.login_required_to_perform_requested_action"
+msgid "Login required to perform requested action."
+msgstr "Для виконання цієї дії потрібно увійти."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:877
+msgctxt "lists_datasets.api_dataset.no_entity_id_returned"
+msgid "No entity id returned"
+msgstr "Ідентифікатор об’єкта не повернуто"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:296
+#: lib/SGN/Controller/AJAX/Dataset.pm:330
+#: lib/SGN/Controller/AJAX/Dataset.pm:366
+msgctxt "lists_datasets.api_dataset.no_logged_in_user_error"
+msgid "No logged in user error."
+msgstr "Помилка: користувач не увійшов."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:235
+msgctxt "lists_datasets.api_dataset.no_logged_in_user_to_display_dataset_information_for"
+msgid "No logged in user to display dataset information for."
+msgstr "Немає користувача, який увійшов, для показу відомостей про набори даних."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:310
+#: lib/SGN/Controller/AJAX/Dataset.pm:344
+#: lib/SGN/Controller/AJAX/Dataset.pm:381
+msgctxt "lists_datasets.api_dataset.only_the_owner_can_change_a_dataset"
+msgid "Only the owner can change a dataset"
+msgstr "Лише власник може змінювати набір даних"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:559
+msgctxt "lists_datasets.api_dataset.only_the_owner_can_delete_a_dataset"
+msgid "Only the owner can delete a dataset"
+msgstr "Лише власник може видалити набір даних"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1481
+#: lib/SGN/Controller/AJAX/Dataset.pm:832
+msgctxt "lists_datasets.api_dataset.only_the_owner_can_publish_a_dataset"
+msgid "Only the owner can publish a dataset"
+msgstr "Лише власник може опублікувати набір даних"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:219
+msgctxt "lists_datasets.api_dataset.rosners_test_successfully"
+msgid "Rosners TEST Successfully!"
+msgstr "Тест Rosner успішно виконано!"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:77
+msgctxt "lists_datasets.api_dataset.stored_dataset_successfully"
+msgid "Stored Dataset Successfully!"
+msgstr "Набір даних успішно збережено!"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:50
+msgctxt "lists_datasets.api_dataset.the_dataset_with_name_name_already_exists_please_choose_another_"
+msgid "The dataset with name %{name} already exists. Please choose another name."
+msgstr "Набір даних із назвою %{name} вже існує. Виберіть іншу назву."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:467
+msgctxt "lists_datasets.api_dataset.the_specified_dimension_dimension_does_not_exist"
+msgid "The specified dimension '%{dimension}' does not exist"
+msgstr "Указаного виміру «%{dimension}» не існує"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1083
+#: lib/SGN/Controller/AJAX/Dataset.pm:1167
+#: lib/SGN/Controller/AJAX/Dataset.pm:1447
+msgctxt "lists_datasets.api_dataset.the_specified_file_does_not_exist"
+msgid "The specified file does not exist"
+msgstr "Указаного файлу не існує"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1088
+#: lib/SGN/Controller/AJAX/Dataset.pm:1172
+#: lib/SGN/Controller/AJAX/Dataset.pm:1282
+#: lib/SGN/Controller/AJAX/Dataset.pm:1345
+#: lib/SGN/Controller/AJAX/Dataset.pm:1452
+msgctxt "lists_datasets.api_dataset.the_specified_published_metadata_does_not_exist"
+msgid "The specified published metadata does not exist"
+msgstr "Указаних опублікованих метаданих не існує"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1225
+msgctxt "lists_datasets.api_dataset.the_upload_for_type_was_not_complete"
+msgid "The upload for %{type} was not complete"
+msgstr "Завантаження для %{type} не завершено"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:532
+msgctxt "lists_datasets.api_dataset.tool_compatibility_submitted_check_job_logs_for_progress"
+msgid "Tool compatibility submitted. Check job logs for progress.\n"
+msgstr "Перевірку сумісності з інструментами надіслано. Переглядайте перебіг у журналах завдання.\n"
+
+#: mason/dataset/authorize.mas:31
+msgctxt "lists_datasets.authorize.connected"
+msgid "Accounts connected - you may close this window"
+msgstr "Облікові записи підключено — можна закрити це вікно"
+
+#: mason/dataset/authorize.mas:7
+msgctxt "lists_datasets.authorize.connecting"
+msgid "Connecting account..."
+msgstr "Підключення облікового запису..."
+
+#: mason/dataset/authorize.mas:9
+msgctxt "lists_datasets.authorize.no_code"
+msgid "ERROR: Authorization code not returned"
+msgstr "ПОМИЛКА: код авторизації не повернуто"
+
+#: mason/dataset/authorize.mas:36
+msgctxt "lists_datasets.authorize.store_error"
+msgid "Could not store connection info"
+msgstr "Не вдалося зберегти відомості про підключення"
+
+#: mason/dataset/authorize.mas:28
+msgctxt "lists_datasets.authorize.store_error_detail"
+msgid "Could not store connection info [%{error}]"
+msgstr "Не вдалося зберегти відомості про підключення [%{error}]"
+
+#: cgi-bin/bulk/input.pl:671 cgi-bin/bulk/input.pl:772
+#: mason/tools/bulk/tabs/bac_end_tab.mas:55
+#: mason/tools/bulk/tabs/bac_tab.mas:56
+msgctxt "lists_datasets.bulk.accession_name"
+msgid "accession name"
+msgstr "назва зразка"
+
+#: mason/tools/bulk/converter.mas:21
+msgctxt "lists_datasets.bulk.affymetrix_chip_identifiers"
+msgid "Affymetrix Chip Identifiers"
+msgstr "Ідентифікатори чипів Affymetrix"
+
+#: cgi-bin/bulk/input.pl:197 cgi-bin/bulk/input.pl:280
+#: cgi-bin/bulk/input.pl:404 cgi-bin/bulk/input.pl:531
+#: cgi-bin/bulk/input.pl:682 cgi-bin/bulk/input.pl:789
+#: mason/tools/bulk/display/bulk_gene.mas:26
+#: mason/tools/bulk/display/features.mas:26
+#: mason/tools/bulk/tabs/array_tab.mas:45
+#: mason/tools/bulk/tabs/bac_end_tab.mas:44
+#: mason/tools/bulk/tabs/bac_tab.mas:44 mason/tools/bulk/tabs/clone_tab.mas:38
+#: mason/tools/bulk/tabs/converter_tab.mas:28
+#: mason/tools/bulk/tabs/feature_tab.mas:26
+#: mason/tools/bulk/tabs/gene_tab.mas:29
+#: mason/tools/bulk/tabs/unigene_tab.mas:63
+msgctxt "lists_datasets.bulk.and_or_upload_list_file"
+msgid "And/or upload list file:"
+msgstr "Та/або передайте файл списку:"
+
+#: mason/tools/bulk/tabs/bac_tab.mas:51
+msgctxt "lists_datasets.bulk.arizona_style_clone_name_le_hba0001a01"
+msgid "Arizona-style clone name (LE_HBa0001A01)"
+msgstr "Назва клону у форматі Arizona (LE_HBa0001A01)"
+
+#: mason/tools/bulk/index.mas:41
+msgctxt "lists_datasets.bulk.arrays"
+msgid "Arrays"
+msgstr "Мікроматриці"
+
+#: mason/tools/bulk/display/summary_page.mas:45
+#: mason/tools/bulk/display/summary_page.mas:47
+#: mason/tools/bulk/display/summary_page.mas:51
+#: mason/tools/bulk/display/summary_page.mas:53
+msgctxt "lists_datasets.bulk.as"
+msgid "as"
+msgstr "як"
+
+#: cgi-bin/bulk/input.pl:383 mason/tools/bulk/tabs/unigene_tab.mas:80
+msgctxt "lists_datasets.bulk.associated_loci"
+msgid "associated loci"
+msgstr "пов’язані локуси"
+
+#: cgi-bin/bulk/input.pl:380 cgi-bin/bulk/input.pl:622
+#: lib/SGN/Controller/Bulk.pm:527 mason/tools/bulk/tabs/clone_tab.mas:54
+#: mason/tools/bulk/tabs/unigene_tab.mas:77
+msgctxt "lists_datasets.bulk.automatic_blast_annotation"
+msgid "automatic (BLAST) annotation"
+msgstr "автоматична анотація (BLAST)"
+
+#: cgi-bin/bulk/input.pl:780 mason/tools/bulk/tabs/bac_end_tab.mas:52
+msgctxt "lists_datasets.bulk.bac_end_identifier"
+msgid "bac end identifier"
+msgstr "ідентифікатор кінцевого фрагмента bac"
+
+#: cgi-bin/bulk/input.pl:781 mason/tools/bulk/tabs/bac_end_tab.mas:61
+msgctxt "lists_datasets.bulk.bac_end_sequence"
+msgid "bac end sequence"
+msgstr "послідовність кінцевого фрагмента bac"
+
+#: cgi-bin/bulk/input.pl:69 mason/tools/bulk/index.mas:44
+msgctxt "lists_datasets.bulk.bac_ends"
+msgid "BAC ends"
+msgstr "Кінцеві фрагменти BAC"
+
+#: cgi-bin/bulk/input.pl:68 mason/tools/bulk/index.mas:43
+msgctxt "lists_datasets.bulk.bacs"
+msgid "BACs"
+msgstr "Клони BAC"
+
+#: cgi-bin/bulk/input.pl:382 mason/tools/bulk/tabs/unigene_tab.mas:79
+msgctxt "lists_datasets.bulk.best_arabidopsis_match"
+msgid "best arabidopsis match"
+msgstr "найкращий збіг з arabidopsis"
+
+#: cgi-bin/bulk/input.pl:381 mason/tools/bulk/tabs/unigene_tab.mas:78
+msgctxt "lists_datasets.bulk.best_genbank_match"
+msgid "best genbank match"
+msgstr "найкращий збіг у genbank"
+
+#: mason/tools/bulk/display/summary_page.mas:36
+msgctxt "lists_datasets.bulk.browse"
+msgid "Browse"
+msgstr "Переглянути"
+
+#: cgi-bin/bulk/input.pl:135 lib/SGN/Controller/Bulk.pm:503
+msgctxt "lists_datasets.bulk.build_label"
+msgid "Only include unigene build:"
+msgstr "Включити лише збірку унігенів:"
+
+#: mason/tools/bulk/converter.mas:5
+msgctxt "lists_datasets.bulk.bulk_converter"
+msgid "Bulk Converter"
+msgstr "Масове перетворення ідентифікаторів"
+
+#: cgi-bin/bulk/index.pl:9 lib/SGN/Controller/Bulk/Download.pm:226
+#: mason/tools/bulk/index.mas:18
+msgctxt "lists_datasets.bulk.bulk_download"
+msgid "Bulk Download"
+msgstr "Масове завантаження"
+
+#: mason/tools/bulk/display/summary_page.mas:20
+msgctxt "lists_datasets.bulk.bulk_download_summary"
+msgid "Bulk download summary"
+msgstr "Підсумок масового завантаження"
+
+#: mason/tools/bulk/display/bulk_gene.mas:35
+#: mason/tools/bulk/tabs/gene_tab.mas:38
+msgctxt "lists_datasets.bulk.cdna_sequence"
+msgid "cDNA sequence"
+msgstr "Послідовність cDNA"
+
+#: mason/tools/bulk/display/bulk_gene.mas:36
+#: mason/tools/bulk/tabs/gene_tab.mas:39
+msgctxt "lists_datasets.bulk.cds_sequence"
+msgid "CDS sequence"
+msgstr "Послідовність CDS"
+
+#: cgi-bin/bulk/input.pl:396 cgi-bin/bulk/input.pl:618
+#: lib/SGN/Controller/Bulk.pm:523 mason/tools/bulk/tabs/clone_tab.mas:50
+#: mason/tools/bulk/tabs/unigene_tab.mas:99
+msgctxt "lists_datasets.bulk.chipname"
+msgid "chipname"
+msgstr "назва чипа"
+
+#: cgi-bin/bulk/input.pl:783 mason/tools/bulk/tabs/bac_end_tab.mas:60
+msgctxt "lists_datasets.bulk.choose_format_and_type"
+msgid "Choose format and type:"
+msgstr "Виберіть формат і тип:"
+
+#: cgi-bin/bulk/input.pl:391 cgi-bin/bulk/input.pl:613
+#: lib/SGN/Controller/Bulk.pm:518 mason/tools/bulk/tabs/clone_tab.mas:45
+#: mason/tools/bulk/tabs/unigene_tab.mas:93
+msgctxt "lists_datasets.bulk.clone_id_sgn_c"
+msgid "clone id (SGN-C)"
+msgstr "ідентифікатор клону (SGN-C)"
+
+#: cgi-bin/bulk/input.pl:390 cgi-bin/bulk/input.pl:612
+#: lib/SGN/Controller/Bulk.pm:517 mason/tools/bulk/tabs/clone_tab.mas:44
+#: mason/tools/bulk/tabs/unigene_tab.mas:92
+msgctxt "lists_datasets.bulk.clone_name"
+msgid "clone name"
+msgstr "назва клону"
+
+#: mason/tools/bulk/tabs/bac_tab.mas:53
+msgctxt "lists_datasets.bulk.clone_name_with_chromosome_c01hba0001a01"
+msgid "Clone name with chromosome (C01HBa0001A01)"
+msgstr "Назва клону з хромосомою (C01HBa0001A01)"
+
+#: cgi-bin/bulk/input.pl:669 cgi-bin/bulk/input.pl:770
+#: mason/tools/bulk/tabs/bac_end_tab.mas:53
+#: mason/tools/bulk/tabs/bac_tab.mas:54
+msgctxt "lists_datasets.bulk.clone_type"
+msgid "clone type"
+msgstr "тип клону"
+
+#: mason/tools/bulk/index.mas:40
+msgctxt "lists_datasets.bulk.clones"
+msgid "Clones"
+msgstr "Клони"
+
+#: mason/tools/bulk/tabs/converter_tab.mas:37
+msgctxt "lists_datasets.bulk.convert_to_newest_version"
+msgid "Convert to newest version"
+msgstr "Перетворити на найновішу версію"
+
+#: mason/tools/bulk/tabs/converter_tab.mas:36
+msgctxt "lists_datasets.bulk.convert_unigene_ids_to_tomato_genome_ids"
+msgid "Convert unigene ids to tomato genome ids"
+msgstr "Перетворити ідентифікатори унігенів на ідентифікатори геному томата"
+
+#: cgi-bin/bulk/input.pl:377 mason/tools/bulk/tabs/unigene_tab.mas:69
+msgctxt "lists_datasets.bulk.convert_unigene_list_to_current_build"
+msgid "convert unigene list to current build"
+msgstr "перетворити список унігенів на поточну збірку"
+
+#: mason/tools/bulk/index.mas:47
+msgctxt "lists_datasets.bulk.converter"
+msgid "Converter"
+msgstr "Перетворення"
+
+#: mason/tools/bulk/tabs/clone_tab.mas:25
+msgctxt "lists_datasets.bulk.copy"
+msgid "[copy]"
+msgstr "[копіювати]"
+
+#: lib/SGN/Controller/Bulk.pm:387 lib/SGN/Controller/Bulk.pm:420
+msgctxt "lists_datasets.bulk.dataset_not_found"
+msgid "Bulk dataset not found"
+msgstr "Набір даних масового завантаження не знайдено"
+
+#: mason/bulk_download.mas:16
+#: mason/tools/bulk/display/bulk_gene_download.mas:15
+#: mason/tools/bulk/display/feature_download.mas:18
+#: mason/tools/bulk/gene_download.mas:19
+msgctxt "lists_datasets.bulk.download_as"
+msgid "Download as"
+msgstr "Завантажити як"
+
+#: cgi-bin/bulk/input.pl:779 mason/tools/bulk/tabs/bac_end_tab.mas:50
+msgctxt "lists_datasets.bulk.download_bac_end_information"
+msgid "Download BAC end information:"
+msgstr "Завантажити відомості про кінцеві фрагменти BAC:"
+
+#: cgi-bin/bulk/input.pl:678 mason/tools/bulk/tabs/bac_tab.mas:49
+msgctxt "lists_datasets.bulk.download_bac_information"
+msgid "Download BAC information:"
+msgstr "Завантажити відомості про BAC:"
+
+#: mason/tools/bulk/display/features.mas:33
+#: mason/tools/bulk/tabs/feature_tab.mas:33
+msgctxt "lists_datasets.bulk.download_feature_information"
+msgid "Download feature information"
+msgstr "Завантажити відомості про геномні об’єкти"
+
+#: mason/tools/bulk/display/bulk_gene.mas:33
+#: mason/tools/bulk/tabs/gene_tab.mas:36
+msgctxt "lists_datasets.bulk.download_gene_information"
+msgid "Download gene information"
+msgstr "Завантажити відомості про гени"
+
+#: cgi-bin/bulk/input.pl:389 mason/tools/bulk/tabs/unigene_tab.mas:90
+msgctxt "lists_datasets.bulk.download_member_information"
+msgid "Download member information"
+msgstr "Завантажити відомості про учасників збірки"
+
+#: mason/tools/bulk/display/summary_page.mas:42
+msgctxt "lists_datasets.bulk.download_to_disk"
+msgid "Download to disk"
+msgstr "Завантажити на диск"
+
+#: cgi-bin/bulk/input.pl:378 mason/tools/bulk/tabs/unigene_tab.mas:73
+msgctxt "lists_datasets.bulk.download_unigene_information"
+msgid "Download unigene information"
+msgstr "Завантажити відомості про унігени"
+
+#: mason/tools/bulk/display/features.mas:8
+#: mason/tools/bulk/tabs/feature_tab.mas:8
+msgctxt "lists_datasets.bulk.enter_a_list_of_feature_identifier_or_upload_a_file_containing_one_identifer_s"
+msgid "Enter a list of feature identifier or upload a file containing one identifier separated by whitespace (returns, spaces or tabs):"
+msgstr "Введіть список ідентифікаторів геномних об’єктів або передайте файл з ідентифікаторами, розділеними пробільними символами (переносами рядків, пробілами або табуляцією):"
+
+#: mason/tools/bulk/display/bulk_gene.mas:8
+#: mason/tools/bulk/tabs/gene_tab.mas:11
+msgctxt "lists_datasets.bulk.enter_a_list_of_gene_identifier_or_upload_a_file_containing_one_identifer_sepa"
+msgid "Enter a list of gene identifier or upload a file containing one identifier separated by whitespace (returns, spaces or tabs):"
+msgstr "Введіть список ідентифікаторів генів або передайте файл з ідентифікаторами, розділеними пробільними символами (переносами рядків, пробілами або табуляцією):"
+
+#: cgi-bin/bulk/input.pl:195 mason/tools/bulk/tabs/clone_tab.mas:16
+msgctxt "lists_datasets.bulk.enter_a_list_of_identifiers_or_upload_a_file_containing_identifers_one_per_lin"
+msgid "Enter a list of identifiers or upload a file containing identifiers, one per line:"
+msgstr "Введіть список ідентифікаторів або передайте файл з одним ідентифікатором у кожному рядку:"
+
+#: cgi-bin/bulk/input.pl:680 cgi-bin/bulk/input.pl:787
+#: mason/tools/bulk/tabs/bac_end_tab.mas:29
+#: mason/tools/bulk/tabs/bac_tab.mas:29
+msgctxt "lists_datasets.bulk.enter_a_list_of_identifiers_or_upload_a_file_containing_identifers_separated_b"
+msgid "Enter a list of identifiers or upload a file containing identifiers separated by whitespace (returns, spaces or tabs):"
+msgstr "Введіть список ідентифікаторів або передайте файл з ідентифікаторами, розділеними пробільними символами (переносами рядків, пробілами або табуляцією):"
+
+#: cgi-bin/bulk/input.pl:402 cgi-bin/bulk/input.pl:529
+#: mason/tools/bulk/tabs/unigene_tab.mas:46
+msgctxt "lists_datasets.bulk.enter_a_list_of_identifiers_or_upload_a_file_containing_one_identifer_separate"
+msgid "Enter a list of identifiers or upload a file containing one identifier separated by whitespace (returns, spaces or tabs):"
+msgstr "Введіть список ідентифікаторів або передайте файл з ідентифікаторами, розділеними пробільними символами (переносами рядків, пробілами або табуляцією):"
+
+#: cgi-bin/bulk/input.pl:278 mason/tools/bulk/tabs/array_tab.mas:31
+msgctxt "lists_datasets.bulk.enter_a_list_of_identifiers_or_upload_a_file_containing_one_identifier"
+msgid "Enter a list of identifiers or upload a file containing one identifier:"
+msgstr "Введіть список ідентифікаторів або передайте файл, що містить один ідентифікатор:"
+
+#: mason/tools/bulk/tabs/converter_tab.mas:12
+msgctxt "lists_datasets.bulk.enter_a_list_of_identifiers_sgn_unigene_ids_or_tom1_array_ids_or_upload_a_file"
+msgid "Enter a list of identifiers (SGN unigene ids or TOM1 array ids) or upload a file containing one identifier separated by whitespace (returns, spaces or tabs):"
+msgstr "Введіть список ідентифікаторів (унігенів SGN або мікроматриць TOM1) чи передайте файл з ідентифікаторами, розділеними пробільними символами (переносами рядків, пробілами або табуляцією):"
+
+#: lib/CXGN/Bulk.pm:188
+msgctxt "lists_datasets.bulk.error_back"
+msgid "Please check your input and use your browser's \"back\" button to go back and try again!"
+msgstr "Перевірте введені дані, поверніться кнопкою «назад» у браузері та повторіть спробу!"
+
+#: lib/CXGN/Bulk.pm:186
+msgctxt "lists_datasets.bulk.error_format"
+msgid "Your identifiers may not be one-per-line, with no quotation marks, etc (see input example)"
+msgstr "Можливо, ідентифікатори введено не по одному в рядку, з лапками тощо (див. приклад введення)"
+
+#: lib/CXGN/Bulk.pm:183
+msgctxt "lists_datasets.bulk.error_intro"
+msgid "I could not process your input.  Possible reasons for this include:"
+msgstr "Не вдалося обробити введені дані. Можливі причини:"
+
+#: lib/CXGN/Bulk.pm:187
+msgctxt "lists_datasets.bulk.error_limit"
+msgid "The input set may be larger than the limit of 10,000 identifiers"
+msgstr "Можливо, введений набір перевищує обмеження у 10,000 ідентифікаторів"
+
+#: lib/CXGN/Bulk.pm:184
+msgctxt "lists_datasets.bulk.error_no_ids"
+msgid "You may not have entered any identifiers for download"
+msgstr "Можливо, не введено жодного ідентифікатора для завантаження"
+
+#: cgi-bin/bulk/download.pl:232
+msgctxt "lists_datasets.bulk.error_occurred_title"
+msgid "An Error has occured"
+msgstr "Сталася помилка"
+
+#: lib/SGN/Controller/Bulk/Download.pm:236
+msgctxt "lists_datasets.bulk.error_occurred_title"
+msgid "An Error has occurred"
+msgstr "Сталася помилка"
+
+#: lib/CXGN/Bulk.pm:182
+msgctxt "lists_datasets.bulk.error_title"
+msgid "Bulk download error"
+msgstr "Помилка масового завантаження"
+
+#: lib/CXGN/Bulk.pm:185
+msgctxt "lists_datasets.bulk.error_unknown_ids"
+msgid "You may not have entered any identifiers that exist"
+msgstr "Можливо, не введено жодного наявного ідентифікатора"
+
+#: cgi-bin/bulk/input.pl:393 cgi-bin/bulk/input.pl:615
+#: lib/SGN/Controller/Bulk.pm:520 mason/tools/bulk/tabs/clone_tab.mas:47
+#: mason/tools/bulk/tabs/unigene_tab.mas:95
+msgctxt "lists_datasets.bulk.est_id_sgn_e"
+msgid "est id (SGN-E)"
+msgstr "ідентифікатор est (SGN-E)"
+
+#: cgi-bin/bulk/input.pl:399 cgi-bin/bulk/input.pl:624
+#: lib/SGN/Controller/Bulk.pm:529 mason/tools/bulk/tabs/clone_tab.mas:56
+#: mason/tools/bulk/tabs/unigene_tab.mas:103
+msgctxt "lists_datasets.bulk.est_sequence"
+msgid "EST sequence"
+msgstr "Послідовність EST"
+
+#: cgi-bin/bulk/input.pl:673 cgi-bin/bulk/input.pl:774
+#: mason/tools/bulk/tabs/bac_end_tab.mas:57
+#: mason/tools/bulk/tabs/bac_tab.mas:58
+msgctxt "lists_datasets.bulk.estimated_length"
+msgid "estimated length"
+msgstr "оцінена довжина"
+
+#: cgi-bin/bulk/input.pl:386 mason/tools/bulk/tabs/unigene_tab.mas:84
+msgctxt "lists_datasets.bulk.estscan_predicted_proteins"
+msgid "estscan predicted proteins"
+msgstr "білки, передбачені estscan"
+
+#: cgi-bin/bulk/input.pl:196 cgi-bin/bulk/input.pl:279
+#: cgi-bin/bulk/input.pl:403 cgi-bin/bulk/input.pl:530
+#: cgi-bin/bulk/input.pl:681 cgi-bin/bulk/input.pl:788
+#: mason/tools/bulk/display/bulk_gene.mas:15
+#: mason/tools/bulk/display/features.mas:15
+#: mason/tools/bulk/tabs/array_tab.mas:36
+#: mason/tools/bulk/tabs/bac_end_tab.mas:34
+#: mason/tools/bulk/tabs/bac_tab.mas:34 mason/tools/bulk/tabs/clone_tab.mas:21
+#: mason/tools/bulk/tabs/converter_tab.mas:18
+#: mason/tools/bulk/tabs/feature_tab.mas:15
+#: mason/tools/bulk/tabs/gene_tab.mas:18
+#: mason/tools/bulk/tabs/unigene_tab.mas:53
+msgctxt "lists_datasets.bulk.example"
+msgid "Example:"
+msgstr "Приклад:"
+
+#: mason/tools/bulk/display/summary_page.mas:11
+msgctxt "lists_datasets.bulk.fasta_unavailable"
+msgid "Note: Fasta option is not available because you didn't choose a sequence to download."
+msgstr "Примітка: формат Fasta недоступний, оскільки не вибрано послідовність для завантаження."
+
+#: mason/bulk_download.mas:9 mason/tools/bulk/display/feature_download.mas:11
+msgctxt "lists_datasets.bulk.feature_download_summary"
+msgid "Feature Download Summary"
+msgstr "Підсумок завантаження геномних об’єктів"
+
+#: mason/tools/bulk/display/features.mas:35
+#: mason/tools/bulk/tabs/feature_tab.mas:35
+msgctxt "lists_datasets.bulk.feature_sequence"
+msgid "feature sequence"
+msgstr "послідовність геномного об’єкта"
+
+#: cgi-bin/bulk/input.pl:71 mason/tools/bulk/index.mas:46
+msgctxt "lists_datasets.bulk.features"
+msgid "Features"
+msgstr "Геномні об’єкти"
+
+#: mason/tools/bulk/display/summary_page.mas:34
+msgctxt "lists_datasets.bulk.file_size"
+msgid "The file size is %{size} kBytes."
+msgstr "Розмір файлу — %{size} kBytes."
+
+#: cgi-bin/bulk/input.pl:674 cgi-bin/bulk/input.pl:775
+#: mason/tools/bulk/tabs/bac_end_tab.mas:58
+#: mason/tools/bulk/tabs/bac_tab.mas:59
+msgctxt "lists_datasets.bulk.genbank_accession"
+msgid "genbank accession"
+msgstr "реєстраційний номер genbank"
+
+#: mason/tools/bulk/display/bulk_gene_download.mas:8
+#: mason/tools/bulk/gene_download.mas:12
+msgctxt "lists_datasets.bulk.gene_download_summary"
+msgid "Gene Download Summary"
+msgstr "Підсумок завантаження генів"
+
+#: mason/tools/bulk/converter.mas:19
+msgctxt "lists_datasets.bulk.gene_models_itag_2_3"
+msgid "Gene models (ITAG 2.3)"
+msgstr "Моделі генів (ITAG 2.3)"
+
+#: cgi-bin/bulk/input.pl:72 mason/tools/bulk/index.mas:45
+msgctxt "lists_datasets.bulk.genes"
+msgid "Genes"
+msgstr "Гени"
+
+#: cgi-bin/bulk/download.pl:233 lib/SGN/Controller/Bulk/Download.pm:237
+msgctxt "lists_datasets.bulk.id_type_required"
+msgid "ID Type must be provided"
+msgstr "Потрібно вказати тип ID"
+
+#: lib/SGN/Controller/Bulk.pm:263 lib/SGN/Controller/Bulk.pm:450
+msgctxt "lists_datasets.bulk.identifiers_required"
+msgid "At least one identifier must be given"
+msgstr "Потрібно вказати принаймні один ідентифікатор"
+
+#: cgi-bin/bulk/input.pl:163 lib/SGN/Controller/Bulk.pm:505
+msgctxt "lists_datasets.bulk.include_all"
+msgid "include all"
+msgstr "включити всі"
+
+#: mason/tools/bulk/converter.mas:14
+msgctxt "lists_datasets.bulk.input_is"
+msgid "Input is:"
+msgstr "Вхідні дані:"
+
+#: lib/SGN/Controller/Bulk.pm:355
+msgctxt "lists_datasets.bulk.invalid_type"
+msgid "Invalid data type"
+msgstr "Неприпустимий тип даних"
+
+#: lib/SGN/Controller/Bulk.pm:225
+msgctxt "lists_datasets.bulk.invalid_type_chosen"
+msgid "Invalid data type chosen"
+msgstr "Вибрано неприпустимий тип даних"
+
+#: cgi-bin/bulk/input.pl:672 cgi-bin/bulk/input.pl:773
+#: mason/tools/bulk/tabs/bac_end_tab.mas:56
+#: mason/tools/bulk/tabs/bac_tab.mas:57
+msgctxt "lists_datasets.bulk.library_name"
+msgid "library name"
+msgstr "назва бібліотеки"
+
+#: cgi-bin/bulk/input.pl:387 mason/tools/bulk/tabs/unigene_tab.mas:85
+msgctxt "lists_datasets.bulk.longest_orf_from_6_frame_translation"
+msgid "longest ORF from 6-frame translation"
+msgstr "найдовша ORF з трансляції у 6 рамках зчитування"
+
+#: cgi-bin/bulk/input.pl:398 cgi-bin/bulk/input.pl:621
+#: lib/SGN/Controller/Bulk.pm:526 mason/tools/bulk/tabs/clone_tab.mas:53
+#: mason/tools/bulk/tabs/unigene_tab.mas:102
+msgctxt "lists_datasets.bulk.manual_annotation"
+msgid "manual annotation"
+msgstr "ручна анотація"
+
+#: cgi-bin/bulk/input.pl:395 cgi-bin/bulk/input.pl:619
+#: lib/SGN/Controller/Bulk.pm:524 mason/tools/bulk/tabs/clone_tab.mas:51
+#: mason/tools/bulk/tabs/unigene_tab.mas:100
+msgctxt "lists_datasets.bulk.microarray_spot_id_sgn_s"
+msgid "microarray spot id (SGN-S)"
+msgstr "ідентифікатор позиції мікроматриці (SGN-S)"
+
+#: mason/tools/bulk/display/summary_page.mas:7
+msgctxt "lists_datasets.bulk.missing_ids"
+msgid "%{count} ids were not retrieved from the database because they were not part of the corresponding unigene set or because there were duplicate entries in the submitted id list."
+msgstr "Ідентифікаторів, не отриманих із бази даних: %{count}. Вони не входили до відповідного набору унігенів або повторювалися в надісланому списку ідентифікаторів."
+
+#: mason/tools/bulk/display/buttons.mas:32
+msgctxt "lists_datasets.bulk.new_query"
+msgid "New query"
+msgstr "Новий запит"
+
+#: cgi-bin/bulk/display.pl:549 cgi-bin/bulk/display.pl:552
+#: mason/tools/bulk/display/buttons/next.mas:27
+#: mason/tools/bulk/display/buttons/next.mas:30
+msgctxt "lists_datasets.bulk.next_page"
+msgid "Next Page"
+msgstr "Наступна сторінка"
+
+#: mason/tools/bulk/tabs/bac_tab.mas:52
+msgctxt "lists_datasets.bulk.old_cornell_style_clone_name_p001a01"
+msgid "Old Cornell-style clone name (P001A01)"
+msgstr "Назва клону у старому форматі Cornell (P001A01)"
+
+#: cgi-bin/bulk/input.pl:670 cgi-bin/bulk/input.pl:771
+#: mason/tools/bulk/tabs/bac_end_tab.mas:54
+#: mason/tools/bulk/tabs/bac_tab.mas:55
+msgctxt "lists_datasets.bulk.organism_name"
+msgid "organism name"
+msgstr "назва організму"
+
+#: mason/tools/bulk/display/buttons.mas:27
+#: mason/tools/qualityControl/validated_trials.mas:849
+msgctxt "lists_datasets.bulk.page_of"
+msgid "Page %{page} of %{pages}"
+msgstr "Сторінка %{page} із %{pages}"
+
+#: mason/tools/bulk/converter.mas:7
+msgctxt "lists_datasets.bulk.paste_the_identifiers_you_would_like_to_convert"
+msgid "Paste the identifiers you would like to convert"
+msgstr "Вставте ідентифікатори, які потрібно перетворити"
+
+#: cgi-bin/bulk/input.pl:611 lib/SGN/Controller/Bulk.pm:516
+#: mason/tools/bulk/tabs/clone_tab.mas:43
+msgctxt "lists_datasets.bulk.please_select_the_information_you_would_like_for_each_identifier"
+msgid "Please select the information you would like for each identifier:"
+msgstr "Виберіть потрібні відомості для кожного ідентифікатора:"
+
+#: mason/tools/bulk/display/summary_page.mas:30
+msgctxt "lists_datasets.bulk.please_try_your_search_again"
+msgid "Please try your search again."
+msgstr "Спробуйте виконати пошук ще раз."
+
+#: mason/tools/bulk/display/summary_page.mas:28
+msgctxt "lists_datasets.bulk.please_verify_that_you_used_the_correct_search_and_that_you_chose_the_right_un"
+msgid "Please verify that you used the correct search and that you chose the right unigene or bac assembly to download from. Also make sure that the submitted identifiers are appropriately formatted."
+msgstr "Переконайтеся, що використали правильний пошук і вибрали відповідну збірку унігенів або bac для завантаження. Також перевірте формат поданих ідентифікаторів."
+
+#: cgi-bin/bulk/download.pl:224 lib/SGN/Controller/Bulk/Download.pm:225
+msgctxt "lists_datasets.bulk.post_only"
+msgid "This page can only accept HTTP POST requests. Please go to %{link} to make your selections."
+msgstr "Ця сторінка приймає лише запити HTTP POST. Перейдіть до %{link}, щоб зробити вибір."
+
+#: cgi-bin/bulk/input.pl:388 mason/tools/bulk/tabs/unigene_tab.mas:86
+msgctxt "lists_datasets.bulk.preferred_sequence"
+msgid "preferred sequence"
+msgstr "пріоритетна послідовність"
+
+#: cgi-bin/bulk/display.pl:575 cgi-bin/bulk/display.pl:578
+#: mason/tools/bulk/display/buttons/previous.mas:22
+#: mason/tools/bulk/display/buttons/previous.mas:25
+msgctxt "lists_datasets.bulk.previous_page"
+msgid "Previous Page"
+msgstr "Попередня сторінка"
+
+#: mason/tools/bulk/display/bulk_gene.mas:37
+#: mason/tools/bulk/tabs/gene_tab.mas:40
+msgctxt "lists_datasets.bulk.protein_sequence"
+msgid "Protein sequence"
+msgstr "Білкова послідовність"
+
+#: cgi-bin/bulk/input.pl:782 mason/tools/bulk/tabs/bac_end_tab.mas:62
+msgctxt "lists_datasets.bulk.quality_value"
+msgid "quality value"
+msgstr "значення якості"
+
+#: cgi-bin/bulk/input.pl:784 mason/tools/bulk/tabs/bac_end_tab.mas:64
+msgctxt "lists_datasets.bulk.raw_sequence_and_or_quality"
+msgid "raw sequence and/or quality"
+msgstr "необроблена послідовність та/або якість"
+
+#: cgi-bin/bulk/input.pl:193 cgi-bin/bulk/input.pl:276
+#: cgi-bin/bulk/input.pl:375 cgi-bin/bulk/input.pl:527
+#: cgi-bin/bulk/input.pl:667 cgi-bin/bulk/input.pl:768
+#: mason/tools/bulk/tabs/array_tab.mas:60
+#: mason/tools/bulk/tabs/bac_end_tab.mas:77
+#: mason/tools/bulk/tabs/bac_tab.mas:70 mason/tools/bulk/tabs/clone_tab.mas:67
+#: mason/tools/bulk/tabs/converter_tab.mas:46
+#: mason/tools/bulk/tabs/unigene_tab.mas:112
+msgctxt "lists_datasets.bulk.reset"
+msgid "Reset"
+msgstr "Скинути"
+
+#: mason/tools/bulk/display/summary_page.mas:23
+msgctxt "lists_datasets.bulk.retrieved_lines"
+msgid "Your query resulted in %{count} lines being retrieved in %{time} seconds."
+msgstr "За запитом отримано %{count} рядків за %{time} секунд."
+
+#: cgi-bin/bulk/input.pl:384 cgi-bin/bulk/input.pl:623
+#: cgi-bin/search/markers/rflp_list.pl:92
+#: cgi-bin/search/markers/rflp_list.pl:93 lib/SGN/Controller/Bulk.pm:528
+#: mason/tools/bulk/tabs/clone_tab.mas:55
+#: mason/tools/bulk/tabs/unigene_tab.mas:81
+msgctxt "lists_datasets.bulk.sequence"
+msgid "sequence"
+msgstr "послідовність"
+
+#: cgi-bin/bulk/input.pl:392 cgi-bin/bulk/input.pl:614
+#: lib/SGN/Controller/Bulk.pm:519 mason/tools/bulk/tabs/clone_tab.mas:46
+#: mason/tools/bulk/tabs/unigene_tab.mas:94
+msgctxt "lists_datasets.bulk.sequence_read_id_sgn_t"
+msgid "sequence read id (SGN-T)"
+msgstr "ідентифікатор прочитання послідовності (SGN-T)"
+
+#: cgi-bin/bulk/input.pl:194 cgi-bin/bulk/input.pl:277
+#: cgi-bin/bulk/input.pl:376 cgi-bin/bulk/input.pl:668
+#: cgi-bin/bulk/input.pl:769 mason/tools/bulk/display/bulk_gene.mas:41
+#: mason/tools/bulk/display/features.mas:40
+#: mason/tools/bulk/tabs/array_tab.mas:61
+#: mason/tools/bulk/tabs/bac_end_tab.mas:78
+#: mason/tools/bulk/tabs/bac_tab.mas:71 mason/tools/bulk/tabs/clone_tab.mas:68
+#: mason/tools/bulk/tabs/converter_tab.mas:47
+#: mason/tools/bulk/tabs/feature_tab.mas:40
+#: mason/tools/bulk/tabs/gene_tab.mas:44
+#: mason/tools/bulk/tabs/unigene_tab.mas:113
+msgctxt "lists_datasets.bulk.submit"
+msgid "Submit"
+msgstr "Надіслати"
+
+#: mason/tools/bulk/display/summary_page.mas:22
+msgctxt "lists_datasets.bulk.submitted_lines"
+msgid "The query you submitted contained %{count} lines."
+msgstr "Надісланий запит містив %{count} рядків."
+
+#: cgi-bin/bulk/display.pl:600 mason/tools/bulk/display/buttons/summary.mas:21
+msgctxt "lists_datasets.bulk.summary_page"
+msgid "Summary Page"
+msgstr "Сторінка підсумків"
+
+#: mason/tools/bulk/index.mas:29
+msgctxt "lists_datasets.bulk.tab_load_failed"
+msgid "Couldn't load this tab. We'll try to fix this as soon as possible. If this wouldn't be a demo."
+msgstr "Не вдалося завантажити цю вкладку. Спробуємо виправити це якомога швидше. Якби це не була демонстрація."
+
+#: mason/tools/bulk/display/summary_page.mas:45
+#: mason/tools/bulk/display/summary_page.mas:52
+#: mason/tools/trait_designer.mas:45 mason/tools/treatment_designer.mas:36
+msgctxt "lists_datasets.bulk.text"
+msgid "Text"
+msgstr "Текст"
+
+#: mason/tools/bulk/display/summary_page.mas:37
+msgctxt "lists_datasets.bulk.the_results"
+msgid "the results."
+msgstr "результати."
+
+#: mason/tools/bulk/converter.mas:20
+msgctxt "lists_datasets.bulk.tom_microarray_identifiers"
+msgid "TOM Microarray Identifiers"
+msgstr "Ідентифікатори мікроматриць TOM"
+
+#: cgi-bin/bulk/input.pl:785 mason/tools/bulk/tabs/bac_end_tab.mas:65
+msgctxt "lists_datasets.bulk.trimmed_seq_and_or_quality"
+msgid "trimmed seq. and/or quality"
+msgstr "обрізана послідовність та/або якість"
+
+#: cgi-bin/bulk/input.pl:397 mason/tools/bulk/tabs/unigene_tab.mas:101
+msgctxt "lists_datasets.bulk.tus_number"
+msgid "TUS number"
+msgstr "номер TUS"
+
+#: cgi-bin/bulk/input.pl:620 lib/SGN/Controller/Bulk.pm:525
+#: mason/tools/bulk/tabs/clone_tab.mas:52
+msgctxt "lists_datasets.bulk.tus_number_used_to_order_clones"
+msgid "TUS number (used to order clones)"
+msgstr "номер TUS (для замовлення клонів)"
+
+#: cgi-bin/bulk/input.pl:616 lib/SGN/Controller/Bulk.pm:521
+#: mason/tools/bulk/tabs/clone_tab.mas:48
+msgctxt "lists_datasets.bulk.unigene_build_nr"
+msgid "unigene build nr"
+msgstr "номер збірки унігенів"
+
+#: cgi-bin/bulk/input.pl:394 mason/tools/bulk/tabs/unigene_tab.mas:96
+msgctxt "lists_datasets.bulk.unigene_build_number"
+msgid "unigene build number"
+msgstr "номер збірки унігенів"
+
+#: cgi-bin/bulk/input.pl:379 cgi-bin/bulk/input.pl:617
+#: lib/SGN/Controller/Bulk.pm:522 mason/tools/bulk/tabs/clone_tab.mas:49
+#: mason/tools/bulk/tabs/unigene_tab.mas:76
+#: mason/tools/bulk/tabs/unigene_tab.mas:98
+msgctxt "lists_datasets.bulk.unigene_id_sgn_u"
+msgid "unigene id (SGN-U)"
+msgstr "ідентифікатор унігена (SGN-U)"
+
+#: cgi-bin/bulk/input.pl:385 mason/tools/bulk/tabs/unigene_tab.mas:83
+msgctxt "lists_datasets.bulk.unigene_nucleotide_sequence"
+msgid "unigene nucleotide sequence"
+msgstr "нуклеотидна послідовність унігена"
+
+#: cgi-bin/bulk/input.pl:625 lib/SGN/Controller/Bulk.pm:530
+#: mason/tools/bulk/tabs/clone_tab.mas:57
+msgctxt "lists_datasets.bulk.unigene_sequence"
+msgid "Unigene sequence"
+msgstr "Послідовність унігена"
+
+#: mason/tools/bulk/converter.mas:18 mason/tools/bulk/index.mas:42
+msgctxt "lists_datasets.bulk.unigenes"
+msgid "Unigenes"
+msgstr "Унігени"
+
+#: mason/tools/bulk/display/summary_page.mas:41
+msgctxt "lists_datasets.bulk.view"
+msgid "View"
+msgstr "Перегляд"
+
+#: mason/bulk_download.mas:18
+#: mason/tools/bulk/display/bulk_gene_download.mas:17
+#: mason/tools/bulk/display/feature_download.mas:20
+#: mason/tools/bulk/gene_download.mas:21
+msgctxt "lists_datasets.bulk.your_query_did_not_contain_any_valid_identifiers_please_try_again"
+msgid "Your query did not contain any valid identifiers. Please try again."
+msgstr "Запит не містив жодного коректного ідентифікатора. Спробуйте ще раз."
+
+#: mason/bulk_download.mas:12
+#: mason/tools/bulk/display/bulk_gene_download.mas:11
+#: mason/tools/bulk/display/feature_download.mas:14
+#: mason/tools/bulk/gene_download.mas:15
+msgctxt "lists_datasets.bulk.your_query_was_successful"
+msgid "Your query was successful."
+msgstr "Запит виконано успішно."
+
+#: mason/dataset/tool_compatibility.mas:10
+msgctxt "lists_datasets.compatibility.calculate"
+msgid "Calculate Tool Compatibility"
+msgstr "Обчислити сумісність з інструментами"
+
+#: mason/dataset/tool_compatibility.mas:88
+msgctxt "lists_datasets.compatibility.calculate_error"
+msgid "An error occurred calculating tool compatibility"
+msgstr "Сталася помилка під час обчислення сумісності з інструментами"
+
+#: mason/dataset/tool_compatibility.mas:75
+msgctxt "lists_datasets.compatibility.calculate_error_detail"
+msgid ""
+"An error occurred calculating tool compatibility: \n"
+"%{error}"
+msgstr ""
+"Сталася помилка під час обчислення сумісності з інструментами: \n"
+"%{error}"
+
+#: mason/dataset/tool_compatibility.mas:77
+#: mason/dataset/tool_compatibility.mas:89
+msgctxt "lists_datasets.compatibility.calculate_failed"
+msgid "Error calculating tool compatibility."
+msgstr "Помилка обчислення сумісності з інструментами."
+
+#: mason/dataset/tool_compatibility.mas:6
+msgctxt "lists_datasets.compatibility.explanation"
+msgid "Predicted tool compatibility based on dataset definition. The table details the traits and types of analyses that can be performed. If database elements are updated, such as phenotypes added to field trials or accessions, you may wish to recalculate tool compatibility for more accurate results. Warning symbols indicate compatibility, but with low sample sizes."
+msgstr "Прогнозована сумісність з інструментами на основі визначення набору даних. Таблиця містить ознаки та типи аналізів, які можна виконати. Якщо елементи бази даних оновлено, наприклад додано фенотипи до польових дослідів або зразків, можна повторно обчислити сумісність для точніших результатів. Попереджувальні символи означають сумісність за малого обсягу вибірки."
+
+#: mason/dataset/tool_compatibility.mas:111
+msgctxt "lists_datasets.compatibility.retrieve_error"
+msgid "An error occurred retrieving tool compatibility"
+msgstr "Сталася помилка під час отримання сумісності з інструментами"
+
+#: mason/dataset/tool_compatibility.mas:98
+msgctxt "lists_datasets.compatibility.retrieve_error_detail"
+msgid ""
+"An error occurred. \n"
+"%{error}"
+msgstr ""
+"Сталася помилка. \n"
+"%{error}"
+
+#: mason/dataset/tool_compatibility.mas:113
+#: mason/dataset/tool_compatibility.mas:99
+msgctxt "lists_datasets.compatibility.retrieve_failed"
+msgid "Error retrieving tool compatibility."
+msgstr "Помилка отримання сумісності з інструментами."
+
+#: lib/SGN/Controller/Dataset.pm:144
+msgctxt "lists_datasets.controller.authorization_failed"
+msgid "Could not authorize the application: %{error}"
+msgstr "Не вдалося авторизувати застосунок: %{error}"
+
+#: lib/SGN/Controller/Dataset.pm:42
+msgctxt "lists_datasets.controller.no_access"
+msgid "You do not have access to this dataset.%{break}%{break}If you are the owner of this dataset, make sure you are logged in, or ask the owner to make it public."
+msgstr "Ви не маєте доступу до цього набору даних.%{break}%{break}Якщо ви є його власником, переконайтеся, що виконали вхід, або попросіть власника зробити його загальнодоступним."
+
+#: lib/SGN/Controller/Dataset.pm:139
+msgctxt "lists_datasets.controller.no_code"
+msgid "Authorization code not returned by the service"
+msgstr "Сервіс не повернув код авторизації"
+
+#: lib/SGN/Controller/Dataset.pm:33
+msgctxt "lists_datasets.controller.not_found"
+msgid "The requested dataset does not exist or has been deleted."
+msgstr "Запитаний набір даних не існує або його видалено."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1122
+#: lib/SGN/Controller/AJAX/Dataset.pm:1206
+#: lib/SGN/Controller/AJAX/Dataset.pm:1295
+#: lib/SGN/Controller/AJAX/Dataset.pm:1358
+#: lib/SGN/Controller/AJAX/Dataset.pm:627
+#: lib/SGN/Controller/AJAX/Dataset.pm:760
+#: lib/SGN/Controller/AJAX/Dataset.pm:790
+#: lib/SGN/Controller/AJAX/Dataset.pm:844
+#: lib/SGN/Controller/AJAX/Dataset.pm:978 lib/SGN/Controller/Dataset.pm:117
+msgctxt "lists_datasets.controller.service_missing"
+msgid "The selected service does not exist in the server configuration"
+msgstr "Вибраний сервіс відсутній у конфігурації сервера"
+
+#: mason/breeders_toolbox/download.mas:26
+#: mason/breeders_toolbox/download.mas:295
+#: mason/breeders_toolbox/download.mas:377
+#: mason/breeders_toolbox/download.mas:493
+#: mason/breeders_toolbox/download.mas:766
+#: mason/breeders_toolbox/download.mas:846
+msgctxt "lists_datasets.download.accessions"
+msgid "Accessions"
+msgstr "Зразки"
+
+#: mason/breeders_toolbox/download.mas:145
+#: mason/breeders_toolbox/download.mas:297
+#: mason/breeders_toolbox/download.mas:38
+#: mason/breeders_toolbox/download.mas:386
+#: mason/breeders_toolbox/download.mas:495
+#: mason/breeders_toolbox/download.mas:559
+#: mason/breeders_toolbox/download.mas:626
+#: mason/breeders_toolbox/download.mas:703
+#: mason/breeders_toolbox/download.mas:772
+#: mason/breeders_toolbox/download.mas:852
+msgctxt "lists_datasets.download.action"
+msgid "Action"
+msgstr "Дія"
+
+#: mason/breeders_toolbox/download.mas:66
+msgctxt "lists_datasets.download.all"
+msgid "All"
+msgstr "Усі"
+
+#: mason/breeders_toolbox/download.mas:403
+msgctxt "lists_datasets.download.all_generations"
+msgid "All Generations"
+msgstr "Усі покоління"
+
+#: mason/breeders_toolbox/download.mas:410
+msgctxt "lists_datasets.download.ancestors_and_descendants"
+msgid "Ancestors and Descendants"
+msgstr "Предки та нащадки"
+
+#: mason/breeders_toolbox/download.mas:16
+msgctxt "lists_datasets.download.choose_a_list_for_each_parameter_and_click_download"
+msgid "Choose a list for each parameter and click \"Download\"."
+msgstr "Виберіть список для кожного параметра й натисніть «Завантажити»."
+
+#: mason/breeders_toolbox/download.mas:64
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:49
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:36
+#: mason/breeders_toolbox/trial/phenotype_summary.mas:66
+#: mason/stock/download_stock_phenotypes_dialog.mas:41
+#: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:612
+msgctxt "lists_datasets.download.data_level"
+msgid "Data Level:"
+msgstr "Рівень даних:"
+
+#: mason/breeders_toolbox/download.mas:117
+msgctxt "lists_datasets.download.datasets"
+msgid "Datasets"
+msgstr "Набори даних"
+
+#: mason/breeders_toolbox/download.mas:398
+msgctxt "lists_datasets.download.depth"
+msgid "Depth:"
+msgstr "Глибина родоводу:"
+
+#: mason/breeders_toolbox/download.mas:102
+#: mason/breeders_toolbox/download.mas:170
+#: mason/breeders_toolbox/download.mas:312
+#: mason/breeders_toolbox/download.mas:421
+#: mason/breeders_toolbox/download.mas:509
+#: mason/breeders_toolbox/download.mas:573
+#: mason/breeders_toolbox/download.mas:640
+#: mason/breeders_toolbox/download.mas:717
+#: mason/breeders_toolbox/download.mas:787
+#: mason/breeders_toolbox/download.mas:871
+msgctxt "lists_datasets.download.download"
+msgid "Download"
+msgstr "Завантажити"
+
+#: mason/breeders_toolbox/download.mas:293
+msgctxt "lists_datasets.download.download_accession_properties"
+msgid "Download Accession Properties"
+msgstr "Завантажити властивості зразків"
+
+#: mason/breeders_toolbox/download.mas:491
+msgctxt "lists_datasets.download.download_crosses_and_families_of_progenies"
+msgid "Download Crosses and Families of Progenies"
+msgstr "Завантажити схрещування та родини потомства"
+
+#: mason/breeders_toolbox/download.mas:763
+msgctxt "lists_datasets.download.download_genotypes"
+msgid "Download Genotypes"
+msgstr "Завантажити генотипи"
+
+#: mason/breeders_toolbox/download.mas:133
+msgctxt "lists_datasets.download.download_metadata"
+msgid "Download Metadata"
+msgstr "Завантажити метадані"
+
+#: mason/breeders_toolbox/download.mas:699
+#: mason/transformation/manage_transformation.mas:14
+msgctxt "lists_datasets.download.download_obsolete_metadata"
+msgid "Download Obsolete Metadata"
+msgstr "Завантажити метадані застарілих записів"
+
+#: mason/breeders_toolbox/download.mas:374
+msgctxt "lists_datasets.download.download_pedigrees"
+msgid "Download Pedigrees"
+msgstr "Завантажити родоводи"
+
+#: mason/breeders_toolbox/download.mas:20
+msgctxt "lists_datasets.download.download_phenotypes_using_lists"
+msgid "Download Phenotypes Using Lists"
+msgstr "Завантажити фенотипи за списками"
+
+#: mason/breeders_toolbox/download.mas:555
+msgctxt "lists_datasets.download.download_seedlot_details"
+msgid "Download Seedlot Details"
+msgstr "Завантажити відомості про партії насіння"
+
+#: mason/breeders_toolbox/download.mas:622
+msgctxt "lists_datasets.download.download_seedlot_maintenance_events"
+msgid "Download Seedlot Maintenance Events"
+msgstr "Завантажити події роботи з партіями насіння"
+
+#: mason/breeders_toolbox/download.mas:11
+msgctxt "lists_datasets.download.download_using_lists"
+msgid "Download Using Lists"
+msgstr "Завантаження за списками"
+
+#: mason/breeders_toolbox/download.mas:77
+msgctxt "lists_datasets.download.exclude_phenotype_outliers"
+msgid "Exclude Phenotype Outliers:"
+msgstr "Виключити викиди фенотипів:"
+
+#: mason/breeders_toolbox/download.mas:296
+#: mason/breeders_toolbox/download.mas:383
+#: mason/breeders_toolbox/download.mas:494
+#: mason/breeders_toolbox/download.mas:558
+#: mason/breeders_toolbox/download.mas:625
+#: mason/breeders_toolbox/download.mas:702
+msgctxt "lists_datasets.download.format.fda5b99"
+msgid "Format"
+msgstr "Формат"
+
+#: mason/breeders_toolbox/download.mas:769
+#: mason/breeders_toolbox/download.mas:849
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:1101
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:127
+#: mason/search/genotyping_protocols_accession_filter.mas:114
+msgctxt "lists_datasets.download.genotyping_protocol"
+msgid "Genotyping Protocol"
+msgstr "Протокол генотипування"
+
+#: mason/breeders_toolbox/download.mas:840
+msgctxt "lists_datasets.download.genotyping_qc"
+msgid "Genotyping QC"
+msgstr "Контроль якості генотипування (QC)"
+
+#: mason/breeders_toolbox/download.mas:417
+msgctxt "lists_datasets.download.helium_format"
+msgid "Helium Format"
+msgstr "Формат Helium"
+
+#: mason/breeders_toolbox/download.mas:405
+msgctxt "lists_datasets.download.include"
+msgid "Include:"
+msgstr "Включити:"
+
+#: mason/breeders_toolbox/download.mas:89
+msgctxt "lists_datasets.download.include_accession_entry_numbers"
+msgid "Include Accession Entry Numbers:"
+msgstr "Включити облікові номери зразків:"
+
+#: mason/breeders_toolbox/download.mas:83
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:103
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:75
+#: mason/stock/download_stock_phenotypes_dialog.mas:78
+msgctxt "lists_datasets.download.include_intercrop_accessions"
+msgid "Include Intercrop Accessions:"
+msgstr "Включити зразки сумісного посіву:"
+
+#: mason/breeders_toolbox/download.mas:95
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:133
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:95
+#: mason/stock/download_stock_phenotypes_dialog.mas:118
+msgctxt "lists_datasets.download.include_parents"
+msgid "Include Parents:"
+msgstr "Включити батьківські форми:"
+
+#: mason/breeders_toolbox/download.mas:112
+msgctxt "lists_datasets.download.inspect_datasets"
+msgid "Inspect Datasets"
+msgstr "Переглянути набори даних"
+
+#: mason/breeders_toolbox/download.mas:165
+msgctxt "lists_datasets.download.metadata"
+msgid "Metadata"
+msgstr "Метадані"
+
+#: mason/breeders_toolbox/download.mas:73
+#: mason/breeders_toolbox/download.mas:79
+#: mason/breeders_toolbox/download.mas:85
+#: mason/breeders_toolbox/download.mas:91
+#: mason/breeders_toolbox/download.mas:97
+msgctxt "lists_datasets.download.no"
+msgid "No"
+msgstr "Ні"
+
+#: mason/breeders_toolbox/download.mas:701
+msgctxt "lists_datasets.download.obsoleted_stocks"
+msgid "Obsoleted Stocks"
+msgstr "Матеріал, позначений застарілим"
+
+#: mason/breeders_toolbox/download.mas:407
+msgctxt "lists_datasets.download.only_ancestors"
+msgid "Only Ancestors"
+msgstr "Лише предки"
+
+#: mason/breeders_toolbox/download.mas:400
+msgctxt "lists_datasets.download.only_one_generation"
+msgid "Only One Generation"
+msgstr "Лише одне покоління"
+
+#: mason/breeders_toolbox/download.mas:142
+#: mason/breeders_toolbox/download.mas:35
+msgctxt "lists_datasets.download.options"
+msgid "Options"
+msgstr "Параметри"
+
+#: mason/breeders_toolbox/download.mas:416
+#: mason/breeders_toolbox/download.mas:569
+msgctxt "lists_datasets.download.plain_text"
+msgid "Plain Text"
+msgstr "Звичайний текст"
+
+#: mason/breeders_toolbox/download.mas:380
+msgctxt "lists_datasets.download.query"
+msgid "Query"
+msgstr "Запит"
+
+#: mason/breeders_toolbox/download.mas:557
+#: mason/breeders_toolbox/download.mas:624
+#: mason/breeders_toolbox/manage_upload.mas:167
+msgctxt "lists_datasets.download.seedlots"
+msgid "Seedlots"
+msgstr "Партії насіння"
+
+#: mason/breeders_toolbox/download.mas:374
+#: mason/breeders_toolbox/download.mas:763
+#: mason/breeders_toolbox/download.mas:840
+msgctxt "lists_datasets.download.select_parameter"
+msgid "Select parameter:"
+msgstr "Виберіть параметр:"
+
+#: mason/breeders_toolbox/download.mas:293
+#: mason/breeders_toolbox/download.mas:491
+#: mason/breeders_toolbox/download.mas:555
+#: mason/breeders_toolbox/download.mas:622
+#: mason/breeders_toolbox/download.mas:699
+msgctxt "lists_datasets.download.select_parameters.03fa00c"
+msgid "Select parameters:"
+msgstr "Виберіть параметри:"
+
+#: mason/breeders_toolbox/download.mas:133
+#: mason/breeders_toolbox/download.mas:20
+msgctxt "lists_datasets.download.select_parameters.edfe1a5"
+msgid "Select Parameters:"
+msgstr "Виберіть параметри:"
+
+#: mason/breeders_toolbox/download.mas:32
+#: mason/breeders_toolbox/manage_upload.mas:27
+#: mason/breeders_toolbox/selection_index.mas:106
+#: mason/breeders_toolbox/trial/accession_rank_workflow.mas:23
+#: mason/breeders_toolbox/trial/time_series_accessions_workflow.mas:23
+#: mason/phenotypes/submission_guide.mas:72
+msgctxt "lists_datasets.download.traits"
+msgid "Traits"
+msgstr "Ознаки"
+
+#: mason/breeders_toolbox/download.mas:139
+#: mason/breeders_toolbox/download.mas:29
+#: mason/breeders_toolbox/download.mas:843
+msgctxt "lists_datasets.download.trials"
+msgid "Trials"
+msgstr "Досліди"
+
+#: mason/breeders_toolbox/download.mas:74
+#: mason/breeders_toolbox/download.mas:80
+#: mason/breeders_toolbox/download.mas:86
+#: mason/breeders_toolbox/download.mas:92
+#: mason/breeders_toolbox/download.mas:98
+msgctxt "lists_datasets.download.yes"
+msgid "Yes"
+msgstr "Так"
+
+#: mason/breeders_toolbox/download.mas:829
+msgctxt "lists_datasets.download_js.an_error_occurred"
+msgid "An error occurred."
+msgstr "Сталася помилка."
+
+#: mason/breeders_toolbox/download.mas:735
+#: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:46
+msgctxt "lists_datasets.download_js.please_select_an_obsoleted_stock_list"
+msgid "Please select an obsoleted stock list!"
+msgstr "Виберіть список матеріалу, позначеного застарілим!"
+
+#: mason/breeders_toolbox/download.mas:245
+#: mason/breeders_toolbox/download.mas:937
+msgctxt "lists_datasets.download_js.some_lists_lists_are_not_valid_please_check"
+msgid "Some lists (%{lists}) are not valid, please check."
+msgstr "Деякі списки (%{lists}) недійсні. Перевірте їх."
+
+#: mason/breeders_toolbox/download.mas:817
+msgctxt "lists_datasets.download_js.the_accession_list_could_not_be_validated_please_correct_the_list"
+msgid "The accession list could not be validated. Please correct the list(s) and try again"
+msgstr "Не вдалося перевірити список зразків. Виправте список або списки й повторіть спробу"
+
+#: mason/breeders_toolbox/download.mas:343
+#: mason/breeders_toolbox/download.mas:450
+#: mason/breeders_toolbox/download.mas:533
+msgctxt "lists_datasets.download_js.the_accession_list_did_not_pass_validation_please_correct_the_lis"
+msgid "The accession list did not pass validation. Please correct the list and try again"
+msgstr "Список зразків не пройшов перевірку. Виправте список і повторіть спробу"
+
+#: mason/breeders_toolbox/download.mas:197
+msgctxt "lists_datasets.download_js.the_following_lists_did_not_pass_validation_lists_please_correct_"
+msgid "The following lists did not pass validation: %{lists}. Please correct the list(s) and try again"
+msgstr "Такі списки не пройшли перевірку: %{lists}. Виправте списки й повторіть спробу"
+
+#: mason/breeders_toolbox/download.mas:740
+#: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:51
+msgctxt "lists_datasets.download_js.the_obsoleted_stock_list_did_not_pass_validation_please_correct_t"
+msgid "The obsoleted stock list did not pass validation. Please correct the list and try again"
+msgstr "Список застарілого матеріалу не пройшов перевірку. Виправте список і повторіть спробу"
+
+#: mason/breeders_toolbox/download.mas:597
+#: mason/breeders_toolbox/download.mas:670
+msgctxt "lists_datasets.download_js.the_seedlot_list_did_not_pass_validation_please_correct_the_list_"
+msgid "The seedlot list did not pass validation. Please correct the list and try again"
+msgstr "Список партій насіння не пройшов перевірку. Виправте список і повторіть спробу"
+
+#: mason/breeders_toolbox/download.mas:814
+msgctxt "lists_datasets.download_js.you_need_to_select_a_list_of_accessions_and_a_protocol"
+msgid "You need to select a list of accessions and a protocol !"
+msgstr "Потрібно вибрати список зразків і протокол!"
+
+#: mason/breeders_toolbox/download.mas:591
+#: mason/breeders_toolbox/download.mas:660
+msgctxt "lists_datasets.download_js.you_need_to_select_a_seedlot_list"
+msgid "You need to select a seedlot list!"
+msgstr "Потрібно вибрати список партій насіння!"
+
+#: mason/breeders_toolbox/download.mas:333
+#: mason/breeders_toolbox/download.mas:442
+#: mason/breeders_toolbox/download.mas:527
+msgctxt "lists_datasets.download_js.you_need_to_select_an_accession_list"
+msgid "You need to select an accession list!"
+msgstr "Потрібно вибрати список зразків!"
+
+#: mason/breeders_toolbox/download.mas:912
+msgctxt "lists_datasets.download_js.you_need_to_select_an_accession_or_a_trial_or_both"
+msgid "You need to select an accession or a trial, or both!"
+msgstr "Потрібно вибрати зразок, дослід або обидва!"
+
+#: lib/SGN/Controller/AJAX/FileShareDump.pm:99
+msgctxt "lists_datasets.fileshare_api.download"
+msgid "Download"
+msgstr "Завантажити"
+
+#: lib/SGN/Controller/AJAX/FileShareDump.pm:63
+msgctxt "lists_datasets.fileshare_api.upload_store_failed"
+msgid "Could not store uploaded file!"
+msgstr "Не вдалося зберегти завантажений файл!"
+
+#: mason/dataset/outliers.mas:44
+msgctxt "lists_datasets.pages.add_selection_to_outliers"
+msgid "Add selection to outliers"
+msgstr "Додати вибране до викидів"
+
+#: mason/dataset/index.mas:99
+msgctxt "lists_datasets.pages.analyses_using_this_dataset"
+msgid "Analyses using this dataset"
+msgstr "Аналізи з використанням цього набору даних"
+
+#: mason/dataset/index.mas:129
+msgctxt "lists_datasets.pages.analysis_retrieval_error"
+msgid "Error retrieving analyses using this dataset."
+msgstr "Помилка отримання аналізів з використанням цього набору даних."
+
+#: mason/dataset/index.mas:108
+msgctxt "lists_datasets.pages.analysis_tools"
+msgid "Analysis Tools"
+msgstr "Інструменти аналізу"
+
+#: mason/dataset/index.mas:25
+msgctxt "lists_datasets.pages.dataset_name"
+msgid "Dataset %{name}"
+msgstr "Набір даних %{name}"
+
+#: mason/dataset/index.mas:87
+msgctxt "lists_datasets.pages.delete"
+msgid "Delete"
+msgstr "Видалити"
+
+#: mason/dataset/index.mas:38
+msgctxt "lists_datasets.pages.description"
+msgid "Description"
+msgstr "Опис"
+
+#: mason/dataset/outliers.mas:47
+msgctxt "lists_datasets.pages.download_phenotype_table_without_outliers"
+msgid "Download Phenotype Table without outliers"
+msgstr "Завантажити таблицю фенотипів без викидів"
+
+#: mason/dataset/index.mas:50 mason/dataset/index.mas:69
+msgctxt "lists_datasets.pages.edit"
+msgid "Edit"
+msgstr "Редагувати"
+
+#: mason/dataset/index.mas:75
+msgctxt "lists_datasets.pages.make_private"
+msgid "Make Private"
+msgstr "Зробити приватним"
+
+#: mason/dataset/index.mas:81
+msgctxt "lists_datasets.pages.make_public"
+msgid "Make Public"
+msgstr "Зробити загальнодоступним"
+
+#: mason/dataset/outliers.mas:48
+msgctxt "lists_datasets.pages.make_rosner_outlier_test"
+msgid "Make Rosner outlier test"
+msgstr "Виконати тест Роснера на викиди"
+
+#: js/source/entries/dataset_scatterplot.js:8 mason/dataset/outliers.mas:32
+msgctxt "lists_datasets.pages.mean"
+msgid "Mean"
+msgstr "Середнє"
+
+#: mason/dataset/outliers.mas:30 mason/dataset/outliers.mas:32
+msgctxt "lists_datasets.pages.mean_accessibility"
+msgid "mean"
+msgstr "середнє"
+
+#: js/source/entries/dataset_scatterplot.js:8
+#: mason/breeders_toolbox/trial/derived_trait.mas:85
+#: mason/dataset/outliers.mas:28
+msgctxt "lists_datasets.pages.median"
+msgid "Median"
+msgstr "Медіана"
+
+#: mason/dataset/outliers.mas:26 mason/dataset/outliers.mas:28
+msgctxt "lists_datasets.pages.median_accessibility"
+msgid "median"
+msgstr "медіана"
+
+#: mason/dataset/index.mas:32
+msgctxt "lists_datasets.pages.name"
+msgid "Name"
+msgstr "Назва"
+
+#: mason/dataset/index.mas:106
+msgctxt "lists_datasets.pages.outlier_detection"
+msgid "Outlier Detection"
+msgstr "Виявлення викидів"
+
+#: mason/dataset/index.mas:58
+msgctxt "lists_datasets.pages.owner"
+msgid "Owner"
+msgstr "Власник"
+
+#: mason/dataset/index.mas:112
+msgctxt "lists_datasets.pages.publish_dataset"
+msgid "Publish Dataset"
+msgstr "Опублікувати набір даних"
+
+#: mason/dataset/outliers.mas:46
+msgctxt "lists_datasets.pages.reset_all_outliers"
+msgid "Reset all outliers"
+msgstr "Скинути всі викиди"
+
+#: mason/dataset/outliers.mas:45
+msgctxt "lists_datasets.pages.reset_outliers_for_current_trait"
+msgid "Reset outliers for current trait"
+msgstr "Скинути викиди для поточної ознаки"
+
+#: mason/dataset/outliers.mas:53
+msgctxt "lists_datasets.pages.rosner_s_test_is_calculated_by_the_r_function_rosnertest_envstats_from_package_envstats"
+msgid "Rosner's test is calculated by the R function rosnerTest{EnvStats} from package EnvStats."
+msgstr "Тест Роснера обчислюється функцією R rosnerTest{EnvStats} з пакета EnvStats."
+
+#: mason/dataset/outliers.mas:11
+msgctxt "lists_datasets.pages.select_a_trait"
+msgid "Select a Trait: "
+msgstr "Виберіть ознаку: "
+
+#: mason/dataset/index.mas:94
+msgctxt "lists_datasets.pages.select_dataset_in_wizard"
+msgid "Select Dataset in Wizard"
+msgstr "Вибрати набір даних у майстрі"
+
+#: mason/dataset/index.mas:110
+msgctxt "lists_datasets.pages.tool_compatibility"
+msgid "Tool Compatibility"
+msgstr "Сумісність з інструментами"
+
+#: mason/dataset/index.mas:43
+msgctxt "lists_datasets.pages.update"
+msgid "Update"
+msgstr "Оновити"
+
+#: js/source/entries/dataset_scatterplot.js:8
+msgctxt "lists_datasets.scatterplot.std_dev"
+msgid "Std Dev"
+msgstr "Станд. відх."
+
+#: lib/SGN/Controller/AJAX/List.pm:1248
+msgctxt "lists_datasets.server.case_type"
+msgid "Only lists with type 'accessions' can be adjusted for case in the database."
+msgstr "У базі даних регістр можна узгодити лише для списків типу «accessions»."
+
+#: lib/SGN/Controller/AJAX/List.pm:798
+msgctxt "lists_datasets.server.conversion_warning"
+msgid "Warning. This lists contains elements that cannot be converted."
+msgstr "Увага. Цей список містить елементи, які неможливо перетворити."
+
+#: lib/SGN/Controller/AJAX/List.pm:1022
+msgctxt "lists_datasets.server.delete_error"
+msgid "An error occurred while attempting to delete item %{id}"
+msgstr "Сталася помилка під час видалення елемента %{id}"
+
+#: lib/SGN/Controller/AJAX/List.pm:372
+msgctxt "lists_datasets.server.element_required"
+msgid "You must provide an element to add to the list"
+msgstr "Укажіть елемент для додавання до списку"
+
+#: lib/SGN/Controller/AJAX/List.pm:385
+msgctxt "lists_datasets.server.error_colon"
+msgid "An error occurred: %{detail}"
+msgstr "Сталася помилка: %{detail}"
+
+#: lib/SGN/Controller/AJAX/List.pm:219
+msgctxt "lists_datasets.server.error_comma"
+msgid "An error occurred, %{detail}"
+msgstr "Сталася помилка, %{detail}"
+
+#: lib/SGN/Controller/AJAX/List.pm:377
+msgctxt "lists_datasets.server.list_id_required"
+msgid "Please specify a list_id."
+msgstr "Укажіть list_id."
+
+#: lib/SGN/Controller/AJAX/List.pm:1142
+msgctxt "lists_datasets.server.marker_delete_login"
+msgid "You must be logged in to delete marker alleles."
+msgstr "Для видалення алелів маркерів потрібно увійти."
+
+#: lib/SGN/Controller/AJAX/List.pm:1116 lib/SGN/Controller/AJAX/List.pm:1175
+#: lib/SGN/Controller/AJAX/List.pm:1205
+msgctxt "lists_datasets.server.marker_login"
+msgid "You must be logged in to use marker alleles."
+msgstr "Для роботи з алелями маркерів потрібно увійти."
+
+#: lib/SGN/Controller/AJAX/List.pm:1377
+msgctxt "lists_datasets.server.missing_items"
+msgid "The following items are not in the database: %{items}"
+msgstr "У базі даних немає таких елементів: %{items}"
+
+#: lib/SGN/Controller/AJAX/List.pm:1263 lib/SGN/Controller/AJAX/List.pm:1330
+msgctxt "lists_datasets.server.no_data"
+msgid "No data!"
+msgstr "Немає даних!"
+
+#: lib/SGN/Controller/AJAX/List.pm:1243 lib/SGN/Controller/AJAX/List.pm:1309
+msgctxt "lists_datasets.server.not_owner"
+msgid "You don't own this list and you cannot modify it."
+msgstr "Ви не є власником цього списку й не можете його змінювати."
+
+#: lib/SGN/Controller/AJAX/List.pm:1275 lib/SGN/Controller/AJAX/List.pm:1342
+msgctxt "lists_datasets.server.not_replaced"
+msgid "Error: %{item} not replaced. "
+msgstr "Помилка: %{item} не замінено. "
+
+#: lib/SGN/Controller/AJAX/List.pm:462
+msgctxt "lists_datasets.server.public_login"
+msgid "You must be logged in to use lists and list must be public!"
+msgstr "Для роботи зі списками потрібно увійти, а список має бути загальнодоступним!"
+
+#: lib/SGN/Controller/AJAX/List.pm:1314
+msgctxt "lists_datasets.server.synonym_type"
+msgid "Only lists with type 'accessions' can be adjusted for synonyms in the database."
+msgstr "У базі даних синоніми можна узгодити лише для списків типу «accessions»."
+
+#: lib/SGN/Controller/AJAX/List.pm:816
+msgctxt "lists_datasets.server.temporary_conversion_warning"
+msgid "Warning. This temporary list contains elements that cannot be converted."
+msgstr "Увага. Цей тимчасовий список містить елементи, які неможливо перетворити."
+
+#: lib/SGN/Controller/AJAX/List.pm:952
+msgctxt "lists_datasets.server.update_error"
+msgid "An error occurred while attempting to update item %{id}"
+msgstr "Сталася помилка під час оновлення елемента %{id}"
+
+#: mason/site/list.mas:99
+msgctxt "lists_datasets.shared.adjust_case"
+msgid "Adjust Case"
+msgstr "Узгодити регістр"
+
+#: mason/list/index.mas:11
+msgctxt "lists_datasets.shared.available_lists"
+msgid "Available lists"
+msgstr "Доступні списки"
+
+#: mason/site/list.mas:194
+msgctxt "lists_datasets.shared.available_seedlots"
+msgid "Available Seedlots"
+msgstr "Доступні партії насіння"
+
+#: mason/site/list.mas:102
+msgctxt "lists_datasets.shared.click_the_adjust_case_button_to_align_the_case_in_the_list_with_what_is_in_the_database"
+msgid "Click the Adjust Case button to align the case in the list with what is in the database."
+msgstr "Натисніть кнопку узгодження регістру, щоб регістр у списку відповідав базі даних."
+
+#: mason/site/dataset.mas:19 mason/site/dataset.mas:29
+#: mason/site/dataset.mas:39 mason/site/dataset.mas:49
+#: mason/site/dataset.mas:59 mason/site/dataset.mas:70 mason/site/dataset.mas:8
+#: mason/site/dataset.mas:85 mason/site/list.mas:137 mason/site/list.mas:147
+#: mason/site/list.mas:157 mason/site/list.mas:167 mason/site/list.mas:18
+#: mason/site/list.mas:182 mason/site/list.mas:193 mason/site/list.mas:209
+#: mason/site/list.mas:220 mason/site/list.mas:236 mason/site/list.mas:28
+#: mason/site/list.mas:37 mason/site/list.mas:47 mason/site/list.mas:56
+#: mason/site/list.mas:67 mason/site/list.mas:8
+msgctxt "lists_datasets.shared.close"
+msgid "Close"
+msgstr "Закрити"
+
+#: mason/site/list.mas:203
+msgctxt "lists_datasets.shared.create_a_new_list_from_selected_seedlots"
+msgid "Create a New List from Selected Seedlots:"
+msgstr "Створити новий список з вибраних партій насіння:"
+
+#: mason/site/list.mas:177
+msgctxt "lists_datasets.shared.create_a_new_list_from_unique_names"
+msgid "Create a New List from Unique Names:"
+msgstr "Створити новий список з унікальних назв:"
+
+#: mason/list/index.mas:38
+msgctxt "lists_datasets.shared.create_new_list"
+msgid "Create new list"
+msgstr "Створити новий список"
+
+#: mason/site/dataset.mas:50
+msgctxt "lists_datasets.shared.dataset_contents"
+msgid "Dataset Contents"
+msgstr "Вміст набору даних"
+
+#: mason/site/dataset.mas:71
+msgctxt "lists_datasets.shared.dataset_validation_failed"
+msgid "Dataset Validation Failed"
+msgstr "Перевірка набору даних не пройшла"
+
+#: mason/site/list.mas:156 mason/site/list.mas:233
+msgctxt "lists_datasets.shared.download"
+msgid "Download"
+msgstr "Завантажити"
+
+#: mason/site/list.mas:230
+msgctxt "lists_datasets.shared.download_column"
+msgid "Download column:"
+msgstr "Завантажити стовпець:"
+
+#: mason/site/dataset.mas:78 mason/site/list.mas:76
+msgctxt "lists_datasets.shared.elements_not_found"
+msgid "Elements not found:"
+msgstr "Не знайдено елементів:"
+
+#: mason/site/list.mas:148
+msgctxt "lists_datasets.shared.fuzzy_search_results"
+msgid "Fuzzy Search Results"
+msgstr "Результати нечіткого пошуку"
+
+#: mason/site/list.mas:108
+msgctxt "lists_datasets.shared.items_listed_here_have_mulitple_case_mismatches_and_must_be_fixed_manually_if_accessions_need_to_be_"
+msgid "Items listed here have multiple case mismatches and must be fixed manually. If accessions need to be merged, contact the database directly."
+msgstr "Наведені елементи мають кілька невідповідностей регістру, які потрібно виправити вручну. Якщо зразки потрібно об’єднати, зверніться безпосередньо до бази даних."
+
+#: mason/site/list.mas:221
+msgctxt "lists_datasets.shared.list_comparison"
+msgid "List Comparison"
+msgstr "Порівняння списків"
+
+#: mason/site/list.mas:48
+msgctxt "lists_datasets.shared.list_contents"
+msgid "List Contents"
+msgstr "Вміст списку"
+
+#: mason/site/list.mas:115
+msgctxt "lists_datasets.shared.list_elements_matching_a_synonym"
+msgid "List elements matching a synonym"
+msgstr "Елементи списку, що відповідають синоніму"
+
+#: mason/site/list.mas:178 mason/site/list.mas:204
+msgctxt "lists_datasets.shared.list_name"
+msgid "List Name..."
+msgstr "Назва списку..."
+
+#: mason/site/list.mas:68
+msgctxt "lists_datasets.shared.list_validation_report_failed"
+msgid "List Validation Report: Failed"
+msgstr "Звіт перевірки списку: не пройдено"
+
+#: mason/list/index.mas:17
+msgctxt "lists_datasets.shared.login_required_for_viewing_your_lists"
+msgid "Login required for viewing your lists"
+msgstr "Для перегляду ваших списків потрібно увійти"
+
+#: mason/site/list.mas:208
+msgctxt "lists_datasets.shared.manage_seedlots"
+msgid "Manage Seedlots"
+msgstr "Керувати партіями насіння"
+
+#: mason/site/list.mas:91
+msgctxt "lists_datasets.shared.mismatched_case"
+msgid "Mismatched case"
+msgstr "Невідповідність регістру"
+
+#: mason/site/list.mas:105
+msgctxt "lists_datasets.shared.multiple_mismatched_case"
+msgid "Multiple mismatched case"
+msgstr "Кілька невідповідностей регістру"
+
+#: mason/site/list.mas:127
+msgctxt "lists_datasets.shared.multiple_synonym_matches"
+msgid "Multiple synonym matches"
+msgstr "Кілька збігів за синонімами"
+
+#: mason/site/list.mas:130
+msgctxt "lists_datasets.shared.multiple_synonym_matches_have_to_be_resolved_manually_contact_database_administrators_if_necessary"
+msgid "Multiple synonym matches have to be resolved manually. Contact database administrators if necessary."
+msgstr "Кілька збігів за синонімами потрібно розв’язати вручну. За потреби зверніться до адміністраторів бази даних."
+
+#: mason/site/list.mas:83
+msgctxt "lists_datasets.shared.optional_add_missing_accessions_to_a_list"
+msgid "Optional: Add Missing Accessions to A List"
+msgstr "Необов’язково: додати відсутні зразки до списку"
+
+#: mason/site/dataset.mas:30
+msgctxt "lists_datasets.shared.public_datasets"
+msgid "Public Datasets"
+msgstr "Загальнодоступні набори даних"
+
+#: mason/site/list.mas:120
+msgctxt "lists_datasets.shared.replace_synonyms_with_corresponding_db_name"
+msgid "Replace synonyms with corresponding DB name"
+msgstr "Замінити синоніми відповідними назвами з бази даних"
+
+#: mason/site/list.mas:179 mason/site/list.mas:205
+msgctxt "lists_datasets.shared.save"
+msgid "Save"
+msgstr "Зберегти"
+
+#: mason/site/list.mas:168
+msgctxt "lists_datasets.shared.synonym_search_results"
+msgid "Synonym Search Results"
+msgstr "Результати пошуку за синонімами"
+
+#: mason/site/dataset.mas:18
+msgctxt "lists_datasets.shared.view_public_datasets"
+msgid "View Public Datasets"
+msgstr "Переглянути загальнодоступні набори даних"
+
+#: mason/site/list.mas:17
+msgctxt "lists_datasets.shared.view_public_lists"
+msgid "View Public Lists"
+msgstr "Переглянути загальнодоступні списки"
+
+#: mason/site/dataset.mas:9
+msgctxt "lists_datasets.shared.your_datasets"
+msgid "Your Datasets"
+msgstr "Ваші набори даних"
+
+#: mason/site/list.mas:9
+msgctxt "lists_datasets.shared.your_lists"
+msgid "Your Lists"
+msgstr "Ваші списки"
+
+# Model draft; human/native editorial review pending.
+#: mason/list/list_details.mas:72 mason/stock/population_seedlots.mas:92
+msgctxt "seedlots.ui.current_count.726d526"
+msgid "Current Count"
+msgstr "Поточна кількість"

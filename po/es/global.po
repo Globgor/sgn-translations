@@ -1,0 +1,4575 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/es.po
+# Translation of ISO 3166-1 to Spanish; Castilian
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2001 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2001 Juan Manuel García Molina <juanmagm@mail.com>
+# SPDX-FileCopyrightText: 2004-2008, 2010 Javier Fernández-Sanguino <jfs@debian.org>
+# SPDX-FileCopyrightText: 2013 zamir <hades_ni@yahoo.com>
+# SPDX-FileCopyrightText: 2019 Rodrigo Lledó <rodhos92@gmail.com>
+# SPDX-FileCopyrightText: 2021 Adolfo Jayme Barrientos <fitojb@ubuntu.com>
+# SPDX-FileCopyrightText: 2023 Kamborio <Kamborio15@users.noreply.hosted.weblate.org>
+# SPDX-FileCopyrightText: 2025 Walter Paterno <walter.paterno@gmail.com>
+# SPDX-FileCopyrightText: 2025 Chris Leonard <cjlhomeaddress@gmail.com>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/es.po
+# Translation of ISO 3166-3 to Spanish; Castilian
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2001 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2001 Juan Manuel García Molina <juanmagm@mail.com>
+# SPDX-FileCopyrightText: 2004-2008, 2010 Javier Fernández-Sanguino <jfs@debian.org>
+# SPDX-FileCopyrightText: 2013 zamir <hades_ni@yahoo.com>
+# SPDX-FileCopyrightText: 2023 Kamborio <Kamborio15@users.noreply.hosted.weblate.org>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: es\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: Español\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-SGN-Direction: ltr\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+# Draft translation; human review required.
+# Model draft; editorial/native language review remains pending.
+#: mason/user/change_account.mas:70
+msgctxt "account.change.confirm_email"
+msgid "Confirm email"
+msgstr "Confirmar correo electrónico"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:57
+msgctxt "account.change.confirm_password"
+msgid "Confirm password"
+msgstr "Confirmar contraseña"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:44
+msgctxt "account.change.current_password"
+msgid "Current password"
+msgstr "Contraseña actual"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:107
+msgctxt "account.change.done"
+msgid "Done! %{message}"
+msgstr "¡Listo! %{message}"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:64
+msgctxt "account.change.email_help"
+msgid "Your private e-mail address is not publicly displayed online. It is used only for SGN staff to contact you about changes to your record or for e-mailing your password to you. Changing your private e-mail address will trigger a confirmation message from SGN to verify the address is usable by SGN."
+msgstr "Su dirección de correo electrónico privada no se muestra públicamente en línea. Solo la utiliza el personal de SGN para contactarle sobre cambios en su registro o para enviarle su contraseña por correo electrónico. Al cambiar su dirección privada, SGN enviará un mensaje de confirmación para verificar que puede utilizarse."
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:63
+msgctxt "account.change.email_toggle"
+msgid "Change email"
+msgstr "Cambiar correo electrónico"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:13
+msgctxt "account.change.instructions"
+msgid "Please verify your current password to make changes. Select changes desired by checking the appropriate checkbox and entering the new information."
+msgstr "Confirme su contraseña actual para realizar cambios. Seleccione los cambios que desea y escriba la información nueva."
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:66
+msgctxt "account.change.new_email"
+msgid "New email"
+msgstr "Nuevo correo electrónico"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:52
+msgctxt "account.change.new_password"
+msgid "New password"
+msgstr "Nueva contraseña"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:78
+msgctxt "account.change.new_username"
+msgid "New username"
+msgstr "Nuevo nombre de usuario"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:49
+msgctxt "account.change.password_toggle"
+msgid "Change password"
+msgstr "Cambiar contraseña"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:88
+msgctxt "account.change.submit"
+msgid "Change Account Information"
+msgstr "Cambiar información de la cuenta"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:11
+msgctxt "account.change.title"
+msgid "Update User Information"
+msgstr "Actualizar información del usuario"
+
+# Draft translation; human review required.
+#: mason/user/change_account.mas:76
+msgctxt "account.change.username_toggle"
+msgid "Change username"
+msgstr "Cambiar nombre de usuario"
+
+# Draft translation; human review required.
+#: mason/user/quick_create_account.mas:18
+msgctxt "account.quick_create.confirm_password"
+msgid "Confirm Password"
+msgstr "Confirmar contraseña"
+
+# Draft translation; human review required.
+#: mason/user/quick_create_account.mas:14
+msgctxt "account.quick_create.first_name"
+msgid "First Name"
+msgstr "Nombre"
+
+# Draft translation; human review required.
+#: mason/user/quick_create_account.mas:13
+msgctxt "account.quick_create.help"
+msgid "Curators may use this form to create accounts for new users."
+msgstr "Los curadores pueden usar este formulario para crear cuentas de nuevos usuarios."
+
+# Draft translation; human review required.
+#: mason/user/quick_create_account.mas:15
+msgctxt "account.quick_create.last_name"
+msgid "Last Name"
+msgstr "Apellido"
+
+# Draft translation; human review required.
+#: mason/user/quick_create_account.mas:17
+msgctxt "account.quick_create.password"
+msgid "Password (at least 7 characters)"
+msgstr "Contraseña (al menos 7 caracteres)"
+
+# Draft translation; human review required.
+#: mason/user/quick_create_account.mas:19
+msgctxt "account.quick_create.private_email"
+msgid "Private Email Address"
+msgstr "Dirección de correo electrónico privada"
+
+# Draft translation; human review required.
+#: mason/user/quick_create_account.mas:7
+msgctxt "account.quick_create.title"
+msgid "Quick Create Account"
+msgstr "Creación rápida de cuenta"
+
+# Draft translation; human review required.
+#: mason/user/quick_create_account.mas:20
+msgctxt "account.quick_create.user_type"
+msgid "User Type"
+msgstr "Tipo de usuario"
+
+# Draft translation; human review required.
+#: mason/user/quick_create_account.mas:16
+msgctxt "account.quick_create.username"
+msgid "Username (at least 7 characters)"
+msgstr "Nombre de usuario (al menos 7 caracteres)"
+
+#: lib/SGN/Controller/AJAX/User.pm:252
+msgctxt "account.server.account_created"
+msgid ""
+"Account was created with username \"%{username}\".\n"
+"\n"
+"%{confirmation}\n"
+"\n"
+"You will be able to login once your account has been confirmed."
+msgstr ""
+"Se ha creado la cuenta \"%{username}\".\n"
+"\n"
+"%{confirmation}\n"
+"\n"
+"Podrá iniciar sesión cuando se confirme su cuenta."
+
+#: lib/SGN/Controller/AJAX/User.pm:242
+msgctxt "account.server.admin_confirmation"
+msgid "Your account has been created but first must be confirmed by the site administrators.  You will receive an email once your account has been confirmed."
+msgstr "Su cuenta se ha creado y debe ser confirmada por los administradores del sitio. Recibirá un correo cuando se confirme."
+
+#: lib/SGN/Controller/AJAX/User.pm:157
+msgctxt "account.server.creation_failed"
+msgid "Account creation failed for the following reason(s): %{reasons}"
+msgstr "No se pudo crear la cuenta por los siguientes motivos: %{reasons}"
+
+#: lib/SGN/Controller/AJAX/User.pm:43
+msgctxt "account.server.disabled_account"
+msgid "This account has been deactivated due to %{reason}. Please contact the database administrator to re-instate the account."
+msgstr "Esta cuenta se ha desactivado por el siguiente motivo: %{reason}. Contacte con el administrador de la base de datos para reactivarla."
+
+#: lib/SGN/Controller/AJAX/User.pm:248
+msgctxt "account.server.email_confirmation"
+msgid "To continue, you must confirm that we can reach you via email address \"%{email}\". An email has been sent with a URL to confirm this address. Please check your email for this message and use the link to confirm your email address."
+msgstr "Para continuar, confirme la dirección \"%{email}\". Se ha enviado un correo con un enlace de confirmación. Revise su correo y use ese enlace para confirmar la dirección."
+
+#: lib/SGN/Controller/AJAX/User.pm:146
+msgctxt "account.server.email_exists"
+msgid "Email address is already associated with an account."
+msgstr "Esta dirección de correo electrónico ya está asociada a una cuenta."
+
+#: lib/SGN/Controller/AJAX/User.pm:141
+msgctxt "account.server.email_invalid"
+msgid "Email address is invalid."
+msgstr "La dirección de correo electrónico no es válida."
+
+#: lib/SGN/Controller/AJAX/User.pm:150
+msgctxt "account.server.first_name_required"
+msgid "You must enter a first name or initial."
+msgstr "Introduzca un nombre o una inicial."
+
+#: lib/SGN/Controller/AJAX/User.pm:412
+msgctxt "account.server.forgot_requested"
+msgid "Username email requested. If you have an account on this database with this email, you will receive a message that includes the username associated with this email address.  If you do not have an account with this email address, you will not receive a message."
+msgstr "Se ha solicitado un recordatorio del nombre de usuario. Si existe una cuenta con ese correo en esta base de datos, recibirá un mensaje con el nombre asociado. Si no existe, no recibirá ningún mensaje."
+
+#: lib/SGN/Controller/AJAX/User.pm:39
+msgctxt "account.server.incorrect_credentials"
+msgid "Login credentials are incorrect. Please try again."
+msgstr "Los datos de acceso son incorrectos. Inténtelo de nuevo."
+
+#: lib/SGN/Controller/User.pm:141
+msgctxt "account.server.invalid_reset_link"
+msgid "The provided password reset link is invalid. Please try again with another link."
+msgstr "El enlace de restablecimiento de contraseña no es válido. Inténtelo con otro enlace."
+
+#: lib/SGN/Controller/AJAX/User.pm:153
+msgctxt "account.server.last_name_required"
+msgid "You must enter a last name."
+msgstr "Introduzca un apellido."
+
+#: lib/SGN/Controller/AJAX/User.pm:48
+msgctxt "account.server.login_success"
+msgid "Login successful"
+msgstr "Inicio de sesión correcto"
+
+#: lib/SGN/Controller/AJAX/User.pm:61 lib/SGN/Controller/AJAX/User.pm:75
+msgctxt "account.server.logout_success"
+msgid "User successfully logged out."
+msgstr "La sesión se ha cerrado correctamente."
+
+#: lib/SGN/Controller/AJAX/User.pm:90
+msgctxt "account.server.mirror_registration"
+msgid "This site is a mirror site and does not support adding users. Please go to the main site to create an account."
+msgstr "Este sitio es un espejo y no permite añadir usuarios. Cree una cuenta en el sitio principal."
+
+#: lib/SGN/Controller/User.pm:153
+msgctxt "account.server.missing_reset_token"
+msgid "No token provided. Please try again."
+msgstr "No se ha proporcionado un token. Inténtelo de nuevo."
+
+#: lib/SGN/Controller/AJAX/User.pm:134
+msgctxt "account.server.password_mismatch"
+msgid "Password and confirm password do not match."
+msgstr "La contraseña y su confirmación no coinciden."
+
+#: lib/SGN/Controller/AJAX/User.pm:131 lib/SGN/Controller/AJAX/User.pm:452
+msgctxt "account.server.password_short"
+msgid "Password is too short. Password must be %{minimum} or more characters"
+msgstr "La contraseña es demasiado corta. Debe tener al menos %{minimum} caracteres"
+
+#: lib/SGN/Controller/AJAX/User.pm:485
+msgctxt "account.server.password_updated"
+msgid "The password was successfully updated."
+msgstr "La contraseña se ha actualizado correctamente."
+
+#: lib/SGN/Controller/AJAX/User.pm:138
+msgctxt "account.server.password_username"
+msgid "Password must not be the same as your username."
+msgstr "La contraseña debe ser distinta del nombre de usuario."
+
+#: lib/SGN/Controller/AJAX/User.pm:457
+msgctxt "account.server.reset_confirm_mismatch"
+msgid "Please enter the same password in the confirm password field!"
+msgstr "Introduzca la misma contraseña en el campo de confirmación."
+
+#: lib/SGN/Controller/AJAX/User.pm:437
+msgctxt "account.server.reset_requested"
+msgid "Password reset email requested. If you have an account on this database with this email, you will receive a message with a password reset link.  If you do not have an account with this email address, you will not receive a message."
+msgstr "Se ha solicitado un restablecimiento de contraseña. Si existe una cuenta con ese correo en esta base de datos, recibirá un mensaje con un enlace de restablecimiento. Si no existe, no recibirá ningún mensaje."
+
+#: lib/SGN/Controller/AJAX/User.pm:126
+msgctxt "account.server.username_exists"
+msgid "Username \"%{username}\" is already in use. Please pick a different username."
+msgstr "El nombre de usuario \"%{username}\" ya está en uso. Elija otro."
+
+#: lib/SGN/Controller/AJAX/User.pm:117
+msgctxt "account.server.username_short"
+msgid "Username is too short. Username must be %{minimum} or more characters"
+msgstr "El nombre de usuario es demasiado corto. Debe tener al menos %{minimum} caracteres"
+
+#: lib/SGN/Controller/AJAX/User.pm:119
+msgctxt "account.server.username_spaces"
+msgid "Username must not contain spaces"
+msgstr "El nombre de usuario no puede contener espacios"
+
+#: mason/cookie_popup.mas:17
+msgctxt "cookie.accept"
+msgid "Accept"
+msgstr "Aceptar"
+
+#: mason/cookie_popup.mas:14
+msgctxt "cookie.notice"
+msgid "This site uses cookies to provide logins and other features. Please accept the use of cookies by clicking Accept."
+msgstr "Este sitio utiliza cookies para el inicio de sesión y otras funciones. Acepte el uso de cookies haciendo clic en Aceptar."
+
+#: mason/cookie_popup.mas:36
+msgctxt "cookie.thank_you"
+msgid "Thank you :-)"
+msgstr "Gracias :-)"
+
+#: js/source/legacy/CXGN/BreederSearch.js:205 js/source/legacy/CXGN/Trial.js:26
+#: js/source/legacy/CXGN/Trial.js:57 mason/breeders_toolbox/cross/index.mas:298
+#: mason/breeders_toolbox/genotyping_data_project/genotyping_project_deletion.mas:196
+msgctxt "cross.ui.an_error_occurred"
+msgid "An error occurred."
+msgstr "Se produjo un error."
+
+#: cgi-bin/search/all_unig_for_annot.pl:108
+msgctxt "global.all_unig_for_annot.blast_target_desc"
+msgid "Unigene %{program} search against %{database}"
+msgstr "Búsqueda de Unigene con %{program} contra la base de datos %{database}"
+
+#: cgi-bin/search/all_unig_for_annot.pl:145
+msgctxt "global.all_unig_for_annot.unigenes_containing_annotation"
+msgid "Unigenes containing this annotation"
+msgstr "Unigenes que contienen esta anotación"
+
+#: cgi-bin/search/annotation_search_result.pl:203
+msgctxt "global.annotation_search_result.clone_censored_sentence"
+msgid "The annotation is associated with clone %{clone_link}, which has been censored from the current unigene builds."
+msgstr "La anotación está asociada con el clon %{clone_link}, que se ha excluido de las compilaciones actuales de unigenes."
+
+#: cgi-bin/search/annotation_search_result.pl:366
+msgctxt "global.annotation_search_result.first_page"
+msgid "First Page"
+msgstr "Primera página"
+
+#: cgi-bin/search/annotation_search_result.pl:368
+msgctxt "global.annotation_search_result.last_page"
+msgid "Last Page"
+msgstr "Última página"
+
+#: cgi-bin/search/annotation_search_result.pl:356
+#: cgi-bin/search/markers/markersearch.pl:220
+#: cgi-bin/search/markers/markersearch.pl:234
+#: mason/breeders_toolbox/cross/cross_wishlist.mas:193
+#: mason/search/markers/results.mas:47 mason/search/markers/results.mas:69
+#: mason/tools/label_designer/index.mas:16
+#: mason/tools/label_designer/index.mas:24
+#: mason/tools/label_designer/index.mas:30
+#: mason/tools/qualityControl/validated_trials.mas:53
+msgctxt "global.annotation_search_result.next"
+msgid "Next"
+msgstr "Siguiente"
+
+#: cgi-bin/search/annotation_search_result.pl:531
+msgctxt "global.annotation_search_result.no_match_note"
+msgid "Your search for %{term} did not find any relevant matches in our database. %{note} Keywords of less than 4 letters or those that occur in more than half the data are ignored by the search."
+msgstr "La búsqueda de %{term} no encontró coincidencias relevantes en nuestra base de datos. %{note} La búsqueda ignora las palabras clave de menos de 4 letras o que aparecen en más de la mitad de los datos."
+
+#: cgi-bin/search/annotation_search_result.pl:485
+msgctxt "global.annotation_search_result.no_unigenes_contain"
+msgid "No unigenes contain this annotation"
+msgstr "Ningún unigene contiene esta anotación"
+
+#: cgi-bin/search/annotation_search_result.pl:367
+msgctxt "global.annotation_search_result.page_range"
+msgid "Page [1-%{pages}]"
+msgstr "Página [1-%{pages}]"
+
+#: cgi-bin/search/annotation_search_result.pl:334
+#: mason/tools/qualityControl/validated_trials.mas:51
+msgctxt "global.annotation_search_result.previous"
+msgid "Previous"
+msgstr "Anterior"
+
+#: cgi-bin/search/annotation_search_result.pl:550
+msgctxt "global.annotation_search_result.search_prompt"
+msgid "Please enter a search word or phrase and select the annotation type you want to search."
+msgstr "Ingrese una palabra o frase de búsqueda y seleccione el tipo de anotación que desea buscar."
+
+#: cgi-bin/search/annotation_search_result.pl:497
+msgctxt "global.annotation_search_result.search_summary"
+msgid "Your search for %{term} in %{type} returned %{total} results"
+msgstr "La búsqueda de %{term} en %{type} obtuvo %{total} resultados"
+
+#: cgi-bin/search/annotation_search_result.pl:467
+msgctxt "global.annotation_search_result.show_all_link"
+msgid "Show All"
+msgstr "Mostrar todo"
+
+#: cgi-bin/search/annotation_search_result.pl:395
+msgctxt "global.annotation_search_result.showing_all"
+msgid "Showing %{all} matches"
+msgstr "Se muestran %{all} coincidencias"
+
+#: cgi-bin/search/annotation_search_result.pl:399
+msgctxt "global.annotation_search_result.showing_last"
+msgid "Showing last %{count} matches"
+msgstr "Se muestran las últimas %{count} coincidencias"
+
+#: cgi-bin/search/annotation_search_result.pl:403
+msgctxt "global.annotation_search_result.showing_range"
+msgid "Showing matches %{start} to %{end}"
+msgstr "Se muestran las coincidencias de %{start} a %{end}"
+
+#: cgi-bin/search/annotation_search_result.pl:466
+msgctxt "global.annotation_search_result.showing_top"
+msgid "Showing only top %{shown} of %{total}."
+msgstr "Solo se muestran las %{shown} primeras de %{total}."
+
+#: cgi-bin/search/annotation_search_result.pl:442
+msgctxt "global.annotation_search_result.text_match_relevance"
+msgid "Text Match Relevance: %{score}"
+msgstr "Relevancia de la coincidencia de texto: %{score}"
+
+#: cgi-bin/search/annotation_search_result.pl:296
+msgctxt "global.annotation_search_result.unigenes_containing_annotation"
+msgid "Unigenes containing this annotation:"
+msgstr "Unigenes que contienen esta anotación:"
+
+# Draft translation; human review required.
+#: mason/homepage/announcements.mas:8
+msgctxt "global.announcements.body"
+msgid "The 2014 Report of the %{tgc_name} (TGC) will likely be published at the end of October. There is time for researchers to submit reports on their tomato related research. Reports can include some interesting preliminary results and will not preclude later publishing in a refereed journal. You may also have some information that would be of interest to the research community but do not have time etc. to do follow up work for a refereed paper. Please submit reports to me at %{email_link}. For more information on the TGC see %{tgc_link}."
+msgstr "Es probable que el Informe de 2014 de %{tgc_name} (TGC) se publique a finales de octubre. Aún hay tiempo para que los investigadores envíen informes sobre sus investigaciones relacionadas con el tomate. Los informes pueden incluir resultados preliminares interesantes y no impedirán una publicación posterior en una revista revisada por pares. También puede tener información de interés para la comunidad científica, pero no disponer de tiempo para continuar el trabajo y preparar un artículo revisado por pares. Envíeme los informes a %{email_link}. Más información sobre TGC: %{tgc_link}."
+
+# Draft translation; human review required.
+#: mason/homepage/announcements.mas:15
+msgctxt "global.announcements.heading"
+msgid "A message from the TGC"
+msgstr "Un mensaje de TGC"
+
+# Draft translation; human review required.
+#: mason/homepage/announcements.mas:19
+msgctxt "global.announcements.signature_role"
+msgid "Managing Editor %{organization}"
+msgstr "Editor gerente de %{organization}"
+
+# Draft translation; human review required.
+#: mason/homepage/breeders_toolbox.mas:22
+msgctxt "global.breeders_toolbox.access"
+msgid "Access the SGN %{toolbox_link}"
+msgstr "Acceda a %{toolbox_link} de SGN"
+
+# Draft translation; human review required.
+#: mason/homepage/breeders_toolbox.mas:15
+msgctxt "global.breeders_toolbox.heading"
+msgid "SGN Breeder's Toolbox"
+msgstr "Herramientas de fitomejoramiento de SGN"
+
+# Draft translation; human review required.
+#: mason/captcha.mas:71 mason/captcha.mas:95
+msgctxt "global.captcha.could_not_save"
+msgid "Could not save verification token"
+msgstr "No se pudo guardar el token de verificación"
+
+# Draft translation; human review required.
+#: mason/captcha.mas:108
+msgctxt "global.captcha.could_not_verify"
+msgid "Could not verify the token"
+msgstr "No se pudo verificar el token"
+
+# Draft translation; human review required.
+#: mason/captcha.mas:12
+msgctxt "global.captcha.disabled"
+msgid "Captcha has not been enabled on this server"
+msgstr "CAPTCHA no está habilitado en este servidor"
+
+# Draft translation; human review required.
+#: mason/captcha.mas:22
+msgctxt "global.captcha.javascript_required"
+msgid "Javascript is required for bot detection..."
+msgstr "Se requiere JavaScript para detectar bots..."
+
+#: lib/SGN/Controller/AJAX/Captcha.pm:37
+msgctxt "global.captcha.missing_config"
+msgid "Missing server captcha config"
+msgstr "Falta la configuración de CAPTCHA del servidor"
+
+# Draft translation; human review required.
+#: mason/captcha.mas:77
+msgctxt "global.captcha.redirect_notice"
+msgid "You should now be redirected to %{link}"
+msgstr "Ahora se le redirigirá a %{link}"
+
+# Draft translation; human review required.
+#: mason/captcha.mas:75
+msgctxt "global.captcha.saved"
+msgid "Saved verification token!"
+msgstr "¡Token de verificación guardado!"
+
+# Draft translation; human review required.
+#: mason/captcha.mas:58
+msgctxt "global.captcha.saving"
+msgid "Saving verification token..."
+msgstr "Guardando el token de verificación..."
+
+# Draft translation; human review required.
+#: mason/captcha.mas:20
+msgctxt "global.captcha.verification_failed"
+msgid "Verification Failed"
+msgstr "Error de verificación"
+
+# Draft translation; human review required.
+#: mason/captcha.mas:102 mason/captcha.mas:28
+msgctxt "global.captcha.verifying"
+msgid "Verifying your request..."
+msgstr "Verificando su solicitud..."
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:61 mason/homepage/carousel.mas:81
+msgctxt "global.carousel.browse_crop_genome"
+msgid "Browse the %{crop} genome"
+msgstr "Explorar el genoma de %{crop}"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:101
+msgctxt "global.carousel.browse_genome"
+msgid "Browse the genome"
+msgstr "Explorar el genoma"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:103 mason/homepage/carousel.mas:124
+msgctxt "global.carousel.design_vigs"
+msgid "Design VIGS constructs"
+msgstr "Diseñar construcciones VIGS"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:64 mason/homepage/carousel.mas:83
+msgctxt "global.carousel.download_annotations"
+msgid "Download the annotations"
+msgstr "Descargar las anotaciones"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:65 mason/homepage/carousel.mas:84
+msgctxt "global.carousel.download_genome_sequence"
+msgid "Download the Genome Sequence"
+msgstr "Descargar la secuencia del genoma"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:104
+msgctxt "global.carousel.downloads"
+msgid "Downloads"
+msgstr "Descargas"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:102 mason/homepage/carousel.mas:123
+#: mason/homepage/carousel.mas:62 mason/homepage/carousel.mas:82
+msgctxt "global.carousel.find_sequences"
+msgid "Find sequences by similarity"
+msgstr "Buscar secuencias por similitud"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:94
+msgctxt "global.carousel.genome_label"
+msgid "Genome"
+msgstr "genoma"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:191
+msgctxt "global.carousel.next"
+msgid "Next"
+msgstr "Siguiente"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:75
+msgctxt "global.carousel.pepper_species_genomes"
+msgid "%{crop} Sps. Genomes"
+msgstr "Genomas de especies de %{crop}"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:11 mason/homepage/carousel.mas:7
+msgctxt "global.carousel.petunia_browse_genome"
+msgid "Browse the %{species} genome"
+msgstr "Explorar el genoma de %{species}"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:15 mason/homepage/carousel.mas:19
+msgctxt "global.carousel.petunia_downloads"
+msgid "%{species} Downloads"
+msgstr "Descargas de %{species}"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:187
+msgctxt "global.carousel.previous"
+msgid "Previous"
+msgstr "Anterior"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:168
+msgctxt "global.carousel.program_outline"
+msgid "Program outline"
+msgstr "Programa resumido"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:167
+msgctxt "global.carousel.registration"
+msgid "Registration"
+msgstr "Inscripción"
+
+#: mason/homepage/carousel.mas:160
+msgctxt "global.carousel.solanaceae_conference_16"
+msgid "The 16th Solanaceae Conference"
+msgstr "16.ª Conferencia de Solanaceae"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:55
+msgctxt "global.carousel.tomato_genome_available"
+msgid "The new %{crop} Genome assembly (%{assembly}) and annotations (%{annotation}) are now available on SGN"
+msgstr "La nueva versión del ensamblaje del genoma de %{crop} (%{assembly}) y sus anotaciones (%{annotation}) ya están disponibles en SGN"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:54
+msgctxt "global.carousel.tomato_genome_title"
+msgid "%{crop} Genome"
+msgstr "Genoma de %{crop}"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:45
+msgctxt "global.carousel.varitome_description"
+msgid "Exploitation of genetic and epigenetic variation in the regulation of %{crop} fruit quality traits"
+msgstr "Aprovechamiento de la variación genética y epigenética en la regulación de la calidad del fruto de %{crop}"
+
+#: mason/homepage/carousel.mas:44
+msgctxt "global.carousel.varitome_project"
+msgid "The Varitome Project"
+msgstr "Proyecto Varitome"
+
+# Draft translation; human review required.
+#: mason/homepage/carousel.mas:169
+msgctxt "global.carousel.venue_information"
+msgid "Venue and Information"
+msgstr "Lugar e información"
+
+#: cgi-bin/search/clone-order.pl:26
+msgctxt "global.clone-order.cart_contents"
+msgid "Shopping Cart Contents"
+msgstr "Contenido del carrito"
+
+#: cgi-bin/search/clone-order.pl:30
+msgctxt "global.clone-order.cookie_note"
+msgid "%{note_label} SGN does not handle clone orders directly. Selected clones will be routed online to the appropriate parties using the submit buttons above. Your browser %{cookie_support} for this to work properly. Please use your browser's back button to select additional clones, or start a new search using the links above."
+msgstr "%{note_label} SGN no tramita directamente los pedidos de clones. Los clones seleccionados se enviarán en línea a las partes correspondientes mediante los botones anteriores. Para que funcione, su navegador %{cookie_support}. Use el botón Atrás del navegador para seleccionar más clones o inicie otra búsqueda con los enlaces anteriores."
+
+#: cgi-bin/search/clone-order.pl:190 cgi-bin/search/clone-order.pl:27
+msgctxt "global.clone-order.empty_cart"
+msgid "There are no cDNA clones in your shopping cart."
+msgstr "No hay clones de cDNA en el carrito."
+
+#: cgi-bin/search/clone-order.pl:191 cgi-bin/search/clone-order.pl:31
+msgctxt "global.clone-order.empty_cart_cookie_note"
+msgid "Please note that your browser must accept cookies to order clones through SGN."
+msgstr "Tenga en cuenta que su navegador debe aceptar cookies para pedir clones a través de SGN."
+
+#: cgi-bin/search/clone-order.pl:29
+msgctxt "global.clone-order.intro"
+msgid "SGN can compile a list of clones to order and then route the orders to appropriate people or facilities for you when you are finished selecting clones. To continue selecting clones, use your browser's back button or start a %{search_link}"
+msgstr "SGN puede preparar una lista de clones para pedir y dirigir los pedidos a las personas o centros correspondientes cuando termine de seleccionarlos. Para seguir seleccionando clones, use el botón Atrás del navegador o inicie %{search_link}"
+
+#: cgi-bin/search/clone-order.pl:139 cgi-bin/search/clone-order.pl:36
+msgctxt "global.clone-order.kazusa_agreement"
+msgid "Kazusa Material Transfer Agreement"
+msgstr "Acuerdo de transferencia de material de Kazusa"
+
+#: cgi-bin/search/clone-order.pl:138 cgi-bin/search/clone-order.pl:35
+msgctxt "global.clone-order.kazusa_request_page"
+msgid "Kazusa Clone request page"
+msgstr "Página de solicitud de clones de Kazusa"
+
+#: cgi-bin/search/clone-order.pl:28
+msgctxt "global.clone-order.new_search"
+msgid "new search"
+msgstr "nueva búsqueda"
+
+#: cgi-bin/search/clone-order.pl:137 cgi-bin/search/clone-order.pl:34
+msgctxt "global.clone-order.order_clones_email"
+msgid "ORDER CLONES (email)"
+msgstr "PEDIR CLONES (correo electrónico)"
+
+#: cgi-bin/search/clone-order.pl:20
+msgctxt "global.clone-order.page_title"
+msgid "Clone Shopping Cart"
+msgstr "Carrito de pedidos de clones"
+
+#: cgi-bin/search/clone-order.pl:103 cgi-bin/search/clone-order.pl:136
+#: cgi-bin/search/clone-order.pl:32 cgi-bin/search/clone-order.pl:33
+msgctxt "global.clone-order.supplier_available"
+msgid "The following selected clones are available through %{supplier}"
+msgstr "Los siguientes clones seleccionados están disponibles a través de %{supplier}"
+
+# Draft translation; human review required.
+#: mason/homepage/community.mas:8
+msgctxt "global.community.contribute_link"
+msgid "contribute to webpages for your favorite genes and mutant lines"
+msgstr "contribuya a las páginas de sus genes y líneas mutantes favoritos"
+
+# Draft translation; human review required.
+#: mason/homepage/community.mas:9
+msgctxt "global.community.description"
+msgid "As an SGN locus editor, %{contribute_link} and share relevant data and publications with the community."
+msgstr "Como editor de loci de SGN, %{contribute_link} y comparta datos y publicaciones relevantes con la comunidad."
+
+# Draft translation; human review required.
+#: mason/homepage/community.mas:15
+msgctxt "global.community.heading"
+msgid "Community Annotation"
+msgstr "Anotación comunitaria"
+
+# Draft translation; human review required.
+#: mason/homepage/community.mas:16
+msgctxt "global.community.more"
+msgid ">>more..."
+msgstr ">>más..."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:173
+msgctxt "global.dataset_overlay.choose_items"
+msgid "%{step_label} Choose items of type %{types} from column %{step}."
+msgstr "%{step_label} Elija elementos del tipo %{types} en la columna %{step}."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:279
+msgctxt "global.dataset_overlay.confirm_close"
+msgid "Are you sure you want to close the dataset creation help?"
+msgstr "¿Seguro que quiere cerrar la ayuda para crear conjuntos de datos?"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:214
+#: mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:354
+#: mason/tools/boxplotter.mas:64
+msgctxt "global.dataset_overlay.create"
+msgid "Create"
+msgstr "Crear"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:242
+msgctxt "global.dataset_overlay.created_label"
+msgid "Dataset Created:"
+msgstr "Conjunto de datos creado:"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:239
+msgctxt "global.dataset_overlay.dataset_created"
+msgid "%{created_label} %{return_to_tool}"
+msgstr "%{created_label} %{return_to_tool}"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:216
+msgctxt "global.dataset_overlay.name_dataset"
+msgid "%{step_label} Enter a name for your dataset and click the %{create_button} button."
+msgstr "%{step_label} Escriba un nombre para el conjunto de datos y pulse el botón %{create_button}."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:179
+msgctxt "global.dataset_overlay.next"
+msgid "Next"
+msgstr "Siguiente"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:177
+#: mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:60
+#: mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:61
+#: mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:62
+#: mason/tools/qualityControl/dataset_quality_control.mas:217
+msgctxt "global.dataset_overlay.or"
+msgid "or"
+msgstr "o"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:248
+msgctxt "global.dataset_overlay.return"
+msgid "Return"
+msgstr "Volver"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:237
+msgctxt "global.dataset_overlay.return_to_tool"
+msgid "Return to the Analysis tool"
+msgstr "Volver a la herramienta de análisis"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:170
+#: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:212
+msgctxt "global.dataset_overlay.step_label"
+msgid "Step %{step}:"
+msgstr "Paso %{step}:"
+
+#: cgi-bin/search/est.pl:66
+msgctxt "global.est.additional_sequencing"
+msgid "Additional sequencing"
+msgstr "Secuenciación adicional"
+
+#: cgi-bin/search/est.pl:887
+msgctxt "global.est.alias_group_message"
+msgid "Your search resolved to a clone identifier (SGN-C%{id}) that has no associated reads. An alias group was detected, however. See links below for other clone ids/names that are expected to be from identical stock."
+msgstr "La búsqueda llegó al identificador de clon (SGN-C%{id}), que no tiene lecturas asociadas. Se detectó un grupo de alias. Consulte los enlaces siguientes para ver otros identificadores y nombres de clones que se espera que procedan del mismo stock."
+
+#: cgi-bin/search/est.pl:716
+msgctxt "global.est.alternative_clones_mapped"
+msgid "See unigene %{link} for alternative clones/ESTs which are mapped"
+msgstr "Consulte Unigene %{link} para ver clones/EST alternativos mapeados"
+
+#: cgi-bin/search/est.pl:53
+msgctxt "global.est.basecalling"
+msgid "Basecalling Software:"
+msgstr "Software de llamada de bases:"
+
+#: cgi-bin/search/est.pl:69
+msgctxt "global.est.chromatogram"
+msgid "Chromatogram"
+msgstr "Cromatograma"
+
+#: cgi-bin/search/est.pl:46
+msgctxt "global.est.clone"
+msgid "Clone:"
+msgstr "Clon:"
+
+#: cgi-bin/search/est.pl:65
+msgctxt "global.est.clone_info"
+msgid "Clone information"
+msgstr "Información del clon"
+
+#: cgi-bin/search/est.pl:703
+msgctxt "global.est.clone_mapped_as"
+msgid "This clone has been mapped as %{link}."
+msgstr "Este clon se ha mapeado como %{link}."
+
+#: cgi-bin/search/est.pl:35
+msgctxt "global.est.clone_name"
+msgid "Clone name:"
+msgstr "Nombre del clon:"
+
+#: cgi-bin/search/est.pl:423
+msgctxt "global.est.clone_name_unknown"
+msgid "clone name unknown"
+msgstr "nombre del clon desconocido"
+
+#: cgi-bin/search/est.pl:61
+msgctxt "global.est.current_builds"
+msgid "Current Unigene builds"
+msgstr "Compilaciones actuales de Unigene"
+
+#: cgi-bin/search/est.pl:39
+msgctxt "global.est.development_stage"
+msgid "Development Stage:"
+msgstr "Etapa de desarrollo:"
+
+#: cgi-bin/search/est.pl:49
+msgctxt "global.est.direction"
+msgid "Direction:"
+msgstr "Dirección:"
+
+#: cgi-bin/search/est.pl:42 mason/barcode/unique_barcode_download.mas:8
+#: mason/breeders_toolbox/cross/intercross_file_info.mas:41
+#: mason/breeders_toolbox/cross/intercross_file_info.mas:54
+#: mason/breeders_toolbox/cross/intercross_parents_download.mas:51
+#: mason/breeders_toolbox/decision_meeting/decision_meeting_section.mas:22
+#: mason/breeders_toolbox/genotyping_data_project/genotype_archived_vcf.mas:38
+#: mason/breeders_toolbox/genotyping_data_project/genotype_data.mas:20
+#: mason/breeders_toolbox/genotyping_data_project/genotyping_plates.mas:14
+#: mason/breeders_toolbox/genotyping_trials/plate_genotyping_data.mas:21
+#: mason/breeders_toolbox/genotyping_trials/plate_genotyping_data.mas:52
+#: mason/homepage/phenotype_uploads.mas:22
+#: mason/order/create_item_file_dialog.mas:23
+#: mason/search/genotyping_trials.mas:29
+#: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:117
+#: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:91
+#: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:108
+#: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:91
+#: mason/tools/label_designer/label_designer_modals.mas:216
+#: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:25
+msgctxt "global.est.download"
+msgid "Download"
+msgstr "Descargar"
+
+#: cgi-bin/search/est.pl:614
+msgctxt "global.est.ecoli_sequence"
+msgid "E. Coli (cloning host) sequence detected"
+msgstr "Se detectó una secuencia de E. Coli (huésped de clonación)"
+
+#: cgi-bin/search/est.pl:48
+msgctxt "global.est.est"
+msgid "EST:"
+msgstr "EST:"
+
+#: cgi-bin/search/est.pl:56
+msgctxt "global.est.expected_error"
+msgid "Expected Error Rate:"
+msgstr "Tasa de error esperada:"
+
+#: cgi-bin/search/est.pl:50
+msgctxt "global.est.facility"
+msgid "Facility:"
+msgstr "Instalación:"
+
+#: cgi-bin/search/est.pl:43
+msgctxt "global.est.facility_assigned_id"
+msgid "Facility Assigned ID:"
+msgstr "ID asignado por la instalación:"
+
+#: cgi-bin/search/est.pl:63
+msgctxt "global.est.follow_unigene"
+msgid "Follow SGN-U# link for detailed information and annotations"
+msgstr "Siga el enlace SGN-U# para ver información detallada y anotaciones"
+
+#: cgi-bin/search/est.pl:40
+msgctxt "global.est.funding_organization"
+msgid "Funding Organization:"
+msgstr "Organización financiadora:"
+
+#: cgi-bin/search/est.pl:1010
+msgctxt "global.est.hierarchy_title"
+msgid "Information Hierarchy for Clone %{id}"
+msgstr "Jerarquía de información del clon %{id}"
+
+#: cgi-bin/search/est.pl:612
+msgctxt "global.est.high_expected_error"
+msgid "High expected error (low overall quality)"
+msgstr "Error esperado alto (calidad general baja)"
+
+#: cgi-bin/search/est.pl:255
+msgctxt "global.est.identifier_not_found"
+msgid "Identifier \"%{id}\" was not found in SGN's databases."
+msgstr "El identificador «%{id}» no se encontró en las bases de datos de SGN."
+
+#: cgi-bin/search/est.pl:72 cgi-bin/search/est.pl:999
+msgctxt "global.est.information_hierarchy"
+msgid "Information Hierarchy"
+msgstr "Jerarquía de información"
+
+#: cgi-bin/search/est.pl:285
+msgctxt "global.est.invalid_clone_id"
+msgid "Invalid identifier \"%{id}\" for specified identifier type (SGN-C#)"
+msgstr "El identificador «%{id}» no es válido para el tipo especificado (SGN-C#)"
+
+#: cgi-bin/search/est.pl:280
+msgctxt "global.est.invalid_est_id"
+msgid "Invalid identifier \"%{id}\" for specified identifier type (SGN-E#)"
+msgstr "El identificador «%{id}» no es válido para el tipo especificado (SGN-E#)"
+
+#: cgi-bin/search/est.pl:294
+msgctxt "global.est.invalid_trace_id"
+msgid "Invalid identifier \"%{id}\" for specified identifier type (SGN-T#)"
+msgstr "El identificador «%{id}» no es válido para el tipo especificado (SGN-T#)"
+
+#: cgi-bin/search/est.pl:59
+msgctxt "global.est.length"
+msgid "Length:"
+msgstr "Longitud:"
+
+#: cgi-bin/search/est.pl:36
+msgctxt "global.est.library_name"
+msgid "Library Name:"
+msgstr "Nombre de la biblioteca:"
+
+#: cgi-bin/search/est.pl:613
+msgctxt "global.est.low_complexity"
+msgid "Low complexity"
+msgstr "Baja complejidad"
+
+#: cgi-bin/search/est.pl:618
+msgctxt "global.est.manually_censored"
+msgid "Manually censored by SGN staff"
+msgstr "Excluido manualmente por el personal de SGN"
+
+#: cgi-bin/search/est.pl:78
+msgctxt "global.est.map_missing"
+msgid "There is no map position defined on SGN for this EST or others in the same unigene."
+msgstr "No hay una posición de mapa definida en SGN para este EST ni para otros del mismo Unigene."
+
+#: cgi-bin/search/est.pl:26 cgi-bin/search/unigene-all-blast-matches.pl:7
+msgctxt "global.est.match"
+msgid "Match:"
+msgstr "Coincidencia:"
+
+#: cgi-bin/search/est.pl:28
+msgctxt "global.est.match_type"
+msgid "Match Type:"
+msgstr "Tipo de coincidencia:"
+
+#: cgi-bin/search/est.pl:29
+msgctxt "global.est.microarray"
+msgid "Microarray:"
+msgstr "Microarray:"
+
+#: cgi-bin/search/est.pl:77
+msgctxt "global.est.microarray_alt_missing"
+msgid "No alternative clones from any current unigene containing this EST are available on a microarray"
+msgstr "No hay microarrays disponibles para clones alternativos de los Unigene actuales que contienen este EST"
+
+#: cgi-bin/search/est.pl:693
+msgctxt "global.est.microarray_alternatives"
+msgid "See unigene %{link} for alternatives which are available on a microarray"
+msgstr "Consulte Unigene %{link} para ver las alternativas disponibles en un microarray"
+
+#: cgi-bin/search/est.pl:76
+msgctxt "global.est.microarray_missing"
+msgid "This clone is not found on any microarray"
+msgstr "Este clon no se encuentra en ningún microarray"
+
+#: cgi-bin/search/est.pl:598
+msgctxt "global.est.multiple_cloning_site"
+msgid "Multiple cloning site sequence detected -- chimeric clone suspected."
+msgstr "Se detectó una secuencia del sitio de clonación múltiple: se sospecha un clon quimérico."
+
+#: cgi-bin/search/est.pl:75
+msgctxt "global.est.no_additional_reads"
+msgid "No additional reads found."
+msgstr "No se encontraron lecturas adicionales."
+
+#: cgi-bin/search/est.pl:74
+msgctxt "global.est.no_chromatogram"
+msgid "No chromatogram information found for this sequence"
+msgstr "No se encontró información de cromatograma para esta secuencia"
+
+#: cgi-bin/search/est.pl:73
+msgctxt "global.est.no_clone_info"
+msgid "No clone information found"
+msgstr "No se encontró información del clon"
+
+#: cgi-bin/search/est.pl:79
+msgctxt "global.est.no_current_build"
+msgid "No current unigene builds incorporate this sequence"
+msgstr "Ninguna compilación actual de Unigene incorpora esta secuencia"
+
+#: cgi-bin/search/est.pl:527
+msgctxt "global.est.no_est_database_entry"
+msgid "No database entry was found for EST identifier SGN-E%{id}"
+msgstr "No se encontró en la base de datos la entrada para el identificador EST SGN-E%{id}"
+
+#: cgi-bin/search/est.pl:202
+msgctxt "global.est.no_est_identifier"
+msgid "No EST identifier specified"
+msgstr "No se especificó un identificador EST"
+
+#: cgi-bin/search/est.pl:1014
+msgctxt "global.est.no_hierarchy_structure"
+msgid "No structure was found for identifier %{id}"
+msgstr "No se encontró una estructura para el identificador %{id}"
+
+#: cgi-bin/search/est.pl:447
+msgctxt "global.est.none"
+msgid "None"
+msgstr "Ninguno"
+
+#: cgi-bin/search/est.pl:604
+msgctxt "global.est.not_available"
+msgid "Not available"
+msgstr "No disponible"
+
+#: cgi-bin/search/est.pl:31
+msgctxt "global.est.order"
+msgid "Order"
+msgstr "Pedir"
+
+#: cgi-bin/search/est.pl:30
+msgctxt "global.est.order_clone"
+msgid "Order Clone"
+msgstr "Pedir clon"
+
+#: cgi-bin/search/est.pl:32
+msgctxt "global.est.ordering_not_available"
+msgid "Ordering Not Available"
+msgstr "Pedido no disponible"
+
+#: cgi-bin/search/est.pl:37
+msgctxt "global.est.organism"
+msgid "Organism:"
+msgstr "Organismo:"
+
+#: cgi-bin/search/est.pl:765
+msgctxt "global.est.page_title"
+msgid "EST details &mdash; %{id}"
+msgstr "Detalles de EST &mdash; %{id}"
+
+#: cgi-bin/search/est.pl:622
+msgctxt "global.est.passed_screens"
+msgid "Passed all screens and filters"
+msgstr "Superó todas las comprobaciones y filtros"
+
+#: cgi-bin/search/est.pl:616
+msgctxt "global.est.possibly_chimeric_arabidopsis"
+msgid "Possibly chimeric (ends match significantly different genes in arabidopsis)"
+msgstr "Posible quimerismo (los extremos coinciden con genes muy distintos de arabidopsis)"
+
+#: cgi-bin/search/est.pl:617
+msgctxt "global.est.possibly_chimeric_preclustering"
+msgid "Possibly chimeric, detected by unigene assembly preclustering"
+msgstr "Posible quimerismo detectado por preagrupación de compilación de Unigene"
+
+#: cgi-bin/search/est.pl:610
+msgctxt "global.est.possibly_chimeric_vector"
+msgid "Possibly chimeric (anomalous insert into vector)"
+msgstr "Posible quimerismo (inserto anómalo en el vector)"
+
+#: cgi-bin/search/est.pl:51
+msgctxt "global.est.problems"
+msgid "Problems:"
+msgstr "Problemas:"
+
+#: cgi-bin/search/est.pl:52
+msgctxt "global.est.processed_by"
+msgid "Processed By:"
+msgstr "Procesado por:"
+
+#: cgi-bin/search/est.pl:649
+msgctxt "global.est.processing_info_unavailable"
+msgid "Processing information not available for this sequence"
+msgstr "La información de procesamiento de esta secuencia no está disponible"
+
+#: cgi-bin/search/est.pl:70
+msgctxt "global.est.quality_processing"
+msgid "Quality processing"
+msgstr "Procesamiento de calidad"
+
+#: cgi-bin/search/est.pl:57
+msgctxt "global.est.quality_trim"
+msgid "Quality Trim Threshold:"
+msgstr "Umbral de recorte por calidad:"
+
+#: cgi-bin/search/est.pl:888
+msgctxt "global.est.rearray_explanation"
+msgid "This may happen for cases where clones were \"rearrayed\" and resequenced, but the resequenced data has not been recovered yet or the reactions failed. In this case, the rearrayed clone identifier and name will have no associated sequence, but the original clone may have usable reads available in the database."
+msgstr "Esto puede ocurrir cuando los clones se redistribuyen en una placa y se secuencian de nuevo, pero los datos aún no se recuperaron o las reacciones fallaron. En ese caso, el identificador y el nombre del clon redistribuido no tendrán una secuencia asociada, aunque el clon original puede tener lecturas utilizables en la base de datos."
+
+#: cgi-bin/search/est.pl:25
+msgctxt "global.est.request"
+msgid "Request:"
+msgstr "Solicitud:"
+
+#: cgi-bin/search/est.pl:27
+msgctxt "global.est.request_from"
+msgid "Request From:"
+msgstr "Origen de la solicitud:"
+
+#: cgi-bin/search/est.pl:615
+msgctxt "global.est.rrna_contamination"
+msgid "rRNA contamination detected"
+msgstr "Se detectó contaminación por rRNA"
+
+#: cgi-bin/search/est.pl:64
+msgctxt "global.est.search_info"
+msgid "Search information"
+msgstr "Información de búsqueda"
+
+#: cgi-bin/search/est.pl:504
+msgctxt "global.est.see_five_prime_reads"
+msgid "See links to 5' reads above"
+msgstr "Vea arriba los enlaces a las lecturas 5′"
+
+#: cgi-bin/search/est.pl:502
+msgctxt "global.est.see_three_prime_reads"
+msgid "See links to 3' reads above"
+msgstr "Vea arriba los enlaces a las lecturas 3′"
+
+#: cgi-bin/search/est.pl:55
+msgctxt "global.est.sequence_entropy"
+msgid "Sequence Entropy:"
+msgstr "Entropía de la secuencia:"
+
+#: cgi-bin/search/est.pl:58
+msgctxt "global.est.sequence_id"
+msgid "Sequence Id:"
+msgstr "ID de secuencia:"
+
+#: cgi-bin/search/est.pl:45
+msgctxt "global.est.sequencing_facility"
+msgid "Sequencing Facility:"
+msgstr "Centro de secuenciación:"
+
+#: cgi-bin/search/est.pl:33
+msgctxt "global.est.sgn_id"
+msgid "SGN ID:"
+msgstr "ID de SGN:"
+
+#: cgi-bin/search/est.pl:34
+msgctxt "global.est.sgn_trace_id"
+msgid "SGN-ID:"
+msgstr "ID de SGN:"
+
+#: cgi-bin/search/est.pl:71
+msgctxt "global.est.show_hierarchy"
+msgid "[Show information hierarchy]"
+msgstr "[Mostrar jerarquía de información]"
+
+#: cgi-bin/search/est.pl:60 lib/SGN/Controller/AJAX/DecisionMeeting.pm:2657
+#: mason/order/re_open_dialog.mas:111 mason/order/stocks.mas:342
+#: mason/order/stocks.mas:360 mason/propagation/propagation_id_section.mas:151
+msgctxt "global.est.status"
+msgid "Status:"
+msgstr "Estado:"
+
+#: cgi-bin/search/est.pl:570
+msgctxt "global.est.status_censored"
+msgid "Censored "
+msgstr "Excluida "
+
+#: cgi-bin/search/est.pl:579
+msgctxt "global.est.status_chimera_not_assessed"
+msgid "Chimera not assessed "
+msgstr "No se evaluó quimerismo "
+
+#: cgi-bin/search/est.pl:576
+msgctxt "global.est.status_contaminants_not_assessed"
+msgid "Contaminants not assessed "
+msgstr "No se evaluaron contaminantes "
+
+#: cgi-bin/search/est.pl:558
+msgctxt "global.est.status_current"
+msgid "Current Version"
+msgstr "Versión actual"
+
+#: cgi-bin/search/est.pl:567
+msgctxt "global.est.status_deprecated"
+msgid "Deprecated "
+msgstr "Obsoleta "
+
+#: cgi-bin/search/est.pl:564
+msgctxt "global.est.status_discarded"
+msgid "Discarded "
+msgstr "Descartada "
+
+#: cgi-bin/search/est.pl:561
+msgctxt "global.est.status_legacy"
+msgid "Legacy "
+msgstr "Versión heredada "
+
+#: cgi-bin/search/est.pl:573
+msgctxt "global.est.status_trim_not_applied"
+msgid "Vector/Quality trimming not applied "
+msgstr "No se aplicó el recorte de vector/calidad "
+
+#: cgi-bin/search/est.pl:44
+msgctxt "global.est.submitter"
+msgid "Submitter:"
+msgstr "Remitente:"
+
+#: cgi-bin/search/est.pl:38
+msgctxt "global.est.tissue"
+msgid "Tissue:"
+msgstr "Tejido:"
+
+#: cgi-bin/search/est.pl:611
+msgctxt "global.est.too_short_after_trimming"
+msgid "Too short after trimming low-quality bases"
+msgstr "Demasiado corta tras recortar bases de baja calidad"
+
+#: cgi-bin/search/est.pl:47
+msgctxt "global.est.trace"
+msgid "Trace:"
+msgstr "Traza:"
+
+#: cgi-bin/search/est.pl:744
+msgctxt "global.est.unigene_version_note"
+msgid "Note: Some unigenes listed here are assembled from different versions of the sequence displayed above. Note SGN-E# in left column. All versions were derived from the same chromatogram"
+msgstr "Nota: algunos unigenes de esta lista se ensamblaron a partir de distintas versiones de la secuencia anterior. Consulte SGN-E# en la columna izquierda. Todas las versiones proceden del mismo cromatograma."
+
+#: cgi-bin/search/est.pl:68
+msgctxt "global.est.unigenes"
+msgid "Unigenes"
+msgstr "Unigenes"
+
+#: cgi-bin/search/est.pl:62 mason/transcript/unigene/markers_info.mas:81
+msgctxt "global.est.unknown"
+msgid "Unknown"
+msgstr "Desconocido"
+
+#: cgi-bin/search/est.pl:609
+msgctxt "global.est.vector_anomaly"
+msgid "Vector anomaly"
+msgstr "Anomalía de vector"
+
+#: cgi-bin/search/est.pl:596
+msgctxt "global.est.vector_missing"
+msgid "No vector sequence detected"
+msgstr "No se detectó secuencia del vector"
+
+#: cgi-bin/search/est.pl:597
+msgctxt "global.est.vector_pattern_inconsistent"
+msgid "Vector found but pattern inconsistent with a normal insert"
+msgstr "Se encontró el vector, pero el patrón no coincide con una inserción normal"
+
+#: cgi-bin/search/est.pl:591
+msgctxt "global.est.vector_read_3"
+msgid "3' sequence read -- flanking 5' vector arm detected."
+msgstr "Lectura de secuencia 3′: se detectó el brazo vectorial flanqueante 5′."
+
+#: cgi-bin/search/est.pl:593
+msgctxt "global.est.vector_read_3_incomplete"
+msgid "3' sequence read, incomplete (flanking vector not found)"
+msgstr "Lectura de secuencia 3′ incompleta (no se encontró el vector flanqueante)"
+
+#: cgi-bin/search/est.pl:590
+msgctxt "global.est.vector_read_5"
+msgid "5' sequence read -- flanking 3' vector arm detected."
+msgstr "Lectura de secuencia 5′: se detectó el brazo vectorial flanqueante 3′."
+
+#: cgi-bin/search/est.pl:592
+msgctxt "global.est.vector_read_5_incomplete"
+msgid "5' sequence read, incomplete (flanking vector not found)"
+msgstr "Lectura de secuencia 5′ incompleta (no se encontró el vector flanqueante)"
+
+#: cgi-bin/search/est.pl:54
+msgctxt "global.est.vector_signature"
+msgid "Vector Signature:"
+msgstr "Firma del vector:"
+
+#: cgi-bin/search/est.pl:383
+msgctxt "global.est_detail.alias_microarray"
+msgid "Alias clone %{link} is on microarray %{chip}: SGN-S%{spot}\n"
+msgstr "El clon alias %{link} está en el microarray %{chip}: SGN-S%{spot}\n"
+
+#: cgi-bin/search/est.pl:720
+msgctxt "global.est_detail.build_number"
+msgid "Build %{number}"
+msgstr "Ensamblaje %{number}"
+
+#: cgi-bin/search/est.pl:721
+msgctxt "global.est_detail.ests_assembled"
+msgid "%{count} ESTs assembled"
+msgstr "%{count} EST ensamblados"
+
+#: cgi-bin/search/est.pl:385
+msgctxt "global.est_detail.microarray_spot"
+msgid "SGN-C%{clone} is on microarray %{chip} spot ID %{spot} [%{order}] [%{database}]\n"
+msgstr "SGN-C%{clone} está en el microarray %{chip}, ID de posición %{spot} [%{order}] [%{database}]\n"
+
+#: cgi-bin/search/est.pl:13
+msgctxt "global.est_detail.version_explanation"
+msgid "Note: Some unigenes listed here are assembled from different versions of the sequence displayed above. Note SGN-E# in left column. All versions were derived from the same chromatogram"
+msgstr "Nota: algunos unigenes se ensamblaron a partir de distintas versiones de la secuencia mostrada. Observe SGN-E# en la columna izquierda. Todas las versiones proceden del mismo cromatograma"
+
+# Draft translation; human review required.
+#: mason/homepage/events.mas:20
+msgctxt "global.events.see_all"
+msgid "See all events..."
+msgstr "Ver todos los eventos..."
+
+# Draft translation; human review required.
+#: mason/homepage/events.mas:9
+msgctxt "global.events.unavailable"
+msgid "Events are currently not available"
+msgstr "Los eventos no están disponibles en este momento"
+
+#: cgi-bin/search/family.pl:250
+msgctxt "global.family.alignment_large"
+msgid "Family size too large for alignment on this page."
+msgstr "La familia es demasiado grande para alinearla en esta página."
+
+#: cgi-bin/search/family.pl:246
+msgctxt "global.family.alignment_unavailable"
+msgid "Alignment not available for this family%{extra}."
+msgstr "La alineación no está disponible para esta familia%{extra}."
+
+#: cgi-bin/search/family.pl:120 cgi-bin/search/family_search.pl:44
+msgctxt "global.family.annotation"
+msgid "Annotation"
+msgstr "Anotación"
+
+#: cgi-bin/search/family.pl:119
+msgctxt "global.family.build"
+msgid "Build"
+msgstr "Compilación"
+
+#: cgi-bin/search/family.pl:104 cgi-bin/search/family_build.pl:75
+msgctxt "global.family.build_date"
+msgid "Build Date"
+msgstr "Fecha de compilación"
+
+#: cgi-bin/search/family.pl:221
+msgctxt "global.family.build_id"
+msgid "Build id"
+msgstr "ID de compilación"
+
+#: cgi-bin/search/family.pl:315 cgi-bin/search/family.pl:326
+msgctxt "global.family.click_alignment"
+msgid "Click on the image above to view the detailed alignment"
+msgstr "Haga clic en la imagen anterior para ver la alineación detallada"
+
+#: cgi-bin/search/family.pl:122 cgi-bin/search/family_build.pl:77
+msgctxt "global.family.dataset"
+msgid "Data Set"
+msgstr "Conjunto de datos"
+
+#: cgi-bin/search/family.pl:130
+msgctxt "global.family.family_analysis_explanation"
+msgid "Explanation of family analysis and terms used on this page"
+msgstr "Explicación del análisis de familias y de los términos usados en esta página"
+
+#: cgi-bin/search/family.pl:340
+msgctxt "global.family.family_members"
+msgid "Family Members"
+msgstr "Miembros de la familia"
+
+#: cgi-bin/search/family.pl:105
+msgctxt "global.family.family_number"
+msgid "Family&nbsp;Number"
+msgstr "Número&nbsp;de familia"
+
+#: cgi-bin/search/family.pl:222
+msgctxt "global.family.family_number_size"
+msgid "Family Number (Size)"
+msgstr "Número de familia (tamaño)"
+
+#: cgi-bin/search/family.pl:339 cgi-bin/search/family_align.pl:405
+msgctxt "global.family.family_sequence_alignment"
+msgid "Family Sequence Alignment"
+msgstr "Alineación de secuencias de la familia"
+
+#: cgi-bin/search/family.pl:114
+msgctxt "global.family.high_stringency"
+msgid "High stringency in grouping genes together"
+msgstr "Alta rigurosidad al agrupar genes"
+
+#: cgi-bin/search/family.pl:369
+msgctxt "global.family.invalid_family_id"
+msgid "The specified family identifier (%{family_id}) does not result in a valid search."
+msgstr "El identificador de familia especificado (%{family_id}) no produce una búsqueda válida."
+
+#: cgi-bin/search/family.pl:117 cgi-bin/search/family.pl:223
+msgctxt "global.family.ivalue"
+msgid "i Value"
+msgstr "Valor i"
+
+#: cgi-bin/search/family.pl:108
+msgctxt "global.family.low_stringency"
+msgid "Low stringency in grouping genes together"
+msgstr "Baja rigurosidad al agrupar genes"
+
+#: cgi-bin/search/family.pl:177
+msgctxt "global.family.member_count"
+msgid "# of Members"
+msgstr "N.º de miembros"
+
+#: cgi-bin/search/family.pl:178
+msgctxt "global.family.member_id"
+msgid "Member Id"
+msgstr "ID de miembro"
+
+#: cgi-bin/search/family.pl:318
+msgctxt "global.family.no_alignment_image"
+msgid "No alignment image available."
+msgstr "No hay una imagen de alineación disponible."
+
+#: cgi-bin/search/family.pl:351 cgi-bin/search/family_align.pl:428
+#: cgi-bin/search/family_build.pl:259
+msgctxt "global.family.no_family_id"
+msgid "No family id specified"
+msgstr "No se especificó el identificador de la familia"
+
+#: cgi-bin/search/family.pl:111
+msgctxt "global.family.normal_stringency"
+msgid "Normal stringency in grouping genes together"
+msgstr "Rigurosidad normal al agrupar genes"
+
+#: cgi-bin/search/family.pl:241
+msgctxt "global.family.not_applicable"
+msgid "Not applicable."
+msgstr "No corresponde."
+
+#: cgi-bin/search/family.pl:176 mason/search/phenotypes/stock.mas:60
+#: mason/search/vectors.mas:173 mason/search/vectors.mas:235
+#: mason/search/vectors.mas:257
+msgctxt "global.family.organism"
+msgid "Organism"
+msgstr "Organismo"
+
+#: cgi-bin/search/family.pl:126
+msgctxt "global.family.out_of_date"
+msgid "This family is from an out-of-date build."
+msgstr "Esta familia pertenece a una compilación desactualizada."
+
+#: cgi-bin/search/family.pl:118
+msgctxt "global.family.overall_build_details"
+msgid "[Details of the Overall Family Build]"
+msgstr "[Detalles de la compilación completa de la familia]"
+
+#: cgi-bin/search/family.pl:334
+msgctxt "global.family.page_title"
+msgid "SGN Gene Family %{id}"
+msgstr "Familia de genes SGN %{id}"
+
+#: cgi-bin/search/family.pl:127
+msgctxt "global.family.relations_current_builds"
+msgid "See below for relations to current builds"
+msgstr "Consulte abajo las relaciones con las compilaciones actuales"
+
+#: cgi-bin/search/family.pl:338
+msgctxt "global.family.relations_other_builds"
+msgid "Relations to Other Builds"
+msgstr "Relaciones con otras compilaciones"
+
+#: cgi-bin/search/family.pl:251
+msgctxt "global.family.see_alignment_viewer"
+msgid "See Alignment in Viewer"
+msgstr "Ver alineación en el visor"
+
+#: cgi-bin/search/family.pl:337 cgi-bin/search/family_align.pl:407
+#: cgi-bin/search/family_build.pl:246
+#: mason/tracking_activities/activity_info_details.mas:99
+#: mason/tracking_activities/record_activity.mas:90
+msgctxt "global.family.summary"
+msgid "Summary"
+msgstr "Resumen"
+
+#: cgi-bin/search/family.pl:103
+msgctxt "global.family.total_genes"
+msgid "Total Genes"
+msgstr "Total de genes"
+
+#: cgi-bin/search/all_unig_for_annot.pl:31
+#: cgi-bin/search/annotation_search_result.pl:27
+msgctxt "global.final_caption.annotation_search_results"
+msgid "Annotation Search Results"
+msgstr "Resultados de búsqueda de anotaciones"
+
+#: cgi-bin/search/unigene-all-blast-matches.pl:112
+msgctxt "global.final_caption.blast_censored"
+msgid "%{censored} lower scoring hits censored --  only %{stored} best hits are stored."
+msgstr "Se han omitido %{censored} coincidencias de menor puntuación; solo se almacenan las %{stored} mejores."
+
+#: cgi-bin/search/unigene-all-blast-matches.pl:72
+msgctxt "global.final_caption.blast_showing"
+msgid "Showing best %{count} hits recorded"
+msgstr "Se muestran las %{count} mejores coincidencias registradas"
+
+#: cgi-bin/search/unigene-all-blast-matches.pl:127
+msgctxt "global.final_caption.blast_title"
+msgid "All Stored BLAST annotations for SGN-U%{id}"
+msgstr "Todas las anotaciones BLAST almacenadas para SGN-U%{id}"
+
+#: cgi-bin/search/est.pl:21 cgi-bin/search/est.pl:876 cgi-bin/search/est.pl:936
+#: cgi-bin/search/est.pl:961
+msgctxt "global.final_caption.direct_search_result_not_found"
+msgid "Direct Search Result - Not Found"
+msgstr "Resultado de búsqueda directa: no encontrado"
+
+#: cgi-bin/search/library_search.pl:20
+msgctxt "global.final_caption.est_library_search_results"
+msgid "EST library search results"
+msgstr "Resultados de búsqueda de bibliotecas EST"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:17
+msgctxt "global.final_caption.estscan_details"
+msgid "ESTScan Details"
+msgstr "Detalles de ESTScan"
+
+#: cgi-bin/search/unigene-all-blast-matches.pl:11
+msgctxt "global.final_caption.frame"
+msgid "Frame:"
+msgstr "Marco:"
+
+#: cgi-bin/search/unigene-all-blast-matches.pl:9
+msgctxt "global.final_caption.identity"
+msgid "Identity:"
+msgstr "Identidad:"
+
+#: cgi-bin/search/all_unig_for_annot.pl:69
+msgctxt "global.final_caption.manual_attribution"
+msgid "%{type} by %{author} on %{date}"
+msgstr "%{type} por %{author} el %{date}"
+
+#: cgi-bin/search/est.pl:22 cgi-bin/search/est.pl:909
+msgctxt "global.final_caption.not_found_search_invalid"
+msgid "Not Found - Search Invalid"
+msgstr "No encontrado: búsqueda no válida"
+
+#: cgi-bin/search/est.pl:967
+msgctxt "global.final_caption.not_traceable"
+msgid "The identifier %{id} of the specified type can not be traced to an EST in SGN's databases"
+msgstr "El identificador %{id} del tipo indicado no puede vincularse con un EST en las bases de datos de SGN"
+
+#: cgi-bin/search/unigene-all-blast-matches.pl:8
+msgctxt "global.final_caption.score"
+msgid "score:"
+msgstr "puntuación:"
+
+#: cgi-bin/search/est.pl:92
+msgctxt "global.final_caption.sgn_est_search_result"
+msgid "SGN EST Search Result"
+msgstr "Resultado de búsqueda EST de SGN"
+
+#: cgi-bin/search/family.pl:18
+msgctxt "global.final_caption.sgn_gene_family"
+msgid "SGN Gene Family"
+msgstr "Familia de genes de SGN"
+
+#: cgi-bin/search/locus_search.pl:27
+msgctxt "global.final_caption.sgn_gene_search_results"
+msgid "SGN gene search results"
+msgstr "Resultados de búsqueda de genes de SGN"
+
+#: cgi-bin/search/image_search.pl:25
+msgctxt "global.final_caption.sgn_image_search_results"
+msgid "SGN image search results"
+msgstr "Resultados de búsqueda de imágenes de SGN"
+
+#: cgi-bin/search/pub_search.pl:26
+msgctxt "global.final_caption.sgn_publcation_search_results"
+msgid "SGN publication search results"
+msgstr "Resultados de búsqueda de publicaciones de SGN"
+
+#: cgi-bin/search/unigene-all-blast-matches.pl:18
+msgctxt "global.final_caption.sgn_unigene_show_all_stored_blast_hits"
+msgid "SGN Unigene - Show All Stored BLAST Hits"
+msgstr "Unigene de SGN: mostrar todas las coincidencias BLAST almacenadas"
+
+#: cgi-bin/search/unigene-all-blast-matches.pl:10
+msgctxt "global.final_caption.span"
+msgid "Span:"
+msgstr "Extensión:"
+
+#: cgi-bin/search/gem_experiment_search.pl:57
+msgctxt "global.gem_experiment_search.experiment"
+msgid "Experiment"
+msgstr "Experimento"
+
+#: cgi-bin/search/gem_experiment_search.pl:57
+msgctxt "global.gem_experiment_search.experimental_design"
+msgid "Experimental Design"
+msgstr "Diseño experimental"
+
+#: cgi-bin/search/gem_experiment_search.pl:20
+#: cgi-bin/search/gem_experiment_search.pl:23
+msgctxt "global.gem_experiment_search.page_title"
+msgid "Expression search results by experiment"
+msgstr "Resultados de búsqueda de expresión por experimento"
+
+#: cgi-bin/search/gem_platform_search.pl:68
+msgctxt "global.gem_platform_search.no_matches"
+msgid "No matches found"
+msgstr "No se encontraron coincidencias"
+
+#: cgi-bin/search/gem_platform_search.pl:20
+#: cgi-bin/search/gem_platform_search.pl:23
+msgctxt "global.gem_platform_search.page_title"
+msgid "Expression search results by platform"
+msgstr "Resultados de búsqueda de expresión por plataforma"
+
+#: cgi-bin/search/gem_platform_search.pl:54
+msgctxt "global.gem_platform_search.platform"
+msgid "Platform"
+msgstr "Plataforma"
+
+#: cgi-bin/search/gem_platform_search.pl:64
+msgctxt "global.gem_platform_search.results"
+msgid "Results"
+msgstr "Resultados"
+
+#: cgi-bin/search/gem_platform_search.pl:64
+msgctxt "global.gem_platform_search.results_summary"
+msgid "%{count} matches "
+msgstr "%{count} coincidencias "
+
+#: cgi-bin/search/gem_platform_search.pl:70
+msgctxt "global.gem_platform_search.search_again"
+msgid "Search again"
+msgstr "Buscar de nuevo"
+
+#: cgi-bin/search/gem_template_search.pl:68
+msgctxt "global.gem_template_search.no_matches"
+msgid "No matches found"
+msgstr "No se encontraron coincidencias"
+
+#: cgi-bin/search/gem_template_search.pl:20
+#: cgi-bin/search/gem_template_search.pl:23
+msgctxt "global.gem_template_search.page_title"
+msgid "Expression search results by template"
+msgstr "Resultados de búsqueda de expresión por plantilla"
+
+#: cgi-bin/search/gem_template_search.pl:64
+msgctxt "global.gem_template_search.results"
+msgid "Results"
+msgstr "Resultados"
+
+#: cgi-bin/search/gem_template_search.pl:64
+msgctxt "global.gem_template_search.results_summary"
+msgid "%{count} matches "
+msgstr "%{count} coincidencias "
+
+#: cgi-bin/search/gem_template_search.pl:70
+msgctxt "global.gem_template_search.search_again"
+msgid "Search again"
+msgstr "Buscar de nuevo"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/genomes.mas:9
+msgctxt "global.genomes.apollo_annotation_editor"
+msgid "%{crop} - Apollo genome annotation editor"
+msgstr "%{crop} - editor de anotación del genoma Apollo"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/genomes.mas:7
+msgctxt "global.genomes.completed"
+msgid "Completed Genomes"
+msgstr "Genomas completados"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/genomes.mas:16
+msgctxt "global.genomes.draft"
+msgid "Draft Genomes"
+msgstr "Genomas preliminares"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/genomes.mas:25
+msgctxt "global.genomes.resequencing"
+msgid "Resequencing projects"
+msgstr "Proyectos de resecuenciación"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/genomes.mas:4
+msgctxt "global.genomes.sequenced_accessions"
+msgid "Sequenced Accessions"
+msgstr "Accesiones secuenciadas"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/genomes.mas:1
+msgctxt "global.genomes.title"
+msgid "Genomes"
+msgstr "Genomas"
+
+# Draft translation; human review required.
+#: mason/homepage/getting_started.mas:28
+msgctxt "global.getting_started.unavailable"
+msgid "Sidebar contents are not available at the moment."
+msgstr "El contenido de la barra lateral no está disponible en este momento."
+
+# Draft translation; human review required.
+#: mason/homepage/github_pullrequests.mas:35
+msgctxt "global.github_pullrequests.description"
+msgid "Description"
+msgstr "Descripción"
+
+# Draft translation; human review required.
+#: mason/homepage/github_pullrequests.mas:9
+msgctxt "global.github_pullrequests.heading"
+msgid "Recent Changes to Database"
+msgstr "Cambios recientes en la base de datos"
+
+# Draft translation; human review required.
+#: mason/homepage/github_pullrequests.mas:35
+msgctxt "global.github_pullrequests.title"
+msgid "Title"
+msgstr "Título"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/Search.pm:61
+msgctxt "global.glossary.heading"
+msgid "Glossary search"
+msgstr "Búsqueda en el glosario"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/Search.pm:63
+msgctxt "global.glossary.lookup"
+msgid "Lookup"
+msgstr "Buscar"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/Search.pm:51
+msgctxt "global.glossary.not_found"
+msgid "Your term was not found. %{break} The term you searched for was %{term}."
+msgstr "No se encontró el término. %{break} El término buscado fue %{term}."
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/Search.pm:62
+msgctxt "global.glossary.prompt"
+msgid "Search the glossary by term:"
+msgstr "Buscar en el glosario por término:"
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:214
+msgctxt "global.graphical_filtering.cannot_create_empty_list"
+msgid "Can't create a list from nothing."
+msgstr "No se puede crear una lista a partir de un conjunto vacío."
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:162
+msgctxt "global.graphical_filtering.choose_a_list"
+msgid "Choose a List:"
+msgstr "Elija una lista:"
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:24
+msgctxt "global.graphical_filtering.choose_list"
+msgid "Choose a list of trials to filter."
+msgstr "Elija una lista de ensayos para filtrar."
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:150
+msgctxt "global.graphical_filtering.copy_to_clipboard"
+msgid "Copy to Clipboard"
+msgstr "Copiar al portapapeles"
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:62
+msgctxt "global.graphical_filtering.filtered_results"
+msgid "Filtered Results"
+msgstr "Resultados filtrados"
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:42
+msgctxt "global.graphical_filtering.group_by_accession"
+msgid "Group By Accession"
+msgstr "Agrupar por accesión"
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:226
+msgctxt "global.graphical_filtering.list_created"
+msgid "List \"%{name}\" created with %{count} entries."
+msgstr "Se creó la lista «%{name}» con %{count} elementos."
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:30
+msgctxt "global.graphical_filtering.loading"
+msgid "Loading..."
+msgstr "Cargando..."
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:54
+msgctxt "global.graphical_filtering.loading_alt"
+msgid "loading"
+msgstr "cargando"
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:87
+msgctxt "global.graphical_filtering.login_required"
+msgid "Login required to display graphical filtering"
+msgstr "Debe iniciar sesión para ver el filtrado gráfico."
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:101
+msgctxt "global.graphical_filtering.not_implemented"
+msgid "not yet implimented"
+msgstr "todavía no está implementado"
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:65
+msgctxt "global.graphical_filtering.save_accessions_as_list"
+msgid "Save Accessions results as List"
+msgstr "Guardar resultados de accesiones como lista"
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:35
+msgctxt "global.graphical_filtering.select_type"
+msgid "Select Type"
+msgstr "Seleccione el tipo"
+
+# Draft translation; human review required.
+#: mason/tools/graphicalfiltering/index.mas:18
+msgctxt "global.graphical_filtering.title"
+msgid "Graphical Filtering"
+msgstr "Filtrado gráfico"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:174 mason/qtl/population/traits_list.mas:26
+msgctxt "global.iconmenu.analyze_qtls"
+msgid "Analyze QTLs"
+msgstr "Analizar QTL"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:146
+msgctxt "global.iconmenu.available_maps"
+msgid "Available maps"
+msgstr "Mapas disponibles"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:162
+msgctxt "global.iconmenu.become_locus_editor"
+msgid "Become an SGN locus editor"
+msgstr "Convertirse en editor de loci de SGN"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:183
+msgctxt "global.iconmenu.breeders_toolbox"
+msgid "Breeders Toolbox"
+msgstr "Herramientas de fitomejoramiento"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:183
+msgctxt "global.iconmenu.click_breeders_toolbox"
+msgid "Click to access the Breeder's toolbox"
+msgstr "Acceder a las herramientas de fitomejoramiento"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:209
+msgctxt "global.iconmenu.click_solcyc"
+msgid "Click to access SolCyc"
+msgstr "Acceder a SolCyc"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:147
+msgctxt "global.iconmenu.comparative_viewer"
+msgid "Comparative viewer"
+msgstr "Visor comparativo"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:160
+msgctxt "global.iconmenu.expression"
+msgid "Expression"
+msgstr "Expresión"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:195
+msgctxt "global.iconmenu.genomes_sequences"
+msgid "Genomes and Sequences"
+msgstr "Genomas y secuencias"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:142
+msgctxt "global.iconmenu.maps_markers"
+msgid "Maps and Markers"
+msgstr "Mapas y marcadores"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:175
+msgctxt "global.iconmenu.ontology_browser"
+msgid "Ontology browser"
+msgstr "Visor de ontologías"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:209
+msgctxt "global.iconmenu.pathways"
+msgid "Pathways"
+msgstr "Vías metabólicas"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:169
+msgctxt "global.iconmenu.phenotypes_qtls"
+msgid "Phenotypes and QTLs"
+msgstr "Fenotipos y QTL"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:161
+msgctxt "global.iconmenu.search_browse_crop_genome"
+msgid "Search/browse %{crop} genome"
+msgstr "Buscar o explorar el genoma de %{crop}"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:158
+msgctxt "global.iconmenu.search_loci"
+msgid "Search loci"
+msgstr "Buscar loci"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:148
+msgctxt "global.iconmenu.search_markers"
+msgid "Search markers"
+msgstr "Buscar marcadores"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:172
+msgctxt "global.iconmenu.search_phenotypes"
+msgid "Search phenotypes"
+msgstr "Buscar fenotipos"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:159
+msgctxt "global.iconmenu.search_unigenes"
+msgid "Search unigenes"
+msgstr "Buscar unigenes"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:150
+msgctxt "global.iconmenu.submit_map_information"
+msgid "Submit map information to SGN"
+msgstr "Enviar información del mapa a SGN"
+
+# Draft translation; human review required.
+#: mason/homepage/iconmenu.mas:177
+msgctxt "global.iconmenu.submit_phenotype_data"
+msgid "Submit phenotype data"
+msgstr "Enviar datos fenotípicos"
+
+# Draft translation; human review required.
+#: mason/homepage/image_of_the_week.mas:25
+msgctxt "global.image_of_the_week.heading"
+msgid "Featured Image"
+msgstr "Imagen destacada"
+
+# Draft translation; human review required.
+#: mason/homepage/image_of_the_week.mas:9
+msgctxt "global.image_of_the_week.unavailable"
+msgid "(no image currently available)"
+msgstr "(no hay ninguna imagen disponible actualmente)"
+
+#: cgi-bin/search/image_search.pl:90
+msgctxt "global.image_search.image_description"
+msgid "Image Description"
+msgstr "Descripción de la imagen"
+
+#: cgi-bin/search/image_search.pl:91
+msgctxt "global.image_search.image_filename"
+msgid "Image Filename"
+msgstr "Nombre de archivo de imagen"
+
+#: cgi-bin/search/image_search.pl:105
+msgctxt "global.image_search.no_matches"
+msgid "No matches found"
+msgstr "No se encontraron coincidencias"
+
+#: cgi-bin/search/image_search.pl:103 cgi-bin/search/image_search.pl:28
+msgctxt "global.image_search.page_title"
+msgid "Image search results"
+msgstr "Resultados de búsqueda de imágenes"
+
+#: cgi-bin/search/image_search.pl:103
+msgctxt "global.image_search.results_summary"
+msgid "%{count} matches "
+msgstr "%{count} coincidencias "
+
+#: cgi-bin/search/image_search.pl:108
+msgctxt "global.image_search.search_again"
+msgid "Search again"
+msgstr "Buscar de nuevo"
+
+#: cgi-bin/search/image_search.pl:92
+msgctxt "global.image_search.submitter"
+msgid "Submitter (ID) Name"
+msgstr "Nombre del remitente (ID)"
+
+# Draft translation; human review required.
+#: mason/index.mas:17
+msgctxt "global.index.contact_description"
+msgid "Breedbase is a web application that only requires a browser. To get your Breedbase instance, contact the %{team_link}."
+msgstr "Breedbase es una aplicación web que solo requiere un navegador. Para obtener su instancia de Breedbase, contacte con %{team_link}."
+
+# Draft translation; human review required.
+#: mason/index.mas:20
+msgctxt "global.index.crops_description"
+msgid "There are a number of instances running for diverse crops, including %{cassava_link}, %{sweet_potato_link}, %{banana_link}, %{rice_link}, %{solanaceae_link} and many others."
+msgstr "Hay varias instancias para distintos cultivos, entre ellos %{cassava_link}, %{sweet_potato_link}, %{banana_link}, %{rice_link}, %{solanaceae_link} y muchos más."
+
+# Draft translation; human review required.
+#: mason/index.mas:42
+msgctxt "global.index.crops_heading"
+msgid "What crops are using Breedbase?"
+msgstr "¿Qué cultivos usan Breedbase?"
+
+# Draft translation; human review required.
+#: mason/index.mas:40
+msgctxt "global.index.how_to_use"
+msgid "How can I use Breedbase?"
+msgstr "¿Cómo puedo usar Breedbase?"
+
+# Draft translation; human review required.
+#: mason/index.mas:46
+msgctxt "global.index.learn_more"
+msgid "How can I learn more about Breedbase?"
+msgstr "¿Cómo puedo obtener más información sobre Breedbase?"
+
+# Draft translation; human review required.
+#: mason/index.mas:39
+msgctxt "global.index.product_description"
+msgid "Breedbase is a comprehensive breeding management and analysis software. It can be used to design field layouts, collect phenotypic information using tablets, support the collection of genotyping samples in a field, store large amounts of high density genotypic information, and provide Genomic Selection related analyses and predictions. Breedbase supports the BrAPI standard."
+msgstr "Breedbase es un software integral para gestionar y analizar programas de mejoramiento. Permite diseñar parcelas de campo, recopilar datos fenotípicos con tabletas, apoyar la toma de muestras para genotipado en campo, almacenar grandes volúmenes de datos genotípicos de alta densidad y realizar análisis y predicciones de selección genómica. Breedbase admite el estándar BrAPI."
+
+# Draft translation; human review required.
+#: mason/index.mas:16
+msgctxt "global.index.team_link"
+msgid "Breedbase development team"
+msgstr "el equipo de desarrollo de Breedbase"
+
+# Draft translation; human review required.
+#: mason/index.mas:38
+msgctxt "global.index.what_is_breedbase"
+msgid "What is Breedbase?"
+msgstr "¿Qué es Breedbase?"
+
+# Draft translation; human review required.
+#: mason/index.mas:27
+msgctxt "global.index.workshops_description"
+msgid "You can watch the Breedbase workshops on %{youtube_link}, covering topics such as ontologies, trial design, data collection using fieldbook, data analysis, and genomic selection."
+msgstr "Puede ver los talleres de Breedbase en %{youtube_link}, sobre ontologías, diseño de ensayos, recopilación de datos con fieldbook, análisis de datos y selección genómica."
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:72
+msgctxt "global.index_logged_in_user.added_accessions"
+msgid "10 most recently added accessions:"
+msgstr "10 accesiones añadidas más recientemente:"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:43
+msgctxt "global.index_logged_in_user.continue_heading"
+msgid "Continue where you left off:"
+msgstr "Continuar donde lo dejó:"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:41
+msgctxt "global.index_logged_in_user.continue_title"
+msgid "Continue where you left off"
+msgstr "Continuar donde lo dejó"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:58 mason/index_logged_in_user.mas:76
+msgctxt "global.index_logged_in_user.create_date"
+msgid "Create date"
+msgstr "Fecha de creación"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:54
+msgctxt "global.index_logged_in_user.created_trials"
+msgid "10 most recently created trials:"
+msgstr "10 ensayos creados más recientemente:"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:47
+msgctxt "global.index_logged_in_user.day"
+msgid "day"
+msgstr "día"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:44
+msgctxt "global.index_logged_in_user.interval"
+msgid "Interval:"
+msgstr "Intervalo:"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:67
+msgctxt "global.index_logged_in_user.last_phenotype_added"
+msgid "Last phenotype added"
+msgstr "Último dato fenotípico añadido"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:63
+msgctxt "global.index_logged_in_user.modified_trials"
+msgid "10 most recently modified trials:"
+msgstr "10 ensayos modificados más recientemente:"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:49
+msgctxt "global.index_logged_in_user.month"
+msgid "month"
+msgstr "mes"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:28
+msgctxt "global.index_logged_in_user.status"
+msgid "Your status is currently \"%{role}\"."
+msgstr "Su estado actual es «%{role}»."
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:48
+msgctxt "global.index_logged_in_user.week"
+msgid "week"
+msgstr "semana"
+
+# Draft translation; human review required.
+#: mason/index_logged_in_user.mas:26
+msgctxt "global.index_logged_in_user.welcome"
+msgid "Welcome back %{first_name}!"
+msgstr "¡Bienvenido de nuevo, %{first_name}!"
+
+# Draft translation; human review required.
+#: mason/homepage/labs.mas:23
+msgctxt "global.labs.featured_heading"
+msgid "Featured Lab"
+msgstr "Laboratorio destacado"
+
+# Draft translation; human review required.
+#: mason/homepage/labs.mas:27
+msgctxt "global.labs.see_all"
+msgid "See all featured labs..."
+msgstr "Ver todos los laboratorios destacados..."
+
+#: cgi-bin/search/library_search.pl:51
+msgctxt "global.library_search.development_stage"
+msgid "Development Stage"
+msgstr "Etapa de desarrollo"
+
+#: cgi-bin/search/library_search.pl:51 mason/order/catalog.mas:179
+#: mason/order/catalog.mas:205 mason/order/catalog_item_details.mas:168
+#: mason/qtl/population/summary.mas:29 mason/solgs/population/summary.mas:49
+#: mason/solgs/search/result/traits.mas:32 mason/tools/vectorviewer.mas:91
+#: mason/vectorviewer/vectorviewer.mas:160
+#: mason/vectorviewer/vectorviewer.mas:203
+msgctxt "global.library_search.name"
+msgid "Name"
+msgstr "Nombre"
+
+#: cgi-bin/search/library_search.pl:65
+msgctxt "global.library_search.no_matches"
+msgid "No matches found"
+msgstr "No se encontraron coincidencias"
+
+#: cgi-bin/search/library_search.pl:51
+msgctxt "global.library_search.organism"
+msgid "Organism"
+msgstr "Organismo"
+
+#: cgi-bin/search/library_search.pl:23
+msgctxt "global.library_search.page_title"
+msgid "Library search results"
+msgstr "Resultados de búsqueda de bibliotecas"
+
+#: cgi-bin/search/library_search.pl:61
+msgctxt "global.library_search.results_summary"
+msgid "%{count} matches "
+msgstr "%{count} coincidencias "
+
+#: cgi-bin/search/library_search.pl:67
+msgctxt "global.library_search.search_again"
+msgid "Search again"
+msgstr "Buscar de nuevo"
+
+#: cgi-bin/search/library_search.pl:51
+msgctxt "global.library_search.tissue"
+msgid "Tissue"
+msgstr "Tejido"
+
+# Draft translation; human review required.
+#: mason/homepage/locus_of_the_week.mas:27
+msgctxt "global.locus_of_the_week.heading"
+msgid "Featured Locus"
+msgstr "Locus destacado"
+
+# Draft translation; human review required.
+#: mason/homepage/locus_of_the_week.mas:29
+msgctxt "global.locus_of_the_week.previous"
+msgid "See previous..."
+msgstr "Ver anteriores..."
+
+# Draft translation; human review required.
+#: mason/homepage/locus_of_the_week.mas:29
+msgctxt "global.locus_of_the_week.search"
+msgid "Search other loci..."
+msgstr "Buscar otros loci..."
+
+# Draft translation; human review required.
+#: mason/homepage/locus_of_the_week.mas:9
+msgctxt "global.locus_of_the_week.unavailable"
+msgid "The locus of the week is currently unavailable."
+msgstr "El locus de la semana no está disponible en este momento."
+
+#: cgi-bin/search/locus_search.pl:94
+msgctxt "global.locus_search.allele_name"
+msgid "Allele name"
+msgstr "Nombre del alelo"
+
+#: cgi-bin/search/locus_search.pl:96
+msgctxt "global.locus_search.allele_phenotype"
+msgid "Allele phenotype"
+msgstr "Fenotipo del alelo"
+
+#: cgi-bin/search/locus_search.pl:92
+msgctxt "global.locus_search.locus_name"
+msgid "Locus name"
+msgstr "Nombre del locus"
+
+#: cgi-bin/search/locus_search.pl:113
+msgctxt "global.locus_search.no_matches"
+msgid "No matches found"
+msgstr "No se encontraron coincidencias"
+
+#: cgi-bin/search/locus_search.pl:91
+msgctxt "global.locus_search.organism"
+msgid "Organism"
+msgstr "Organismo"
+
+#: cgi-bin/search/locus_search.pl:30
+msgctxt "global.locus_search.page_title"
+msgid "Gene search results"
+msgstr "Resultados de búsqueda de genes"
+
+#: cgi-bin/search/locus_search.pl:111
+msgctxt "global.locus_search.results"
+msgid "Gene search results"
+msgstr "Resultados de búsqueda de genes"
+
+#: cgi-bin/search/locus_search.pl:111
+msgctxt "global.locus_search.results_summary"
+msgid "%{count} matches "
+msgstr "%{count} coincidencias "
+
+#: cgi-bin/search/locus_search.pl:116
+msgctxt "global.locus_search.search_again"
+msgid "Search again"
+msgstr "Buscar de nuevo"
+
+#: lib/SGN/Controller/AJAX/Login.pm:99
+msgctxt "global.login.logged_out"
+msgid "Logged out"
+msgstr "Sesión cerrada"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/logout_externally.mas:5
+msgctxt "global.logout_externally.status"
+msgid "Logging out..."
+msgstr "Cerrando sesión..."
+
+# Draft translation; human review required.
+#: mason/logout_message.mas:4
+msgctxt "global.logout_message.success"
+msgid "You have successfully logged out. Thanks for using %{project_name}!"
+msgstr "Ha cerrado sesión correctamente. ¡Gracias por usar %{project_name}!"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/maps.mas:5
+msgctxt "global.maps.all"
+msgid "All Maps"
+msgstr "Todos los mapas"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/maps.mas:7
+msgctxt "global.maps.comparative_viewer"
+msgid "Comparative Viewer"
+msgstr "Visor comparativo"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/maps.mas:33
+msgctxt "global.maps.more"
+msgid "More Maps"
+msgstr "Más mapas"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/maps.mas:6
+msgctxt "global.maps.new_comparative_viewer"
+msgid "The New Comparative Viewer"
+msgstr "El nuevo visor comparativo"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/maps.mas:8
+msgctxt "global.maps.submit"
+msgid "Submit a map"
+msgstr "Enviar un mapa"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/maps.mas:1
+msgctxt "global.maps.title"
+msgid "Maps"
+msgstr "Mapas"
+
+# Draft translation; human review required.
+#: mason/homepage/news.mas:26
+msgctxt "global.news.see_all"
+msgid "See all news..."
+msgstr "Ver todas las noticias..."
+
+# Draft translation; human review required.
+#: mason/homepage/news.mas:11
+msgctxt "global.news.unavailable"
+msgid "News is not available at the moment."
+msgstr "Las noticias no están disponibles en este momento."
+
+# Draft translation; human review required.
+#: mason/homepage/other_links.mas:8
+msgctxt "global.other_links.unavailable"
+msgid "Other links are currently not available."
+msgstr "Otros enlaces no están disponibles en este momento."
+
+# Draft translation; human review required.
+#: mason/homepage/popular_species.mas:22
+msgctxt "global.popular_species.search"
+msgid "Search other species..."
+msgstr "Buscar otras especies..."
+
+# Draft translation; human review required.
+#: mason/homepage/potato_genome_info.mas:16
+msgctxt "global.potato_genome_info.unavailable"
+msgid "(%{crop} genome information currently not available)"
+msgstr "(La información del genoma de %{crop} no está disponible en este momento)"
+
+#: cgi-bin/search/pub_search.pl:133
+msgctxt "global.pub_search.assigned_to"
+msgid "Assigned to"
+msgstr "Asignado a"
+
+#: cgi-bin/search/pub_search.pl:156
+msgctxt "global.pub_search.no_matches"
+msgid "No matches found"
+msgstr "No se encontraron coincidencias"
+
+#: cgi-bin/search/pub_search.pl:33
+msgctxt "global.pub_search.page_title"
+msgid "SGN Publication search"
+msgstr "Búsqueda de publicaciones de SGN"
+
+#: cgi-bin/search/pub_search.pl:149
+msgctxt "global.pub_search.results"
+msgid "Publication search results"
+msgstr "Resultados de búsqueda de publicaciones"
+
+#: cgi-bin/search/pub_search.pl:147
+msgctxt "global.pub_search.results_summary"
+msgid "%{count} matches "
+msgstr "%{count} coincidencias "
+
+#: cgi-bin/search/pub_search.pl:160
+msgctxt "global.pub_search.search_again"
+msgid "Search again"
+msgstr "Buscar de nuevo"
+
+#: cgi-bin/search/pub_search.pl:133
+msgctxt "global.pub_search.stored"
+msgid "Stored"
+msgstr "Guardado"
+
+#: cgi-bin/search/pub_search.pl:133
+msgctxt "global.pub_search.title"
+msgid "Title"
+msgstr "Título"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:579
+msgctxt "global.quick_search.0_accession_identifiers"
+msgid "0 accession identifiers"
+msgstr "Identificadores de accesiones: 0"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:743
+msgctxt "global.quick_search.0_breeding_programs"
+msgid "0 breeding programs"
+msgstr "Programas de mejora: 0"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:674
+msgctxt "global.quick_search.0_locations"
+msgid "0 locations"
+msgstr "Ubicaciones: 0"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:621
+msgctxt "global.quick_search.0_populations"
+msgid "0 populations."
+msgstr "Poblaciones: 0."
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:690
+msgctxt "global.quick_search.0_traits"
+msgid "0 traits"
+msgstr "Caracteres: 0"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:650
+msgctxt "global.quick_search.0_trials"
+msgid "0 trials"
+msgstr "Ensayos: 0"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:594
+msgctxt "global.quick_search.0_vectors"
+msgid "0 vectors"
+msgstr "Vectores: 0"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:345 lib/SGN/Controller/QuickSearch.pm:368
+msgctxt "global.quick_search.count_array_identifiers"
+msgid "%{count} array identifiers"
+msgstr "Identificadores de micromatrices: %{count}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:489
+msgctxt "global.quick_search.count_automatic_annotations"
+msgid "%{count} automatic annotations"
+msgstr "Anotaciones automáticas: %{count}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:491
+msgctxt "global.quick_search.count_automatic_annotations_unigenes"
+msgid "%{count} automatic annotations on %{unigenes} unigenes"
+msgstr "Anotaciones automáticas: %{count}; unigenes: %{unigenes}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:326
+msgctxt "global.quick_search.count_cdna_clone_identifiers"
+msgid "%{count} cDNA clone identifiers"
+msgstr "Identificadores de clones cDNA: %{count}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:280 lib/SGN/Controller/QuickSearch.pm:292
+msgctxt "global.quick_search.count_est_identifiers"
+msgid "%{count} EST identifiers"
+msgstr "Identificadores EST: %{count}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:465
+msgctxt "global.quick_search.count_manual_annotations"
+msgid "%{count} manual annotations"
+msgstr "Anotaciones manuales: %{count}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:464
+msgctxt "global.quick_search.count_manual_annotations_unigenes"
+msgid "%{count} manual annotations on %{unigenes} unigenes"
+msgstr "Anotaciones manuales: %{count}; unigenes: %{unigenes}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:395 lib/SGN/Controller/QuickSearch.pm:400
+#: lib/SGN/Controller/QuickSearch.pm:411 lib/SGN/Controller/QuickSearch.pm:426
+msgctxt "global.quick_search.count_marker_identifiers"
+msgid "%{count} marker identifiers"
+msgstr "Identificadores de marcadores: %{count}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:546 lib/SGN/Controller/QuickSearch.pm:548
+msgctxt "global.quick_search.count_pages"
+msgid "%{count} pages on %{site}"
+msgstr "Páginas en %{site}: %{count}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:380 lib/SGN/Controller/QuickSearch.pm:383
+msgctxt "global.quick_search.count_phenotype_identifiers"
+msgid "%{count} phenotype identifiers"
+msgstr "Identificadores de fenotipos: %{count}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:268 lib/SGN/Controller/QuickSearch.pm:271
+msgctxt "global.quick_search.count_results"
+msgid "%{count} %{type}"
+msgstr "%{type}: %{count}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:699
+msgctxt "global.quick_search.count_traits"
+msgid "%{count} traits"
+msgstr "Caracteres: %{count}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:754
+msgctxt "global.quick_search.entire_web"
+msgid "the entire web"
+msgstr "toda la web"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:121
+msgctxt "global.quick_search.missing_term"
+msgid "Must provide a search term"
+msgstr "Indique un término de búsqueda"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:575
+msgctxt "global.quick_search.one_accession"
+msgid "1 accession: %{name}"
+msgstr "1 accesión: %{name}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:330
+msgctxt "global.quick_search.one_clone"
+msgid "1 cDNA clone identifier"
+msgstr "1 identificador de clon cDNA"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:671
+msgctxt "global.quick_search.one_location"
+msgid "1 location: %{name}"
+msgstr "1 ubicación: %{name}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:605
+msgctxt "global.quick_search.one_plot"
+msgid "1 plot: %{name}"
+msgstr "1 parcela: %{name}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:618
+msgctxt "global.quick_search.one_population"
+msgid "1 population: %{name}"
+msgstr "1 población: %{name}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:740
+msgctxt "global.quick_search.one_program"
+msgid "1 breeding program: %{name}"
+msgstr "1 programa de mejora: %{name}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:696
+msgctxt "global.quick_search.one_trait"
+msgid "1 trait: %{name}"
+msgstr "1 carácter: %{name}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:647
+msgctxt "global.quick_search.one_trial"
+msgid "1 trial: %{name}"
+msgstr "1 ensayo: %{name}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:590
+msgctxt "global.quick_search.one_vector"
+msgid "1 vector construct: %{name}"
+msgstr "1 construcción de vector: %{name}"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:608
+msgctxt "global.quick_search.plots_no_exact_match"
+msgid "plots: No exact match."
+msgstr "Parcelas: sin coincidencia exacta."
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:726
+msgctxt "global.quick_search.too_many_hits"
+msgid "too many hits"
+msgstr "demasiadas coincidencias"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:244
+msgctxt "global.quick_search.type_0"
+msgid "people"
+msgstr "personas"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:245
+msgctxt "global.quick_search.type_1"
+msgid "cDNA libraries"
+msgstr "bibliotecas cDNA"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:246
+msgctxt "global.quick_search.type_2"
+msgid "unigene identifiers"
+msgstr "identificadores de unigenes"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:247
+msgctxt "global.quick_search.type_3"
+msgid "images"
+msgstr "imágenes"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:248
+msgctxt "global.quick_search.type_4"
+msgid "locus or allele identifiers"
+msgstr "identificadores de loci o alelos"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:474
+msgctxt "global.quick_search.undetermined"
+msgid "(not determined -- number of annotations too large)"
+msgstr "(sin determinar: demasiadas anotaciones)"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/QuickSearch.pm:237
+msgctxt "global.quick_search.zero_results"
+msgid "0 results"
+msgstr "Resultados: 0"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/resources.mas:1
+msgctxt "global.resources.title"
+msgid "Resources"
+msgstr "Recursos"
+
+#: cgi-bin/search/route-order.pl:78
+msgctxt "global.route-order.order_deleted"
+msgid "Order deleted."
+msgstr "Pedido eliminado."
+
+#: cgi-bin/search/route-order.pl:22
+msgctxt "global.route-order.page_title"
+msgid "Clone Shopping Cart"
+msgstr "Carrito de pedidos de clones"
+
+#: cgi-bin/search/route-order.pl:98
+msgctxt "global.route-order.route_help"
+msgid "This page should automatically route your order to the ordering facility. If you are seeing this page, your browser may not support the javascript commands which automate the order submission. Simply click the button below in that case."
+msgstr "Esta página debería enviar automáticamente el pedido al centro de pedidos. Si ve esta página, es posible que su navegador no admita los comandos de JavaScript que automatizan el envío del pedido. En ese caso, haga clic en el botón de abajo."
+
+#: cgi-bin/search/annotation_search_result.pl:395
+msgctxt "global.safe_caption.all"
+msgid "all"
+msgstr "todas"
+
+#: cgi-bin/search/clone-order.pl:30
+msgctxt "global.safe_caption.cookie_support"
+msgid "must support cookies"
+msgstr "debe admitir cookies"
+
+#: cgi-bin/search/clone-order.pl:30
+msgctxt "global.safe_caption.please_note"
+msgid "Please Note:"
+msgstr "Tenga en cuenta:"
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:38
+msgctxt "global.search.advanced_search.a_database_of_in_situ_images_which_can_be_updated_by_users_with_image_add_delete_and_"
+msgid "- A database of in-situ images which can be updated by users, with image add, delete and annotation editing functions. The current images were generated by the floral genome project (FGP). For more information on the floral genome project, visit http://floralgenome.org/ and http://pgn.cornell.edu/."
+msgstr "- Una base de imágenes in-situ que los usuarios pueden actualizar, con funciones para añadir y eliminar imágenes y editar anotaciones. Las imágenes actuales fueron generadas por floral genome project (FGP). Para más información, visite http://floralgenome.org/ y http://pgn.cornell.edu/."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:26
+msgctxt "global.search.advanced_search.a_web_interface_for_uploading_qtl_raw_data_on_the_fly_qtl_mapping_and_search_interfac"
+msgid "- A web interface for uploading QTL raw data, on-the-fly QTL mapping and search interface for QTLs."
+msgstr "- Una interfaz web para cargar datos originales de QTL, cartografiar QTL al momento y buscar QTL."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:34
+msgctxt "global.search.advanced_search.bac_bacterial_artificial_chromosome_search"
+msgid "- BAC (Bacterial Artificial Chromosome) search."
+msgstr "- Búsqueda de BAC (cromosomas artificiales bacterianos)."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:36
+msgctxt "global.search.advanced_search.find_est_expressed_sequence_tag_libraries_by_keyword_e_g_library_name_organism_tissue"
+msgid "- Find EST (Expressed Sequence Tag) libraries by keyword, e.g. library name, organism, tissue, development stage, or authors."
+msgstr "- Busque bibliotecas EST (etiquetas de secuencias expresadas) por palabra clave, por ejemplo nombre de la biblioteca, organismo, tejido, etapa de desarrollo o autores."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:46
+msgctxt "global.search.advanced_search.frequently_asked_questions_from_users_of_sgn"
+msgid "- Frequently asked questions from users of SGN."
+msgstr "- Preguntas frecuentes de los usuarios de SGN."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:20
+msgctxt "global.search.advanced_search.gene_search"
+msgid "- Gene search."
+msgstr "- Búsqueda de genes."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:32
+msgctxt "global.search.advanced_search.marker_search"
+msgid "- Marker search."
+msgstr "- Búsqueda de marcadores."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:44
+msgctxt "global.search.advanced_search.search_database_of_researchers_who_use_sgn"
+msgid "- Search database of researchers who use SGN."
+msgstr "- Busque en la base de investigadores que usan SGN."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:22
+msgctxt "global.search.advanced_search.search_for_many_types_of_annotations_and_sequences"
+msgid "- Search for many types of annotations and sequences."
+msgstr "- Busque muchos tipos de anotaciones y secuencias."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:24
+msgctxt "global.search.advanced_search.search_for_mutants_accessions_and_traits"
+msgid "- Search for mutants, accessions, and traits."
+msgstr "- Busque mutantes, accesiones y caracteres."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:18
+msgctxt "global.search.advanced_search.search_for_organisms"
+msgid "- search for organisms"
+msgstr "- buscar organismos"
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:40 mason/search/advanced_search.mas:42
+msgctxt "global.search.advanced_search.search_images_contained_in_the_sgn_database"
+msgid "- Search images contained in the SGN database."
+msgstr "- Busque imágenes en la base de datos de SGN."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:30
+msgctxt "global.search.advanced_search.unigene_family_search"
+msgid "- Unigene family search."
+msgstr "- Búsqueda de familias de unigenes."
+
+# Draft translation; human review required.
+#: mason/search/advanced_search.mas:28
+msgctxt "global.search.advanced_search.unigene_search"
+msgid "- Unigene search."
+msgstr "- Búsqueda de unigenes."
+
+# Draft translation; human review required.
+#: mason/search/annotation/genes.mas:34
+msgctxt "global.search.annotation.genes.description"
+msgid "Description"
+msgstr "Descripción"
+
+# Draft translation; human review required.
+#: mason/search/annotation/genes.mas:11
+msgctxt "global.search.annotation.genes.gene_annotation_and_families"
+msgid "Gene annotation and families"
+msgstr "Anotación de genes y familias"
+
+# Draft translation; human review required.
+#: mason/search/annotation/genes.mas:33 mason/search/phenotypes/stock.mas:60
+msgctxt "global.search.annotation.genes.stock_name"
+msgid "Stock Name"
+msgstr "Nombre del material"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:75
+msgctxt "global.search.bulk.back_to_search"
+msgid "Back to Search"
+msgstr "Volver a la búsqueda"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:9
+msgctxt "global.search.bulk.bulk_search"
+msgid "Bulk Search"
+msgstr "Búsqueda masiva"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:52
+msgctxt "global.search.bulk.copy_existing_items_to_a_list"
+msgid "Copy Existing Items to a List"
+msgstr "Copiar elementos existentes a una lista"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:68
+msgctxt "global.search.bulk.copy_missing_items_to_a_list"
+msgid "Copy Missing Items to a List"
+msgstr "Copiar elementos ausentes a una lista"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:160
+msgctxt "global.search.bulk.could_not_get_supported_data_types"
+msgid "Could not get supported data types!"
+msgstr "¡No se pudieron obtener los tipos de datos compatibles!"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:192
+msgctxt "global.search.bulk.could_not_run_bulk_search"
+msgid "Could not run bulk search!"
+msgstr "¡No se pudo ejecutar la búsqueda masiva!"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:26
+msgctxt "global.search.bulk.data_items"
+msgid "Data Items"
+msgstr "Elementos de datos"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:18
+msgctxt "global.search.bulk.data_type"
+msgid "Data Type"
+msgstr "Tipo de datos"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:28
+msgctxt "global.search.bulk.enter_the_names_of_the_data_items_one_per_line"
+msgid "Enter the names of the data items (one per line)"
+msgstr "Introduzca los nombres de los elementos de datos (uno por línea)"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:42
+msgctxt "global.search.bulk.existing_items"
+msgid "Existing Items"
+msgstr "Elementos existentes"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:236
+msgctxt "global.search.bulk.invalid_response_from_the_server"
+msgid "Invalid response from the server!"
+msgstr "¡Respuesta del servidor no válida!"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:58
+msgctxt "global.search.bulk.missing_items"
+msgid "Missing Items"
+msgstr "Elementos ausentes"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:117 mason/search/bulk.mas:99
+msgctxt "global.search.bulk.name.7e68cb0"
+msgid "Name"
+msgstr "Nombre"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:34
+msgctxt "global.search.bulk.search"
+msgid "Search"
+msgstr "Buscar"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:188 mason/search/bulk.mas:193
+msgctxt "global.search.bulk.search.7883f4b"
+msgid "Search"
+msgstr "Buscar"
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:178 mason/search/markers/results.mas:236
+#: mason/search/markers/results.mas:351
+msgctxt "global.search.bulk.searching"
+msgid "Searching..."
+msgstr "Buscando..."
+
+# Draft translation; human review required.
+#: mason/search/bulk.mas:11
+msgctxt "global.search.bulk.the_bulk_search_will_check_a_list_of_data_items_if_they_exist_in_the_database_for_the"
+msgid "The Bulk Search will check a list of data items if they exist in the database for the specified data type."
+msgstr "La búsqueda masiva comprueba si los elementos de una lista existen en la base de datos para el tipo de datos especificado."
+
+# Draft translation; human review required.
+#: mason/search/datasets.mas:19
+msgctxt "global.search.datasets.dataset_name"
+msgid "Dataset name"
+msgstr "Nombre del conjunto de datos"
+
+# Draft translation; human review required.
+#: mason/search/datasets.mas:11
+msgctxt "global.search.datasets.dataset_search"
+msgid "Dataset Search"
+msgstr "Búsqueda de conjuntos de datos"
+
+# Draft translation; human review required.
+#: mason/search/datasets.mas:20
+msgctxt "global.search.datasets.description"
+msgid "Description"
+msgstr "Descripción"
+
+# Draft translation; human review required.
+#: mason/search/datasets.mas:11 mason/search/traits.mas:104
+#: mason/tools/heritability/index.mas:28 mason/tools/solgwas/index.mas:28
+#: mason/tools/stability/index.mas:33
+msgctxt "global.search.datasets.help"
+msgid "Help"
+msgstr "Ayuda"
+
+# Draft translation; human review required.
+#: mason/search/datasets.mas:22
+msgctxt "global.search.datasets.public"
+msgid "Public"
+msgstr "Público"
+
+# Draft translation; human review required.
+#: mason/search/datasets.mas:58
+msgctxt "global.search.datasets.public.df855aa"
+msgid "Public"
+msgstr "Público"
+
+# Draft translation; human review required.
+#: mason/search/datasets.mas:23
+msgctxt "global.search.datasets.published"
+msgid "Published"
+msgstr "Publicado"
+
+# Draft translation; human review required.
+#: mason/search/features.mas:65
+msgctxt "global.search.features.description.26f0cba"
+msgid "Description:"
+msgstr "Descripción:"
+
+# Draft translation; human review required.
+#: mason/search/features.mas:89
+msgctxt "global.search.features.description.3692b15"
+msgid "Description"
+msgstr "Descripción"
+
+# Draft translation; human review required.
+#: mason/search/features.mas:57
+msgctxt "global.search.features.name.9cc4b7b"
+msgid "Name:"
+msgstr "Nombre:"
+
+# Draft translation; human review required.
+#: mason/search/features.mas:88
+msgctxt "global.search.features.name.9ede896"
+msgid "Name"
+msgstr "Nombre"
+
+# Draft translation; human review required.
+#: mason/search/features.mas:86
+msgctxt "global.search.features.organism.2f1e4a4"
+msgid "Organism"
+msgstr "Organismo"
+
+# Draft translation; human review required.
+#: mason/search/features.mas:39
+msgctxt "global.search.features.organism.596dffa"
+msgid "Organism:"
+msgstr "Organismo:"
+
+# Draft translation; human review required.
+#: mason/search/features.mas:34 mason/search/features.mas:72
+msgctxt "global.search.features.search"
+msgid "Search"
+msgstr "Buscar"
+
+# Draft translation; human review required.
+#: mason/search/features.mas:16
+msgctxt "global.search.features.search_genomic_sequences_and_annotations"
+msgid "Search genomic sequences and annotations"
+msgstr "Buscar secuencias genómicas y anotaciones"
+
+# Draft translation; human review required.
+#: mason/search/features.mas:79
+msgctxt "global.search.features.search_results"
+msgid "Search Results"
+msgstr "Resultados de búsqueda"
+
+# Draft translation; human review required.
+#: mason/search/forms/bac_tab.mas:40
+msgctxt "global.search.forms.bac_tab.about_physical_mapping"
+msgid "About Physical Mapping"
+msgstr "Acerca del mapeo físico"
+
+# Draft translation; human review required.
+#: mason/search/forms/bac_tab.mas:39
+msgctxt "global.search.forms.bac_tab.browse_bacs_by_overgo_plate"
+msgid "Browse BACs by Overgo Plate"
+msgstr "Explorar BAC por placa Overgo"
+
+# Draft translation; human review required.
+#: mason/search/forms/bac_tab.mas:27
+msgctxt "global.search.forms.bac_tab.genomic_clone_search"
+msgid "Genomic clone search"
+msgstr "Búsqueda de clones genómicos"
+
+# Draft translation; human review required.
+#: mason/search/forms/bac_tab.mas:45
+msgctxt "global.search.forms.bac_tab.guidelines_for_seed_bac_selection"
+msgid "Guidelines for seed BAC selection"
+msgstr "Pautas para seleccionar BAC iniciales"
+
+# Draft translation; human review required.
+#: mason/search/forms/bac_tab.mas:44
+msgctxt "global.search.forms.bac_tab.old_2000_chromosome_6_tomato_bac_annotation"
+msgid "Old (2000) chromosome 6 tomato BAC annotation"
+msgstr "Anotación antigua (2000) de BAC del cromosoma 6 del tomate"
+
+# Draft translation; human review required.
+#: mason/search/forms/bac_tab.mas:42
+msgctxt "global.search.forms.bac_tab.overgo_plating_process"
+msgid "Overgo plating process"
+msgstr "Proceso de distribución de Overgo en placas"
+
+# Draft translation; human review required.
+#: mason/search/forms/bac_tab.mas:41
+msgctxt "global.search.forms.bac_tab.overgo_project"
+msgid "Overgo Project"
+msgstr "Proyecto Overgo"
+
+# Draft translation; human review required.
+#: mason/search/forms/bac_tab.mas:37
+msgctxt "global.search.forms.bac_tab.related_links"
+msgid "Related Links:"
+msgstr "Enlaces relacionados:"
+
+# Draft translation; human review required.
+#: mason/search/forms/bac_tab.mas:30
+msgctxt "global.search.forms.bac_tab.select_a_genomic_clone_at_random"
+msgid "Select a genomic clone at random"
+msgstr "Seleccionar un clon genómico al azar"
+
+# Draft translation; human review required.
+#: mason/search/forms/bac_tab.mas:43
+msgctxt "global.search.forms.bac_tab.tomato_fpc_map_at_agi"
+msgid "Tomato FPC Map at AGI"
+msgstr "Mapa FPC del tomate en AGI"
+
+# Draft translation; human review required.
+#: mason/search/forms/directory_tab.mas:29
+msgctxt "global.search.forms.directory_tab.directory_search"
+msgid "Directory search"
+msgstr "Búsqueda en el directorio"
+
+# Draft translation; human review required.
+#: mason/search/forms/expr_experiment.mas:23
+msgctxt "global.search.forms.expr_experiment.expression_search_by_experiment"
+msgid "Expression search by experiment"
+msgstr "Búsqueda de expresión por experimento"
+
+# Draft translation; human review required.
+#: mason/search/forms/expr_platform.mas:23
+msgctxt "global.search.forms.expr_platform.expression_search_by_platform"
+msgid "Expression search by platform"
+msgstr "Búsqueda de expresión por plataforma"
+
+# Draft translation; human review required.
+#: mason/search/forms/expr_template_tab.mas:18
+msgctxt "global.search.forms.expr_template_tab.expression_search_by_template"
+msgid "Expression search by template"
+msgstr "Búsqueda de expresión por plantilla"
+
+# Draft translation; human review required.
+#: mason/search/forms/gene_tab.mas:39
+msgctxt "global.search.forms.gene_tab.gene_search"
+msgid "Gene search"
+msgstr "Búsqueda de genes"
+
+# Draft translation; human review required.
+#: mason/search/forms/images_tab.mas:30
+msgctxt "global.search.forms.images_tab.image_search"
+msgid "Image search"
+msgstr "Búsqueda de imágenes"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:18
+msgctxt "global.search.images.all_images_may_not_have_names_descriptions_or_tags_associated_with_them"
+msgid "All images may not have names, descriptions, or tags associated with them."
+msgstr "Puede que no todas las imágenes tengan nombres, descripciones o etiquetas asociados."
+
+# Draft translation; human review required.
+#: mason/search/images.mas:53
+msgctxt "global.search.images.associated_project"
+msgid "Associated project:"
+msgstr "Proyecto asociado:"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:41
+msgctxt "global.search.images.associated_stock"
+msgid "Associated stock:"
+msgstr "Material asociado:"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:77
+msgctxt "global.search.images.associations"
+msgid "Associations"
+msgstr "Asociaciones"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:75
+msgctxt "global.search.images.description"
+msgid "Description"
+msgstr "Descripción"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:23
+msgctxt "global.search.images.image_descriptors_name_description_or_filename"
+msgid "Image descriptors (name, description, or filename):"
+msgstr "Descriptores de imagen (nombre, descripción o nombre de archivo):"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:16
+msgctxt "global.search.images.image_search"
+msgid "Image Search"
+msgstr "Búsqueda de imágenes"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:18
+msgctxt "global.search.images.image_search_criteria"
+msgid "Image Search Criteria"
+msgstr "Criterios de búsqueda de imágenes"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:66
+msgctxt "global.search.images.image_search_results"
+msgid "Image Search Results"
+msgstr "Resultados de búsqueda de imágenes"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:35
+msgctxt "global.search.images.image_tag"
+msgid "Image tag:"
+msgstr "Etiqueta de imagen:"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:73
+msgctxt "global.search.images.image_thumbnail"
+msgid "Image Thumbnail"
+msgstr "Miniatura de imagen"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:78
+msgctxt "global.search.images.related_accession"
+msgid "Related Accession"
+msgstr "Accesión relacionada"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:47
+msgctxt "global.search.images.related_stock"
+msgid "Related stock:"
+msgstr "Material relacionado:"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:61
+msgctxt "global.search.images.search"
+msgid "Search"
+msgstr "Buscar"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:29
+msgctxt "global.search.images.submitter.31da5f6"
+msgid "Submitter:"
+msgstr "Remitente:"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:76
+msgctxt "global.search.images.submitter.5559e18"
+msgid "Submitter"
+msgstr "Remitente"
+
+# Draft translation; human review required.
+#: mason/search/images.mas:79
+msgctxt "global.search.images.tags"
+msgid "Tags"
+msgstr "Etiquetas"
+
+# Draft translation; human review required.
+#: mason/search/organisms.mas:77
+msgctxt "global.search.organisms.common_name"
+msgid "Common name"
+msgstr "Nombre común"
+
+# Draft translation; human review required.
+#: mason/search/organisms.mas:86
+msgctxt "global.search.organisms.no_matching_results_found"
+msgid "No Matching Results Found"
+msgstr "No se encontraron resultados coincidentes"
+
+# Draft translation; human review required.
+#: mason/search/organisms.mas:39
+msgctxt "global.search.organisms.organism_taxon_search"
+msgid "Organism/Taxon Search"
+msgstr "Búsqueda de organismos/taxones"
+
+# Draft translation; human review required.
+#: mason/search/organisms.mas:107
+msgctxt "global.search.organisms.popular_species"
+msgid "Popular Species"
+msgstr "Especies populares"
+
+# Draft translation; human review required.
+#: mason/search/organisms.mas:70
+msgctxt "global.search.organisms.results_first_last_of_total"
+msgid "Results %{first}-%{last} of %{total}"
+msgstr "Resultados %{first}-%{last} de %{total}"
+
+# Draft translation; human review required.
+#: mason/search/organisms.mas:95
+msgctxt "global.search.organisms.search"
+msgid "Search"
+msgstr "Buscar"
+
+# Draft translation; human review required.
+#: mason/search/organisms.mas:69
+msgctxt "global.search.organisms.search_results"
+msgid "Search Results"
+msgstr "Resultados de búsqueda"
+
+# Draft translation; human review required.
+#: mason/search/organisms.mas:77
+msgctxt "global.search.organisms.taxon_name"
+msgid "Taxon name"
+msgstr "Nombre del taxón"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:101
+msgctxt "global.search.quick_search.annotations"
+msgid "Annotations"
+msgstr "Anotaciones"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:79
+msgctxt "global.search.quick_search.cdna_libraries"
+msgid "cDNA Libraries"
+msgstr "Bibliotecas de ADNc"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:70
+msgctxt "global.search.quick_search.click_to_view_search_results"
+msgid "click to view search results"
+msgstr "haga clic para ver los resultados de búsqueda"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:20
+msgctxt "global.search.quick_search.exact_matches"
+msgid "Exact matches"
+msgstr "Coincidencias exactas"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:69
+msgctxt "global.search.quick_search.fuzzy_searches"
+msgid "Fuzzy searches"
+msgstr "Búsquedas aproximadas"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:78
+msgctxt "global.search.quick_search.identifiers"
+msgid "Identifiers"
+msgstr "Identificadores"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:34
+msgctxt "global.search.quick_search.identifiers_breeding_data"
+msgid "Identifiers - Breeding Data"
+msgstr "Identificadores - Datos de mejora genética"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:49
+msgctxt "global.search.quick_search.identifiers_genomic_data"
+msgid "Identifiers - Genomic Data"
+msgstr "Identificadores - Datos genómicos"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:121
+msgctxt "global.search.quick_search.images"
+msgid "Images"
+msgstr "Imágenes"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:17
+msgctxt "global.search.quick_search.note_the_quick_search_does_not_perform_exactly_the_same_queries_as_full_searches_for_"
+msgid "Note: The quick search does not perform exactly the same queries as full searches for the various data types. If your desired result does not appear, you may want to try again with one of the advanced search tools in the \"search\" menu."
+msgstr "Nota: la búsqueda rápida no realiza exactamente las mismas consultas que las búsquedas completas de los distintos tipos de datos. Si no aparece el resultado deseado, pruebe una de las herramientas de búsqueda avanzada del menú «buscar»."
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:100
+msgctxt "global.search.quick_search.people_searching_by_name"
+msgid "People (searching by name)"
+msgstr "Personas (búsqueda por nombre)"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:14
+msgctxt "global.search.quick_search.quick_search_for_term"
+msgid "Quick search for \"%{term}\""
+msgstr "Búsqueda rápida de «%{term}»"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:25
+msgctxt "global.search.quick_search.site_xref_search_time"
+msgid "Site xref search time:"
+msgstr "Tiempo de búsqueda de referencias cruzadas del sitio:"
+
+# Draft translation; human review required.
+#: mason/search/quick_search.mas:122
+msgctxt "global.search.quick_search.web_pages"
+msgid "Web Pages"
+msgstr "Páginas web"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:686
+msgctxt "global.search_wizard.about_paragraph_one"
+msgid "For the search wizard to be fast and flexible, it avoids querying the database directly. Instead, it stores a copy of the data from the database in a temporary format that is optimized for the types of queries the wizard makes."
+msgstr "Para que el asistente de búsqueda sea rápido y flexible, evita consultar directamente la base de datos. En su lugar, guarda una copia de los datos en un formato temporal optimizado para los tipos de consultas del asistente."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:686
+msgctxt "global.search_wizard.about_paragraph_three"
+msgid "If an update isn't already in progress, you can initiate one below. It will run independently on the server without any additional input required from the user. Depending on the size of the database, it will take from a few minutes to a few hours to complete."
+msgstr "Si no hay una actualización en curso, puede iniciarla abajo. Se ejecutará de forma independiente en el servidor, sin que tenga que introducir más datos. Según el tamaño de la base de datos, puede tardar desde unos minutos hasta varias horas."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:686
+msgctxt "global.search_wizard.about_paragraph_two"
+msgid "For this to be practical, the copy must be updated regularly. Updates usually start every time new data is uploaded, however users with submitter status or higher can also initiate them manually."
+msgstr "Para que esto funcione, la copia debe actualizarse con regularidad. Las actualizaciones suelen iniciarse cada vez que se cargan datos nuevos, aunque los usuarios con estado de submitter o superior también pueden iniciarlas manualmente."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:134
+#: mason/breeders_toolbox/manage_upload.mas:100
+#: mason/breeders_toolbox/manage_upload.mas:123
+#: mason/breeders_toolbox/manage_upload.mas:146
+#: mason/breeders_toolbox/manage_upload.mas:170
+#: mason/breeders_toolbox/manage_upload.mas:195
+#: mason/breeders_toolbox/manage_upload.mas:218
+#: mason/breeders_toolbox/manage_upload.mas:253
+#: mason/breeders_toolbox/manage_upload.mas:30
+#: mason/breeders_toolbox/manage_upload.mas:52
+#: mason/breeders_toolbox/manage_upload.mas:77
+#: mason/breeders_toolbox/trial/greenhouse_add_additional_accessions_dialog.mas:79
+#: mason/order/add_catalog_item_dialog.mas:61
+#: mason/order/add_catalog_using_list_dialog.mas:72
+#: mason/order/catalog_item_details.mas:175
+#: mason/propagation/add_propagation_group_id_dialog.mas:111
+#: mason/propagation/add_propagation_id_dialog.mas:39
+#: mason/search/vectors.mas:155 mason/tools/label_designer/design_label.mas:51
+#: mason/tools/label_designer/label_designer_modals.mas:28
+#: mason/tools/vectorviewer.mas:286 mason/tools/vectorviewer.mas:327
+msgctxt "global.search_wizard.add"
+msgid "Add"
+msgstr "Añadir"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:129
+msgctxt "global.search_wizard.add_to_list_option"
+msgid "Add to List..."
+msgstr "Añadir a la lista..."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:108
+msgctxt "global.search_wizard.all"
+msgid "ALL"
+msgstr "TODOS"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:497
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:87
+#: mason/stock/download_stock_phenotypes_dialog.mas:62
+msgctxt "global.search_wizard.all_values_multiple_line"
+msgid "All Values Multiple Line"
+msgstr "Todos los valores en varias líneas"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:496
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:86
+#: mason/stock/download_stock_phenotypes_dialog.mas:61
+msgctxt "global.search_wizard.all_values_single_line"
+msgid "All Values Single Line"
+msgstr "Todos los valores en una línea"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:106
+msgctxt "global.search_wizard.any"
+msgid "ANY"
+msgstr "CUALQUIERA"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:811
+msgctxt "global.search_wizard.archived_files_error"
+msgid "Error: Could not check for archived files"
+msgstr "Error: no se pudieron comprobar los archivos archivados"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:371
+msgctxt "global.search_wizard.archived_genotype_data"
+msgid "Archived Genotype Data"
+msgstr "Datos de genotipo archivados"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:220
+msgctxt "global.search_wizard.archived_genotype_help"
+msgid "Download the original archived VCF files of entire genotyping projects.  Select %{selection} to download a VCF file of any matching project(s)."
+msgstr "Descargue los archivos VCF originales archivados de los proyectos de genotipado. Seleccione %{selection} para descargar un archivo VCF de los proyectos coincidentes."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:494
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:84
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:55
+#: mason/stock/download_stock_phenotypes_dialog.mas:59
+msgctxt "global.search_wizard.averaged_value"
+msgid "Averaged value"
+msgstr "Valor promedio"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:693
+msgctxt "global.search_wizard.close"
+msgid "Close"
+msgstr "Cerrar"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:233
+msgctxt "global.search_wizard.compute_from_parents"
+msgid "Compute From Parents"
+msgstr "Calcular a partir de los parentales"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:71
+#: mason/search/markers/search.mas:39
+msgctxt "global.search_wizard.contains"
+msgid "Contains"
+msgstr "Contiene"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:142
+#: mason/breeders_toolbox/breeder_search_page.mas:190
+msgctxt "global.search_wizard.create"
+msgid "Create"
+msgstr "Crear"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:188
+msgctxt "global.search_wizard.create_new_dataset"
+msgid "Create New Dataset"
+msgstr "Crear un conjunto de datos nuevo"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:139
+msgctxt "global.search_wizard.create_new_list"
+msgid "Create New List..."
+msgstr "Crear una lista nueva..."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:687
+msgctxt "global.search_wizard.current_status"
+msgid "Current status:"
+msgstr "Estado actual:"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:435
+msgctxt "global.search_wizard.data_level"
+msgid "Data Level"
+msgstr "Nivel de datos"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:166
+msgctxt "global.search_wizard.dataset_columns_instruction"
+msgid "Load/Create Datasets using %{match_button} Columns"
+msgstr "Cargue o cree conjuntos de datos mediante las columnas %{match_button}"
+
+#: js/source/legacy/CXGN/BreederSearch.js:197
+msgctxt "global.search_wizard.dataset_stored"
+msgid "Successfully stored the dataset!"
+msgstr "¡El conjunto de datos se guardó correctamente!"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:506
+#: mason/breeders_toolbox/breeder_search_page.mas:635
+msgctxt "global.search_wizard.date_to"
+msgid "To:"
+msgstr "Hasta:"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:422
+#: mason/breeders_toolbox/breeder_search_page.mas:565
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:34
+msgctxt "global.search_wizard.default"
+msgid "Default"
+msgstr "Predeterminado"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:182
+msgctxt "global.search_wizard.delete"
+msgid "Delete"
+msgstr "Eliminar"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:279
+msgctxt "global.search_wizard.dosage_matrix_file_format"
+msgid "Dosage Matrix File Format (.tsv)"
+msgstr "Formato de archivo de matriz de dosis (.tsv)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:824
+msgctxt "global.search_wizard.download"
+msgid "Download"
+msgstr "Descargar"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:428
+#: mason/breeders_toolbox/breeder_search_page.mas:571
+msgctxt "global.search_wizard.download_format"
+msgid "Download Format"
+msgstr "Formato de descarga"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:229
+msgctxt "global.search_wizard.download_genotype_data"
+msgid "Download Genotype Data"
+msgstr "Descargar datos de genotipo"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:288
+#: mason/breeders_toolbox/breeder_search_page.mas:291
+msgctxt "global.search_wizard.download_genotypes"
+msgid "Download Genotypes"
+msgstr "Descargar genotipos"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:334
+#: mason/breeders_toolbox/breeder_search_page.mas:337
+msgctxt "global.search_wizard.download_grm"
+msgid "Download GRM"
+msgstr "Descargar GRM"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:359
+msgctxt "global.search_wizard.download_gwas"
+msgid "Download GWAS"
+msgstr "Descargar GWAS"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:543
+#: mason/breeders_toolbox/breeder_search_page.mas:662
+msgctxt "global.search_wizard.download_phenotypes"
+msgid "Download Phenotypes"
+msgstr "Descargar fenotipos"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:421
+#: mason/breeders_toolbox/breeder_search_page.mas:564
+msgctxt "global.search_wizard.download_type"
+msgid "Download Type"
+msgstr "Tipo de descarga"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:260
+msgctxt "global.search_wizard.end_position"
+msgid "End Position"
+msgstr "Posición final"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:72
+msgctxt "global.search_wizard.exact"
+msgid "Exact"
+msgstr "Coincidencia exacta"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:423
+#: mason/breeders_toolbox/breeder_search_page.mas:566
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:35
+msgctxt "global.search_wizard.fast_may_miss_recent"
+msgid "Fast (Improves speed but may miss recent changes)"
+msgstr "Rápido (mejora la velocidad, pero puede omitir cambios recientes)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:827
+#: mason/breeders_toolbox/genotyping_data_project/genotype_archived_vcf.mas:41
+msgctxt "global.search_wizard.file_not_found"
+msgid "File not found"
+msgstr "Archivo no encontrado"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:247
+msgctxt "global.search_wizard.filter_chromosome_or_marker_alleles"
+msgid "Filter by Chromosome or Marker Alleles"
+msgstr "Filtrar por cromosoma o alelos de marcador"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:492
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:82
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:53
+#: mason/stock/download_stock_phenotypes_dialog.mas:57
+msgctxt "global.search_wizard.first_value"
+msgid "First value"
+msgstr "Primer valor"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:391
+#: mason/breeders_toolbox/genotyping_data_project/genotyping_plates.mas:11
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:656
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:996
+#: mason/phenotypes/submission_guide.mas:57
+#: mason/search/genotyping_trials.mas:27
+msgctxt "global.search_wizard.format"
+msgid "Format"
+msgstr "Formato"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:503
+#: mason/breeders_toolbox/breeder_search_page.mas:632
+msgctxt "global.search_wizard.from"
+msgid "From:"
+msgstr "Desde:"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:215
+msgctxt "global.search_wizard.genotype_download_help"
+msgid "Download matching genotype records from the database.  Select a %{protocol_choice} and %{accessions_choice} to download the matching genotype data."
+msgstr "Descargue los registros de genotipos correspondientes de la base de datos. Seleccione %{protocol_choice} y %{accessions_choice} para descargar los datos de genotipo correspondientes."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:276
+msgctxt "global.search_wizard.genotypes_download_format"
+msgid "Genotypes Download Format"
+msgstr "Formato de descarga de genotipos"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:320
+msgctxt "global.search_wizard.grm_download_format"
+msgid "Genomic Relationship Matrix (GRM) Download Format"
+msgstr "Formato de descarga de la matriz de relaciones genómicas (GRM)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:343
+msgctxt "global.search_wizard.gwas_download_format"
+msgid "Genome Wide Association Study (GWAS) Download Format"
+msgstr "Formato de descarga del estudio de asociación del genoma completo (GWAS)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:346
+msgctxt "global.search_wizard.gwas_results_format"
+msgid "GWAS Results (.tsv)"
+msgstr "Resultados de GWAS (.tsv)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:325
+msgctxt "global.search_wizard.heatmap_format"
+msgid "Heatmap (.pdf)"
+msgstr "Mapa de calor (.pdf)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:644
+msgctxt "global.search_wizard.high_dimensional_phenotype"
+msgid "High Dimensional Phenotype"
+msgstr "Fenotipo de alta dimensión"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:685
+msgctxt "global.search_wizard.how_works"
+msgid "How the wizard works"
+msgstr "Cómo funciona el asistente"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:455
+#: mason/breeders_toolbox/breeder_search_page.mas:590
+msgctxt "global.search_wizard.include_accession_entry_numbers"
+msgid "Include accession entry numbers"
+msgstr "Incluir números de entrada de accesiones"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:512
+#: mason/breeders_toolbox/breeder_search_page.mas:639
+msgctxt "global.search_wizard.include_dateless"
+msgid "Include items without a date"
+msgstr "Incluir elementos sin fecha"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:237
+msgctxt "global.search_wizard.include_duplicate_genotypes"
+msgid "Include Duplicate Genotypes"
+msgstr "Incluir genotipos duplicados"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:473
+#: mason/breeders_toolbox/breeder_search_page.mas:610
+msgctxt "global.search_wizard.include_intercrop_accessions"
+msgid "Include intercrop accessions"
+msgstr "Incluir accesiones de cultivos intercalados"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:483
+msgctxt "global.search_wizard.include_parents"
+msgid "Include parents"
+msgstr "Incluir parentales"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:447
+#: mason/breeders_toolbox/breeder_search_page.mas:582
+msgctxt "global.search_wizard.include_timestamps"
+msgid "Include timestamps"
+msgstr "Incluir marcas de tiempo"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:465
+msgctxt "global.search_wizard.include_trait_synonyms"
+msgid "Include trait synonyms"
+msgstr "Incluir sinónimos de rasgos"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:314
+msgctxt "global.search_wizard.individuals_filter"
+msgid "Individuals Filter"
+msgstr "Filtro de individuos"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:493
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:83
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:54
+#: mason/stock/download_stock_phenotypes_dialog.mas:58
+msgctxt "global.search_wizard.last_value"
+msgid "Last value"
+msgstr "Último valor"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:180
+#: mason/tools/vectorviewer.mas:437
+msgctxt "global.search_wizard.load"
+msgid "Load"
+msgstr "Cargar"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:176
+msgctxt "global.search_wizard.load_dataset"
+msgid "Load Dataset"
+msgstr "Cargar conjunto de datos"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:63
+msgctxt "global.search_wizard.load_selection_from_list"
+msgid "Load Selection from List:"
+msgstr "Cargar selección de una lista:"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:808
+msgctxt "global.search_wizard.loading"
+msgid "Loading..."
+msgstr "Cargando..."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:148
+#: mason/breeders_toolbox/breeder_search_page.mas:164
+#: mason/breeders_toolbox/breeder_search_page.mas:202
+msgctxt "global.search_wizard.log_in"
+msgid "Log In"
+msgstr "Iniciar sesión"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:181
+msgctxt "global.search_wizard.make_public"
+msgid "Make Public"
+msgstr "Hacer público"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:271
+msgctxt "global.search_wizard.manage_marker_alleles"
+msgid "Manage Marker Alleles"
+msgstr "Administrar alelos de marcadores"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:345
+msgctxt "global.search_wizard.manhattan_qq_format"
+msgid "Manhattan + QQ Plots (.pdf)"
+msgstr "Gráficos Manhattan y QQ (.pdf)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:266
+msgctxt "global.search_wizard.marker_allele_filter"
+msgid "Marker Allele Filter"
+msgstr "Filtro de alelos de marcador"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:310
+msgctxt "global.search_wizard.marker_filter"
+msgid "Marker Filter"
+msgstr "Filtro de marcadores"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:105
+#: mason/breeders_toolbox/breeder_search_page.mas:168
+msgctxt "global.search_wizard.match"
+msgid "Match"
+msgstr "Coincidencia"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:326
+msgctxt "global.search_wizard.matrix_stock_ids"
+msgid "Matrix Stock IDs (.tsv)"
+msgstr "Matriz de identificadores de materiales (.tsv)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:322
+msgctxt "global.search_wizard.matrix_stock_names"
+msgid "Matrix Stock Names (.tsv)"
+msgstr "Matriz de nombres de materiales (.tsv)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:525
+msgctxt "global.search_wizard.max_value"
+msgid "Max Value"
+msgstr "Valor máximo"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:654
+msgctxt "global.search_wizard.max_wavelength"
+msgid "Max Wavelength"
+msgstr "Longitud de onda máxima"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:401
+#: mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:884
+#: mason/ontology/compose_trait.mas:86
+msgctxt "global.search_wizard.metadata"
+msgid "Metadata"
+msgstr "Metadatos"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:107
+msgctxt "global.search_wizard.min"
+msgid "MIN"
+msgstr "MÍN."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:521
+msgctxt "global.search_wizard.min_value"
+msgid "Min Value"
+msgstr "Valor mínimo"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:650
+msgctxt "global.search_wizard.min_wavelength"
+msgid "Min Wavelength"
+msgstr "Longitud de onda mínima"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:306
+msgctxt "global.search_wizard.minor_allele_frequency"
+msgid "Minor Allele Frequency"
+msgstr "Frecuencia del alelo menor"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:30
+msgctxt "global.search_wizard.no_data"
+msgid "Don't see your data?"
+msgstr "¿No encuentra sus datos?"
+
+#: js/source/legacy/CXGN/BreederSearch.js:134
+#: js/source/legacy/CXGN/BreederSearch.js:146
+msgctxt "global.search_wizard.no_filters_download"
+msgid "No filters selected for download."
+msgstr "No se seleccionaron filtros para descargar."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:387
+msgctxt "global.search_wizard.no_trials_selected"
+msgid "No Trials Selected"
+msgstr "No se seleccionaron ensayos"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:438
+msgctxt "global.search_wizard.plants"
+msgid "Plants"
+msgstr "Plantas"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:437
+#: mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:966
+#: mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:986
+#: mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:870
+#: mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:890
+msgctxt "global.search_wizard.plots"
+msgid "Plots"
+msgstr "Parcelas"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:922
+#: mason/breeders_toolbox/breeder_search_page.mas:968
+msgctxt "global.search_wizard.protocol_status"
+msgid "genotype protocol \"%{protocol}\""
+msgstr "protocolo de genotipado «%{protocol}»"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:751
+msgctxt "global.search_wizard.refresh_includes_new_data"
+msgid "Refresh the search wizard to include newly uploaded data"
+msgstr "Actualice el asistente de búsqueda para incluir los datos cargados recientemente"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:30
+msgctxt "global.search_wizard.refresh_lists"
+msgid "Refresh Lists"
+msgstr "Actualizar listas"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:209
+msgctxt "global.search_wizard.related_genotype_data"
+msgid "Related Genotype Data"
+msgstr "Datos de genotipo relacionados"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:551
+msgctxt "global.search_wizard.related_trial_high_dimensional_phenotypes"
+msgid "Related Trial High Dimensional Phenotypes"
+msgstr "Fenotipos de alta dimensión de ensayos relacionados"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:381
+msgctxt "global.search_wizard.related_trial_metadata"
+msgid "Related Trial Metadata"
+msgstr "Metadatos de ensayos relacionados"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:409
+msgctxt "global.search_wizard.related_trial_phenotypes"
+msgid "Related Trial Phenotypes"
+msgstr "Fenotipos de ensayos relacionados"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:349
+msgctxt "global.search_wizard.repeated_traits_label"
+msgid "Selected Traits Are All Repeated Measurements"
+msgstr "Todos los rasgos seleccionados son mediciones repetidas"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:490
+msgctxt "global.search_wizard.repetitive_measurements"
+msgid "Repetitive measurements:"
+msgstr "Mediciones repetidas:"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:356
+msgctxt "global.search_wizard.run_gwas"
+msgid "Run GWAS"
+msgstr "Ejecutar GWAS"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:68
+msgctxt "global.search_wizard.search"
+msgid "Search"
+msgstr "Buscar"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:89
+#: mason/breeders_toolbox/manage_drone_imagery.mas:1397
+#: mason/breeders_toolbox/manage_drone_imagery.mas:1587
+#: mason/breeders_toolbox/manage_drone_imagery.mas:1707
+#: mason/breeders_toolbox/manage_drone_imagery.mas:1770
+#: mason/breeders_toolbox/trial/phenotype_summary.mas:119
+#: mason/breeders_toolbox/trial/trial_accessions.mas:29
+#: mason/breeders_toolbox/trial/trial_tissue_sources.mas:31
+#: mason/ontology/compose_trait.mas:108 mason/ontology/compose_trait.mas:116
+#: mason/ontology/compose_trait.mas:124 mason/ontology/compose_trait.mas:131
+#: mason/ontology/compose_trait.mas:138 mason/ontology/compose_trait.mas:50
+#: mason/ontology/compose_trait.mas:57 mason/ontology/compose_trait.mas:65
+#: mason/ontology/compose_trait.mas:72 mason/ontology/compose_trait.mas:81
+#: mason/ontology/compose_trait.mas:89 mason/search/traits.mas:81
+#: mason/search/treatments.mas:80
+msgctxt "global.search_wizard.select_all"
+msgid "Select All"
+msgstr "Seleccionar todo"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:803
+msgctxt "global.search_wizard.select_archived_files"
+msgid "Select one or more %{protocols} and/or %{projects}..."
+msgstr "Seleccione uno o más %{protocols} y/o %{projects}..."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:61
+msgctxt "global.search_wizard.select_column_type"
+msgid "Select Column Type"
+msgstr "Seleccione el tipo de columna"
+
+#: js/source/legacy/CXGN/BreederSearch.js:185
+msgctxt "global.search_wizard.selection_name_required"
+msgid "Please enter a name for the selection."
+msgstr "Introduzca un nombre para la selección."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:1009
+msgctxt "global.search_wizard.slow_download_warning"
+msgid "%{units}M values, download will be slow"
+msgstr "%{units}M valores; la descarga será lenta"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:256
+msgctxt "global.search_wizard.start_position"
+msgid "Start Position"
+msgstr "Posición inicial"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:495
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:85
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:56
+#: mason/stock/download_stock_phenotypes_dialog.mas:60
+msgctxt "global.search_wizard.sum_values"
+msgid "Sum values"
+msgstr "Suma de valores"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:534
+msgctxt "global.search_wizard.suppress_outliers"
+msgid "Supress user defined phenotype outliers"
+msgstr "Suprimir valores atípicos fenotípicos definidos por el usuario"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:329
+msgctxt "global.search_wizard.three_column_reciprocal_stock_ids"
+msgid "3-Column Reciprocal Stock IDs (.tsv)"
+msgstr "Tres columnas con ID recíprocos de materiales (.tsv)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:330
+msgctxt "global.search_wizard.three_column_reciprocal_stock_ids_integer"
+msgid "3-Column Reciprocal Stock IDs Integer (.tsv)"
+msgstr "Tres columnas con ID recíprocos enteros de materiales (.tsv)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:324
+msgctxt "global.search_wizard.three_column_reciprocal_stock_names"
+msgid "3-Column Reciprocal Stock Names (.tsv)"
+msgstr "Tres columnas con nombres recíprocos de materiales (.tsv)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:327
+msgctxt "global.search_wizard.three_column_stock_ids"
+msgid "3-Column Stock IDs(.tsv)"
+msgstr "Tres columnas con ID de materiales (.tsv)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:328
+msgctxt "global.search_wizard.three_column_stock_ids_integer"
+msgid "3-Column Stock IDs Integer (.tsv)"
+msgstr "Tres columnas con ID enteros de materiales (.tsv)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:323
+msgctxt "global.search_wizard.three_column_stock_names"
+msgid "3-Column Stock Names (.tsv)"
+msgstr "Tres columnas con nombres de materiales (.tsv)"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:246
+msgctxt "global.search_wizard.tip_chromosome_marker"
+msgid "You can use either chromosome or marker alleles to filter genotyping data. You cannot use both criteria at the same time."
+msgstr "Puede filtrar los datos de genotipado por cromosoma o por alelos de marcador. No puede usar ambos criterios al mismo tiempo."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:287
+msgctxt "global.search_wizard.tip_genotypes"
+msgid "Select accessions, and optionally a genotyping protocol. If no genotyping protocol is selected, the default genotyping protocol is used in your system. If you want to filter genotypes, use the chromosome, start position, end position, or marker alleles. Can compute genotypes from parents if the parents of the accessions you selected have genotypes by checking the checkbox. Genotypes can be downloaded in VCF and Dosage Matrix Formats."
+msgstr "Seleccione accesiones y, opcionalmente, un protocolo de genotipado. Si no selecciona uno, el sistema usará el protocolo predeterminado. Para filtrar genotipos, indique cromosoma, posición inicial y final o alelos de marcador. Marque la casilla para calcular genotipos a partir de los parentales de las accesiones seleccionadas. Los genotipos se pueden descargar en formatos VCF y Dosage Matrix."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:333
+msgctxt "global.search_wizard.tip_grm"
+msgid "Select accessions, and optionally a genotyping protocol. If no genotyping protocol is selected, the default genotyping protocol is used in your system. Specify minor allele frequency (MAF), marker filter, and individuals filter. Can compute genotypes from parents if the parents of the accessions you selected have genotypes by checking the checkbox. GRM can be downloaded in a matrix format (.tsv) and a three column format."
+msgstr "Seleccione accesiones y, opcionalmente, un protocolo de genotipado. Si no selecciona uno, el sistema usará el predeterminado. Indique la frecuencia del alelo menor (MAF), el filtro de marcadores y el filtro de individuos. Marque la casilla para calcular genotipos a partir de los parentales de las accesiones seleccionadas. La GRM se puede descargar como matriz (.tsv) o en tres columnas."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:355
+msgctxt "global.search_wizard.tip_gwas"
+msgid "Select accessions, traits, and optionally a genotyping protocol. If no genotyping protocol is selected, the default genotyping protocol is used in your system. When many traits are selected and these traits are not treated as repeated measurements, the traits are treated separately and distinct results are returned e.g. several Manhattan plots are returned. If the selected traits are in fact repeated measurements, then select 'yes'; a single GWAS will be run against all of the phenotypes e.g. a single Manhattan plot is returned. Specify minor allele frequency (MAF), marker filter, and individuals filter. Can compute genotypes from parents if the parents of the accessions you selected have genotypes by checking the checkbox. GWAS uses a fixed effect for different field trials and a fixed effect for replicate. GWAS uses Kinship matrix calculated from the genotype data. MAF and missing data used to filter prior to GWAS and Kinship matrix calculation. Can select whether to return results in Manhattan and QQ Plot (.pdf) form or as the tabular results (.tsv)."
+msgstr "Seleccione accesiones, rasgos y, opcionalmente, un protocolo de genotipado. Si no selecciona uno, el sistema usará el predeterminado. Si selecciona varios rasgos que no se consideran mediciones repetidas, se analizarán por separado y se devolverán resultados distintos, por ejemplo, varios gráficos Manhattan. Si los rasgos seleccionados son mediciones repetidas, elija «Sí»; se ejecutará un único GWAS para todos los fenotipos, por ejemplo, con un solo gráfico Manhattan. Indique la frecuencia del alelo menor (MAF), el filtro de marcadores y el filtro de individuos. Marque la casilla para calcular genotipos a partir de los parentales de las accesiones seleccionadas. GWAS usa efectos fijos de ensayo y réplica y una matriz de parentesco calculada a partir de los datos de genotipo. MAF y los datos ausentes se usan para filtrar antes del GWAS y del cálculo de parentesco. Los resultados pueden descargarse como gráficos Manhattan y QQ (.pdf) o como tabla (.tsv)."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:228
+msgctxt "global.search_wizard.tip_related_genotype"
+msgid "To download related genotype data, select 1 or more Accessions and optionally no more than 1 Genotyping Protocol in the wizard. If no genotyping protocol is selected, the database default protocol will be used. Click the checkbox here to compute genotypes for the selected accessions from genotypes of parents; this works for downloading genotypes, downloading the GRM, and performing GWAS."
+msgstr "Para descargar datos de genotipo relacionados, seleccione una o más accesiones y, opcionalmente, como máximo un protocolo de genotipado en el asistente. Si no selecciona uno, se usará el protocolo predeterminado de la base de datos. Marque esta casilla para calcular los genotipos de las accesiones seleccionadas a partir de los genotipos de sus parentales; esto funciona para descargar genotipos, la GRM y realizar GWAS."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:26
+msgctxt "global.search_wizard.title"
+msgid "Search Wizard"
+msgstr "Asistente de búsqueda"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:202
+msgctxt "global.search_wizard.to_download_related_data"
+msgid "to download related data."
+msgstr "para descargar datos relacionados."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:148
+msgctxt "global.search_wizard.to_save_lists"
+msgid "to save lists."
+msgstr "para guardar listas."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:894
+msgctxt "global.search_wizard.too_many_protocols"
+msgid "too many genotype protocols"
+msgstr "Demasiados protocolos de genotipado"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:517
+msgctxt "global.search_wizard.trait_name_contains"
+msgid "Trait Name Contains"
+msgstr "El nombre del rasgo contiene"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:746
+msgctxt "global.search_wizard.update_in_progress"
+msgid "A search wizard update is already in progress..."
+msgstr "Ya hay una actualización del asistente de búsqueda en curso..."
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:681
+msgctxt "global.search_wizard.update_search_wizard"
+msgid "Update Search Wizard"
+msgstr "Actualizar el asistente de búsqueda"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:692
+msgctxt "global.search_wizard.update_search_wizard_button"
+msgid "Update search wizard"
+msgstr "Actualizar el asistente de búsqueda"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:31
+msgctxt "global.search_wizard.update_wizard"
+msgid "Update Wizard"
+msgstr "Actualizar el asistente"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:815
+msgctxt "global.search_wizard.vcf_file"
+msgid "VCF File"
+msgstr "Archivo VCF"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:278
+msgctxt "global.search_wizard.vcf_file_format"
+msgid "VCF File Format"
+msgstr "Formato de archivo VCF"
+
+# Draft translation; human review required.
+#: mason/breeders_toolbox/breeder_search_page.mas:692
+msgctxt "global.search_wizard.working"
+msgid "Working..."
+msgstr "Procesando..."
+
+# Draft translation; human review required.
+#: mason/homepage/sgn_events.mas:28
+msgctxt "global.sgn_events.heading"
+msgid "SGN Presentations"
+msgstr "Presentaciones de SGN"
+
+# Draft translation; human review required.
+#: mason/homepage/sgn_events.mas:18
+msgctxt "global.sgn_events.unavailable"
+msgid "No SGN event is scheduled at the moment."
+msgstr "No hay ningún evento de SGN programado en este momento."
+
+# Draft translation; human review required.
+#: mason/system_message.mas:8
+msgctxt "global.system_message.notice"
+msgid "Notice:"
+msgstr "Aviso:"
+
+# Draft translation; human review required.
+#: mason/homepage/tomato_genome_info.mas:12
+msgctxt "global.tomato_genome_info.unavailable"
+msgid "%{crop} genome information temporarily unavailable"
+msgstr "La información del genoma de %{crop} no está disponible temporalmente"
+
+# Draft translation; human review required.
+#: mason/homepage/tomato_genome_publication.mas:39
+msgctxt "global.tomato_genome_publication.heading"
+msgid "%{crop} Genome Published"
+msgstr "Genoma de %{crop} publicado"
+
+# Draft translation; human review required.
+#: mason/homepage/tomato_genome_publication.mas:26
+msgctxt "global.tomato_genome_publication.unavailable"
+msgid "The %{crop} genome publication information is currently unavailable."
+msgstr "La información sobre la publicación del genoma de %{crop} no está disponible en este momento."
+
+# Draft translation; human review required.
+#: mason/homepage/tomato_genome_publication_small.mas:39
+msgctxt "global.tomato_genome_publication_small.heading"
+msgid "%{crop} Genome Published"
+msgstr "Genoma de %{crop} publicado"
+
+# Draft translation; human review required.
+#: mason/homepage/tomato_genome_publication_small.mas:26
+msgctxt "global.tomato_genome_publication_small.unavailable"
+msgid "The %{crop} genome publication information is currently unavailable."
+msgstr "La información sobre la publicación del genoma de %{crop} no está disponible en este momento."
+
+# Draft translation; human review required.
+#: mason/homepage/tomato_genome_release.mas:39
+msgctxt "global.tomato_genome_release.heading"
+msgid "Current %{crop} Genome version %{genome_version} and Annotation %{annotation_version}"
+msgstr "Versión actual del genoma de %{crop}: %{genome_version}; anotación: %{annotation_version}"
+
+# Draft translation; human review required.
+#: mason/homepage/tomato_genome_release.mas:39
+#: mason/tools/label_designer/select_layout.mas:10
+msgctxt "global.tomato_genome_release.new"
+msgid "New"
+msgstr "Nuevo"
+
+# Draft translation; human review required.
+#: mason/homepage/tomato_genome_release.mas:26
+msgctxt "global.tomato_genome_release.unavailable"
+msgid "The %{crop} genome release information is currently unavailable."
+msgstr "La información sobre la versión del genoma de %{crop} no está disponible en este momento."
+
+# Draft translation; human review required.
+#: mason/site/toolbar/tools.mas:15
+msgctxt "global.tools.caps_designer"
+msgid "%{method} Designer"
+msgstr "Diseñador de %{method}"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/tools.mas:27
+msgctxt "global.tools.coffee_interactomic_data"
+msgid "%{crop} Interactomic Data"
+msgstr "Datos de interactómica de %{crop}"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/tools.mas:9
+msgctxt "global.tools.motif_finder"
+msgid "Motif Finder"
+msgstr "Buscador de motivos"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/tools.mas:28
+msgctxt "global.tools.sgn_ontology_browser"
+msgid "%{organization} Ontology Browser"
+msgstr "Visor de ontologías de %{organization}"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/tools.mas:26
+msgctxt "global.tools.solcyc_pathways"
+msgid "%{service} Biochemical Pathways"
+msgstr "Vías bioquímicas de %{service}"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/tools.mas:16
+msgctxt "global.tools.solqtl_mapping"
+msgid "%{service}: QTL Mapping"
+msgstr "Mapeo de QTL: %{service}"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/tools.mas:1
+msgctxt "global.tools.title"
+msgid "Tools"
+msgstr "Herramientas"
+
+# Draft translation; human review required.
+#: mason/site/toolbar/tools.mas:6
+msgctxt "global.tools.vigs_tool"
+msgid "%{tool} Tool"
+msgstr "Herramienta %{tool}"
+
+#: cgi-bin/search/trace_download.pl:16
+msgctxt "global.trace_download.caption_0"
+msgid "Trace Download"
+msgstr "Descarga del cromatograma"
+
+#: cgi-bin/search/trace_download.pl:43
+msgctxt "global.trace_download.caption_1"
+msgid "Invalid GET parameters"
+msgstr "Parámetros GET no válidos"
+
+#: cgi-bin/search/trace_download.pl:72
+msgctxt "global.trace_download.caption_2"
+msgid "This sequence does not seem to have an associated chromatogram."
+msgstr "Esta secuencia no parece tener un cromatograma asociado."
+
+#: cgi-bin/search/trace_download.pl:26
+msgctxt "global.trace_download.invalid"
+msgid "Invalid: '%{chromat_id}', '%{read_id}'.\n"
+msgstr "No válidos: '%{chromat_id}', '%{read_id}'.\n"
+
+#: cgi-bin/search/trace_download.pl:95
+msgctxt "global.trace_download.invalid_search"
+msgid "Requested search is invalid."
+msgstr "La búsqueda solicitada no es válida."
+
+#: cgi-bin/search/trace_download.pl:108
+msgctxt "global.trace_download.not_found"
+msgid "No chromatogram was found for SGN-T%{id}."
+msgstr "No se encontró un cromatograma para SGN-T%{id}."
+
+#: cgi-bin/search/trace_download.pl:76
+msgctxt "global.trace_download.open_failed"
+msgid "Failed to open chromatogram file for SGN-T%{read_id} (%{error})"
+msgstr "No se pudo abrir el archivo del cromatograma para SGN-T%{read_id} (%{error})"
+
+#: cgi-bin/search/ug-ad2.pl:29
+msgctxt "global.ug-ad2.advanced_search"
+msgid "Unigene Advanced Search"
+msgstr "Búsqueda avanzada de Unigene"
+
+#: cgi-bin/search/ug-ad2.pl:65
+msgctxt "global.ug-ad2.build_heading"
+msgid "Build"
+msgstr "Compilación"
+
+#: cgi-bin/search/ug-ad2.pl:44
+msgctxt "global.ug-ad2.invalid_parameters"
+msgid "Invalid search parameters."
+msgstr "Parámetros de búsqueda no válidos."
+
+#: cgi-bin/search/ug-ad2.pl:65
+msgctxt "global.ug-ad2.length_heading"
+msgid "Length (bp)"
+msgstr "Longitud (bp)"
+
+#: cgi-bin/search/ug-ad2.pl:65 mason/transcript/unigene/gene_family_info.mas:84
+msgctxt "global.ug-ad2.members_heading"
+msgid "# Members"
+msgstr "N.º de miembros"
+
+#: cgi-bin/search/ug-ad2.pl:30 cgi-bin/search/ug-ad2.pl:86
+#: cgi-bin/search/ug-ad2.pl:89
+msgctxt "global.ug-ad2.page_title"
+msgid "Unigene Search Results"
+msgstr "Resultados de búsqueda de Unigene"
+
+#: cgi-bin/search/ug-ad2.pl:88
+msgctxt "global.ug-ad2.results_summary"
+msgid "%{count} matches (%{seconds} seconds)"
+msgstr "%{count} coincidencias (%{seconds} segundos)"
+
+#: cgi-bin/search/ug-ad2.pl:65
+msgctxt "global.ug-ad2.unigene_heading"
+msgid "Unigene"
+msgstr "Unigene"
+
+#: cgi-bin/search/unigene-all-blast-matches.pl:119
+msgctxt "global.unigene-all-blast-matches.no_annotations"
+msgid "No BLAST annotations were found"
+msgstr "No se encontraron anotaciones BLAST"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:73
+msgctxt "global.unigene-estscan-detail.direction"
+msgid "Direction"
+msgstr "Dirección"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:76
+msgctxt "global.unigene-estscan-detail.edits_original"
+msgid "Edits in Original Sequence"
+msgstr "Cambios en la secuencia original"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:75
+msgctxt "global.unigene-estscan-detail.predicted_coding"
+msgid "Predicted Coding Sequence"
+msgstr "Secuencia codificante predicha"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:74
+msgctxt "global.unigene-estscan-detail.predicted_peptide"
+msgid "Predicted Peptide Sequence"
+msgstr "Secuencia peptídica predicha"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:62
+msgctxt "global.unigene_estscan_detail.deleted_by"
+msgid " -- Deleted by ESTScan"
+msgstr " — eliminado por ESTScan"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:61
+msgctxt "global.unigene_estscan_detail.inserted_by"
+msgid " -- Inserted by ESTScan"
+msgstr " — insertado por ESTScan"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:106
+msgctxt "global.unigene_estscan_detail.invalid_search"
+msgid "The specified unigene identifier (%{id}) does not result in a valid search."
+msgstr "El identificador de Unigene especificado (%{id}) no produce una búsqueda válida."
+
+#: cgi-bin/search/unigene-estscan-detail.pl:87
+msgctxt "global.unigene_estscan_detail.no_search_criteria"
+msgid "No unigene search criteria specified"
+msgstr "No se especificaron criterios de búsqueda de Unigene"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:70
+msgctxt "global.unigene_estscan_detail.page_title"
+msgid "ESTScan Details for Unigene SGN-U%{id}"
+msgstr "Detalles de ESTScan para Unigene SGN-U%{id}"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:72
+msgctxt "global.unigene_estscan_detail.score"
+msgid "Score"
+msgstr "Puntuación"
+
+#: cgi-bin/search/unigene-estscan-detail.pl:63
+msgctxt "global.unigene_estscan_detail.utr_deleted"
+msgid " -- UTR Deleted by ESTScan"
+msgstr " — UTR eliminado por ESTScan"
+
+# Draft translation; human review required.
+#: mason/homepage/what_is_sgn.mas:37
+msgctxt "global.what_is_sgn.about"
+msgid "About SGN"
+msgstr "Acerca de SGN"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/AJAX/BreederSearch.pm:100
+msgctxt "global.wizard.nothing_to_display"
+msgid "%{count} matches. Nothing to display"
+msgstr "Coincidencias: %{count}. No hay datos que mostrar"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/AJAX/BreederSearch.pm:96
+msgctxt "global.wizard.over_10_000_matches_speeds_may_be_affected_consider_narrowing_your_sea"
+msgid "Over 10,000 matches. Speeds may be affected, consider narrowing your search"
+msgstr "Más de 10,000 coincidencias. La velocidad puede verse afectada; considere restringir la búsqueda"
+
+# Draft translation; human review required.
+#: lib/CXGN/BreederSearch.pm:400
+msgctxt "global.wizard.refresh_completed"
+msgid "%{view} update completed!"
+msgstr "¡Actualización de %{view} completada!"
+
+# Draft translation; human review required.
+#: lib/CXGN/BreederSearch.pm:406
+msgctxt "global.wizard.refresh_error"
+msgid "Error initiating %{view} update.%{error}"
+msgstr "Error al iniciar la actualización de %{view}.%{error}"
+
+# Draft translation; human review required.
+#: lib/CXGN/BreederSearch.pm:368
+msgctxt "global.wizard.refresh_in_progress"
+msgid "%{view} update already in progress . . . "
+msgstr "La actualización de %{view} ya está en curso . . . "
+
+# Draft translation; human review required.
+#: lib/CXGN/BreederSearch.pm:402
+msgctxt "global.wizard.refresh_initiated"
+msgid "%{view} update initiated."
+msgstr "Actualización de %{view} iniciada."
+
+# Draft translation; human review required.
+#: lib/CXGN/BreederSearch.pm:440
+msgctxt "global.wizard.status_timestamp"
+msgid "Wizard last updated: %{timestamp}"
+msgstr "Última actualización del asistente: %{timestamp}"
+
+# Draft translation; human review required.
+#: lib/CXGN/BreederSearch.pm:436
+msgctxt "global.wizard.status_updating"
+msgid "Wizard update in progress . . . "
+msgstr "Actualización del asistente en curso . . . "
+
+# Draft translation; human review required.
+#: lib/CXGN/BreederSearch.pm:322
+msgctxt "global.wizard.unavailable"
+msgid "The search wizard is temporarily unavailable while database indexes are being repopulated. Please try again later."
+msgstr "El asistente de búsqueda no está disponible temporalmente mientras se regeneran los índices de la base de datos. Inténtelo más tarde."
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/AJAX/BreederSearch.pm:40
+msgctxt "global.wizard.valid_keys"
+msgid "Valid keys are %{keys} and %{last_key} or undef"
+msgstr "Las claves válidas son %{keys} y %{last_key}, o undef"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/AJAX/BreederSearch.pm:50
+msgctxt "global.wizard.valid_querytypes_are_1_for_intersect_or_0_for_union_or_between_0_and_1"
+msgid "Valid querytypes are '1' for intersect or '0' for union or between 0 and 1 for percent match"
+msgstr "Los querytypes válidos son '1' para intersección, '0' para unión o un valor entre 0 y 1 para el porcentaje de coincidencia"
+
+# Draft translation; human review required.
+#: lib/SGN/Controller/AJAX/BreederSearch.pm:66
+msgctxt "global.wizard.valid_values_for_dataref_are_numeric_ids"
+msgid "Valid values for dataref are numeric ids"
+msgstr "Los valores válidos de dataref son identificadores numéricos"
+
+#: mason/search/autohandler:33
+msgctxt "search.tabs.accessions_plots"
+msgid "Accessions and plots"
+msgstr "Accesiones y parcelas"
+
+#: mason/search/autohandler:28
+msgctxt "search.tabs.heading"
+msgid "Search"
+msgstr "Buscar"
+
+# Model draft; human/native editorial review pending.
+#: js/source/legacy/CXGN/BreederSearch.js:610
+#: mason/breeders_toolbox/trial/trial_seedlots.mas:149
+msgctxt "seedlots.ui.items_count"
+msgid "Items: %{count}"
+msgstr "Elementos: %{count}"
+
+# Model draft; human/native editorial review pending.
+#: js/source/legacy/CXGN/BreederSearch.js:612
+#: mason/breeders_toolbox/trial/trial_seedlots.mas:151
+msgctxt "seedlots.ui.selected_count"
+msgid "Selected: %{count}"
+msgstr "Total seleccionado: %{count}"
+
+#: mason/search/stocks_graphicalfiltering.mas:96
+msgctxt "stock_search.graphical.accession"
+msgid "Accession"
+msgstr "Accesión"
+
+#: js/source/legacy/brapi/GraphicalFilter.js:510
+msgctxt "stock_search.graphical.choose_trait"
+msgid "Select a Trait..."
+msgstr "Seleccione un rasgo..."
+
+#: mason/search/stocks_graphicalfiltering.mas:37
+msgctxt "stock_search.graphical.copy"
+msgid "Copy Filtered Accessions to a List"
+msgstr "Copiar accesiones filtradas a una lista"
+
+#: mason/search/stocks_graphicalfiltering.mas:37
+msgctxt "stock_search.graphical.copy_help"
+msgid "Copy the accession names in table to a new or existing list"
+msgstr "Copie los nombres de accesiones de la tabla a una lista nueva o existente"
+
+#: js/source/legacy/brapi/GraphicalFilter.js:89
+msgctxt "stock_search.graphical.count"
+msgid "Count"
+msgstr "Recuento"
+
+#: mason/search/stocks_graphicalfiltering.mas:60
+msgctxt "stock_search.graphical.login"
+msgid "Login required to display graphical filtering"
+msgstr "Debe iniciar sesión para mostrar el filtrado gráfico"
+
+#: js/source/legacy/brapi/GraphicalFilter.js:394
+msgctxt "stock_search.graphical.new_group"
+msgid "New Group"
+msgstr "Nuevo grupo"
+
+#: js/source/legacy/brapi/GraphicalFilter.js:383
+msgctxt "stock_search.graphical.new_range"
+msgid "New Range"
+msgstr "Nuevo rango"
+
+#: js/source/legacy/brapi/GraphicalFilter.js:752
+msgctxt "stock_search.graphical.nothing"
+msgid "Nothing"
+msgstr "Nada"
+
+#: mason/search/stocks_graphicalfiltering.mas:12
+msgctxt "stock_search.graphical.section"
+msgid "Graphical Filter Accessions By Traits (Includes all Search Criteria From Above Search Form)"
+msgstr "Filtrar gráficamente accesiones por rasgos (incluye todos los criterios del formulario anterior)"

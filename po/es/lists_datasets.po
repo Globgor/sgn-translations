@@ -1,0 +1,3191 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/es.po
+# Translation of ISO 3166-1 to Spanish; Castilian
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2001 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2001 Juan Manuel García Molina <juanmagm@mail.com>
+# SPDX-FileCopyrightText: 2004-2008, 2010 Javier Fernández-Sanguino <jfs@debian.org>
+# SPDX-FileCopyrightText: 2013 zamir <hades_ni@yahoo.com>
+# SPDX-FileCopyrightText: 2019 Rodrigo Lledó <rodhos92@gmail.com>
+# SPDX-FileCopyrightText: 2021 Adolfo Jayme Barrientos <fitojb@ubuntu.com>
+# SPDX-FileCopyrightText: 2023 Kamborio <Kamborio15@users.noreply.hosted.weblate.org>
+# SPDX-FileCopyrightText: 2025 Walter Paterno <walter.paterno@gmail.com>
+# SPDX-FileCopyrightText: 2025 Chris Leonard <cjlhomeaddress@gmail.com>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/es.po
+# Translation of ISO 3166-3 to Spanish; Castilian
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2001 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2001 Juan Manuel García Molina <juanmagm@mail.com>
+# SPDX-FileCopyrightText: 2004-2008, 2010 Javier Fernández-Sanguino <jfs@debian.org>
+# SPDX-FileCopyrightText: 2013 zamir <hades_ni@yahoo.com>
+# SPDX-FileCopyrightText: 2023 Kamborio <Kamborio15@users.noreply.hosted.weblate.org>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: es\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: Español\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-SGN-Direction: ltr\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+#: lib/CXGN/File/Parse/Plugin/Plain.pm:84
+#: lib/CXGN/File/Parse/Plugin/Spreadsheet.pm:68
+msgctxt "file.parse.duplicate_header"
+msgid "The column header %{header} was duplicated in column %{column} of your file and should only be included once."
+msgstr "El encabezado %{header} se repite en la columna %{column} del archivo y debe incluirse solo una vez."
+
+#: lib/CXGN/File/Parse.pm:470
+msgctxt "file.parse.duplicate_value"
+msgid "Column %{column} requires unique values, but %{value} appears more than once in rows %{rows}"
+msgstr "La columna %{column} requiere valores únicos, pero %{value} aparece varias veces en las filas %{rows}"
+
+#: lib/CXGN/File/Parse.pm:389
+msgctxt "file.parse.empty"
+msgid "The file has no data"
+msgstr "El archivo no contiene datos"
+
+#: lib/CXGN/File/Parse.pm:345
+msgctxt "file.parse.missing"
+msgid "The file %{file} does not exist"
+msgstr "El archivo %{file} no existe"
+
+#: lib/CXGN/File/Parse.pm:486
+msgctxt "file.parse.no_plugin"
+msgid "No appropriate file parsing plugin for file: %{file}, type: %{type}"
+msgstr "No hay un módulo de análisis adecuado para el archivo: %{file}, tipo: %{type}"
+
+#: lib/CXGN/File/Parse/Plugin/Plain.pm:62
+msgctxt "file.parse.open_failed"
+msgid "Could not read file: %{detail}"
+msgstr "No se pudo leer el archivo: %{detail}"
+
+#: lib/CXGN/File/Parse/Plugin/Plain.pm:45
+msgctxt "file.parse.plain_type"
+msgid "Invalid type %{type} for plain parse plugin"
+msgstr "Tipo %{type} no válido para el módulo de análisis de texto"
+
+#: lib/CXGN/File/Parse.pm:366
+msgctxt "file.parse.read_failed"
+msgid "Encountered error while reading and parsing file: %{detail}"
+msgstr "Se produjo un error al leer y analizar el archivo: %{detail}"
+
+#: lib/CXGN/File/Parse.pm:399
+msgctxt "file.parse.required_column"
+msgid "Required column %{column} is missing"
+msgstr "Falta la columna obligatoria %{column}"
+
+#: lib/CXGN/File/Parse.pm:431
+msgctxt "file.parse.required_value"
+msgid "Required column %{column} does not have a value in row %{row}"
+msgstr "La columna obligatoria %{column} no tiene un valor en la fila %{row}"
+
+#: lib/CXGN/File/Parse/Plugin/Spreadsheet.pm:40
+msgctxt "file.parse.spreadsheet_type"
+msgid "Invalid type %{type} for spreadsheet parse plugin"
+msgstr "Tipo %{type} no válido para el módulo de análisis de hojas de cálculo"
+
+#: mason/breeders_toolbox/file_list.mas:22
+msgctxt "file_list.action.delete"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: mason/breeders_toolbox/file_list.mas:24
+msgctxt "file_list.action.download"
+msgid "Download"
+msgstr "Descargar"
+
+#: mason/breeders_toolbox/file_list.mas:106
+msgctxt "file_list.datatable.aria_ascending"
+msgid ": activate to sort column ascending"
+msgstr ": activar para ordenar la columna de forma ascendente"
+
+#: mason/breeders_toolbox/file_list.mas:107
+msgctxt "file_list.datatable.aria_descending"
+msgid ": activate to sort column descending"
+msgstr ": activar para ordenar la columna de forma descendente"
+
+#: mason/breeders_toolbox/file_list.mas:90
+msgctxt "file_list.datatable.empty"
+msgid "No data available in table"
+msgstr "No hay datos disponibles en la tabla"
+
+#: mason/breeders_toolbox/file_list.mas:100
+msgctxt "file_list.datatable.first"
+msgid "First"
+msgstr "Primera"
+
+#: mason/breeders_toolbox/file_list.mas:91
+msgctxt "file_list.datatable.info"
+msgid "Showing %{start} to %{end} of %{total} entries"
+msgstr "Mostrando de %{start} a %{end} de %{total} entradas"
+
+#: mason/breeders_toolbox/file_list.mas:92
+msgctxt "file_list.datatable.info_empty"
+msgid "Showing 0 to 0 of 0 entries"
+msgstr "Mostrando de 0 a 0 de 0 entradas"
+
+#: mason/breeders_toolbox/file_list.mas:93
+msgctxt "file_list.datatable.info_filtered"
+msgid "(filtered from %{max} total entries)"
+msgstr "(filtrado de %{max} entradas en total)"
+
+#: mason/breeders_toolbox/file_list.mas:101
+msgctxt "file_list.datatable.last"
+msgid "Last"
+msgstr "Última"
+
+#: mason/breeders_toolbox/file_list.mas:94
+msgctxt "file_list.datatable.length_menu"
+msgid "Show %{menu} entries"
+msgstr "Mostrar %{menu} entradas"
+
+#: mason/breeders_toolbox/file_list.mas:95
+msgctxt "file_list.datatable.loading"
+msgid "Loading..."
+msgstr "Cargando..."
+
+#: mason/breeders_toolbox/file_list.mas:102
+msgctxt "file_list.datatable.next"
+msgid "Next"
+msgstr "Siguiente"
+
+#: mason/breeders_toolbox/file_list.mas:103
+msgctxt "file_list.datatable.previous"
+msgid "Previous"
+msgstr "Anterior"
+
+#: mason/breeders_toolbox/file_list.mas:96
+msgctxt "file_list.datatable.processing"
+msgid "Processing..."
+msgstr "Procesando..."
+
+#: mason/breeders_toolbox/file_list.mas:97
+msgctxt "file_list.datatable.search"
+msgid "Search:"
+msgstr "Buscar:"
+
+#: mason/breeders_toolbox/file_list.mas:98
+msgctxt "file_list.datatable.zero"
+msgid "No matching records found"
+msgstr "No se encontraron registros coincidentes"
+
+#: mason/breeders_toolbox/file_list.mas:13
+msgctxt "file_list.header.date_uploaded"
+msgid "Date Uploaded"
+msgstr "Fecha de carga"
+
+#: mason/breeders_toolbox/file_list.mas:13
+msgctxt "file_list.header.filename"
+msgid "Filename"
+msgstr "Nombre de archivo"
+
+#: mason/breeders_toolbox/file_list.mas:13
+msgctxt "file_list.header.options"
+msgid "Options"
+msgstr "Opciones"
+
+# Model-draft accessible file/worksheet region labels; editorial review pending.
+#: mason/breeders_toolbox/file_list.mas:48
+msgctxt "file_list.ui.scroll_region"
+msgid "File table"
+msgstr "Tabla de archivos"
+
+#: mason/breeders_toolbox/view_file.mas:57
+msgctxt "file_viewer.ui.contents"
+msgid "File Contents"
+msgstr "Contenido del archivo"
+
+#: mason/breeders_toolbox/view_file.mas:35
+msgctxt "file_viewer.ui.filename"
+msgid "Filename"
+msgstr "Nombre de archivo"
+
+#: mason/breeders_toolbox/view_file.mas:29
+#: mason/breeders_toolbox/view_file.mas:32
+msgctxt "file_viewer.ui.info"
+msgid "File Info"
+msgstr "Información del archivo"
+
+#: mason/breeders_toolbox/view_file.mas:38
+msgctxt "file_viewer.ui.parser"
+msgid "Parser"
+msgstr "Analizador"
+
+#: mason/breeders_toolbox/view_file.mas:94
+msgctxt "file_viewer.ui.sheet_region"
+msgid "Worksheet data"
+msgstr "Datos de la hoja"
+
+#: mason/breeders_toolbox/view_file.mas:37
+msgctxt "file_viewer.ui.sheets"
+msgid "Number of Sheets"
+msgstr "Número de hojas"
+
+# Model-draft file viewer and table controls; human editorial review pending.
+#: mason/breeders_toolbox/view_file.mas:23
+msgctxt "file_viewer.ui.title"
+msgid "File Viewer"
+msgstr "Visor de archivos"
+
+#: cgi-bin/bulk/display.pl:214
+msgctxt "global.bulk.display.line"
+msgid "line"
+msgstr "línea"
+
+#: cgi-bin/bulk/display.pl:616
+msgctxt "global.bulk.display.new_search"
+msgid "New Search"
+msgstr "Nueva búsqueda"
+
+#: cgi-bin/bulk/display.pl:178
+msgctxt "global.bulk.display.no_data"
+msgid "No data was retrieved. Please verify your input parameters. Thanks.<br /><br />"
+msgstr "No se obtuvieron datos. Verifique los parámetros de entrada. Gracias.<br /><br />"
+
+#: cgi-bin/bulk/display.pl:514 cgi-bin/search/markers/markersearch.pl:243
+msgctxt "global.bulk.display.of"
+msgid "of"
+msgstr "de"
+
+#: cgi-bin/bulk/display.pl:513
+msgctxt "global.bulk.display.page"
+msgid "Page"
+msgstr "Página"
+
+#: cgi-bin/bulk/display.pl:61
+msgctxt "global.bulk.display.page_title"
+msgid "Browse Bulk Results"
+msgstr "Ver resultados de descarga masiva"
+
+#: cgi-bin/bulk/display.pl:159
+msgctxt "global.bulk.display.results_title"
+msgid "Bulk download results"
+msgstr "Resultados de descarga masiva"
+
+#: cgi-bin/bulk/index.pl:10
+msgctxt "global.bulk.index.description"
+msgid "Download information for a list of identifiers, or for complete datasets with FTP."
+msgstr "Descargue información para una lista de identificadores o conjuntos de datos completos mediante FTP."
+
+#: cgi-bin/bulk/index.pl:11
+msgctxt "global.bulk.index.heading"
+msgid "SGN Bulk"
+msgstr "Descarga masiva de SGN"
+
+#: cgi-bin/bulk/input.pl:776
+msgctxt "global.bulk.input.bac_end_search.arizona"
+msgid "Arizona-style clone name"
+msgstr "nombre de clon con formato de Arizona"
+
+#: cgi-bin/bulk/input.pl:778
+msgctxt "global.bulk.input.bac_end_search.chromosome"
+msgid "Clone name with chromosome"
+msgstr "nombre del clon con cromosoma"
+
+#: cgi-bin/bulk/input.pl:777
+msgctxt "global.bulk.input.bac_end_search.cornell"
+msgid "Old Cornell-style clone name"
+msgstr "nombre de clon con el formato antiguo de Cornell"
+
+#: cgi-bin/bulk/input.pl:675
+msgctxt "global.bulk.input.bac_search.arizona"
+msgid "Arizona-style clone name"
+msgstr "nombre de clon con formato de Arizona"
+
+#: cgi-bin/bulk/input.pl:677
+msgctxt "global.bulk.input.bac_search.chromosome"
+msgid "Clone name with chromosome"
+msgstr "nombre del clon con cromosoma"
+
+#: cgi-bin/bulk/input.pl:676
+msgctxt "global.bulk.input.bac_search.cornell"
+msgid "Old Cornell-style clone name"
+msgstr "nombre de clon con el formato antiguo de Cornell"
+
+#: cgi-bin/bulk/input.pl:528
+msgctxt "global.bulk.input.convert_button"
+msgid "Convert"
+msgstr "Convertir"
+
+#: cgi-bin/bulk/input.pl:400
+msgctxt "global.bulk.input.convert_title"
+msgid "Check this box to convert each unigene in the list to its equivalent in the most current corresponding unigene build(s), if available"
+msgstr "Marque esta casilla para convertir cada unigene de la lista a su equivalente en los ensamblajes correspondientes más recientes, si está disponible"
+
+#: cgi-bin/bulk/input.pl:40
+msgctxt "global.bulk.input.email_us"
+msgid "email us"
+msgstr "escríbanos"
+
+#: cgi-bin/bulk/input.pl:881
+msgctxt "global.bulk.input.ftp_access"
+msgid "The SGN FTP site can also be accessed directly through %{ftp_link} using a browser or ftp program."
+msgstr "También se puede acceder directamente al sitio FTP de SGN mediante %{ftp_link} con un navegador o programa FTP."
+
+#: cgi-bin/bulk/input.pl:922
+msgctxt "global.bulk.input.ftp_blast_annotations"
+msgid "Highest-ranked hits vs. Genbank NR and Arabidopsis for all SGN unigenes."
+msgstr "Coincidencias mejor clasificadas frente a Genbank NR y Arabidopsis para todos los unigenes de SGN."
+
+#: cgi-bin/bulk/input.pl:925
+msgctxt "global.bulk.input.ftp_cosii"
+msgid "COSII marker data"
+msgstr "Datos de marcadores COSII"
+
+#: cgi-bin/bulk/input.pl:919
+msgctxt "global.bulk.input.ftp_est_sequences"
+msgid "Sequence and quality files for all SGN ESTs, organized by library"
+msgstr "Archivos de secuencias y calidad de todos los EST de SGN, organizados por biblioteca"
+
+#: cgi-bin/bulk/input.pl:879
+msgctxt "global.bulk.input.ftp_intro"
+msgid "Download complete datasets."
+msgstr "Descargue conjuntos de datos completos."
+
+#: cgi-bin/bulk/input.pl:923
+msgctxt "global.bulk.input.ftp_manual_annotations"
+msgid "Manual annotations for a number of SGN unigenes"
+msgstr "Anotaciones manuales para varios unigenes de SGN"
+
+#: cgi-bin/bulk/input.pl:920
+msgctxt "global.bulk.input.ftp_maps_and_markers"
+msgid "Marker sequences and marker position lists for all SGN maps"
+msgstr "Secuencias de marcadores y listas de posiciones de marcadores para todos los mapas de SGN"
+
+#: cgi-bin/bulk/input.pl:921
+msgctxt "global.bulk.input.ftp_physical_mapping"
+msgid "Raw data files for Tomato HindIII BAC library FPC and overgo analyses"
+msgstr "Archivos de datos sin procesar de la biblioteca BAC Tomato HindIII, FPC y análisis overgo"
+
+#: cgi-bin/bulk/input.pl:878
+msgctxt "global.bulk.input.ftp_title"
+msgid "SGN FTP site"
+msgstr "Sitio FTP de SGN"
+
+#: cgi-bin/bulk/input.pl:924
+msgctxt "global.bulk.input.ftp_tomato_genome"
+msgid "Tomato genomic data, including BAC end and full BAC sequences"
+msgstr "Datos genómicos de Tomato, incluidas secuencias de extremos BAC y secuencias BAC completas"
+
+#: cgi-bin/bulk/input.pl:880
+msgctxt "global.bulk.input.ftp_top"
+msgid "ftp top level"
+msgstr "directorio raíz de FTP"
+
+#: cgi-bin/bulk/input.pl:918
+msgctxt "global.bulk.input.ftp_unigene_builds"
+msgid "Sequence, quality, and membership information for all SGN unigene builds"
+msgstr "Información de secuencias, calidad y pertenencia para todas las compilaciones de unigene de SGN"
+
+#: cgi-bin/bulk/input.pl:927
+msgctxt "global.bulk.input.ftp_user_requests"
+msgid "Custom-generated datasets for individual users (mail special requests to %{email})"
+msgstr "Conjuntos de datos personalizados para usuarios (envíe solicitudes especiales a %{email})"
+
+#: cgi-bin/bulk/input.pl:38
+msgctxt "global.bulk.input.intro"
+msgid "Download Unigene or BAC information using a list of identifiers, or complete datasets with FTP."
+msgstr "Descargue información de Unigene o BAC usando una lista de identificadores, o conjuntos de datos completos mediante FTP."
+
+#: cgi-bin/bulk/input.pl:42
+msgctxt "global.bulk.input.limit_note"
+msgid "The SGN bulk download is limited to 10,000 identifiers per request.  If you need more, please either split your query into multiple parts, download a full dataset from the FTP site, or %{email_link} and we will be happy to generate a custom dataset for you."
+msgstr "La descarga masiva de SGN está limitada a 10,000 identificadores por solicitud.  Si necesita más, divida la consulta en varias partes, descargue un conjunto completo desde el sitio FTP o %{email_link}; con gusto prepararemos un conjunto personalizado para usted."
+
+#: cgi-bin/bulk/input.pl:39 cgi-bin/bulk/input.pl:877
+#: cgi-bin/markers/cos_markers.pl:56
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:1003
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:988
+#: mason/tools/label_designer/index.mas:7
+#: mason/transformation/obsolete_accessions_dialog.mas:32
+msgctxt "global.bulk.input.note_label"
+msgid "Note:"
+msgstr "Nota:"
+
+#: cgi-bin/bulk/input.pl:595
+msgctxt "global.bulk.input.output_text"
+msgid "text"
+msgstr "texto"
+
+#: cgi-bin/bulk/input.pl:594
+msgctxt "global.bulk.input.output_type"
+msgid "Output type:"
+msgstr "Tipo de salida:"
+
+#: cgi-bin/bulk/input.pl:282 cgi-bin/bulk/input.pl:37
+msgctxt "global.bulk.input.page_title"
+msgid "Bulk download"
+msgstr "Descarga masiva"
+
+#: cgi-bin/bulk/input.pl:198 cgi-bin/bulk/input.pl:281
+#: cgi-bin/bulk/input.pl:405 cgi-bin/bulk/input.pl:532
+#: cgi-bin/bulk/input.pl:683 cgi-bin/bulk/input.pl:790
+msgctxt "global.bulk.input.print_debug"
+msgid "print debug statements"
+msgstr "imprimir mensajes de depuración"
+
+#: cgi-bin/bulk/input.pl:60
+msgctxt "global.bulk.input.tab_array"
+msgid "Array spot ID"
+msgstr "ID de punto de micromatriz"
+
+#: cgi-bin/bulk/input.pl:58
+msgctxt "global.bulk.input.tab_clone"
+msgid "Clone name"
+msgstr "Nombre del clon"
+
+#: cgi-bin/bulk/input.pl:66
+msgctxt "global.bulk.input.tab_convert"
+msgid "Unigene ID Converter"
+msgstr "Conversor de IDs de Unigene"
+
+#: cgi-bin/bulk/input.pl:64
+msgctxt "global.bulk.input.tab_full"
+msgid "Full datasets"
+msgstr "Conjuntos de datos completos"
+
+#: cgi-bin/bulk/input.pl:62
+msgctxt "global.bulk.input.tab_unigene"
+msgid "Unigene ID"
+msgstr "ID de Unigene"
+
+#: mason/dataset/publish.mas:113
+msgctxt "global.dataset_publish.account_login"
+msgid "Make sure you have an account and are logged in to %{service}"
+msgstr "Asegúrese de tener una cuenta e iniciar sesión en %{service}"
+
+#: mason/dataset/publish.mas:698
+msgctxt "global.dataset_publish.action.edit_on"
+msgid "Edit on %{service}"
+msgstr "Editar en %{service}"
+
+#: mason/dataset/publish.mas:699
+msgctxt "global.dataset_publish.action.publish"
+msgid "Publish"
+msgstr "Publicar"
+
+#: mason/dataset/publish.mas:700
+msgctxt "global.dataset_publish.action.reserve_doi"
+msgid "Reserve DOI"
+msgstr "Reservar DOI"
+
+#: mason/dataset/publish.mas:557
+msgctxt "global.dataset_publish.add_files_to_dataset"
+msgid "Add files to selected dataset"
+msgstr "Añadir archivos al conjunto de datos seleccionado"
+
+#: mason/dataset/publish.mas:147
+msgctxt "global.dataset_publish.additional_authors"
+msgid "Additional Authors (one per line):"
+msgstr "Autores adicionales (uno por línea):"
+
+#: mason/dataset/publish.mas:724
+msgctxt "global.dataset_publish.analyzing"
+msgid "Analyzing Dataset..."
+msgstr "Analizando conjunto de datos..."
+
+#: mason/dataset/publish.mas:222 mason/dataset/publish.mas:279
+msgctxt "global.dataset_publish.authors"
+msgid "Authors:"
+msgstr "Autores:"
+
+#: mason/dataset/publish.mas:148
+msgctxt "global.dataset_publish.auto_author"
+msgid "You will automatically be added as an Author"
+msgstr "Se le añadirá automáticamente como autor"
+
+#: mason/dataset/publish.mas:1176
+msgctxt "global.dataset_publish.confirm.doi_generated"
+msgid "A DOI has been generated for this dataset on %{service}"
+msgstr "Se ha generado un DOI para este conjunto de datos en %{service}"
+
+#: mason/dataset/publish.mas:1132
+msgctxt "global.dataset_publish.confirm.publish"
+msgid "Are you sure you want to publish this dataset now? This cannot be undone."
+msgstr "¿Desea publicar este conjunto de datos ahora? Esta acción no se puede deshacer."
+
+#: mason/dataset/publish.mas:1143
+msgctxt "global.dataset_publish.confirm.published"
+msgid "The dataset has been published and is now publicly available on %{service}"
+msgstr "El conjunto de datos se ha publicado y ahora está disponible públicamente en %{service}"
+
+#: mason/dataset/publish.mas:890
+msgctxt "global.dataset_publish.confirm.remove"
+msgid "Are you sure you want to unlink this published metadata from the dataset?  This will remove the archived data on this server and the connection between the dataset and the external service.  This will NOT remove anything from the external service."
+msgstr "¿Desea desvincular estos metadatos publicados del conjunto de datos? Se eliminarán los datos archivados de este servidor y la conexión entre el conjunto de datos y el servicio externo. Esto NO eliminará nada del servicio externo."
+
+#: mason/dataset/publish.mas:1165
+msgctxt "global.dataset_publish.confirm.reserve_doi"
+msgid "Are you sure you want to reserve a DOI now?  If the external dataset is still private, the DOI will become active once it is published.  Once a DOI is active, it cannot be disabled."
+msgstr "¿Desea reservar un DOI ahora? Si el conjunto de datos externo es privado, el DOI se activará cuando se publique. Un DOI activo no se puede desactivar."
+
+#: mason/dataset/publish.mas:917
+msgctxt "global.dataset_publish.confirm.upload"
+msgid "Are you sure you want to upload the files to %{service} now?"
+msgstr "¿Desea cargar los archivos en %{service} ahora?"
+
+#: mason/dataset/publish.mas:197
+msgctxt "global.dataset_publish.confirm_all_correct"
+msgid "Make sure everything is correct before publishing!"
+msgstr "¡Asegúrese de que todo esté correcto antes de publicar!"
+
+#: mason/dataset/publish.mas:121 mason/dataset/publish.mas:206
+#: mason/dataset/publish.mas:263
+msgctxt "global.dataset_publish.connect_accounts"
+msgid "Connect Accounts"
+msgstr "Conectar cuentas"
+
+#: mason/dataset/publish.mas:125 mason/dataset/publish.mas:210
+#: mason/dataset/publish.mas:267
+msgctxt "global.dataset_publish.connected_account"
+msgid "You are connected to this %{service} account:"
+msgstr "Está conectado a esta cuenta de %{service}:"
+
+#: mason/dataset/publish.mas:777
+msgctxt "global.dataset_publish.could_not_generate"
+msgid "Could not generate file"
+msgstr "No se pudo generar el archivo"
+
+#: mason/dataset/publish.mas:571
+msgctxt "global.dataset_publish.create_dataset_and_add_files"
+msgid "Create new dataset and add files"
+msgstr "Crear un conjunto de datos nuevo y añadir archivos"
+
+#: mason/dataset/publish.mas:533
+msgctxt "global.dataset_publish.create_new_dataset"
+msgid "Create a new %{service} dataset"
+msgstr "Crear un conjunto de datos nuevo en %{service}"
+
+#: mason/dataset/publish.mas:135
+msgctxt "global.dataset_publish.create_new_dataset_prompt"
+msgid "Create a new dataset"
+msgstr "Crear un conjunto de datos nuevo"
+
+#: mason/dataset/publish.mas:774
+msgctxt "global.dataset_publish.created_file"
+msgid "Created archived file: %{file}"
+msgstr "Archivo comprimido creado: %{file}"
+
+#: mason/dataset/publish.mas:934
+msgctxt "global.dataset_publish.creating_dataset"
+msgid "Creating new dataset: %{title}"
+msgstr "Creando un conjunto de datos nuevo: %{title}"
+
+#: mason/dataset/publish.mas:30
+msgctxt "global.dataset_publish.date_published"
+msgid "Date Published"
+msgstr "Fecha de publicación"
+
+#: mason/dataset/publish.mas:129 mason/dataset/publish.mas:214
+#: mason/dataset/publish.mas:271
+msgctxt "global.dataset_publish.disconnect_accounts"
+msgid "Disconnect Accounts"
+msgstr "Desconectar cuentas"
+
+#: mason/dataset/publish.mas:254
+msgctxt "global.dataset_publish.doi_private_warning"
+msgid "This dataset on %{service} is still private. The generated DOI will become active once the dataset is published and made public."
+msgstr "Este conjunto de datos en %{service} aún es privado. El DOI generado se activará cuando se publique el conjunto de datos y se haga público."
+
+#: mason/dataset/publish.mas:127 mason/dataset/publish.mas:212
+#: mason/dataset/publish.mas:269
+msgctxt "global.dataset_publish.email"
+msgid "Email:"
+msgstr "Correo electrónico:"
+
+#: mason/dataset/publish.mas:593
+msgctxt "global.dataset_publish.error.article_details"
+msgid "Could not get article details"
+msgstr "No se pudieron obtener los detalles del artículo"
+
+#: mason/dataset/publish.mas:586
+msgctxt "global.dataset_publish.error.article_details_detail"
+msgid "Could not get article details [%{error}]"
+msgstr "No se pudieron obtener los detalles del artículo [%{error}]"
+
+#: mason/dataset/publish.mas:996
+msgctxt "global.dataset_publish.error.article_required"
+msgid "Please provide a name for the new dataset"
+msgstr "Indique un nombre para el conjunto de datos nuevo"
+
+#: mason/dataset/publish.mas:523
+msgctxt "global.dataset_publish.error.articles"
+msgid "Could not get account articles"
+msgstr "No se pudieron obtener los artículos de la cuenta"
+
+#: mason/dataset/publish.mas:408
+msgctxt "global.dataset_publish.error.connection"
+msgid "Could not update connection info"
+msgstr "No se pudo actualizar la información de conexión"
+
+#: mason/dataset/publish.mas:400
+msgctxt "global.dataset_publish.error.connection_detail"
+msgid "Could not update connection info [%{error}]"
+msgstr "No se pudo actualizar la información de conexión [%{error}]"
+
+#: mason/dataset/publish.mas:1018
+msgctxt "global.dataset_publish.error.create_article"
+msgid "Could not create new article"
+msgstr "No se pudo crear el artículo"
+
+#: mason/dataset/publish.mas:1011
+msgctxt "global.dataset_publish.error.create_article_detail"
+msgid "Could not create new article [%{error}]"
+msgstr "No se pudo crear el artículo [%{error}]"
+
+#: mason/dataset/publish.mas:997
+msgctxt "global.dataset_publish.error.description_required"
+msgid "Please provide a description for the new dataset"
+msgstr "Indique una descripción para el conjunto de datos nuevo"
+
+#: mason/dataset/publish.mas:1117
+msgctxt "global.dataset_publish.error.finalize"
+msgid "Could not finalize file: %{type}"
+msgstr "No se pudo finalizar el archivo: %{type}"
+
+#: mason/dataset/publish.mas:1110
+msgctxt "global.dataset_publish.error.finalize_detail"
+msgid "Could not finalize file: %{type} [%{error}]"
+msgstr "No se pudo finalizar el archivo: %{type} [%{error}]"
+
+#: mason/dataset/publish.mas:808
+msgctxt "global.dataset_publish.error.generate_detail"
+msgid "Could not generate %{type} file [%{error}]"
+msgstr "No se pudo generar el archivo %{type} [%{error}]"
+
+#: mason/dataset/publish.mas:815
+msgctxt "global.dataset_publish.error.generate_type"
+msgid "Could not generate %{type} file"
+msgstr "No se pudo generar el archivo %{type}"
+
+#: mason/dataset/publish.mas:739
+msgctxt "global.dataset_publish.error.init"
+msgid "Could not initialize dataset archive files"
+msgstr "No se pudieron inicializar los archivos comprimidos del conjunto de datos"
+
+#: mason/dataset/publish.mas:731
+msgctxt "global.dataset_publish.error.init_detail"
+msgid "Could not initialize dataset archive files [%{error}]"
+msgstr "No se pudieron inicializar los archivos del conjunto de datos [%{error}]"
+
+#: mason/dataset/publish.mas:615
+msgctxt "global.dataset_publish.error.issues"
+msgid "Could not get dataset published issues"
+msgstr "No se pudieron obtener los elementos publicados del conjunto de datos"
+
+#: mason/dataset/publish.mas:608
+msgctxt "global.dataset_publish.error.issues_detail"
+msgid "Could not get the dataset published issues [%{error}]"
+msgstr "No se pudieron obtener las publicaciones del conjunto de datos [%{error}]"
+
+#: mason/dataset/publish.mas:1128 mason/dataset/publish.mas:1161
+#: mason/dataset/publish.mas:848 mason/dataset/publish.mas:869
+msgctxt "global.dataset_publish.error.no_article"
+msgid "The selected dataset archive is not associated with an external article!"
+msgstr "El archivo del conjunto de datos seleccionado no está asociado a un artículo externo."
+
+#: mason/dataset/publish.mas:478
+msgctxt "global.dataset_publish.error.popup_required"
+msgid "You must allow popup windows in your browser to continue"
+msgstr "Debe permitir las ventanas emergentes en su navegador para continuar"
+
+#: mason/dataset/publish.mas:1150
+msgctxt "global.dataset_publish.error.publish"
+msgid "Could not publish dataset"
+msgstr "No se pudo publicar el conjunto de datos"
+
+#: mason/dataset/publish.mas:1139
+msgctxt "global.dataset_publish.error.publish_detail"
+msgid "Could not publish dataset [%{error}]"
+msgstr "No se pudo publicar el conjunto de datos [%{error}]"
+
+#: mason/dataset/publish.mas:902
+msgctxt "global.dataset_publish.error.remove_issues"
+msgid "Could not remove dataset published issues"
+msgstr "No se pudieron eliminar los elementos publicados del conjunto de datos"
+
+#: mason/dataset/publish.mas:895
+msgctxt "global.dataset_publish.error.remove_issues_detail"
+msgid "Could not remove dataset published issues [%{error}]"
+msgstr "No se pudieron eliminar las publicaciones del conjunto de datos [%{error}]"
+
+#: mason/dataset/publish.mas:1183
+msgctxt "global.dataset_publish.error.reserve_doi"
+msgid "Could not reserve a DOI for this dataset"
+msgstr "No se pudo reservar un DOI para este conjunto de datos"
+
+#: mason/dataset/publish.mas:1172
+msgctxt "global.dataset_publish.error.reserve_doi_detail"
+msgid "Could not reserve a DOI for this dataset [%{error}]"
+msgstr "No se pudo reservar un DOI para este conjunto de datos [%{error}]"
+
+#: mason/dataset/publish.mas:345
+msgctxt "global.dataset_publish.error.services"
+msgid "Could not get external services"
+msgstr "No se pudieron obtener los servicios externos"
+
+#: mason/dataset/publish.mas:1049
+msgctxt "global.dataset_publish.error.submit"
+msgid "Could not submit data_type: %{type}"
+msgstr "No se pudo enviar el tipo de datos: %{type}"
+
+#: mason/dataset/publish.mas:1042
+msgctxt "global.dataset_publish.error.submit_detail"
+msgid "Could not submit data type: %{type} [%{error}]"
+msgstr "No se pudo enviar el tipo de datos: %{type} [%{error}]"
+
+#: mason/dataset/publish.mas:1086
+msgctxt "global.dataset_publish.error.upload"
+msgid "Could not upload file: %{type}"
+msgstr "No se pudo cargar el archivo: %{type}"
+
+#: mason/dataset/publish.mas:1079
+msgctxt "global.dataset_publish.error.upload_detail"
+msgid "Could not upload file: %{type} [%{error}]"
+msgstr "No se pudo cargar el archivo: %{type} [%{error}]"
+
+#: mason/dataset/publish.mas:3
+msgctxt "global.dataset_publish.external_service_fallback"
+msgid "the external service"
+msgstr "el servicio externo"
+
+#: mason/dataset/publish.mas:32
+msgctxt "global.dataset_publish.files"
+msgid "Files"
+msgstr "Archivos"
+
+#: mason/dataset/publish.mas:224 mason/dataset/publish.mas:281
+msgctxt "global.dataset_publish.files_label"
+msgid "Files:"
+msgstr "Archivos:"
+
+#: mason/dataset/publish.mas:755
+msgctxt "global.dataset_publish.files_to_generate"
+msgid "Files to generate:"
+msgstr "Archivos que se generarán:"
+
+#: mason/dataset/publish.mas:287
+msgctxt "global.dataset_publish.generate_a_doi"
+msgid "Generate a DOI"
+msgstr "Generar un DOI"
+
+#: mason/dataset/publish.mas:43 mason/dataset/publish.mas:45
+msgctxt "global.dataset_publish.generate_archive"
+msgid "Generate Archive Files"
+msgstr "Generar archivos comprimidos"
+
+#: mason/dataset/publish.mas:713
+msgctxt "global.dataset_publish.generate_first"
+msgid "To publish this dataset, first generate a set of archived files."
+msgstr "Para publicar este conjunto, primero genere los archivos comprimidos."
+
+#: mason/dataset/publish.mas:77
+msgctxt "global.dataset_publish.generating_archive"
+msgid "Generating Archive Files"
+msgstr "Generando archivos comprimidos"
+
+#: mason/dataset/publish.mas:119 mason/dataset/publish.mas:204
+#: mason/dataset/publish.mas:261
+msgctxt "global.dataset_publish.grant_access"
+msgid "Grant %{project} access to your %{service} account"
+msgstr "Conceder a %{project} acceso a su cuenta de %{service}"
+
+#: mason/dataset/publish.mas:103 mason/dataset/publish.mas:196
+msgctxt "global.dataset_publish.important"
+msgid "IMPORTANT!"
+msgstr "¡IMPORTANTE!"
+
+#: mason/dataset/publish.mas:66 mason/order/manage_catalog_usage_info.mas:26
+msgctxt "global.dataset_publish.important_notes"
+msgid "Important Notes:"
+msgstr "Notas importantes:"
+
+#: mason/dataset/publish.mas:56
+msgctxt "global.dataset_publish.info_title"
+msgid "Information about Publishing Datasets"
+msgstr "Información sobre la publicación de conjuntos de datos"
+
+#: mason/dataset/publish.mas:757
+msgctxt "global.dataset_publish.item_count"
+msgid "Item Count"
+msgstr "Cantidad de elementos"
+
+#: mason/dataset/publish.mas:230
+msgctxt "global.dataset_publish.make_public"
+msgid "Publish & Make Public"
+msgstr "Publicar y hacer público"
+
+#: mason/dataset/publish.mas:150
+msgctxt "global.dataset_publish.metadata_update_note"
+msgid "The dataset metadata can be updated later on %{service} until the dataset on %{service} is published and made public."
+msgstr "Los metadatos del conjunto de datos se pueden actualizar en %{service} hasta que se publique y haga público allí."
+
+#: mason/dataset/publish.mas:126 mason/dataset/publish.mas:211
+#: mason/dataset/publish.mas:268
+msgctxt "global.dataset_publish.name"
+msgid "Name:"
+msgstr "Nombre:"
+
+#: mason/dataset/publish.mas:568
+msgctxt "global.dataset_publish.new"
+msgid "NEW"
+msgstr "NUEVO"
+
+#: mason/dataset/publish.mas:713
+msgctxt "global.dataset_publish.not_published"
+msgid "This dataset has not been published"
+msgstr "Este conjunto de datos no se ha publicado"
+
+#: mason/dataset/publish.mas:46
+msgctxt "global.dataset_publish.only_owner_generate"
+msgid "Only the dataset owner can generate archive files"
+msgstr "Solo el propietario del conjunto de datos puede generar archivos comprimidos"
+
+#: mason/dataset/publish.mas:68
+msgctxt "global.dataset_publish.permanent_note"
+msgid "Once the external dataset has been published (made public), the uploaded files and metadata are permanently available.  Any changes you make will need to be republished to a new version of the external dataset."
+msgstr "Una vez publicado el conjunto de datos externo (hecho público), los archivos y metadatos cargados estarán disponibles permanentemente. Cualquier cambio deberá publicarse en una nueva versión del conjunto de datos externo."
+
+#: mason/dataset/publish.mas:4
+msgctxt "global.dataset_publish.permanently_available"
+msgid "permanently available"
+msgstr "disponibles permanentemente"
+
+#: mason/dataset/publish.mas:973
+msgctxt "global.dataset_publish.progress.all_files_uploaded"
+msgid "All Files Uploaded!"
+msgstr "¡Se cargaron todos los archivos!"
+
+#: mason/dataset/publish.mas:961
+msgctxt "global.dataset_publish.progress.finalizing_file"
+msgid "Finalizing File"
+msgstr "Finalizando archivo"
+
+#: mason/dataset/publish.mas:945
+msgctxt "global.dataset_publish.progress.sending_type"
+msgid "Sending data type: %{type}"
+msgstr "Enviando tipo de datos: %{type}"
+
+#: mason/dataset/publish.mas:968
+msgctxt "global.dataset_publish.progress.uploaded_file"
+msgid "Uploaded file: %{type}"
+msgstr "Archivo cargado: %{type}"
+
+#: mason/dataset/publish.mas:955
+msgctxt "global.dataset_publish.progress.uploading_chunk"
+msgid "Uploading chunk: %{count}/%{total}"
+msgstr "Cargando fragmento: %{count}/%{total}"
+
+#: mason/dataset/publish.mas:160 mason/dataset/publish.mas:165
+msgctxt "global.dataset_publish.progress_percent_complete"
+msgid "60% Complete"
+msgstr "60% completado"
+
+#: mason/dataset/publish.mas:196
+msgctxt "global.dataset_publish.public_warning"
+msgid "Once you make the external dataset public, all of the uploaded files and metadata become %{permanent} and cannot be removed or modified from this version of the dataset.  If you need to make updates, changes can be made and new files can be uploaded and a new version of the external dataset will need to be published (the original version will still be accessible)."
+msgstr "Cuando haga público el conjunto de datos externo, todos los archivos y metadatos cargados quedarán %{permanent} y no se podrán eliminar ni modificar en esta versión. Para actualizarlo, deberá cargar archivos nuevos y publicar una nueva versión del conjunto externo (la versión original seguirá disponible)."
+
+#: mason/dataset/publish.mas:189
+msgctxt "global.dataset_publish.publish_dataset"
+msgid "Publish Dataset"
+msgstr "Publicar conjunto de datos"
+
+#: mason/dataset/publish.mas:33
+msgctxt "global.dataset_publish.published_to"
+msgid "Published To"
+msgstr "Publicado en"
+
+#: mason/dataset/publish.mas:57
+msgctxt "global.dataset_publish.publishing_definition"
+msgid "Dataset publishing allows the owner of a dataset to take a snapshot of the data contained within the dataset and publish it to an external service (such as FigShare), where it can be made publicly available and have a DOI assigned to it."
+msgstr "La publicación permite al propietario crear una instantánea de los datos del conjunto y publicarla en un servicio externo (como FigShare), donde puede hacerse pública y recibir un DOI."
+
+#: mason/dataset/publish.mas:5
+msgctxt "global.dataset_publish.publishing_disabled"
+msgid "Dataset Publishing has not been enabled on this database."
+msgstr "La publicación de conjuntos de datos no está habilitada en esta base de datos."
+
+#: mason/dataset/publish.mas:6
+msgctxt "global.dataset_publish.publishing_disabled_external"
+msgid "You may generate archive files but they cannot be published to an external service.  Contact an administrator to have this feature enabled."
+msgstr "Puede generar archivos, pero no publicarlos en un servicio externo. Contacte con un administrador para habilitar esta función."
+
+#: mason/dataset/publish.mas:133
+msgctxt "global.dataset_publish.select_dataset"
+msgid "Select a %{service} dataset to associate this data with:"
+msgstr "Seleccione el conjunto de datos de %{service} que desea asociar con estos datos:"
+
+#: mason/dataset/publish.mas:109
+msgctxt "global.dataset_publish.select_service"
+msgid "Select the external service to upload this dataset to:"
+msgstr "Seleccione el servicio externo donde cargar este conjunto de datos:"
+
+#: mason/dataset/publish.mas:153
+msgctxt "global.dataset_publish.send_attach_note"
+msgid "Send and attach the files to the selected %{service} dataset."
+msgstr "Envíe y adjunte los archivos al conjunto de datos seleccionado de %{service}."
+
+#: mason/dataset/publish.mas:155
+msgctxt "global.dataset_publish.send_files"
+msgid "Send Files"
+msgstr "Enviar archivos"
+
+#: mason/dataset/publish.mas:220 mason/dataset/publish.mas:277
+msgctxt "global.dataset_publish.service"
+msgid "Service:"
+msgstr "Servicio:"
+
+#: mason/dataset/publish.mas:690
+msgctxt "global.dataset_publish.status.not_uploaded"
+msgid "Not uploaded"
+msgstr "No cargado"
+
+#: mason/dataset/publish.mas:680
+msgctxt "global.dataset_publish.status.preview"
+msgid "Preview"
+msgstr "Vista previa"
+
+#: mason/dataset/publish.mas:682
+msgctxt "global.dataset_publish.status.private"
+msgid "Published to a private dataset"
+msgstr "Publicado en un conjunto de datos privado"
+
+#: mason/dataset/publish.mas:675
+msgctxt "global.dataset_publish.status.public"
+msgid "Public"
+msgstr "Público"
+
+#: mason/dataset/publish.mas:247 mason/dataset/publish.mas:63
+msgctxt "global.dataset_publish.step_doi"
+msgid "Reserve a DOI"
+msgstr "Reservar un DOI"
+
+#: mason/dataset/publish.mas:63
+msgctxt "global.dataset_publish.step_doi_desc"
+msgid "generate a Digital Object Identifier (DOI) for the external dataset that can be used as a reference in publications."
+msgstr "generar un identificador de objeto digital (DOI) para el conjunto externo, que puede citarse en publicaciones."
+
+#: mason/dataset/publish.mas:60
+msgctxt "global.dataset_publish.step_generate"
+msgid "Generate the archived files"
+msgstr "Generar los archivos comprimidos"
+
+#: mason/dataset/publish.mas:60
+msgctxt "global.dataset_publish.step_generate_desc"
+msgid "this creates a static snapshot of the data within the dataset at the time when the files are generated"
+msgstr "esto crea una instantánea estática de los datos del conjunto en el momento de generar los archivos"
+
+#: mason/dataset/publish.mas:62
+msgctxt "global.dataset_publish.step_publish"
+msgid "Publish the external dataset"
+msgstr "Publicar el conjunto de datos externo"
+
+#: mason/dataset/publish.mas:62
+msgctxt "global.dataset_publish.step_publish_desc"
+msgid "make the external dataset publicly available for others to find"
+msgstr "hacer que otras personas puedan encontrar el conjunto externo"
+
+#: mason/dataset/publish.mas:61
+msgctxt "global.dataset_publish.step_upload"
+msgid "Upload the files to an external service"
+msgstr "Cargar los archivos en un servicio externo"
+
+#: mason/dataset/publish.mas:61
+msgctxt "global.dataset_publish.step_upload_desc"
+msgid "this will upload the archived files to a new or existing dataset on the external service"
+msgstr "esto cargará los archivos comprimidos en un conjunto nuevo o existente del servicio externo"
+
+#: mason/dataset/publish.mas:58
+msgctxt "global.dataset_publish.steps_intro"
+msgid "The steps to publish a dataset are:"
+msgstr "Los pasos para publicar un conjunto de datos son:"
+
+#: mason/dataset/publish.mas:138 mason/dataset/publish.mas:221
+#: mason/dataset/publish.mas:278
+msgctxt "global.dataset_publish.title"
+msgid "Title:"
+msgstr "Título:"
+
+#: mason/dataset/publish.mas:103
+msgctxt "global.dataset_publish.upload_acknowledgement"
+msgid "By continuing to upload these files, you acknowledge that this data is allowed to be shared on %{service} and can be made publicly available (once the dataset on %{service} is published)."
+msgstr "Al continuar con la carga de estos archivos, confirma que estos datos se pueden compartir en %{service} y hacerse públicos (cuando se publique el conjunto de datos allí)."
+
+#: mason/dataset/publish.mas:96
+msgctxt "global.dataset_publish.upload_dataset"
+msgid "Upload Dataset"
+msgstr "Cargar conjunto de datos"
+
+#: mason/dataset/publish.mas:1226
+msgctxt "global.dataset_publish.upload_failed"
+msgid "Upload Failed"
+msgstr "Error de carga"
+
+#: mason/dataset/publish.mas:31
+msgctxt "global.dataset_publish.user"
+msgid "User"
+msgstr "Usuario"
+
+#: mason/dataset/publish.mas:115
+msgctxt "global.dataset_publish.view_account"
+msgid "View your %{service} account"
+msgstr "Ver su cuenta de %{service}"
+
+#: mason/dataset/publish.mas:225 mason/dataset/publish.mas:282
+msgctxt "global.dataset_publish.view_details"
+msgid "View Details on %{service}"
+msgstr "Ver detalles en %{service}"
+
+#: js/source/entries/dataset_scatterplot.js:263
+#: js/source/entries/dataset_scatterplot.js:284
+msgctxt "global.dataset_scatterplot.alert.outliers_reset"
+msgid "outliers successfully reset!"
+msgstr "¡Se restablecieron los valores atípicos!"
+
+#: js/source/entries/dataset_scatterplot.js:245
+#: js/source/entries/dataset_scatterplot.js:368
+msgctxt "global.dataset_scatterplot.alert.outliers_stored"
+msgid "outliers successfully stored!"
+msgstr "¡Valores atípicos guardados correctamente!"
+
+#: js/source/entries/dataset_scatterplot.js:520
+#: mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:165
+msgctxt "global.dataset_scatterplot.axis.trait_value"
+msgid "Trait Value"
+msgstr "Valor del rasgo"
+
+#: js/source/entries/dataset_scatterplot.js:336
+msgctxt "global.dataset_scatterplot.button.add_rosner_outliers"
+msgid "Add Rosner test outliers"
+msgstr "Añadir valores atípicos de la prueba de Rosner"
+
+#: js/source/entries/dataset_scatterplot.js:683
+msgctxt "global.dataset_scatterplot.legend.current_cutoff_outlier"
+msgid "outliers from current cutoff"
+msgstr "valores atípicos del umbral actual"
+
+#: js/source/entries/dataset_scatterplot.js:699
+msgctxt "global.dataset_scatterplot.legend.left_cutoff"
+msgid "L. Cutoff"
+msgstr "Límite izq."
+
+#: js/source/entries/dataset_scatterplot.js:671
+msgctxt "global.dataset_scatterplot.legend.normal_data_point"
+msgid "normal data point"
+msgstr "punto de datos normal"
+
+#: js/source/entries/dataset_scatterplot.js:707
+msgctxt "global.dataset_scatterplot.legend.right_cutoff"
+msgid "R. Cutoff"
+msgstr "Límite der."
+
+#: js/source/entries/dataset_scatterplot.js:677
+msgctxt "global.dataset_scatterplot.legend.stored_outlier"
+msgid "outliers value stored in database"
+msgstr "valor atípico guardado en la base de datos"
+
+#: js/source/entries/dataset_scatterplot.js:546
+msgctxt "global.dataset_scatterplot.tooltip.id"
+msgid "id:"
+msgstr "id:"
+
+#: js/source/entries/dataset_scatterplot.js:546
+msgctxt "global.dataset_scatterplot.tooltip.value"
+msgid "val:"
+msgstr "valor:"
+
+#: mason/breeders_toolbox/file_share/file_dump_share_files.mas:8
+msgctxt "global.file_dump_share_files.user_name"
+msgid "User Name"
+msgstr "Nombre de usuario"
+
+#: js/source/legacy/dataset.js:6
+msgctxt "global.legacy_dataset.delete_confirm"
+msgid "Dataset. Are you sure you would like to delete it? Deletion cannot be undone."
+msgstr "Conjunto de datos. ¿Seguro que desea eliminarlo? Esta acción no se puede deshacer."
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:15
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:36
+msgctxt "global.manage_file_share_dump.close"
+msgid "Close"
+msgstr "Cerrar"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:71
+msgctxt "global.manage_file_share_dump.no_file"
+msgid "No file selected"
+msgstr "No se seleccionó ningún archivo"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:9
+msgctxt "global.manage_file_share_dump.shared_files"
+msgid "Shared Files"
+msgstr "Archivos compartidos"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:9
+msgctxt "global.manage_file_share_dump.subtitle"
+msgid "View and download shared data files. Note that these are unstructured data files; please upload structured data into database!"
+msgstr "Vea y descargue archivos de datos compartidos. Tenga en cuenta que son archivos de datos no estructurados; ¡cargue los datos estructurados en la base de datos!"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:7
+msgctxt "global.manage_file_share_dump.title"
+msgid "File Share Dump"
+msgstr "Compartir archivos"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:9
+msgctxt "global.manage_file_share_dump.upload_button"
+msgid "Upload Unstructured File To Share"
+msgstr "Cargar un archivo no estructurado para compartirlo"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:26
+msgctxt "global.manage_file_share_dump.upload_file_label"
+msgid "Upload File: "
+msgstr "Cargar archivo: "
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:20
+msgctxt "global.manage_file_share_dump.upload_select_file"
+msgid "Select a file from your computer to upload to the file dump to share."
+msgstr "Seleccione un archivo de su computadora para cargarlo en el repositorio de archivos compartidos."
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:84
+msgctxt "global.manage_file_share_dump.upload_success"
+msgid "File uploaded successfully"
+msgstr "El archivo se cargó correctamente"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:16
+msgctxt "global.manage_file_share_dump.upload_title"
+msgid "Upload File to Share"
+msgstr "Cargar archivo para compartir"
+
+#: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:21
+msgctxt "global.manage_file_share_dump.upload_unstructured_note"
+msgid "Note, this is to upload unstructured data. Please continue to upload structured data into the actual database in order to use the organizational and analysis tools in Breedbase."
+msgstr "Esta opción carga datos no estructurados. Siga cargando los datos estructurados directamente en la base de datos para usar las herramientas de organización y análisis de Breedbase."
+
+#: js/source/modules/wizard-datasets.js:148
+msgctxt "global.wizard_datasets.compatibility_console_error"
+msgid "Error storing tool compatibility, check console."
+msgstr "Error al guardar la compatibilidad de herramientas; revise la consola."
+
+#: js/source/modules/wizard-datasets.js:144
+msgctxt "global.wizard_datasets.compatibility_store_error"
+msgid "Error storing tool compatibility: %{error}"
+msgstr "Error al guardar la compatibilidad de herramientas: %{error}"
+
+#: js/source/modules/wizard-datasets.js:157
+msgctxt "global.wizard_datasets.create_compatibility_error"
+msgid "Error storing dataset or checking tool compatibility: %{error}"
+msgstr "Error al guardar el conjunto de datos o comprobar la compatibilidad de herramientas: %{error}"
+
+#: js/source/modules/wizard-datasets.js:104
+msgctxt "global.wizard_datasets.create_failed_empty"
+msgid "Dataset creation failed. No data is selected."
+msgstr "No se pudo crear el conjunto de datos. No hay datos seleccionados."
+
+#: js/source/modules/wizard-datasets.js:139
+msgctxt "global.wizard_datasets.create_success"
+msgid ""
+"Dataset %{name} created with: %{details}. \n"
+"Compatibility check will run in background."
+msgstr ""
+"Se creó el conjunto de datos %{name} con: %{details}. \n"
+"La comprobación de compatibilidad se ejecutará en segundo plano."
+
+#: js/source/modules/wizard-datasets.js:57
+msgctxt "global.wizard_datasets.delete_confirm"
+msgid ""
+"Dataset %{name} contains: %{details}\n"
+"Are you sure you would like to delete it? Deletion cannot be undone."
+msgstr ""
+"El conjunto de datos %{name} contiene: %{details}\n"
+"¿Seguro que desea eliminarlo? Esta acción no se puede deshacer."
+
+#: js/source/modules/wizard-datasets.js:125
+msgctxt "global.wizard_datasets.network_error"
+msgid "Network error!"
+msgstr "¡Error de red!"
+
+#: js/source/modules/wizard-datasets.js:130
+msgctxt "global.wizard_datasets.store_error"
+msgid "Error storing dataset: %{error}"
+msgstr "Error al guardar el conjunto de datos: %{error}"
+
+#: js/source/modules/wizard-downloads.js:60
+msgctxt "global.wizard_downloads.accessions_count"
+msgid "%{count} accessions"
+msgstr "%{count} accesiones"
+
+#: js/source/modules/wizard-downloads.js:77
+msgctxt "global.wizard_downloads.chromosome_markerset_conflict"
+msgid "Please indicate either chromosome or markerset, not both."
+msgstr "Indique el cromosoma o el conjunto de marcadores, pero no ambos."
+
+#: js/source/modules/wizard-downloads.js:253
+msgctxt "global.wizard_downloads.no_protocol_selected"
+msgid "No protocol selected"
+msgstr "No se seleccionó ningún protocolo"
+
+#: js/source/modules/wizard-downloads.js:253
+msgctxt "global.wizard_downloads.protocol_select_one"
+msgid "Please select only 1 protocol"
+msgstr "Seleccione solo 1 protocolo"
+
+#: js/source/modules/wizard-downloads.js:253
+msgctxt "global.wizard_downloads.protocols_count"
+msgid "%{count} protocols"
+msgstr "%{count} protocolos"
+
+#: js/source/modules/wizard-downloads.js:154
+#: js/source/modules/wizard-downloads.js:179
+#: js/source/modules/wizard-downloads.js:251
+#: js/source/modules/wizard-downloads.js:60
+msgctxt "global.wizard_downloads.too_few"
+msgid "Too few"
+msgstr "Muy pocos"
+
+#: js/source/modules/wizard-downloads.js:154
+#: js/source/modules/wizard-downloads.js:179
+#: js/source/modules/wizard-downloads.js:251
+msgctxt "global.wizard_downloads.trials_count"
+msgid "%{count} trials"
+msgstr "%{count} ensayos"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:61
+msgctxt "lists.details.content_name"
+msgid "Content Name"
+msgstr "Nombre del contenido"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:73
+msgctxt "lists.details.current_weight"
+msgid "Current Weight"
+msgstr "Peso actual"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:33
+msgctxt "lists.details.download"
+msgid "Download List Items"
+msgstr "Descargar elementos de la lista"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:23
+msgctxt "lists.details.id"
+msgid "List ID"
+msgstr "ID de la lista"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:25
+msgctxt "lists.details.item_count"
+msgid "Number of Items"
+msgstr "Número de elementos"
+
+# Model draft; editorial/native language review remains pending.
+#: mason/list/list_details.mas:18
+msgctxt "lists.details.title"
+msgid "Details for List '%{name}'"
+msgstr "Detalles de la lista '%{name}'"
+
+#: lib/CXGN/List.pm:719
+msgctxt "lists.model.bulk_add_failed"
+msgid "An error occurred in bulk addition to list. (%{detail})"
+msgstr "Se produjo un error al añadir elementos a la lista en bloque. (%{detail})"
+
+#: lib/CXGN/List.pm:410
+msgctxt "lists.model.delete_element_failed"
+msgid "An error occurred while attempting to delete item %{element}"
+msgstr "Se produjo un error al intentar eliminar el elemento %{element}"
+
+#: lib/CXGN/List.pm:448
+msgctxt "lists.model.delete_element_id_failed"
+msgid "An error occurred while attempting to delete item %{id}"
+msgstr "Se produjo un error al intentar eliminar el elemento %{id}"
+
+#: lib/CXGN/List.pm:226
+msgctxt "lists.model.delete_failed"
+msgid "An error occurred while deleting list with id %{id}: %{detail}"
+msgstr "Se produjo un error al eliminar la lista con ID %{id}: %{detail}"
+
+#: lib/CXGN/List.pm:352
+msgctxt "lists.model.description_update_failed"
+msgid "An error occurred updating the list description (%{detail})"
+msgstr "Se produjo un error al actualizar la descripción de la lista (%{detail})"
+
+#: lib/CXGN/List.pm:370
+msgctxt "lists.model.element_exists"
+msgid "The element %{element} already exists"
+msgstr "El elemento %{element} ya existe"
+
+#: lib/CXGN/List.pm:366
+msgctxt "lists.model.empty_element"
+msgid "Empty list elements are not allowed"
+msgstr "No se permiten elementos vacíos en la lista"
+
+#: lib/CXGN/List.pm:289
+msgctxt "lists.model.name_exists"
+msgid "The list name %{name} already exists. Please choose another name."
+msgstr "La lista %{name} ya existe. Elija otro nombre."
+
+#: lib/CXGN/List.pm:299
+msgctxt "lists.model.name_update_failed"
+msgid "An error occurred updating the list name (%{detail})"
+msgstr "Se produjo un error al actualizar el nombre de la lista (%{detail})"
+
+#: lib/CXGN/List.pm:518
+msgctxt "lists.model.remove_element_failed"
+msgid "An error occurred while attempting to remove item %{item}"
+msgstr "Se produjo un error al intentar quitar el elemento %{item}"
+
+#: lib/CXGN/List.pm:495
+msgctxt "lists.model.replace_element_failed"
+msgid "An error occurred while attempting to update item %{item}"
+msgstr "Se produjo un error al intentar actualizar el elemento %{item}"
+
+#: lib/CXGN/List.pm:381
+msgctxt "lists.model.store_element_failed"
+msgid "An error occurred storing the element %{element} (%{detail})"
+msgstr "Se produjo un error al guardar el elemento %{element} (%{detail})"
+
+#: lib/CXGN/List.pm:317
+msgctxt "lists.model.type_not_found"
+msgid "The specified type does not exist"
+msgstr "El tipo especificado no existe"
+
+#: lib/CXGN/List.pm:471
+msgctxt "lists.model.update_element_id_failed"
+msgid "An error occurred while attempting to update item %{id}"
+msgstr "Se produjo un error al intentar actualizar el elemento %{id}"
+
+#: mason/breeders_toolbox/download.mas:730
+#: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:41
+msgctxt "lists.selector.please_select"
+msgid "Please select"
+msgstr "Seleccione, por favor"
+
+#: lib/SGN/Controller/AJAX/List.pm:539
+msgctxt "lists.server.elements_required"
+msgid "You must provide one or more elements to add to the list"
+msgstr "Indique uno o más elementos para añadir a la lista."
+
+#: lib/SGN/Controller/AJAX/List.pm:1078 lib/SGN/Controller/AJAX/List.pm:630
+msgctxt "lists.server.not_allowed"
+msgid "You have insufficient privileges to manipulate this list."
+msgstr "No tiene permisos suficientes para modificar esta lista."
+
+#: lib/SGN/Controller/AJAX/List.pm:209
+msgctxt "lists.server.sign_in_create"
+msgid "You must be logged in to use lists"
+msgstr "Debe iniciar sesión para usar las listas."
+
+#: lib/SGN/Controller/AJAX/List.pm:1075
+msgctxt "lists.server.sign_in_edit"
+msgid "You must be logged in to manipulate this list."
+msgstr "Debe iniciar sesión para modificar esta lista."
+
+#: lib/SGN/Controller/AJAX/List.pm:605
+msgctxt "lists.server.sign_in_exists"
+msgid "You need to be logged in to use lists."
+msgstr "Debe iniciar sesión para usar las listas."
+
+#: lib/SGN/Controller/AJAX/List.pm:1091 lib/SGN/Controller/AJAX/List.pm:1236
+#: lib/SGN/Controller/AJAX/List.pm:1302 lib/SGN/Controller/AJAX/List.pm:328
+#: lib/SGN/Controller/AJAX/List.pm:345 lib/SGN/Controller/AJAX/List.pm:43
+msgctxt "lists.server.sign_in_use"
+msgid "You must be logged in to use lists."
+msgstr "Debe iniciar sesión para usar las listas."
+
+#: lib/SGN/Controller/AJAX/List.pm:192
+msgctxt "lists.server.type_missing"
+msgid "List type not found: %{type}"
+msgstr "No se encontró el tipo de lista: %{type}"
+
+#: lib/SGN/Controller/AJAX/List.pm:185
+msgctxt "lists.server.type_owner"
+msgid "Only the list owner can change the type of a list"
+msgstr "Solo el propietario de la lista puede cambiar su tipo."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1438
+msgctxt "lists_datasets.api_dataset.cannot_open_file_to_read_contents"
+msgid "Cannot open file to read contents"
+msgstr "No se puede abrir el archivo para leer su contenido"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:993
+msgctxt "lists_datasets.api_dataset.cannot_open_the_file_file"
+msgid "Cannot open the %{file} file"
+msgstr "No se puede abrir el archivo %{file}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1235
+msgctxt "lists_datasets.api_dataset.could_not_finalize_the_file_upload_for_type"
+msgid "Could not finalize the file upload for %{type}"
+msgstr "No se pudo finalizar la carga del archivo para %{type}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:947
+msgctxt "lists_datasets.api_dataset.could_not_generate_archive_file"
+msgid "Could not generate archive file"
+msgstr "No se pudo generar el archivo de almacenamiento"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1370
+msgctxt "lists_datasets.api_dataset.could_not_get_a_doi_for_the_selected_article"
+msgid "Could not get a DOI for the selected article"
+msgstr "No se pudo obtener un DOI para el registro seleccionado"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1027
+msgctxt "lists_datasets.api_dataset.could_not_get_metadata_for_new_file_file"
+msgid "Could not get metadata for new file %{file}"
+msgstr "No se pudieron obtener los metadatos del archivo nuevo %{file}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1040
+msgctxt "lists_datasets.api_dataset.could_not_get_upload_metadata_for_new_file_file"
+msgid "Could not get upload metadata for new file %{file}"
+msgstr "No se pudieron obtener los metadatos de carga del archivo nuevo %{file}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1015
+msgctxt "lists_datasets.api_dataset.could_not_initialize_new_file_file"
+msgid "Could not initialize new file %{file}"
+msgstr "No se pudo inicializar el archivo nuevo %{file}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1307
+msgctxt "lists_datasets.api_dataset.could_not_publish_the_selected_article"
+msgid "Could not publish the selected article"
+msgstr "No se pudo publicar el registro seleccionado"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1154
+msgctxt "lists_datasets.api_dataset.could_not_upload_the_file_file"
+msgid "Could not upload the file %{file}"
+msgstr "No se pudo cargar el archivo %{file}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:544
+msgctxt "lists_datasets.api_dataset.deleting_datasets_requires_login"
+msgid "Deleting datasets requires login"
+msgstr "Debe iniciar sesión para eliminar conjuntos de datos"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:528
+msgctxt "lists_datasets.api_dataset.error_calculating_tool_compatibility_detail"
+msgid ""
+"Error calculating tool compatibility:\n"
+"%{detail}"
+msgstr ""
+"Error al calcular la compatibilidad con herramientas:\n"
+"%{detail}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:432
+msgctxt "lists_datasets.api_dataset.error_retrieving_analyses_using_this_dataset_detail"
+msgid "Error retrieving analyses using this dataset. %{detail}"
+msgstr "Error al recuperar los análisis que usan este conjunto de datos. %{detail}"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1476
+#: lib/SGN/Controller/AJAX/Dataset.pm:37 lib/SGN/Controller/AJAX/Dataset.pm:826
+msgctxt "lists_datasets.api_dataset.login_required_to_perform_requested_action"
+msgid "Login required to perform requested action."
+msgstr "Debe iniciar sesión para realizar la acción solicitada."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:877
+msgctxt "lists_datasets.api_dataset.no_entity_id_returned"
+msgid "No entity id returned"
+msgstr "No se devolvió un identificador de entidad"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:296
+#: lib/SGN/Controller/AJAX/Dataset.pm:330
+#: lib/SGN/Controller/AJAX/Dataset.pm:366
+msgctxt "lists_datasets.api_dataset.no_logged_in_user_error"
+msgid "No logged in user error."
+msgstr "Error: no hay un usuario conectado."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:235
+msgctxt "lists_datasets.api_dataset.no_logged_in_user_to_display_dataset_information_for"
+msgid "No logged in user to display dataset information for."
+msgstr "No hay un usuario conectado para mostrar su información de conjuntos de datos."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:310
+#: lib/SGN/Controller/AJAX/Dataset.pm:344
+#: lib/SGN/Controller/AJAX/Dataset.pm:381
+msgctxt "lists_datasets.api_dataset.only_the_owner_can_change_a_dataset"
+msgid "Only the owner can change a dataset"
+msgstr "Solo el propietario puede modificar un conjunto de datos"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:559
+msgctxt "lists_datasets.api_dataset.only_the_owner_can_delete_a_dataset"
+msgid "Only the owner can delete a dataset"
+msgstr "Solo el propietario puede eliminar un conjunto de datos"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1481
+#: lib/SGN/Controller/AJAX/Dataset.pm:832
+msgctxt "lists_datasets.api_dataset.only_the_owner_can_publish_a_dataset"
+msgid "Only the owner can publish a dataset"
+msgstr "Solo el propietario puede publicar un conjunto de datos"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:219
+msgctxt "lists_datasets.api_dataset.rosners_test_successfully"
+msgid "Rosners TEST Successfully!"
+msgstr "¡Prueba de Rosner completada correctamente!"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:77
+msgctxt "lists_datasets.api_dataset.stored_dataset_successfully"
+msgid "Stored Dataset Successfully!"
+msgstr "¡Conjunto de datos guardado correctamente!"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:50
+msgctxt "lists_datasets.api_dataset.the_dataset_with_name_name_already_exists_please_choose_another_"
+msgid "The dataset with name %{name} already exists. Please choose another name."
+msgstr "Ya existe un conjunto de datos llamado %{name}. Elija otro nombre."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:467
+msgctxt "lists_datasets.api_dataset.the_specified_dimension_dimension_does_not_exist"
+msgid "The specified dimension '%{dimension}' does not exist"
+msgstr "La dimensión especificada «%{dimension}» no existe"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1083
+#: lib/SGN/Controller/AJAX/Dataset.pm:1167
+#: lib/SGN/Controller/AJAX/Dataset.pm:1447
+msgctxt "lists_datasets.api_dataset.the_specified_file_does_not_exist"
+msgid "The specified file does not exist"
+msgstr "El archivo especificado no existe"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1088
+#: lib/SGN/Controller/AJAX/Dataset.pm:1172
+#: lib/SGN/Controller/AJAX/Dataset.pm:1282
+#: lib/SGN/Controller/AJAX/Dataset.pm:1345
+#: lib/SGN/Controller/AJAX/Dataset.pm:1452
+msgctxt "lists_datasets.api_dataset.the_specified_published_metadata_does_not_exist"
+msgid "The specified published metadata does not exist"
+msgstr "Los metadatos publicados especificados no existen"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1225
+msgctxt "lists_datasets.api_dataset.the_upload_for_type_was_not_complete"
+msgid "The upload for %{type} was not complete"
+msgstr "La carga de %{type} no se completó"
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:532
+msgctxt "lists_datasets.api_dataset.tool_compatibility_submitted_check_job_logs_for_progress"
+msgid "Tool compatibility submitted. Check job logs for progress.\n"
+msgstr "Se envió la comprobación de compatibilidad con herramientas. Consulte el progreso en los registros del trabajo.\n"
+
+#: mason/dataset/authorize.mas:31
+msgctxt "lists_datasets.authorize.connected"
+msgid "Accounts connected - you may close this window"
+msgstr "Cuentas conectadas: puede cerrar esta ventana"
+
+#: mason/dataset/authorize.mas:7
+msgctxt "lists_datasets.authorize.connecting"
+msgid "Connecting account..."
+msgstr "Conectando la cuenta..."
+
+#: mason/dataset/authorize.mas:9
+msgctxt "lists_datasets.authorize.no_code"
+msgid "ERROR: Authorization code not returned"
+msgstr "ERROR: no se devolvió el código de autorización"
+
+#: mason/dataset/authorize.mas:36
+msgctxt "lists_datasets.authorize.store_error"
+msgid "Could not store connection info"
+msgstr "No se pudo guardar la información de conexión"
+
+#: mason/dataset/authorize.mas:28
+msgctxt "lists_datasets.authorize.store_error_detail"
+msgid "Could not store connection info [%{error}]"
+msgstr "No se pudo guardar la información de conexión [%{error}]"
+
+#: cgi-bin/bulk/input.pl:671 cgi-bin/bulk/input.pl:772
+#: mason/tools/bulk/tabs/bac_end_tab.mas:55
+#: mason/tools/bulk/tabs/bac_tab.mas:56
+msgctxt "lists_datasets.bulk.accession_name"
+msgid "accession name"
+msgstr "nombre de la accesión"
+
+#: mason/tools/bulk/converter.mas:21
+msgctxt "lists_datasets.bulk.affymetrix_chip_identifiers"
+msgid "Affymetrix Chip Identifiers"
+msgstr "Identificadores de chips Affymetrix"
+
+#: cgi-bin/bulk/input.pl:197 cgi-bin/bulk/input.pl:280
+#: cgi-bin/bulk/input.pl:404 cgi-bin/bulk/input.pl:531
+#: cgi-bin/bulk/input.pl:682 cgi-bin/bulk/input.pl:789
+#: mason/tools/bulk/display/bulk_gene.mas:26
+#: mason/tools/bulk/display/features.mas:26
+#: mason/tools/bulk/tabs/array_tab.mas:45
+#: mason/tools/bulk/tabs/bac_end_tab.mas:44
+#: mason/tools/bulk/tabs/bac_tab.mas:44 mason/tools/bulk/tabs/clone_tab.mas:38
+#: mason/tools/bulk/tabs/converter_tab.mas:28
+#: mason/tools/bulk/tabs/feature_tab.mas:26
+#: mason/tools/bulk/tabs/gene_tab.mas:29
+#: mason/tools/bulk/tabs/unigene_tab.mas:63
+msgctxt "lists_datasets.bulk.and_or_upload_list_file"
+msgid "And/or upload list file:"
+msgstr "Y/o cargue un archivo de lista:"
+
+#: mason/tools/bulk/tabs/bac_tab.mas:51
+msgctxt "lists_datasets.bulk.arizona_style_clone_name_le_hba0001a01"
+msgid "Arizona-style clone name (LE_HBa0001A01)"
+msgstr "Nombre de clon de estilo Arizona (LE_HBa0001A01)"
+
+#: mason/tools/bulk/index.mas:41
+msgctxt "lists_datasets.bulk.arrays"
+msgid "Arrays"
+msgstr "Microarrays"
+
+#: mason/tools/bulk/display/summary_page.mas:45
+#: mason/tools/bulk/display/summary_page.mas:47
+#: mason/tools/bulk/display/summary_page.mas:51
+#: mason/tools/bulk/display/summary_page.mas:53
+msgctxt "lists_datasets.bulk.as"
+msgid "as"
+msgstr "como"
+
+#: cgi-bin/bulk/input.pl:383 mason/tools/bulk/tabs/unigene_tab.mas:80
+msgctxt "lists_datasets.bulk.associated_loci"
+msgid "associated loci"
+msgstr "loci asociados"
+
+#: cgi-bin/bulk/input.pl:380 cgi-bin/bulk/input.pl:622
+#: lib/SGN/Controller/Bulk.pm:527 mason/tools/bulk/tabs/clone_tab.mas:54
+#: mason/tools/bulk/tabs/unigene_tab.mas:77
+msgctxt "lists_datasets.bulk.automatic_blast_annotation"
+msgid "automatic (BLAST) annotation"
+msgstr "anotación automática (BLAST)"
+
+#: cgi-bin/bulk/input.pl:780 mason/tools/bulk/tabs/bac_end_tab.mas:52
+msgctxt "lists_datasets.bulk.bac_end_identifier"
+msgid "bac end identifier"
+msgstr "identificador del extremo bac"
+
+#: cgi-bin/bulk/input.pl:781 mason/tools/bulk/tabs/bac_end_tab.mas:61
+msgctxt "lists_datasets.bulk.bac_end_sequence"
+msgid "bac end sequence"
+msgstr "secuencia del extremo bac"
+
+#: cgi-bin/bulk/input.pl:69 mason/tools/bulk/index.mas:44
+msgctxt "lists_datasets.bulk.bac_ends"
+msgid "BAC ends"
+msgstr "Extremos BAC"
+
+#: cgi-bin/bulk/input.pl:68 mason/tools/bulk/index.mas:43
+msgctxt "lists_datasets.bulk.bacs"
+msgid "BACs"
+msgstr "Clones BAC"
+
+#: cgi-bin/bulk/input.pl:382 mason/tools/bulk/tabs/unigene_tab.mas:79
+msgctxt "lists_datasets.bulk.best_arabidopsis_match"
+msgid "best arabidopsis match"
+msgstr "mejor coincidencia con arabidopsis"
+
+#: cgi-bin/bulk/input.pl:381 mason/tools/bulk/tabs/unigene_tab.mas:78
+msgctxt "lists_datasets.bulk.best_genbank_match"
+msgid "best genbank match"
+msgstr "mejor coincidencia en genbank"
+
+#: mason/tools/bulk/display/summary_page.mas:36
+msgctxt "lists_datasets.bulk.browse"
+msgid "Browse"
+msgstr "Examinar"
+
+#: cgi-bin/bulk/input.pl:135 lib/SGN/Controller/Bulk.pm:503
+msgctxt "lists_datasets.bulk.build_label"
+msgid "Only include unigene build:"
+msgstr "Incluir solo el ensamblaje de unigenes:"
+
+#: mason/tools/bulk/converter.mas:5
+msgctxt "lists_datasets.bulk.bulk_converter"
+msgid "Bulk Converter"
+msgstr "Conversor masivo"
+
+#: cgi-bin/bulk/index.pl:9 lib/SGN/Controller/Bulk/Download.pm:226
+#: mason/tools/bulk/index.mas:18
+msgctxt "lists_datasets.bulk.bulk_download"
+msgid "Bulk Download"
+msgstr "Descarga masiva"
+
+#: mason/tools/bulk/display/summary_page.mas:20
+msgctxt "lists_datasets.bulk.bulk_download_summary"
+msgid "Bulk download summary"
+msgstr "Resumen de descarga masiva"
+
+#: mason/tools/bulk/display/bulk_gene.mas:35
+#: mason/tools/bulk/tabs/gene_tab.mas:38
+msgctxt "lists_datasets.bulk.cdna_sequence"
+msgid "cDNA sequence"
+msgstr "Secuencia de cDNA"
+
+#: mason/tools/bulk/display/bulk_gene.mas:36
+#: mason/tools/bulk/tabs/gene_tab.mas:39
+msgctxt "lists_datasets.bulk.cds_sequence"
+msgid "CDS sequence"
+msgstr "Secuencia CDS"
+
+#: cgi-bin/bulk/input.pl:396 cgi-bin/bulk/input.pl:618
+#: lib/SGN/Controller/Bulk.pm:523 mason/tools/bulk/tabs/clone_tab.mas:50
+#: mason/tools/bulk/tabs/unigene_tab.mas:99
+msgctxt "lists_datasets.bulk.chipname"
+msgid "chipname"
+msgstr "nombre del chip"
+
+#: cgi-bin/bulk/input.pl:783 mason/tools/bulk/tabs/bac_end_tab.mas:60
+msgctxt "lists_datasets.bulk.choose_format_and_type"
+msgid "Choose format and type:"
+msgstr "Elija formato y tipo:"
+
+#: cgi-bin/bulk/input.pl:391 cgi-bin/bulk/input.pl:613
+#: lib/SGN/Controller/Bulk.pm:518 mason/tools/bulk/tabs/clone_tab.mas:45
+#: mason/tools/bulk/tabs/unigene_tab.mas:93
+msgctxt "lists_datasets.bulk.clone_id_sgn_c"
+msgid "clone id (SGN-C)"
+msgstr "identificador del clon (SGN-C)"
+
+#: cgi-bin/bulk/input.pl:390 cgi-bin/bulk/input.pl:612
+#: lib/SGN/Controller/Bulk.pm:517 mason/tools/bulk/tabs/clone_tab.mas:44
+#: mason/tools/bulk/tabs/unigene_tab.mas:92
+msgctxt "lists_datasets.bulk.clone_name"
+msgid "clone name"
+msgstr "nombre del clon"
+
+#: mason/tools/bulk/tabs/bac_tab.mas:53
+msgctxt "lists_datasets.bulk.clone_name_with_chromosome_c01hba0001a01"
+msgid "Clone name with chromosome (C01HBa0001A01)"
+msgstr "Nombre de clon con cromosoma (C01HBa0001A01)"
+
+#: cgi-bin/bulk/input.pl:669 cgi-bin/bulk/input.pl:770
+#: mason/tools/bulk/tabs/bac_end_tab.mas:53
+#: mason/tools/bulk/tabs/bac_tab.mas:54
+msgctxt "lists_datasets.bulk.clone_type"
+msgid "clone type"
+msgstr "tipo de clon"
+
+#: mason/tools/bulk/index.mas:40
+msgctxt "lists_datasets.bulk.clones"
+msgid "Clones"
+msgstr "Clones"
+
+#: mason/tools/bulk/tabs/converter_tab.mas:37
+msgctxt "lists_datasets.bulk.convert_to_newest_version"
+msgid "Convert to newest version"
+msgstr "Convertir a la versión más reciente"
+
+#: mason/tools/bulk/tabs/converter_tab.mas:36
+msgctxt "lists_datasets.bulk.convert_unigene_ids_to_tomato_genome_ids"
+msgid "Convert unigene ids to tomato genome ids"
+msgstr "Convertir identificadores de unigene a identificadores del genoma de tomate"
+
+#: cgi-bin/bulk/input.pl:377 mason/tools/bulk/tabs/unigene_tab.mas:69
+msgctxt "lists_datasets.bulk.convert_unigene_list_to_current_build"
+msgid "convert unigene list to current build"
+msgstr "convertir la lista de unigene al ensamblaje actual"
+
+#: mason/tools/bulk/index.mas:47
+msgctxt "lists_datasets.bulk.converter"
+msgid "Converter"
+msgstr "Conversor"
+
+#: mason/tools/bulk/tabs/clone_tab.mas:25
+msgctxt "lists_datasets.bulk.copy"
+msgid "[copy]"
+msgstr "[copiar]"
+
+#: lib/SGN/Controller/Bulk.pm:387 lib/SGN/Controller/Bulk.pm:420
+msgctxt "lists_datasets.bulk.dataset_not_found"
+msgid "Bulk dataset not found"
+msgstr "No se encontró el conjunto de datos de descarga masiva"
+
+#: mason/bulk_download.mas:16
+#: mason/tools/bulk/display/bulk_gene_download.mas:15
+#: mason/tools/bulk/display/feature_download.mas:18
+#: mason/tools/bulk/gene_download.mas:19
+msgctxt "lists_datasets.bulk.download_as"
+msgid "Download as"
+msgstr "Descargar como"
+
+#: cgi-bin/bulk/input.pl:779 mason/tools/bulk/tabs/bac_end_tab.mas:50
+msgctxt "lists_datasets.bulk.download_bac_end_information"
+msgid "Download BAC end information:"
+msgstr "Descargar información de extremos BAC:"
+
+#: cgi-bin/bulk/input.pl:678 mason/tools/bulk/tabs/bac_tab.mas:49
+msgctxt "lists_datasets.bulk.download_bac_information"
+msgid "Download BAC information:"
+msgstr "Descargar información de BAC:"
+
+#: mason/tools/bulk/display/features.mas:33
+#: mason/tools/bulk/tabs/feature_tab.mas:33
+msgctxt "lists_datasets.bulk.download_feature_information"
+msgid "Download feature information"
+msgstr "Descargar información de elementos genómicos"
+
+#: mason/tools/bulk/display/bulk_gene.mas:33
+#: mason/tools/bulk/tabs/gene_tab.mas:36
+msgctxt "lists_datasets.bulk.download_gene_information"
+msgid "Download gene information"
+msgstr "Descargar información de genes"
+
+#: cgi-bin/bulk/input.pl:389 mason/tools/bulk/tabs/unigene_tab.mas:90
+msgctxt "lists_datasets.bulk.download_member_information"
+msgid "Download member information"
+msgstr "Descargar información de miembros"
+
+#: mason/tools/bulk/display/summary_page.mas:42
+msgctxt "lists_datasets.bulk.download_to_disk"
+msgid "Download to disk"
+msgstr "Descargar al disco"
+
+#: cgi-bin/bulk/input.pl:378 mason/tools/bulk/tabs/unigene_tab.mas:73
+msgctxt "lists_datasets.bulk.download_unigene_information"
+msgid "Download unigene information"
+msgstr "Descargar información de unigene"
+
+#: mason/tools/bulk/display/features.mas:8
+#: mason/tools/bulk/tabs/feature_tab.mas:8
+msgctxt "lists_datasets.bulk.enter_a_list_of_feature_identifier_or_upload_a_file_containing_one_identifer_s"
+msgid "Enter a list of feature identifier or upload a file containing one identifier separated by whitespace (returns, spaces or tabs):"
+msgstr "Introduzca una lista de identificadores de elementos genómicos o cargue un archivo con identificadores separados por saltos de línea, espacios o tabulaciones:"
+
+#: mason/tools/bulk/display/bulk_gene.mas:8
+#: mason/tools/bulk/tabs/gene_tab.mas:11
+msgctxt "lists_datasets.bulk.enter_a_list_of_gene_identifier_or_upload_a_file_containing_one_identifer_sepa"
+msgid "Enter a list of gene identifier or upload a file containing one identifier separated by whitespace (returns, spaces or tabs):"
+msgstr "Introduzca una lista de identificadores de genes o cargue un archivo con identificadores separados por saltos de línea, espacios o tabulaciones:"
+
+#: cgi-bin/bulk/input.pl:195 mason/tools/bulk/tabs/clone_tab.mas:16
+msgctxt "lists_datasets.bulk.enter_a_list_of_identifiers_or_upload_a_file_containing_identifers_one_per_lin"
+msgid "Enter a list of identifiers or upload a file containing identifiers, one per line:"
+msgstr "Introduzca una lista de identificadores o cargue un archivo con un identificador por línea:"
+
+#: cgi-bin/bulk/input.pl:680 cgi-bin/bulk/input.pl:787
+#: mason/tools/bulk/tabs/bac_end_tab.mas:29
+#: mason/tools/bulk/tabs/bac_tab.mas:29
+msgctxt "lists_datasets.bulk.enter_a_list_of_identifiers_or_upload_a_file_containing_identifers_separated_b"
+msgid "Enter a list of identifiers or upload a file containing identifiers separated by whitespace (returns, spaces or tabs):"
+msgstr "Introduzca una lista de identificadores o cargue un archivo con identificadores separados por saltos de línea, espacios o tabulaciones:"
+
+#: cgi-bin/bulk/input.pl:402 cgi-bin/bulk/input.pl:529
+#: mason/tools/bulk/tabs/unigene_tab.mas:46
+msgctxt "lists_datasets.bulk.enter_a_list_of_identifiers_or_upload_a_file_containing_one_identifer_separate"
+msgid "Enter a list of identifiers or upload a file containing one identifier separated by whitespace (returns, spaces or tabs):"
+msgstr "Introduzca una lista de identificadores o cargue un archivo con identificadores separados por saltos de línea, espacios o tabulaciones:"
+
+#: cgi-bin/bulk/input.pl:278 mason/tools/bulk/tabs/array_tab.mas:31
+msgctxt "lists_datasets.bulk.enter_a_list_of_identifiers_or_upload_a_file_containing_one_identifier"
+msgid "Enter a list of identifiers or upload a file containing one identifier:"
+msgstr "Introduzca una lista de identificadores o cargue un archivo que contenga un identificador:"
+
+#: mason/tools/bulk/tabs/converter_tab.mas:12
+msgctxt "lists_datasets.bulk.enter_a_list_of_identifiers_sgn_unigene_ids_or_tom1_array_ids_or_upload_a_file"
+msgid "Enter a list of identifiers (SGN unigene ids or TOM1 array ids) or upload a file containing one identifier separated by whitespace (returns, spaces or tabs):"
+msgstr "Introduzca una lista de identificadores (unigenes SGN o microarrays TOM1) o cargue un archivo con identificadores separados por saltos de línea, espacios o tabulaciones:"
+
+#: lib/CXGN/Bulk.pm:188
+msgctxt "lists_datasets.bulk.error_back"
+msgid "Please check your input and use your browser's \"back\" button to go back and try again!"
+msgstr "Compruebe la entrada y use el botón «atrás» del navegador para volver a intentarlo."
+
+#: lib/CXGN/Bulk.pm:186
+msgctxt "lists_datasets.bulk.error_format"
+msgid "Your identifiers may not be one-per-line, with no quotation marks, etc (see input example)"
+msgstr "Es posible que los identificadores no estén uno por línea y sin comillas, etc. (véase el ejemplo de entrada)"
+
+#: lib/CXGN/Bulk.pm:183
+msgctxt "lists_datasets.bulk.error_intro"
+msgid "I could not process your input.  Possible reasons for this include:"
+msgstr "No se pudo procesar la entrada. Algunas causas posibles son:"
+
+#: lib/CXGN/Bulk.pm:187
+msgctxt "lists_datasets.bulk.error_limit"
+msgid "The input set may be larger than the limit of 10,000 identifiers"
+msgstr "El conjunto de entrada puede superar el límite de 10,000 identificadores"
+
+#: lib/CXGN/Bulk.pm:184
+msgctxt "lists_datasets.bulk.error_no_ids"
+msgid "You may not have entered any identifiers for download"
+msgstr "Es posible que no haya introducido identificadores para descargar"
+
+#: cgi-bin/bulk/download.pl:232
+msgctxt "lists_datasets.bulk.error_occurred_title"
+msgid "An Error has occured"
+msgstr "Se ha producido un error"
+
+#: lib/SGN/Controller/Bulk/Download.pm:236
+msgctxt "lists_datasets.bulk.error_occurred_title"
+msgid "An Error has occurred"
+msgstr "Se ha producido un error"
+
+#: lib/CXGN/Bulk.pm:182
+msgctxt "lists_datasets.bulk.error_title"
+msgid "Bulk download error"
+msgstr "Error de descarga masiva"
+
+#: lib/CXGN/Bulk.pm:185
+msgctxt "lists_datasets.bulk.error_unknown_ids"
+msgid "You may not have entered any identifiers that exist"
+msgstr "Es posible que no haya introducido ningún identificador existente"
+
+#: cgi-bin/bulk/input.pl:393 cgi-bin/bulk/input.pl:615
+#: lib/SGN/Controller/Bulk.pm:520 mason/tools/bulk/tabs/clone_tab.mas:47
+#: mason/tools/bulk/tabs/unigene_tab.mas:95
+msgctxt "lists_datasets.bulk.est_id_sgn_e"
+msgid "est id (SGN-E)"
+msgstr "identificador de est (SGN-E)"
+
+#: cgi-bin/bulk/input.pl:399 cgi-bin/bulk/input.pl:624
+#: lib/SGN/Controller/Bulk.pm:529 mason/tools/bulk/tabs/clone_tab.mas:56
+#: mason/tools/bulk/tabs/unigene_tab.mas:103
+msgctxt "lists_datasets.bulk.est_sequence"
+msgid "EST sequence"
+msgstr "Secuencia EST"
+
+#: cgi-bin/bulk/input.pl:673 cgi-bin/bulk/input.pl:774
+#: mason/tools/bulk/tabs/bac_end_tab.mas:57
+#: mason/tools/bulk/tabs/bac_tab.mas:58
+msgctxt "lists_datasets.bulk.estimated_length"
+msgid "estimated length"
+msgstr "longitud estimada"
+
+#: cgi-bin/bulk/input.pl:386 mason/tools/bulk/tabs/unigene_tab.mas:84
+msgctxt "lists_datasets.bulk.estscan_predicted_proteins"
+msgid "estscan predicted proteins"
+msgstr "proteínas predichas por estscan"
+
+#: cgi-bin/bulk/input.pl:196 cgi-bin/bulk/input.pl:279
+#: cgi-bin/bulk/input.pl:403 cgi-bin/bulk/input.pl:530
+#: cgi-bin/bulk/input.pl:681 cgi-bin/bulk/input.pl:788
+#: mason/tools/bulk/display/bulk_gene.mas:15
+#: mason/tools/bulk/display/features.mas:15
+#: mason/tools/bulk/tabs/array_tab.mas:36
+#: mason/tools/bulk/tabs/bac_end_tab.mas:34
+#: mason/tools/bulk/tabs/bac_tab.mas:34 mason/tools/bulk/tabs/clone_tab.mas:21
+#: mason/tools/bulk/tabs/converter_tab.mas:18
+#: mason/tools/bulk/tabs/feature_tab.mas:15
+#: mason/tools/bulk/tabs/gene_tab.mas:18
+#: mason/tools/bulk/tabs/unigene_tab.mas:53
+msgctxt "lists_datasets.bulk.example"
+msgid "Example:"
+msgstr "Ejemplo:"
+
+#: mason/tools/bulk/display/summary_page.mas:11
+msgctxt "lists_datasets.bulk.fasta_unavailable"
+msgid "Note: Fasta option is not available because you didn't choose a sequence to download."
+msgstr "Nota: la opción Fasta no está disponible porque no eligió una secuencia para descargar."
+
+#: mason/bulk_download.mas:9 mason/tools/bulk/display/feature_download.mas:11
+msgctxt "lists_datasets.bulk.feature_download_summary"
+msgid "Feature Download Summary"
+msgstr "Resumen de descarga de elementos genómicos"
+
+#: mason/tools/bulk/display/features.mas:35
+#: mason/tools/bulk/tabs/feature_tab.mas:35
+msgctxt "lists_datasets.bulk.feature_sequence"
+msgid "feature sequence"
+msgstr "secuencia del elemento genómico"
+
+#: cgi-bin/bulk/input.pl:71 mason/tools/bulk/index.mas:46
+msgctxt "lists_datasets.bulk.features"
+msgid "Features"
+msgstr "Elementos genómicos"
+
+#: mason/tools/bulk/display/summary_page.mas:34
+msgctxt "lists_datasets.bulk.file_size"
+msgid "The file size is %{size} kBytes."
+msgstr "El tamaño del archivo es de %{size} kBytes."
+
+#: cgi-bin/bulk/input.pl:674 cgi-bin/bulk/input.pl:775
+#: mason/tools/bulk/tabs/bac_end_tab.mas:58
+#: mason/tools/bulk/tabs/bac_tab.mas:59
+msgctxt "lists_datasets.bulk.genbank_accession"
+msgid "genbank accession"
+msgstr "número de acceso de genbank"
+
+#: mason/tools/bulk/display/bulk_gene_download.mas:8
+#: mason/tools/bulk/gene_download.mas:12
+msgctxt "lists_datasets.bulk.gene_download_summary"
+msgid "Gene Download Summary"
+msgstr "Resumen de descarga de genes"
+
+#: mason/tools/bulk/converter.mas:19
+msgctxt "lists_datasets.bulk.gene_models_itag_2_3"
+msgid "Gene models (ITAG 2.3)"
+msgstr "Modelos de genes (ITAG 2.3)"
+
+#: cgi-bin/bulk/input.pl:72 mason/tools/bulk/index.mas:45
+msgctxt "lists_datasets.bulk.genes"
+msgid "Genes"
+msgstr "Genes"
+
+#: cgi-bin/bulk/download.pl:233 lib/SGN/Controller/Bulk/Download.pm:237
+msgctxt "lists_datasets.bulk.id_type_required"
+msgid "ID Type must be provided"
+msgstr "Debe proporcionar el tipo de ID"
+
+#: lib/SGN/Controller/Bulk.pm:263 lib/SGN/Controller/Bulk.pm:450
+msgctxt "lists_datasets.bulk.identifiers_required"
+msgid "At least one identifier must be given"
+msgstr "Debe proporcionar al menos un identificador"
+
+#: cgi-bin/bulk/input.pl:163 lib/SGN/Controller/Bulk.pm:505
+msgctxt "lists_datasets.bulk.include_all"
+msgid "include all"
+msgstr "incluir todos"
+
+#: mason/tools/bulk/converter.mas:14
+msgctxt "lists_datasets.bulk.input_is"
+msgid "Input is:"
+msgstr "Entrada:"
+
+#: lib/SGN/Controller/Bulk.pm:355
+msgctxt "lists_datasets.bulk.invalid_type"
+msgid "Invalid data type"
+msgstr "Tipo de datos no válido"
+
+#: lib/SGN/Controller/Bulk.pm:225
+msgctxt "lists_datasets.bulk.invalid_type_chosen"
+msgid "Invalid data type chosen"
+msgstr "Se eligió un tipo de datos no válido"
+
+#: cgi-bin/bulk/input.pl:672 cgi-bin/bulk/input.pl:773
+#: mason/tools/bulk/tabs/bac_end_tab.mas:56
+#: mason/tools/bulk/tabs/bac_tab.mas:57
+msgctxt "lists_datasets.bulk.library_name"
+msgid "library name"
+msgstr "nombre de la biblioteca"
+
+#: cgi-bin/bulk/input.pl:387 mason/tools/bulk/tabs/unigene_tab.mas:85
+msgctxt "lists_datasets.bulk.longest_orf_from_6_frame_translation"
+msgid "longest ORF from 6-frame translation"
+msgstr "ORF más larga de la traducción en 6 marcos"
+
+#: cgi-bin/bulk/input.pl:398 cgi-bin/bulk/input.pl:621
+#: lib/SGN/Controller/Bulk.pm:526 mason/tools/bulk/tabs/clone_tab.mas:53
+#: mason/tools/bulk/tabs/unigene_tab.mas:102
+msgctxt "lists_datasets.bulk.manual_annotation"
+msgid "manual annotation"
+msgstr "anotación manual"
+
+#: cgi-bin/bulk/input.pl:395 cgi-bin/bulk/input.pl:619
+#: lib/SGN/Controller/Bulk.pm:524 mason/tools/bulk/tabs/clone_tab.mas:51
+#: mason/tools/bulk/tabs/unigene_tab.mas:100
+msgctxt "lists_datasets.bulk.microarray_spot_id_sgn_s"
+msgid "microarray spot id (SGN-S)"
+msgstr "identificador de posición del microarray (SGN-S)"
+
+#: mason/tools/bulk/display/summary_page.mas:7
+msgctxt "lists_datasets.bulk.missing_ids"
+msgid "%{count} ids were not retrieved from the database because they were not part of the corresponding unigene set or because there were duplicate entries in the submitted id list."
+msgstr "No se recuperaron %{count} identificadores de la base de datos porque no pertenecían al conjunto de unigenes correspondiente o porque había entradas duplicadas en la lista enviada."
+
+#: mason/tools/bulk/display/buttons.mas:32
+msgctxt "lists_datasets.bulk.new_query"
+msgid "New query"
+msgstr "Nueva consulta"
+
+#: cgi-bin/bulk/display.pl:549 cgi-bin/bulk/display.pl:552
+#: mason/tools/bulk/display/buttons/next.mas:27
+#: mason/tools/bulk/display/buttons/next.mas:30
+msgctxt "lists_datasets.bulk.next_page"
+msgid "Next Page"
+msgstr "Página siguiente"
+
+#: mason/tools/bulk/tabs/bac_tab.mas:52
+msgctxt "lists_datasets.bulk.old_cornell_style_clone_name_p001a01"
+msgid "Old Cornell-style clone name (P001A01)"
+msgstr "Nombre de clon de estilo Cornell antiguo (P001A01)"
+
+#: cgi-bin/bulk/input.pl:670 cgi-bin/bulk/input.pl:771
+#: mason/tools/bulk/tabs/bac_end_tab.mas:54
+#: mason/tools/bulk/tabs/bac_tab.mas:55
+msgctxt "lists_datasets.bulk.organism_name"
+msgid "organism name"
+msgstr "nombre del organismo"
+
+#: mason/tools/bulk/display/buttons.mas:27
+#: mason/tools/qualityControl/validated_trials.mas:849
+msgctxt "lists_datasets.bulk.page_of"
+msgid "Page %{page} of %{pages}"
+msgstr "Página %{page} de %{pages}"
+
+#: mason/tools/bulk/converter.mas:7
+msgctxt "lists_datasets.bulk.paste_the_identifiers_you_would_like_to_convert"
+msgid "Paste the identifiers you would like to convert"
+msgstr "Pegue los identificadores que desea convertir"
+
+#: cgi-bin/bulk/input.pl:611 lib/SGN/Controller/Bulk.pm:516
+#: mason/tools/bulk/tabs/clone_tab.mas:43
+msgctxt "lists_datasets.bulk.please_select_the_information_you_would_like_for_each_identifier"
+msgid "Please select the information you would like for each identifier:"
+msgstr "Seleccione la información que desea para cada identificador:"
+
+#: mason/tools/bulk/display/summary_page.mas:30
+msgctxt "lists_datasets.bulk.please_try_your_search_again"
+msgid "Please try your search again."
+msgstr "Intente la búsqueda de nuevo."
+
+#: mason/tools/bulk/display/summary_page.mas:28
+msgctxt "lists_datasets.bulk.please_verify_that_you_used_the_correct_search_and_that_you_chose_the_right_un"
+msgid "Please verify that you used the correct search and that you chose the right unigene or bac assembly to download from. Also make sure that the submitted identifiers are appropriately formatted."
+msgstr "Compruebe que utilizó la búsqueda correcta y seleccionó el ensamblaje de unigene o bac adecuado. Compruebe también el formato de los identificadores enviados."
+
+#: cgi-bin/bulk/download.pl:224 lib/SGN/Controller/Bulk/Download.pm:225
+msgctxt "lists_datasets.bulk.post_only"
+msgid "This page can only accept HTTP POST requests. Please go to %{link} to make your selections."
+msgstr "Esta página solo acepta solicitudes HTTP POST. Vaya a %{link} para realizar sus selecciones."
+
+#: cgi-bin/bulk/input.pl:388 mason/tools/bulk/tabs/unigene_tab.mas:86
+msgctxt "lists_datasets.bulk.preferred_sequence"
+msgid "preferred sequence"
+msgstr "secuencia preferida"
+
+#: cgi-bin/bulk/display.pl:575 cgi-bin/bulk/display.pl:578
+#: mason/tools/bulk/display/buttons/previous.mas:22
+#: mason/tools/bulk/display/buttons/previous.mas:25
+msgctxt "lists_datasets.bulk.previous_page"
+msgid "Previous Page"
+msgstr "Página anterior"
+
+#: mason/tools/bulk/display/bulk_gene.mas:37
+#: mason/tools/bulk/tabs/gene_tab.mas:40
+msgctxt "lists_datasets.bulk.protein_sequence"
+msgid "Protein sequence"
+msgstr "Secuencia de proteína"
+
+#: cgi-bin/bulk/input.pl:782 mason/tools/bulk/tabs/bac_end_tab.mas:62
+msgctxt "lists_datasets.bulk.quality_value"
+msgid "quality value"
+msgstr "valor de calidad"
+
+#: cgi-bin/bulk/input.pl:784 mason/tools/bulk/tabs/bac_end_tab.mas:64
+msgctxt "lists_datasets.bulk.raw_sequence_and_or_quality"
+msgid "raw sequence and/or quality"
+msgstr "secuencia sin procesar y/o calidad"
+
+#: cgi-bin/bulk/input.pl:193 cgi-bin/bulk/input.pl:276
+#: cgi-bin/bulk/input.pl:375 cgi-bin/bulk/input.pl:527
+#: cgi-bin/bulk/input.pl:667 cgi-bin/bulk/input.pl:768
+#: mason/tools/bulk/tabs/array_tab.mas:60
+#: mason/tools/bulk/tabs/bac_end_tab.mas:77
+#: mason/tools/bulk/tabs/bac_tab.mas:70 mason/tools/bulk/tabs/clone_tab.mas:67
+#: mason/tools/bulk/tabs/converter_tab.mas:46
+#: mason/tools/bulk/tabs/unigene_tab.mas:112
+msgctxt "lists_datasets.bulk.reset"
+msgid "Reset"
+msgstr "Restablecer"
+
+#: mason/tools/bulk/display/summary_page.mas:23
+msgctxt "lists_datasets.bulk.retrieved_lines"
+msgid "Your query resulted in %{count} lines being retrieved in %{time} seconds."
+msgstr "La consulta recuperó %{count} líneas en %{time} segundos."
+
+#: cgi-bin/bulk/input.pl:384 cgi-bin/bulk/input.pl:623
+#: cgi-bin/search/markers/rflp_list.pl:92
+#: cgi-bin/search/markers/rflp_list.pl:93 lib/SGN/Controller/Bulk.pm:528
+#: mason/tools/bulk/tabs/clone_tab.mas:55
+#: mason/tools/bulk/tabs/unigene_tab.mas:81
+msgctxt "lists_datasets.bulk.sequence"
+msgid "sequence"
+msgstr "secuencia"
+
+#: cgi-bin/bulk/input.pl:392 cgi-bin/bulk/input.pl:614
+#: lib/SGN/Controller/Bulk.pm:519 mason/tools/bulk/tabs/clone_tab.mas:46
+#: mason/tools/bulk/tabs/unigene_tab.mas:94
+msgctxt "lists_datasets.bulk.sequence_read_id_sgn_t"
+msgid "sequence read id (SGN-T)"
+msgstr "identificador de lectura de secuencia (SGN-T)"
+
+#: cgi-bin/bulk/input.pl:194 cgi-bin/bulk/input.pl:277
+#: cgi-bin/bulk/input.pl:376 cgi-bin/bulk/input.pl:668
+#: cgi-bin/bulk/input.pl:769 mason/tools/bulk/display/bulk_gene.mas:41
+#: mason/tools/bulk/display/features.mas:40
+#: mason/tools/bulk/tabs/array_tab.mas:61
+#: mason/tools/bulk/tabs/bac_end_tab.mas:78
+#: mason/tools/bulk/tabs/bac_tab.mas:71 mason/tools/bulk/tabs/clone_tab.mas:68
+#: mason/tools/bulk/tabs/converter_tab.mas:47
+#: mason/tools/bulk/tabs/feature_tab.mas:40
+#: mason/tools/bulk/tabs/gene_tab.mas:44
+#: mason/tools/bulk/tabs/unigene_tab.mas:113
+msgctxt "lists_datasets.bulk.submit"
+msgid "Submit"
+msgstr "Enviar"
+
+#: mason/tools/bulk/display/summary_page.mas:22
+msgctxt "lists_datasets.bulk.submitted_lines"
+msgid "The query you submitted contained %{count} lines."
+msgstr "La consulta enviada contenía %{count} líneas."
+
+#: cgi-bin/bulk/display.pl:600 mason/tools/bulk/display/buttons/summary.mas:21
+msgctxt "lists_datasets.bulk.summary_page"
+msgid "Summary Page"
+msgstr "Página de resumen"
+
+#: mason/tools/bulk/index.mas:29
+msgctxt "lists_datasets.bulk.tab_load_failed"
+msgid "Couldn't load this tab. We'll try to fix this as soon as possible. If this wouldn't be a demo."
+msgstr "No se pudo cargar esta pestaña. Intentaremos solucionarlo lo antes posible. Si esto no fuera una demostración."
+
+#: mason/tools/bulk/display/summary_page.mas:45
+#: mason/tools/bulk/display/summary_page.mas:52
+#: mason/tools/trait_designer.mas:45 mason/tools/treatment_designer.mas:36
+msgctxt "lists_datasets.bulk.text"
+msgid "Text"
+msgstr "Texto"
+
+#: mason/tools/bulk/display/summary_page.mas:37
+msgctxt "lists_datasets.bulk.the_results"
+msgid "the results."
+msgstr "los resultados."
+
+#: mason/tools/bulk/converter.mas:20
+msgctxt "lists_datasets.bulk.tom_microarray_identifiers"
+msgid "TOM Microarray Identifiers"
+msgstr "Identificadores de microarrays TOM"
+
+#: cgi-bin/bulk/input.pl:785 mason/tools/bulk/tabs/bac_end_tab.mas:65
+msgctxt "lists_datasets.bulk.trimmed_seq_and_or_quality"
+msgid "trimmed seq. and/or quality"
+msgstr "secuencia recortada y/o calidad"
+
+#: cgi-bin/bulk/input.pl:397 mason/tools/bulk/tabs/unigene_tab.mas:101
+msgctxt "lists_datasets.bulk.tus_number"
+msgid "TUS number"
+msgstr "número TUS"
+
+#: cgi-bin/bulk/input.pl:620 lib/SGN/Controller/Bulk.pm:525
+#: mason/tools/bulk/tabs/clone_tab.mas:52
+msgctxt "lists_datasets.bulk.tus_number_used_to_order_clones"
+msgid "TUS number (used to order clones)"
+msgstr "número TUS (para pedir clones)"
+
+#: cgi-bin/bulk/input.pl:616 lib/SGN/Controller/Bulk.pm:521
+#: mason/tools/bulk/tabs/clone_tab.mas:48
+msgctxt "lists_datasets.bulk.unigene_build_nr"
+msgid "unigene build nr"
+msgstr "número de ensamblaje de unigene"
+
+#: cgi-bin/bulk/input.pl:394 mason/tools/bulk/tabs/unigene_tab.mas:96
+msgctxt "lists_datasets.bulk.unigene_build_number"
+msgid "unigene build number"
+msgstr "número de ensamblaje de unigene"
+
+#: cgi-bin/bulk/input.pl:379 cgi-bin/bulk/input.pl:617
+#: lib/SGN/Controller/Bulk.pm:522 mason/tools/bulk/tabs/clone_tab.mas:49
+#: mason/tools/bulk/tabs/unigene_tab.mas:76
+#: mason/tools/bulk/tabs/unigene_tab.mas:98
+msgctxt "lists_datasets.bulk.unigene_id_sgn_u"
+msgid "unigene id (SGN-U)"
+msgstr "identificador de unigene (SGN-U)"
+
+#: cgi-bin/bulk/input.pl:385 mason/tools/bulk/tabs/unigene_tab.mas:83
+msgctxt "lists_datasets.bulk.unigene_nucleotide_sequence"
+msgid "unigene nucleotide sequence"
+msgstr "secuencia de nucleótidos de unigene"
+
+#: cgi-bin/bulk/input.pl:625 lib/SGN/Controller/Bulk.pm:530
+#: mason/tools/bulk/tabs/clone_tab.mas:57
+msgctxt "lists_datasets.bulk.unigene_sequence"
+msgid "Unigene sequence"
+msgstr "Secuencia de unigene"
+
+#: mason/tools/bulk/converter.mas:18 mason/tools/bulk/index.mas:42
+msgctxt "lists_datasets.bulk.unigenes"
+msgid "Unigenes"
+msgstr "Unigenes"
+
+#: mason/tools/bulk/display/summary_page.mas:41
+msgctxt "lists_datasets.bulk.view"
+msgid "View"
+msgstr "Ver"
+
+#: mason/bulk_download.mas:18
+#: mason/tools/bulk/display/bulk_gene_download.mas:17
+#: mason/tools/bulk/display/feature_download.mas:20
+#: mason/tools/bulk/gene_download.mas:21
+msgctxt "lists_datasets.bulk.your_query_did_not_contain_any_valid_identifiers_please_try_again"
+msgid "Your query did not contain any valid identifiers. Please try again."
+msgstr "La consulta no contenía identificadores válidos. Inténtelo de nuevo."
+
+#: mason/bulk_download.mas:12
+#: mason/tools/bulk/display/bulk_gene_download.mas:11
+#: mason/tools/bulk/display/feature_download.mas:14
+#: mason/tools/bulk/gene_download.mas:15
+msgctxt "lists_datasets.bulk.your_query_was_successful"
+msgid "Your query was successful."
+msgstr "La consulta se realizó correctamente."
+
+#: mason/dataset/tool_compatibility.mas:10
+msgctxt "lists_datasets.compatibility.calculate"
+msgid "Calculate Tool Compatibility"
+msgstr "Calcular compatibilidad de herramientas"
+
+#: mason/dataset/tool_compatibility.mas:88
+msgctxt "lists_datasets.compatibility.calculate_error"
+msgid "An error occurred calculating tool compatibility"
+msgstr "Se produjo un error al calcular la compatibilidad de herramientas"
+
+#: mason/dataset/tool_compatibility.mas:75
+msgctxt "lists_datasets.compatibility.calculate_error_detail"
+msgid ""
+"An error occurred calculating tool compatibility: \n"
+"%{error}"
+msgstr ""
+"Se produjo un error al calcular la compatibilidad de herramientas: \n"
+"%{error}"
+
+#: mason/dataset/tool_compatibility.mas:77
+#: mason/dataset/tool_compatibility.mas:89
+msgctxt "lists_datasets.compatibility.calculate_failed"
+msgid "Error calculating tool compatibility."
+msgstr "Error al calcular la compatibilidad de herramientas."
+
+#: mason/dataset/tool_compatibility.mas:6
+msgctxt "lists_datasets.compatibility.explanation"
+msgid "Predicted tool compatibility based on dataset definition. The table details the traits and types of analyses that can be performed. If database elements are updated, such as phenotypes added to field trials or accessions, you may wish to recalculate tool compatibility for more accurate results. Warning symbols indicate compatibility, but with low sample sizes."
+msgstr "Compatibilidad prevista de herramientas según la definición del conjunto de datos. La tabla detalla los caracteres y los tipos de análisis que pueden realizarse. Si se actualizan elementos de la base de datos, como fenotipos añadidos a ensayos de campo o accesiones, puede recalcular la compatibilidad para obtener resultados más precisos. Los símbolos de advertencia indican compatibilidad con tamaños de muestra pequeños."
+
+#: mason/dataset/tool_compatibility.mas:111
+msgctxt "lists_datasets.compatibility.retrieve_error"
+msgid "An error occurred retrieving tool compatibility"
+msgstr "Se produjo un error al obtener la compatibilidad de herramientas"
+
+#: mason/dataset/tool_compatibility.mas:98
+msgctxt "lists_datasets.compatibility.retrieve_error_detail"
+msgid ""
+"An error occurred. \n"
+"%{error}"
+msgstr ""
+"Se produjo un error. \n"
+"%{error}"
+
+#: mason/dataset/tool_compatibility.mas:113
+#: mason/dataset/tool_compatibility.mas:99
+msgctxt "lists_datasets.compatibility.retrieve_failed"
+msgid "Error retrieving tool compatibility."
+msgstr "Error al obtener la compatibilidad de herramientas."
+
+#: lib/SGN/Controller/Dataset.pm:144
+msgctxt "lists_datasets.controller.authorization_failed"
+msgid "Could not authorize the application: %{error}"
+msgstr "No se pudo autorizar la aplicación: %{error}"
+
+#: lib/SGN/Controller/Dataset.pm:42
+msgctxt "lists_datasets.controller.no_access"
+msgid "You do not have access to this dataset.%{break}%{break}If you are the owner of this dataset, make sure you are logged in, or ask the owner to make it public."
+msgstr "No tiene acceso a este conjunto de datos.%{break}%{break}Si es el propietario, asegúrese de haber iniciado sesión, o pida al propietario que lo haga público."
+
+#: lib/SGN/Controller/Dataset.pm:139
+msgctxt "lists_datasets.controller.no_code"
+msgid "Authorization code not returned by the service"
+msgstr "El servicio no devolvió el código de autorización"
+
+#: lib/SGN/Controller/Dataset.pm:33
+msgctxt "lists_datasets.controller.not_found"
+msgid "The requested dataset does not exist or has been deleted."
+msgstr "El conjunto de datos solicitado no existe o se ha eliminado."
+
+#: lib/SGN/Controller/AJAX/Dataset.pm:1122
+#: lib/SGN/Controller/AJAX/Dataset.pm:1206
+#: lib/SGN/Controller/AJAX/Dataset.pm:1295
+#: lib/SGN/Controller/AJAX/Dataset.pm:1358
+#: lib/SGN/Controller/AJAX/Dataset.pm:627
+#: lib/SGN/Controller/AJAX/Dataset.pm:760
+#: lib/SGN/Controller/AJAX/Dataset.pm:790
+#: lib/SGN/Controller/AJAX/Dataset.pm:844
+#: lib/SGN/Controller/AJAX/Dataset.pm:978 lib/SGN/Controller/Dataset.pm:117
+msgctxt "lists_datasets.controller.service_missing"
+msgid "The selected service does not exist in the server configuration"
+msgstr "El servicio seleccionado no existe en la configuración del servidor"
+
+#: mason/breeders_toolbox/download.mas:26
+#: mason/breeders_toolbox/download.mas:295
+#: mason/breeders_toolbox/download.mas:377
+#: mason/breeders_toolbox/download.mas:493
+#: mason/breeders_toolbox/download.mas:766
+#: mason/breeders_toolbox/download.mas:846
+msgctxt "lists_datasets.download.accessions"
+msgid "Accessions"
+msgstr "Accesiones"
+
+#: mason/breeders_toolbox/download.mas:145
+#: mason/breeders_toolbox/download.mas:297
+#: mason/breeders_toolbox/download.mas:38
+#: mason/breeders_toolbox/download.mas:386
+#: mason/breeders_toolbox/download.mas:495
+#: mason/breeders_toolbox/download.mas:559
+#: mason/breeders_toolbox/download.mas:626
+#: mason/breeders_toolbox/download.mas:703
+#: mason/breeders_toolbox/download.mas:772
+#: mason/breeders_toolbox/download.mas:852
+msgctxt "lists_datasets.download.action"
+msgid "Action"
+msgstr "Acción"
+
+#: mason/breeders_toolbox/download.mas:66
+msgctxt "lists_datasets.download.all"
+msgid "All"
+msgstr "Todos"
+
+#: mason/breeders_toolbox/download.mas:403
+msgctxt "lists_datasets.download.all_generations"
+msgid "All Generations"
+msgstr "Todas las generaciones"
+
+#: mason/breeders_toolbox/download.mas:410
+msgctxt "lists_datasets.download.ancestors_and_descendants"
+msgid "Ancestors and Descendants"
+msgstr "Antepasados y descendientes"
+
+#: mason/breeders_toolbox/download.mas:16
+msgctxt "lists_datasets.download.choose_a_list_for_each_parameter_and_click_download"
+msgid "Choose a list for each parameter and click \"Download\"."
+msgstr "Elija una lista para cada parámetro y pulse «Descargar»."
+
+#: mason/breeders_toolbox/download.mas:64
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:49
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:36
+#: mason/breeders_toolbox/trial/phenotype_summary.mas:66
+#: mason/stock/download_stock_phenotypes_dialog.mas:41
+#: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:612
+msgctxt "lists_datasets.download.data_level"
+msgid "Data Level:"
+msgstr "Nivel de datos:"
+
+#: mason/breeders_toolbox/download.mas:117
+msgctxt "lists_datasets.download.datasets"
+msgid "Datasets"
+msgstr "Conjuntos de datos"
+
+#: mason/breeders_toolbox/download.mas:398
+msgctxt "lists_datasets.download.depth"
+msgid "Depth:"
+msgstr "Profundidad:"
+
+#: mason/breeders_toolbox/download.mas:102
+#: mason/breeders_toolbox/download.mas:170
+#: mason/breeders_toolbox/download.mas:312
+#: mason/breeders_toolbox/download.mas:421
+#: mason/breeders_toolbox/download.mas:509
+#: mason/breeders_toolbox/download.mas:573
+#: mason/breeders_toolbox/download.mas:640
+#: mason/breeders_toolbox/download.mas:717
+#: mason/breeders_toolbox/download.mas:787
+#: mason/breeders_toolbox/download.mas:871
+msgctxt "lists_datasets.download.download"
+msgid "Download"
+msgstr "Descargar"
+
+#: mason/breeders_toolbox/download.mas:293
+msgctxt "lists_datasets.download.download_accession_properties"
+msgid "Download Accession Properties"
+msgstr "Descargar propiedades de accesiones"
+
+#: mason/breeders_toolbox/download.mas:491
+msgctxt "lists_datasets.download.download_crosses_and_families_of_progenies"
+msgid "Download Crosses and Families of Progenies"
+msgstr "Descargar cruces y familias de progenie"
+
+#: mason/breeders_toolbox/download.mas:763
+msgctxt "lists_datasets.download.download_genotypes"
+msgid "Download Genotypes"
+msgstr "Descargar genotipos"
+
+#: mason/breeders_toolbox/download.mas:133
+msgctxt "lists_datasets.download.download_metadata"
+msgid "Download Metadata"
+msgstr "Descargar metadatos"
+
+#: mason/breeders_toolbox/download.mas:699
+#: mason/transformation/manage_transformation.mas:14
+msgctxt "lists_datasets.download.download_obsolete_metadata"
+msgid "Download Obsolete Metadata"
+msgstr "Descargar metadatos de registros obsoletos"
+
+#: mason/breeders_toolbox/download.mas:374
+msgctxt "lists_datasets.download.download_pedigrees"
+msgid "Download Pedigrees"
+msgstr "Descargar genealogías"
+
+#: mason/breeders_toolbox/download.mas:20
+msgctxt "lists_datasets.download.download_phenotypes_using_lists"
+msgid "Download Phenotypes Using Lists"
+msgstr "Descargar fenotipos mediante listas"
+
+#: mason/breeders_toolbox/download.mas:555
+msgctxt "lists_datasets.download.download_seedlot_details"
+msgid "Download Seedlot Details"
+msgstr "Descargar detalles de lotes de semillas"
+
+#: mason/breeders_toolbox/download.mas:622
+msgctxt "lists_datasets.download.download_seedlot_maintenance_events"
+msgid "Download Seedlot Maintenance Events"
+msgstr "Descargar eventos de mantenimiento de lotes de semillas"
+
+#: mason/breeders_toolbox/download.mas:11
+msgctxt "lists_datasets.download.download_using_lists"
+msgid "Download Using Lists"
+msgstr "Descargar mediante listas"
+
+#: mason/breeders_toolbox/download.mas:77
+msgctxt "lists_datasets.download.exclude_phenotype_outliers"
+msgid "Exclude Phenotype Outliers:"
+msgstr "Excluir valores atípicos de fenotipos:"
+
+#: mason/breeders_toolbox/download.mas:296
+#: mason/breeders_toolbox/download.mas:383
+#: mason/breeders_toolbox/download.mas:494
+#: mason/breeders_toolbox/download.mas:558
+#: mason/breeders_toolbox/download.mas:625
+#: mason/breeders_toolbox/download.mas:702
+msgctxt "lists_datasets.download.format.fda5b99"
+msgid "Format"
+msgstr "Formato"
+
+#: mason/breeders_toolbox/download.mas:769
+#: mason/breeders_toolbox/download.mas:849
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:1101
+#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:127
+#: mason/search/genotyping_protocols_accession_filter.mas:114
+msgctxt "lists_datasets.download.genotyping_protocol"
+msgid "Genotyping Protocol"
+msgstr "Protocolo de genotipado"
+
+#: mason/breeders_toolbox/download.mas:840
+msgctxt "lists_datasets.download.genotyping_qc"
+msgid "Genotyping QC"
+msgstr "Control de calidad del genotipado (QC)"
+
+#: mason/breeders_toolbox/download.mas:417
+msgctxt "lists_datasets.download.helium_format"
+msgid "Helium Format"
+msgstr "Formato Helium"
+
+#: mason/breeders_toolbox/download.mas:405
+msgctxt "lists_datasets.download.include"
+msgid "Include:"
+msgstr "Incluir:"
+
+#: mason/breeders_toolbox/download.mas:89
+msgctxt "lists_datasets.download.include_accession_entry_numbers"
+msgid "Include Accession Entry Numbers:"
+msgstr "Incluir números de entrada de accesiones:"
+
+#: mason/breeders_toolbox/download.mas:83
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:103
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:75
+#: mason/stock/download_stock_phenotypes_dialog.mas:78
+msgctxt "lists_datasets.download.include_intercrop_accessions"
+msgid "Include Intercrop Accessions:"
+msgstr "Incluir accesiones de cultivo intercalado:"
+
+#: mason/breeders_toolbox/download.mas:95
+#: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:133
+#: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:95
+#: mason/stock/download_stock_phenotypes_dialog.mas:118
+msgctxt "lists_datasets.download.include_parents"
+msgid "Include Parents:"
+msgstr "Incluir progenitores:"
+
+#: mason/breeders_toolbox/download.mas:112
+msgctxt "lists_datasets.download.inspect_datasets"
+msgid "Inspect Datasets"
+msgstr "Inspeccionar conjuntos de datos"
+
+#: mason/breeders_toolbox/download.mas:165
+msgctxt "lists_datasets.download.metadata"
+msgid "Metadata"
+msgstr "Metadatos"
+
+#: mason/breeders_toolbox/download.mas:73
+#: mason/breeders_toolbox/download.mas:79
+#: mason/breeders_toolbox/download.mas:85
+#: mason/breeders_toolbox/download.mas:91
+#: mason/breeders_toolbox/download.mas:97
+msgctxt "lists_datasets.download.no"
+msgid "No"
+msgstr "No"
+
+#: mason/breeders_toolbox/download.mas:701
+msgctxt "lists_datasets.download.obsoleted_stocks"
+msgid "Obsoleted Stocks"
+msgstr "Material marcado como obsoleto"
+
+#: mason/breeders_toolbox/download.mas:407
+msgctxt "lists_datasets.download.only_ancestors"
+msgid "Only Ancestors"
+msgstr "Solo antepasados"
+
+#: mason/breeders_toolbox/download.mas:400
+msgctxt "lists_datasets.download.only_one_generation"
+msgid "Only One Generation"
+msgstr "Solo una generación"
+
+#: mason/breeders_toolbox/download.mas:142
+#: mason/breeders_toolbox/download.mas:35
+msgctxt "lists_datasets.download.options"
+msgid "Options"
+msgstr "Opciones"
+
+#: mason/breeders_toolbox/download.mas:416
+#: mason/breeders_toolbox/download.mas:569
+msgctxt "lists_datasets.download.plain_text"
+msgid "Plain Text"
+msgstr "Texto sin formato"
+
+#: mason/breeders_toolbox/download.mas:380
+msgctxt "lists_datasets.download.query"
+msgid "Query"
+msgstr "Consulta"
+
+#: mason/breeders_toolbox/download.mas:557
+#: mason/breeders_toolbox/download.mas:624
+#: mason/breeders_toolbox/manage_upload.mas:167
+msgctxt "lists_datasets.download.seedlots"
+msgid "Seedlots"
+msgstr "Lotes de semillas"
+
+#: mason/breeders_toolbox/download.mas:374
+#: mason/breeders_toolbox/download.mas:763
+#: mason/breeders_toolbox/download.mas:840
+msgctxt "lists_datasets.download.select_parameter"
+msgid "Select parameter:"
+msgstr "Seleccione un parámetro:"
+
+#: mason/breeders_toolbox/download.mas:293
+#: mason/breeders_toolbox/download.mas:491
+#: mason/breeders_toolbox/download.mas:555
+#: mason/breeders_toolbox/download.mas:622
+#: mason/breeders_toolbox/download.mas:699
+msgctxt "lists_datasets.download.select_parameters.03fa00c"
+msgid "Select parameters:"
+msgstr "Seleccione los parámetros:"
+
+#: mason/breeders_toolbox/download.mas:133
+#: mason/breeders_toolbox/download.mas:20
+msgctxt "lists_datasets.download.select_parameters.edfe1a5"
+msgid "Select Parameters:"
+msgstr "Seleccione los parámetros:"
+
+#: mason/breeders_toolbox/download.mas:32
+#: mason/breeders_toolbox/manage_upload.mas:27
+#: mason/breeders_toolbox/selection_index.mas:106
+#: mason/breeders_toolbox/trial/accession_rank_workflow.mas:23
+#: mason/breeders_toolbox/trial/time_series_accessions_workflow.mas:23
+#: mason/phenotypes/submission_guide.mas:72
+msgctxt "lists_datasets.download.traits"
+msgid "Traits"
+msgstr "Caracteres"
+
+#: mason/breeders_toolbox/download.mas:139
+#: mason/breeders_toolbox/download.mas:29
+#: mason/breeders_toolbox/download.mas:843
+msgctxt "lists_datasets.download.trials"
+msgid "Trials"
+msgstr "Ensayos"
+
+#: mason/breeders_toolbox/download.mas:74
+#: mason/breeders_toolbox/download.mas:80
+#: mason/breeders_toolbox/download.mas:86
+#: mason/breeders_toolbox/download.mas:92
+#: mason/breeders_toolbox/download.mas:98
+msgctxt "lists_datasets.download.yes"
+msgid "Yes"
+msgstr "Sí"
+
+#: mason/breeders_toolbox/download.mas:829
+msgctxt "lists_datasets.download_js.an_error_occurred"
+msgid "An error occurred."
+msgstr "Se produjo un error."
+
+#: mason/breeders_toolbox/download.mas:735
+#: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:46
+msgctxt "lists_datasets.download_js.please_select_an_obsoleted_stock_list"
+msgid "Please select an obsoleted stock list!"
+msgstr "¡Seleccione una lista de material marcado como obsoleto!"
+
+#: mason/breeders_toolbox/download.mas:245
+#: mason/breeders_toolbox/download.mas:937
+msgctxt "lists_datasets.download_js.some_lists_lists_are_not_valid_please_check"
+msgid "Some lists (%{lists}) are not valid, please check."
+msgstr "Algunas listas (%{lists}) no son válidas. Revíselas."
+
+#: mason/breeders_toolbox/download.mas:817
+msgctxt "lists_datasets.download_js.the_accession_list_could_not_be_validated_please_correct_the_list"
+msgid "The accession list could not be validated. Please correct the list(s) and try again"
+msgstr "No se pudo validar la lista de accesiones. Corrija las listas e inténtelo de nuevo"
+
+#: mason/breeders_toolbox/download.mas:343
+#: mason/breeders_toolbox/download.mas:450
+#: mason/breeders_toolbox/download.mas:533
+msgctxt "lists_datasets.download_js.the_accession_list_did_not_pass_validation_please_correct_the_lis"
+msgid "The accession list did not pass validation. Please correct the list and try again"
+msgstr "La lista de accesiones no pasó la validación. Corrija la lista e inténtelo de nuevo"
+
+#: mason/breeders_toolbox/download.mas:197
+msgctxt "lists_datasets.download_js.the_following_lists_did_not_pass_validation_lists_please_correct_"
+msgid "The following lists did not pass validation: %{lists}. Please correct the list(s) and try again"
+msgstr "Las siguientes listas no pasaron la validación: %{lists}. Corrija las listas e inténtelo de nuevo"
+
+#: mason/breeders_toolbox/download.mas:740
+#: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:51
+msgctxt "lists_datasets.download_js.the_obsoleted_stock_list_did_not_pass_validation_please_correct_t"
+msgid "The obsoleted stock list did not pass validation. Please correct the list and try again"
+msgstr "La lista de material obsoleto no pasó la validación. Corrija la lista e inténtelo de nuevo"
+
+#: mason/breeders_toolbox/download.mas:597
+#: mason/breeders_toolbox/download.mas:670
+msgctxt "lists_datasets.download_js.the_seedlot_list_did_not_pass_validation_please_correct_the_list_"
+msgid "The seedlot list did not pass validation. Please correct the list and try again"
+msgstr "La lista de lotes de semillas no pasó la validación. Corrija la lista e inténtelo de nuevo"
+
+#: mason/breeders_toolbox/download.mas:814
+msgctxt "lists_datasets.download_js.you_need_to_select_a_list_of_accessions_and_a_protocol"
+msgid "You need to select a list of accessions and a protocol !"
+msgstr "¡Debe seleccionar una lista de accesiones y un protocolo!"
+
+#: mason/breeders_toolbox/download.mas:591
+#: mason/breeders_toolbox/download.mas:660
+msgctxt "lists_datasets.download_js.you_need_to_select_a_seedlot_list"
+msgid "You need to select a seedlot list!"
+msgstr "¡Debe seleccionar una lista de lotes de semillas!"
+
+#: mason/breeders_toolbox/download.mas:333
+#: mason/breeders_toolbox/download.mas:442
+#: mason/breeders_toolbox/download.mas:527
+msgctxt "lists_datasets.download_js.you_need_to_select_an_accession_list"
+msgid "You need to select an accession list!"
+msgstr "¡Debe seleccionar una lista de accesiones!"
+
+#: mason/breeders_toolbox/download.mas:912
+msgctxt "lists_datasets.download_js.you_need_to_select_an_accession_or_a_trial_or_both"
+msgid "You need to select an accession or a trial, or both!"
+msgstr "¡Debe seleccionar una accesión, un ensayo o ambos!"
+
+#: lib/SGN/Controller/AJAX/FileShareDump.pm:99
+msgctxt "lists_datasets.fileshare_api.download"
+msgid "Download"
+msgstr "Descargar"
+
+#: lib/SGN/Controller/AJAX/FileShareDump.pm:63
+msgctxt "lists_datasets.fileshare_api.upload_store_failed"
+msgid "Could not store uploaded file!"
+msgstr "¡No se pudo guardar el archivo cargado!"
+
+#: mason/dataset/outliers.mas:44
+msgctxt "lists_datasets.pages.add_selection_to_outliers"
+msgid "Add selection to outliers"
+msgstr "Añadir selección a valores atípicos"
+
+#: mason/dataset/index.mas:99
+msgctxt "lists_datasets.pages.analyses_using_this_dataset"
+msgid "Analyses using this dataset"
+msgstr "Análisis que utilizan este conjunto de datos"
+
+#: mason/dataset/index.mas:129
+msgctxt "lists_datasets.pages.analysis_retrieval_error"
+msgid "Error retrieving analyses using this dataset."
+msgstr "Error al obtener los análisis que utilizan este conjunto de datos."
+
+#: mason/dataset/index.mas:108
+msgctxt "lists_datasets.pages.analysis_tools"
+msgid "Analysis Tools"
+msgstr "Herramientas de análisis"
+
+#: mason/dataset/index.mas:25
+msgctxt "lists_datasets.pages.dataset_name"
+msgid "Dataset %{name}"
+msgstr "Conjunto de datos %{name}"
+
+#: mason/dataset/index.mas:87
+msgctxt "lists_datasets.pages.delete"
+msgid "Delete"
+msgstr "Eliminar"
+
+#: mason/dataset/index.mas:38
+msgctxt "lists_datasets.pages.description"
+msgid "Description"
+msgstr "Descripción"
+
+#: mason/dataset/outliers.mas:47
+msgctxt "lists_datasets.pages.download_phenotype_table_without_outliers"
+msgid "Download Phenotype Table without outliers"
+msgstr "Descargar tabla de fenotipos sin valores atípicos"
+
+#: mason/dataset/index.mas:50 mason/dataset/index.mas:69
+msgctxt "lists_datasets.pages.edit"
+msgid "Edit"
+msgstr "Editar"
+
+#: mason/dataset/index.mas:75
+msgctxt "lists_datasets.pages.make_private"
+msgid "Make Private"
+msgstr "Hacer privado"
+
+#: mason/dataset/index.mas:81
+msgctxt "lists_datasets.pages.make_public"
+msgid "Make Public"
+msgstr "Hacer público"
+
+#: mason/dataset/outliers.mas:48
+msgctxt "lists_datasets.pages.make_rosner_outlier_test"
+msgid "Make Rosner outlier test"
+msgstr "Realizar prueba de Rosner de valores atípicos"
+
+#: js/source/entries/dataset_scatterplot.js:8 mason/dataset/outliers.mas:32
+msgctxt "lists_datasets.pages.mean"
+msgid "Mean"
+msgstr "Media"
+
+#: mason/dataset/outliers.mas:30 mason/dataset/outliers.mas:32
+msgctxt "lists_datasets.pages.mean_accessibility"
+msgid "mean"
+msgstr "media"
+
+#: js/source/entries/dataset_scatterplot.js:8
+#: mason/breeders_toolbox/trial/derived_trait.mas:85
+#: mason/dataset/outliers.mas:28
+msgctxt "lists_datasets.pages.median"
+msgid "Median"
+msgstr "Mediana"
+
+#: mason/dataset/outliers.mas:26 mason/dataset/outliers.mas:28
+msgctxt "lists_datasets.pages.median_accessibility"
+msgid "median"
+msgstr "mediana"
+
+#: mason/dataset/index.mas:32
+msgctxt "lists_datasets.pages.name"
+msgid "Name"
+msgstr "Nombre"
+
+#: mason/dataset/index.mas:106
+msgctxt "lists_datasets.pages.outlier_detection"
+msgid "Outlier Detection"
+msgstr "Detección de valores atípicos"
+
+#: mason/dataset/index.mas:58
+msgctxt "lists_datasets.pages.owner"
+msgid "Owner"
+msgstr "Propietario"
+
+#: mason/dataset/index.mas:112
+msgctxt "lists_datasets.pages.publish_dataset"
+msgid "Publish Dataset"
+msgstr "Publicar conjunto de datos"
+
+#: mason/dataset/outliers.mas:46
+msgctxt "lists_datasets.pages.reset_all_outliers"
+msgid "Reset all outliers"
+msgstr "Restablecer todos los valores atípicos"
+
+#: mason/dataset/outliers.mas:45
+msgctxt "lists_datasets.pages.reset_outliers_for_current_trait"
+msgid "Reset outliers for current trait"
+msgstr "Restablecer valores atípicos del carácter actual"
+
+#: mason/dataset/outliers.mas:53
+msgctxt "lists_datasets.pages.rosner_s_test_is_calculated_by_the_r_function_rosnertest_envstats_from_package_envstats"
+msgid "Rosner's test is calculated by the R function rosnerTest{EnvStats} from package EnvStats."
+msgstr "La prueba de Rosner se calcula con la función R rosnerTest{EnvStats} del paquete EnvStats."
+
+#: mason/dataset/outliers.mas:11
+msgctxt "lists_datasets.pages.select_a_trait"
+msgid "Select a Trait: "
+msgstr "Seleccione un carácter: "
+
+#: mason/dataset/index.mas:94
+msgctxt "lists_datasets.pages.select_dataset_in_wizard"
+msgid "Select Dataset in Wizard"
+msgstr "Seleccionar conjunto de datos en el asistente"
+
+#: mason/dataset/index.mas:110
+msgctxt "lists_datasets.pages.tool_compatibility"
+msgid "Tool Compatibility"
+msgstr "Compatibilidad de herramientas"
+
+#: mason/dataset/index.mas:43
+msgctxt "lists_datasets.pages.update"
+msgid "Update"
+msgstr "Actualizar"
+
+#: js/source/entries/dataset_scatterplot.js:8
+msgctxt "lists_datasets.scatterplot.std_dev"
+msgid "Std Dev"
+msgstr "Desv. est."
+
+#: lib/SGN/Controller/AJAX/List.pm:1248
+msgctxt "lists_datasets.server.case_type"
+msgid "Only lists with type 'accessions' can be adjusted for case in the database."
+msgstr "Solo se puede ajustar el uso de mayúsculas en la base de datos para listas de tipo «accessions»."
+
+#: lib/SGN/Controller/AJAX/List.pm:798
+msgctxt "lists_datasets.server.conversion_warning"
+msgid "Warning. This lists contains elements that cannot be converted."
+msgstr "Advertencia. Esta lista contiene elementos que no se pueden convertir."
+
+#: lib/SGN/Controller/AJAX/List.pm:1022
+msgctxt "lists_datasets.server.delete_error"
+msgid "An error occurred while attempting to delete item %{id}"
+msgstr "Se produjo un error al intentar eliminar el elemento %{id}"
+
+#: lib/SGN/Controller/AJAX/List.pm:372
+msgctxt "lists_datasets.server.element_required"
+msgid "You must provide an element to add to the list"
+msgstr "Debe proporcionar un elemento para añadir a la lista"
+
+#: lib/SGN/Controller/AJAX/List.pm:385
+msgctxt "lists_datasets.server.error_colon"
+msgid "An error occurred: %{detail}"
+msgstr "Se produjo un error: %{detail}"
+
+#: lib/SGN/Controller/AJAX/List.pm:219
+msgctxt "lists_datasets.server.error_comma"
+msgid "An error occurred, %{detail}"
+msgstr "Se produjo un error, %{detail}"
+
+#: lib/SGN/Controller/AJAX/List.pm:377
+msgctxt "lists_datasets.server.list_id_required"
+msgid "Please specify a list_id."
+msgstr "Especifique un list_id."
+
+#: lib/SGN/Controller/AJAX/List.pm:1142
+msgctxt "lists_datasets.server.marker_delete_login"
+msgid "You must be logged in to delete marker alleles."
+msgstr "Debe iniciar sesión para eliminar alelos de marcadores."
+
+#: lib/SGN/Controller/AJAX/List.pm:1116 lib/SGN/Controller/AJAX/List.pm:1175
+#: lib/SGN/Controller/AJAX/List.pm:1205
+msgctxt "lists_datasets.server.marker_login"
+msgid "You must be logged in to use marker alleles."
+msgstr "Debe iniciar sesión para usar alelos de marcadores."
+
+#: lib/SGN/Controller/AJAX/List.pm:1377
+msgctxt "lists_datasets.server.missing_items"
+msgid "The following items are not in the database: %{items}"
+msgstr "Los siguientes elementos no están en la base de datos: %{items}"
+
+#: lib/SGN/Controller/AJAX/List.pm:1263 lib/SGN/Controller/AJAX/List.pm:1330
+msgctxt "lists_datasets.server.no_data"
+msgid "No data!"
+msgstr "¡No hay datos!"
+
+#: lib/SGN/Controller/AJAX/List.pm:1243 lib/SGN/Controller/AJAX/List.pm:1309
+msgctxt "lists_datasets.server.not_owner"
+msgid "You don't own this list and you cannot modify it."
+msgstr "No es propietario de esta lista y no puede modificarla."
+
+#: lib/SGN/Controller/AJAX/List.pm:1275 lib/SGN/Controller/AJAX/List.pm:1342
+msgctxt "lists_datasets.server.not_replaced"
+msgid "Error: %{item} not replaced. "
+msgstr "Error: no se sustituyó %{item}. "
+
+#: lib/SGN/Controller/AJAX/List.pm:462
+msgctxt "lists_datasets.server.public_login"
+msgid "You must be logged in to use lists and list must be public!"
+msgstr "Debe iniciar sesión para usar listas y la lista debe ser pública."
+
+#: lib/SGN/Controller/AJAX/List.pm:1314
+msgctxt "lists_datasets.server.synonym_type"
+msgid "Only lists with type 'accessions' can be adjusted for synonyms in the database."
+msgstr "Solo se pueden ajustar sinónimos en la base de datos para listas de tipo «accessions»."
+
+#: lib/SGN/Controller/AJAX/List.pm:816
+msgctxt "lists_datasets.server.temporary_conversion_warning"
+msgid "Warning. This temporary list contains elements that cannot be converted."
+msgstr "Advertencia. Esta lista temporal contiene elementos que no se pueden convertir."
+
+#: lib/SGN/Controller/AJAX/List.pm:952
+msgctxt "lists_datasets.server.update_error"
+msgid "An error occurred while attempting to update item %{id}"
+msgstr "Se produjo un error al intentar actualizar el elemento %{id}"
+
+#: mason/site/list.mas:99
+msgctxt "lists_datasets.shared.adjust_case"
+msgid "Adjust Case"
+msgstr "Ajustar mayúsculas y minúsculas"
+
+#: mason/list/index.mas:11
+msgctxt "lists_datasets.shared.available_lists"
+msgid "Available lists"
+msgstr "Listas disponibles"
+
+#: mason/site/list.mas:194
+msgctxt "lists_datasets.shared.available_seedlots"
+msgid "Available Seedlots"
+msgstr "Lotes de semillas disponibles"
+
+#: mason/site/list.mas:102
+msgctxt "lists_datasets.shared.click_the_adjust_case_button_to_align_the_case_in_the_list_with_what_is_in_the_database"
+msgid "Click the Adjust Case button to align the case in the list with what is in the database."
+msgstr "Pulse el botón de ajuste para que las mayúsculas y minúsculas de la lista coincidan con la base de datos."
+
+#: mason/site/dataset.mas:19 mason/site/dataset.mas:29
+#: mason/site/dataset.mas:39 mason/site/dataset.mas:49
+#: mason/site/dataset.mas:59 mason/site/dataset.mas:70 mason/site/dataset.mas:8
+#: mason/site/dataset.mas:85 mason/site/list.mas:137 mason/site/list.mas:147
+#: mason/site/list.mas:157 mason/site/list.mas:167 mason/site/list.mas:18
+#: mason/site/list.mas:182 mason/site/list.mas:193 mason/site/list.mas:209
+#: mason/site/list.mas:220 mason/site/list.mas:236 mason/site/list.mas:28
+#: mason/site/list.mas:37 mason/site/list.mas:47 mason/site/list.mas:56
+#: mason/site/list.mas:67 mason/site/list.mas:8
+msgctxt "lists_datasets.shared.close"
+msgid "Close"
+msgstr "Cerrar"
+
+#: mason/site/list.mas:203
+msgctxt "lists_datasets.shared.create_a_new_list_from_selected_seedlots"
+msgid "Create a New List from Selected Seedlots:"
+msgstr "Crear una lista nueva a partir de lotes de semillas seleccionados:"
+
+#: mason/site/list.mas:177
+msgctxt "lists_datasets.shared.create_a_new_list_from_unique_names"
+msgid "Create a New List from Unique Names:"
+msgstr "Crear una lista nueva a partir de nombres únicos:"
+
+#: mason/list/index.mas:38
+msgctxt "lists_datasets.shared.create_new_list"
+msgid "Create new list"
+msgstr "Crear nueva lista"
+
+#: mason/site/dataset.mas:50
+msgctxt "lists_datasets.shared.dataset_contents"
+msgid "Dataset Contents"
+msgstr "Contenido del conjunto de datos"
+
+#: mason/site/dataset.mas:71
+msgctxt "lists_datasets.shared.dataset_validation_failed"
+msgid "Dataset Validation Failed"
+msgstr "Falló la validación del conjunto de datos"
+
+#: mason/site/list.mas:156 mason/site/list.mas:233
+msgctxt "lists_datasets.shared.download"
+msgid "Download"
+msgstr "Descargar"
+
+#: mason/site/list.mas:230
+msgctxt "lists_datasets.shared.download_column"
+msgid "Download column:"
+msgstr "Descargar columna:"
+
+#: mason/site/dataset.mas:78 mason/site/list.mas:76
+msgctxt "lists_datasets.shared.elements_not_found"
+msgid "Elements not found:"
+msgstr "Elementos no encontrados:"
+
+#: mason/site/list.mas:148
+msgctxt "lists_datasets.shared.fuzzy_search_results"
+msgid "Fuzzy Search Results"
+msgstr "Resultados de búsqueda aproximada"
+
+#: mason/site/list.mas:108
+msgctxt "lists_datasets.shared.items_listed_here_have_mulitple_case_mismatches_and_must_be_fixed_manually_if_accessions_need_to_be_"
+msgid "Items listed here have multiple case mismatches and must be fixed manually. If accessions need to be merged, contact the database directly."
+msgstr "Los elementos indicados tienen varias diferencias de mayúsculas y minúsculas que deben corregirse manualmente. Si es necesario fusionar accesiones, contacte directamente con la base de datos."
+
+#: mason/site/list.mas:221
+msgctxt "lists_datasets.shared.list_comparison"
+msgid "List Comparison"
+msgstr "Comparación de listas"
+
+#: mason/site/list.mas:48
+msgctxt "lists_datasets.shared.list_contents"
+msgid "List Contents"
+msgstr "Contenido de la lista"
+
+#: mason/site/list.mas:115
+msgctxt "lists_datasets.shared.list_elements_matching_a_synonym"
+msgid "List elements matching a synonym"
+msgstr "Elementos de lista que coinciden con un sinónimo"
+
+#: mason/site/list.mas:178 mason/site/list.mas:204
+msgctxt "lists_datasets.shared.list_name"
+msgid "List Name..."
+msgstr "Nombre de la lista..."
+
+#: mason/site/list.mas:68
+msgctxt "lists_datasets.shared.list_validation_report_failed"
+msgid "List Validation Report: Failed"
+msgstr "Informe de validación de lista: falló"
+
+#: mason/list/index.mas:17
+msgctxt "lists_datasets.shared.login_required_for_viewing_your_lists"
+msgid "Login required for viewing your lists"
+msgstr "Debe iniciar sesión para ver sus listas"
+
+#: mason/site/list.mas:208
+msgctxt "lists_datasets.shared.manage_seedlots"
+msgid "Manage Seedlots"
+msgstr "Gestionar lotes de semillas"
+
+#: mason/site/list.mas:91
+msgctxt "lists_datasets.shared.mismatched_case"
+msgid "Mismatched case"
+msgstr "Diferencia de mayúsculas y minúsculas"
+
+#: mason/site/list.mas:105
+msgctxt "lists_datasets.shared.multiple_mismatched_case"
+msgid "Multiple mismatched case"
+msgstr "Varias diferencias de mayúsculas y minúsculas"
+
+#: mason/site/list.mas:127
+msgctxt "lists_datasets.shared.multiple_synonym_matches"
+msgid "Multiple synonym matches"
+msgstr "Varias coincidencias de sinónimos"
+
+#: mason/site/list.mas:130
+msgctxt "lists_datasets.shared.multiple_synonym_matches_have_to_be_resolved_manually_contact_database_administrators_if_necessary"
+msgid "Multiple synonym matches have to be resolved manually. Contact database administrators if necessary."
+msgstr "Las coincidencias múltiples de sinónimos deben resolverse manualmente. Contacte con los administradores de la base de datos si es necesario."
+
+#: mason/site/list.mas:83
+msgctxt "lists_datasets.shared.optional_add_missing_accessions_to_a_list"
+msgid "Optional: Add Missing Accessions to A List"
+msgstr "Opcional: añadir las accesiones que faltan a una lista"
+
+#: mason/site/dataset.mas:30
+msgctxt "lists_datasets.shared.public_datasets"
+msgid "Public Datasets"
+msgstr "Conjuntos de datos públicos"
+
+#: mason/site/list.mas:120
+msgctxt "lists_datasets.shared.replace_synonyms_with_corresponding_db_name"
+msgid "Replace synonyms with corresponding DB name"
+msgstr "Reemplazar sinónimos por el nombre correspondiente de la base de datos"
+
+#: mason/site/list.mas:179 mason/site/list.mas:205
+msgctxt "lists_datasets.shared.save"
+msgid "Save"
+msgstr "Guardar"
+
+#: mason/site/list.mas:168
+msgctxt "lists_datasets.shared.synonym_search_results"
+msgid "Synonym Search Results"
+msgstr "Resultados de búsqueda por sinónimos"
+
+#: mason/site/dataset.mas:18
+msgctxt "lists_datasets.shared.view_public_datasets"
+msgid "View Public Datasets"
+msgstr "Ver conjuntos de datos públicos"
+
+#: mason/site/list.mas:17
+msgctxt "lists_datasets.shared.view_public_lists"
+msgid "View Public Lists"
+msgstr "Ver listas públicas"
+
+#: mason/site/dataset.mas:9
+msgctxt "lists_datasets.shared.your_datasets"
+msgid "Your Datasets"
+msgstr "Sus conjuntos de datos"
+
+#: mason/site/list.mas:9
+msgctxt "lists_datasets.shared.your_lists"
+msgid "Your Lists"
+msgstr "Sus listas"
+
+# Model draft; human/native editorial review pending.
+#: mason/list/list_details.mas:72 mason/stock/population_seedlots.mas:92
+msgctxt "seedlots.ui.current_count.726d526"
+msgid "Current Count"
+msgstr "Cantidad actual"

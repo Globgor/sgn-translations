@@ -1,0 +1,1594 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/ar.po
+# Translation of ISO 3166-1 to Arabic
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2002 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2004 Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>
+# SPDX-FileCopyrightText: 2006, 2008, 2010 Ossama M. Khayat <okhayat@yahoo.com>
+# SPDX-FileCopyrightText: 2018, 2019 ButterflyOfFire <ButterflyOfFire@protonmail.com>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/ar.po
+# Translation of ISO 3166-3 to Arabic
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2002 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2004 Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>
+# SPDX-FileCopyrightText: 2006, 2008, 2010 Ossama M. Khayat <okhayat@yahoo.com>
+# SPDX-FileCopyrightText: 2019 ButterflyOfFire <ButterflyOfFire@protonmail.com>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: ar\n"
+"Language: ar\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: العربية\n"
+"Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
+"X-SGN-Direction: rtl\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+#: js/source/legacy/solGS/loadAcronyms.js:48
+msgctxt "solgs.browser.acronyms_load_error"
+msgid "Error occurred loading acronyms"
+msgstr "حدث خطأ أثناء تحميل الاختصارات"
+
+#: js/source/legacy/solGS/download.js:129
+#: js/source/legacy/solGS/download.js:175
+msgctxt "solgs.browser.analysis_log_link"
+msgid "Analysis log"
+msgstr "سجل التحليل"
+
+#: js/source/legacy/solGS/selectionPopulations.js:191
+msgctxt "solgs.browser.check_model_population"
+msgid "Checking if the model can be used on %{name} ...please wait..."
+msgstr "جارٍ التحقق من إمكانية استخدام النموذج مع المجموعة %{name} ...يرجى الانتظار..."
+
+#: js/source/legacy/solGS/searchTrials.js:74
+msgctxt "solgs.browser.check_population_exists"
+msgid "Checking if trial or training population %{name} exists...please wait..."
+msgstr "جارٍ التحقق مما إذا كانت التجربة أو مجموعة التدريب %{name} موجودة...يرجى الانتظار..."
+
+#: js/source/legacy/solGS/searchTrials.js:271
+msgctxt "solgs.browser.check_training_population_intro"
+msgid "Checking if the trial or population can be used "
+msgstr "جارٍ التحقق مما إذا كان يمكن استخدام التجربة أو المجموعة "
+
+#: js/source/legacy/solGS/searchTrials.js:271
+msgctxt "solgs.browser.check_training_population_wait"
+msgid "as a training population...please wait..."
+msgstr "كمجموعة تدريب...يرجى الانتظار..."
+
+#: js/source/legacy/solGS/combinePopulations.js:61
+msgctxt "solgs.browser.combine"
+msgid "Combine"
+msgstr "دمج"
+
+#: js/source/legacy/solGS/combineTrials.js:202
+msgctxt "solgs.browser.combined_trials_id_error"
+msgid "Error occurred getting combined trials unique id"
+msgstr "حدث خطأ أثناء الحصول على معرّف التجارب المجمعة"
+
+#: js/source/legacy/solGS/combineTrials.js:342
+msgctxt "solgs.browser.combined_trials_id_missing"
+msgid "combined Trials id missing."
+msgstr "معرّف التجارب المجمعة مفقود."
+
+#: js/source/legacy/solGS/listTypeTrainingPopulation.js:88
+msgctxt "solgs.browser.create_training_population"
+msgid "Create Training Population"
+msgstr "إنشاء مجموعة تدريب"
+
+#: js/source/legacy/solGS/combineTrials.js:33
+msgctxt "solgs.browser.done_selecting"
+msgid "Done selecting"
+msgstr "تم الانتهاء من التحديد"
+
+#: js/source/legacy/solGS/download.js:239
+msgctxt "solgs.browser.download_marker_effects"
+msgid "Download marker effects"
+msgstr "تنزيل تأثيرات العلامات"
+
+#: js/source/legacy/solGS/download.js:291
+msgctxt "solgs.browser.download_marker_effects_error"
+msgid "Error occurred getting marker effects file."
+msgstr "حدث خطأ أثناء جلب ملف تأثيرات العلامات."
+
+#: js/source/legacy/solGS/download.js:178
+msgctxt "solgs.browser.download_model"
+msgid "Download model"
+msgstr "تنزيل بيانات النموذج"
+
+#: js/source/legacy/solGS/download.js:209
+msgctxt "solgs.browser.download_model_accuracy"
+msgid "Download model accuracy"
+msgstr "تنزيل دقة النموذج"
+
+#: js/source/legacy/solGS/download.js:273
+msgctxt "solgs.browser.download_model_input_error"
+msgid "Error occurred getting model input data files."
+msgstr "حدث خطأ أثناء جلب ملفات إدخال النموذج."
+
+#: js/source/legacy/solGS/download.js:308
+msgctxt "solgs.browser.download_page_type_error"
+msgid "Error occurred checking for page type."
+msgstr "حدث خطأ أثناء تحديد نوع الصفحة."
+
+#: js/source/legacy/solGS/gebvPhenoRegression.js:51
+#: js/source/legacy/solGS/gebvs.js:104
+msgctxt "solgs.browser.download_prefix"
+msgid "Download:  "
+msgstr "تنزيل:  "
+
+#: js/source/legacy/solGS/download.js:301
+msgctxt "solgs.browser.download_selection_genotype_error"
+msgid "Error occurred getting selection population genotype data files."
+msgstr "حدث خطأ أثناء جلب ملفات التنميط الجيني لمجموعة الانتخاب."
+
+#: js/source/legacy/solGS/download.js:132
+msgctxt "solgs.browser.download_selection_population"
+msgid "Download selection population"
+msgstr "تنزيل بيانات مجموعة الانتخاب"
+
+#: js/source/legacy/solGS/download.js:258
+#: js/source/legacy/solGS/download.js:263
+msgctxt "solgs.browser.download_training_data_error"
+msgid "Error occurred getting training pop raw data files."
+msgstr "حدث خطأ أثناء جلب ملفات البيانات الخام لمجموعة التدريب."
+
+#: js/source/legacy/solGS/download.js:99
+msgctxt "solgs.browser.download_training_population"
+msgid "Download training population"
+msgstr "تنزيل بيانات مجموعة التدريب"
+
+#: js/source/legacy/solGS/download.js:282
+msgctxt "solgs.browser.download_validation_error"
+msgid "Error occurred getting model validation file."
+msgstr "حدث خطأ أثناء جلب ملف التحقق من النموذج."
+
+#: js/source/legacy/solGS/selectionPopulations.js:237
+msgctxt "solgs.browser.enter_trial_name"
+msgid "Please enter trial name."
+msgstr "يرجى إدخال اسم التجربة."
+
+#: js/source/legacy/solGS/searchTrials.js:324
+msgctxt "solgs.browser.enter_trial_name_1743b1"
+msgid "Please enter a trial name."
+msgstr "يرجى إدخال اسم التجربة."
+
+#: js/source/legacy/solGS/listTypeSelectionPopulation.js:170
+#: js/source/legacy/solGS/listTypeTrainingPopulation.js:157
+msgctxt "solgs.browser.filter"
+msgid "Filter"
+msgstr "تصفية"
+
+#: js/source/legacy/solGS/searchTrials.js:134
+msgctxt "solgs.browser.filter_result_by"
+msgid "Filter result by: "
+msgstr "تصفية النتائج حسب: "
+
+#: js/source/legacy/solGS/searchTrials.js:223
+msgctxt "solgs.browser.first_trials_error"
+msgid "Error occurred fetching the first set of GS trials."
+msgstr "حدث خطأ أثناء جلب المجموعة الأولى من تجارب GS."
+
+#: js/source/legacy/solGS/gebvs.js:57
+msgctxt "solgs.browser.gebv_count_axis"
+msgid "Counts"
+msgstr "العدد"
+
+#: js/source/legacy/solGS/gebvs.js:142
+msgctxt "solgs.browser.gebv_files_error"
+msgid "Error occurred getting training gebvs files."
+msgstr "حدث خطأ أثناء جلب ملفات GEBV لمجموعة التدريب."
+
+#: js/source/legacy/solGS/gebvs.js:102
+msgctxt "solgs.browser.gebv_histogram_link"
+msgid " Histogram (GEBVs)"
+msgstr " المدرج التكراري (GEBVs)"
+
+#: js/source/legacy/solGS/gebvPhenoRegression.js:86
+msgctxt "solgs.browser.gebv_phenotype_regression_request_error"
+msgid "Error occurred requesting for theGEBVs vs observed phenotypes regression data."
+msgstr "حدث خطأ أثناء طلب بيانات انحدار GEBVs مقابل الأنماط الظاهرية المرصودة."
+
+#: js/source/legacy/solGS/gebvs.js:117
+msgctxt "solgs.browser.genetic_values_link"
+msgid "Genetic values"
+msgstr "القيم الوراثية"
+
+#: js/source/legacy/solGS/download.js:125
+#: js/source/legacy/solGS/download.js:167 js/source/legacy/solGS/download.js:68
+msgctxt "solgs.browser.genotype_data_link"
+msgid "Genotype data"
+msgstr "بيانات التنميط الجيني"
+
+#: js/source/legacy/solGS/histogram.js:69
+msgctxt "solgs.browser.histogram_bin_elements"
+msgid "Bin elements"
+msgstr "عناصر الفئة"
+
+#: js/source/legacy/solGS/histogram.js:239
+msgctxt "solgs.browser.histogram_frequency_axis"
+msgid "Frequency"
+msgstr "التكرار"
+
+#: js/source/legacy/solGS/histogram.js:70
+msgctxt "solgs.browser.histogram_values"
+msgid "Values"
+msgstr "القيم"
+
+#: js/source/legacy/solGS/histogram.js:238
+msgctxt "solgs.browser.histogram_values_axis"
+msgid "Values"
+msgstr "القيم"
+
+#: js/source/legacy/solGS/selectionIndex.js:359
+msgctxt "solgs.browser.index_download_label"
+msgid "Download:"
+msgstr "تنزيل:"
+
+#: js/source/legacy/solGS/selectionIndex.js:359
+msgctxt "solgs.browser.index_name_label"
+msgid "Index Name:"
+msgstr "اسم الدليل:"
+
+#: js/source/legacy/solGS/phenotypeDataFlot.js:107
+msgctxt "solgs.browser.legacy_clones_axis"
+msgid "Clones"
+msgstr "المستنسخات"
+
+#: js/source/legacy/solGS/traitGebv.js:110
+msgctxt "solgs.browser.legacy_gebv_values_axis"
+msgid "GEBV values"
+msgstr "قيم GEBV"
+
+#: js/source/legacy/solGS/phenotypeData.js:97
+#: js/source/legacy/solGS/traitGebv.js:102
+#: js/source/legacy/solGS/traitGebvFlot.js:152
+#: js/source/legacy/solGS/traitGebvFlot.js:266
+msgctxt "solgs.browser.legacy_genotypes_axis"
+msgid "Genotypes"
+msgstr "الأنماط الجينية"
+
+#: js/source/legacy/solGS/traitGebv.js:56
+#: js/source/legacy/solGS/traitGebvFlot.js:90
+msgctxt "solgs.browser.legacy_no_gebv_data"
+msgid "There is no GEBV data to plot. Please report this problem"
+msgstr "لا توجد بيانات GEBV لرسمها. يرجى الإبلاغ عن هذه المشكلة."
+
+#: js/source/legacy/solGS/phenotypeData.js:56
+#: js/source/legacy/solGS/phenotypeDataFlot.js:82
+msgctxt "solgs.browser.legacy_no_phenotype_data"
+msgid "There is no phenotype data to plot. Please report this problem"
+msgstr "لا توجد بيانات ظاهرية لرسمها. يرجى الإبلاغ عن هذه المشكلة."
+
+#: js/source/legacy/solGS/phenotypeData.js:60
+msgctxt "solgs.browser.legacy_phenotype_plot_title"
+msgid "Phenotype data"
+msgstr "البيانات الظاهرية"
+
+#: js/source/legacy/solGS/phenotypeDataFlot.js:115
+msgctxt "solgs.browser.legacy_phenotype_values_axis"
+msgid "Phenotype values"
+msgstr "قيم النمط الظاهري"
+
+#: js/source/legacy/solGS/traitGebvFlot.js:277
+msgctxt "solgs.browser.legacy_trait_gebvs_axis"
+msgid "Trait GEBVs"
+msgstr "GEBVs للصفة"
+
+#: js/source/legacy/solGS/phenotypeData.js:105
+msgctxt "solgs.browser.legacy_trait_values_axis"
+msgid "Trait values"
+msgstr "قيم الصفة"
+
+#: js/source/legacy/solGS/combinePopulations.js:195
+#: js/source/legacy/solGS/combineTrials.js:143
+msgctxt "solgs.browser.marker_sets_mismatch"
+msgid " were genotyped using different marker sets. Please make new selections to combine."
+msgstr " تم تنميطها باستخدام مجموعات علامات مختلفة. يرجى إجراء تحديدات جديدة للدمج."
+
+#: js/source/legacy/solGS/combinePopulations.js:195
+#: js/source/legacy/solGS/combineTrials.js:143
+msgctxt "solgs.browser.marker_sets_population_prefix"
+msgid "populations "
+msgstr "المجموعات "
+
+#: js/source/legacy/solGS/searchTrials.js:183
+msgctxt "solgs.browser.next_trials_error"
+msgid "Error occurred fetching the next set of GS trials."
+msgstr "حدث خطأ أثناء جلب المجموعة التالية من تجارب GS."
+
+#: js/source/legacy/solGS/selectionPopulations.js:131
+msgctxt "solgs.browser.no_cached_selection_trials"
+msgid "No cached trial for selection prediction found."
+msgstr "لم يتم العثور على تجارب مخزنة مؤقتًا للتنبؤ بالانتخاب."
+
+#: js/source/legacy/solGS/searchTrials.js:257
+msgctxt "solgs.browser.no_default_protocol"
+msgid "No genotyping protocol found. There is no default genotyping protocol. If a genotyping protocol exists in the database, please select one to search for trials that can be used as atraining population."
+msgstr "لم يتم العثور على بروتوكول تنميط جيني افتراضي. إذا كان هناك بروتوكول في قاعدة البيانات، فحدده للبحث عن تجارب مناسبة كمجموعة تدريب."
+
+#: js/source/legacy/solGS/gebvPhenoRegression.js:81
+msgctxt "solgs.browser.no_gebv_phenotype_regression"
+msgid "There is no GEBVs vs observed phenotypes regression data."
+msgstr "لا توجد بيانات انحدار GEBVs مقابل الأنماط الظاهرية المرصودة."
+
+#: js/source/legacy/solGS/combinePopulations.js:148
+msgctxt "solgs.browser.no_populations_selected"
+msgid "No populations were selected.Please make your selections."
+msgstr "لم يتم تحديد أي مجموعة. يرجى إجراء التحديد."
+
+#: js/source/legacy/solGS/selectionPopulations.js:157
+msgctxt "solgs.browser.no_relevant_selection_populations"
+msgid "There are no relevant selection populations in the database.If you have or want to make your own set of selection candidatesuse the form below."
+msgstr "لا توجد مجموعات انتخاب ملائمة في قاعدة البيانات. إذا كان لديك أو تريد إنشاء مجموعة مرشحين خاصة بك، فاستخدم النموذج أدناه."
+
+#: js/source/legacy/solGS/searchTraits.js:43
+msgctxt "solgs.browser.no_trait_entries"
+msgid "There are no entries for trait: %{name}"
+msgstr "لا توجد إدخالات للصفة: %{name}"
+
+#: js/source/legacy/solGS/searchTrials.js:217
+msgctxt "solgs.browser.no_trait_trials"
+msgid "No trials phenotyped for the trait were found."
+msgstr "لم يتم العثور على تجارب ذات بيانات ظاهرية للصفة."
+
+#: js/source/legacy/solGS/searchTrials.js:50
+msgctxt "solgs.browser.no_trials_found"
+msgid "No trials were found."
+msgstr "لم يتم العثور على تجارب."
+
+#: js/source/legacy/solGS/phenoHistogram.js:115
+#: js/source/legacy/solGS/phenoHistogram.js:154
+msgctxt "solgs.browser.pheno_data_missing"
+msgid "This trait has no phenotype data to plot."
+msgstr "لا توجد بيانات ظاهرية لهذه الصفة لرسمها."
+
+#: js/source/legacy/solGS/phenoHistogram.js:122
+#: js/source/legacy/solGS/phenoHistogram.js:161
+msgctxt "solgs.browser.pheno_histogram_error"
+msgid "Error occurred plotting histogram for this trait dataset."
+msgstr "حدث خطأ أثناء رسم المدرج التكراري لمجموعة بيانات هذه الصفة."
+
+#: js/source/legacy/solGS/phenoHistogram.js:97
+msgctxt "solgs.browser.pheno_means_valid_observations"
+msgid " All of the valid observations (%{count}) in this dataset have a value of %{value}. No frequency distribution plot."
+msgstr " جميع المشاهدات الصالحة (%{count}) في مجموعة البيانات هذه لها القيمة %{value}. لم يُعرض مخطط توزيع التكرارات."
+
+#: js/source/legacy/solGS/phenoHistogram.js:136
+msgctxt "solgs.browser.pheno_raw_valid_observations"
+msgid " All of the valid observations (%{count}) in this dataset have a value of %{value}. No frequency distribution plot."
+msgstr " جميع المشاهدات الصالحة (%{count}) في مجموعة البيانات هذه لها القيمة %{value}. لم يُعرض مخطط توزيع التكرارات."
+
+#: js/source/legacy/solGS/download.js:171 js/source/legacy/solGS/download.js:84
+msgctxt "solgs.browser.phenotype_data_link"
+msgid "Phenotype data"
+msgstr "البيانات الظاهرية"
+
+#: js/source/legacy/solGS/phenoHistogram.js:63
+msgctxt "solgs.browser.phenotype_histogram_link"
+msgid " Histogram"
+msgstr " المدرج التكراري"
+
+#: js/source/legacy/solGS/gebvPhenoRegression.js:71
+msgctxt "solgs.browser.phenotypic_deviations_axis"
+msgid "Phenotypic deviations"
+msgstr "الانحرافات الظاهرية"
+
+#: js/source/legacy/solGS/selectionIndex.js:251
+msgctxt "solgs.browser.population_name_label"
+msgid "Population name:"
+msgstr "اسم المجموعة:"
+
+#: js/source/legacy/solGS/searchTrials.js:302
+msgctxt "solgs.browser.population_not_trainable_prefix"
+msgid " Population "
+msgstr " المجموعة "
+
+#: js/source/legacy/solGS/searchTrials.js:302
+msgctxt "solgs.browser.population_not_trainable_suffix"
+msgid " can not be used as a training population. It has no phenotype or/and genotype data."
+msgstr " لا يمكن استخدامها كمجموعة تدريب. لا تحتوي على بيانات ظاهرية و/أو جينية."
+
+#: js/source/legacy/solGS/listTypeSelectionPopulation.js:127
+msgctxt "solgs.browser.predict_selection_population"
+msgid "Predict"
+msgstr "التنبؤ"
+
+#: js/source/legacy/solGS/listTypeSelectionPopulation.js:392
+msgctxt "solgs.browser.predicted_output_check_error"
+msgid "Error occurred checking if the selection population has predicted output."
+msgstr "حدث خطأ أثناء التحقق من وجود نتائج تنبؤ لمجموعة الانتخاب."
+
+#: js/source/legacy/solGS/gebvPhenoRegression.js:50
+msgctxt "solgs.browser.regression_plot_link"
+msgid " Regression plot"
+msgstr " مخطط الانحدار"
+
+#: js/source/legacy/solGS/selectionIndex.js:148
+msgctxt "solgs.browser.relative_weight_must_be_number"
+msgid ""
+"the relative weight of trait  %{trait} must be a number.\n"
+"                    Only numbers and multiplication symbols ('*' or 'x') are allowed."
+msgstr ""
+"يجب أن يكون الوزن النسبي للصفة  %{trait} رقمًا.\n"
+"                    يُسمح بالأرقام ورموز الضرب ('*' أو 'x') فقط."
+
+#: js/source/legacy/solGS/selectionIndex.js:153
+msgctxt "solgs.browser.relative_weight_required"
+msgid "You need to assign a relative weight to trait %{trait}. If you want to exclude the trait assign 0 to it."
+msgstr "يجب تعيين وزن نسبي للصفة %{trait}. لاستبعاد الصفة، عيّن لها القيمة 0."
+
+#: js/source/legacy/solGS/selectionIndex.js:209
+msgctxt "solgs.browser.relative_weights_label"
+msgid "Relative weights"
+msgstr "الأوزان النسبية"
+
+#: js/source/legacy/solGS/gebvsSave.js:108
+#: js/source/legacy/solGS/gebvsSave.js:38
+msgctxt "solgs.browser.save_result_log_info_missing"
+msgid ". The logged info may not exist for the result."
+msgstr ". قد لا تتوفر معلومات مسجلة لهذه النتيجة."
+
+#: js/source/legacy/solGS/gebvsSave.js:18
+msgctxt "solgs.browser.saving_gebvs_wait"
+msgid "Please wait...saving the GEBVs may take a few minutes."
+msgstr "يرجى الانتظار...قد يستغرق حفظ GEBVs بضع دقائق."
+
+#: js/source/legacy/solGS/gebvsSave.js:88
+msgctxt "solgs.browser.saving_genetic_values_wait"
+msgid "Please wait...saving the genetic values (adjusted means) may take a few minutes."
+msgstr "يرجى الانتظار...قد يستغرق حفظ القيم الوراثية (المتوسطات المعدلة) بضع دقائق."
+
+#: js/source/legacy/solGS/searchTrials.js:166
+msgctxt "solgs.browser.searching_more_trials"
+msgid "Searching for more GS trials.."
+msgstr "جارٍ البحث عن مزيد من تجارب GS.."
+
+#: js/source/legacy/solGS/selectionPopulations.js:145
+msgctxt "solgs.browser.searching_selection_populations"
+msgid "Searching for all selection populations relevant to this model...please wait..."
+msgstr "جارٍ البحث عن مجموعات الانتخاب الملائمة لهذا النموذج...يرجى الانتظار..."
+
+#: js/source/legacy/solGS/searchTrials.js:19
+msgctxt "solgs.browser.searching_trials"
+msgid "Searching for GS trials.."
+msgstr "جارٍ البحث عن تجارب GS.."
+
+#: js/source/legacy/solGS/combinePopulations.js:32
+#: js/source/legacy/solGS/combineTrials.js:73
+msgctxt "solgs.browser.select"
+msgid "Select"
+msgstr "تحديد"
+
+#: js/source/legacy/solGS/selectionIndex.js:331
+msgctxt "solgs.browser.selection_index_calculating"
+msgid "Calculating selection index...please wait..."
+msgstr "جارٍ حساب مؤشر الانتخاب...يرجى الانتظار..."
+
+#: js/source/legacy/solGS/selectionIndex.js:435
+msgctxt "solgs.browser.selection_index_calculation_error"
+msgid "error occurred calculating selection index."
+msgstr "حدث خطأ أثناء حساب دليل الانتخاب."
+
+#: js/source/legacy/solGS/selectionIndex.js:417
+msgctxt "solgs.browser.selection_index_correlation_error"
+msgid "Error occurred running correlation analysis."
+msgstr "حدث خطأ أثناء تحليل الارتباط."
+
+#: js/source/legacy/solGS/selectionIndex.js:382
+msgctxt "solgs.browser.selection_index_correlation_running"
+msgid "Running correlation... please wait..."
+msgstr "جارٍ حساب الارتباط...يرجى الانتظار..."
+
+#: js/source/legacy/solGS/selectionIndex.js:306
+msgctxt "solgs.browser.selection_index_form_error"
+msgid "Error occurred creating the selection index form."
+msgstr "حدث خطأ أثناء إنشاء نموذج مؤشر الانتخاب."
+
+#: js/source/legacy/solGS/selectionIndex.js:354
+#: mason/breeders_toolbox/drone_imagery/standard_process_raw_images.mas:351
+#: mason/breeders_toolbox/manage_drone_imagery.mas:381
+msgctxt "solgs.browser.selection_indices_link"
+msgid "Indices"
+msgstr "الأدلة"
+
+#: js/source/legacy/solGS/selectionPopulations.js:187
+msgctxt "solgs.browser.selection_population_already_listed"
+msgid "%{name} is already in the search result table"
+msgstr "المجموعة %{name} موجودة بالفعل في نتائج البحث"
+
+#: js/source/legacy/solGS/selectionPopulations.js:215
+msgctxt "solgs.browser.selection_population_is_training"
+msgid "%{name} is the same population as the the training population. Please select a different selection population."
+msgstr "المجموعة %{name} هي نفسها مجموعة التدريب. يرجى تحديد مجموعة انتخاب أخرى."
+
+#: js/source/legacy/solGS/selectionPopulations.js:209
+msgctxt "solgs.browser.selection_population_marker_mismatch"
+msgid ""
+"%{name} is genotyped by a marker set different  \n"
+"                  from the one used for the training population. Therefore you can not predict its GEBVs using this model."
+msgstr "تم تنميط المجموعة %{name} باستخدام مجموعة علامات مختلفة عن المستخدمة في مجموعة التدريب. لذلك لا يمكن لهذا النموذج التنبؤ بقيم GEBVs لها."
+
+#: js/source/legacy/solGS/selectionPopulations.js:220
+msgctxt "solgs.browser.selection_population_missing"
+msgid "%{name} does not exist in the database."
+msgstr "المجموعة %{name} غير موجودة في قاعدة البيانات."
+
+#: js/source/legacy/solGS/selectionPopulations.js:228
+msgctxt "solgs.browser.selection_population_process_error"
+msgid "Error occurred processing the query."
+msgstr "حدث خطأ أثناء معالجة الاستعلام."
+
+#: js/source/legacy/solGS/selectionPopulations.js:138
+msgctxt "solgs.browser.selection_population_query_error"
+msgid "Error occurred querying for selection populations"
+msgstr "حدث خطأ أثناء الاستعلام عن مجموعات الانتخاب"
+
+#: js/source/legacy/solGS/selectionPopulations.js:163
+msgctxt "solgs.browser.selection_population_search_error"
+msgid "Error occurred searching for the selection populations."
+msgstr "حدث خطأ أثناء البحث عن مجموعات الانتخاب."
+
+#: js/source/legacy/solGS/selectionIndex.js:297
+msgctxt "solgs.browser.single_valid_trait"
+msgid "There is only one trait with valid GEBV predictions."
+msgstr "توجد صفة واحدة فقط لها تنبؤات GEBV صالحة."
+
+#: js/source/legacy/solGS/listTypeSelectionPopulation.js:148
+#: js/source/legacy/solGS/listTypeTrainingPopulation.js:135
+msgctxt "solgs.browser.table_data_structure"
+msgid "Data structure"
+msgstr "بنية البيانات"
+
+#: js/source/legacy/solGS/listTypeSelectionPopulation.js:149
+#: js/source/legacy/solGS/listTypeTrainingPopulation.js:136
+msgctxt "solgs.browser.table_ownership"
+msgid "Ownership"
+msgstr "الملكية"
+
+#: js/source/legacy/solGS/listTypeSelectionPopulation.js:147
+#: js/source/legacy/solGS/listTypeTrainingPopulation.js:134
+msgctxt "solgs.browser.table_population"
+msgid "Population"
+msgstr "المجموعة"
+
+#: js/source/legacy/solGS/listTypeSelectionPopulation.js:150
+#: js/source/legacy/solGS/listTypeTrainingPopulation.js:137
+msgctxt "solgs.browser.table_run_solgs"
+msgid "Run solGS"
+msgstr "تشغيل solGS"
+
+#: js/source/legacy/solGS/searchTrials.js:309
+msgctxt "solgs.browser.training_population_check_error"
+msgid "Error occurred checking for if trial can be used as training population."
+msgstr "حدث خطأ أثناء التحقق من إمكانية استخدام التجربة كمجموعة تدريب."
+
+#: js/source/legacy/solGS/searchTrials.js:318
+msgctxt "solgs.browser.training_population_exists_error"
+msgid "Error occurred checking if the training population exists."
+msgstr "حدث خطأ أثناء التحقق من وجود مجموعة التدريب."
+
+#: js/source/legacy/solGS/download.js:114
+msgctxt "solgs.browser.trait_acronyms_link"
+msgid "Traits acronyms"
+msgstr "اختصارات الصفات"
+
+#: js/source/legacy/solGS/searchTraits.js:50
+msgctxt "solgs.browser.trait_search_error"
+msgid "Error occurred searching for trait %{name}"
+msgstr "حدث خطأ أثناء البحث عن الصفة %{name}"
+
+#: js/source/legacy/solGS/listTypeTrainingPopulation.js:266
+msgctxt "solgs.browser.trial_ids_error"
+msgid "Error occurred querying for trials ids"
+msgstr "حدث خطأ أثناء الاستعلام عن معرّفات التجارب."
+
+#: js/source/legacy/solGS/searchTrials.js:313
+msgctxt "solgs.browser.trial_not_in_database"
+msgid " is not in the database."
+msgstr " غير موجود في قاعدة البيانات."
+
+#: js/source/legacy/solGS/combineTrials.js:304
+msgctxt "solgs.browser.trial_phenotype_genotype_retrieval_error"
+msgid "An error occurred retrieving phenotypeand genotype data for trials.."
+msgstr "حدث خطأ أثناء استرداد البيانات الظاهرية والجينية للتجارب.."
+
+#: js/source/legacy/solGS/searchTrials.js:99
+msgctxt "solgs.browser.trial_table_description"
+msgid "Description"
+msgstr "الوصف"
+
+#: js/source/legacy/solGS/searchTrials.js:99
+msgctxt "solgs.browser.trial_table_location"
+msgid "Location"
+msgstr "الموقع"
+
+#: js/source/legacy/solGS/searchTrials.js:99
+msgctxt "solgs.browser.trial_table_more_details"
+msgid "More details"
+msgstr "مزيد من التفاصيل"
+
+#: js/source/legacy/solGS/searchTrials.js:99
+msgctxt "solgs.browser.trial_table_trial"
+msgid "Trial"
+msgstr "التجربة"
+
+#: js/source/legacy/solGS/searchTrials.js:99
+msgctxt "solgs.browser.trial_table_year"
+msgid "Year"
+msgstr "السنة"
+
+#: js/source/legacy/solGS/selectionIndex.js:165
+msgctxt "solgs.browser.two_traits_weight_required"
+msgid "At least two traits must be assigned relative weight."
+msgstr "يجب تعيين وزن نسبي لصفتين على الأقل."
+
+#: js/source/legacy/solGS/gebvsSave.js:55 js/source/legacy/solGS/gebvsSave.js:8
+msgctxt "solgs.browser.view_stored_gebvs"
+msgid "View stored GEBVs"
+msgstr "عرض GEBVs المحفوظة"
+
+#: js/source/legacy/solGS/gebvsSave.js:125
+#: js/source/legacy/solGS/gebvsSave.js:78
+msgctxt "solgs.browser.view_stored_genetic_values"
+msgid "View stored genetic values"
+msgstr "عرض القيم الوراثية المحفوظة"
+
+#: js/source/legacy/solGS/selectionIndex.js:355
+msgctxt "solgs.browser.weighted_gebvs_indices_link"
+msgid "Weighted GEBVs+indices"
+msgstr "GEBVs المرجحة+الأدلة"
+
+#: lib/SGN/Controller/solGS/Feedback.pm:40
+msgctxt "solgs.feedback.alternatively_you_can_also_check_the_status_of_the_job_in"
+msgid "Alternatively, you can also check the status of the job in "
+msgstr "يمكنك أيضًا التحقق من حالة المهمة في "
+
+#: lib/SGN/Controller/solGS/Feedback.pm:36
+msgctxt "solgs.feedback.go_back"
+msgid "[ Go back ]"
+msgstr "[ العودة ]"
+
+#: lib/SGN/Controller/solGS/Feedback.pm:39
+msgctxt "solgs.feedback.you_will_receive_an_email_when_it_is_completed_which_may_take_up_to_a_few_hours_if_the_email_is_not_in_your_inbox_please_check_also_your_spam_folder"
+msgid "You will receive an email when it is completed,  which may take up to a few hours. If the email is not in your inbox, please check also your spam folder."
+msgstr "ستتلقى رسالة بريد إلكتروني عند اكتمال المهمة، وقد يستغرق ذلك بضع ساعات. إذا لم تجدها في صندوق الوارد، فتحقق أيضًا من مجلد الرسائل غير المرغوب فيها."
+
+#: lib/SGN/Controller/solGS/Feedback.pm:38
+msgctxt "solgs.feedback.your_job_type_job_is_submitted"
+msgid "Your %{job_type} job is submitted."
+msgstr "تم إرسال مهمتك %{job_type}."
+
+#: lib/SGN/Controller/solGS/Feedback.pm:33
+msgctxt "solgs.feedback.your_profile_page"
+msgid "your profile page"
+msgstr "صفحة ملفك الشخصي"
+
+#: mason/solgs/population/models/model/phenotype/trait_phenotype_data.mas:27
+msgctxt "solgs.interface.accession_phenotype_means_data_distribution"
+msgid "Accession phenotype means data distribution"
+msgstr "توزيع متوسطات البيانات المظهرية للمدخلات الوراثية"
+
+#: mason/solgs/population/trait_acronyms.mas:41
+msgctxt "solgs.interface.acronym"
+msgid "Acronym"
+msgstr "اختصار"
+
+#: mason/solgs/population/trait_acronyms.mas:31
+msgctxt "solgs.interface.acronyms_legend"
+msgid "Acronyms legend"
+msgstr "مفتاح الاختصارات"
+
+#: mason/solgs/population/models/model/variance_components.mas:23
+msgctxt "solgs.interface.additive_genetic_variance"
+msgid "Additive genetic variance"
+msgstr "التباين الوراثي الإضافي"
+
+#: mason/solgs/population/models/models_summary.mas:54
+msgctxt "solgs.interface.additive_variance"
+msgid "Additive variance"
+msgstr "التباين الإضافي"
+
+#: mason/solgs/jobs/log.mas:33
+msgctxt "solgs.interface.analysis_name"
+msgid "Analysis name"
+msgstr "اسم التحليل"
+
+#: mason/solgs/jobs/log.mas:34
+msgctxt "solgs.interface.analysis_type"
+msgid "Analysis type"
+msgstr "نوع التحليل"
+
+#: mason/solgs/tools/selection_index/selection_index.mas:47
+msgctxt "solgs.interface.and_assign_relative_weights_to_traits"
+msgid " And assign relative weights to traits."
+msgstr " وعيّن أوزانًا نسبية للصفات."
+
+#: mason/solgs/population/models/model/phenotype/trait_pheno_desc_stat.mas:27
+msgctxt "solgs.interface.arithmetic_mean"
+msgid "Arithmetic mean"
+msgstr "المتوسط الحسابي"
+
+#: mason/solgs/search/breeder_search_solgs.mas:6
+msgctxt "solgs.interface.back"
+msgid "Back"
+msgstr "رجوع"
+
+#: mason/solgs/search/breeder_search_solgs.mas:10
+msgctxt "solgs.interface.back_to_solgs"
+msgid "Back to solGS"
+msgstr "العودة إلى solGS"
+
+#: mason/solgs/population/traits_list.mas:69
+msgctxt "solgs.interface.build_model"
+msgid "Build model"
+msgstr "بناء النموذج"
+
+#: mason/solgs/genotyping_protocol/index.mas:53
+msgctxt "solgs.interface.change"
+msgid "Change"
+msgstr "تغيير"
+
+#: mason/solgs/tools/genetic_gain/multi_traits_genetic_gain.mas:26
+#: mason/solgs/tools/genetic_gain/single_trait_genetic_gain.mas:29
+msgctxt "solgs.interface.check_genetic_gain"
+msgid "Check Genetic Gain"
+msgstr "التحقق من التقدم الوراثي"
+
+#: mason/solgs/tools/anova/analysis.mas:39
+msgctxt "solgs.interface.clear_cache"
+msgid "Clear cache"
+msgstr "مسح ذاكرة التخزين المؤقت"
+
+#: mason/solgs/tools/cluster/analysis.mas:47
+msgctxt "solgs.interface.cluster_page_title"
+msgid "Clustering Analysis"
+msgstr "التحليل العنقودي"
+
+#: mason/solgs/tools/cluster/analysis.mas:56
+msgctxt "solgs.interface.cluster_section_title"
+msgid "Clustering analysis"
+msgstr "التحليل العنقودي"
+
+#: mason/solgs/population/models/model/accuracy.mas:27
+#: mason/solgs/population/models/model/phenotype/trait_pheno_desc_stat.mas:30
+msgctxt "solgs.interface.coefficient_of_variation"
+msgid "Coefficient of variation"
+msgstr "معامل الاختلاف"
+
+#: mason/solgs/search/combine_trials_table.mas:24
+msgctxt "solgs.interface.combine_trials"
+msgid "Combine trials"
+msgstr "دمج التجارب"
+
+#: mason/solgs/search/combine_trials_table.mas:22
+msgctxt "solgs.interface.combine_trials_build_model"
+msgid "Combine trials & build model"
+msgstr "دمج التجارب وبناء النموذج"
+
+#: mason/solgs/tools/correlation/analysis.mas:69
+msgctxt "solgs.interface.correlation_analysis"
+msgid "Correlation Analysis"
+msgstr "تحليل الارتباط"
+
+#: mason/solgs/search/trial_search_form.mas:26
+msgctxt "solgs.interface.create_a_a_training_population_using_one_or_more_trials"
+msgid "Create a a training population using one or more trials"
+msgstr "إنشاء عشيرة تدريب باستخدام تجربة واحدة أو أكثر"
+
+#: mason/solgs/search/list_type_selection_population.mas:35
+msgctxt "solgs.interface.create_a_new_dataset_of_accessions_or_trials"
+msgid "Create a new dataset of accessions or trials"
+msgstr "إنشاء مجموعة بيانات للمدخلات أو التجارب"
+
+#: mason/solgs/search/list_type_training_population.mas:40
+msgctxt "solgs.interface.create_a_new_dataset_of_plots_or_trials"
+msgid "Create a new dataset of plots or trials"
+msgstr "إنشاء مجموعة بيانات للقطع أو التجارب"
+
+#: mason/solgs/tools/datatable_display.mas:23
+#: mason/solgs/tools/select_menu.mas:23
+msgctxt "solgs.interface.create_a_new_list_or_dataset"
+msgid "Create a new list or dataset"
+msgstr "إنشاء قائمة أو مجموعة بيانات"
+
+#: mason/solgs/search/result/populations.mas:35
+msgctxt "solgs.interface.create_a_training_population_using_individuals_from_one_or_more"
+msgid "Create a training population using individuals from one or more trials to fit a prediction model for %{trait_name}"
+msgstr "إنشاء عشيرة تدريب من أفراد تجربة واحدة أو أكثر لملاءمة نموذج تنبؤ للصفة %{trait_name}"
+
+#: mason/solgs/population/models/model/detail.mas:139
+#: mason/solgs/population/training_population.mas:128
+msgctxt "solgs.interface.data_accessibility"
+msgid "Data Accessibility"
+msgstr "إمكانية الوصول إلى البيانات"
+
+#: mason/solgs/search/traits/list.mas:14
+msgctxt "solgs.interface.definition"
+msgid "Definition"
+msgstr "التعريف"
+
+#: mason/solgs/jobs/log.mas:22
+msgctxt "solgs.interface.dismiss_all_jobs_older_than"
+msgid "Dismiss all jobs older than"
+msgstr "إخفاء جميع المهام الأقدم من"
+
+#: mason/solgs/jobs/log.mas:20
+msgctxt "solgs.interface.dismiss_failed_and_timed_out_jobs"
+msgid "Dismiss failed and timed out jobs"
+msgstr "إخفاء المهام الفاشلة والمنتهية المهلة"
+
+#: mason/solgs/population/download.mas:25
+msgctxt "solgs.interface.download_data"
+msgid "Download data"
+msgstr "تنزيل البيانات"
+
+#: mason/solgs/population/models/model/marker_effects.mas:31
+msgctxt "solgs.interface.effects"
+msgid "Effects"
+msgstr "التأثيرات"
+
+#: mason/solgs/genotyping_protocol/index.mas:25
+msgctxt "solgs.interface.either_load_genotype_data_to_the_database_and_try_again"
+msgid "either load genotype data to the database and try again or select a genotyping protocol (from above)."
+msgstr "تحميل البيانات الوراثية إلى قاعدة البيانات والمحاولة مجدداً، أو تحديد بروتوكول التنميط الوراثي أعلاه."
+
+#: mason/solgs/search/trait_search_form.mas:38
+msgctxt "solgs.interface.enter_trait_name"
+msgid "enter trait name"
+msgstr "أدخل اسم الصفة"
+
+#: mason/solgs/population/models/model/variance_components.mas:24
+msgctxt "solgs.interface.error_variance"
+msgid "Error variance"
+msgstr "تباين الخطأ"
+
+#: mason/solgs/population/models/model/variance_components.mas:47
+msgctxt "solgs.interface.estimates"
+msgid "Estimates"
+msgstr "التقديرات"
+
+#: mason/solgs/tools/genetic_gain/genetic_gain.mas:47
+msgctxt "solgs.interface.expected_genetic_gain_analysis"
+msgid "Expected genetic gain analysis"
+msgstr "تحليل التقدم الوراثي المتوقع"
+
+#: mason/solgs/population/models/model/gebv_pheno_regression.mas:46
+msgctxt "solgs.interface.gebvs_vs_observed_phenotypes"
+msgid "GEBVs vs observed phenotypes"
+msgstr "GEBVs مقابل الأنماط المظهرية المرصودة"
+
+#: mason/solgs/tools/correlation/genetic_correlation.mas:45
+msgctxt "solgs.interface.genetic_correlation_analysis"
+msgid "Genetic correlation analysis"
+msgstr "تحليل الارتباط الوراثي"
+
+#: mason/solgs/population/models/model/gebvs.mas:24
+msgctxt "solgs.interface.genomic_estimated_breeding_values_gebvs_gblup_method"
+msgid "Genomic estimated breeding values (GEBVs) - GBLUP method"
+msgstr "القيم التربوية الجينومية المقدرة (GEBVs) - طريقة GBLUP"
+
+#: mason/solgs/tools/selection_index/top_genotypes.mas:20
+msgctxt "solgs.interface.genotype_ranking_based_on_multiple_traits_performance_selection_index"
+msgid "Genotype ranking based on multiple traits performance (selection index)"
+msgstr "ترتيب الأنماط الجينية وفق صفات متعددة (دليل الانتخاب)"
+
+#: mason/solgs/population/models/model/top_blups.mas:25
+msgctxt "solgs.interface.genotypes"
+msgid "Genotypes"
+msgstr "الأنماط الجينية"
+
+#: mason/solgs/population/histogram_bin_elements.mas:30
+msgctxt "solgs.interface.genotypes_in_the_selected_bin"
+msgid "Genotypes in the selected bin"
+msgstr "الأنماط الجينية في الفئة المحددة"
+
+#: mason/solgs/population/summary.mas:50
+msgctxt "solgs.interface.genotyping_version"
+msgid "Genotyping version"
+msgstr "إصدار التنميط الوراثي"
+
+#: mason/solgs/search/result/populations.mas:28
+msgctxt "solgs.interface.gs_populations_evaluated_for_query"
+msgid "GS populations evaluated for %{query}"
+msgstr "عشائر GS المقيّمة لـ %{query}"
+
+#: mason/solgs/search/trials/trait.mas:39
+msgctxt "solgs.interface.gs_populations_evaluated_for_trait_name"
+msgid "GS populations evaluated for %{trait_name}"
+msgstr "عشائر GS المقيّمة للصفة %{trait_name}"
+
+#: mason/solgs/genotyping_protocol/index.mas:29
+msgctxt "solgs.interface.if_you_intend_to_use_the_tool_on_genotype_data"
+msgid "If you intend to use the tool on genotype data, please"
+msgstr "إذا أردت استخدام الأداة مع البيانات الوراثية، فيُرجى"
+
+#: mason/solgs/tools/kinship/analysis.mas:44
+msgctxt "solgs.interface.kinship_page_title"
+msgid "Kinship and Inbreeding Analysis"
+msgstr "تحليل القرابة وزواج الأقارب"
+
+#: mason/solgs/tools/kinship/analysis.mas:52
+msgctxt "solgs.interface.kinship_section_title"
+msgid "Kinship and inbreeding analysis"
+msgstr "تحليل القرابة وزواج الأقارب"
+
+#: mason/solgs/search/all_traits_index.mas:13
+#: mason/solgs/search/traits/list.mas:39
+msgctxt "solgs.interface.list_of_traits_with_gs_data"
+msgid "List of traits with GS data"
+msgstr "قائمة الصفات ذات بيانات GS"
+
+#: mason/solgs/search/combine_trials_table.mas:39
+#: mason/solgs/search/result.mas:26
+#: mason/solgs/search/result/confirm/populations_list.mas:29
+msgctxt "solgs.interface.location"
+msgid "Location"
+msgstr "الموقع"
+
+#: mason/solgs/tools/login.mas:14
+msgctxt "solgs.interface.login"
+msgid "login"
+msgstr "تسجيل الدخول"
+
+#: mason/solgs/population/models/model/marker_effects.mas:31
+msgctxt "solgs.interface.marker"
+msgid "Marker"
+msgstr "واسم"
+
+#: mason/solgs/population/models/model/marker_effects.mas:25
+msgctxt "solgs.interface.marker_effects"
+msgid "Marker effects"
+msgstr "تأثيرات الواسمات"
+
+#: mason/solgs/population/models/model/phenotype/trait_pheno_desc_stat.mas:26
+msgctxt "solgs.interface.maximum"
+msgid "Maximum"
+msgstr "الحد الأقصى"
+
+#: mason/solgs/population/models/model/accuracy.mas:25
+msgctxt "solgs.interface.maximum_accuracy"
+msgid "Maximum accuracy"
+msgstr "الدقة القصوى"
+
+#: mason/solgs/population/models/model/accuracy.mas:29
+msgctxt "solgs.interface.mean_accuracy"
+msgid "Mean accuracy"
+msgstr "متوسط الدقة"
+
+#: mason/solgs/population/models/model/phenotype/trait_pheno_desc_stat.mas:28
+msgctxt "solgs.interface.median"
+msgid "Median"
+msgstr "الوسيط"
+
+#: mason/solgs/population/models/model/accuracy.mas:28
+msgctxt "solgs.interface.median_accuracy"
+msgid "Median accuracy"
+msgstr "الدقة الوسيطة"
+
+#: mason/solgs/population/models/model/phenotype/trait_pheno_desc_stat.mas:25
+msgctxt "solgs.interface.minimum"
+msgid "Minimum"
+msgstr "الحد الأدنى"
+
+#: mason/solgs/population/models/model/accuracy.mas:24
+msgctxt "solgs.interface.minimum_accuracy"
+msgid "Minimum accuracy"
+msgstr "الدقة الدنيا"
+
+#: mason/solgs/population/models/model/phenotype/trait_pheno_desc_stat.mas:24
+msgctxt "solgs.interface.missing_data"
+msgid "Missing data"
+msgstr "البيانات المفقودة"
+
+#: mason/solgs/population/models/models_summary.mas:54
+msgctxt "solgs.interface.model_accuracy"
+msgid "Model accuracy"
+msgstr "دقة النموذج"
+
+#: mason/solgs/population/models/model/accuracy.mas:47
+msgctxt "solgs.interface.model_accuracy_statistics_k_fold_cross_validation_method"
+msgid "Model accuracy statistics -- K-fold cross-validation method"
+msgstr "إحصاءات دقة النموذج -- طريقة التحقق المتقاطع ذي K طيات"
+
+#: mason/solgs/population/training_population.mas:75
+msgctxt "solgs.interface.model_training"
+msgid "Model training"
+msgstr "تدريب النموذج"
+
+#: mason/solgs/population/models/model/detail.mas:41
+msgctxt "solgs.interface.model_trait_name_trait_abbr"
+msgid "Model %{trait_name} (%{trait_abbr})"
+msgstr "نموذج %{trait_name} (%{trait_abbr})"
+
+#: mason/solgs/population/models/models_summary.mas:39
+msgctxt "solgs.interface.models"
+msgid "Models"
+msgstr "النماذج"
+
+#: mason/solgs/population/models/models_summary.mas:32
+msgctxt "solgs.interface.models_summary"
+msgid "Models summary"
+msgstr "ملخص النماذج"
+
+#: mason/solgs/search/combine_trials_table.mas:41
+#: mason/solgs/search/selection_populations.mas:72
+msgctxt "solgs.interface.more_details"
+msgid "More details"
+msgstr "مزيد من التفاصيل"
+
+#: mason/solgs/population/models/model/accuracy.mas:21
+msgctxt "solgs.interface.no_of_k_folds"
+msgid "No. of K-folds"
+msgstr "عدد طيات K"
+
+#: mason/solgs/population/summary.mas:50
+msgctxt "solgs.interface.no_of_markers"
+msgid "No. of markers"
+msgstr "عدد الواسمات"
+
+#: mason/solgs/search/result.mas:41
+msgctxt "solgs.interface.no_results_search_again_with_a_different_term"
+msgid "No results. Search again with a different term."
+msgstr "لا توجد نتائج. أعد البحث بكلمة مختلفة."
+
+#: mason/solgs/search/result/populations.mas:74
+#: mason/solgs/search/result/traits.mas:53
+msgctxt "solgs.interface.no_results_search_again_with_a_trait_name"
+msgid "No results. Search again with a trait name."
+msgstr "لا توجد نتائج. أعد البحث باستخدام اسم صفة."
+
+#: mason/solgs/search/result.mas:38
+#: mason/solgs/search/result/populations.mas:65
+msgctxt "solgs.interface.no_search_results"
+msgid "No Search Results"
+msgstr "لا توجد نتائج بحث"
+
+#: mason/solgs/population/models/model/phenotype/trait_pheno_desc_stat.mas:23
+msgctxt "solgs.interface.observations_count"
+msgid "Observations count"
+msgstr "عدد المشاهدات"
+
+#: mason/solgs/search/trait_search_form.mas:29
+msgctxt "solgs.interface.or_search_for_a_trait"
+msgid "Or search for a trait "
+msgstr "أو البحث عن صفة "
+
+#: mason/solgs/search/list_type_training_population.mas:32
+msgctxt "solgs.interface.or_use_a_list_or_dataset_as_a_training_population"
+msgid "Or use a list or dataset as a training population"
+msgstr "أو استخدام قائمة أو مجموعة بيانات كعشيرة تدريب"
+
+#: mason/solgs/tools/pca/analysis.mas:63
+msgctxt "solgs.interface.pca_page_title"
+msgid "Principal Component Analysis (PCA)"
+msgstr "تحليل المكونات الرئيسية (PCA)"
+
+#: mason/solgs/tools/pca/analysis.mas:51
+msgctxt "solgs.interface.pca_section_title"
+msgid "Principal component analysis (PCA)"
+msgstr "تحليل المكونات الرئيسية (PCA)"
+
+#: mason/solgs/tools/analysis_select.mas:30
+msgctxt "solgs.interface.pearson_phenotype_correlation"
+msgid "Pearson Phenotype Correlation"
+msgstr "الارتباط المظهري لبيرسون"
+
+#: mason/solgs/tools/correlation/analysis.mas:57
+msgctxt "solgs.interface.phenotypic_correlation_analysis_pearson"
+msgid "Phenotypic correlation analysis (Pearson)"
+msgstr "تحليل الارتباط المظهري (بيرسون)"
+
+#: mason/solgs/genotyping_protocol/index.mas:27
+msgctxt "solgs.interface.please"
+msgid "Please"
+msgstr "يُرجى"
+
+#: mason/solgs/search/result.mas:26
+msgctxt "solgs.interface.population"
+msgid "Population"
+msgstr "المجموعة"
+
+#: mason/solgs/search/selection_populations.mas:31
+msgctxt "solgs.interface.predict_gebvs_of_a_selection_population_using_the_model"
+msgid "Predict GEBVs of a selection population using the model"
+msgstr "تنبؤ GEBVs لعشيرة الانتخاب باستخدام النموذج"
+
+#: mason/solgs/search/selection_populations.mas:28
+msgctxt "solgs.interface.predict_gebvs_of_a_selection_population_using_the_models"
+msgid "Predict GEBVs of a selection population using the models"
+msgstr "تنبؤ GEBVs لعشيرة الانتخاب باستخدام النماذج"
+
+#: mason/solgs/population/models/detail.mas:57
+msgctxt "solgs.interface.prediction_models_from_training_pop_name"
+msgid "Prediction models from %{training_pop_name}"
+msgstr "نماذج التنبؤ من %{training_pop_name}"
+
+#: mason/solgs/population/models/model/phenotype/trait_phenotype_data.mas:28
+msgctxt "solgs.interface.raw_phenotype_data_distribution"
+msgid "Raw phenotype data distribution"
+msgstr "توزيع البيانات المظهرية الخام"
+
+#: mason/solgs/population/models/model/accuracy.mas:22
+msgctxt "solgs.interface.replications"
+msgid "Replications"
+msgstr "المكررات"
+
+#: mason/solgs/population/models/model/phenotype/trait_phenotype_scatter.mas:26
+msgctxt "solgs.interface.reset_zoom"
+msgid "Reset zoom"
+msgstr "إعادة ضبط التكبير"
+
+#: mason/solgs/jobs/log.mas:37
+msgctxt "solgs.interface.result_page"
+msgid "Result page"
+msgstr "صفحة النتائج"
+
+#: mason/solgs/genotyping_protocol/index.mas:49
+msgctxt "solgs.interface.retrieving_genotyping_protocols"
+msgid "Retrieving genotyping protocols..."
+msgstr "جارٍ جلب بروتوكولات التنميط الوراثي..."
+
+#: mason/solgs/genotyping_protocol/index.mas:37
+msgctxt "solgs.interface.retrieving_genotyping_protocols_please_wait"
+msgid "Retrieving genotyping protocols...please wait..."
+msgstr "جارٍ جلب بروتوكولات التنميط الوراثي... يُرجى الانتظار..."
+
+#: mason/solgs/tools/datatable_display.mas:30
+msgctxt "solgs.interface.retrieving_lists_and_datasets_please_wait_it_may_take_minutes"
+msgid "Retrieving lists and datasets...please wait...it may take minutes."
+msgstr "جارٍ جلب القوائم ومجموعات البيانات... يُرجى الانتظار... قد يستغرق ذلك بضع دقائق."
+
+#: mason/solgs/tools/cluster/cluster_options.mas:53
+#: mason/solgs/tools/kinship/kinship_options.mas:34
+msgctxt "solgs.interface.run"
+msgid "Run"
+msgstr "تشغيل"
+
+#: mason/solgs/tools/dataset_trials_analysis.mas:51
+msgctxt "solgs.interface.run_analysis"
+msgid "Run Analysis"
+msgstr "تشغيل التحليل"
+
+#: mason/solgs/tools/anova/analysis.mas:37
+msgctxt "solgs.interface.run_anova"
+msgid "Run ANOVA"
+msgstr "تشغيل ANOVA"
+
+#: mason/solgs/tools/cluster/analysis.mas:103
+msgctxt "solgs.interface.run_cluster"
+msgid "Run Cluster"
+msgstr "تشغيل التجميع"
+
+#: mason/solgs/tools/correlation/analysis.mas:90
+#: mason/solgs/tools/correlation/genetic_correlation.mas:50
+msgctxt "solgs.interface.run_correlation"
+msgid "Run correlation"
+msgstr "حساب الارتباط"
+
+#: mason/solgs/tools/kinship/analysis.mas:86
+msgctxt "solgs.interface.run_kinship"
+msgid "Run kinship"
+msgstr "حساب القرابة"
+
+#: mason/solgs/tools/pca/pca_options.mas:35
+msgctxt "solgs.interface.run_pca"
+msgid "Run PCA"
+msgstr "تشغيل PCA"
+
+#: mason/solgs/population/models/model/save_gebvs.mas:22
+msgctxt "solgs.interface.save_gebvs"
+msgid "Save GEBVs"
+msgstr "حفظ GEBVs"
+
+#: mason/solgs/population/models/model/save_gebvs.mas:23
+msgctxt "solgs.interface.save_genetic_values"
+msgid "Save genetic values"
+msgstr "حفظ القيم الوراثية"
+
+#: mason/solgs/search/result.mas:48
+msgctxt "solgs.interface.search"
+msgid "Search"
+msgstr "بحث"
+
+#: mason/solgs/search/trait.mas:24
+msgctxt "solgs.interface.search_fc9f76"
+msgid "Search "
+msgstr "بحث "
+
+#: mason/solgs/search/selection_populations.mas:51
+#: mason/solgs/search/trial_search_form.mas:34
+msgctxt "solgs.interface.search_for_a_trial"
+msgid "search for a trial"
+msgstr "البحث عن تجربة"
+
+#: mason/solgs/search/result.mas:22
+msgctxt "solgs.interface.search_results"
+msgid "Search Results"
+msgstr "نتائج البحث"
+
+#: mason/solgs/tools/select_menu.mas:31
+msgctxt "solgs.interface.select_a_population"
+msgid "Select a population"
+msgstr "اختر مجموعة"
+
+#: mason/solgs/search/trials/trait.mas:47
+msgctxt "solgs.interface.select_a_training_population_or_create_a_new_one_using"
+msgid "Select a training population or create a new one using one or more trials"
+msgstr "حدد عشيرة تدريب أو أنشئ عشيرة جديدة باستخدام تجربة واحدة أو أكثر"
+
+#: mason/solgs/tools/trials_select.mas:54
+msgctxt "solgs.interface.select_a_trial"
+msgid "Select a trial"
+msgstr "اختر تجربة"
+
+#: mason/solgs/tools/analysis_select.mas:29
+msgctxt "solgs.interface.select_an_analysis"
+msgid "Select an analysis"
+msgstr "اختر تحليلًا"
+
+#: mason/solgs/search/combine_trials_table.mas:32
+msgctxt "solgs.interface.selected_trials"
+msgid "Selected trials"
+msgstr "التجارب المحددة"
+
+#: mason/solgs/tools/cluster/cluster_options.mas:37
+msgctxt "solgs.interface.selection"
+msgid "selection %?"
+msgstr "انتخاب %?"
+
+#: mason/solgs/tools/selection_index/selection_index.mas:40
+msgctxt "solgs.interface.selection_index_calculator"
+msgid "Selection index calculator"
+msgstr "حاسبة دليل الانتخاب"
+
+#: mason/solgs/search/selection_populations.mas:69
+msgctxt "solgs.interface.selection_population"
+msgid "Selection population"
+msgstr "عشيرة الانتخاب"
+
+#: mason/solgs/population/selection_prediction_detail.mas:59
+msgctxt "solgs.interface.selection_population_summary"
+msgid "Selection population summary"
+msgstr "ملخص مجموعة الانتخاب"
+
+#: mason/solgs/population/models/models_summary.mas:54
+msgctxt "solgs.interface.snp_heritability"
+msgid "SNP heritability"
+msgstr "التوريث المرتبط بـ SNP"
+
+#: mason/solgs/population/models/model/variance_components.mas:25
+msgctxt "solgs.interface.snp_heritability_h"
+msgid "SNP heritability (h)"
+msgstr "التوريث بمعالم SNP (h)"
+
+#: mason/solgs/search/solgs.mas:38
+msgctxt "solgs.interface.solgs_genomic_prediction_modeling"
+msgid "solGS: Genomic Prediction Modeling"
+msgstr "solGS: نمذجة التنبؤ الجينومي"
+
+#: mason/solgs/search/result.mas:15
+msgctxt "solgs.interface.solgs_search_results"
+msgid "solGS search results"
+msgstr "نتائج بحث solGS"
+
+#: mason/solgs/search/trait.mas:22
+msgctxt "solgs.interface.solgs_search_traits"
+msgid "solGS: Search Traits"
+msgstr "solGS: البحث عن الصفات"
+
+#: mason/solgs/population/models/model/accuracy.mas:26
+#: mason/solgs/population/models/model/phenotype/trait_pheno_desc_stat.mas:29
+msgctxt "solgs.interface.standard_deviation"
+msgid "Standard deviation"
+msgstr "الانحراف المعياري"
+
+#: mason/solgs/jobs/log.mas:36
+msgctxt "solgs.interface.status"
+msgid "Status"
+msgstr "الحالة"
+
+#: mason/solgs/jobs/log.mas:35
+msgctxt "solgs.interface.submitted_on"
+msgid "Submitted on"
+msgstr "تاريخ الإرسال"
+
+#: mason/solgs/tools/selection_index/selection_index.mas:29
+msgctxt "solgs.interface.the_input_form_takes_numbers_including_multiplication_formulas_e_g_2_1_5_2_3"
+msgid "The input form takes numbers, including multiplication formulas, e.g., 2*1.5*2.3"
+msgstr "يقبل النموذج أرقامًا، بما في ذلك صيغ الضرب، مثل 2*1.5*2.3"
+
+#: mason/solgs/population/traits_list.mas:80
+msgctxt "solgs.interface.there_are_no_phenotyped_traits_for_this_population"
+msgid "There are no phenotyped traits for this population."
+msgstr "لا توجد صفات مقاسة مظهرياً لهذه العشيرة."
+
+#: mason/solgs/search/traits/list.mas:32
+msgctxt "solgs.interface.there_are_no_traits_starting_with_index"
+msgid "There are no traits starting with %{index} "
+msgstr "لا توجد صفات تبدأ بـ %{index} "
+
+#: mason/solgs/population/models/model/accuracy.mas:31
+msgctxt "solgs.interface.there_is_no_cross_validation_output_report"
+msgid "There is no cross-validation output report."
+msgstr "لا يوجد تقرير لنتائج التحقق المتقاطع."
+
+#: mason/solgs/population/training_population.mas:118
+msgctxt "solgs.interface.there_is_no_genotype_data_for_this_population"
+msgid "There is no genotype data for this population."
+msgstr "لا توجد بيانات وراثية لهذه العشيرة."
+
+#: mason/solgs/genotyping_protocol/index.mas:27
+msgctxt "solgs.interface.therefore_solgs_does_not_function_in_this_website"
+msgid "Therefore, solGS does not function in this website."
+msgstr "لذلك لا يعمل solGS على هذا الموقع."
+
+#: mason/solgs/genotyping_protocol/index.mas:29
+msgctxt "solgs.interface.therefore_this_tool_does_not_function_on_genotype_data_in"
+msgid "Therefore, this tool does not function on genotype data in this website."
+msgstr "لذلك لا تعمل هذه الأداة على البيانات الوراثية في هذا الموقع."
+
+#: mason/solgs/genotyping_protocol/index.mas:24
+msgctxt "solgs.interface.this_database_has_no_genotype_data_or_you_have_not"
+msgid "This database has no genotype data or you have not selected a genotyping protocol."
+msgstr "لا تحتوي قاعدة البيانات هذه على بيانات وراثية أو لم تحدد بروتوكول التنميط الوراثي."
+
+#: mason/solgs/population/models/model/detail.mas:141
+#: mason/solgs/population/training_population.mas:131
+msgctxt "solgs.interface.this_is_private_data"
+msgid "This is private data."
+msgstr "هذه بيانات خاصة."
+
+#: mason/solgs/search/result/confirm/populations_list.mas:23
+msgctxt "solgs.interface.tip"
+msgid "Tip"
+msgstr "تلميح"
+
+#: mason/solgs/tools/login.mas:13
+msgctxt "solgs.interface.to_view_your_datasets_and_use_this_tool"
+msgid "To view your datasets and use this tool "
+msgstr "لعرض مجموعات بياناتك واستخدام هذه الأداة، "
+
+#: mason/solgs/population/models/model/top_blups.mas:22
+#: mason/solgs/tools/selection_index/top_genotypes.mas:23
+msgctxt "solgs.interface.top_10_genotypes"
+msgid "Top 10 genotypes"
+msgstr "أفضل 10 أنماط جينية"
+
+#: mason/solgs/population/models/model/marker_effects.mas:28
+msgctxt "solgs.interface.top_10_markers"
+msgid "Top 10 markers"
+msgstr "أفضل 10 واسمات"
+
+#: mason/solgs/population/models/model/accuracy.mas:23
+msgctxt "solgs.interface.total_cross_validation_runs"
+msgid "Total cross-validation runs"
+msgstr "إجمالي مرات التحقق المتقاطع"
+
+#: mason/solgs/population/summary.mas:53
+msgctxt "solgs.interface.training_model"
+msgid "Training model"
+msgstr "نموذج التدريب"
+
+#: mason/solgs/population/models/models_summary.mas:37
+msgctxt "solgs.interface.training_population"
+msgid "Training population"
+msgstr "عشيرة التدريب"
+
+#: mason/solgs/population/models/model/detail.mas:47
+#: mason/solgs/population/training_population.mas:50
+msgctxt "solgs.interface.training_population_summary"
+msgid "Training population summary"
+msgstr "ملخص عشيرة التدريب"
+
+#: mason/solgs/population/trait_acronyms.mas:42
+#: mason/solgs/search/traits/list.mas:13
+msgctxt "solgs.interface.trait"
+msgid "Trait"
+msgstr "صفة"
+
+#: mason/solgs/population/selection_prediction_detail.mas:53
+msgctxt "solgs.interface.trait_name_trait_abbr_gebvs_selection_pop_name"
+msgid "%{trait_name} (%{trait_abbr}) GEBVs -- %{selection_pop_name}"
+msgstr "%{trait_name} (%{trait_abbr}) GEBVs -- %{selection_pop_name}"
+
+#: mason/solgs/population/models/model/detail.mas:78
+msgctxt "solgs.interface.trait_phenotype_data"
+msgid "Trait phenotype data"
+msgstr "البيانات المظهرية للصفة"
+
+#: mason/solgs/search/all_traits_index.mas:17
+#: mason/solgs/search/traits/list.mas:43
+msgctxt "solgs.interface.traits_beginning_with_index"
+msgid "Traits beginning with \"%{index}\" "
+msgstr "الصفات التي تبدأ بـ \"%{index}\" "
+
+#: mason/solgs/search/result/traits.mas:22
+msgctxt "solgs.interface.traits_with_genomic_selection_data"
+msgid "Traits with genomic selection data"
+msgstr "الصفات التي تتوفر لها بيانات انتخاب جينومي"
+
+#: mason/solgs/population/summary.mas:49
+msgctxt "solgs.interface.trial_detail_page"
+msgid "Trial detail page"
+msgstr "صفحة تفاصيل التجربة"
+
+#: mason/solgs/population/models/model/accuracy.mas:30
+msgctxt "solgs.interface.validation_file_doesn_t_exist"
+msgid "Validation file doesn't exist."
+msgstr "ملف التحقق غير موجود."
+
+#: mason/solgs/population/histogram_bin_elements.mas:31
+msgctxt "solgs.interface.values"
+msgid "Values"
+msgstr "القيم"
+
+#: mason/solgs/population/models/model/variance_components.mas:44
+msgctxt "solgs.interface.variance_components"
+msgid "Variance components"
+msgstr "مكونات التباين"
+
+#: mason/solgs/population/models/model/variance_components.mas:47
+msgctxt "solgs.interface.variance_components_4ed83d"
+msgid "Variance Components"
+msgstr "مكونات التباين"
+
+#: mason/solgs/tools/select_menu.mas:35
+msgctxt "solgs.interface.view"
+msgid "View"
+msgstr "عرض"
+
+#: mason/solgs/search/selection_populations.mas:73
+msgctxt "solgs.interface.view_gebvs"
+msgid "View GEBVs"
+msgstr "عرض GEBVs"
+
+#: mason/solgs/search/result.mas:26
+msgctxt "solgs.interface.year"
+msgid "Year"
+msgstr "السنة"
+
+#: mason/solgs/search/result/confirm/populations_list.mas:23
+msgctxt "solgs.interface.you_can_combine_trials_sharing_the_same_color"
+msgid "You can combine trials sharing the same color."
+msgstr "يمكنك دمج التجارب التي تحمل اللون نفسه."
+
+#: mason/solgs/tools/dataset_trials_analysis.mas:55
+msgctxt "solgs.interface.you_must_be_logged_in_to_use_analysis_tools"
+msgid "You must be logged in to use Analysis Tools."
+msgstr "يجب تسجيل الدخول لاستخدام أدوات التحليل."
+
+#: mason/solgs/tools/login.mas:14
+msgctxt "solgs.interface.you_need_to"
+msgid "you need to"
+msgstr "يجب"
+
+#: lib/SGN/Controller/solGS/combinedTrials.pm:315
+#: lib/SGN/Controller/solGS/solGS.pm:463
+msgctxt "solgs.server.cached_model_output_missing"
+msgid "Cached output for this model does not exist anymore.\n"
+msgstr "لم تعد النتائج المخزنة مؤقتًا لهذا النموذج متاحة.\n"
+
+#: lib/SGN/Controller/solGS/combinedTrials.pm:222
+#: lib/SGN/Controller/solGS/solGS.pm:1062
+msgctxt "solgs.server.cached_page_output_missing"
+msgid "Cached output for this page does not exist anymore.\n"
+msgstr "لم تعد النتائج المخزنة مؤقتًا لهذه الصفحة متاحة.\n"
+
+#: lib/SGN/Controller/solGS/combinedTrials.pm:155
+#: lib/SGN/Controller/solGS/solGS.pm:82
+msgctxt "solgs.server.cached_training_data_missing"
+msgid "Cached output for this training population  does not exist anymore.\n"
+msgstr "لم تعد النتائج المخزنة مؤقتًا لهذه المجموعة التدريبية متاحة.\n"
+
+#: lib/SGN/Controller/solGS/combinedTrials.pm:160
+#: lib/SGN/Controller/solGS/solGS.pm:87
+msgctxt "solgs.server.create_training_population_data"
+msgid " and create the training population data."
+msgstr " وأنشئ بيانات المجموعة التدريبية."
+
+#: lib/SGN/Controller/solGS/Dataset.pm:34
+msgctxt "solgs.server.dataset_id_missing"
+msgid "Dataset id missing."
+msgstr "معرّف مجموعة البيانات مفقود."
+
+#: lib/SGN/Controller/solGS/solGS.pm:61
+msgctxt "solgs.server.missing_population_id"
+msgid "You can not access this page with out population id."
+msgstr "لا يمكن فتح هذه الصفحة من دون معرّف المجموعة."
+
+#: lib/SGN/Controller/solGS/solGS.pm:423
+msgctxt "solgs.server.missing_population_or_trait_id"
+msgid "You can not access this page with out population id or trait id."
+msgstr "لا يمكن فتح هذه الصفحة من دون معرّف المجموعة أو الصفة."
+
+#: lib/SGN/Controller/solGS/solGS.pm:291
+msgctxt "solgs.server.no_cached_trait_output"
+msgid "No cached output was found for this trait.\n"
+msgstr "لم يُعثر على نتائج مخزنة مؤقتًا لهذه الصفة.\n"
+
+#: lib/SGN/Controller/solGS/combinedTrials.pm:156
+#: lib/SGN/Controller/solGS/solGS.pm:83
+msgctxt "solgs.server.please_go_to"
+msgid "Please go to "
+msgstr "انتقل إلى "
+
+#: lib/SGN/Controller/solGS/combinedTrials.pm:223
+#: lib/SGN/Controller/solGS/solGS.pm:1063 lib/SGN/Controller/solGS/solGS.pm:292
+#: lib/SGN/Controller/solGS/solGS.pm:464
+msgctxt "solgs.server.please_go_to_space"
+msgid " Please go to "
+msgstr " انتقل إلى "
+
+#: lib/SGN/Controller/solGS/combinedTrials.pm:316
+msgctxt "solgs.server.please_go_to_the"
+msgid " Please go to the "
+msgstr " انتقل إلى "
+
+#: lib/SGN/Controller/solGS/Search.pm:51
+msgctxt "solgs.server.private_data_intro"
+msgid "This is a private data. If you are the owner, please "
+msgstr "هذه بيانات خاصة. إذا كنت مالكها، يرجى "
+
+#: lib/SGN/Controller/solGS/Search.pm:53
+msgctxt "solgs.server.private_data_login"
+msgid "login"
+msgstr "سجّل الدخول"
+
+#: lib/SGN/Controller/solGS/Search.pm:55
+msgctxt "solgs.server.private_data_suffix"
+msgid " to view it."
+msgstr " لعرضها."
+
+#: lib/SGN/Controller/solGS/combinedTrials.pm:225
+#: lib/SGN/Controller/solGS/combinedTrials.pm:318
+#: lib/SGN/Controller/solGS/solGS.pm:1065 lib/SGN/Controller/solGS/solGS.pm:466
+msgctxt "solgs.server.run_analysis"
+msgid " and run the analysis."
+msgstr " وشغّل التحليل."
+
+#: lib/SGN/Controller/solGS/solGS.pm:294
+msgctxt "solgs.server.run_prediction"
+msgid " and run the prediction."
+msgstr " ونفّذ التنبؤ."
+
+#: lib/SGN/Controller/solGS/combinedTrials.pm:158
+#: lib/SGN/Controller/solGS/solGS.pm:85
+msgctxt "solgs.server.search_page_link"
+msgid "the search page"
+msgstr "صفحة البحث"
+
+#: lib/SGN/Controller/solGS/solGS.pm:103 lib/SGN/Controller/solGS/solGS.pm:495
+msgctxt "solgs.server.see_trial_detail"
+msgid "See trial detail"
+msgstr "عرض تفاصيل التجربة"
+
+#: lib/SGN/Controller/solGS/solGS.pm:288
+msgctxt "solgs.server.training_model_page"
+msgid "training model page"
+msgstr "صفحة النموذج التدريبي"
+
+#: lib/SGN/Controller/solGS/combinedTrials.pm:312
+msgctxt "solgs.server.training_population_page_link"
+msgid "training population page "
+msgstr "صفحة المجموعة التدريبية "
+
+#: lib/SGN/Controller/solGS/Search.pm:508
+#: lib/SGN/Controller/solGS/Search.pm:621
+#: lib/SGN/Controller/solGS/Search.pm:683
+#: lib/SGN/Controller/solGS/Search.pm:974
+msgctxt "solgs.server.view_trial"
+msgid "View"
+msgstr "عرض"

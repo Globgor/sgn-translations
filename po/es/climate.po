@@ -1,0 +1,253 @@
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-1/es.po
+# Translation of ISO 3166-1 to Spanish; Castilian
+# Codes for the representation of names of countries and their subdivisions
+# Part 1: Country codes
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2001 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2001 Juan Manuel García Molina <juanmagm@mail.com>
+# SPDX-FileCopyrightText: 2004-2008, 2010 Javier Fernández-Sanguino <jfs@debian.org>
+# SPDX-FileCopyrightText: 2013 zamir <hades_ni@yahoo.com>
+# SPDX-FileCopyrightText: 2019 Rodrigo Lledó <rodhos92@gmail.com>
+# SPDX-FileCopyrightText: 2021 Adolfo Jayme Barrientos <fitojb@ubuntu.com>
+# SPDX-FileCopyrightText: 2023 Kamborio <Kamborio15@users.noreply.hosted.weblate.org>
+# SPDX-FileCopyrightText: 2025 Walter Paterno <walter.paterno@gmail.com>
+# SPDX-FileCopyrightText: 2025 Chris Leonard <cjlhomeaddress@gmail.com>
+# Country display captions adapted from iso-codes v4.20.1 iso_3166-3/es.po
+# Translation of ISO 3166-3 to Spanish; Castilian
+# Codes for the representation of names of countries and their subdivisions
+# Part 3: Code for formerly used names of countries
+# .
+# SPDX-License-Identifier: LGPL-2.1-or-later
+# .
+# SPDX-FileCopyrightText: 2001 Alastair McKinstry <mckinstry@debian.org>
+# SPDX-FileCopyrightText: 2001 Juan Manuel García Molina <juanmagm@mail.com>
+# SPDX-FileCopyrightText: 2004-2008, 2010 Javier Fernández-Sanguino <jfs@debian.org>
+# SPDX-FileCopyrightText: 2013 zamir <hades_ni@yahoo.com>
+# SPDX-FileCopyrightText: 2023 Kamborio <Kamborio15@users.noreply.hosted.weblate.org>
+# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# SGN internationalization source catalog. Generated; do not edit.
+msgid ""
+msgstr ""
+"Project-Id-Version: SGN i18n prototype 1\n"
+"PO-Revision-Date: 2026-10-04 00:00+0000\n"
+"Last-Translator: Machine translation draft (Codex); human review pending\n"
+"Language-Team: es\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-SGN-Language-Name: Español\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-SGN-Direction: ltr\n"
+"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
+
+#: js/source/entries/environments.js:125
+msgctxt "climate.interface.alpha_range_error"
+msgid "Alpha must be a number between 0 and 1."
+msgstr "Alfa debe ser un número entre 0 y 1."
+
+#: js/source/entries/environments.js:154
+msgctxt "climate.interface.analysis_finished"
+msgid "Analysis finished."
+msgstr "Análisis finalizado."
+
+#: js/source/entries/environments.js:162
+msgctxt "climate.interface.analysis_run_error"
+msgid "An error occurred while running environment stratification."
+msgstr "Se produjo un error al ejecutar la estratificación ambiental."
+
+#: js/source/entries/environments.js:139
+msgctxt "climate.interface.analysis_running"
+msgid "Running environment stratification..."
+msgstr "Se está ejecutando la estratificación ambiental..."
+
+#: js/source/entries/environments.js:83
+msgctxt "climate.interface.dataset_prepare_error"
+msgid "An error occurred while preparing the dataset."
+msgstr "Se produjo un error al preparar el conjunto de datos."
+
+#: js/source/entries/environments.js:345
+msgctxt "climate.interface.environment_label"
+msgid "Environment:"
+msgstr "Ambiente:"
+
+#: js/source/entries/environments.js:344
+msgctxt "climate.interface.group_label"
+msgid "Group:"
+msgstr "Grupo:"
+
+#: js/source/entries/environments.js:367
+msgctxt "climate.interface.locations_without_coordinates"
+msgid "Locations without coordinates are not shown:"
+msgstr "No se muestran las ubicaciones sin coordenadas:"
+
+#: js/source/entries/environments.js:27
+msgctxt "climate.interface.login_required"
+msgid "You must be logged in to use Environment Stratification"
+msgstr "Debe iniciar sesión para usar la estratificación ambiental."
+
+#: js/source/entries/environments.js:287
+msgctxt "climate.interface.map_library_unavailable"
+msgid "Map library is not available."
+msgstr "La biblioteca de mapas no está disponible."
+
+#: js/source/entries/environments.js:305
+msgctxt "climate.interface.no_mapped_locations_with_coordinates"
+msgid "No mapped locations have latitude and longitude coordinates."
+msgstr "Ninguna de las ubicaciones del mapa tiene coordenadas de latitud y longitud."
+
+#: js/source/entries/environments.js:481 js/source/entries/environments.js:501
+msgctxt "climate.interface.no_results_are_available_to_download"
+msgid "No results are available to download."
+msgstr "No hay resultados disponibles para descargar."
+
+#: js/source/entries/environments.js:406
+msgctxt "climate.interface.no_rows_to_display"
+msgid "No rows to display."
+msgstr "No hay filas para mostrar."
+
+#: js/source/entries/environments.js:391
+msgctxt "climate.interface.not_statistically_different"
+msgid "not statistically different"
+msgstr "no son estadísticamente diferentes"
+
+#: js/source/entries/environments.js:108
+msgctxt "climate.interface.phenotype_file_read_error"
+msgid "An error occurred while reading the phenotype file."
+msgstr "Se produjo un error al leer el archivo de datos fenotípicos."
+
+#: js/source/entries/environments.js:179
+msgctxt "climate.interface.select_one_dataset"
+msgid "Please select one dataset."
+msgstr "Seleccione un conjunto de datos."
+
+#: js/source/entries/environments.js:183
+msgctxt "climate.interface.select_only_one_dataset"
+msgid "Please select only one dataset."
+msgstr "Seleccione solo un conjunto de datos."
+
+#: js/source/entries/environments.js:121
+msgctxt "climate.interface.trait_required"
+msgid "Please select a trait."
+msgstr "Seleccione una característica."
+
+#: js/source/entries/environments.js:334 js/source/entries/environments.js:346
+msgctxt "climate.interface.trial_label"
+msgid "Trial:"
+msgstr "Ensayo:"
+
+#: js/source/entries/environments.js:391
+msgctxt "climate.interface.ungrouped_or_statistically_distinct"
+msgid "Ungrouped or statistically distinct"
+msgstr "Sin agrupar o estadísticamente distintos"
+
+#: js/source/entries/environments.js:487
+msgctxt "climate.interface.xlsx_export_library_is_not_available"
+msgid "XLSX export library is not available."
+msgstr "La biblioteca de exportación XLSX no está disponible."
+
+#: js/source/entries/environments.js:534
+msgctxt "climate.interface.xlsx_export_library_is_not_compatible_with_this_page"
+msgid "XLSX export library is not compatible with this page."
+msgstr "La biblioteca de exportación XLSX no es compatible con esta página."
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:8
+msgctxt "climate.noaa.analyze_noaa_ncdc_weather_data"
+msgid "Analyze NOAA NCDC Weather Data"
+msgstr "Analizar datos meteorológicos NOAA NCDC"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:97
+msgctxt "climate.noaa.can_t_be_accessed_without_a_token_please_visit_https_www_ncdc_noaa_gov_cdo_web_token_to_generate_a_valid_ac"
+msgid ""
+" can't be accessed without a token.\r\n"
+"Please visit https://www.ncdc.noaa.gov/cdo-web/token to generate a valid access token, then include the token in sgn_local.conf"
+msgstr ""
+" no están disponibles sin un token.\r\n"
+"Visite https://www.ncdc.noaa.gov/cdo-web/token para generar un token válido e inclúyalo en sgn_local.conf"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:97
+msgctxt "climate.noaa.configuration_variable_noaa_ncdc_access_token_is_undefined_data_from_station"
+msgid "Configuration variable 'noaa_ncdc_access_token' is undefined. Data from station "
+msgstr "La variable de configuración 'noaa_ncdc_access_token' no está definida. Los datos de la estación "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:119
+msgctxt "climate.noaa.could_not_verify_the_noaa_stationid_you_provided_go_to_manage_locations_and_make_sure_your_location_has_a_v"
+msgid "Could not verify the NOAA StationID you provided. Go to Manage->Locations and make sure your location has a valid NOAA station id!"
+msgstr "No se pudo verificar el NOAA StationID proporcionado. Vaya a la gestión de lugares y compruebe que el lugar tenga un ID de estación NOAA válido."
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:48
+msgctxt "climate.noaa.cumulative_values_by_year"
+msgid "Cumulative Values by Year: "
+msgstr "Valores acumulados por año: "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:41
+msgctxt "climate.noaa.daily_temperature_and_precipitation_chart"
+msgid "Daily Temperature and Precipitation Chart"
+msgstr "Gráfico de temperatura y precipitación diarias"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:30
+msgctxt "climate.noaa.end_date_yyyy_mm_dd"
+msgid "End Date (YYYY-MM-DD): "
+msgstr "Fecha final (YYYY-MM-DD): "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:173
+msgctxt "climate.noaa.error_getting_noaa_ncdc_analysis"
+msgid "Error getting NOAA NCDC analysis!"
+msgstr "¡Error al obtener el análisis NOAA NCDC!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:135
+msgctxt "climate.noaa.error_getting_noaa_ncdc_id_for_location"
+msgid "Error getting NOAA NCDC ID for location!"
+msgstr "¡Error al obtener el ID NOAA NCDC del lugar!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:115
+msgctxt "climate.noaa.found_a_valid_noaa_station_for_this_location"
+msgid "Found a valid NOAA Station for this location: "
+msgstr "Se encontró una estación NOAA válida para este lugar: "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:130
+msgctxt "climate.noaa.no_noaa_ncdc_station_id_for_this_location_go_to_manage_locations_and_edit_your_location_to_add_a_valid_noaa"
+msgid "No NOAA NCDC station id for this location. Go to Manage->Locations and edit your location to add a valid NOAA station id!"
+msgstr "Este lugar no tiene ID de estación NOAA NCDC. Edite el lugar en la gestión de lugares y añada un ID de estación NOAA válido."
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:153
+msgctxt "climate.noaa.please_give_a_end_date"
+msgid "Please give a end date!"
+msgstr "¡Indique una fecha final!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:149
+msgctxt "climate.noaa.please_give_a_start_date"
+msgid "Please give a start date!"
+msgstr "¡Indique una fecha inicial!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:38
+msgctxt "climate.noaa.results"
+msgid "Results: "
+msgstr "Resultados: "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:12
+msgctxt "climate.noaa.select_location"
+msgid "Select Location: "
+msgstr "Seleccione un lugar: "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:22
+msgctxt "climate.noaa.start_date_yyyy_mm_dd"
+msgid "Start Date (YYYY-MM-DD): "
+msgstr "Fecha inicial (YYYY-MM-DD): "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:169
+msgctxt "climate.noaa.there_was_an_error_getting_noaa_analysis"
+msgid "There was an error getting NOAA analysis!"
+msgstr "¡Se produjo un error al obtener el análisis NOAA!"
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:67
+msgctxt "climate.noaa.window_end_yyyy_mm_dd_optional"
+msgid "Window End (YYYY-MM-DD) (Optional): "
+msgstr "Fin del intervalo (YYYY-MM-DD) (opcional): "
+
+#: mason/breeders_toolbox/noaa_ncdc_analysis.mas:59
+msgctxt "climate.noaa.window_start_yyyy_mm_dd_optional"
+msgid "Window Start (YYYY-MM-DD) (Optional): "
+msgstr "Inicio del intervalo (YYYY-MM-DD) (opcional): "

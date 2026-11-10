@@ -13,6 +13,8 @@ COMMANDS = {
     **{name: "workflow.py" for name in ("prepare", "package")},
     **{name: "catalog.py" for name in ("extract", "update", "freeze", "init", "build")},
     **{name: "pack.py" for name in ("create", "validate", "install", "activate", "rollback", "doctor")},
+    **{name: "sections.py" for name in ("split", "merge")},
+    "check": "check_catalogs.py",
 }
 
 
@@ -26,7 +28,9 @@ def main():
     if (directory / "workflow.py").is_file():
         guidance.append("Translator workflow: prepare, package")
     if (directory / "catalog.py").is_file():
-        guidance.append("Source tools: extract, update, freeze, init, build")
+        guidance.append("Source tools (need --sgn PATH): extract, update, freeze, init, build")
+    if (directory / "check_catalogs.py").is_file():
+        guidance.append("Catalog files: check, split, merge")
     guidance.append("Use COMMAND --help for its options. Put options after the command.")
     parser = argparse.ArgumentParser(
         description=__doc__,
