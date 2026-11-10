@@ -1,0 +1,9 @@
+# Ukrainian terminology rules for tools/check_catalogs.py.
+# One rule per line: forbidden<TAB>preferred<TAB>optional note.
+# The forbidden text is matched case-insensitively anywhere in a translation,
+# so a word stem (for example "акцесі") catches every word form.
+#
+# EMPTY ON PURPOSE: the rules wait until the owner confirms glossary/uk.md
+# (a draft, not yet confirmed). Add only confirmed choices here.
+# Open decision: "Location" is «місце» (204 translations) or «локація» (0);
+# count with: python3 tools/check_catalogs.py --language uk --count 'REGEX'
