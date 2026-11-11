@@ -7,7 +7,23 @@ solgenomics/sgn#6386). There the tools were in `bin/i18n/`, the catalogs in
 `locale/` and the manual in `docs/r_markdown_docs/i18n/`; here they are in
 `tools/`, `po/` and `manual/`.
 
-<!-- MOVE-RECORD -->
+## Move to this repository, 2026-11-10
+
+Source: solgenomics/sgn#6386 head `7bcd519e17`. Local work only; nothing was
+published.
+
+| Check | Result |
+| --- | --- |
+| Lossless split | For uk, es and ar, joining the 28 section files gives the original `sgn.po` byte for byte; `msgcat --sort-output` views are equal; 15,398 messages, 19 plural, 1 fuzzy, 123 obsolete, 1,189 with translator comments in each language. Joined templates equal `sgn.pot`. |
+| Packs | `prepare` + `package` with the old tools on the old tree and with these tools on an SGN tree without `bin/i18n`, catalogs or PO files: all 31 files of each `uk`/`es`/`ar` pack are identical (`catalogSha256` 8697827d…, 1cf58612…, 279e290e…). `build` output (90 files), `release.json`, `release.pot` and the workspace PO files are identical. |
+| Templates | `extract --sgn` gives the committed templates; `update --sgn` leaves `po/` unchanged. |
+| Manual | `manual/build.R --sgn ... all` (SGN with its upstream `build.R`) and the old `build.R all` give identical output: 1,728 files for en, uk, es, ar. PDFs were not built. |
+| Tool tests | 160 tests pass in a clean Ubuntu 24.04 container with `SGN_CHECKOUT` (10 of them skip without it). Before the move, the 145 tests of `7bcd519e17` passed. |
+| Catalog check | 14 problems: whole Arabic text in 12 Ukrainian and 1 Spanish translations, and an Arabic question mark in 1 Ukrainian translation. They are left for a translator; the text was not changed in the move. |
+
+Not checked: GitHub Actions itself, translated PDF export, Playwright
+navigation tests of the manual.
+
 
 ## Release and editor automation audit, 2026-11-03
 
