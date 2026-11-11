@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Each catalog structure rule reports a broken fixture and accepts a good one."""
 
 import subprocess
@@ -11,19 +10,14 @@ import unittest
 from pathlib import Path
 
 import sections
-from catalog import init_po
 from check_catalogs import LANGUAGES
+from test_support import language_po, message
 
 TOOLS = Path(__file__).resolve().parent
 MESSAGES = [
-    {"context": "trial.created", "source": "Created trial %{name}.", "plural": None, "references": ["a.js:1"]},
-    {
-        "context": "trial.count",
-        "source": "%{count} trial",
-        "plural": "%{count} trials",
-        "references": ["a.js:2"],
-    },
-    {"context": "trial.empty", "source": "Location", "plural": None, "references": ["a.js:3"]},
+    message("trial.created", "Created trial %{name}.", "a.js:1"),
+    message("trial.count", "%{count} trial", "a.js:2", plural="%{count} trials"),
+    message("trial.empty", "Location", "a.js:3"),
 ]
 
 
@@ -39,7 +33,7 @@ class CheckTests(unittest.TestCase):
         self.glossary = self.root / "glossary"
         self.glossary.mkdir()
         sections.write_templates(self.catalogs, {"common": sections.pot(MESSAGES)})
-        text = init_po(MESSAGES, "uk", "ltr", LANGUAGES["uk"]["plural"], "Українська")
+        text = language_po(MESSAGES, plural_forms=LANGUAGES["uk"]["plural"])
         text = text.replace('msgid "Created trial %{name}."\nmsgstr ""', 'msgid "Created trial %{name}."\nmsgstr "Створено дослід %{name}."')
         text = text.replace(
             'msgstr[0] ""\nmsgstr[1] ""\nmsgstr[2] ""',
@@ -55,8 +49,7 @@ class CheckTests(unittest.TestCase):
             [
                 sys.executable,
                 "-B",
-                str(TOOLS / "sgn-i18n"),
-                "check",
+                str(TOOLS / "check_catalogs.py"),
                 "--catalogs",
                 str(self.catalogs),
                 "--glossary",

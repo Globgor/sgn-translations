@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """Keep each language as one PO file per application section, losslessly.
 
 Layout (relative to the catalog folder, normally ``po/`` in this repository):
@@ -15,18 +14,18 @@ Ownership rule, used whenever templates are regenerated:
 
 All messages with the same msgctxt stay in one section. Every message is in
 exactly one section file per language. Obsolete (``#~``) records are kept at
-the end of ``common.po``. Browser partitions are computed from the SGN checkout
-when packs are built; this file layout does not change them.
+the end of ``common.po``. The browser sections that load a message can be more
+than its owner; templates list them in a ``#. sections:`` comment.
+
+GNU gettext joins files (msgcat) but has no tool that splits one catalog by
+such a rule, so split() and merge() are here.
 """
 
-import argparse
 import ast
-import json
 import re
-import sys
 from pathlib import Path
 
-from extract import pot
+from catalog_format import po_quote
 
 REPOSITORY = Path(__file__).resolve().parents[1]
 CATALOGS = REPOSITORY / "po"
@@ -36,6 +35,50 @@ SECTION = re.compile(r"[a-z][a-z0-9_]*")
 FIELD = re.compile(r'^(msgctxt|msgid|msgid_plural|msgstr(?:\[[0-9]+\])?) (".*")$')
 # Header fields that define the language; they must agree in every section file.
 LANGUAGE_FIELDS = ("Language", "Plural-Forms", "X-SGN-Direction", "X-SGN-Language-Name")
+
+
+def pot(messages, loaded_by=None):
+    """Serialize a deterministic English template (sorted by context, source).
+
+    loaded_by maps (context, source) to the browser sections that load the
+    message; it is written as an extracted comment that build.py reads.
+    """
+    lines = [
+        "# SGN internationalization source catalog. Generated; do not edit.",
+        'msgid ""',
+        'msgstr ""',
+        '"Project-Id-Version: SGN i18n prototype 1\\n"',
+        '"MIME-Version: 1.0\\n"',
+        '"Content-Type: text/plain; charset=UTF-8\\n"',
+        '"Content-Transfer-Encoding: 8bit\\n"',
+        "",
+    ]
+    for message in messages:
+        if loaded_by is not None:
+            lines.append("#. sections: " + " ".join(sorted(loaded_by[message["context"], message["source"]])))
+        lines.append("#: " + " ".join(sorted(set(message["references"]))))
+        lines += ["msgctxt " + po_quote(message["context"]), "msgid " + po_quote(message["source"])]
+        if message["plural"]:
+            lines += ["msgid_plural " + po_quote(message["plural"]), 'msgstr[0] ""', 'msgstr[1] ""']
+        else:
+            lines.append('msgstr ""')
+        lines.append("")
+    return "\n".join(lines).rstrip() + "\n"
+
+
+def loaded_by_from_templates(directory):
+    """Read {(context, source): [browser sections]} from the templates' comments."""
+    result = {}
+    for path in sorted(directory.glob("*.pot")):
+        _, entries, _ = parse(path.read_text(encoding="utf-8"))
+        for context, source, record in entries:
+            names = [
+                line[len("#. sections: ") :].split()
+                for line in record.splitlines()
+                if line.startswith("#. sections: ")
+            ]
+            result[context, source] = names[0] if names else [path.stem]
+    return result
 
 
 def records(text):
@@ -147,7 +190,7 @@ def split(text, owners, sections):
     result = {section: [] for section in sections}
     for context, _, record in messages:
         if context not in owners:
-            raise ValueError("message is in no template; run update first: " + str(context))
+            raise ValueError("message is in no template; run make templates: " + str(context))
         result[owners[context]].append(record)
     result[COMMON].extend(obsolete)
     return {section: join(header, blocks) for section, blocks in result.items()}
@@ -198,17 +241,6 @@ def languages(catalogs):
     )
 
 
-def merged_languages(catalogs, destination):
-    """Write one merged PO per language into destination; return the paths."""
-    destination.mkdir(parents=True, exist_ok=True)
-    paths = []
-    for directory in languages(catalogs):
-        path = destination / (directory.name + ".po")
-        path.write_text(merge(read_language(directory)), encoding="utf-8")
-        paths.append(path)
-    return paths
-
-
 def ownership(messages, groups, manifest):
     """Assign every message to exactly one section by the documented rule."""
     if set(groups) == {COMMON}:
@@ -234,16 +266,6 @@ def ownership(messages, groups, manifest):
     return {name: result[name] for name in sorted(result)}
 
 
-def templates_for(messages, groups, manifest):
-    """Return {section: POT text} for the given extraction and partitions."""
-    return {name: pot(part) for name, part in ownership(messages, groups, manifest).items()}
-
-
-def read_templates(catalogs):
-    """Return {section: POT text} as stored."""
-    return {path.stem: path.read_text(encoding="utf-8") for path in sorted((catalogs / TEMPLATES).glob("*.pot"))}
-
-
 def write_templates(catalogs, templates):
     """Replace the stored templates with the given set."""
     directory = catalogs / TEMPLATES
@@ -255,52 +277,11 @@ def write_templates(catalogs, templates):
         (directory / (name + ".pot")).write_text(text, encoding="utf-8")
 
 
-def write_language(directory, texts, replace=False):
+def write_language(directory, texts):
     """Write {section: PO text}; drop section files that no longer exist."""
-    if not replace and directory.exists() and any(directory.glob("*.po")):
-        raise ValueError("language folder already has PO files: " + str(directory))
     directory.mkdir(parents=True, exist_ok=True)
     for path in directory.glob("*.po"):
         if path.stem not in texts:
             path.unlink()
     for name, text in texts.items():
         (directory / (name + ".po")).write_text(text, encoding="utf-8")
-
-
-def main():
-    """Split one PO into section files, or merge section files into one PO."""
-    parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("command", choices=("split", "merge"))
-    parser.add_argument("--catalogs", type=Path, default=CATALOGS, help="catalog folder (default: po/ here)")
-    parser.add_argument("--language", required=True, help="language folder name, such as uk")
-    parser.add_argument("--po", type=Path, help="split: the single PO file to split")
-    parser.add_argument("--output", type=Path, help="merge: where to write the single PO file")
-    parser.add_argument("--replace", action="store_true", help="split: replace existing section files")
-    args = parser.parse_args()
-    if not re.fullmatch(r"[a-z]{2,8}(?:-[A-Za-z0-9]{2,8})*", args.language):
-        raise ValueError("invalid language folder name")
-    directory = args.catalogs / args.language
-    if args.command == "split":
-        if not args.po:
-            raise ValueError("split needs --po FILE")
-        owners, sections = owners_from_templates(args.catalogs / TEMPLATES)
-        texts = split(args.po.read_text(encoding="utf-8"), owners, sections)
-        write_language(directory, texts, replace=args.replace)
-        print(json.dumps({"language": args.language, "sections": len(texts)}))
-    else:
-        if not args.output:
-            raise ValueError("merge needs --output FILE")
-        if args.output.exists():
-            raise ValueError("refusing to overwrite " + str(args.output))
-        text = merge(read_language(directory))
-        args.output.parent.mkdir(parents=True, exist_ok=True)
-        args.output.write_text(text, encoding="utf-8")
-        print(json.dumps({"language": args.language, "output": str(args.output)}))
-
-
-if __name__ == "__main__":
-    try:
-        main()
-    except (ValueError, OSError) as error:
-        print("sections: " + str(error), file=sys.stderr)
-        raise SystemExit(1) from error

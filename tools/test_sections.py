@@ -1,8 +1,5 @@
-#!/usr/bin/env python3
 """Per-section PO layout: lossless split/merge and the ownership rule."""
 
-import subprocess
-import sys
 import tempfile
 import unittest
 
@@ -11,15 +8,7 @@ import unittest
 from pathlib import Path
 
 import sections
-from catalog import init_po
-from extract import pot
-
-TOOLS = Path(__file__).resolve().parent
-PLURAL = "nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);"
-
-
-def message(context, source, *references, plural=None):
-    return {"context": context, "source": source, "plural": plural, "references": list(references)}
+from test_support import language_po, message
 
 
 MESSAGES = [
@@ -51,7 +40,7 @@ class SectionTests(unittest.TestCase):
     """Exercise ownership, split and merge."""
 
     def catalog(self):
-        text = "# Translator notice kept in every section header\n" + init_po(MESSAGES, "uk", "ltr", PLURAL)
+        text = "# Translator notice kept in every section header\n" + language_po(MESSAGES)
         text = text.replace('msgid "Trial"\nmsgstr ""', 'msgid "Trial"\nmsgstr "Дослід"')
         text = text.replace(
             'msgctxt "common.save"\nmsgid "Save"\nmsgstr ""',
@@ -84,9 +73,10 @@ class SectionTests(unittest.TestCase):
     def test_split_then_merge_is_byte_identical(self):
         with tempfile.TemporaryDirectory() as directory:
             catalogs = Path(directory)
-            templates = sections.templates_for(MESSAGES, GROUPS, MANIFEST)
-            sections.write_templates(catalogs, templates)
-            self.assertEqual(sections.merge(sections.read_templates(catalogs)), pot(MESSAGES))
+            owned = sections.ownership(MESSAGES, GROUPS, MANIFEST)
+            sections.write_templates(catalogs, {name: sections.pot(part) for name, part in owned.items()})
+            stored = {path.stem: path.read_text() for path in (catalogs / "templates").glob("*.pot")}
+            self.assertEqual(sections.merge(stored), sections.pot(MESSAGES))
             owners, names = sections.owners_from_templates(catalogs / "templates")
             text = self.catalog()
             parts = sections.split(text, owners, names)
@@ -97,12 +87,14 @@ class SectionTests(unittest.TestCase):
                 self.assertTrue(part.startswith("# Translator notice"))
             sections.write_language(catalogs / "uk", parts)
             self.assertEqual(sections.merge(sections.read_language(catalogs / "uk")), text)
-            with self.assertRaisesRegex(ValueError, "already has PO files"):
-                sections.write_language(catalogs / "uk", parts)
+            # A section that no longer has messages loses its file.
+            (catalogs / "uk" / "gone.po").write_text(parts["common"])
+            sections.write_language(catalogs / "uk", parts)
+            self.assertFalse((catalogs / "uk" / "gone.po").exists())
 
     def test_merge_accepts_wrapped_lines_and_rejects_conflicts(self):
         owners = {"common.save": "common", "trial.title": "trial_card"}
-        text = init_po(MESSAGES[:1] + MESSAGES[3:4], "uk", "ltr", PLURAL)
+        text = language_po(MESSAGES[:1] + MESSAGES[3:4])
         parts = sections.split(text, owners, ["common", "trial_card"])
         wrapped = parts["trial_card"].replace('msgid "Trial"', 'msgid ""\n"Tri"\n"al"')
         merged = sections.merge({**parts, "trial_card": wrapped})
@@ -116,24 +108,6 @@ class SectionTests(unittest.TestCase):
             sections.merge({"trial_card": parts["trial_card"]})
         with self.assertRaisesRegex(ValueError, "no template"):
             sections.split(text, {"common.save": "common"}, ["common"])
-
-    def test_command_line_split_and_merge(self):
-        with tempfile.TemporaryDirectory() as directory:
-            catalogs = Path(directory) / "po"
-            sections.write_templates(catalogs, sections.templates_for(MESSAGES, GROUPS, MANIFEST))
-            source = Path(directory) / "uk.po"
-            source.write_text(self.catalog(), encoding="utf-8")
-            tool = [sys.executable, "-B", str(TOOLS / "sgn-i18n")]
-            common = ["--catalogs", str(catalogs), "--language", "uk"]
-            run = subprocess.run(tool + ["split", *common, "--po", str(source)], capture_output=True, text=True)
-            self.assertEqual(run.returncode, 0, run.stderr)
-            output = Path(directory) / "merged.po"
-            run = subprocess.run(tool + ["merge", *common, "--output", str(output)], capture_output=True, text=True)
-            self.assertEqual(run.returncode, 0, run.stderr)
-            self.assertEqual(output.read_bytes(), source.read_bytes())
-            run = subprocess.run(tool + ["merge", *common, "--output", str(output)], capture_output=True, text=True)
-            self.assertNotEqual(run.returncode, 0)
-            self.assertIn("refusing to overwrite", run.stderr)
 
 
 if __name__ == "__main__":

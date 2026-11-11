@@ -205,7 +205,6 @@ def count_terms(catalogs, language, patterns):
 def main():
     """Check all catalogs; exit 1 when any problem is found."""
     parser = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    parser.add_argument("command", nargs="?", choices=("check",), default="check")
     parser.add_argument("--catalogs", type=Path, default=sections.CATALOGS, help="default: po/ in this repository")
     parser.add_argument("--glossary", type=Path, default=GLOSSARY, help="glossary folder (default: glossary/ here)")
     parser.add_argument("--language", action="append", help="check only this language (repeatable)")
