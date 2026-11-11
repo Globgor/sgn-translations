@@ -6,8 +6,9 @@ them before publication. Editing chapters only needs a text editor.
 
 ## Before you start
 
-Run commands from the SGN source folder, unless a step says otherwise.
-The builder needs R with `bookdown`, `rmarkdown`, `knitr` and `yaml`, plus Pandoc.
+Run commands from this repository, unless a step says otherwise. The English
+chapters and figures come from an SGN checkout; replace `/path/to/sgn` below.
+The translated chapters are in `manual/<lang>/`. The builder needs R with `bookdown`, `rmarkdown`, `knitr` and `yaml`, plus Pandoc.
 Use the existing documentation build environment, separate from scientific R
 jobs. [Bookdown's setup guide](https://bookdown.org/yihui/bookdown/get-started.html)
 explains installation. RStudio is optional.
@@ -28,7 +29,7 @@ Choose a new output folder outside the source checkout. One command builds all
 four readers:
 
 ```sh
-Rscript --vanilla docs/r_markdown_docs/build.R all "$HOME/sgn-manual-v1"
+Rscript --vanilla manual/build.R --sgn /path/to/sgn all "$HOME/sgn-manual-v1"
 ```
 
 Open `~/sgn-manual-v1/index.html` for English. The output layout is:
@@ -49,22 +50,23 @@ only after all four builds succeed. After an edit, use a new name such as
 `sgn-manual-v2`. To build Ukrainian alone instead:
 
 ```sh
-Rscript --vanilla docs/r_markdown_docs/build.R uk "$HOME/sgn-manual-uk-v1"
+Rscript --vanilla manual/build.R --sgn /path/to/sgn uk "$HOME/sgn-manual-uk-v1"
 ```
 
 Use `en`, `es` or `ar` for another single language. Output paths must be absolute
-and outside the source directory. For help:
+and outside both source folders (SGN's `docs/r_markdown_docs` and `manual/`).
+For help:
 
 ```sh
-Rscript --vanilla docs/r_markdown_docs/build.R --help
+Rscript --vanilla manual/build.R --help
 ```
 
-With no arguments, `build.R` keeps the original English Bookdown build.
+SGN's own `docs/r_markdown_docs/build.R` keeps the original English-only build.
 
 ## Build an English PDF
 
-Build the web pages above first. In a disposable documentation checkout with
-XeLaTeX installed, run this block from the SGN source folder:
+Build the web pages above first. In a disposable SGN documentation checkout
+with XeLaTeX installed, run this block from the SGN source folder:
 
 ```sh
 (
@@ -87,7 +89,7 @@ checkout so publication cannot accidentally commit them:
 ```sh
 PRINT_TOOLS="$HOME/sgn-manual-print-tools"
 mkdir -p "$PRINT_TOOLS"
-cp docs/r_markdown_docs/i18n/package.json docs/r_markdown_docs/i18n/package-lock.json "$PRINT_TOOLS/"
+cp manual/package.json manual/package-lock.json "$PRINT_TOOLS/"
 npm ci --prefix "$PRINT_TOOLS" --ignore-scripts
 "$PRINT_TOOLS/node_modules/.bin/playwright" install chromium
 export NODE_PATH="$PRINT_TOOLS/node_modules"
@@ -97,8 +99,8 @@ Build one full-book HTML file, then print it. This example creates Ukrainian
 `~/sgn-manual-v1/uk/BreedbaseManual.pdf`:
 
 ```sh
-Rscript --vanilla docs/r_markdown_docs/build.R uk "$HOME/sgn-manual-print-v1/uk" single
-node docs/r_markdown_docs/i18n/print_manual.cjs \
+Rscript --vanilla manual/build.R --sgn /path/to/sgn uk "$HOME/sgn-manual-print-v1/uk" single
+node manual/print_manual.cjs \
   "$HOME/sgn-manual-print-v1/uk" "$HOME/sgn-manual-v1/uk/BreedbaseManual.pdf" uk
 ```
 
@@ -116,11 +118,11 @@ Use a regular text editor such as Visual Studio Code for `.Rmd` chapters. Poedit
 interface files. Keep heading IDs, code blocks, formulas, numbers and file-field
 examples unchanged in translations.
 
-After editing paragraphs, run from the SGN source folder:
+After editing paragraphs, run from this repository:
 
 ```sh
-python3 bin/i18n/test_manual.py
-Rscript --vanilla docs/r_markdown_docs/build.R all "$HOME/sgn-manual-v2"
+SGN_CHECKOUT=/path/to/sgn python3 tools/test_manual.py
+Rscript --vanilla manual/build.R --sgn /path/to/sgn all "$HOME/sgn-manual-v2"
 ```
 
 The first command checks consistency with English; it does not build a preview.
@@ -131,18 +133,17 @@ changed chapters and language links. Building does not publish the reader.
 
 Publish the English root and three language folders together. Set the site's
 `i18n_manual_base_url` and list the published languages in `i18n_manual_locales`;
-see [optional site settings](../../i18n/DEVELOPER.md#optional-site-settings).
+see [optional site settings](https://github.com/solgenomics/sgn/blob/master/docs/i18n/DEVELOPER.md#optional-site-settings).
 The site's Manual link can then use the matching language.
 
-The existing documentation CI checks English only. A maintainer publishes the
+SGN's documentation CI builds English only. A maintainer publishes the
 translated output separately. UI pack installation does not publish a manual.
-Keep generated HTML, PDFs, caches and tools outside Git. The existing workflow
-force-adds `docs/` during publication, so do not install tool dependencies there.
+Keep generated HTML, PDFs, caches and tools outside Git.
 
 ## Source files
 
-English chapters and shared figures are in the parent folder. Each language
-folder contains 29 translated chapters and Bookdown settings. Shared CSS/JS add
+English chapters and shared figures are in SGN's `docs/r_markdown_docs`. Each
+`manual/<lang>` folder contains 29 translated chapters and Bookdown settings. Shared CSS/JS add
 language navigation and Arabic layout without changing vendor code. The builder
 copies sources and figures to a temporary folder and cleans it afterwards.
 
@@ -152,6 +153,6 @@ Two English cross-references were repaired; translated references keep the same
 anchors. The unimplemented external walkthrough remains a text note. Application
 URLs refer to the reader's SGN site, not pages hosted by this manual.
 
-Run navigation tests with `npm test --prefix docs/r_markdown_docs/i18n` after
-installing that test package. Use an isolated checkout for tests; keep print
+Run navigation tests with `npm test --prefix manual` after installing that test
+package (`npm ci --prefix manual --ignore-scripts` and Playwright's Chromium). Use an isolated checkout for tests; keep print
 and publication dependencies outside the checkout.

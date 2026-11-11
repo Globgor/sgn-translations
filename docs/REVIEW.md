@@ -28,13 +28,16 @@ small screens, Arabic layout and counts 0/1/2/5/21.
 
 ## 3. Save the result
 
-Have the release builder merge reviewed entries into a **copy of the full PO**
-using a gettext editor. A 100-message review file cannot replace a whole language.
+Copy the reviewed entries into the matching `po/<lang>/<section>.po` file of this
+repository with a gettext editor and open a pull request. A 100-message review
+file cannot replace a whole section file. The workflow names in `release.json`
+are the browser partitions; most entries are in the section file of the same
+name, and messages used on every page are in `common.po`.
 Keep uncertain entries empty or fuzzy. Keep the review notes with the release.
 Then [build and check the new pack](TRANSLATOR.md#3-builder-make-ready-packages).
 
 For the next batch, use a new output folder and add `--offset 100 --limit 100`.
 The output tells you the next offset. Other group names are in `release.json`.
-If the tool reports missing messages, merge the release POT into the full PO
-before exporting again. Unknown groups and invalid ranges stop without making
+If the tool reports missing messages, prepare a new workspace from the current
+section files before exporting again. Unknown groups and invalid ranges stop without making
 an output folder.

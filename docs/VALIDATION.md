@@ -1,6 +1,13 @@
 # Localization validation
 
-This is the test record. For site setup, use [Install a language](README.md).
+This is the test record. For site setup, use [Install a language](INSTALL.md).
+
+The records below 2026-11-10 were made inside the SGN repository (pull request
+solgenomics/sgn#6386). There the tools were in `bin/i18n/`, the catalogs in
+`locale/` and the manual in `docs/r_markdown_docs/i18n/`; here they are in
+`tools/`, `po/` and `manual/`.
+
+<!-- MOVE-RECORD -->
 
 ## Release and editor automation audit, 2026-11-03
 
@@ -213,23 +220,21 @@ of every route, scientific analysis or background email.
 
 ## Reproduce
 
-Use the qualified [source tools](DEVELOPER.md#source-tools), the normal
-application dependencies under `js/node_modules`, and an isolated source/fixture.
+Use the qualified [source tools](TOOLS.md) and an isolated SGN checkout.
+From this repository:
 
 ```sh
-npm ci --prefix bin/i18n --ignore-scripts
-for test in bin/i18n/test_*.py; do python3 "$test" || exit; done
-prove -Ilib --recurse t/unit
-Rscript --vanilla t/unit/SGN/i18n-runtime.R .
+SGN_CHECKOUT=/path/to/sgn scripts/ci.sh
 
-bin/i18n/sgn-i18n freeze --application-version APPLICATION_COMMIT \
+python3 tools/sgn-i18n freeze --sgn /path/to/sgn --application-version APPLICATION_COMMIT \
   --output /release/release.json
-bin/i18n/sgn-i18n build --release /release/release.json \
-  --po /translations/uk/LC_MESSAGES/sgn.po --output /release/build
+python3 tools/sgn-i18n build --release /release/release.json --output /release/build
 ```
 
+The SGN application tests (`prove -Ilib --recurse t/unit`,
+`Rscript --vanilla t/unit/SGN/i18n-runtime.R .`) run in SGN.
 Follow [the operator workflow](TRANSLATOR.md) for the complete package cycle,
-[the developer chapter](DEVELOPER.md) for request/browser diagnostics and
+[the developer chapter](https://github.com/solgenomics/sgn/blob/master/docs/i18n/DEVELOPER.md) for request/browser diagnostics and
 [workflow review](REVIEW.md) for terminology review batches. Preserve English
 with localization disabled, scientific identifiers and measurements, ordinary
 permission boundaries, request field names and import/export contracts.

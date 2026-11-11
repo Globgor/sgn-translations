@@ -1,16 +1,17 @@
 # Update an existing screen
 
 Use this when adding translations to code that already works.
-For site setup, use [Turn on translations](README.md).
+For site setup, use [Install a language](INSTALL.md).
+The code steps happen in SGN; steps 6 and later use this repository.
 
 1. Keep the existing conditions, URLs, IDs, field names and handlers.
-2. Wrap complete English messages with the [normal helper](DEVELOPER.md#1-add-the-message).
+2. Wrap complete English messages with the [normal helper](https://github.com/solgenomics/sgn/blob/master/docs/i18n/DEVELOPER.md#1-add-the-message).
 3. Keep scientific data and machine values unchanged. Escape the translated
    plain text where it is displayed.
-4. Add new source files to `locale/sources.txt` and `locale/workflows.json`.
+4. Add new source files to SGN's `locale/sources.txt` and `locale/workflows.json`.
 5. Run that screen's native tests with translations off and in each supported
    language. Check asynchronous messages, small screens and Arabic layout.
-6. At release time, [refresh the message list and build packs](TRANSLATOR.md).
+6. At release time, [refresh the templates here and build packs](TRANSLATOR.md).
 
 When English wording changes, it is a new lookup key even if the context stays
 the same. Review the changed entry. Until then, the site shows whole English

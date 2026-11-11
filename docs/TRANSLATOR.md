@@ -4,23 +4,51 @@ The builder prepares files, the translator edits them, and the administrator
 installs the result. Each person can follow only their own step.
 The translator needs a local editor; the application and source tools stay on
 the builder's machine. Installing a ready bundle is covered in
-[Install a language](README.md).
+[Install a language](INSTALL.md).
+
+## Translator: edit and save
+
+The translations live in this repository, one file per language and section:
+`po/<lang>/<section>.po`. A translator has two ways to work:
+
+- **In this repository:** open the section file in Poedit or the GitHub editor,
+  save, and open a pull request here. The checks run on the pull request.
+  SGN is not touched.
+- **In a prepared folder** from the builder (step 1 below): edit
+  `translations/<lang>.po` in Poedit and return the folder (step 2).
+
+The editing rules below are the same for both ways.
+
+## 0. Builder: refresh the templates from SGN
+
+Use the clean SGN source checkout for the release and install the
+[source tools](TOOLS.md). Open a terminal in this repository:
+
+```sh
+python3 tools/sgn-i18n update --sgn /path/to/sgn
+```
+
+This extracts the messages from SGN, writes `po/templates/<section>.pot`, merges
+every language with GNU gettext and splits it again by the section rule in the
+[README](../README.md#layout). Commit the result here. `extract` writes only the
+templates. Changed English messages become fuzzy or empty and use English until
+someone translates them.
 
 ## 1. Builder: make the translation folder
 
-Use the clean SGN source checkout for the release and install the
-[source tools](DEVELOPER.md#source-tools). Open a terminal in that checkout.
-This command uses its Git commit as the release version automatically:
+Open a terminal in this repository. This command uses the SGN commit as the
+release version:
 
 ```sh
-python3 bin/i18n/sgn-i18n prepare \
-  --application-version "$(git rev-parse HEAD)" \
+python3 tools/sgn-i18n prepare --sgn /path/to/sgn \
+  --application-version "$(git -C /path/to/sgn rev-parse HEAD)" \
   --output "$HOME/sgn-translation-v1"
 ```
 
-The command reads source messages once, freezes the message list, copies the
-translations and updates those copies from the release template. Original
-source PO/POT files stay unchanged. It also includes matching tools and notices.
+The command reads source messages once, freezes the message list, joins the
+section files of each language into one copy and updates those copies from the
+release template. The files in `po/` stay unchanged. It also includes matching
+tools and notices.
 
 Give the whole `sgn-translation-v1` folder to the translator. It contains:
 
@@ -43,7 +71,7 @@ and GNU gettext (`msgcat`, `msgfmt`, `msgmerge`), but no source checkout parsers
 Node, Perl or R. Replace the two input paths with the files you received:
 
 ```sh
-python3 bin/i18n/sgn-i18n prepare --release /path/to/release.json \
+python3 tools/sgn-i18n prepare --release /path/to/release.json \
   --po /path/to/uk.po --output "$HOME/sgn-translation-v1"
 ```
 
@@ -61,7 +89,8 @@ Editing needs no SGN, Python, Node or translation server.
 2. Change the translation. Keep values such as `%{name}` and `%{count}` unchanged.
 3. Fill every plural form shown for the language.
 4. Mark uncertain text **Needs Work**. SGN will use the whole English message for it.
-5. Save. Return the whole folder to the builder, who completes step 3.
+5. Save. Return the whole folder to the builder, who completes step 3
+   (in this repository: open a pull request instead).
 
 For example, in `Created trial %{name}.`, translate the words but keep `%{name}`
 exactly as written. SGN inserts the real trial name later.
@@ -75,6 +104,9 @@ the SGN build also checks its own placeholder rules. `%{menu}` in
 once and must not become `_MENU_`.
 
 Saving changes the working copy only. It does not update the running site.
+A builder copies saved workspace translations back into `po/` with
+`python3 tools/sgn-i18n split --language uk --po translations/uk.po --replace`
+from this repository, after a `prepare` from the same SGN commit.
 Use [small review batches](REVIEW.md) if a full catalog is too much to review.
 
 ## 3. Builder: make ready packages
@@ -112,7 +144,7 @@ Invalid placeholders or malformed files stop the build before a ready folder
 appears. Empty or Needs Work messages use whole English fallback.
 
 Give the whole ready folder to the site administrator. The included `README.md` and
-[installation guide](README.md) explain the one-command install and activation.
+[installation guide](INSTALL.md) explain the one-command install and activation.
 Preparing or packaging files never activates them on a site.
 
 ## Make a correction
@@ -127,8 +159,9 @@ python3 tools/sgn-i18n package --workspace . --output "$HOME/sgn-ready-v2"
 
 Existing output folders are never overwritten. Use a new workspace name when
 preparing another SGN release, such as `sgn-translation-v2`.
-Ordinary code PRs do not require completed human translations in every language;
-prepare updated catalogs when making a release.
+Ordinary SGN code PRs do not need translations; refresh the templates here
+(step 0) and prepare updated catalogs when making a release. Publish the ready
+folder for each SGN release, so that only the builder needs Node, Perl and R.
 
 ## Additional tools
 

@@ -1,6 +1,6 @@
 # Translation source attribution
 
-This is the source and license record. For setup, use [Turn on translations](README.md).
+This is the source and license record. For setup, use [Install a language](INSTALL.md).
 
 Some Ukrainian, Spanish and Arabic country-caption draft records are adapted
 from the iso-codes project's version v4.20.1 ISO 3166-1 and historical ISO 3166-3

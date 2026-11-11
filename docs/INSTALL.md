@@ -9,10 +9,10 @@ Choose the guide for your job:
 | Job | Start here |
 | --- | --- |
 | Install or update a ready language pack | Follow the steps below. |
-| Edit translations on your computer | [Open the prepared files in Poedit](TRANSLATOR.md#2-translator-open-edit-and-save). |
+| Edit translations | [Translator instructions](TRANSLATOR.md#translator-edit-and-save). |
 | Prepare a release or build ready packs | [Builder instructions](TRANSLATOR.md). |
-| Change English text in the application | [Developer instructions](DEVELOPER.md). |
-| Edit or build the user manual | [Manual instructions](../r_markdown_docs/i18n/README.md). |
+| Change English text in the application | [Developer instructions in SGN](https://github.com/solgenomics/sgn/blob/master/docs/i18n/DEVELOPER.md). |
+| Edit or build the user manual | [Manual instructions](MANUAL.md). |
 
 ## Before you start
 
