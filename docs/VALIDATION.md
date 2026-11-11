@@ -1,256 +1,43 @@
-# Localization validation
+# Validation record
 
-This is the test record. For site setup, use [Install a language](INSTALL.md).
+What was checked when this repository moved to standard GNU gettext
+(2026-11-11). Logs stayed outside Git.
 
-The records below 2026-11-10 were made inside the SGN repository (pull request
-solgenomics/sgn#6386). There the tools were in `bin/i18n/`, the catalogs in
-`locale/` and the manual in `docs/r_markdown_docs/i18n/`; here they are in
-`tools/`, `po/` and `manual/`.
-
-## Move to this repository, 2026-11-10
-
-Source: solgenomics/sgn#6386 head `7bcd519e17`. Local work only; nothing was
-published.
+## Same output as the #6386 tools
 
 | Check | Result |
-| --- | --- |
-| Lossless split | For uk, es and ar, joining the 28 section files gives the original `sgn.po` byte for byte; `msgcat --sort-output` views are equal; 15,398 messages, 19 plural, 1 fuzzy, 123 obsolete, 1,189 with translator comments in each language. Joined templates equal `sgn.pot`. |
-| Packs | `prepare` + `package` with the old tools on the old tree and with these tools on an SGN tree without `bin/i18n`, catalogs or PO files: all 31 files of each `uk`/`es`/`ar` pack are identical (`catalogSha256` 8697827d…, 1cf58612…, 279e290e…). `build` output (90 files), `release.json`, `release.pot` and the workspace PO files are identical. |
-| Templates | `extract --sgn` gives the committed templates; `update --sgn` leaves `po/` unchanged. |
-| Manual | `manual/build.R --sgn ... all` (SGN with its upstream `build.R`) and the old `build.R all` give identical output: 1,728 files for en, uk, es, ar. PDFs were not built. |
-| Tool tests | 160 tests pass in a clean Ubuntu 24.04 container with `SGN_CHECKOUT` (10 of them skip without it). Before the move, the 145 tests of `7bcd519e17` passed. |
-| Catalog check | 14 problems: whole Arabic text in 12 Ukrainian and 1 Spanish translations, and an Arabic question mark in 1 Ukrainian translation. They are left for a translator; the text was not changed in the move. |
+|---|---|
+| Section files | `po/<lang>/*.po` joined by `tools/sections.py` are byte-identical to `locale/<lang>/LC_MESSAGES/sgn.po` of sgn `7bcd519e17` (uk, es, ar), before the header clean-up. |
+| Templates | The `#. sections:` comments are the only change to `po/templates/`: 15,398 lines added, no message, reference or owner changed. |
+| Browser JSON | All 87 files of `build/js/` (29 sections x uk, es, ar) are byte-identical to the output of the `7bcd519e17` compiler (`bin/i18n/catalog.py`) without its `sourceRevision` field. |
+| Extraction | `make templates` against `7bcd519e17`: see [EXTRACTION.md](EXTRACTION.md#result-against-7bcd519e17). Same result with gettext 1.0 (Fedora) and 0.21 (Ubuntu 24.04). |
 
-Not checked: GitHub Actions itself, translated PDF export, Playwright
-navigation tests of the manual.
+## Clean Ubuntu 24.04
 
+Container `ubuntu:24.04` with only `gettext python3 make` installed
+(Python 3.12.3, GNU Make 4.3, gettext 0.21):
 
-## Release and editor automation audit, 2026-11-03
+| Command | Result |
+|---|---|
+| `make check` on branch `fix/wrong-script-14` | problems: 0; `msgfmt --check` passes for ar, es, uk; 32 tool tests pass (6 skip without `SGN=`) |
+| `make` | exit 0; `sgn.mo` uk 2.8 MB, es 2.4 MB, ar 2.6 MB; 90 files; largest JSON `js/uk/trial_card.json` 560 KB (limit 2 MiB) |
+| `make check` on `main` | fails only on the 14 Arabic texts in uk/es translations (13 uk, 1 es) |
+| `make check SGN=<7bcd519e17>` | the manual tests run; 1 skips (no R) |
+| `make templates SGN=<7bcd519e17>` | stops: 3 translations per language would lose their message |
 
-The automation update starts at `3a9221bf99e50cb6cd500a4e381ac34ca3817c67`
-and was published as `a9a26a0eb34a998edd6fd7f7444656d21ccfa61d`. Its hosted
-[documentation](https://github.com/solgenomics/sgn/actions/runs/41661034770)
-and [lint](https://github.com/solgenomics/sgn/actions/runs/41661034748) passed.
-The [application run](https://github.com/solgenomics/sgn/actions/runs/41661034872)
-is tracked separately; check that run for its current result. The local checks
-below do not stand in for full hosted or target-site acceptance.
+## Breedbase image
 
-The review covered the complete translation chain in four passes: current PR
-comments/linked issue; administrator and release workflow; independent adversarial
-checks; and an actual local-editor/publisher run. The four PR comments, reviews,
-inline threads and issue #5915 were read again. Repository/hosting ownership
-remains a maintainer decision; no repository, server or production deployment
-was created.
+`breedbase/breedbase:latest` (Debian 13, gettext 0.23.1, Python 3.13.5,
+GNU Make 4.4.1, Node 24) has everything `make` needs.
 
-| Role | Result | Evidence |
-| --- | --- | --- |
-| Release builder | `prepare` extracts once, updates separate PO copies and includes matching tools/notices. | Actual registered-source extraction for all three languages; source PO/POT unchanged. |
-| Translator | Standard Poedit opens the prepared PO; source and translation are separate. Saving does not publish. | Offline Poedit 3.6.3-2 GUI: view/edit/save, then actual packaging; original PO hash unchanged. |
-| Publisher | `package` snapshots the saved PO/release inputs, validates and produces whole ready bundles. | GNU-gettext-only copied-tool run; editor-save race regression; exact used PO copies in bundle. |
-| Administrator | `install --activate` reads locale/hash from a validated pack under the existing store lock. | All three full packs installed/selected/repeated/rolled back without external commands in PATH. |
-| Diagnostics | `doctor` does not initialize a folder, recover a journal, repair files or change permissions. | Missing-folder, interrupted-operation, corruption, busy-lock, regional-parent and HTTP regressions. |
-| Manual publisher | `build.R all` stages all four readers and renames only after all succeed. | Four real Bookdown builds and four Chromium language/section round trips; injected second-reader failure leaves no output/staging folder. |
+| Check | Result |
+|---|---|
+| `make` | exit 0, same file sizes as above |
+| libintl-perl 1.35, `gettext_pp` (after `apt-get install libintl-perl`) | `dpgettext` returns the uk text; `dnpgettext` returns the uk plural forms for 1, 2, 5, 11, 21; a fuzzy entry, a changed English text and an unknown key return English; the `.mo` header gives `X-SGN-Language-Name: Українська`, `X-SGN-Direction: ltr` (ar: `rtl`) |
+| `static/js/sgn-i18n.js` of the SGN core branch, under Node | accepts all 87 JSON files; `p` and `np` return the uk texts |
 
-Qualification passed: **145 Python tool checks**, **61 native files / 2,312
-top-level checks**, and **133 R checks** in the qualified dependency image.
-The six manual-source/argument checks were repeated after adding the all-language
-mode. Numerical R fixture, environment and process locale remained unchanged.
-A broad host-only parser run failed because that host lacks the Perl/R extraction
-dependencies; the complete qualified-image run passed. Frozen-workspace building
-and the ready-package lifecycle also passed on that same host without source
-parsers.
+## Not checked
 
-All **90 compiled JSON/index files**, **15,398 message identities** and **three
-complete package hashes** match the previously qualified data. Each language
-still has 15,397 translated entries and one whole English fallback. The new PO
-header text identifies an editable copy and the actual release instead of saying
-"Generated; do not edit" or advertising a prototype; original source files and
-notices are preserved.
-
-Independent adversarial review found and closed: an explicitly blank revision
-could bypass a gate; direct activation could recover a journal before rejecting
-the requested revision; diagnostics could reject a working regional parent;
-and a later editor save could mismatch ready-package provenance. Regression
-checks cover these cases and refusal before state changes.
-
-The local-editor test used synthetic messages in one offline Linux GUI session.
-It is not human terminology review or Windows/macOS GUI acceptance. A proposed
-custom editor-launch wrapper did not prove a reliable already-running handoff
-(exit 255), so it is excluded from the final design; standard Poedit file opening
-is used instead. The test editor lacked the optional Ukrainian spelling
-dictionary. No editor or OS package was installed on the host.
-
-Diagnostics verify selected/previous local package bytes and, when explicitly
-requested, two HEAD resource responses and the effective language. They do not
-prove that the local folder is the remote site's exact active version, the SGN
-process's filesystem identity, all authenticated workflows or scientific
-calculations. The site itself was not deployed or modified in this audit.
-
-## Setup and simplicity review, 2026-11-03
-
-This follow-up starts at `df1df33437fe659fa969050b8aa7a5d854a5448c` and retains
-the combined interface/catalog/manual scope. The review applies PEP 20 across
-the existing languages: one documented command interface, explicit behavior,
-useful errors and preserved scientific/data contracts.
-
-| Requirement | Change | Evidence |
-| --- | --- | --- |
-| Simple site setup | Three required settings; defaults/manual publication settings separated; restart versus live catalog activation explained. | Actual request and Mason header tests. |
-| Obvious commands | One `sgn-i18n COMMAND [OPTIONS]` interface; source `--root` works after the command; old direct syntax remains valid. | Real CLI regression and frozen external-workspace tests. |
-| Minimal operator environment | Common launcher plus three standard-library modules; ready packages need no source parsers, gettext or application checkout. | Three full language cycles with no external commands in PATH. |
-| Flexible container mounts | New runtime/selector links are relative within the whole store. Re-activating an older selected hash upgrades absolute pointers without changing activation history. | Single-file/indexed store moves, old-absolute compatibility, rollback, and actual Perl loading through a different container mount path. |
-| English without optional resources | Trial no longer publishes its own incomplete global translator; it uses shared helpers. Disabled pages omit both optional resource requests. | Whole shared/Trial source before/after regression, real edit/save payloads and plural messages in three modes; actual Mason header in both modes. |
-| Useful fallback diagnostics | Missing/corrupt configured packs log locale, store and reason once per request; a usable configured parent survives corrupt regional data. | New request regressions fail against the old role and pass after the correction. |
-| Predictable manual output | Help and explicit absolute output; source overlap, symlink aliases, parent/root output and extra arguments rejected. | Actual R boundary checks; English, Arabic and unchanged no-argument English Bookdown builds. |
-| Preserve catalogs and data | Only source references refreshed; no new messages, schema, permissions or scientific algorithms. | All 15,398 identities, 90 JSON/index bytes and three complete package hashes match the prior qualified version. |
-
-Final local qualification passed: **60 native files / 2,311 top-level checks**,
-**128 Python tool checks**, and **133 R checks**. The R fixture, environment and
-process locale remained unchanged. The complete Trial regression verifies the
-actual save callback with Unicode/literal markup, canonical field keys, zero
-values, empty-date removal, locale headers and plain success/error text. It
-first proves native save behavior, then reproduces the former shared plural
-failure; it does not claim the former native save always failed.
-
-Black 26.1.0, Ruff 0.14.14 (check/format), isort 5.13.2 and pylint 3.3.2 passed
-all 20 Python tool files; pylint rated them 10/10. Four armed Chromium source checks passed with current serializer evidence.
-The recorder check used the qualified Perl/Mason container after the host lacked
-JSON::PP; no product fallback was substituted. Root `README.md` passed Markdown,
-Prettier and terminology checks; changed sources passed spelling and JavaScript
-syntax checks. Explicit `package main` declarations fix the executable-test
-classification reported by hosted Perl lint. No linter rule was disabled for this
-follow-up.
-
-The independent runtime scan classified 122 direct p/np call lines in ten
-production files and 704 inline guarded calls. Existing guarded branches and
-local fallbacks remain compatible; blanket equivalence of each alternate
-fallback is not claimed. Trial was the only identified custom assignment of an
-incomplete global translator. Content-hash cache bounds, immutable snapshots,
-explicit locale headers, catalog integrity and atomic rollback are retained
-because they protect real application/release behavior. Existing scientific R
-workflows are not newly instrumented.
-
-These results qualify the changed source, local tools, synthetic request paths
-and catalog artifacts. Full authenticated application acceptance and human
-language/terminology approval remain separate. At the published base, hosted
-application and documentation jobs passed and lint failed; this candidate
-includes those lint corrections. Hosted checks must qualify the newly approved
-head after publication. Existing fixture-bootstrap and optional-probe limits
-below remain applicable. No merge or deployment is included.
-
-## Upstream synchronization, 2026-11-03
-
-After publication of the approved head, upstream master advanced to
-`cd749b7790192d9b861ee8d9500925e1c69d8e30`, producing five merge conflicts and
-preventing pull-request CI from starting. The integration preserves upstream
-POST-only account actions, discarded-seedlot handling, date-range behavior,
-bulk layout retrieval and the canonical maintenance upload endpoint. Existing
-localized presentation and locale headers remain in place; no new translation
-keys, authentication policy or database schema changes were introduced.
-
-Qualification passed: 60 native unit files / 2,309 top-level checks, all 125
-Python tool checks and 133 R checks. The account transport regression covers
-102 nested assertions; seedlot/list/upload checks cover literal data, multipart
-fields and locale headers. Source references were refreshed with GNU gettext;
-all 15,398 message identities and all 90 compiled JSON/index bytes are unchanged.
-
-## Review follow-up, 2026-11-02
-
-The minimalism pass starts at `8d15183cd0399bc2d239d179be65638112b5dd69`.
-It removes unused and repeated work while preserving the package format and
-installation commands. Shared data rules no longer import build/extraction
-code into operators. The browser selects validated forms directly; request
-English fallback is memory-only. Manual navigation has an independent
-Playwright suite and preserves updated section anchors.
-
-
-The candidate includes upstream `master` at
-`004e91f45dc8a36e826ddf705a62629a6e92dc69` and the original localization Draft
-head `b98b862c8e83b8d712f2e829603cc7e3174f918d`. Validation used the existing
-`codex-sgn-pr-refresh:20261025` dependency image; application source was supplied
-from the isolated candidate checkout. No production service, data or account was
-modified. Hosted checks from the earlier Draft do not certify this new candidate.
-
-- The complete native unit suite passed: 59 files / 2,306 top-level checks.
-  The source-path calendar dependency probe and opt-in POD-coverage check remain skipped locally. Four optional Chromium source
-  tests were run separately with all four enabled and passed.
-- All extraction/catalog/inventory/release/review/manual Python suites passed:
-  125 checks. Release regressions cover builds after removal of application
-  sources, Node-free operator commands, partitioned packs larger than 2 MiB in
-  aggregate, malformed members, stale revisions, legacy migration, failed
-  writes, interrupted first activation and recovery journals.
-- The R presentation runtime passed 133 checks. Numerical stock values, process
-  locale and environment remained unchanged. Perl and R loaders retain one
-  physical package generation when activation happens between partition reads;
-  the Perl regression reproduced a hash-mismatch failure before that correction.
-- All 15,398 current message identities were extracted and frozen. Three current
-  languages compiled into 29 independently bounded partitions plus an index per
-  language. All three complete packages passed create/validate/install/activate,
-  idempotent activation and rollback with `PATH` containing no Node. The actual
-  Perl runtime loaded all three installed packages with the expected locale,
-  direction and language label.
-- A current upstream import explanation changed to mention blank values, `NA`
-  and `.`. GNU gettext marked the old translation fuzzy: each language now has
-  15,397 compiled translations and one complete English fallback pending review.
-  Filled machine translations remain drafts, not human linguistic approval.
-- Real Mason toolbar rendering and Chromium passed 20 layout/navigation cases:
-  English, Ukrainian, Spanish and Arabic at 1440/768/360/320 pixels; selection
-  without automatic navigation; form query/fragment transport; and manual
-  chapter/anchor round trips through English and translated versions, including
-  a changed fragment after load and correct document language metadata. Two
-  standalone manual tests also cover native modified-click/new-tab navigation. Unrelated
-  menu content and login transport were controlled. This is not a full logged-in
-  application browser acceptance test.
-- Four current Bookdown HTML builds passed. English now also has language
-  navigation; two existing English cross references were repaired. Scientific
-  examples, code, formulas and numerical tokens passed the manual source tests.
-  Earlier full-book print inputs and translated PDFs remain unchanged and qualified: Ukrainian 249,
-  Spanish 247 and Arabic 228 pages. Export from read-only HTML bundles used all
-  four original static print figures with zero missing resources or browser
-  errors. All-page character-bound checks and visual samples of 18 rendered
-  pages found no clipping or replacement glyphs. The builder now stages the
-  print alternatives so export does not need to modify its HTML inputs. This
-  pass changes only explicit English language metadata and the navigation asset;
-  all 120 reader-page bodies match the previous qualified output.
-- PostgreSQL 12.7 fixture regressions `RemoveEmptyValues.t` and
-  `RemoveParsedEmptyValues.t` passed 277 assertions after the upstream merge.
-  The standard fixture bootstrap emitted an `AddCascadeDeletes` foreign-key
-  diagnostic for absent `md_files.file_id=2` and continued; a clean full fixture
-  bootstrap is not claimed. A separate real stock-property controller check
-  passed 25 controlled-context assertions without database writes.
-- JavaScript syntax passed for 114 changed files. Python Black/isort checks and
-  pylint passed for all 20 tool files; local versions were Black 24.10.0,
-  isort 5.13.2 and pylint 3.3.2. Official hosted lint remains a publication gate.
-
-All 90 compiled JSON/index files and all three complete package hashes are
-byte-identical to the previous qualified contribution. Review batches now select
-exact context/source/plural identities and reject incomplete PO inputs before
-creating output. Ready operator tools run using only `pack.py`,
-`catalog_format.py` and `plural.py`.
-
-The release snapshot's semantic source revision is
-`284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db`.
-Generated snapshots, package stores, browser captures and logs stay outside Git.
-The source registry defines coverage; these results do not establish translation
-of every route, scientific analysis or background email.
-
-## Reproduce
-
-Use the qualified [source tools](TOOLS.md) and an isolated SGN checkout.
-From this repository:
-
-```sh
-SGN_CHECKOUT=/path/to/sgn scripts/ci.sh
-
-python3 tools/sgn-i18n freeze --sgn /path/to/sgn --application-version APPLICATION_COMMIT \
-  --output /release/release.json
-python3 tools/sgn-i18n build --release /release/release.json --output /release/build
-```
-
-The SGN application tests (`prove -Ilib --recurse t/unit`,
-`Rscript --vanilla t/unit/SGN/i18n-runtime.R .`) run in SGN.
-Follow [the operator workflow](TRANSLATOR.md) for the complete package cycle,
-[the developer chapter](https://github.com/solgenomics/sgn/blob/master/docs/i18n/DEVELOPER.md) for request/browser diagnostics and
-[workflow review](REVIEW.md) for terminology review batches. Preserve English
-with localization disabled, scientific identifiers and measurements, ordinary
-permission boundaries, request field names and import/export contracts.
+- A running SGN site with these files (the core branch has its own tests).
+- Text quality: all translations are machine drafts.
+- The manual build with R and the PDF export.
