@@ -1838,7 +1838,7 @@ msgstr "sección del manual sobre el diseñador de etiquetas"
 #: mason/tools/label_designer/select_datasource.mas:28
 msgctxt "barcode.mason.label_for_every"
 msgid "Label For Every:"
-msgstr "إنشاء ملصق لكل:"
+msgstr "Etiqueta para cada:"
 
 #: mason/tools/label_designer/select_layout.mas:27
 msgctxt "barcode.mason.label_format"

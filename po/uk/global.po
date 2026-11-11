@@ -442,13 +442,13 @@ msgstr "Звіт за 2014 рік %{tgc_name} (TGC), імовірно, буде 
 #: mason/homepage/announcements.mas:15
 msgctxt "global.announcements.heading"
 msgid "A message from the TGC"
-msgstr "رسالة من TGC"
+msgstr "Повідомлення від TGC"
 
 # Draft translation; human review required.
 #: mason/homepage/announcements.mas:19
 msgctxt "global.announcements.signature_role"
 msgid "Managing Editor %{organization}"
-msgstr "المحرر المسؤول %{organization}"
+msgstr "Відповідальний редактор %{organization}"
 
 # Draft translation; human review required.
 #: mason/homepage/breeders_toolbox.mas:22
@@ -700,7 +700,7 @@ msgstr "Кошик замовлення клонів"
 #: cgi-bin/search/clone-order.pl:32 cgi-bin/search/clone-order.pl:33
 msgctxt "global.clone-order.supplier_available"
 msgid "The following selected clones are available through %{supplier}"
-msgstr "النسخ المحددة التالية متاحة عبر %{supplier}"
+msgstr "Ці вибрані клони можна отримати через %{supplier}"
 
 # Draft translation; human review required.
 #: mason/homepage/community.mas:8

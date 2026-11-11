@@ -125,7 +125,7 @@ msgstr "Переглядайте вакансії або розміщуйте о
 #: cgi-bin/forum/index.pl:13
 msgctxt "community.forum.browse_intro"
 msgid "You can"
-msgstr "يمكنك"
+msgstr "Ви можете"
 
 #: cgi-bin/forum/topics.pl:9
 msgctxt "community.forum.browse_without_login"
@@ -265,7 +265,7 @@ msgstr "Назад"
 #: cgi-bin/forum/index.pl:19
 msgctxt "community.forum.how_to_use"
 msgid "How to use it"
-msgstr "كيفية استخدامه"
+msgstr "Як цим користуватися"
 
 #: cgi-bin/forum/add_topic.pl:51
 msgctxt "community.forum.html_links_supported"

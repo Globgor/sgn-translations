@@ -4241,7 +4241,7 @@ msgstr "- Для роботи з цією картою потрібно мати
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:205
 msgctxt "trial.fieldmap_edit.help.submit_help"
 msgid "This button allows you to update the databases with the changes you have made to your trial. You can continuously change your trial data, just remember to submit the changes when you are satisfied so that it is saved."
-msgstr "تحدّث هذه الزر قاعدة البيانات بالتغييرات التي أجريتها على التجربة. يمكنك متابعة تعديل البيانات؛ تذكّر إرسال التغييرات عند الانتهاء لحفظها."
+msgstr "Ця кнопка записує до бази даних зміни, які ви внесли в дослід. Дані досліду можна змінювати скільки завгодно; коли результат вас влаштовує, надішліть зміни, щоб їх було збережено."
 
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:209
 msgctxt "trial.fieldmap_edit.help.transpose_help"
@@ -7494,7 +7494,7 @@ msgstr "Кількість стовпців на ділянку"
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:458
 msgctxt "trial.upload.form.cross_info"
 msgid "If you go on to perform crosses on this field trial, each cross can be linked to specific female and male plots. When you upload these crosses we can then automatically link this field trial to the crossing experiment in the database."
-msgstr "إذا أجريت عمليات تهجين في هذا الاختبار الحقلي، يمكن ربط كل تهجين بقطع أم وأب محددة. وعند تحميل عمليات التهجين، يمكننا ربط الاختبار الحقلي بتجربة التهجين في قاعدة البيانات تلقائيًا."
+msgstr "Якщо ви проводитимете схрещування в цьому польовому досліді, кожне схрещування можна пов’язати з конкретними материнською та батьківською ділянками. Коли ви завантажите ці схрещування до системи, польовий дослід буде автоматично пов’язано з дослідом зі схрещування в базі даних."
 
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:373
 msgctxt "trial.upload.form.design_type_label"
@@ -7560,7 +7560,7 @@ msgstr "Одна рослина на координату (рядок, стов�
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:330
 msgctxt "trial.upload.form.plant_coordinates_question"
 msgid "Assign row and column data to plants within plots?"
-msgstr "Призначити рослинам у ділянках дані рядка й стовпця؟"
+msgstr "Призначити рослинам у ділянках дані рядка й стовпця?"
 
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:322
 msgctxt "trial.upload.form.plant_entries_help"
@@ -7641,7 +7641,7 @@ msgstr "Чи виконуватимуть схрещування у цьому �
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:448
 msgctxt "trial.upload.form.will_genotype"
 msgid "Will this trial be genotyped?: "
-msgstr "هل سيُجرى تنميط جيني لهذا الاختبار؟ "
+msgstr "Чи буде цей дослід генотиповано?: "
 
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:746
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:859
@@ -8057,7 +8057,7 @@ msgstr "номер рядка. Якщо поле має сітку, це коо�
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:740
 msgctxt "trial.upload.template.optional_seed_count"
 msgid "number seeds per plot. Seed is transferred from seedlot mentioned in seedlot_name. Numeric"
-msgstr "عدد البذور لكل قطعة. تُؤخذ البذور من دفعة seedlot_name. قيمة رقمية"
+msgstr "кількість насінин на ділянку. Насіння беруть із партії seedlot_name. Числове значення"
 
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:741
 msgctxt "trial.upload.template.optional_seed_weight"
@@ -8119,7 +8119,7 @@ msgstr "Щоб додати партії насіння до бази даних
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:752
 msgctxt "trial.upload.template.template_optional_end"
 msgid "Only the required fields are necessary to include in the upload template.  You may add any additional optional fields.  The fields can be in any order."
-msgstr "يكفي تضمين الحقول المطلوبة في قالب التحميل. ويمكنك إضافة أي حقول اختيارية أخرى، كما يمكن ترتيب الحقول بأي ترتيب."
+msgstr "У шаблоні для завантаження достатньо лише обов’язкових полів. Можна додати будь-які необов’язкові поля. Поля можуть бути в будь-якому порядку."
 
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:845
 msgctxt "trial.upload.template.transplant_date_help"
