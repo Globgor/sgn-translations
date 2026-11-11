@@ -20,7 +20,7 @@
 # SPDX-FileCopyrightText: 2004 Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>
 # SPDX-FileCopyrightText: 2006, 2008, 2010 Ossama M. Khayat <okhayat@yahoo.com>
 # SPDX-FileCopyrightText: 2019 ButterflyOfFire <ButterflyOfFire@protonmail.com>
-# See docs/i18n/TRANSLATION_SOURCES.md and locale/LICENSE.iso-codes.
+# See docs/TRANSLATION_SOURCES.md and LICENSE.iso-codes.
 # SGN internationalization source catalog. Generated; do not edit.
 msgid ""
 msgstr ""
@@ -35,7 +35,6 @@ msgstr ""
 "X-SGN-Language-Name: العربية\n"
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 "X-SGN-Direction: rtl\n"
-"X-SGN-Source-Revision: 284ba4ad5e457a3aecff6c33173351e9ed04dd9afe3815d304f101123e7866db\n"
 
 #: lib/SGN/Controller/Catalog.pm:80
 msgctxt "administration.catalog.item_not_found"
