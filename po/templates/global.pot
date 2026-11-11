@@ -6,3906 +6,4687 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. sections: global
 #: mason/user/change_account.mas:70
 msgctxt "account.change.confirm_email"
 msgid "Confirm email"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:57
 msgctxt "account.change.confirm_password"
 msgid "Confirm password"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:44
 msgctxt "account.change.current_password"
 msgid "Current password"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:107
 msgctxt "account.change.done"
 msgid "Done! %{message}"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:64
 msgctxt "account.change.email_help"
 msgid "Your private e-mail address is not publicly displayed online. It is used only for SGN staff to contact you about changes to your record or for e-mailing your password to you. Changing your private e-mail address will trigger a confirmation message from SGN to verify the address is usable by SGN."
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:63
 msgctxt "account.change.email_toggle"
 msgid "Change email"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:13
 msgctxt "account.change.instructions"
 msgid "Please verify your current password to make changes. Select changes desired by checking the appropriate checkbox and entering the new information."
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:66
 msgctxt "account.change.new_email"
 msgid "New email"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:52
 msgctxt "account.change.new_password"
 msgid "New password"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:78
 msgctxt "account.change.new_username"
 msgid "New username"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:49
 msgctxt "account.change.password_toggle"
 msgid "Change password"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:88
 msgctxt "account.change.submit"
 msgid "Change Account Information"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:11
 msgctxt "account.change.title"
 msgid "Update User Information"
 msgstr ""
 
+#. sections: global
 #: mason/user/change_account.mas:76
 msgctxt "account.change.username_toggle"
 msgid "Change username"
 msgstr ""
 
+#. sections: global
 #: mason/user/quick_create_account.mas:18
 msgctxt "account.quick_create.confirm_password"
 msgid "Confirm Password"
 msgstr ""
 
+#. sections: global
 #: mason/user/quick_create_account.mas:14
 msgctxt "account.quick_create.first_name"
 msgid "First Name"
 msgstr ""
 
+#. sections: global
 #: mason/user/quick_create_account.mas:13
 msgctxt "account.quick_create.help"
 msgid "Curators may use this form to create accounts for new users."
 msgstr ""
 
+#. sections: global
 #: mason/user/quick_create_account.mas:15
 msgctxt "account.quick_create.last_name"
 msgid "Last Name"
 msgstr ""
 
+#. sections: global
 #: mason/user/quick_create_account.mas:17
 msgctxt "account.quick_create.password"
 msgid "Password (at least 7 characters)"
 msgstr ""
 
+#. sections: global
 #: mason/user/quick_create_account.mas:19
 msgctxt "account.quick_create.private_email"
 msgid "Private Email Address"
 msgstr ""
 
+#. sections: global
 #: mason/user/quick_create_account.mas:7
 msgctxt "account.quick_create.title"
 msgid "Quick Create Account"
 msgstr ""
 
+#. sections: global
 #: mason/user/quick_create_account.mas:20
 msgctxt "account.quick_create.user_type"
 msgid "User Type"
 msgstr ""
 
+#. sections: global
 #: mason/user/quick_create_account.mas:16
 msgctxt "account.quick_create.username"
 msgid "Username (at least 7 characters)"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:252
 msgctxt "account.server.account_created"
 msgid "Account was created with username \"%{username}\".\n\n%{confirmation}\n\nYou will be able to login once your account has been confirmed."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:242
 msgctxt "account.server.admin_confirmation"
 msgid "Your account has been created but first must be confirmed by the site administrators.  You will receive an email once your account has been confirmed."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:157
 msgctxt "account.server.creation_failed"
 msgid "Account creation failed for the following reason(s): %{reasons}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:43
 msgctxt "account.server.disabled_account"
 msgid "This account has been deactivated due to %{reason}. Please contact the database administrator to re-instate the account."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:248
 msgctxt "account.server.email_confirmation"
 msgid "To continue, you must confirm that we can reach you via email address \"%{email}\". An email has been sent with a URL to confirm this address. Please check your email for this message and use the link to confirm your email address."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:146
 msgctxt "account.server.email_exists"
 msgid "Email address is already associated with an account."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:141
 msgctxt "account.server.email_invalid"
 msgid "Email address is invalid."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:150
 msgctxt "account.server.first_name_required"
 msgid "You must enter a first name or initial."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:412
 msgctxt "account.server.forgot_requested"
 msgid "Username email requested. If you have an account on this database with this email, you will receive a message that includes the username associated with this email address.  If you do not have an account with this email address, you will not receive a message."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:39
 msgctxt "account.server.incorrect_credentials"
 msgid "Login credentials are incorrect. Please try again."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/User.pm:141
 msgctxt "account.server.invalid_reset_link"
 msgid "The provided password reset link is invalid. Please try again with another link."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:153
 msgctxt "account.server.last_name_required"
 msgid "You must enter a last name."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:48
 msgctxt "account.server.login_success"
 msgid "Login successful"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:61 lib/SGN/Controller/AJAX/User.pm:75
 msgctxt "account.server.logout_success"
 msgid "User successfully logged out."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:90
 msgctxt "account.server.mirror_registration"
 msgid "This site is a mirror site and does not support adding users. Please go to the main site to create an account."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/User.pm:153
 msgctxt "account.server.missing_reset_token"
 msgid "No token provided. Please try again."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:134
 msgctxt "account.server.password_mismatch"
 msgid "Password and confirm password do not match."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:131 lib/SGN/Controller/AJAX/User.pm:452
 msgctxt "account.server.password_short"
 msgid "Password is too short. Password must be %{minimum} or more characters"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:485
 msgctxt "account.server.password_updated"
 msgid "The password was successfully updated."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:138
 msgctxt "account.server.password_username"
 msgid "Password must not be the same as your username."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:457
 msgctxt "account.server.reset_confirm_mismatch"
 msgid "Please enter the same password in the confirm password field!"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:437
 msgctxt "account.server.reset_requested"
 msgid "Password reset email requested. If you have an account on this database with this email, you will receive a message with a password reset link.  If you do not have an account with this email address, you will not receive a message."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:126
 msgctxt "account.server.username_exists"
 msgid "Username \"%{username}\" is already in use. Please pick a different username."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:117
 msgctxt "account.server.username_short"
 msgid "Username is too short. Username must be %{minimum} or more characters"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/User.pm:119
 msgctxt "account.server.username_spaces"
 msgid "Username must not contain spaces"
 msgstr ""
 
+#. sections: global
 #: mason/cookie_popup.mas:17
 msgctxt "cookie.accept"
 msgid "Accept"
 msgstr ""
 
+#. sections: global
 #: mason/cookie_popup.mas:14
 msgctxt "cookie.notice"
 msgid "This site uses cookies to provide logins and other features. Please accept the use of cookies by clicking Accept."
 msgstr ""
 
+#. sections: global
 #: mason/cookie_popup.mas:36
 msgctxt "cookie.thank_you"
 msgid "Thank you :-)"
 msgstr ""
 
+#. sections: accessions analysis barcode_orders collection_upload crosses decision_allocation drone_imaging genotype_plates genotypes_markers global lists_datasets phenotypes_traits program_locations seedlots transformation trial_card trial_design
 #: js/source/legacy/CXGN/BreederSearch.js:205 js/source/legacy/CXGN/Trial.js:26 js/source/legacy/CXGN/Trial.js:57 mason/breeders_toolbox/cross/index.mas:298 mason/breeders_toolbox/genotyping_data_project/genotyping_project_deletion.mas:196
 msgctxt "cross.ui.an_error_occurred"
 msgid "An error occurred."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/all_unig_for_annot.pl:108
 msgctxt "global.all_unig_for_annot.blast_target_desc"
 msgid "Unigene %{program} search against %{database}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/all_unig_for_annot.pl:145
 msgctxt "global.all_unig_for_annot.unigenes_containing_annotation"
 msgid "Unigenes containing this annotation"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:203
 msgctxt "global.annotation_search_result.clone_censored_sentence"
 msgid "The annotation is associated with clone %{clone_link}, which has been censored from the current unigene builds."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:366
 msgctxt "global.annotation_search_result.first_page"
 msgid "First Page"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:368
 msgctxt "global.annotation_search_result.last_page"
 msgid "Last Page"
 msgstr ""
 
+#. sections: analysis barcode_orders collection_upload crosses genotypes_markers global
 #: cgi-bin/search/annotation_search_result.pl:356 cgi-bin/search/markers/markersearch.pl:220 cgi-bin/search/markers/markersearch.pl:234 mason/breeders_toolbox/cross/cross_wishlist.mas:193 mason/search/markers/results.mas:47 mason/search/markers/results.mas:69 mason/tools/label_designer/index.mas:16 mason/tools/label_designer/index.mas:24 mason/tools/label_designer/index.mas:30 mason/tools/qualityControl/validated_trials.mas:53
 msgctxt "global.annotation_search_result.next"
 msgid "Next"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:531
 msgctxt "global.annotation_search_result.no_match_note"
 msgid "Your search for %{term} did not find any relevant matches in our database. %{note} Keywords of less than 4 letters or those that occur in more than half the data are ignored by the search."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:485
 msgctxt "global.annotation_search_result.no_unigenes_contain"
 msgid "No unigenes contain this annotation"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:367
 msgctxt "global.annotation_search_result.page_range"
 msgid "Page [1-%{pages}]"
 msgstr ""
 
+#. sections: analysis global
 #: cgi-bin/search/annotation_search_result.pl:334 mason/tools/qualityControl/validated_trials.mas:51
 msgctxt "global.annotation_search_result.previous"
 msgid "Previous"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:550
 msgctxt "global.annotation_search_result.search_prompt"
 msgid "Please enter a search word or phrase and select the annotation type you want to search."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:497
 msgctxt "global.annotation_search_result.search_summary"
 msgid "Your search for %{term} in %{type} returned %{total} results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:467
 msgctxt "global.annotation_search_result.show_all_link"
 msgid "Show All"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:395
 msgctxt "global.annotation_search_result.showing_all"
 msgid "Showing %{all} matches"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:399
 msgctxt "global.annotation_search_result.showing_last"
 msgid "Showing last %{count} matches"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:403
 msgctxt "global.annotation_search_result.showing_range"
 msgid "Showing matches %{start} to %{end}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:466
 msgctxt "global.annotation_search_result.showing_top"
 msgid "Showing only top %{shown} of %{total}."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:442
 msgctxt "global.annotation_search_result.text_match_relevance"
 msgid "Text Match Relevance: %{score}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:296
 msgctxt "global.annotation_search_result.unigenes_containing_annotation"
 msgid "Unigenes containing this annotation:"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/announcements.mas:8
 msgctxt "global.announcements.body"
 msgid "The 2014 Report of the %{tgc_name} (TGC) will likely be published at the end of October. There is time for researchers to submit reports on their tomato related research. Reports can include some interesting preliminary results and will not preclude later publishing in a refereed journal. You may also have some information that would be of interest to the research community but do not have time etc. to do follow up work for a refereed paper. Please submit reports to me at %{email_link}. For more information on the TGC see %{tgc_link}."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/announcements.mas:15
 msgctxt "global.announcements.heading"
 msgid "A message from the TGC"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/announcements.mas:19
 msgctxt "global.announcements.signature_role"
 msgid "Managing Editor %{organization}"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/breeders_toolbox.mas:22
 msgctxt "global.breeders_toolbox.access"
 msgid "Access the SGN %{toolbox_link}"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/breeders_toolbox.mas:15
 msgctxt "global.breeders_toolbox.heading"
 msgid "SGN Breeder's Toolbox"
 msgstr ""
 
+#. sections: global
 #: mason/captcha.mas:71 mason/captcha.mas:95
 msgctxt "global.captcha.could_not_save"
 msgid "Could not save verification token"
 msgstr ""
 
+#. sections: global
 #: mason/captcha.mas:108
 msgctxt "global.captcha.could_not_verify"
 msgid "Could not verify the token"
 msgstr ""
 
+#. sections: global
 #: mason/captcha.mas:12
 msgctxt "global.captcha.disabled"
 msgid "Captcha has not been enabled on this server"
 msgstr ""
 
+#. sections: global
 #: mason/captcha.mas:22
 msgctxt "global.captcha.javascript_required"
 msgid "Javascript is required for bot detection..."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/Captcha.pm:37
 msgctxt "global.captcha.missing_config"
 msgid "Missing server captcha config"
 msgstr ""
 
+#. sections: global
 #: mason/captcha.mas:77
 msgctxt "global.captcha.redirect_notice"
 msgid "You should now be redirected to %{link}"
 msgstr ""
 
+#. sections: global
 #: mason/captcha.mas:75
 msgctxt "global.captcha.saved"
 msgid "Saved verification token!"
 msgstr ""
 
+#. sections: global
 #: mason/captcha.mas:58
 msgctxt "global.captcha.saving"
 msgid "Saving verification token..."
 msgstr ""
 
+#. sections: global
 #: mason/captcha.mas:20
 msgctxt "global.captcha.verification_failed"
 msgid "Verification Failed"
 msgstr ""
 
+#. sections: global
 #: mason/captcha.mas:102 mason/captcha.mas:28
 msgctxt "global.captcha.verifying"
 msgid "Verifying your request..."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:61 mason/homepage/carousel.mas:81
 msgctxt "global.carousel.browse_crop_genome"
 msgid "Browse the %{crop} genome"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:101
 msgctxt "global.carousel.browse_genome"
 msgid "Browse the genome"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:103 mason/homepage/carousel.mas:124
 msgctxt "global.carousel.design_vigs"
 msgid "Design VIGS constructs"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:64 mason/homepage/carousel.mas:83
 msgctxt "global.carousel.download_annotations"
 msgid "Download the annotations"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:65 mason/homepage/carousel.mas:84
 msgctxt "global.carousel.download_genome_sequence"
 msgid "Download the Genome Sequence"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:104
 msgctxt "global.carousel.downloads"
 msgid "Downloads"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:102 mason/homepage/carousel.mas:123 mason/homepage/carousel.mas:62 mason/homepage/carousel.mas:82
 msgctxt "global.carousel.find_sequences"
 msgid "Find sequences by similarity"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:94
 msgctxt "global.carousel.genome_label"
 msgid "Genome"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:191
 msgctxt "global.carousel.next"
 msgid "Next"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:75
 msgctxt "global.carousel.pepper_species_genomes"
 msgid "%{crop} Sps. Genomes"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:11 mason/homepage/carousel.mas:7
 msgctxt "global.carousel.petunia_browse_genome"
 msgid "Browse the %{species} genome"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:15 mason/homepage/carousel.mas:19
 msgctxt "global.carousel.petunia_downloads"
 msgid "%{species} Downloads"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:187
 msgctxt "global.carousel.previous"
 msgid "Previous"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:168
 msgctxt "global.carousel.program_outline"
 msgid "Program outline"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:167
 msgctxt "global.carousel.registration"
 msgid "Registration"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:160
 msgctxt "global.carousel.solanaceae_conference_16"
 msgid "The 16th Solanaceae Conference"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:55
 msgctxt "global.carousel.tomato_genome_available"
 msgid "The new %{crop} Genome assembly (%{assembly}) and annotations (%{annotation}) are now available on SGN"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:54
 msgctxt "global.carousel.tomato_genome_title"
 msgid "%{crop} Genome"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:45
 msgctxt "global.carousel.varitome_description"
 msgid "Exploitation of genetic and epigenetic variation in the regulation of %{crop} fruit quality traits"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:44
 msgctxt "global.carousel.varitome_project"
 msgid "The Varitome Project"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/carousel.mas:169
 msgctxt "global.carousel.venue_information"
 msgid "Venue and Information"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:26
 msgctxt "global.clone-order.cart_contents"
 msgid "Shopping Cart Contents"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:30
 msgctxt "global.clone-order.cookie_note"
 msgid "%{note_label} SGN does not handle clone orders directly. Selected clones will be routed online to the appropriate parties using the submit buttons above. Your browser %{cookie_support} for this to work properly. Please use your browser's back button to select additional clones, or start a new search using the links above."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:190 cgi-bin/search/clone-order.pl:27
 msgctxt "global.clone-order.empty_cart"
 msgid "There are no cDNA clones in your shopping cart."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:191 cgi-bin/search/clone-order.pl:31
 msgctxt "global.clone-order.empty_cart_cookie_note"
 msgid "Please note that your browser must accept cookies to order clones through SGN."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:29
 msgctxt "global.clone-order.intro"
 msgid "SGN can compile a list of clones to order and then route the orders to appropriate people or facilities for you when you are finished selecting clones. To continue selecting clones, use your browser's back button or start a %{search_link}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:139 cgi-bin/search/clone-order.pl:36
 msgctxt "global.clone-order.kazusa_agreement"
 msgid "Kazusa Material Transfer Agreement"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:138 cgi-bin/search/clone-order.pl:35
 msgctxt "global.clone-order.kazusa_request_page"
 msgid "Kazusa Clone request page"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:28
 msgctxt "global.clone-order.new_search"
 msgid "new search"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:137 cgi-bin/search/clone-order.pl:34
 msgctxt "global.clone-order.order_clones_email"
 msgid "ORDER CLONES (email)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:20
 msgctxt "global.clone-order.page_title"
 msgid "Clone Shopping Cart"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:103 cgi-bin/search/clone-order.pl:136 cgi-bin/search/clone-order.pl:32 cgi-bin/search/clone-order.pl:33
 msgctxt "global.clone-order.supplier_available"
 msgid "The following selected clones are available through %{supplier}"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/community.mas:8
 msgctxt "global.community.contribute_link"
 msgid "contribute to webpages for your favorite genes and mutant lines"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/community.mas:9
 msgctxt "global.community.description"
 msgid "As an SGN locus editor, %{contribute_link} and share relevant data and publications with the community."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/community.mas:15
 msgctxt "global.community.heading"
 msgid "Community Annotation"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/community.mas:16
 msgctxt "global.community.more"
 msgid ">>more..."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:173
 msgctxt "global.dataset_overlay.choose_items"
 msgid "%{step_label} Choose items of type %{types} from column %{step}."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:279
 msgctxt "global.dataset_overlay.confirm_close"
 msgid "Are you sure you want to close the dataset creation help?"
 msgstr ""
 
+#. sections: analysis global seedlots solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:214 mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:354 mason/tools/boxplotter.mas:64
 msgctxt "global.dataset_overlay.create"
 msgid "Create"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:242
 msgctxt "global.dataset_overlay.created_label"
 msgid "Dataset Created:"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:239
 msgctxt "global.dataset_overlay.dataset_created"
 msgid "%{created_label} %{return_to_tool}"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:216
 msgctxt "global.dataset_overlay.name_dataset"
 msgid "%{step_label} Enter a name for your dataset and click the %{create_button} button."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:179
 msgctxt "global.dataset_overlay.next"
 msgid "Next"
 msgstr ""
 
+#. sections: analysis global seedlots solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:177 mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:60 mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:61 mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:62 mason/tools/qualityControl/dataset_quality_control.mas:217
 msgctxt "global.dataset_overlay.or"
 msgid "or"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:248
 msgctxt "global.dataset_overlay.return"
 msgid "Return"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:237
 msgctxt "global.dataset_overlay.return_to_tool"
 msgid "Return to the Analysis tool"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:170 mason/breeders_toolbox/breeder_search_page_dataset_overlay.mas:212
 msgctxt "global.dataset_overlay.step_label"
 msgid "Step %{step}:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:66
 msgctxt "global.est.additional_sequencing"
 msgid "Additional sequencing"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:887
 msgctxt "global.est.alias_group_message"
 msgid "Your search resolved to a clone identifier (SGN-C%{id}) that has no associated reads. An alias group was detected, however. See links below for other clone ids/names that are expected to be from identical stock."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:716
 msgctxt "global.est.alternative_clones_mapped"
 msgid "See unigene %{link} for alternative clones/ESTs which are mapped"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:53
 msgctxt "global.est.basecalling"
 msgid "Basecalling Software:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:69
 msgctxt "global.est.chromatogram"
 msgid "Chromatogram"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:46
 msgctxt "global.est.clone"
 msgid "Clone:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:65
 msgctxt "global.est.clone_info"
 msgid "Clone information"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:703
 msgctxt "global.est.clone_mapped_as"
 msgid "This clone has been mapped as %{link}."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:35
 msgctxt "global.est.clone_name"
 msgid "Clone name:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:423
 msgctxt "global.est.clone_name_unknown"
 msgid "clone name unknown"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:61
 msgctxt "global.est.current_builds"
 msgid "Current Unigene builds"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:39
 msgctxt "global.est.development_stage"
 msgid "Development Stage:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:49
 msgctxt "global.est.direction"
 msgid "Direction:"
 msgstr ""
 
+#. sections: barcode_orders crosses decision_allocation drone_imaging genotype_plates global phenotypes_traits transformation
 #: cgi-bin/search/est.pl:42 mason/barcode/unique_barcode_download.mas:8 mason/breeders_toolbox/cross/intercross_file_info.mas:41 mason/breeders_toolbox/cross/intercross_file_info.mas:54 mason/breeders_toolbox/cross/intercross_parents_download.mas:51 mason/breeders_toolbox/decision_meeting/decision_meeting_section.mas:22 mason/breeders_toolbox/genotyping_data_project/genotype_archived_vcf.mas:38 mason/breeders_toolbox/genotyping_data_project/genotype_data.mas:20 mason/breeders_toolbox/genotyping_data_project/genotyping_plates.mas:14 mason/breeders_toolbox/genotyping_trials/plate_genotyping_data.mas:21 mason/breeders_toolbox/genotyping_trials/plate_genotyping_data.mas:52 mason/homepage/phenotype_uploads.mas:22 mason/order/create_item_file_dialog.mas:23 mason/search/genotyping_trials.mas:29 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:117 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:91 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:108 mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:91 mason/tools/label_designer/label_designer_modals.mas:216 mason/transformation/download_obsolete_metadata_using_list_dialog.mas:25
 msgctxt "global.est.download"
 msgid "Download"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:614
 msgctxt "global.est.ecoli_sequence"
 msgid "E. Coli (cloning host) sequence detected"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:48
 msgctxt "global.est.est"
 msgid "EST:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:56
 msgctxt "global.est.expected_error"
 msgid "Expected Error Rate:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:50
 msgctxt "global.est.facility"
 msgid "Facility:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:43
 msgctxt "global.est.facility_assigned_id"
 msgid "Facility Assigned ID:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:63
 msgctxt "global.est.follow_unigene"
 msgid "Follow SGN-U# link for detailed information and annotations"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:40
 msgctxt "global.est.funding_organization"
 msgid "Funding Organization:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:1010
 msgctxt "global.est.hierarchy_title"
 msgid "Information Hierarchy for Clone %{id}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:612
 msgctxt "global.est.high_expected_error"
 msgid "High expected error (low overall quality)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:255
 msgctxt "global.est.identifier_not_found"
 msgid "Identifier \"%{id}\" was not found in SGN's databases."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:72 cgi-bin/search/est.pl:999
 msgctxt "global.est.information_hierarchy"
 msgid "Information Hierarchy"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:285
 msgctxt "global.est.invalid_clone_id"
 msgid "Invalid identifier \"%{id}\" for specified identifier type (SGN-C#)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:280
 msgctxt "global.est.invalid_est_id"
 msgid "Invalid identifier \"%{id}\" for specified identifier type (SGN-E#)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:294
 msgctxt "global.est.invalid_trace_id"
 msgid "Invalid identifier \"%{id}\" for specified identifier type (SGN-T#)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:59
 msgctxt "global.est.length"
 msgid "Length:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:36
 msgctxt "global.est.library_name"
 msgid "Library Name:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:613
 msgctxt "global.est.low_complexity"
 msgid "Low complexity"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:618
 msgctxt "global.est.manually_censored"
 msgid "Manually censored by SGN staff"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:78
 msgctxt "global.est.map_missing"
 msgid "There is no map position defined on SGN for this EST or others in the same unigene."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:26 cgi-bin/search/unigene-all-blast-matches.pl:7
 msgctxt "global.est.match"
 msgid "Match:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:28
 msgctxt "global.est.match_type"
 msgid "Match Type:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:29
 msgctxt "global.est.microarray"
 msgid "Microarray:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:77
 msgctxt "global.est.microarray_alt_missing"
 msgid "No alternative clones from any current unigene containing this EST are available on a microarray"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:693
 msgctxt "global.est.microarray_alternatives"
 msgid "See unigene %{link} for alternatives which are available on a microarray"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:76
 msgctxt "global.est.microarray_missing"
 msgid "This clone is not found on any microarray"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:598
 msgctxt "global.est.multiple_cloning_site"
 msgid "Multiple cloning site sequence detected -- chimeric clone suspected."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:75
 msgctxt "global.est.no_additional_reads"
 msgid "No additional reads found."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:74
 msgctxt "global.est.no_chromatogram"
 msgid "No chromatogram information found for this sequence"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:73
 msgctxt "global.est.no_clone_info"
 msgid "No clone information found"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:79
 msgctxt "global.est.no_current_build"
 msgid "No current unigene builds incorporate this sequence"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:527
 msgctxt "global.est.no_est_database_entry"
 msgid "No database entry was found for EST identifier SGN-E%{id}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:202
 msgctxt "global.est.no_est_identifier"
 msgid "No EST identifier specified"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:1014
 msgctxt "global.est.no_hierarchy_structure"
 msgid "No structure was found for identifier %{id}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:447
 msgctxt "global.est.none"
 msgid "None"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:604
 msgctxt "global.est.not_available"
 msgid "Not available"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:31
 msgctxt "global.est.order"
 msgid "Order"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:30
 msgctxt "global.est.order_clone"
 msgid "Order Clone"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:32
 msgctxt "global.est.ordering_not_available"
 msgid "Ordering Not Available"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:37
 msgctxt "global.est.organism"
 msgid "Organism:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:765
 msgctxt "global.est.page_title"
 msgid "EST details &mdash; %{id}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:622
 msgctxt "global.est.passed_screens"
 msgid "Passed all screens and filters"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:616
 msgctxt "global.est.possibly_chimeric_arabidopsis"
 msgid "Possibly chimeric (ends match significantly different genes in arabidopsis)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:617
 msgctxt "global.est.possibly_chimeric_preclustering"
 msgid "Possibly chimeric, detected by unigene assembly preclustering"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:610
 msgctxt "global.est.possibly_chimeric_vector"
 msgid "Possibly chimeric (anomalous insert into vector)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:51
 msgctxt "global.est.problems"
 msgid "Problems:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:52
 msgctxt "global.est.processed_by"
 msgid "Processed By:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:649
 msgctxt "global.est.processing_info_unavailable"
 msgid "Processing information not available for this sequence"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:70
 msgctxt "global.est.quality_processing"
 msgid "Quality processing"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:57
 msgctxt "global.est.quality_trim"
 msgid "Quality Trim Threshold:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:888
 msgctxt "global.est.rearray_explanation"
 msgid "This may happen for cases where clones were \"rearrayed\" and resequenced, but the resequenced data has not been recovered yet or the reactions failed. In this case, the rearrayed clone identifier and name will have no associated sequence, but the original clone may have usable reads available in the database."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:25
 msgctxt "global.est.request"
 msgid "Request:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:27
 msgctxt "global.est.request_from"
 msgid "Request From:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:615
 msgctxt "global.est.rrna_contamination"
 msgid "rRNA contamination detected"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:64
 msgctxt "global.est.search_info"
 msgid "Search information"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:504
 msgctxt "global.est.see_five_prime_reads"
 msgid "See links to 5' reads above"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:502
 msgctxt "global.est.see_three_prime_reads"
 msgid "See links to 3' reads above"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:55
 msgctxt "global.est.sequence_entropy"
 msgid "Sequence Entropy:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:58
 msgctxt "global.est.sequence_id"
 msgid "Sequence Id:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:45
 msgctxt "global.est.sequencing_facility"
 msgid "Sequencing Facility:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:33
 msgctxt "global.est.sgn_id"
 msgid "SGN ID:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:34
 msgctxt "global.est.sgn_trace_id"
 msgid "SGN-ID:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:71
 msgctxt "global.est.show_hierarchy"
 msgid "[Show information hierarchy]"
 msgstr ""
 
+#. sections: barcode_orders decision_allocation global seedlots
 #: cgi-bin/search/est.pl:60 lib/SGN/Controller/AJAX/DecisionMeeting.pm:2657 mason/order/re_open_dialog.mas:111 mason/order/stocks.mas:342 mason/order/stocks.mas:360 mason/propagation/propagation_id_section.mas:151
 msgctxt "global.est.status"
 msgid "Status:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:570
 msgctxt "global.est.status_censored"
 msgid "Censored "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:579
 msgctxt "global.est.status_chimera_not_assessed"
 msgid "Chimera not assessed "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:576
 msgctxt "global.est.status_contaminants_not_assessed"
 msgid "Contaminants not assessed "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:558
 msgctxt "global.est.status_current"
 msgid "Current Version"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:567
 msgctxt "global.est.status_deprecated"
 msgid "Deprecated "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:564
 msgctxt "global.est.status_discarded"
 msgid "Discarded "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:561
 msgctxt "global.est.status_legacy"
 msgid "Legacy "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:573
 msgctxt "global.est.status_trim_not_applied"
 msgid "Vector/Quality trimming not applied "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:44
 msgctxt "global.est.submitter"
 msgid "Submitter:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:38
 msgctxt "global.est.tissue"
 msgid "Tissue:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:611
 msgctxt "global.est.too_short_after_trimming"
 msgid "Too short after trimming low-quality bases"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:47
 msgctxt "global.est.trace"
 msgid "Trace:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:744
 msgctxt "global.est.unigene_version_note"
 msgid "Note: Some unigenes listed here are assembled from different versions of the sequence displayed above. Note SGN-E# in left column. All versions were derived from the same chromatogram"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:68
 msgctxt "global.est.unigenes"
 msgid "Unigenes"
 msgstr ""
 
+#. sections: genotypes_markers global
 #: cgi-bin/search/est.pl:62 mason/transcript/unigene/markers_info.mas:81
 msgctxt "global.est.unknown"
 msgid "Unknown"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:609
 msgctxt "global.est.vector_anomaly"
 msgid "Vector anomaly"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:596
 msgctxt "global.est.vector_missing"
 msgid "No vector sequence detected"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:597
 msgctxt "global.est.vector_pattern_inconsistent"
 msgid "Vector found but pattern inconsistent with a normal insert"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:591
 msgctxt "global.est.vector_read_3"
 msgid "3' sequence read -- flanking 5' vector arm detected."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:593
 msgctxt "global.est.vector_read_3_incomplete"
 msgid "3' sequence read, incomplete (flanking vector not found)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:590
 msgctxt "global.est.vector_read_5"
 msgid "5' sequence read -- flanking 3' vector arm detected."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:592
 msgctxt "global.est.vector_read_5_incomplete"
 msgid "5' sequence read, incomplete (flanking vector not found)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:54
 msgctxt "global.est.vector_signature"
 msgid "Vector Signature:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:383
 msgctxt "global.est_detail.alias_microarray"
 msgid "Alias clone %{link} is on microarray %{chip}: SGN-S%{spot}\n"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:720
 msgctxt "global.est_detail.build_number"
 msgid "Build %{number}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:721
 msgctxt "global.est_detail.ests_assembled"
 msgid "%{count} ESTs assembled"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:385
 msgctxt "global.est_detail.microarray_spot"
 msgid "SGN-C%{clone} is on microarray %{chip} spot ID %{spot} [%{order}] [%{database}]\n"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:13
 msgctxt "global.est_detail.version_explanation"
 msgid "Note: Some unigenes listed here are assembled from different versions of the sequence displayed above. Note SGN-E# in left column. All versions were derived from the same chromatogram"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/events.mas:20
 msgctxt "global.events.see_all"
 msgid "See all events..."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/events.mas:9
 msgctxt "global.events.unavailable"
 msgid "Events are currently not available"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:250
 msgctxt "global.family.alignment_large"
 msgid "Family size too large for alignment on this page."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:246
 msgctxt "global.family.alignment_unavailable"
 msgid "Alignment not available for this family%{extra}."
 msgstr ""
 
+#. sections: crosses global
 #: cgi-bin/search/family.pl:120 cgi-bin/search/family_search.pl:44
 msgctxt "global.family.annotation"
 msgid "Annotation"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:119
 msgctxt "global.family.build"
 msgid "Build"
 msgstr ""
 
+#. sections: crosses global
 #: cgi-bin/search/family.pl:104 cgi-bin/search/family_build.pl:75
 msgctxt "global.family.build_date"
 msgid "Build Date"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:221
 msgctxt "global.family.build_id"
 msgid "Build id"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:315 cgi-bin/search/family.pl:326
 msgctxt "global.family.click_alignment"
 msgid "Click on the image above to view the detailed alignment"
 msgstr ""
 
+#. sections: crosses global
 #: cgi-bin/search/family.pl:122 cgi-bin/search/family_build.pl:77
 msgctxt "global.family.dataset"
 msgid "Data Set"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:130
 msgctxt "global.family.family_analysis_explanation"
 msgid "Explanation of family analysis and terms used on this page"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:340
 msgctxt "global.family.family_members"
 msgid "Family Members"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:105
 msgctxt "global.family.family_number"
 msgid "Family&nbsp;Number"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:222
 msgctxt "global.family.family_number_size"
 msgid "Family Number (Size)"
 msgstr ""
 
+#. sections: crosses global
 #: cgi-bin/search/family.pl:339 cgi-bin/search/family_align.pl:405
 msgctxt "global.family.family_sequence_alignment"
 msgid "Family Sequence Alignment"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:114
 msgctxt "global.family.high_stringency"
 msgid "High stringency in grouping genes together"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:369
 msgctxt "global.family.invalid_family_id"
 msgid "The specified family identifier (%{family_id}) does not result in a valid search."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:117 cgi-bin/search/family.pl:223
 msgctxt "global.family.ivalue"
 msgid "i Value"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:108
 msgctxt "global.family.low_stringency"
 msgid "Low stringency in grouping genes together"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:177
 msgctxt "global.family.member_count"
 msgid "# of Members"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:178
 msgctxt "global.family.member_id"
 msgid "Member Id"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:318
 msgctxt "global.family.no_alignment_image"
 msgid "No alignment image available."
 msgstr ""
 
+#. sections: crosses global
 #: cgi-bin/search/family.pl:351 cgi-bin/search/family_align.pl:428 cgi-bin/search/family_build.pl:259
 msgctxt "global.family.no_family_id"
 msgid "No family id specified"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:111
 msgctxt "global.family.normal_stringency"
 msgid "Normal stringency in grouping genes together"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:241
 msgctxt "global.family.not_applicable"
 msgid "Not applicable."
 msgstr ""
 
+#. sections: global phenotypes_traits transformation
 #: cgi-bin/search/family.pl:176 mason/search/phenotypes/stock.mas:60 mason/search/vectors.mas:173 mason/search/vectors.mas:235 mason/search/vectors.mas:257
 msgctxt "global.family.organism"
 msgid "Organism"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:126
 msgctxt "global.family.out_of_date"
 msgid "This family is from an out-of-date build."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:118
 msgctxt "global.family.overall_build_details"
 msgid "[Details of the Overall Family Build]"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:334
 msgctxt "global.family.page_title"
 msgid "SGN Gene Family %{id}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:127
 msgctxt "global.family.relations_current_builds"
 msgid "See below for relations to current builds"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:338
 msgctxt "global.family.relations_other_builds"
 msgid "Relations to Other Builds"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:251
 msgctxt "global.family.see_alignment_viewer"
 msgid "See Alignment in Viewer"
 msgstr ""
 
+#. sections: crosses global transformation
 #: cgi-bin/search/family.pl:337 cgi-bin/search/family_align.pl:407 cgi-bin/search/family_build.pl:246 mason/tracking_activities/activity_info_details.mas:99 mason/tracking_activities/record_activity.mas:90
 msgctxt "global.family.summary"
 msgid "Summary"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:103
 msgctxt "global.family.total_genes"
 msgid "Total Genes"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/all_unig_for_annot.pl:31 cgi-bin/search/annotation_search_result.pl:27
 msgctxt "global.final_caption.annotation_search_results"
 msgid "Annotation Search Results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-all-blast-matches.pl:112
 msgctxt "global.final_caption.blast_censored"
 msgid "%{censored} lower scoring hits censored --  only %{stored} best hits are stored."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-all-blast-matches.pl:72
 msgctxt "global.final_caption.blast_showing"
 msgid "Showing best %{count} hits recorded"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-all-blast-matches.pl:127
 msgctxt "global.final_caption.blast_title"
 msgid "All Stored BLAST annotations for SGN-U%{id}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:21 cgi-bin/search/est.pl:876 cgi-bin/search/est.pl:936 cgi-bin/search/est.pl:961
 msgctxt "global.final_caption.direct_search_result_not_found"
 msgid "Direct Search Result - Not Found"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/library_search.pl:20
 msgctxt "global.final_caption.est_library_search_results"
 msgid "EST library search results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:17
 msgctxt "global.final_caption.estscan_details"
 msgid "ESTScan Details"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-all-blast-matches.pl:11
 msgctxt "global.final_caption.frame"
 msgid "Frame:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-all-blast-matches.pl:9
 msgctxt "global.final_caption.identity"
 msgid "Identity:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/all_unig_for_annot.pl:69
 msgctxt "global.final_caption.manual_attribution"
 msgid "%{type} by %{author} on %{date}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:22 cgi-bin/search/est.pl:909
 msgctxt "global.final_caption.not_found_search_invalid"
 msgid "Not Found - Search Invalid"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:967
 msgctxt "global.final_caption.not_traceable"
 msgid "The identifier %{id} of the specified type can not be traced to an EST in SGN's databases"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-all-blast-matches.pl:8
 msgctxt "global.final_caption.score"
 msgid "score:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/est.pl:92
 msgctxt "global.final_caption.sgn_est_search_result"
 msgid "SGN EST Search Result"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/family.pl:18
 msgctxt "global.final_caption.sgn_gene_family"
 msgid "SGN Gene Family"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/locus_search.pl:27
 msgctxt "global.final_caption.sgn_gene_search_results"
 msgid "SGN gene search results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/image_search.pl:25
 msgctxt "global.final_caption.sgn_image_search_results"
 msgid "SGN image search results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/pub_search.pl:26
 msgctxt "global.final_caption.sgn_publcation_search_results"
 msgid "SGN publication search results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-all-blast-matches.pl:18
 msgctxt "global.final_caption.sgn_unigene_show_all_stored_blast_hits"
 msgid "SGN Unigene - Show All Stored BLAST Hits"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-all-blast-matches.pl:10
 msgctxt "global.final_caption.span"
 msgid "Span:"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_experiment_search.pl:57
 msgctxt "global.gem_experiment_search.experiment"
 msgid "Experiment"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_experiment_search.pl:57
 msgctxt "global.gem_experiment_search.experimental_design"
 msgid "Experimental Design"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_experiment_search.pl:20 cgi-bin/search/gem_experiment_search.pl:23
 msgctxt "global.gem_experiment_search.page_title"
 msgid "Expression search results by experiment"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_platform_search.pl:68
 msgctxt "global.gem_platform_search.no_matches"
 msgid "No matches found"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_platform_search.pl:20 cgi-bin/search/gem_platform_search.pl:23
 msgctxt "global.gem_platform_search.page_title"
 msgid "Expression search results by platform"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_platform_search.pl:54
 msgctxt "global.gem_platform_search.platform"
 msgid "Platform"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_platform_search.pl:64
 msgctxt "global.gem_platform_search.results"
 msgid "Results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_platform_search.pl:64
 msgctxt "global.gem_platform_search.results_summary"
 msgid "%{count} matches "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_platform_search.pl:70
 msgctxt "global.gem_platform_search.search_again"
 msgid "Search again"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_template_search.pl:68
 msgctxt "global.gem_template_search.no_matches"
 msgid "No matches found"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_template_search.pl:20 cgi-bin/search/gem_template_search.pl:23
 msgctxt "global.gem_template_search.page_title"
 msgid "Expression search results by template"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_template_search.pl:64
 msgctxt "global.gem_template_search.results"
 msgid "Results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_template_search.pl:64
 msgctxt "global.gem_template_search.results_summary"
 msgid "%{count} matches "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/gem_template_search.pl:70
 msgctxt "global.gem_template_search.search_again"
 msgid "Search again"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/genomes.mas:9
 msgctxt "global.genomes.apollo_annotation_editor"
 msgid "%{crop} - Apollo genome annotation editor"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/genomes.mas:7
 msgctxt "global.genomes.completed"
 msgid "Completed Genomes"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/genomes.mas:16
 msgctxt "global.genomes.draft"
 msgid "Draft Genomes"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/genomes.mas:25
 msgctxt "global.genomes.resequencing"
 msgid "Resequencing projects"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/genomes.mas:4
 msgctxt "global.genomes.sequenced_accessions"
 msgid "Sequenced Accessions"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/genomes.mas:1
 msgctxt "global.genomes.title"
 msgid "Genomes"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/getting_started.mas:28
 msgctxt "global.getting_started.unavailable"
 msgid "Sidebar contents are not available at the moment."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/github_pullrequests.mas:35
 msgctxt "global.github_pullrequests.description"
 msgid "Description"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/github_pullrequests.mas:9
 msgctxt "global.github_pullrequests.heading"
 msgid "Recent Changes to Database"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/github_pullrequests.mas:35
 msgctxt "global.github_pullrequests.title"
 msgid "Title"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/Search.pm:61
 msgctxt "global.glossary.heading"
 msgid "Glossary search"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/Search.pm:63
 msgctxt "global.glossary.lookup"
 msgid "Lookup"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/Search.pm:51
 msgctxt "global.glossary.not_found"
 msgid "Your term was not found. %{break} The term you searched for was %{term}."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/Search.pm:62
 msgctxt "global.glossary.prompt"
 msgid "Search the glossary by term:"
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:214
 msgctxt "global.graphical_filtering.cannot_create_empty_list"
 msgid "Can't create a list from nothing."
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:162
 msgctxt "global.graphical_filtering.choose_a_list"
 msgid "Choose a List:"
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:24
 msgctxt "global.graphical_filtering.choose_list"
 msgid "Choose a list of trials to filter."
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:150
 msgctxt "global.graphical_filtering.copy_to_clipboard"
 msgid "Copy to Clipboard"
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:62
 msgctxt "global.graphical_filtering.filtered_results"
 msgid "Filtered Results"
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:42
 msgctxt "global.graphical_filtering.group_by_accession"
 msgid "Group By Accession"
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:226
 msgctxt "global.graphical_filtering.list_created"
 msgid "List \"%{name}\" created with %{count} entries."
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:30
 msgctxt "global.graphical_filtering.loading"
 msgid "Loading..."
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:54
 msgctxt "global.graphical_filtering.loading_alt"
 msgid "loading"
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:87
 msgctxt "global.graphical_filtering.login_required"
 msgid "Login required to display graphical filtering"
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:101
 msgctxt "global.graphical_filtering.not_implemented"
 msgid "not yet implimented"
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:65
 msgctxt "global.graphical_filtering.save_accessions_as_list"
 msgid "Save Accessions results as List"
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:35
 msgctxt "global.graphical_filtering.select_type"
 msgid "Select Type"
 msgstr ""
 
+#. sections: global
 #: mason/tools/graphicalfiltering/index.mas:18
 msgctxt "global.graphical_filtering.title"
 msgid "Graphical Filtering"
 msgstr ""
 
+#. sections: analysis global
 #: mason/homepage/iconmenu.mas:174 mason/qtl/population/traits_list.mas:26
 msgctxt "global.iconmenu.analyze_qtls"
 msgid "Analyze QTLs"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:146
 msgctxt "global.iconmenu.available_maps"
 msgid "Available maps"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:162
 msgctxt "global.iconmenu.become_locus_editor"
 msgid "Become an SGN locus editor"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:183
 msgctxt "global.iconmenu.breeders_toolbox"
 msgid "Breeders Toolbox"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:183
 msgctxt "global.iconmenu.click_breeders_toolbox"
 msgid "Click to access the Breeder's toolbox"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:209
 msgctxt "global.iconmenu.click_solcyc"
 msgid "Click to access SolCyc"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:147
 msgctxt "global.iconmenu.comparative_viewer"
 msgid "Comparative viewer"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:160
 msgctxt "global.iconmenu.expression"
 msgid "Expression"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:195
 msgctxt "global.iconmenu.genomes_sequences"
 msgid "Genomes and Sequences"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:142
 msgctxt "global.iconmenu.maps_markers"
 msgid "Maps and Markers"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:175
 msgctxt "global.iconmenu.ontology_browser"
 msgid "Ontology browser"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:209
 msgctxt "global.iconmenu.pathways"
 msgid "Pathways"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:169
 msgctxt "global.iconmenu.phenotypes_qtls"
 msgid "Phenotypes and QTLs"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:161
 msgctxt "global.iconmenu.search_browse_crop_genome"
 msgid "Search/browse %{crop} genome"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:158
 msgctxt "global.iconmenu.search_loci"
 msgid "Search loci"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:148
 msgctxt "global.iconmenu.search_markers"
 msgid "Search markers"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:172
 msgctxt "global.iconmenu.search_phenotypes"
 msgid "Search phenotypes"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:159
 msgctxt "global.iconmenu.search_unigenes"
 msgid "Search unigenes"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:150
 msgctxt "global.iconmenu.submit_map_information"
 msgid "Submit map information to SGN"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/iconmenu.mas:177
 msgctxt "global.iconmenu.submit_phenotype_data"
 msgid "Submit phenotype data"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/image_of_the_week.mas:25
 msgctxt "global.image_of_the_week.heading"
 msgid "Featured Image"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/image_of_the_week.mas:9
 msgctxt "global.image_of_the_week.unavailable"
 msgid "(no image currently available)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/image_search.pl:90
 msgctxt "global.image_search.image_description"
 msgid "Image Description"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/image_search.pl:91
 msgctxt "global.image_search.image_filename"
 msgid "Image Filename"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/image_search.pl:105
 msgctxt "global.image_search.no_matches"
 msgid "No matches found"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/image_search.pl:103 cgi-bin/search/image_search.pl:28
 msgctxt "global.image_search.page_title"
 msgid "Image search results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/image_search.pl:103
 msgctxt "global.image_search.results_summary"
 msgid "%{count} matches "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/image_search.pl:108
 msgctxt "global.image_search.search_again"
 msgid "Search again"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/image_search.pl:92
 msgctxt "global.image_search.submitter"
 msgid "Submitter (ID) Name"
 msgstr ""
 
+#. sections: global
 #: mason/index.mas:17
 msgctxt "global.index.contact_description"
 msgid "Breedbase is a web application that only requires a browser. To get your Breedbase instance, contact the %{team_link}."
 msgstr ""
 
+#. sections: global
 #: mason/index.mas:20
 msgctxt "global.index.crops_description"
 msgid "There are a number of instances running for diverse crops, including %{cassava_link}, %{sweet_potato_link}, %{banana_link}, %{rice_link}, %{solanaceae_link} and many others."
 msgstr ""
 
+#. sections: global
 #: mason/index.mas:42
 msgctxt "global.index.crops_heading"
 msgid "What crops are using Breedbase?"
 msgstr ""
 
+#. sections: global
 #: mason/index.mas:40
 msgctxt "global.index.how_to_use"
 msgid "How can I use Breedbase?"
 msgstr ""
 
+#. sections: global
 #: mason/index.mas:46
 msgctxt "global.index.learn_more"
 msgid "How can I learn more about Breedbase?"
 msgstr ""
 
+#. sections: global
 #: mason/index.mas:39
 msgctxt "global.index.product_description"
 msgid "Breedbase is a comprehensive breeding management and analysis software. It can be used to design field layouts, collect phenotypic information using tablets, support the collection of genotyping samples in a field, store large amounts of high density genotypic information, and provide Genomic Selection related analyses and predictions. Breedbase supports the BrAPI standard."
 msgstr ""
 
+#. sections: global
 #: mason/index.mas:16
 msgctxt "global.index.team_link"
 msgid "Breedbase development team"
 msgstr ""
 
+#. sections: global
 #: mason/index.mas:38
 msgctxt "global.index.what_is_breedbase"
 msgid "What is Breedbase?"
 msgstr ""
 
+#. sections: global
 #: mason/index.mas:27
 msgctxt "global.index.workshops_description"
 msgid "You can watch the Breedbase workshops on %{youtube_link}, covering topics such as ontologies, trial design, data collection using fieldbook, data analysis, and genomic selection."
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:72
 msgctxt "global.index_logged_in_user.added_accessions"
 msgid "10 most recently added accessions:"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:43
 msgctxt "global.index_logged_in_user.continue_heading"
 msgid "Continue where you left off:"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:41
 msgctxt "global.index_logged_in_user.continue_title"
 msgid "Continue where you left off"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:58 mason/index_logged_in_user.mas:76
 msgctxt "global.index_logged_in_user.create_date"
 msgid "Create date"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:54
 msgctxt "global.index_logged_in_user.created_trials"
 msgid "10 most recently created trials:"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:47
 msgctxt "global.index_logged_in_user.day"
 msgid "day"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:44
 msgctxt "global.index_logged_in_user.interval"
 msgid "Interval:"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:67
 msgctxt "global.index_logged_in_user.last_phenotype_added"
 msgid "Last phenotype added"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:63
 msgctxt "global.index_logged_in_user.modified_trials"
 msgid "10 most recently modified trials:"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:49
 msgctxt "global.index_logged_in_user.month"
 msgid "month"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:28
 msgctxt "global.index_logged_in_user.status"
 msgid "Your status is currently \"%{role}\"."
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:48
 msgctxt "global.index_logged_in_user.week"
 msgid "week"
 msgstr ""
 
+#. sections: global
 #: mason/index_logged_in_user.mas:26
 msgctxt "global.index_logged_in_user.welcome"
 msgid "Welcome back %{first_name}!"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/labs.mas:23
 msgctxt "global.labs.featured_heading"
 msgid "Featured Lab"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/labs.mas:27
 msgctxt "global.labs.see_all"
 msgid "See all featured labs..."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/library_search.pl:51
 msgctxt "global.library_search.development_stage"
 msgid "Development Stage"
 msgstr ""
 
+#. sections: analysis barcode_orders global solgs transformation
 #: cgi-bin/search/library_search.pl:51 mason/order/catalog.mas:179 mason/order/catalog.mas:205 mason/order/catalog_item_details.mas:168 mason/qtl/population/summary.mas:29 mason/solgs/population/summary.mas:49 mason/solgs/search/result/traits.mas:32 mason/tools/vectorviewer.mas:91 mason/vectorviewer/vectorviewer.mas:160 mason/vectorviewer/vectorviewer.mas:203
 msgctxt "global.library_search.name"
 msgid "Name"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/library_search.pl:65
 msgctxt "global.library_search.no_matches"
 msgid "No matches found"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/library_search.pl:51
 msgctxt "global.library_search.organism"
 msgid "Organism"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/library_search.pl:23
 msgctxt "global.library_search.page_title"
 msgid "Library search results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/library_search.pl:61
 msgctxt "global.library_search.results_summary"
 msgid "%{count} matches "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/library_search.pl:67
 msgctxt "global.library_search.search_again"
 msgid "Search again"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/library_search.pl:51
 msgctxt "global.library_search.tissue"
 msgid "Tissue"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/locus_of_the_week.mas:27
 msgctxt "global.locus_of_the_week.heading"
 msgid "Featured Locus"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/locus_of_the_week.mas:29
 msgctxt "global.locus_of_the_week.previous"
 msgid "See previous..."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/locus_of_the_week.mas:29
 msgctxt "global.locus_of_the_week.search"
 msgid "Search other loci..."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/locus_of_the_week.mas:9
 msgctxt "global.locus_of_the_week.unavailable"
 msgid "The locus of the week is currently unavailable."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/locus_search.pl:94
 msgctxt "global.locus_search.allele_name"
 msgid "Allele name"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/locus_search.pl:96
 msgctxt "global.locus_search.allele_phenotype"
 msgid "Allele phenotype"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/locus_search.pl:92
 msgctxt "global.locus_search.locus_name"
 msgid "Locus name"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/locus_search.pl:113
 msgctxt "global.locus_search.no_matches"
 msgid "No matches found"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/locus_search.pl:91
 msgctxt "global.locus_search.organism"
 msgid "Organism"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/locus_search.pl:30
 msgctxt "global.locus_search.page_title"
 msgid "Gene search results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/locus_search.pl:111
 msgctxt "global.locus_search.results"
 msgid "Gene search results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/locus_search.pl:111
 msgctxt "global.locus_search.results_summary"
 msgid "%{count} matches "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/locus_search.pl:116
 msgctxt "global.locus_search.search_again"
 msgid "Search again"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/Login.pm:99
 msgctxt "global.login.logged_out"
 msgid "Logged out"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/logout_externally.mas:5
 msgctxt "global.logout_externally.status"
 msgid "Logging out..."
 msgstr ""
 
+#. sections: global
 #: mason/logout_message.mas:4
 msgctxt "global.logout_message.success"
 msgid "You have successfully logged out. Thanks for using %{project_name}!"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/maps.mas:5
 msgctxt "global.maps.all"
 msgid "All Maps"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/maps.mas:7
 msgctxt "global.maps.comparative_viewer"
 msgid "Comparative Viewer"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/maps.mas:33
 msgctxt "global.maps.more"
 msgid "More Maps"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/maps.mas:6
 msgctxt "global.maps.new_comparative_viewer"
 msgid "The New Comparative Viewer"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/maps.mas:8
 msgctxt "global.maps.submit"
 msgid "Submit a map"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/maps.mas:1
 msgctxt "global.maps.title"
 msgid "Maps"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/news.mas:26
 msgctxt "global.news.see_all"
 msgid "See all news..."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/news.mas:11
 msgctxt "global.news.unavailable"
 msgid "News is not available at the moment."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/other_links.mas:8
 msgctxt "global.other_links.unavailable"
 msgid "Other links are currently not available."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/popular_species.mas:22
 msgctxt "global.popular_species.search"
 msgid "Search other species..."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/potato_genome_info.mas:16
 msgctxt "global.potato_genome_info.unavailable"
 msgid "(%{crop} genome information currently not available)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/pub_search.pl:133
 msgctxt "global.pub_search.assigned_to"
 msgid "Assigned to"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/pub_search.pl:156
 msgctxt "global.pub_search.no_matches"
 msgid "No matches found"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/pub_search.pl:33
 msgctxt "global.pub_search.page_title"
 msgid "SGN Publication search"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/pub_search.pl:149
 msgctxt "global.pub_search.results"
 msgid "Publication search results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/pub_search.pl:147
 msgctxt "global.pub_search.results_summary"
 msgid "%{count} matches "
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/pub_search.pl:160
 msgctxt "global.pub_search.search_again"
 msgid "Search again"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/pub_search.pl:133
 msgctxt "global.pub_search.stored"
 msgid "Stored"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/pub_search.pl:133
 msgctxt "global.pub_search.title"
 msgid "Title"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:579
 msgctxt "global.quick_search.0_accession_identifiers"
 msgid "0 accession identifiers"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:743
 msgctxt "global.quick_search.0_breeding_programs"
 msgid "0 breeding programs"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:674
 msgctxt "global.quick_search.0_locations"
 msgid "0 locations"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:621
 msgctxt "global.quick_search.0_populations"
 msgid "0 populations."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:690
 msgctxt "global.quick_search.0_traits"
 msgid "0 traits"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:650
 msgctxt "global.quick_search.0_trials"
 msgid "0 trials"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:594
 msgctxt "global.quick_search.0_vectors"
 msgid "0 vectors"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:345 lib/SGN/Controller/QuickSearch.pm:368
 msgctxt "global.quick_search.count_array_identifiers"
 msgid "%{count} array identifiers"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:489
 msgctxt "global.quick_search.count_automatic_annotations"
 msgid "%{count} automatic annotations"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:491
 msgctxt "global.quick_search.count_automatic_annotations_unigenes"
 msgid "%{count} automatic annotations on %{unigenes} unigenes"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:326
 msgctxt "global.quick_search.count_cdna_clone_identifiers"
 msgid "%{count} cDNA clone identifiers"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:280 lib/SGN/Controller/QuickSearch.pm:292
 msgctxt "global.quick_search.count_est_identifiers"
 msgid "%{count} EST identifiers"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:465
 msgctxt "global.quick_search.count_manual_annotations"
 msgid "%{count} manual annotations"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:464
 msgctxt "global.quick_search.count_manual_annotations_unigenes"
 msgid "%{count} manual annotations on %{unigenes} unigenes"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:395 lib/SGN/Controller/QuickSearch.pm:400 lib/SGN/Controller/QuickSearch.pm:411 lib/SGN/Controller/QuickSearch.pm:426
 msgctxt "global.quick_search.count_marker_identifiers"
 msgid "%{count} marker identifiers"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:546 lib/SGN/Controller/QuickSearch.pm:548
 msgctxt "global.quick_search.count_pages"
 msgid "%{count} pages on %{site}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:380 lib/SGN/Controller/QuickSearch.pm:383
 msgctxt "global.quick_search.count_phenotype_identifiers"
 msgid "%{count} phenotype identifiers"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:268 lib/SGN/Controller/QuickSearch.pm:271
 msgctxt "global.quick_search.count_results"
 msgid "%{count} %{type}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:699
 msgctxt "global.quick_search.count_traits"
 msgid "%{count} traits"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:754
 msgctxt "global.quick_search.entire_web"
 msgid "the entire web"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:121
 msgctxt "global.quick_search.missing_term"
 msgid "Must provide a search term"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:575
 msgctxt "global.quick_search.one_accession"
 msgid "1 accession: %{name}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:330
 msgctxt "global.quick_search.one_clone"
 msgid "1 cDNA clone identifier"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:671
 msgctxt "global.quick_search.one_location"
 msgid "1 location: %{name}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:605
 msgctxt "global.quick_search.one_plot"
 msgid "1 plot: %{name}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:618
 msgctxt "global.quick_search.one_population"
 msgid "1 population: %{name}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:740
 msgctxt "global.quick_search.one_program"
 msgid "1 breeding program: %{name}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:696
 msgctxt "global.quick_search.one_trait"
 msgid "1 trait: %{name}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:647
 msgctxt "global.quick_search.one_trial"
 msgid "1 trial: %{name}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:590
 msgctxt "global.quick_search.one_vector"
 msgid "1 vector construct: %{name}"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:608
 msgctxt "global.quick_search.plots_no_exact_match"
 msgid "plots: No exact match."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:726
 msgctxt "global.quick_search.too_many_hits"
 msgid "too many hits"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:244
 msgctxt "global.quick_search.type_0"
 msgid "people"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:245
 msgctxt "global.quick_search.type_1"
 msgid "cDNA libraries"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:246
 msgctxt "global.quick_search.type_2"
 msgid "unigene identifiers"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:247
 msgctxt "global.quick_search.type_3"
 msgid "images"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:248
 msgctxt "global.quick_search.type_4"
 msgid "locus or allele identifiers"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:474
 msgctxt "global.quick_search.undetermined"
 msgid "(not determined -- number of annotations too large)"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/QuickSearch.pm:237
 msgctxt "global.quick_search.zero_results"
 msgid "0 results"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/resources.mas:1
 msgctxt "global.resources.title"
 msgid "Resources"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/route-order.pl:78
 msgctxt "global.route-order.order_deleted"
 msgid "Order deleted."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/route-order.pl:22
 msgctxt "global.route-order.page_title"
 msgid "Clone Shopping Cart"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/route-order.pl:98
 msgctxt "global.route-order.route_help"
 msgid "This page should automatically route your order to the ordering facility. If you are seeing this page, your browser may not support the javascript commands which automate the order submission. Simply click the button below in that case."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/annotation_search_result.pl:395
 msgctxt "global.safe_caption.all"
 msgid "all"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:30
 msgctxt "global.safe_caption.cookie_support"
 msgid "must support cookies"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/clone-order.pl:30
 msgctxt "global.safe_caption.please_note"
 msgid "Please Note:"
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:38
 msgctxt "global.search.advanced_search.a_database_of_in_situ_images_which_can_be_updated_by_users_with_image_add_delete_and_"
 msgid "- A database of in-situ images which can be updated by users, with image add, delete and annotation editing functions. The current images were generated by the floral genome project (FGP). For more information on the floral genome project, visit http://floralgenome.org/ and http://pgn.cornell.edu/."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:26
 msgctxt "global.search.advanced_search.a_web_interface_for_uploading_qtl_raw_data_on_the_fly_qtl_mapping_and_search_interfac"
 msgid "- A web interface for uploading QTL raw data, on-the-fly QTL mapping and search interface for QTLs."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:34
 msgctxt "global.search.advanced_search.bac_bacterial_artificial_chromosome_search"
 msgid "- BAC (Bacterial Artificial Chromosome) search."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:36
 msgctxt "global.search.advanced_search.find_est_expressed_sequence_tag_libraries_by_keyword_e_g_library_name_organism_tissue"
 msgid "- Find EST (Expressed Sequence Tag) libraries by keyword, e.g. library name, organism, tissue, development stage, or authors."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:46
 msgctxt "global.search.advanced_search.frequently_asked_questions_from_users_of_sgn"
 msgid "- Frequently asked questions from users of SGN."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:20
 msgctxt "global.search.advanced_search.gene_search"
 msgid "- Gene search."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:32
 msgctxt "global.search.advanced_search.marker_search"
 msgid "- Marker search."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:44
 msgctxt "global.search.advanced_search.search_database_of_researchers_who_use_sgn"
 msgid "- Search database of researchers who use SGN."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:22
 msgctxt "global.search.advanced_search.search_for_many_types_of_annotations_and_sequences"
 msgid "- Search for many types of annotations and sequences."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:24
 msgctxt "global.search.advanced_search.search_for_mutants_accessions_and_traits"
 msgid "- Search for mutants, accessions, and traits."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:18
 msgctxt "global.search.advanced_search.search_for_organisms"
 msgid "- search for organisms"
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:40 mason/search/advanced_search.mas:42
 msgctxt "global.search.advanced_search.search_images_contained_in_the_sgn_database"
 msgid "- Search images contained in the SGN database."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:30
 msgctxt "global.search.advanced_search.unigene_family_search"
 msgid "- Unigene family search."
 msgstr ""
 
+#. sections: global
 #: mason/search/advanced_search.mas:28
 msgctxt "global.search.advanced_search.unigene_search"
 msgid "- Unigene search."
 msgstr ""
 
+#. sections: global
 #: mason/search/annotation/genes.mas:34
 msgctxt "global.search.annotation.genes.description"
 msgid "Description"
 msgstr ""
 
+#. sections: global
 #: mason/search/annotation/genes.mas:11
 msgctxt "global.search.annotation.genes.gene_annotation_and_families"
 msgid "Gene annotation and families"
 msgstr ""
 
+#. sections: global phenotypes_traits
 #: mason/search/annotation/genes.mas:33 mason/search/phenotypes/stock.mas:60
 msgctxt "global.search.annotation.genes.stock_name"
 msgid "Stock Name"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:75
 msgctxt "global.search.bulk.back_to_search"
 msgid "Back to Search"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:9
 msgctxt "global.search.bulk.bulk_search"
 msgid "Bulk Search"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:52
 msgctxt "global.search.bulk.copy_existing_items_to_a_list"
 msgid "Copy Existing Items to a List"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:68
 msgctxt "global.search.bulk.copy_missing_items_to_a_list"
 msgid "Copy Missing Items to a List"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:160
 msgctxt "global.search.bulk.could_not_get_supported_data_types"
 msgid "Could not get supported data types!"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:192
 msgctxt "global.search.bulk.could_not_run_bulk_search"
 msgid "Could not run bulk search!"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:26
 msgctxt "global.search.bulk.data_items"
 msgid "Data Items"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:18
 msgctxt "global.search.bulk.data_type"
 msgid "Data Type"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:28
 msgctxt "global.search.bulk.enter_the_names_of_the_data_items_one_per_line"
 msgid "Enter the names of the data items (one per line)"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:42
 msgctxt "global.search.bulk.existing_items"
 msgid "Existing Items"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:236
 msgctxt "global.search.bulk.invalid_response_from_the_server"
 msgid "Invalid response from the server!"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:58
 msgctxt "global.search.bulk.missing_items"
 msgid "Missing Items"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:117 mason/search/bulk.mas:99
 msgctxt "global.search.bulk.name.7e68cb0"
 msgid "Name"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:34
 msgctxt "global.search.bulk.search"
 msgid "Search"
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:188 mason/search/bulk.mas:193
 msgctxt "global.search.bulk.search.7883f4b"
 msgid "Search"
 msgstr ""
 
+#. sections: genotypes_markers global
 #: mason/search/bulk.mas:178 mason/search/markers/results.mas:236 mason/search/markers/results.mas:351
 msgctxt "global.search.bulk.searching"
 msgid "Searching..."
 msgstr ""
 
+#. sections: global
 #: mason/search/bulk.mas:11
 msgctxt "global.search.bulk.the_bulk_search_will_check_a_list_of_data_items_if_they_exist_in_the_database_for_the"
 msgid "The Bulk Search will check a list of data items if they exist in the database for the specified data type."
 msgstr ""
 
+#. sections: global
 #: mason/search/datasets.mas:19
 msgctxt "global.search.datasets.dataset_name"
 msgid "Dataset name"
 msgstr ""
 
+#. sections: global
 #: mason/search/datasets.mas:11
 msgctxt "global.search.datasets.dataset_search"
 msgid "Dataset Search"
 msgstr ""
 
+#. sections: global
 #: mason/search/datasets.mas:20
 msgctxt "global.search.datasets.description"
 msgid "Description"
 msgstr ""
 
+#. sections: analysis global phenotypes_traits
 #: mason/search/datasets.mas:11 mason/search/traits.mas:104 mason/tools/heritability/index.mas:28 mason/tools/solgwas/index.mas:28 mason/tools/stability/index.mas:33
 msgctxt "global.search.datasets.help"
 msgid "Help"
 msgstr ""
 
+#. sections: global
 #: mason/search/datasets.mas:22
 msgctxt "global.search.datasets.public"
 msgid "Public"
 msgstr ""
 
+#. sections: global
 #: mason/search/datasets.mas:58
 msgctxt "global.search.datasets.public.df855aa"
 msgid "Public"
 msgstr ""
 
+#. sections: global
 #: mason/search/datasets.mas:23
 msgctxt "global.search.datasets.published"
 msgid "Published"
 msgstr ""
 
+#. sections: global
 #: mason/search/features.mas:65
 msgctxt "global.search.features.description.26f0cba"
 msgid "Description:"
 msgstr ""
 
+#. sections: global
 #: mason/search/features.mas:89
 msgctxt "global.search.features.description.3692b15"
 msgid "Description"
 msgstr ""
 
+#. sections: global
 #: mason/search/features.mas:57
 msgctxt "global.search.features.name.9cc4b7b"
 msgid "Name:"
 msgstr ""
 
+#. sections: global
 #: mason/search/features.mas:88
 msgctxt "global.search.features.name.9ede896"
 msgid "Name"
 msgstr ""
 
+#. sections: global
 #: mason/search/features.mas:86
 msgctxt "global.search.features.organism.2f1e4a4"
 msgid "Organism"
 msgstr ""
 
+#. sections: global
 #: mason/search/features.mas:39
 msgctxt "global.search.features.organism.596dffa"
 msgid "Organism:"
 msgstr ""
 
+#. sections: global
 #: mason/search/features.mas:34 mason/search/features.mas:72
 msgctxt "global.search.features.search"
 msgid "Search"
 msgstr ""
 
+#. sections: global
 #: mason/search/features.mas:16
 msgctxt "global.search.features.search_genomic_sequences_and_annotations"
 msgid "Search genomic sequences and annotations"
 msgstr ""
 
+#. sections: global
 #: mason/search/features.mas:79
 msgctxt "global.search.features.search_results"
 msgid "Search Results"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/bac_tab.mas:40
 msgctxt "global.search.forms.bac_tab.about_physical_mapping"
 msgid "About Physical Mapping"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/bac_tab.mas:39
 msgctxt "global.search.forms.bac_tab.browse_bacs_by_overgo_plate"
 msgid "Browse BACs by Overgo Plate"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/bac_tab.mas:27
 msgctxt "global.search.forms.bac_tab.genomic_clone_search"
 msgid "Genomic clone search"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/bac_tab.mas:45
 msgctxt "global.search.forms.bac_tab.guidelines_for_seed_bac_selection"
 msgid "Guidelines for seed BAC selection"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/bac_tab.mas:44
 msgctxt "global.search.forms.bac_tab.old_2000_chromosome_6_tomato_bac_annotation"
 msgid "Old (2000) chromosome 6 tomato BAC annotation"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/bac_tab.mas:42
 msgctxt "global.search.forms.bac_tab.overgo_plating_process"
 msgid "Overgo plating process"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/bac_tab.mas:41
 msgctxt "global.search.forms.bac_tab.overgo_project"
 msgid "Overgo Project"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/bac_tab.mas:37
 msgctxt "global.search.forms.bac_tab.related_links"
 msgid "Related Links:"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/bac_tab.mas:30
 msgctxt "global.search.forms.bac_tab.select_a_genomic_clone_at_random"
 msgid "Select a genomic clone at random"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/bac_tab.mas:43
 msgctxt "global.search.forms.bac_tab.tomato_fpc_map_at_agi"
 msgid "Tomato FPC Map at AGI"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/directory_tab.mas:29
 msgctxt "global.search.forms.directory_tab.directory_search"
 msgid "Directory search"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/expr_experiment.mas:23
 msgctxt "global.search.forms.expr_experiment.expression_search_by_experiment"
 msgid "Expression search by experiment"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/expr_platform.mas:23
 msgctxt "global.search.forms.expr_platform.expression_search_by_platform"
 msgid "Expression search by platform"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/expr_template_tab.mas:18
 msgctxt "global.search.forms.expr_template_tab.expression_search_by_template"
 msgid "Expression search by template"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/gene_tab.mas:39
 msgctxt "global.search.forms.gene_tab.gene_search"
 msgid "Gene search"
 msgstr ""
 
+#. sections: global
 #: mason/search/forms/images_tab.mas:30
 msgctxt "global.search.forms.images_tab.image_search"
 msgid "Image search"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:18
 msgctxt "global.search.images.all_images_may_not_have_names_descriptions_or_tags_associated_with_them"
 msgid "All images may not have names, descriptions, or tags associated with them."
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:53
 msgctxt "global.search.images.associated_project"
 msgid "Associated project:"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:41
 msgctxt "global.search.images.associated_stock"
 msgid "Associated stock:"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:77
 msgctxt "global.search.images.associations"
 msgid "Associations"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:75
 msgctxt "global.search.images.description"
 msgid "Description"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:23
 msgctxt "global.search.images.image_descriptors_name_description_or_filename"
 msgid "Image descriptors (name, description, or filename):"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:16
 msgctxt "global.search.images.image_search"
 msgid "Image Search"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:18
 msgctxt "global.search.images.image_search_criteria"
 msgid "Image Search Criteria"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:66
 msgctxt "global.search.images.image_search_results"
 msgid "Image Search Results"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:35
 msgctxt "global.search.images.image_tag"
 msgid "Image tag:"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:73
 msgctxt "global.search.images.image_thumbnail"
 msgid "Image Thumbnail"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:78
 msgctxt "global.search.images.related_accession"
 msgid "Related Accession"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:47
 msgctxt "global.search.images.related_stock"
 msgid "Related stock:"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:61
 msgctxt "global.search.images.search"
 msgid "Search"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:29
 msgctxt "global.search.images.submitter.31da5f6"
 msgid "Submitter:"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:76
 msgctxt "global.search.images.submitter.5559e18"
 msgid "Submitter"
 msgstr ""
 
+#. sections: global
 #: mason/search/images.mas:79
 msgctxt "global.search.images.tags"
 msgid "Tags"
 msgstr ""
 
+#. sections: global
 #: mason/search/organisms.mas:77
 msgctxt "global.search.organisms.common_name"
 msgid "Common name"
 msgstr ""
 
+#. sections: global
 #: mason/search/organisms.mas:86
 msgctxt "global.search.organisms.no_matching_results_found"
 msgid "No Matching Results Found"
 msgstr ""
 
+#. sections: global
 #: mason/search/organisms.mas:39
 msgctxt "global.search.organisms.organism_taxon_search"
 msgid "Organism/Taxon Search"
 msgstr ""
 
+#. sections: global
 #: mason/search/organisms.mas:107
 msgctxt "global.search.organisms.popular_species"
 msgid "Popular Species"
 msgstr ""
 
+#. sections: global
 #: mason/search/organisms.mas:70
 msgctxt "global.search.organisms.results_first_last_of_total"
 msgid "Results %{first}-%{last} of %{total}"
 msgstr ""
 
+#. sections: global
 #: mason/search/organisms.mas:95
 msgctxt "global.search.organisms.search"
 msgid "Search"
 msgstr ""
 
+#. sections: global
 #: mason/search/organisms.mas:69
 msgctxt "global.search.organisms.search_results"
 msgid "Search Results"
 msgstr ""
 
+#. sections: global
 #: mason/search/organisms.mas:77
 msgctxt "global.search.organisms.taxon_name"
 msgid "Taxon name"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:101
 msgctxt "global.search.quick_search.annotations"
 msgid "Annotations"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:79
 msgctxt "global.search.quick_search.cdna_libraries"
 msgid "cDNA Libraries"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:70
 msgctxt "global.search.quick_search.click_to_view_search_results"
 msgid "click to view search results"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:20
 msgctxt "global.search.quick_search.exact_matches"
 msgid "Exact matches"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:69
 msgctxt "global.search.quick_search.fuzzy_searches"
 msgid "Fuzzy searches"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:78
 msgctxt "global.search.quick_search.identifiers"
 msgid "Identifiers"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:34
 msgctxt "global.search.quick_search.identifiers_breeding_data"
 msgid "Identifiers - Breeding Data"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:49
 msgctxt "global.search.quick_search.identifiers_genomic_data"
 msgid "Identifiers - Genomic Data"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:121
 msgctxt "global.search.quick_search.images"
 msgid "Images"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:17
 msgctxt "global.search.quick_search.note_the_quick_search_does_not_perform_exactly_the_same_queries_as_full_searches_for_"
 msgid "Note: The quick search does not perform exactly the same queries as full searches for the various data types. If your desired result does not appear, you may want to try again with one of the advanced search tools in the \"search\" menu."
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:100
 msgctxt "global.search.quick_search.people_searching_by_name"
 msgid "People (searching by name)"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:14
 msgctxt "global.search.quick_search.quick_search_for_term"
 msgid "Quick search for \"%{term}\""
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:25
 msgctxt "global.search.quick_search.site_xref_search_time"
 msgid "Site xref search time:"
 msgstr ""
 
+#. sections: global
 #: mason/search/quick_search.mas:122
 msgctxt "global.search.quick_search.web_pages"
 msgid "Web Pages"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:686
 msgctxt "global.search_wizard.about_paragraph_one"
 msgid "For the search wizard to be fast and flexible, it avoids querying the database directly. Instead, it stores a copy of the data from the database in a temporary format that is optimized for the types of queries the wizard makes."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:686
 msgctxt "global.search_wizard.about_paragraph_three"
 msgid "If an update isn't already in progress, you can initiate one below. It will run independently on the server without any additional input required from the user. Depending on the size of the database, it will take from a few minutes to a few hours to complete."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:686
 msgctxt "global.search_wizard.about_paragraph_two"
 msgid "For this to be practical, the copy must be updated regularly. Updates usually start every time new data is uploaded, however users with submitter status or higher can also initiate them manually."
 msgstr ""
 
+#. sections: accessions barcode_orders collection_upload global seedlots solgs transformation trial_card
 #: mason/breeders_toolbox/breeder_search_page.mas:134 mason/breeders_toolbox/manage_upload.mas:100 mason/breeders_toolbox/manage_upload.mas:123 mason/breeders_toolbox/manage_upload.mas:146 mason/breeders_toolbox/manage_upload.mas:170 mason/breeders_toolbox/manage_upload.mas:195 mason/breeders_toolbox/manage_upload.mas:218 mason/breeders_toolbox/manage_upload.mas:253 mason/breeders_toolbox/manage_upload.mas:30 mason/breeders_toolbox/manage_upload.mas:52 mason/breeders_toolbox/manage_upload.mas:77 mason/breeders_toolbox/trial/greenhouse_add_additional_accessions_dialog.mas:79 mason/order/add_catalog_item_dialog.mas:61 mason/order/add_catalog_using_list_dialog.mas:72 mason/order/catalog_item_details.mas:175 mason/propagation/add_propagation_group_id_dialog.mas:111 mason/propagation/add_propagation_id_dialog.mas:39 mason/search/vectors.mas:155 mason/tools/label_designer/design_label.mas:51 mason/tools/label_designer/label_designer_modals.mas:28 mason/tools/vectorviewer.mas:286 mason/tools/vectorviewer.mas:327
 msgctxt "global.search_wizard.add"
 msgid "Add"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:129
 msgctxt "global.search_wizard.add_to_list_option"
 msgid "Add to List..."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:108
 msgctxt "global.search_wizard.all"
 msgid "ALL"
 msgstr ""
 
+#. sections: accessions analysis global phenotypes_traits solgs trial_card
 #: mason/breeders_toolbox/breeder_search_page.mas:497 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:87 mason/stock/download_stock_phenotypes_dialog.mas:62
 msgctxt "global.search_wizard.all_values_multiple_line"
 msgid "All Values Multiple Line"
 msgstr ""
 
+#. sections: accessions analysis global phenotypes_traits solgs trial_card
 #: mason/breeders_toolbox/breeder_search_page.mas:496 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:86 mason/stock/download_stock_phenotypes_dialog.mas:61
 msgctxt "global.search_wizard.all_values_single_line"
 msgid "All Values Single Line"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:106
 msgctxt "global.search_wizard.any"
 msgid "ANY"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:811
 msgctxt "global.search_wizard.archived_files_error"
 msgid "Error: Could not check for archived files"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:371
 msgctxt "global.search_wizard.archived_genotype_data"
 msgid "Archived Genotype Data"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:220
 msgctxt "global.search_wizard.archived_genotype_help"
 msgid "Download the original archived VCF files of entire genotyping projects.  Select %{selection} to download a VCF file of any matching project(s)."
 msgstr ""
 
+#. sections: accessions analysis global phenotypes_traits solgs trial_card
 #: mason/breeders_toolbox/breeder_search_page.mas:494 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:84 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:55 mason/stock/download_stock_phenotypes_dialog.mas:59
 msgctxt "global.search_wizard.averaged_value"
 msgid "Averaged value"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:693
 msgctxt "global.search_wizard.close"
 msgid "Close"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:233
 msgctxt "global.search_wizard.compute_from_parents"
 msgid "Compute From Parents"
 msgstr ""
 
+#. sections: genotypes_markers global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:71 mason/search/markers/search.mas:39
 msgctxt "global.search_wizard.contains"
 msgid "Contains"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:142 mason/breeders_toolbox/breeder_search_page.mas:190
 msgctxt "global.search_wizard.create"
 msgid "Create"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:188
 msgctxt "global.search_wizard.create_new_dataset"
 msgid "Create New Dataset"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:139
 msgctxt "global.search_wizard.create_new_list"
 msgid "Create New List..."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:687
 msgctxt "global.search_wizard.current_status"
 msgid "Current status:"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:435
 msgctxt "global.search_wizard.data_level"
 msgid "Data Level"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:166
 msgctxt "global.search_wizard.dataset_columns_instruction"
 msgid "Load/Create Datasets using %{match_button} Columns"
 msgstr ""
 
+#. sections: accessions analysis barcode_orders collection_upload crosses decision_allocation drone_imaging genotype_plates global lists_datasets phenotypes_traits program_locations seedlots trial_card trial_design
 #: js/source/legacy/CXGN/BreederSearch.js:197
 msgctxt "global.search_wizard.dataset_stored"
 msgid "Successfully stored the dataset!"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:506 mason/breeders_toolbox/breeder_search_page.mas:635
 msgctxt "global.search_wizard.date_to"
 msgid "To:"
 msgstr ""
 
+#. sections: analysis global phenotypes_traits solgs trial_card
 #: mason/breeders_toolbox/breeder_search_page.mas:422 mason/breeders_toolbox/breeder_search_page.mas:565 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:34
 msgctxt "global.search_wizard.default"
 msgid "Default"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:182
 msgctxt "global.search_wizard.delete"
 msgid "Delete"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:279
 msgctxt "global.search_wizard.dosage_matrix_file_format"
 msgid "Dosage Matrix File Format (.tsv)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:824
 msgctxt "global.search_wizard.download"
 msgid "Download"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:428 mason/breeders_toolbox/breeder_search_page.mas:571
 msgctxt "global.search_wizard.download_format"
 msgid "Download Format"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:229
 msgctxt "global.search_wizard.download_genotype_data"
 msgid "Download Genotype Data"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:288 mason/breeders_toolbox/breeder_search_page.mas:291
 msgctxt "global.search_wizard.download_genotypes"
 msgid "Download Genotypes"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:334 mason/breeders_toolbox/breeder_search_page.mas:337
 msgctxt "global.search_wizard.download_grm"
 msgid "Download GRM"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:359
 msgctxt "global.search_wizard.download_gwas"
 msgid "Download GWAS"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:543 mason/breeders_toolbox/breeder_search_page.mas:662
 msgctxt "global.search_wizard.download_phenotypes"
 msgid "Download Phenotypes"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:421 mason/breeders_toolbox/breeder_search_page.mas:564
 msgctxt "global.search_wizard.download_type"
 msgid "Download Type"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:260
 msgctxt "global.search_wizard.end_position"
 msgid "End Position"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:72
 msgctxt "global.search_wizard.exact"
 msgid "Exact"
 msgstr ""
 
+#. sections: analysis global phenotypes_traits solgs trial_card
 #: mason/breeders_toolbox/breeder_search_page.mas:423 mason/breeders_toolbox/breeder_search_page.mas:566 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:35
 msgctxt "global.search_wizard.fast_may_miss_recent"
 msgid "Fast (Improves speed but may miss recent changes)"
 msgstr ""
 
+#. sections: genotype_plates global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:827 mason/breeders_toolbox/genotyping_data_project/genotype_archived_vcf.mas:41
 msgctxt "global.search_wizard.file_not_found"
 msgid "File not found"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:247
 msgctxt "global.search_wizard.filter_chromosome_or_marker_alleles"
 msgid "Filter by Chromosome or Marker Alleles"
 msgstr ""
 
+#. sections: accessions analysis global phenotypes_traits solgs trial_card
 #: mason/breeders_toolbox/breeder_search_page.mas:492 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:82 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:53 mason/stock/download_stock_phenotypes_dialog.mas:57
 msgctxt "global.search_wizard.first_value"
 msgid "First value"
 msgstr ""
 
+#. sections: genotype_plates genotypes_markers global phenotypes_traits solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:391 mason/breeders_toolbox/genotyping_data_project/genotyping_plates.mas:11 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:656 mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:996 mason/phenotypes/submission_guide.mas:57 mason/search/genotyping_trials.mas:27
 msgctxt "global.search_wizard.format"
 msgid "Format"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:503 mason/breeders_toolbox/breeder_search_page.mas:632
 msgctxt "global.search_wizard.from"
 msgid "From:"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:215
 msgctxt "global.search_wizard.genotype_download_help"
 msgid "Download matching genotype records from the database.  Select a %{protocol_choice} and %{accessions_choice} to download the matching genotype data."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:276
 msgctxt "global.search_wizard.genotypes_download_format"
 msgid "Genotypes Download Format"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:320
 msgctxt "global.search_wizard.grm_download_format"
 msgid "Genomic Relationship Matrix (GRM) Download Format"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:343
 msgctxt "global.search_wizard.gwas_download_format"
 msgid "Genome Wide Association Study (GWAS) Download Format"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:346
 msgctxt "global.search_wizard.gwas_results_format"
 msgid "GWAS Results (.tsv)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:325
 msgctxt "global.search_wizard.heatmap_format"
 msgid "Heatmap (.pdf)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:644
 msgctxt "global.search_wizard.high_dimensional_phenotype"
 msgid "High Dimensional Phenotype"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:685
 msgctxt "global.search_wizard.how_works"
 msgid "How the wizard works"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:455 mason/breeders_toolbox/breeder_search_page.mas:590
 msgctxt "global.search_wizard.include_accession_entry_numbers"
 msgid "Include accession entry numbers"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:512 mason/breeders_toolbox/breeder_search_page.mas:639
 msgctxt "global.search_wizard.include_dateless"
 msgid "Include items without a date"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:237
 msgctxt "global.search_wizard.include_duplicate_genotypes"
 msgid "Include Duplicate Genotypes"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:473 mason/breeders_toolbox/breeder_search_page.mas:610
 msgctxt "global.search_wizard.include_intercrop_accessions"
 msgid "Include intercrop accessions"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:483
 msgctxt "global.search_wizard.include_parents"
 msgid "Include parents"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:447 mason/breeders_toolbox/breeder_search_page.mas:582
 msgctxt "global.search_wizard.include_timestamps"
 msgid "Include timestamps"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:465
 msgctxt "global.search_wizard.include_trait_synonyms"
 msgid "Include trait synonyms"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:314
 msgctxt "global.search_wizard.individuals_filter"
 msgid "Individuals Filter"
 msgstr ""
 
+#. sections: accessions analysis global phenotypes_traits solgs trial_card
 #: mason/breeders_toolbox/breeder_search_page.mas:493 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:83 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:54 mason/stock/download_stock_phenotypes_dialog.mas:58
 msgctxt "global.search_wizard.last_value"
 msgid "Last value"
 msgstr ""
 
+#. sections: global solgs transformation
 #: mason/breeders_toolbox/breeder_search_page.mas:180 mason/tools/vectorviewer.mas:437
 msgctxt "global.search_wizard.load"
 msgid "Load"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:176
 msgctxt "global.search_wizard.load_dataset"
 msgid "Load Dataset"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:63
 msgctxt "global.search_wizard.load_selection_from_list"
 msgid "Load Selection from List:"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:808
 msgctxt "global.search_wizard.loading"
 msgid "Loading..."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:148 mason/breeders_toolbox/breeder_search_page.mas:164 mason/breeders_toolbox/breeder_search_page.mas:202
 msgctxt "global.search_wizard.log_in"
 msgid "Log In"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:181
 msgctxt "global.search_wizard.make_public"
 msgid "Make Public"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:271
 msgctxt "global.search_wizard.manage_marker_alleles"
 msgid "Manage Marker Alleles"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:345
 msgctxt "global.search_wizard.manhattan_qq_format"
 msgid "Manhattan + QQ Plots (.pdf)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:266
 msgctxt "global.search_wizard.marker_allele_filter"
 msgid "Marker Allele Filter"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:310
 msgctxt "global.search_wizard.marker_filter"
 msgid "Marker Filter"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:105 mason/breeders_toolbox/breeder_search_page.mas:168
 msgctxt "global.search_wizard.match"
 msgid "Match"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:326
 msgctxt "global.search_wizard.matrix_stock_ids"
 msgid "Matrix Stock IDs (.tsv)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:322
 msgctxt "global.search_wizard.matrix_stock_names"
 msgid "Matrix Stock Names (.tsv)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:525
 msgctxt "global.search_wizard.max_value"
 msgid "Max Value"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:654
 msgctxt "global.search_wizard.max_wavelength"
 msgid "Max Wavelength"
 msgstr ""
 
+#. sections: global phenotypes_traits seedlots solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:401 mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas:884 mason/ontology/compose_trait.mas:86
 msgctxt "global.search_wizard.metadata"
 msgid "Metadata"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:107
 msgctxt "global.search_wizard.min"
 msgid "MIN"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:521
 msgctxt "global.search_wizard.min_value"
 msgid "Min Value"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:650
 msgctxt "global.search_wizard.min_wavelength"
 msgid "Min Wavelength"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:306
 msgctxt "global.search_wizard.minor_allele_frequency"
 msgid "Minor Allele Frequency"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:30
 msgctxt "global.search_wizard.no_data"
 msgid "Don't see your data?"
 msgstr ""
 
+#. sections: accessions analysis barcode_orders collection_upload crosses decision_allocation drone_imaging genotype_plates global lists_datasets phenotypes_traits program_locations seedlots trial_card trial_design
 #: js/source/legacy/CXGN/BreederSearch.js:134 js/source/legacy/CXGN/BreederSearch.js:146
 msgctxt "global.search_wizard.no_filters_download"
 msgid "No filters selected for download."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:387
 msgctxt "global.search_wizard.no_trials_selected"
 msgid "No Trials Selected"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:438
 msgctxt "global.search_wizard.plants"
 msgid "Plants"
 msgstr ""
 
+#. sections: analysis drone_imaging global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:437 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:966 mason/breeders_toolbox/drone_imagery/drone_imagery_analysis.mas:986 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:870 mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:890
 msgctxt "global.search_wizard.plots"
 msgid "Plots"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:922 mason/breeders_toolbox/breeder_search_page.mas:968
 msgctxt "global.search_wizard.protocol_status"
 msgid "genotype protocol \"%{protocol}\""
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:751
 msgctxt "global.search_wizard.refresh_includes_new_data"
 msgid "Refresh the search wizard to include newly uploaded data"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:30
 msgctxt "global.search_wizard.refresh_lists"
 msgid "Refresh Lists"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:209
 msgctxt "global.search_wizard.related_genotype_data"
 msgid "Related Genotype Data"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:551
 msgctxt "global.search_wizard.related_trial_high_dimensional_phenotypes"
 msgid "Related Trial High Dimensional Phenotypes"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:381
 msgctxt "global.search_wizard.related_trial_metadata"
 msgid "Related Trial Metadata"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:409
 msgctxt "global.search_wizard.related_trial_phenotypes"
 msgid "Related Trial Phenotypes"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:349
 msgctxt "global.search_wizard.repeated_traits_label"
 msgid "Selected Traits Are All Repeated Measurements"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:490
 msgctxt "global.search_wizard.repetitive_measurements"
 msgid "Repetitive measurements:"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:356
 msgctxt "global.search_wizard.run_gwas"
 msgid "Run GWAS"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:68
 msgctxt "global.search_wizard.search"
 msgid "Search"
 msgstr ""
 
+#. sections: accessions drone_imaging genotype_plates global phenotypes_traits program_locations solgs transformation trial_card
 #: mason/breeders_toolbox/breeder_search_page.mas:89 mason/breeders_toolbox/manage_drone_imagery.mas:1397 mason/breeders_toolbox/manage_drone_imagery.mas:1587 mason/breeders_toolbox/manage_drone_imagery.mas:1707 mason/breeders_toolbox/manage_drone_imagery.mas:1770 mason/breeders_toolbox/trial/phenotype_summary.mas:119 mason/breeders_toolbox/trial/trial_accessions.mas:29 mason/breeders_toolbox/trial/trial_tissue_sources.mas:31 mason/ontology/compose_trait.mas:108 mason/ontology/compose_trait.mas:116 mason/ontology/compose_trait.mas:124 mason/ontology/compose_trait.mas:131 mason/ontology/compose_trait.mas:138 mason/ontology/compose_trait.mas:50 mason/ontology/compose_trait.mas:57 mason/ontology/compose_trait.mas:65 mason/ontology/compose_trait.mas:72 mason/ontology/compose_trait.mas:81 mason/ontology/compose_trait.mas:89 mason/search/traits.mas:81 mason/search/treatments.mas:80
 msgctxt "global.search_wizard.select_all"
 msgid "Select All"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:803
 msgctxt "global.search_wizard.select_archived_files"
 msgid "Select one or more %{protocols} and/or %{projects}..."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:61
 msgctxt "global.search_wizard.select_column_type"
 msgid "Select Column Type"
 msgstr ""
 
+#. sections: accessions analysis barcode_orders collection_upload crosses decision_allocation drone_imaging genotype_plates global lists_datasets phenotypes_traits program_locations seedlots trial_card trial_design
 #: js/source/legacy/CXGN/BreederSearch.js:185
 msgctxt "global.search_wizard.selection_name_required"
 msgid "Please enter a name for the selection."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:1009
 msgctxt "global.search_wizard.slow_download_warning"
 msgid "%{units}M values, download will be slow"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:256
 msgctxt "global.search_wizard.start_position"
 msgid "Start Position"
 msgstr ""
 
+#. sections: accessions analysis global phenotypes_traits solgs trial_card
 #: mason/breeders_toolbox/breeder_search_page.mas:495 mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:85 mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:56 mason/stock/download_stock_phenotypes_dialog.mas:60
 msgctxt "global.search_wizard.sum_values"
 msgid "Sum values"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:534
 msgctxt "global.search_wizard.suppress_outliers"
 msgid "Supress user defined phenotype outliers"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:329
 msgctxt "global.search_wizard.three_column_reciprocal_stock_ids"
 msgid "3-Column Reciprocal Stock IDs (.tsv)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:330
 msgctxt "global.search_wizard.three_column_reciprocal_stock_ids_integer"
 msgid "3-Column Reciprocal Stock IDs Integer (.tsv)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:324
 msgctxt "global.search_wizard.three_column_reciprocal_stock_names"
 msgid "3-Column Reciprocal Stock Names (.tsv)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:327
 msgctxt "global.search_wizard.three_column_stock_ids"
 msgid "3-Column Stock IDs(.tsv)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:328
 msgctxt "global.search_wizard.three_column_stock_ids_integer"
 msgid "3-Column Stock IDs Integer (.tsv)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:323
 msgctxt "global.search_wizard.three_column_stock_names"
 msgid "3-Column Stock Names (.tsv)"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:246
 msgctxt "global.search_wizard.tip_chromosome_marker"
 msgid "You can use either chromosome or marker alleles to filter genotyping data. You cannot use both criteria at the same time."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:287
 msgctxt "global.search_wizard.tip_genotypes"
 msgid "Select accessions, and optionally a genotyping protocol. If no genotyping protocol is selected, the default genotyping protocol is used in your system. If you want to filter genotypes, use the chromosome, start position, end position, or marker alleles. Can compute genotypes from parents if the parents of the accessions you selected have genotypes by checking the checkbox. Genotypes can be downloaded in VCF and Dosage Matrix Formats."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:333
 msgctxt "global.search_wizard.tip_grm"
 msgid "Select accessions, and optionally a genotyping protocol. If no genotyping protocol is selected, the default genotyping protocol is used in your system. Specify minor allele frequency (MAF), marker filter, and individuals filter. Can compute genotypes from parents if the parents of the accessions you selected have genotypes by checking the checkbox. GRM can be downloaded in a matrix format (.tsv) and a three column format."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:355
 msgctxt "global.search_wizard.tip_gwas"
 msgid "Select accessions, traits, and optionally a genotyping protocol. If no genotyping protocol is selected, the default genotyping protocol is used in your system. When many traits are selected and these traits are not treated as repeated measurements, the traits are treated separately and distinct results are returned e.g. several Manhattan plots are returned. If the selected traits are in fact repeated measurements, then select 'yes'; a single GWAS will be run against all of the phenotypes e.g. a single Manhattan plot is returned. Specify minor allele frequency (MAF), marker filter, and individuals filter. Can compute genotypes from parents if the parents of the accessions you selected have genotypes by checking the checkbox. GWAS uses a fixed effect for different field trials and a fixed effect for replicate. GWAS uses Kinship matrix calculated from the genotype data. MAF and missing data used to filter prior to GWAS and Kinship matrix calculation. Can select whether to return results in Manhattan and QQ Plot (.pdf) form or as the tabular results (.tsv)."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:228
 msgctxt "global.search_wizard.tip_related_genotype"
 msgid "To download related genotype data, select 1 or more Accessions and optionally no more than 1 Genotyping Protocol in the wizard. If no genotyping protocol is selected, the database default protocol will be used. Click the checkbox here to compute genotypes for the selected accessions from genotypes of parents; this works for downloading genotypes, downloading the GRM, and performing GWAS."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:26
 msgctxt "global.search_wizard.title"
 msgid "Search Wizard"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:202
 msgctxt "global.search_wizard.to_download_related_data"
 msgid "to download related data."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:148
 msgctxt "global.search_wizard.to_save_lists"
 msgid "to save lists."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:894
 msgctxt "global.search_wizard.too_many_protocols"
 msgid "too many genotype protocols"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:517
 msgctxt "global.search_wizard.trait_name_contains"
 msgid "Trait Name Contains"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:746
 msgctxt "global.search_wizard.update_in_progress"
 msgid "A search wizard update is already in progress..."
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:681
 msgctxt "global.search_wizard.update_search_wizard"
 msgid "Update Search Wizard"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:692
 msgctxt "global.search_wizard.update_search_wizard_button"
 msgid "Update search wizard"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:31
 msgctxt "global.search_wizard.update_wizard"
 msgid "Update Wizard"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:815
 msgctxt "global.search_wizard.vcf_file"
 msgid "VCF File"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:278
 msgctxt "global.search_wizard.vcf_file_format"
 msgid "VCF File Format"
 msgstr ""
 
+#. sections: global solgs
 #: mason/breeders_toolbox/breeder_search_page.mas:692
 msgctxt "global.search_wizard.working"
 msgid "Working..."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/sgn_events.mas:28
 msgctxt "global.sgn_events.heading"
 msgid "SGN Presentations"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/sgn_events.mas:18
 msgctxt "global.sgn_events.unavailable"
 msgid "No SGN event is scheduled at the moment."
 msgstr ""
 
+#. sections: global
 #: mason/system_message.mas:8
 msgctxt "global.system_message.notice"
 msgid "Notice:"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/tomato_genome_info.mas:12
 msgctxt "global.tomato_genome_info.unavailable"
 msgid "%{crop} genome information temporarily unavailable"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/tomato_genome_publication.mas:39
 msgctxt "global.tomato_genome_publication.heading"
 msgid "%{crop} Genome Published"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/tomato_genome_publication.mas:26
 msgctxt "global.tomato_genome_publication.unavailable"
 msgid "The %{crop} genome publication information is currently unavailable."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/tomato_genome_publication_small.mas:39
 msgctxt "global.tomato_genome_publication_small.heading"
 msgid "%{crop} Genome Published"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/tomato_genome_publication_small.mas:26
 msgctxt "global.tomato_genome_publication_small.unavailable"
 msgid "The %{crop} genome publication information is currently unavailable."
 msgstr ""
 
+#. sections: global
 #: mason/homepage/tomato_genome_release.mas:39
 msgctxt "global.tomato_genome_release.heading"
 msgid "Current %{crop} Genome version %{genome_version} and Annotation %{annotation_version}"
 msgstr ""
 
+#. sections: barcode_orders global
 #: mason/homepage/tomato_genome_release.mas:39 mason/tools/label_designer/select_layout.mas:10
 msgctxt "global.tomato_genome_release.new"
 msgid "New"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/tomato_genome_release.mas:26
 msgctxt "global.tomato_genome_release.unavailable"
 msgid "The %{crop} genome release information is currently unavailable."
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/tools.mas:15
 msgctxt "global.tools.caps_designer"
 msgid "%{method} Designer"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/tools.mas:27
 msgctxt "global.tools.coffee_interactomic_data"
 msgid "%{crop} Interactomic Data"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/tools.mas:9
 msgctxt "global.tools.motif_finder"
 msgid "Motif Finder"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/tools.mas:28
 msgctxt "global.tools.sgn_ontology_browser"
 msgid "%{organization} Ontology Browser"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/tools.mas:26
 msgctxt "global.tools.solcyc_pathways"
 msgid "%{service} Biochemical Pathways"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/tools.mas:16
 msgctxt "global.tools.solqtl_mapping"
 msgid "%{service}: QTL Mapping"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/tools.mas:1
 msgctxt "global.tools.title"
 msgid "Tools"
 msgstr ""
 
+#. sections: global
 #: mason/site/toolbar/tools.mas:6
 msgctxt "global.tools.vigs_tool"
 msgid "%{tool} Tool"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/trace_download.pl:16
 msgctxt "global.trace_download.caption_0"
 msgid "Trace Download"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/trace_download.pl:43
 msgctxt "global.trace_download.caption_1"
 msgid "Invalid GET parameters"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/trace_download.pl:72
 msgctxt "global.trace_download.caption_2"
 msgid "This sequence does not seem to have an associated chromatogram."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/trace_download.pl:26
 msgctxt "global.trace_download.invalid"
 msgid "Invalid: '%{chromat_id}', '%{read_id}'.\n"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/trace_download.pl:95
 msgctxt "global.trace_download.invalid_search"
 msgid "Requested search is invalid."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/trace_download.pl:108
 msgctxt "global.trace_download.not_found"
 msgid "No chromatogram was found for SGN-T%{id}."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/trace_download.pl:76
 msgctxt "global.trace_download.open_failed"
 msgid "Failed to open chromatogram file for SGN-T%{read_id} (%{error})"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/ug-ad2.pl:29
 msgctxt "global.ug-ad2.advanced_search"
 msgid "Unigene Advanced Search"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/ug-ad2.pl:65
 msgctxt "global.ug-ad2.build_heading"
 msgid "Build"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/ug-ad2.pl:44
 msgctxt "global.ug-ad2.invalid_parameters"
 msgid "Invalid search parameters."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/ug-ad2.pl:65
 msgctxt "global.ug-ad2.length_heading"
 msgid "Length (bp)"
 msgstr ""
 
+#. sections: crosses global
 #: cgi-bin/search/ug-ad2.pl:65 mason/transcript/unigene/gene_family_info.mas:84
 msgctxt "global.ug-ad2.members_heading"
 msgid "# Members"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/ug-ad2.pl:30 cgi-bin/search/ug-ad2.pl:86 cgi-bin/search/ug-ad2.pl:89
 msgctxt "global.ug-ad2.page_title"
 msgid "Unigene Search Results"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/ug-ad2.pl:88
 msgctxt "global.ug-ad2.results_summary"
 msgid "%{count} matches (%{seconds} seconds)"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/ug-ad2.pl:65
 msgctxt "global.ug-ad2.unigene_heading"
 msgid "Unigene"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-all-blast-matches.pl:119
 msgctxt "global.unigene-all-blast-matches.no_annotations"
 msgid "No BLAST annotations were found"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:73
 msgctxt "global.unigene-estscan-detail.direction"
 msgid "Direction"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:76
 msgctxt "global.unigene-estscan-detail.edits_original"
 msgid "Edits in Original Sequence"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:75
 msgctxt "global.unigene-estscan-detail.predicted_coding"
 msgid "Predicted Coding Sequence"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:74
 msgctxt "global.unigene-estscan-detail.predicted_peptide"
 msgid "Predicted Peptide Sequence"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:62
 msgctxt "global.unigene_estscan_detail.deleted_by"
 msgid " -- Deleted by ESTScan"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:61
 msgctxt "global.unigene_estscan_detail.inserted_by"
 msgid " -- Inserted by ESTScan"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:106
 msgctxt "global.unigene_estscan_detail.invalid_search"
 msgid "The specified unigene identifier (%{id}) does not result in a valid search."
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:87
 msgctxt "global.unigene_estscan_detail.no_search_criteria"
 msgid "No unigene search criteria specified"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:70
 msgctxt "global.unigene_estscan_detail.page_title"
 msgid "ESTScan Details for Unigene SGN-U%{id}"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:72
 msgctxt "global.unigene_estscan_detail.score"
 msgid "Score"
 msgstr ""
 
+#. sections: global
 #: cgi-bin/search/unigene-estscan-detail.pl:63
 msgctxt "global.unigene_estscan_detail.utr_deleted"
 msgid " -- UTR Deleted by ESTScan"
 msgstr ""
 
+#. sections: global
 #: mason/homepage/what_is_sgn.mas:37
 msgctxt "global.what_is_sgn.about"
 msgid "About SGN"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/BreederSearch.pm:100
 msgctxt "global.wizard.nothing_to_display"
 msgid "%{count} matches. Nothing to display"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/BreederSearch.pm:96
 msgctxt "global.wizard.over_10_000_matches_speeds_may_be_affected_consider_narrowing_your_sea"
 msgid "Over 10,000 matches. Speeds may be affected, consider narrowing your search"
 msgstr ""
 
+#. sections: global
 #: lib/CXGN/BreederSearch.pm:400
 msgctxt "global.wizard.refresh_completed"
 msgid "%{view} update completed!"
 msgstr ""
 
+#. sections: global
 #: lib/CXGN/BreederSearch.pm:406
 msgctxt "global.wizard.refresh_error"
 msgid "Error initiating %{view} update.%{error}"
 msgstr ""
 
+#. sections: global
 #: lib/CXGN/BreederSearch.pm:368
 msgctxt "global.wizard.refresh_in_progress"
 msgid "%{view} update already in progress . . . "
 msgstr ""
 
+#. sections: global
 #: lib/CXGN/BreederSearch.pm:402
 msgctxt "global.wizard.refresh_initiated"
 msgid "%{view} update initiated."
 msgstr ""
 
+#. sections: global
 #: lib/CXGN/BreederSearch.pm:440
 msgctxt "global.wizard.status_timestamp"
 msgid "Wizard last updated: %{timestamp}"
 msgstr ""
 
+#. sections: global
 #: lib/CXGN/BreederSearch.pm:436
 msgctxt "global.wizard.status_updating"
 msgid "Wizard update in progress . . . "
 msgstr ""
 
+#. sections: global
 #: lib/CXGN/BreederSearch.pm:322
 msgctxt "global.wizard.unavailable"
 msgid "The search wizard is temporarily unavailable while database indexes are being repopulated. Please try again later."
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/BreederSearch.pm:40
 msgctxt "global.wizard.valid_keys"
 msgid "Valid keys are %{keys} and %{last_key} or undef"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/BreederSearch.pm:50
 msgctxt "global.wizard.valid_querytypes_are_1_for_intersect_or_0_for_union_or_between_0_and_1"
 msgid "Valid querytypes are '1' for intersect or '0' for union or between 0 and 1 for percent match"
 msgstr ""
 
+#. sections: global
 #: lib/SGN/Controller/AJAX/BreederSearch.pm:66
 msgctxt "global.wizard.valid_values_for_dataref_are_numeric_ids"
 msgid "Valid values for dataref are numeric ids"
 msgstr ""
 
+#. sections: global
 #: mason/search/autohandler:33
 msgctxt "search.tabs.accessions_plots"
 msgid "Accessions and plots"
 msgstr ""
 
+#. sections: global
 #: mason/search/autohandler:28
 msgctxt "search.tabs.heading"
 msgid "Search"
 msgstr ""
 
+#. sections: accessions analysis barcode_orders collection_upload crosses decision_allocation drone_imaging genotype_plates global lists_datasets phenotypes_traits program_locations seedlots trial_card trial_design
 #: js/source/legacy/CXGN/BreederSearch.js:610 mason/breeders_toolbox/trial/trial_seedlots.mas:149
 msgctxt "seedlots.ui.items_count"
 msgid "Items: %{count}"
 msgstr ""
 
+#. sections: accessions analysis barcode_orders collection_upload crosses decision_allocation drone_imaging genotype_plates global lists_datasets phenotypes_traits program_locations seedlots trial_card trial_design
 #: js/source/legacy/CXGN/BreederSearch.js:612 mason/breeders_toolbox/trial/trial_seedlots.mas:151
 msgctxt "seedlots.ui.selected_count"
 msgid "Selected: %{count}"
 msgstr ""
 
+#. sections: global
 #: mason/search/stocks_graphicalfiltering.mas:96
 msgctxt "stock_search.graphical.accession"
 msgid "Accession"
 msgstr ""
 
+#. sections: global
 #: js/source/legacy/brapi/GraphicalFilter.js:510
 msgctxt "stock_search.graphical.choose_trait"
 msgid "Select a Trait..."
 msgstr ""
 
+#. sections: global
 #: mason/search/stocks_graphicalfiltering.mas:37
 msgctxt "stock_search.graphical.copy"
 msgid "Copy Filtered Accessions to a List"
 msgstr ""
 
+#. sections: global
 #: mason/search/stocks_graphicalfiltering.mas:37
 msgctxt "stock_search.graphical.copy_help"
 msgid "Copy the accession names in table to a new or existing list"
 msgstr ""
 
+#. sections: global
 #: js/source/legacy/brapi/GraphicalFilter.js:89
 msgctxt "stock_search.graphical.count"
 msgid "Count"
 msgstr ""
 
+#. sections: global
 #: mason/search/stocks_graphicalfiltering.mas:60
 msgctxt "stock_search.graphical.login"
 msgid "Login required to display graphical filtering"
 msgstr ""
 
+#. sections: global
 #: js/source/legacy/brapi/GraphicalFilter.js:394
 msgctxt "stock_search.graphical.new_group"
 msgid "New Group"
 msgstr ""
 
+#. sections: global
 #: js/source/legacy/brapi/GraphicalFilter.js:383
 msgctxt "stock_search.graphical.new_range"
 msgid "New Range"
 msgstr ""
 
+#. sections: global
 #: js/source/legacy/brapi/GraphicalFilter.js:752
 msgctxt "stock_search.graphical.nothing"
 msgid "Nothing"
 msgstr ""
 
+#. sections: global
 #: mason/search/stocks_graphicalfiltering.mas:12
 msgctxt "stock_search.graphical.section"
 msgid "Graphical Filter Accessions By Traits (Includes all Search Criteria From Above Search Form)"

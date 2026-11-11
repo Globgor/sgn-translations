@@ -6,46 +6,55 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. sections: administration
 #: lib/SGN/Controller/Catalog.pm:80
 msgctxt "administration.catalog.item_not_found"
 msgid "The requested catalog item does not exist."
 msgstr ""
 
+#. sections: administration
 #: mason/dbstats/recent_activity.mas:20
 msgctxt "administration.interface.include_items_without_date"
 msgid "include items without a date"
 msgstr ""
 
+#. sections: administration
 #: mason/dbstats/recent_activity.mas:81
 msgctxt "administration.interface.including_dateless_items"
 msgid "Including data items that do not have an associated date."
 msgstr ""
 
+#. sections: administration
 #: mason/site/status.mas:9
 msgctxt "administration.interface.logins"
 msgid "Logins"
 msgstr ""
 
+#. sections: administration
 #: mason/dbstats/recent_activity.mas:11
 msgctxt "administration.interface.recent_activity"
 msgid "Recent activity"
 msgstr ""
 
+#. sections: administration
 #: mason/dbstats/recent_activity.mas:80
 msgctxt "administration.interface.showing_items_from_date"
 msgid "Showing database items generated from date:"
 msgstr ""
 
+#. sections: administration
 #: mason/site/status.mas:7
 msgctxt "administration.interface.site_status"
 msgid "Site Status"
 msgstr ""
 
+#. sections: administration
 #: mason/dbstats/recent_activity.mas:80
 msgctxt "administration.interface.to_date"
 msgid "to date:"
 msgstr ""
 
+#. sections: administration
 #: lib/SGN/Controller/SiteStatus.pm:21
 msgctxt "administration.status.insufficient_privileges"
 msgid "You do not have the required privileges to view this page"

@@ -6,11 +6,13 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. sections: lists_datasets shared_ui_libraries
 #: mason/metadata/file_download_link.mas:10
 msgctxt "metadata.file.unavailable_caption"
 msgid "(temporarily unavailable)"
 msgstr ""
 
+#. sections: lists_datasets shared_ui_libraries
 #: mason/metadata/file_download_link.mas:10
 msgctxt "metadata.file.unavailable_title"
 msgid "file temporarily unavailable"

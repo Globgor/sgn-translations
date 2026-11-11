@@ -6,6 +6,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#. sections: unassigned_source
 #: lib/CXGN/Search/CannedForms.pm:215
 msgctxt "cross.canned_forms.family_search"
 msgid "Family search"
