@@ -1,102 +1,86 @@
 # SGN translations
 
-Interface translations and translated user manuals for
-[SGN / Breedbase](https://github.com/solgenomics/sgn), with the tools that
-check them and build language packs. SGN itself keeps only code.
+Interface translations for [SGN / Breedbase](https://github.com/solgenomics/sgn)
+as standard GNU gettext files, and translated user manuals. SGN keeps only code.
 
 Languages: Ukrainian (`uk`), Spanish (`es`), Arabic (`ar`). English is in SGN.
 
-**Status:** all translations are machine-generated drafts. They need review by
-a native speaker and a breeder before a site relies on them.
+**Status:** all translations are machine-generated drafts. No native speaker
+has reviewed them yet. Review them before a site relies on them.
 
 ## Layout
 
 ```text
-po/templates/<section>.pot   English messages of one application section
+po/templates/<section>.pot   English messages of one SGN section (generated)
 po/<lang>/<section>.po       translations of the same messages
-glossary/<lang>.md, .tsv     terminology (draft) and the rules the check enforces
-manual/                      translated manual chapters and their build helper
-tools/                       extraction, check, build and install tools
-docs/                        guides for each job (below)
+glossary/                    terminology draft and the rules the check enforces
+manual/                      translated manual chapters (built with R, optional)
+tools/                       build, check and template scripts (Python 3)
+build/                       made by `make`; read by SGN; not in Git
 ```
 
-A section is a group of SGN pages, such as `seedlots` or `trial_card`. Each
-message is in exactly one section file per language:
-
-1. `common` when SGN loads it on every page (shared context prefix or shared
-   source file);
-2. otherwise the section that SGN's `locale/workflows.json` gives to the first
-   source file (sorted path) that uses it.
-
-All messages with one msgctxt stay together. Old (`#~`) entries stay at the end
-of `common.po`. `tools/sections.py` applies this rule every time templates are
-regenerated. The section files do not change the browser partitions in packs.
-
-## Translator
-
-Edit `po/<lang>/<section>.po` in [Poedit](https://poedit.com/) or in the GitHub
-editor, then open a pull request **here**. SGN is not touched.
-
-- Change only `msgstr`. Keep `%{name}` values, IDs, units and scientific names.
-- Fill every plural form. An empty translation is allowed: SGN shows English.
-- Mark uncertain text "Needs Work" (fuzzy). SGN shows English for it.
-
-The pull request runs the checks. More: [docs/TRANSLATOR.md](docs/TRANSLATOR.md),
-[docs/REVIEW.md](docs/REVIEW.md).
-
-## Add a language
-
-1. Start the catalog from the templates, with the language's real plural rule
-   and direction:
-
-   ```sh
-   python3 tools/sgn-i18n init --release ~/sgn-translation-v1/release.json --locale fr \
-     --direction ltr --plural-forms 'nplurals=2; plural=(n > 1);' --name 'Français' --output /tmp/fr.po
-   python3 tools/sgn-i18n split --language fr --po /tmp/fr.po
-   ```
-
-   `release.json` comes from a prepared workspace (see Builder); `--sgn PATH`
-   instead of `--release` reads an SGN checkout directly.
-2. Add the language to `LANGUAGES` in `tools/check_catalogs.py`
-   (plural rule, direction, scripts that must not appear).
-3. Run the checks (below) and open a pull request.
-
-## Builder
-
-The builder needs an SGN checkout and the [source tools](docs/TOOLS.md).
-Regenerate templates and update every language from an SGN commit:
-
-```sh
-python3 tools/sgn-i18n update --sgn /path/to/sgn
-```
-
-Make ready language packs for that SGN commit:
-
-```sh
-python3 tools/sgn-i18n prepare --sgn /path/to/sgn \
-  --application-version "$(git -C /path/to/sgn rev-parse HEAD)" --output ~/sgn-translation-v1
-cd ~/sgn-translation-v1 && python3 tools/sgn-i18n package --workspace . --output ~/sgn-ready-v1
-```
-
-Publish the ready folder for each SGN release, so that only the builder needs
-Node, Perl and R. Details: [docs/TRANSLATOR.md](docs/TRANSLATOR.md).
+A section is a group of SGN pages, such as `seedlots` or `trial_card`. Every
+message is in exactly one section file per language. Messages that SGN shows
+on every page are in `common`.
 
 ## Site administrator
 
-Install a ready pack: [docs/INSTALL.md](docs/INSTALL.md).
-Manual: [docs/MANUAL.md](docs/MANUAL.md).
+SGN reads `build/` of this repository. The default place is
+`../sgn-translations/build`, next to the SGN checkout.
 
-## Checks
+If your Breedbase Docker image contains this repository, the files are already
+built. Add two lines to `sgn_local.conf` and restart SGN:
 
-```sh
-sudo scripts/install-ci-deps.sh   # Ubuntu 24.04, once
-scripts/ci.sh                     # same steps as .github/workflows/check.yml
+```text
+i18n_enabled           1
+i18n_enabled_locales   en,uk
 ```
 
-`tools/check_catalogs.py` alone needs only Python 3 and GNU gettext. It checks
-structure, not wording: same messages as the template, `%{name}` values, plural
-forms, header, `msgfmt --check`, letters of a wrong script, glossary rules.
-Tests that read SGN files run when `SGN_CHECKOUT=/path/to/sgn` is set.
+Manual install on Debian or Ubuntu:
+
+```sh
+sudo apt-get install gettext libintl-perl make
+git clone https://github.com/Globgor/sgn-translations.git   # next to the sgn folder
+cd sgn-translations
+make
+```
+
+Then add the two lines above and restart SGN. If the files are in another
+place, also set `i18n_dir /absolute/path/to/sgn-translations/build`.
+After `git pull`, run `make` again and restart SGN.
+
+## Translator
+
+1. Open `po/<lang>/<section>.po` in [Poedit](https://poedit.com/) or in the
+   GitHub editor.
+2. Change only the translation (`msgstr`). Keep `%{name}` values exactly.
+3. Fill every plural form. Mark uncertain text "Needs Work" (fuzzy).
+4. Open a pull request in this repository. The checks run on it.
+
+A translation that is empty, fuzzy, has a broken `%{name}` value or misses a
+plural form is left out of the build. The site shows English for it.
+
+`make check` requires: the same messages as the template, the standard header
+of the language, all plural forms, kept `%{name}` values, `msgfmt --check`, no
+letters of a wrong script (for example Arabic in Ukrainian), and the glossary
+rules. Details, review and a new language: [docs/TRANSLATOR.md](docs/TRANSLATOR.md).
+
+## Developer and release
+
+Needs GNU gettext, Python 3 and make.
+
+```sh
+make templates SGN=/path/to/sgn   # xgettext -> po/templates, msgmerge every language
+git diff --stat                   # review what changed
+make check                        # all checks and tool tests
+make                              # build/ for SGN
+git add po && git commit
+```
+
+`make templates` stops without writing if translated messages would be lost,
+for example with an SGN checkout that marks fewer files. Read
+[docs/EXTRACTION.md](docs/EXTRACTION.md) before the first run.
+`make clean` removes `build/`. The manual: [docs/MANUAL.md](docs/MANUAL.md).
 
 ## Licence
 

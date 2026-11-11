@@ -1,188 +1,84 @@
-# Translate a release
+# Translate and review
 
-The builder prepares files, the translator edits them, and the administrator
-installs the result. Each person can follow only their own step.
-The translator needs a local editor; the application and source tools stay on
-the builder's machine. Installing a ready bundle is covered in
-[Install a language](INSTALL.md).
+The translations are standard gettext PO files: `po/<lang>/<section>.po`.
+All of them are machine-generated drafts. A native speaker and a breeder must
+review the text before a site relies on it.
 
-## Translator: edit and save
+## Edit a section file
 
-The translations live in this repository, one file per language and section:
-`po/<lang>/<section>.po`. A translator has two ways to work:
+Use [Poedit](https://poedit.com/) on your computer, or the GitHub editor.
+SGN and the tools in this repository are not needed for editing.
 
-- **In this repository:** open the section file in Poedit or the GitHub editor,
-  save, and open a pull request here. The checks run on the pull request.
-  SGN is not touched.
-- **In a prepared folder** from the builder (step 1 below): edit
-  `translations/<lang>.po` in Poedit and return the folder (step 2).
+1. Open `po/<lang>/<section>.po`. Messages shown on every page are in `common.po`.
+2. Select a message. The English text is the source; the translation is `msgstr`.
+3. Change the translation only. Keep the context key, the English text and the header.
+4. Keep `%{name}` values exactly, for example `%{count}` and `%{name}`.
+   SGN puts the real value there.
+5. Fill every plural form of the language. Ukrainian has 3, Arabic has 6.
+6. Mark uncertain text "Needs Work" (fuzzy). The site shows English for it.
+7. Save and open a pull request in this repository.
 
-The editing rules below are the same for both ways.
+Example: in `Created trial %{name}.` translate the words and keep `%{name}`.
+Keep IDs, scientific names, units and file field names unchanged. Write plain
+text, not HTML tags or entities such as `&amp;`. In
+`file_list.datatable.length_menu` and `odk.table.length`, `%{menu}` must occur
+exactly once.
 
-## 0. Builder: refresh the templates from SGN
+To search all sections of one language at once, join them into a read-only copy
+with GNU gettext: `msgcat po/uk/*.po -o /tmp/uk-all.po`. Make the edits in the
+section files, not in the copy.
 
-Use the clean SGN source checkout for the release and install the
-[source tools](TOOLS.md). Open a terminal in this repository:
+## What the checks require
 
-```sh
-python3 tools/sgn-i18n update --sgn /path/to/sgn
-```
+`make check` runs on every pull request. For each `po/<lang>/<section>.po`:
 
-This extracts the messages from SGN, writes `po/templates/<section>.pot`, merges
-every language with GNU gettext and splits it again by the section rule in the
-[README](../README.md#layout). Commit the result here. `extract` writes only the
-templates. Changed English messages become fuzzy or empty and use English until
-someone translates them.
+- the same messages as `po/templates/<section>.pot`: nothing missing, nothing extra;
+- the standard header: `Language`, `Plural-Forms` of the language,
+  `X-SGN-Direction` (`ltr` or `rtl`), equal in all section files;
+- all plural forms of every plural message;
+- every filled, non-fuzzy translation keeps the `%{name}` values of its English text;
+- `msgfmt --check` accepts the file, and the joined language;
+- no letters of a wrong script, for example Arabic letters in Ukrainian;
+- no term that `glossary/<lang>.tsv` forbids (the file is empty until the
+  terms are confirmed; `glossary/uk.md` is the draft).
 
-## 1. Builder: make the translation folder
+An empty translation is allowed. The site shows English for it.
 
-Open a terminal in this repository. This command uses the SGN commit as the
-release version:
+## Review
 
-```sh
-python3 tools/sgn-i18n prepare --sgn /path/to/sgn \
-  --application-version "$(git -C /path/to/sgn rev-parse HEAD)" \
-  --output "$HOME/sgn-translation-v1"
-```
+1. Pick one section file, for example `po/uk/seedlots.po`.
+2. Read each message next to its SGN page, including error and success messages.
+3. Agree on the words for accession, trial, plot, seedlot, cross and trait.
+4. Check long text, small screens, Arabic layout and the counts 0, 1, 2, 5 and 21.
+5. Correct the text in Poedit. Mark doubtful entries "Needs Work".
+6. Open a pull request. Name the reviewer and the section in its description.
 
-The command reads source messages once, freezes the message list, joins the
-section files of each language into one copy and updates those copies from the
-release template. The files in `po/` stay unchanged. It also includes matching
-tools and notices.
+## Add a language
 
-Give the whole `sgn-translation-v1` folder to the translator. It contains:
+The example adds German (`de`). Use the real plural rule and text direction of
+the language; do not guess them.
 
-```text
-translations/uk.po
-translations/es.po
-translations/ar.po
-release.json
-release.pot
-tools/
-notices/
-README.md
-```
+1. Make the section files from the templates with GNU gettext:
 
-The PO files are the editable translations. `release.json` and `release.pot`
-record the messages for this release. Keep the other files with the PO files.
+   ```sh
+   mkdir po/de
+   for template in po/templates/*.pot; do
+     msginit --no-translator --no-wrap --locale=de --input="$template" \
+       --output="po/de/$(basename "$template" .pot).po"
+   done
+   ```
 
-**Already have a frozen release?** This alternative needs Python 3.9 or newer
-and GNU gettext (`msgcat`, `msgfmt`, `msgmerge`), but no source checkout parsers,
-Node, Perl or R. Replace the two input paths with the files you received:
+   `msginit` writes `Language` and the standard `Plural-Forms` of the language.
 
-```sh
-python3 tools/sgn-i18n prepare --release /path/to/release.json \
-  --po /path/to/uk.po --output "$HOME/sgn-translation-v1"
-```
+2. Add the native name and the direction to the header of every file:
 
-Repeat `--po` for more languages. Use trusted release files and accompanying
-notices. A checksum identifies bytes; it is not a publisher signature.
+   ```sh
+   sed -i 's/^"Plural-Forms: .*\\n"$/&\n"X-SGN-Language-Name: Deutsch\\n"\n"X-SGN-Direction: ltr\\n"/' po/de/*.po
+   ```
 
-## 2. Translator: open, edit and save
+3. Add the language to `LANGUAGES` in `tools/check_catalogs.py`: the
+   `Plural-Forms` value that `msginit` wrote, the direction, and the scripts
+   that must not appear.
+4. Run `make check` and `make`, then open a pull request.
 
-Install [Poedit](https://poedit.com/download/) on your computer once.
-Open Poedit, choose **File → Open**, and open `translations/uk.po` from the
-received folder. Spanish is `es.po`; Arabic is `ar.po`.
-Editing needs no SGN, Python, Node or translation server.
-
-1. Select a message. **Source text** shows the English; **Translation** is editable.
-2. Change the translation. Keep values such as `%{name}` and `%{count}` unchanged.
-3. Fill every plural form shown for the language.
-4. Mark uncertain text **Needs Work**. SGN will use the whole English message for it.
-5. Save. Return the whole folder to the builder, who completes step 3
-   (in this repository: open a pull request instead).
-
-For example, in `Created trial %{name}.`, translate the words but keep `%{name}`
-exactly as written. SGN inserts the real trial name later.
-Keep context keys, English source, IDs, scientific names, units and headers
-unchanged. Use plain text without HTML tags or pre-escaped entities.
-
-Have a native speaker and a breeder review the wording. Filled text is not proof
-of review. [Poedit checks files when saving](https://poedit.com/docs/get-started/translate-files/);
-the SGN build also checks its own placeholder rules. `%{menu}` in
-`file_list.datatable.length_menu` and `odk.table.length` must appear exactly
-once and must not become `_MENU_`.
-
-Saving changes the working copy only. It does not update the running site.
-A builder copies saved workspace translations back into `po/` with
-`python3 tools/sgn-i18n split --language uk --po translations/uk.po --replace`
-from this repository, after a `prepare` from the same SGN commit.
-Use [small review batches](REVIEW.md) if a full catalog is too much to review.
-
-## 3. Builder: make ready packages
-
-Use a Linux/POSIX builder with Python 3.9 or newer and GNU gettext (`msgcat`,
-`msgfmt`, `msgmerge`). After preparation, no application checkout or source
-parsers are needed. Save the edited files before packaging.
-
-Open a terminal and run:
-
-```sh
-cd "$HOME/sgn-translation-v1"
-python3 tools/sgn-i18n package --workspace . --output "$HOME/sgn-ready-v1"
-```
-
-If the returned workspace is elsewhere, open that folder instead of using the
-example `cd` path. The resulting `sgn-ready-v1` folder contains:
-
-```text
-operator-tools/
-uk-pack/
-es-pack/
-ar-pack/
-translations/
-release.json
-release.pot
-notices/
-README.md
-```
-
-Only the languages present in the workspace get a pack. The command checks the
-saved translations, compiles them, and includes copies of the exact inputs used.
-Another editor save cannot mix a later PO into the package's source record.
-Invalid placeholders or malformed files stop the build before a ready folder
-appears. Empty or Needs Work messages use whole English fallback.
-
-Give the whole ready folder to the site administrator. The included `README.md` and
-[installation guide](INSTALL.md) explain the one-command install and activation.
-Preparing or packaging files never activates them on a site.
-
-## Make a correction
-
-Keep the workspace, edit its PO files in Poedit and save. Package again with a
-new output name:
-
-```sh
-cd "$HOME/sgn-translation-v1"
-python3 tools/sgn-i18n package --workspace . --output "$HOME/sgn-ready-v2"
-```
-
-Existing output folders are never overwritten. Use a new workspace name when
-preparing another SGN release, such as `sgn-translation-v2`.
-Ordinary SGN code PRs do not need translations; refresh the templates here
-(step 0) and prepare updated catalogs when making a release. Publish the ready
-folder for each SGN release, so that only the builder needs Node, Perl and R.
-
-## Additional tools
-
-From the workspace folder, start French from its frozen template with:
-
-```sh
-python3 tools/sgn-i18n init --release release.json --locale fr --direction ltr \
-  --plural-forms 'nplurals=2; plural=(n > 1);' --name 'Français' \
-  --output translations/fr.po
-```
-
-Use the language's real direction and plural rule; do not guess them.
-The PO header contains `Language`, `X-SGN-Direction`, `Plural-Forms` and the
-optional native name `X-SGN-Language-Name`.
-
-Advanced `build`, `create`, `validate`, plain `install` and explicit `activate`
-remain available. `create` and `install` already validate packages; a separate
-`validate` is not a required extra step. `--expected-revision` can require an
-exact message-list version when activating. It is optional and rejects blank
-or malformed values.
-
-Each JSON file in a pack has a 2 MiB limit. Large languages use indexed message
-files, not a raised limit. Small older catalogs still support
-`build --legacy-single-file`.
+A site turns the language on with `i18n_enabled_locales en,de`.

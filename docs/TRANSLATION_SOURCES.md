@@ -1,6 +1,6 @@
 # Translation source attribution
 
-This is the source and license record. For setup, use [Install a language](INSTALL.md).
+This is the source and license record. For setup, see the [README](../README.md).
 
 Some Ukrainian, Spanish and Arabic country-caption draft records are adapted
 from the iso-codes project's version v4.20.1 ISO 3166-1 and historical ISO 3166-3
@@ -8,7 +8,7 @@ translation catalogs. The application stores its original country names/codes;
 these records supply display captions only. The application has no runtime
 dependency on iso-codes or the operating system locale catalogs.
 
-The retained source catalogs and package metadata state LGPL-2.1-or-later.
+The retained source catalogs state LGPL-2.1-or-later.
 Preserve the accompanying original copyright/translator notices and the license
 text when distributing these derived records. This notice records sources and
 attribution; it does not make a legal-compliance claim.

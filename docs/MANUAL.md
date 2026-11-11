@@ -3,6 +3,8 @@
 Use this guide to build English, Ukrainian, Spanish and Arabic web readers and
 PDFs. Translated chapters are drafts; have a native speaker and a breeder review
 them before publication. Editing chapters only needs a text editor.
+The manual is separate from the interface files: `make` and `make check` do
+not need R, and `make` does not build the manual.
 
 ## Before you start
 
@@ -121,24 +123,26 @@ examples unchanged in translations.
 After editing paragraphs, run from this repository:
 
 ```sh
-SGN_CHECKOUT=/path/to/sgn python3 tools/test_manual.py
+make check SGN=/path/to/sgn
 Rscript --vanilla manual/build.R --sgn /path/to/sgn all "$HOME/sgn-manual-v2"
 ```
 
-The first command checks consistency with English; it does not build a preview.
+The first command also runs `tools/test_manual.py` (Python only; its build
+test runs only when `Rscript` is installed). It checks consistency with
+English; it does not build a preview.
 The second builds the pages. Open `~/sgn-manual-v2/index.html` and check the
 changed chapters and language links. Building does not publish the reader.
 
 ## Publish
 
-Publish the English root and three language folders together. Set the site's
-`i18n_manual_base_url` and list the published languages in `i18n_manual_locales`;
-see [optional site settings](https://github.com/solgenomics/sgn/blob/master/docs/i18n/DEVELOPER.md#optional-site-settings).
-The site's Manual link can then use the matching language.
+Publish the English root and three language folders together. In the branch
+of solgenomics/sgn PR #6386 the site settings `i18n_manual_base_url` and
+`i18n_manual_locales` let the Manual link open the matching language. Upstream
+SGN does not have these settings yet.
 
 SGN's documentation CI builds English only. A maintainer publishes the
-translated output separately. UI pack installation does not publish a manual.
-Keep generated HTML, PDFs, caches and tools outside Git.
+translated output separately. Keep generated HTML, PDFs, caches and tools
+outside Git.
 
 ## Source files
 
