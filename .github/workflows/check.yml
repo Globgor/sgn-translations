@@ -3,31 +3,18 @@ name: check
 on:
   push:
   pull_request:
-  workflow_dispatch:
-    inputs:
-      sgn_ref:
-        description: "solgenomics/sgn branch, tag or commit for the tests that read SGN files (empty: skip them)"
-        required: false
-        default: ""
 
 permissions:
   contents: read
 
 jobs:
   check:
-    runs-on: ubuntu-24.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Check out SGN for the SGN-reading tests
-        if: ${{ inputs.sgn_ref != '' && inputs.sgn_ref != null }}
-        uses: actions/checkout@v4
-        with:
-          repository: solgenomics/sgn
-          ref: ${{ inputs.sgn_ref }}
-          path: sgn
-      - name: Install the qualified toolchain
-        run: sudo scripts/install-ci-deps.sh
-      - name: Run all checks
-        run: |
-          if [ -d sgn ]; then export SGN_CHECKOUT="$PWD/sgn"; fi
-          scripts/ci.sh
+      - name: Install GNU gettext
+        run: sudo apt-get update && sudo apt-get install -y gettext
+      - name: Check catalogs and tools
+        run: make check
+      - name: Build
+        run: make
