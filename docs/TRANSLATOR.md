@@ -39,8 +39,9 @@ section files, not in the copy.
 - every filled, non-fuzzy translation keeps the `%{name}` values of its English text;
 - `msgfmt --check` accepts the file, and the joined language;
 - no letters of a wrong script, for example Arabic letters in Ukrainian;
-- no term that `glossary/<lang>.tsv` forbids (the file is empty until the
-  terms are confirmed; `glossary/uk.md` is the draft).
+- no term that `glossary/<lang>.tsv` forbids (only confirmed terms are
+  there; a rule can apply to some English texts only; `glossary/uk.md` is
+  the draft for the rest).
 
 An empty translation is allowed. The site shows English for it.
 

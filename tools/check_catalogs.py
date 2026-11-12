@@ -67,7 +67,12 @@ class Problems:
 
 
 def read_glossary(path):
-    """Read 'forbidden<TAB>preferred[<TAB>note]' rules; '#' starts a comment line."""
+    """Read 'forbidden<TAB>preferred[<TAB>note[<TAB>English regex]]' rules.
+
+    '#' starts a comment line. With the fourth column the rule applies only to
+    messages whose English text (msgid, a newline, msgid_plural) matches that
+    Python regular expression.
+    """
     rules = []
     if not path.is_file():
         return rules
@@ -77,7 +82,13 @@ def read_glossary(path):
         columns = line.split("\t")
         if len(columns) < 2 or not columns[0].strip() or not columns[1].strip():
             raise ValueError(f"{path}:{number}: expected forbidden<TAB>preferred")
-        rules.append((columns[0].strip(), columns[1].strip()))
+        english = None
+        if len(columns) > 3 and columns[3].strip():
+            try:
+                english = re.compile(columns[3].strip())
+            except re.error as error:
+                raise ValueError(f"{path}:{number}: bad English regex: {error}") from error
+        rules.append((columns[0].strip(), columns[1].strip(), english))
     return rules
 
 
@@ -176,7 +187,9 @@ def check_language(directory, templates, glossary_dir, problems, stats):
                     if SCRIPTS[script].search(form):
                         problems.add(where, script + " letters in a " + language + " translation")
                 lowered = form.casefold()
-                for forbidden, preferred in glossary:
+                for forbidden, preferred, english in glossary:
+                    if english is not None and not english.search(source + "\n" + (plural or "")):
+                        continue
                     if forbidden.casefold() in lowered:
                         problems.add(where, f"glossary: use «{preferred}» instead of «{forbidden}»")
             if fuzzy:

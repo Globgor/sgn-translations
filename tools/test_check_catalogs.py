@@ -122,6 +122,12 @@ class CheckTests(unittest.TestCase):
         text = self.good.replace('msgid "Location"\nmsgstr ""', 'msgid "Location"\nmsgstr "Місце"')
         self.assertIn("'count': {'місц': 1}", self.check(text, True, glossary=rules))
 
+    def test_glossary_rule_for_some_english_texts(self):
+        text = self.good.replace('msgid "Location"\nmsgstr ""', 'msgid "Location"\nmsgstr "Локація"')
+        self.check(text, True, glossary="локаці\tмісце\tonly for downloads\t(?i)download\n")
+        self.check(text, False, "glossary: use «місце» instead of «локаці»",
+                   glossary="локаці\tмісце\tonly for locations\t(?i)\\Alocation\\b\n")
+
 
 if __name__ == "__main__":
     unittest.main()
