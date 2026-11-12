@@ -95,6 +95,10 @@ class CheckTests(unittest.TestCase):
     def test_plural_forms_and_header_rule(self):
         text = self.good.replace('\nmsgstr[2] "%{count} дослідів"', "")
         self.check(text, False, "plural message has 2 msgstr forms, expected 3")
+        text = self.good.replace('msgstr[2] "%{count} дослідів"', 'msgstr[2] ""')
+        self.check(text, False, "every msgstr form must be filled")
+        text = self.good.replace("Створено дослід %{name}.", " ")
+        self.check(text, False, "every msgstr form must be filled")
         text = self.good.replace(LANGUAGES["uk"]["plural"], "nplurals=2; plural=(n != 1);")
         self.check(text, False, "Plural-Forms differs from the standard rule")
 

@@ -7,7 +7,8 @@ Checks, for each po/<language>/<section>.po:
   (same msgctxt, msgid and msgid_plural; nothing missing, nothing extra);
 - the header names the language and its standard plural rule and direction,
   and these fields agree in every section file of the language;
-- every plural message has all msgstr[i] forms of the language;
+- every plural message has all msgstr[i] forms of the language, all filled
+  when any one is filled;
 - each filled translation keeps the %{name} values of its English source;
 - `msgfmt --check` accepts the file;
 - no letters from a script that does not belong to the language;
@@ -163,6 +164,9 @@ def check_language(directory, templates, glossary_dir, problems, stats):
             if not filled:
                 stats[language]["empty"] += 1
                 continue
+            if not all(form.strip() for form in forms):
+                # build.py leaves such a translation out; say so before it merges.
+                problems.add(where, "every msgstr form must be filled (the build drops a partly empty translation)")
             if fuzzy:
                 stats[language]["fuzzy"] += 1
             else:
