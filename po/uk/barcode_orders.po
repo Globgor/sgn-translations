@@ -277,7 +277,7 @@ msgstr "Додати новий елемент каталогу"
 #: mason/order/add_catalog_using_list_dialog.mas:9
 msgctxt "barcode.helper.add_new_catalog_items_using_list"
 msgid "Add New Catalog Items Using List"
-msgstr "Додати елементи каталогу зі списку"
+msgstr "Додати нові елементи каталогу зі списку"
 
 #: mason/order/catalog_item_details.mas:171
 #: mason/order/catalog_item_details.mas:73

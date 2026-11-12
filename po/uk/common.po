@@ -6123,7 +6123,7 @@ msgstr "Абсолютний шлях сайту до файла CSS."
 #: mason/util/styleguide.mas:21
 msgctxt "styleguide.css.path.relative"
 msgid "The relative path to the CSS file from the /static/css folder."
-msgstr "Відносний шлях до файла CSS від папки /static/css."
+msgstr "Відносний шлях до файлу CSS від папки /static/css."
 
 #: mason/util/styleguide.mas:23
 msgctxt "styleguide.css.path.url"

@@ -8059,7 +8059,7 @@ msgstr "номер рядка. Якщо поле має сітку, це коо�
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:740
 msgctxt "trial.upload.template.optional_seed_count"
 msgid "number seeds per plot. Seed is transferred from seedlot mentioned in seedlot_name. Numeric"
-msgstr "кількість насінин на ділянку. Насіння беруть із партії seedlot_name. Числове значення"
+msgstr "кількість насінин на ділянку. Насіння переноситься з партії, зазначеної в seedlot_name. Числове значення"
 
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:741
 msgctxt "trial.upload.template.optional_seed_weight"

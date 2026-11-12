@@ -702,7 +702,7 @@ msgstr "Кошик замовлення клонів"
 #: cgi-bin/search/clone-order.pl:32 cgi-bin/search/clone-order.pl:33
 msgctxt "global.clone-order.supplier_available"
 msgid "The following selected clones are available through %{supplier}"
-msgstr "Ці вибрані клони можна отримати через %{supplier}"
+msgstr "Наведені нижче вибрані клони можна отримати через %{supplier}"
 
 # Draft translation; human review required.
 #: mason/homepage/community.mas:8
@@ -4371,7 +4371,7 @@ msgstr "Зміни в оригінальній послідовності"
 #: cgi-bin/search/unigene-estscan-detail.pl:75
 msgctxt "global.unigene-estscan-detail.predicted_coding"
 msgid "Predicted Coding Sequence"
-msgstr "Передбачена кодуюча послідовність"
+msgstr "Прогнозована кодувальна послідовність"
 
 #: cgi-bin/search/unigene-estscan-detail.pl:74
 msgctxt "global.unigene-estscan-detail.predicted_peptide"
