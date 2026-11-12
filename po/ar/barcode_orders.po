@@ -219,7 +219,7 @@ msgstr "نص (Zebra)"
 #: mason/order/generate_identifier_barcode_dialog.mas:58
 msgctxt "barcode.helper.1d_barcode"
 msgid "1D Barcode"
-msgstr "1D Barcode"
+msgstr "رمز شريطي 1D"
 
 #: mason/barcode/index.mas:223
 #: mason/breeders_toolbox/trial/generate_genotrial_barcode.mas:226
@@ -227,7 +227,7 @@ msgstr "1D Barcode"
 #: mason/order/generate_identifier_barcode_dialog.mas:192
 msgctxt "barcode.helper.20_label_size_sticker_paper"
 msgid "20 label Size Sticker Paper"
-msgstr "20 label Size Sticker Paper"
+msgstr "ورقة من 20 ملصقًا"
 
 #: mason/barcode/index.mas:202
 #: mason/breeders_toolbox/trial/generate_genotrial_barcode.mas:85
@@ -235,7 +235,7 @@ msgstr "20 label Size Sticker Paper"
 #: mason/order/generate_identifier_barcode_dialog.mas:57
 msgctxt "barcode.helper.2d_barcode"
 msgid "2D Barcode"
-msgstr "2D Barcode"
+msgstr "رمز شريطي 2D"
 
 #: mason/barcode/index.mas:224
 #: mason/breeders_toolbox/trial/generate_genotrial_barcode.mas:224
@@ -243,7 +243,7 @@ msgstr "2D Barcode"
 #: mason/order/generate_identifier_barcode_dialog.mas:190
 msgctxt "barcode.helper.32_label_size_sticker_paper"
 msgid "32 label Size Sticker Paper"
-msgstr "32 label Size Sticker Paper"
+msgstr "ورقة من 32 ملصقًا"
 
 #: mason/barcode/index.mas:225
 #: mason/breeders_toolbox/trial/generate_genotrial_barcode.mas:225
@@ -251,7 +251,7 @@ msgstr "32 label Size Sticker Paper"
 #: mason/order/generate_identifier_barcode_dialog.mas:191
 msgctxt "barcode.helper.32_unique_label_size_sticker_paper"
 msgid "32 Unique label Size Sticker Paper"
-msgstr "32 Unique label Size Sticker Paper"
+msgstr "ورقة من 32 ملصقًا فريدًا"
 
 #: mason/order/catalog.mas:147
 msgctxt "barcode.helper.add_item"
@@ -399,7 +399,7 @@ msgstr "يجب أن يكون برنامج التربية موجودًا في ق�
 #: mason/order/generate_identifier_barcode_dialog.mas:188
 msgctxt "barcode.helper.cass_printing_format"
 msgid "CASS printing format"
-msgstr "CASS printing format"
+msgstr "تنسيق الطباعة CASS"
 
 #: mason/order/catalog.mas:39
 msgctxt "barcode.helper.catalog_items"
@@ -768,7 +768,7 @@ msgstr "material_source:"
 #: mason/order/generate_identifier_barcode_dialog.mas:189
 msgctxt "barcode.helper.musa_printing_format"
 msgid "MUSA printing format"
-msgstr "MUSA printing format"
+msgstr "تنسيق الطباعة MUSA"
 
 #: mason/order/upload_catalog_items_dialog.mas:114
 msgctxt "barcode.helper.must_be_one_of_the_following_released_variety_pathogen_assay"
@@ -846,7 +846,7 @@ msgstr "معلومات الطلب"
 #: mason/order/edit_catalog_details_dialog.mas:74
 msgctxt "barcode.helper.pathogen_assay"
 msgid "pathogen assay"
-msgstr "pathogen assay"
+msgstr "اختبار مسببات الأمراض"
 
 #: mason/order/re_open_dialog.mas:66 mason/order/stocks.mas:298
 msgctxt "barcode.helper.please_add_comments_for_re_opening_the_order"
@@ -961,7 +961,7 @@ msgstr "هل تريد حقًا حذف عنصر الفهرس؟ لا يمكن ال
 #: mason/order/edit_catalog_details_dialog.mas:73
 msgctxt "barcode.helper.released_variety"
 msgid "released variety"
-msgstr "released variety"
+msgstr "صنف مُطلق"
 
 #: mason/order/catalog.mas:191
 msgctxt "barcode.helper.request"
@@ -1005,7 +1005,7 @@ msgstr "يرجى اختيار نوع قائمة"
 #: mason/order/generate_identifier_barcode_dialog.mas:187
 msgctxt "barcode.helper.select_printing_format"
 msgid "select printing format"
-msgstr "select printing format"
+msgstr "اختر تنسيق الطباعة"
 
 #: mason/order/stocks.mas:67
 msgctxt "barcode.helper.send_order_to"
@@ -1095,7 +1095,7 @@ msgstr "متابعة تقدم الطلب"
 #: mason/order/edit_catalog_details_dialog.mas:76
 msgctxt "barcode.helper.transgenic_line"
 msgid "transgenic line"
-msgstr "transgenic line"
+msgstr "سلالة معدلة وراثيًا"
 
 #: mason/order/catalog_transgenic_lines.mas:40
 msgctxt "barcode.helper.transgenic_plants"

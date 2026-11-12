@@ -215,7 +215,7 @@ msgstr "Текст (Zebra)"
 #: mason/order/generate_identifier_barcode_dialog.mas:58
 msgctxt "barcode.helper.1d_barcode"
 msgid "1D Barcode"
-msgstr "1D Barcode"
+msgstr "Одновимірний штрихкод (1D)"
 
 #: mason/barcode/index.mas:223
 #: mason/breeders_toolbox/trial/generate_genotrial_barcode.mas:226
@@ -223,7 +223,7 @@ msgstr "1D Barcode"
 #: mason/order/generate_identifier_barcode_dialog.mas:192
 msgctxt "barcode.helper.20_label_size_sticker_paper"
 msgid "20 label Size Sticker Paper"
-msgstr "20 label Size Sticker Paper"
+msgstr "Аркуш наліпок на 20 етикеток"
 
 #: mason/barcode/index.mas:202
 #: mason/breeders_toolbox/trial/generate_genotrial_barcode.mas:85
@@ -231,7 +231,7 @@ msgstr "20 label Size Sticker Paper"
 #: mason/order/generate_identifier_barcode_dialog.mas:57
 msgctxt "barcode.helper.2d_barcode"
 msgid "2D Barcode"
-msgstr "2D Barcode"
+msgstr "Двовимірний штрихкод (2D)"
 
 #: mason/barcode/index.mas:224
 #: mason/breeders_toolbox/trial/generate_genotrial_barcode.mas:224
@@ -239,7 +239,7 @@ msgstr "2D Barcode"
 #: mason/order/generate_identifier_barcode_dialog.mas:190
 msgctxt "barcode.helper.32_label_size_sticker_paper"
 msgid "32 label Size Sticker Paper"
-msgstr "32 label Size Sticker Paper"
+msgstr "Аркуш наліпок на 32 етикетки"
 
 #: mason/barcode/index.mas:225
 #: mason/breeders_toolbox/trial/generate_genotrial_barcode.mas:225
@@ -247,7 +247,7 @@ msgstr "32 label Size Sticker Paper"
 #: mason/order/generate_identifier_barcode_dialog.mas:191
 msgctxt "barcode.helper.32_unique_label_size_sticker_paper"
 msgid "32 Unique label Size Sticker Paper"
-msgstr "32 Unique label Size Sticker Paper"
+msgstr "Аркуш наліпок на 32 унікальні етикетки"
 
 #: mason/order/catalog.mas:147
 msgctxt "barcode.helper.add_item"
@@ -395,7 +395,7 @@ msgstr "Селекційна програма має бути в базі дан
 #: mason/order/generate_identifier_barcode_dialog.mas:188
 msgctxt "barcode.helper.cass_printing_format"
 msgid "CASS printing format"
-msgstr "CASS printing format"
+msgstr "Формат друку CASS"
 
 #: mason/order/catalog.mas:39
 msgctxt "barcode.helper.catalog_items"
@@ -764,7 +764,7 @@ msgstr "material_source:"
 #: mason/order/generate_identifier_barcode_dialog.mas:189
 msgctxt "barcode.helper.musa_printing_format"
 msgid "MUSA printing format"
-msgstr "MUSA printing format"
+msgstr "Формат друку MUSA"
 
 #: mason/order/upload_catalog_items_dialog.mas:114
 msgctxt "barcode.helper.must_be_one_of_the_following_released_variety_pathogen_assay"
@@ -842,7 +842,7 @@ msgstr "Відомості про замовлення"
 #: mason/order/edit_catalog_details_dialog.mas:74
 msgctxt "barcode.helper.pathogen_assay"
 msgid "pathogen assay"
-msgstr "pathogen assay"
+msgstr "аналіз на патогени"
 
 #: mason/order/re_open_dialog.mas:66 mason/order/stocks.mas:298
 msgctxt "barcode.helper.please_add_comments_for_re_opening_the_order"
@@ -957,7 +957,7 @@ msgstr "Справді видалити цей елемент каталогу? 
 #: mason/order/edit_catalog_details_dialog.mas:73
 msgctxt "barcode.helper.released_variety"
 msgid "released variety"
-msgstr "released variety"
+msgstr "випущений сорт"
 
 #: mason/order/catalog.mas:191
 msgctxt "barcode.helper.request"
@@ -1001,7 +1001,7 @@ msgstr "Виберіть тип списку"
 #: mason/order/generate_identifier_barcode_dialog.mas:187
 msgctxt "barcode.helper.select_printing_format"
 msgid "select printing format"
-msgstr "select printing format"
+msgstr "виберіть формат друку"
 
 #: mason/order/stocks.mas:67
 msgctxt "barcode.helper.send_order_to"
@@ -1091,7 +1091,7 @@ msgstr "Відстеження перебігу замовлення"
 #: mason/order/edit_catalog_details_dialog.mas:76
 msgctxt "barcode.helper.transgenic_line"
 msgid "transgenic line"
-msgstr "transgenic line"
+msgstr "трансгенна лінія"
 
 #: mason/order/catalog_transgenic_lines.mas:40
 msgctxt "barcode.helper.transgenic_plants"
