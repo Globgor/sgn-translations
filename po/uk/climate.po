@@ -92,7 +92,7 @@ msgstr "Для жодного місця на карті немає коорди
 #: js/source/entries/environments.js:481 js/source/entries/environments.js:501
 msgctxt "climate.interface.no_results_are_available_to_download"
 msgid "No results are available to download."
-msgstr "Немає результатів для завантаження."
+msgstr "Немає результатів для вивантаження."
 
 #: js/source/entries/environments.js:406
 msgctxt "climate.interface.no_rows_to_display"

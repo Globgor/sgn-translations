@@ -545,19 +545,19 @@ msgstr "Спроєктувати конструкції VIGS"
 #: mason/homepage/carousel.mas:64 mason/homepage/carousel.mas:83
 msgctxt "global.carousel.download_annotations"
 msgid "Download the annotations"
-msgstr "Завантажити анотації"
+msgstr "Вивантажити анотації"
 
 # Draft translation; human review required.
 #: mason/homepage/carousel.mas:65 mason/homepage/carousel.mas:84
 msgctxt "global.carousel.download_genome_sequence"
 msgid "Download the Genome Sequence"
-msgstr "Завантажити послідовність геному"
+msgstr "Вивантажити послідовність геному"
 
 # Draft translation; human review required.
 #: mason/homepage/carousel.mas:104
 msgctxt "global.carousel.downloads"
 msgid "Downloads"
-msgstr "Завантаження"
+msgstr "Вивантаження"
 
 # Draft translation; human review required.
 #: mason/homepage/carousel.mas:102 mason/homepage/carousel.mas:123
@@ -594,7 +594,7 @@ msgstr "Переглянути геном %{species}"
 #: mason/homepage/carousel.mas:15 mason/homepage/carousel.mas:19
 msgctxt "global.carousel.petunia_downloads"
 msgid "%{species} Downloads"
-msgstr "Завантаження %{species}"
+msgstr "Вивантаження %{species}"
 
 # Draft translation; human review required.
 #: mason/homepage/carousel.mas:187
@@ -887,7 +887,7 @@ msgstr "Напрямок:"
 #: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:25
 msgctxt "global.est.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: cgi-bin/search/est.pl:614
 msgctxt "global.est.ecoli_sequence"
@@ -3412,7 +3412,7 @@ msgstr "Архівні дані генотипування"
 #: mason/breeders_toolbox/breeder_search_page.mas:220
 msgctxt "global.search_wizard.archived_genotype_help"
 msgid "Download the original archived VCF files of entire genotyping projects.  Select %{selection} to download a VCF file of any matching project(s)."
-msgstr "Завантажити оригінальні архівні файли VCF для всіх проєктів генотипування. Виберіть %{selection}, щоб завантажити файл VCF для відповідних проєктів."
+msgstr "Вивантажити оригінальні архівні файли VCF для всіх проєктів генотипування. Виберіть %{selection}, щоб вивантажити файл VCF для відповідних проєктів."
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:494
@@ -3515,54 +3515,54 @@ msgstr "Формат файлу матриці дозування (.tsv)"
 #: mason/breeders_toolbox/breeder_search_page.mas:824
 msgctxt "global.search_wizard.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:428
 #: mason/breeders_toolbox/breeder_search_page.mas:571
 msgctxt "global.search_wizard.download_format"
 msgid "Download Format"
-msgstr "Формат завантаження"
+msgstr "Формат вивантаження"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:229
 msgctxt "global.search_wizard.download_genotype_data"
 msgid "Download Genotype Data"
-msgstr "Завантажити дані генотипування"
+msgstr "Вивантажити дані генотипування"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:288
 #: mason/breeders_toolbox/breeder_search_page.mas:291
 msgctxt "global.search_wizard.download_genotypes"
 msgid "Download Genotypes"
-msgstr "Завантажити генотипи"
+msgstr "Вивантажити генотипи"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:334
 #: mason/breeders_toolbox/breeder_search_page.mas:337
 msgctxt "global.search_wizard.download_grm"
 msgid "Download GRM"
-msgstr "Завантажити GRM"
+msgstr "Вивантажити GRM"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:359
 msgctxt "global.search_wizard.download_gwas"
 msgid "Download GWAS"
-msgstr "Завантажити GWAS"
+msgstr "Вивантажити GWAS"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:543
 #: mason/breeders_toolbox/breeder_search_page.mas:662
 msgctxt "global.search_wizard.download_phenotypes"
 msgid "Download Phenotypes"
-msgstr "Завантажити фенотипи"
+msgstr "Вивантажити фенотипи"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:421
 #: mason/breeders_toolbox/breeder_search_page.mas:564
 msgctxt "global.search_wizard.download_type"
 msgid "Download Type"
-msgstr "Тип завантаження"
+msgstr "Тип вивантаження"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:260
@@ -3628,25 +3628,25 @@ msgstr "Від:"
 #: mason/breeders_toolbox/breeder_search_page.mas:215
 msgctxt "global.search_wizard.genotype_download_help"
 msgid "Download matching genotype records from the database.  Select a %{protocol_choice} and %{accessions_choice} to download the matching genotype data."
-msgstr "Завантажити відповідні записи генотипування з бази даних. Виберіть %{protocol_choice} і %{accessions_choice}, щоб завантажити відповідні дані генотипування."
+msgstr "Вивантажити відповідні записи генотипування з бази даних. Виберіть %{protocol_choice} і %{accessions_choice}, щоб вивантажити відповідні дані генотипування."
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:276
 msgctxt "global.search_wizard.genotypes_download_format"
 msgid "Genotypes Download Format"
-msgstr "Формат завантаження генотипів"
+msgstr "Формат вивантаження генотипів"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:320
 msgctxt "global.search_wizard.grm_download_format"
 msgid "Genomic Relationship Matrix (GRM) Download Format"
-msgstr "Формат завантаження матриці геномної спорідненості (GRM)"
+msgstr "Формат вивантаження матриці геномної спорідненості (GRM)"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:343
 msgctxt "global.search_wizard.gwas_download_format"
 msgid "Genome Wide Association Study (GWAS) Download Format"
-msgstr "Формат завантаження загальногеномного асоціативного аналізу (GWAS)"
+msgstr "Формат вивантаження загальногеномного асоціативного аналізу (GWAS)"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:346
@@ -3869,7 +3869,7 @@ msgstr "Не бачите своїх даних?"
 #: js/source/legacy/CXGN/BreederSearch.js:146
 msgctxt "global.search_wizard.no_filters_download"
 msgid "No filters selected for download."
-msgstr "Для завантаження не вибрано жодного фільтра."
+msgstr "Для вивантаження не вибрано жодного фільтра."
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:387
@@ -4001,7 +4001,7 @@ msgstr "Введіть назву для вибірки."
 #: mason/breeders_toolbox/breeder_search_page.mas:1009
 msgctxt "global.search_wizard.slow_download_warning"
 msgid "%{units}M values, download will be slow"
-msgstr "%{units}M значень, завантаження буде повільним"
+msgstr "%{units}M значень, вивантаження буде повільним"
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:256
@@ -4070,13 +4070,13 @@ msgstr "Для фільтрування даних генотипування м
 #: mason/breeders_toolbox/breeder_search_page.mas:287
 msgctxt "global.search_wizard.tip_genotypes"
 msgid "Select accessions, and optionally a genotyping protocol. If no genotyping protocol is selected, the default genotyping protocol is used in your system. If you want to filter genotypes, use the chromosome, start position, end position, or marker alleles. Can compute genotypes from parents if the parents of the accessions you selected have genotypes by checking the checkbox. Genotypes can be downloaded in VCF and Dosage Matrix Formats."
-msgstr "Виберіть зразки та, за бажанням, протокол генотипування. Якщо протокол не вибрано, система використає протокол за замовчуванням. Щоб відфільтрувати генотипи, задайте хромосому, початкову й кінцеву позиції або алелі маркерів. Позначте прапорець, щоб обчислити генотипи за генотипами батьків вибраних зразків. Генотипи можна завантажити у форматах VCF і Dosage Matrix."
+msgstr "Виберіть зразки та, за бажанням, протокол генотипування. Якщо протокол не вибрано, система використає протокол за замовчуванням. Щоб відфільтрувати генотипи, задайте хромосому, початкову й кінцеву позиції або алелі маркерів. Позначте прапорець, щоб обчислити генотипи за генотипами батьків вибраних зразків. Генотипи можна вивантажити у форматах VCF і Dosage Matrix."
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:333
 msgctxt "global.search_wizard.tip_grm"
 msgid "Select accessions, and optionally a genotyping protocol. If no genotyping protocol is selected, the default genotyping protocol is used in your system. Specify minor allele frequency (MAF), marker filter, and individuals filter. Can compute genotypes from parents if the parents of the accessions you selected have genotypes by checking the checkbox. GRM can be downloaded in a matrix format (.tsv) and a three column format."
-msgstr "Виберіть зразки та, за бажанням, протокол генотипування. Якщо протокол не вибрано, система використає типовий. Укажіть мінорну частоту алеля (MAF), фільтр маркерів і фільтр особин. Позначте прапорець, щоб обчислити генотипи за генотипами батьків вибраних зразків. GRM можна завантажити у форматі матриці (.tsv) або трьох стовпців."
+msgstr "Виберіть зразки та, за бажанням, протокол генотипування. Якщо протокол не вибрано, система використає типовий. Укажіть мінорну частоту алеля (MAF), фільтр маркерів і фільтр особин. Позначте прапорець, щоб обчислити генотипи за генотипами батьків вибраних зразків. GRM можна вивантажити у форматі матриці (.tsv) або трьох стовпців."
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:355
@@ -4088,7 +4088,7 @@ msgstr "Виберіть зразки, ознаки та, за бажанням,
 #: mason/breeders_toolbox/breeder_search_page.mas:228
 msgctxt "global.search_wizard.tip_related_genotype"
 msgid "To download related genotype data, select 1 or more Accessions and optionally no more than 1 Genotyping Protocol in the wizard. If no genotyping protocol is selected, the database default protocol will be used. Click the checkbox here to compute genotypes for the selected accessions from genotypes of parents; this works for downloading genotypes, downloading the GRM, and performing GWAS."
-msgstr "Щоб завантажити пов’язані дані генотипування, виберіть один або кілька зразків і, за бажанням, не більше одного протоколу генотипування у майстрі. Якщо протокол не вибрано, буде використано типовий протокол бази даних. Позначте цей прапорець, щоб обчислити генотипи вибраних зразків за генотипами батьків; це працює для завантаження генотипів, GRM і виконання GWAS."
+msgstr "Щоб вивантажити пов’язані дані генотипування, виберіть один або кілька зразків і, за бажанням, не більше одного протоколу генотипування у майстрі. Якщо протокол не вибрано, буде використано типовий протокол бази даних. Позначте цей прапорець, щоб обчислити генотипи вибраних зразків за генотипами батьків; це працює для вивантаження генотипів, GRM і виконання GWAS."
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:26
@@ -4100,7 +4100,7 @@ msgstr "Майстер пошуку"
 #: mason/breeders_toolbox/breeder_search_page.mas:202
 msgctxt "global.search_wizard.to_download_related_data"
 msgid "to download related data."
-msgstr "щоб завантажити пов’язані дані."
+msgstr "щоб вивантажити пов’язані дані."
 
 # Draft translation; human review required.
 #: mason/breeders_toolbox/breeder_search_page.mas:148
@@ -4280,7 +4280,7 @@ msgstr "Інструмент %{tool}"
 #: cgi-bin/search/trace_download.pl:16
 msgctxt "global.trace_download.caption_0"
 msgid "Trace Download"
-msgstr "Завантаження хроматограми"
+msgstr "Вивантаження хроматограми"
 
 #: cgi-bin/search/trace_download.pl:43
 msgctxt "global.trace_download.caption_1"

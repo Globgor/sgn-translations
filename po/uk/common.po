@@ -1428,7 +1428,7 @@ msgstr "Тип"
 #: mason/image/add_image.mas:28
 msgctxt "community.image.upload"
 msgid "Upload"
-msgstr "Завантажити до системи"
+msgstr "Завантажити"
 
 #: mason/image/add_image.mas:22
 msgctxt "community.image.upload_an_image_and_associated_with_object"
@@ -2578,7 +2578,7 @@ msgstr "Порівняльний переглядач карт"
 #: lib/SGN/View/Toolbar.pm:812 mason/site/toolbar/tools.mas:37
 msgctxt "global.tools.download_gene_sequences"
 msgid "Download Gene Sequences"
-msgstr "Завантажити послідовності генів"
+msgstr "Вивантажити послідовності генів"
 
 # Draft translation; human review required.
 #: lib/SGN/View/Toolbar.pm:810 mason/site/toolbar/tools.mas:36
@@ -2663,7 +2663,7 @@ msgstr "приклади: "
 #: mason/help/workflow_guided/tissue_sample_help.mas:453
 msgctxt "help.tissue.js.no_layout"
 msgid "You selected to sample on the accession level, meaning that you will not sample from a field trial. In this case there is no field layout to download!"
-msgstr "Ви вибрали відбір на рівні зразка, тобто відбір не з польового досліду. У цьому випадку немає схеми поля для завантаження!"
+msgstr "Ви вибрали відбір на рівні зразка, тобто відбір не з польового досліду. У цьому випадку немає схеми поля для вивантаження!"
 
 #: mason/help/workflow_guided/tissue_sample_help.mas:255
 msgctxt "help.tissue.js.only_one_trial"
@@ -3146,7 +3146,7 @@ msgstr "Видалити"
 #: js/source/legacy/CXGN/List.js:490 js/source/legacy/CXGN/List.js:604
 msgctxt "lists.render.action.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: js/source/legacy/CXGN/List.js:494 js/source/legacy/CXGN/List.js:543
 #: js/source/legacy/CXGN/List.js:607
@@ -3298,7 +3298,7 @@ msgstr "Опис"
 #: js/source/legacy/CXGN/List.js:478
 msgctxt "lists.render.header.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: js/source/legacy/CXGN/List.js:478
 msgctxt "lists.render.header.group"
@@ -3419,7 +3419,7 @@ msgstr "Опис"
 #: js/source/legacy/CXGN/List.js:593
 msgctxt "lists.render.public_header.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: js/source/legacy/CXGN/List.js:593
 msgctxt "lists.render.public_header.list_name"
@@ -4010,7 +4010,7 @@ msgstr "Схрещування"
 #: mason/site/toolbar/manage.mas:36
 msgctxt "navigation.manage.download"
 msgid "Download"
-msgstr "Завантажити з системи"
+msgstr "Вивантажити"
 
 #: mason/site/toolbar/manage.mas:25
 msgctxt "navigation.manage.field_book"
@@ -4143,7 +4143,7 @@ msgstr "Розподіл дослідів"
 #: mason/site/toolbar/manage.mas:37
 msgctxt "navigation.manage.upload"
 msgid "Upload"
-msgstr "Завантажити до системи"
+msgstr "Завантажити"
 
 #: mason/site/toolbar/search.mas:5
 msgctxt "navigation.quick_search.advanced"
@@ -5161,7 +5161,7 @@ msgstr "Дендрограма"
 #: js/source/legacy/solGS/cluster.js:677
 msgctxt "solgs.browser.cluster_download_prefix"
 msgid "Download "
-msgstr "Завантажити "
+msgstr "Вивантажити "
 
 #: js/source/legacy/solGS/cluster.js:650
 msgctxt "solgs.browser.cluster_elbow_plot_link"
@@ -5361,12 +5361,12 @@ msgstr "Для цього набору даних не знайдено іден
 #: js/source/legacy/solGS/kinship.js:376
 msgctxt "solgs.browser.download_caption"
 msgid "Download:"
-msgstr "Завантажити:"
+msgstr "Вивантажити:"
 
 #: js/source/legacy/solGS/correlation.js:411
 msgctxt "solgs.browser.download_correlation_prefix"
 msgid "Download "
-msgstr "Завантажити "
+msgstr "Вивантажити "
 
 #: js/source/legacy/solGS/correlation.js:411
 msgctxt "solgs.browser.download_correlation_suffix"
@@ -5733,7 +5733,7 @@ msgstr "Готово"
 #: js/source/legacy/solGS/pca.js:956
 msgctxt "solgs.browser.pca_download_prefix"
 msgid "Download PCA "
-msgstr "Завантажити дані PCA для "
+msgstr "Вивантажити дані PCA для "
 
 #: js/source/legacy/solGS/pca.js:1178
 msgctxt "solgs.browser.pca_email_prompt"
@@ -6190,7 +6190,7 @@ msgstr "Схема досліду"
 #: mason/util/styleguide.mas:417
 msgctxt "styleguide.demo.trial_table.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/util/styleguide.mas:410
 msgctxt "styleguide.demo.trial_table.folder"

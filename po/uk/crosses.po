@@ -628,7 +628,7 @@ msgstr "Виберіть материнські "
 #: lib/SGN/Controller/AJAX/CrossWishlist.pm:848
 msgctxt "cross.controller.the_cross_wishlist_file_can_be_downloaded"
 msgid "The cross wishlist file can be downloaded "
-msgstr "Файл бажаних схрещувань можна завантажити "
+msgstr "Файл бажаних схрещувань можна вивантажити "
 
 #: lib/SGN/Controller/AJAX/CrossWishlist.pm:906
 msgctxt "cross.controller.the_cross_wishlist_is_now_ready_to_be"
@@ -663,7 +663,7 @@ msgstr "Наведені батьківські форми не пройшли �
 #: lib/SGN/Controller/AJAX/CrossWishlist.pm:848
 msgctxt "cross.controller.the_germplasm_info_file_can_be_downloaded"
 msgid ". The germplasm info file can be downloaded "
-msgstr ". Файл відомостей про генетичний матеріал можна завантажити "
+msgstr ". Файл відомостей про генетичний матеріал можна вивантажити "
 
 #: lib/SGN/Controller/AJAX/CrossWishlist.pm:933
 msgctxt "cross.controller.the_germplasm_info_file_is_now_ready_to"
@@ -1273,22 +1273,22 @@ msgstr "Видалення неможливо скасувати. Спочатк
 #: mason/breeders_toolbox/cross/intercross_parents_download.mas:72
 msgctxt "cross.forms.download_intercross_parents"
 msgid "Download Intercross Parents"
-msgstr "Завантажити батьківські форми Intercross"
+msgstr "Вивантажити батьківські форми Intercross"
 
 #: mason/breeders_toolbox/cross/intercross_parents_download.mas:14
 msgctxt "cross.forms.download_intercross_parents_file"
 msgid "Download Intercross Parents File"
-msgstr "Завантажити файл батьківських форм Intercross"
+msgstr "Вивантажити файл батьківських форм Intercross"
 
 #: mason/breeders_toolbox/cross/intercross_wishlist_download.mas:85
 msgctxt "cross.forms.download_intercross_wishlist"
 msgid "Download Intercross Wishlist"
-msgstr "Завантажити бажані схрещування Intercross"
+msgstr "Вивантажити бажані схрещування Intercross"
 
 #: mason/breeders_toolbox/cross/intercross_file_info.mas:10
 msgctxt "cross.forms.downloaded_intercross_files_parents_and_wishlist_files"
 msgid "Downloaded Intercross Files (Parents and Wishlist Files)"
-msgstr "Завантажені файли Intercross (файли батьківських форм і бажаних схрещувань)"
+msgstr "Вивантажені файли Intercross (файли батьківських форм і бажаних схрещувань)"
 
 #: mason/pedigree/stock_pedigree.mas:171
 msgctxt "cross.forms.drag_to_pan"
@@ -2156,7 +2156,7 @@ msgstr "Помилка файлу завантаження бажаних схр
 #: mason/breeders_toolbox/cross/intercross_file_info.mas:18
 msgctxt "cross.forms.uploaded_intercross_files"
 msgid "Uploaded Intercross Files"
-msgstr "Завантажені до системи файли Intercross"
+msgstr "Завантажені файли Intercross"
 
 #: mason/breeders_toolbox/cross/cross_wishlist.mas:35
 msgctxt "cross.forms.uploading_cross_combinations"
@@ -2624,7 +2624,7 @@ msgstr "Досліди зі схрещування з цього польово�
 #: mason/breeders_toolbox/cross/all_cross_entries.mas:8
 msgctxt "cross.pages.download_all_cross_entries"
 msgid "Download All Cross Entries"
-msgstr "Завантажити всі записи схрещувань із системи"
+msgstr "Вивантажити всі записи схрещувань"
 
 #: mason/search/cross/cross_search_using_female.mas:17
 #: mason/search/cross/progeny_search_using_female.mas:18
@@ -2852,7 +2852,7 @@ msgstr "Список зразків містить елементи, які не
 #: mason/breeders_toolbox/cross/progenies_in_crossingtrial.mas:20
 msgctxt "cross.pages.upload_family_names"
 msgid "Upload family names "
-msgstr "Завантажити назви сімей до системи "
+msgstr "Завантажити назви сімей "
 
 #: mason/breeders_toolbox/cross/progenies_in_crossingtrial.mas:15
 msgctxt "cross.pages.upload_progenies_or_family_names"
@@ -4123,22 +4123,22 @@ msgstr "Батьківський компонент для подвоєного 
 #: mason/breeders_toolbox/cross/crossingtrial_details.mas:145
 msgctxt "cross.ui.download_crosses_in_this_crossing_experiment"
 msgid "Download Crosses in this Crossing Experiment"
-msgstr "Завантажити схрещування з цього досліду"
+msgstr "Вивантажити схрещування з цього досліду"
 
 #: mason/breeders_toolbox/cross/crossing_trial.mas:43
 msgctxt "cross.ui.download_parents_and_wishlist_files_upload_export_file"
 msgid "Download parents and wishlist files. Upload export file."
-msgstr "Завантажити файли батьківських компонентів і бажаних схрещувань. Завантажити експортований файл у систему."
+msgstr "Вивантажити файли батьківських компонентів і бажаних схрещувань. Завантажити експортований файл."
 
 #: mason/breeders_toolbox/cross/crossing_trial.mas:43
 msgctxt "cross.ui.download_parents_file"
 msgid "Download Parents File"
-msgstr "Завантажити файл батьківських компонентів"
+msgstr "Вивантажити файл батьківських компонентів"
 
 #: mason/breeders_toolbox/cross/crossing_trial.mas:43
 msgctxt "cross.ui.download_wishlist_file"
 msgid "Download Wishlist File"
-msgstr "Завантажити файл бажаних схрещувань"
+msgstr "Вивантажити файл бажаних схрещувань"
 
 #: mason/breeders_toolbox/cross/add_cross_dialogs.mas:37
 msgctxt "cross.ui.each_cross_has_a_globally_unique_cross_id"

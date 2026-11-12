@@ -93,7 +93,7 @@ msgstr "Вибір завершено"
 #: js/source/legacy/solGS/download.js:239
 msgctxt "solgs.browser.download_marker_effects"
 msgid "Download marker effects"
-msgstr "Завантажити ефекти маркерів"
+msgstr "Вивантажити ефекти маркерів"
 
 #: js/source/legacy/solGS/download.js:291
 msgctxt "solgs.browser.download_marker_effects_error"
@@ -103,12 +103,12 @@ msgstr "Помилка під час отримання файлу ефекті�
 #: js/source/legacy/solGS/download.js:178
 msgctxt "solgs.browser.download_model"
 msgid "Download model"
-msgstr "Завантажити дані моделі"
+msgstr "Вивантажити дані моделі"
 
 #: js/source/legacy/solGS/download.js:209
 msgctxt "solgs.browser.download_model_accuracy"
 msgid "Download model accuracy"
-msgstr "Завантажити точність моделі"
+msgstr "Вивантажити точність моделі"
 
 #: js/source/legacy/solGS/download.js:273
 msgctxt "solgs.browser.download_model_input_error"
@@ -124,7 +124,7 @@ msgstr "Помилка під час визначення типу сторін�
 #: js/source/legacy/solGS/gebvs.js:104
 msgctxt "solgs.browser.download_prefix"
 msgid "Download:  "
-msgstr "Завантажити:  "
+msgstr "Вивантажити:  "
 
 #: js/source/legacy/solGS/download.js:301
 msgctxt "solgs.browser.download_selection_genotype_error"
@@ -134,7 +134,7 @@ msgstr "Помилка під час отримання файлів генот�
 #: js/source/legacy/solGS/download.js:132
 msgctxt "solgs.browser.download_selection_population"
 msgid "Download selection population"
-msgstr "Завантажити дані популяції для відбору"
+msgstr "Вивантажити дані популяції для відбору"
 
 #: js/source/legacy/solGS/download.js:258
 #: js/source/legacy/solGS/download.js:263
@@ -145,7 +145,7 @@ msgstr "Помилка під час отримання файлів необр�
 #: js/source/legacy/solGS/download.js:99
 msgctxt "solgs.browser.download_training_population"
 msgid "Download training population"
-msgstr "Завантажити дані навчальної популяції"
+msgstr "Вивантажити дані навчальної популяції"
 
 #: js/source/legacy/solGS/download.js:282
 msgctxt "solgs.browser.download_validation_error"
@@ -232,7 +232,7 @@ msgstr "Значення"
 #: js/source/legacy/solGS/selectionIndex.js:359
 msgctxt "solgs.browser.index_download_label"
 msgid "Download:"
-msgstr "Завантажити:"
+msgstr "Вивантажити:"
 
 #: js/source/legacy/solGS/selectionIndex.js:359
 msgctxt "solgs.browser.index_name_label"
@@ -830,7 +830,7 @@ msgstr "Приховати невдалі завдання та завдання
 #: mason/solgs/population/download.mas:25
 msgctxt "solgs.interface.download_data"
 msgid "Download data"
-msgstr "Завантажити дані"
+msgstr "Вивантажити дані"
 
 #: mason/solgs/population/models/model/marker_effects.mas:31
 msgctxt "solgs.interface.effects"

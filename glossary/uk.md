@@ -57,8 +57,8 @@ Draft for review by a Ukrainian-speaking breeder. This is a consistency aid, not
 | Unit of measure | одиниця виміру | Never convert or localize the stored unit code. |
 | Dataset | набір даних | Keep dataset names and identifiers unchanged. |
 | List | список | For a BreedBase List object; use «перелік» in ordinary prose where it reads more naturally. |
-| Upload | завантажити до системи | Current PO sometimes uses just «Завантажити»; direction is clearer in help text. Keep upload headers and payload fields canonical. |
-| Download | завантажити з системи | Current PO distinguishes this in navigation; avoid ambiguity with Upload. |
+| Upload | завантажити | Confirmed 2026-11-12; enforced by glossary/uk.tsv. No «до системи»: the verb already gives the direction. Keep upload headers and payload fields canonical. |
+| Download | вивантажити | Confirmed 2026-11-12; enforced by glossary/uk.tsv. Noun «вивантаження». No «з системи». |
 | Import | імпортувати | Keep file headers, API names, and parser keys unchanged. |
 | Export | експортувати | Keep output column names and machine formats unchanged. |
 | Create | створити | Use for a new record or object; do not alter the associated endpoint. |
@@ -98,7 +98,7 @@ Draft for review by a Ukrainian-speaking breeder. This is a consistency aid, not
 - Translate labels and explanatory text, not biological names, user-entered names, IDs, values, units, machine keys, or canonical import/export headers.
 - Keep Fieldbook and other product/service names unchanged.
 - Treat “accession” versus “stock” as a key distinction: an accession is one kind of stock/material, while stock is the broader BreedBase record concept.
-- Review the competing PO forms for “Accession” («зразок» / «акцесія») and the short forms for Upload/Download before standardizing the catalog.
+- Review the competing PO forms for “Accession” («зразок» / «акцесія») before standardizing the catalog.
 
 ## Wave2 genotypes and markers — first-package additions
 

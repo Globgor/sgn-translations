@@ -310,7 +310,7 @@ msgstr "Додаткова інформація:"
 #: mason/barcode/stock_download_result.mas:14
 msgctxt "barcode.helper.all_stocks_in_the_list_have_been_found_in_the"
 msgid "All stocks in the list have been found in the database. Please click the link below to download the barcode label file."
-msgstr "Усі матеріали зі списку знайдено в базі даних. Натисніть посилання нижче, щоб завантажити файл етикеток зі штрихкодами."
+msgstr "Усі матеріали зі списку знайдено в базі даних. Натисніть посилання нижче, щоб вивантажити файл етикеток зі штрихкодами."
 
 #: mason/order/catalog_item_details.mas:242
 msgctxt "barcode.helper.an_error_occurred_adding_image"
@@ -505,7 +505,7 @@ msgstr "Створити власні штрихкоди зі списку"
 #: mason/barcode/trial_barcodes_download_result.mas:17
 msgctxt "barcode.helper.download_barcode_error"
 msgid "Download Barcode Error:"
-msgstr "Помилка завантаження штрихкоду:"
+msgstr "Помилка вивантаження штрихкоду:"
 
 #: mason/barcode/index.mas:263 mason/barcode/index.mas:331
 #: mason/barcode/index.mas:383 mason/barcode/stock_download_result.mas:11
@@ -515,23 +515,23 @@ msgstr "Помилка завантаження штрихкоду:"
 #: mason/order/generate_identifier_barcode_dialog.mas:215
 msgctxt "barcode.helper.download_barcodes"
 msgid "Download Barcodes"
-msgstr "Завантажити штрихкоди"
+msgstr "Вивантажити штрихкоди"
 
 #: mason/barcode/stock_download_result.mas:17
 msgctxt "barcode.helper.download_plot_phenotyping_barcode"
 msgid "Download Plot Phenotyping Barcode"
-msgstr "Завантажити штрихкод фенотипування ділянок"
+msgstr "Вивантажити штрихкод фенотипування ділянок"
 
 #: mason/barcode/stock_download_result.mas:17
 msgctxt "barcode.helper.download_stock_barcodes_section"
 msgid "Download Stock Barcodes section."
-msgstr "розділ «Завантажити штрихкоди матеріалів»."
+msgstr "розділ «Вивантажити штрихкоди матеріалів»."
 
 #: mason/barcode/index.mas:349
 #: mason/barcode/trial_barcodes_download_result.mas:9
 msgctxt "barcode.helper.download_trial_barcodes"
 msgid "Download Trial Barcodes"
-msgstr "Завантажити штрихкоди досліду"
+msgstr "Вивантажити штрихкоди досліду"
 
 #: mason/order/manage_catalog_usage_info.mas:37
 msgctxt "barcode.helper.each_item_in_the_catalog_has_available_status_by_default"
@@ -1038,7 +1038,7 @@ msgstr "Дата подання"
 #: mason/barcode/trial_barcodes_download_result.mas:12
 msgctxt "barcode.helper.success_please_click_the_link_below_to_download_the_barcode"
 msgid "Success! Please click the link below to download the barcode label file."
-msgstr "Готово! Натисніть посилання нижче, щоб завантажити файл етикеток зі штрихкодами."
+msgstr "Готово! Натисніть посилання нижче, щоб вивантажити файл етикеток зі штрихкодами."
 
 #: mason/order/edit_catalog_details_dialog.mas:149
 msgctxt "barcode.helper.the_catalog_info_was_saved_successfully"
@@ -1217,7 +1217,7 @@ msgstr "Відомості про схрещування"
 #: js/source/legacy/tools/LabelDesigner.js:772
 msgctxt "barcode.js.error_unable_to_download_labels"
 msgid "Error. Unable to download labels."
-msgstr "Помилка. Не вдалося завантажити етикетки."
+msgstr "Помилка. Не вдалося вивантажити етикетки."
 
 #: js/source/legacy/tools/LabelDesigner.js:661
 #: js/source/legacy/tools/LabelDesigner.js:662
@@ -1252,9 +1252,9 @@ msgstr "Область макета етикетки"
 msgctxt "barcode.js.large_download_count"
 msgid "You are trying to download %{count} labels (%{count_2} %{level} x %{copies} copy(ies) each). Downloading this many at a time may result in slow speeds. Please use the input boxes below to control how many are downloaded at a time."
 msgid_plural "You are trying to download %{count} labels (%{count_2} %{level} x %{copies} copy(ies) each). Downloading this many at a time may result in slow speeds. Please use the input boxes below to control how many are downloaded at a time."
-msgstr[0] "Ви намагаєтеся завантажити %{count} етикетку (%{count_2} %{level} x %{copies}, кількість копій кожної). Завантаження такої кількості може бути повільним. Використовуйте поля нижче, щоб обмежити кількість етикеток, які завантажуються за один раз."
-msgstr[1] "Ви намагаєтеся завантажити %{count} етикетки (%{count_2} %{level} x %{copies}, кількість копій кожної). Завантаження такої кількості може бути повільним. Використовуйте поля нижче, щоб обмежити кількість етикеток, які завантажуються за один раз."
-msgstr[2] "Ви намагаєтеся завантажити %{count} етикеток (%{count_2} %{level} x %{copies}, кількість копій кожної). Завантаження такої кількості може бути повільним. Використовуйте поля нижче, щоб обмежити кількість етикеток, які завантажуються за один раз."
+msgstr[0] "Ви намагаєтеся вивантажити %{count} етикетку (%{count_2} %{level} x %{copies}, кількість копій кожної). Вивантаження такої кількості може бути повільним. Використовуйте поля нижче, щоб обмежити кількість етикеток, які вивантажуються за один раз."
+msgstr[1] "Ви намагаєтеся вивантажити %{count} етикетки (%{count_2} %{level} x %{copies}, кількість копій кожної). Вивантаження такої кількості може бути повільним. Використовуйте поля нижче, щоб обмежити кількість етикеток, які вивантажуються за один раз."
+msgstr[2] "Ви намагаєтеся вивантажити %{count} етикеток (%{count_2} %{level} x %{copies}, кількість копій кожної). Вивантаження такої кількості може бути повільним. Використовуйте поля нижче, щоб обмежити кількість етикеток, які вивантажуються за один раз."
 
 #: js/source/legacy/tools/LabelDesigner.js:1799
 msgctxt "barcode.js.missing_field_your_selected_design_includes_the_field"
@@ -1264,17 +1264,17 @@ msgstr "Відсутнє поле. Вибраний макет містить п
 #: js/source/legacy/tools/LabelDesigner.js:726
 msgctxt "barcode.js.no_data_source_selected_please_select_a_data_source_before_downloading"
 msgid "No data source selected. Please select a data source before downloading"
-msgstr "Джерело даних не вибрано. Виберіть його перед завантаженням"
+msgstr "Джерело даних не вибрано. Виберіть його перед вивантаженням"
 
 #: js/source/legacy/tools/LabelDesigner.js:731
 msgctxt "barcode.js.no_design_please_define_a_design_before_downloading"
 msgid "No design. Please define a design before downloading"
-msgstr "Немає макета. Створіть макет перед завантаженням"
+msgstr "Немає макета. Створіть макет перед вивантаженням"
 
 #: js/source/legacy/tools/LabelDesigner.js:718
 msgctxt "barcode.js.no_elements_in_the_design_please_add_design_elements_before_downloading"
 msgid "No elements in the design. Please add design elements before downloading"
-msgstr "У макеті немає елементів. Додайте елементи перед завантаженням"
+msgstr "У макеті немає елементів. Додайте елементи перед вивантаженням"
 
 #: js/source/legacy/tools/LabelDesigner.js:1768
 msgctxt "barcode.js.no_elements_in_the_design_please_add_design_elements_before_saving"
@@ -1441,7 +1441,7 @@ msgstr "Інструменти штрихкодування"
 #: mason/tools/label_designer/label_designer_modals.mas:190
 msgctxt "barcode.mason.batch_download"
 msgid "Batch Download:"
-msgstr "Пакетне завантаження:"
+msgstr "Пакетне вивантаження:"
 
 #: mason/barcode/printer_settings.mas:32
 msgctxt "barcode.mason.bottom_margin_mm"
@@ -1536,37 +1536,37 @@ msgstr "Створіть дизайн етикетки"
 #: mason/tools/label_designer/index.mas:7
 msgctxt "barcode.mason.do_not_print_the_labels_directly_from_the_browser_as"
 msgid "Do not print the labels directly from the browser as the browser adds headers and footers that will distort the alignment of the labels. Instead, download the pdf file and print it from a PDF reader app."
-msgstr "Не друкуйте етикетки безпосередньо з браузера: він додає верхні й нижні колонтитули, які порушують вирівнювання. Завантажте PDF-файл і надрукуйте його у програмі для перегляду PDF."
+msgstr "Не друкуйте етикетки безпосередньо з браузера: він додає верхні й нижні колонтитули, які порушують вирівнювання. Вивантажте PDF-файл і надрукуйте його у програмі для перегляду PDF."
 
 #: mason/tools/label_designer/save_and_download.mas:60
 msgctxt "barcode.mason.download_labels"
 msgid "Download Labels:"
-msgstr "Завантажити етикетки:"
+msgstr "Вивантажити етикетки:"
 
 #: mason/tools/label_designer/save_and_download.mas:62
 msgctxt "barcode.mason.download_pdf"
 msgid "Download pdf"
-msgstr "Завантажити PDF"
+msgstr "Вивантажити PDF"
 
 #: mason/barcode/index.mas:281
 msgctxt "barcode.mason.download_plot_phenotyping_barcodes"
 msgid "Download Plot Phenotyping Barcodes"
-msgstr "Завантажити штрихкоди для фенотипування ділянок"
+msgstr "Вивантажити штрихкоди для фенотипування ділянок"
 
 #: mason/barcode/index.mas:64
 msgctxt "barcode.mason.download_stock_barcodes"
 msgid "Download Stock Barcodes"
-msgstr "Завантажити штрихкоди матеріалів"
+msgstr "Вивантажити штрихкоди матеріалів"
 
 #: mason/barcode/unique_barcode_download.mas:6
 msgctxt "barcode.mason.download_unique_barcodes_as_a_pdf_file"
 msgid "Download unique barcodes as a PDF file:"
-msgstr "Завантажити PDF-файл з унікальними штрихкодами:"
+msgstr "Вивантажити PDF-файл з унікальними штрихкодами:"
 
 #: mason/tools/label_designer/save_and_download.mas:63
 msgctxt "barcode.mason.download_zpl_file"
 msgid "Download zpl file"
-msgstr "Завантажити файл ZPL"
+msgstr "Вивантажити файл ZPL"
 
 #: mason/tools/label_designer/save_and_download.mas:47
 msgctxt "barcode.mason.edit_additional_settings"
@@ -1920,7 +1920,7 @@ msgstr "Метричні одиниці (cm)"
 #: mason/tools/label_designer/index.mas:33
 msgctxt "barcode.mason.more_options_save_and_download"
 msgid "More Options, Save, And Download"
-msgstr "Додаткові параметри, збереження та завантаження"
+msgstr "Додаткові параметри, збереження та вивантаження"
 
 #: mason/barcode/index.mas:231
 #: mason/breeders_toolbox/trial/generate_genotrial_barcode.mas:227
@@ -2208,7 +2208,7 @@ msgstr "Верхнє поле (mm):"
 #: mason/tools/label_designer/label_designer_modals.mas:141
 msgctxt "barcode.mason.total_to_download"
 msgid "Total # to download:"
-msgstr "Усього для завантаження:"
+msgstr "Усього для вивантаження:"
 
 #: mason/breeders_toolbox/trial/generate_trial_barcode.mas:429
 msgctxt "barcode.mason.trial_has_no_plant_entries"
@@ -2243,7 +2243,7 @@ msgstr "Ласкаво просимо до конструктора етикет
 #: mason/tools/label_designer/save_and_download.mas:3
 msgctxt "barcode.mason.when_you_are_ready_click_download_pdf_to_generate_your"
 msgid "When you are ready, click 'Download pdf' to generate your labels. If you are trying to download a very large set, you will be given the option to download your labels in batches."
-msgstr "Коли будете готові, натисніть «Завантажити PDF», щоб створити етикетки. Якщо потрібно завантажити дуже великий набір, система запропонує робити це пакетами."
+msgstr "Коли будете готові, натисніть «Вивантажити PDF», щоб створити етикетки. Якщо потрібно вивантажити дуже великий набір, система запропонує робити це пакетами."
 
 #: mason/barcode/index.mas:237 mason/barcode/index.mas:309
 msgctxt "barcode.mason.with_stock_names"
@@ -2413,7 +2413,7 @@ msgstr "Вибраний список містить ділянки, росли�
 #: lib/SGN/Controller/StockBarcode.pm:1059
 msgctxt "barcode.server.used_only_for_downloading_plot_barcodes"
 msgid "used only for downloading Plot barcodes."
-msgstr "використовується лише для завантаження штрихкодів ділянок."
+msgstr "використовується лише для вивантаження штрихкодів ділянок."
 
 #: lib/SGN/Controller/AJAX/Order.pm:480
 msgctxt "barcode.server.you_have_a_re_opened_order_submitted_to_project_name_host_order_stoc"

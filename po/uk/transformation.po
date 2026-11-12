@@ -1769,12 +1769,12 @@ msgstr "Створення нових експериментальних обр�
 #: mason/transformation/download_obsolete_metadata_using_list_dialog.mas:10
 msgctxt "transformation.root.download_obsolete_metadata_using_a_list"
 msgid "Download Obsolete Metadata Using a List"
-msgstr "Завантажити застарілі метадані за списком"
+msgstr "Вивантажити застарілі метадані за списком"
 
 #: mason/tools/treatment_designer.mas:103
 msgctxt "transformation.root.download_treatment_ontology"
 msgid "Download Treatment Ontology"
-msgstr "Завантажити онтологію обробок"
+msgstr "Вивантажити онтологію обробок"
 
 #: mason/tracking_activities/add_new_activity_project.mas:28
 msgctxt "transformation.root.each_tracking_identifier_has_its_own_details_page_in_addition"

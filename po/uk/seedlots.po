@@ -1715,7 +1715,7 @@ msgstr "Обслуговування партій насіння дає змог
 #: mason/breeders_toolbox/seedlot_maintenance/main.mas:35
 msgctxt "seedlot_maintenance.ui.download_link_label"
 msgid "Manage > Download"
-msgstr "Керування > Завантаження даних"
+msgstr "Керування > Вивантаження даних"
 
 #: mason/breeders_toolbox/seedlot_maintenance/main.mas:77
 msgctxt "seedlot_maintenance.ui.events"
@@ -1766,7 +1766,7 @@ msgstr "Завантажити заходи обслуговування"
 #: mason/breeders_toolbox/seedlot_maintenance/main.mas:42
 msgctxt "seedlot_maintenance.ui.view_help"
 msgid "You can view the maintenance events for a single Seedlot on the Seedlot detail page by going to the %{seedlots_link} page, searching for the Seedlot, and clicking its name in the results table. You can also filter through all of the stored maintenance events using the search below. The events can then be downloaded from the table displaying the results or downloaded in bulk from the %{download_link} page using a list of Seedlots."
-msgstr "Щоб переглянути заходи обслуговування окремої партії насіння на сторінці її відомостей, відкрийте сторінку %{seedlots_link}, знайдіть партію й натисніть її назву в таблиці результатів. Ви також можете відфільтрувати всі збережені заходи за допомогою пошуку нижче. Заходи можна завантажити з таблиці результатів або пакетно зі сторінки %{download_link}, використавши список партій насіння."
+msgstr "Щоб переглянути заходи обслуговування окремої партії насіння на сторінці її відомостей, відкрийте сторінку %{seedlots_link}, знайдіть партію й натисніть її назву в таблиці результатів. Ви також можете відфільтрувати всі збережені заходи за допомогою пошуку нижче. Заходи можна вивантажити з таблиці результатів або пакетно зі сторінки %{download_link}, використавши список партій насіння."
 
 #: mason/breeders_toolbox/seedlot_details.mas:117
 msgctxt "seedlot_maintenance_details.ui.record"
@@ -4603,7 +4603,7 @@ msgstr "Списання та видалення партій насіння:"
 #: mason/stock/population_seedlots.mas:10
 msgctxt "seedlots.ui.download_seedlot_info"
 msgid "Download Seedlot Info"
-msgstr "Завантажити дані партії насіння"
+msgstr "Вивантажити дані партії насіння"
 
 # Model draft; human/native editorial review pending.
 #: mason/breeders_toolbox/seedlot_details.mas:579

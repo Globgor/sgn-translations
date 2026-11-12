@@ -44,7 +44,7 @@ msgstr "Гени"
 #: mason/breeders_toolbox/manage_plot_phenotyping.mas:121
 msgctxt "phenotype.download_data"
 msgid "Download Data"
-msgstr "Завантажити дані"
+msgstr "Вивантажити дані"
 
 #: mason/breeders_toolbox/db_stats.mas:23
 #: mason/breeders_toolbox/trial/phenotype_summary.mas:62
@@ -69,7 +69,7 @@ msgstr "Додати інформацію про нову селекційну �
 #: mason/breeders_toolbox/home.mas:37
 msgctxt "widgets.breeder_tools.barcodes_info"
 msgid "Download barcodes for accessions and plots."
-msgstr "Завантажуйте з системи штрихкоди зразків і ділянок."
+msgstr "Вивантажуйте штрихкоди зразків і ділянок."
 
 #: mason/breeders_toolbox/index.mas:190
 msgctxt "widgets.breeder_tools.browse_sgn"
@@ -94,7 +94,7 @@ msgstr "Розробляйте маркери CAPS за допомогою "
 #: mason/breeders_toolbox/home.mas:40
 msgctxt "widgets.breeder_tools.download_data_info"
 msgid "Download phenotypic and genotypic data by trial, triat and location."
-msgstr "Завантажуйте фенотипові та генотипові дані за дослідом, ознакою та місцем."
+msgstr "Вивантажуйте фенотипові та генотипові дані за дослідом, ознакою та місцем."
 
 #: mason/breeders_toolbox/index.mas:103
 msgctxt "widgets.breeder_tools.feedback_contact"

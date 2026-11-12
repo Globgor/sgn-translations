@@ -272,7 +272,7 @@ msgstr "Ви впевнені, що хочете видалити цей про�
 #: mason/breeders_toolbox/manage_samples.mas:31
 msgctxt "genotype.plate.automatic_export_to_genotyping_vendors_is_currently_not_avaiable_however"
 msgid "Automatic export to genotyping vendors is currently not available; however, you can download the layout and submit to vendor manually."
-msgstr "Автоматичне експортування до установ генотипування наразі недоступне; однак ви можете завантажити схему планшета й подати її до установи вручну."
+msgstr "Автоматичне експортування до установ генотипування наразі недоступне; однак ви можете вивантажити схему планшета й подати її до установи вручну."
 
 #: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:549
 msgctxt "genotype.plate.bq_rms_base_quality_at_this_position"
@@ -951,7 +951,7 @@ msgstr "Лунка %{literal_1}"
 #: mason/breeders_toolbox/genotyping_trials/create_genotyping_trial_dialogs.mas:352
 msgctxt "genotype.plate.dialog.p_automatic_submission_to_the_genotyping_facility_currently"
 msgid "Automatic submission to the Genotyping Facility currently not working. You can submit it from the Genotyping Plate's detail page or download the information from the Genotyping Plate's detail page and submit it yourself after clicking Submit"
-msgstr "Автоматичне подання до установи генотипування наразі не працює. Після натискання «Надіслати» можна подати дані зі сторінки деталей планшета для генотипування або завантажити звідти потрібні відомості й надіслати їх самостійно."
+msgstr "Автоматичне подання до установи генотипування наразі не працює. Після натискання «Надіслати» можна подати дані зі сторінки деталей планшета для генотипування або вивантажити звідти потрібні відомості й надіслати їх самостійно."
 
 #: mason/breeders_toolbox/genotyping_trials/create_genotyping_trial_dialogs.mas:69
 msgctxt "genotype.plate.dialog.p_each_plate_has_a_globally_unique_plate"
@@ -1092,7 +1092,7 @@ msgstr "Видалити цей протокол?"
 #: mason/breeders_toolbox/genotyping_trials/detail.mas:237
 msgctxt "genotype.plate.download_all_genotype_data_csv"
 msgid "Download All Genotype Data (CSV)"
-msgstr "Завантажити всі генотипові дані (CSV)"
+msgstr "Вивантажити всі генотипові дані (CSV)"
 
 #: mason/breeders_toolbox/genotype_data_project.mas:72
 #: mason/breeders_toolbox/genotype_data_project.mas:74
@@ -1100,7 +1100,7 @@ msgstr "Завантажити всі генотипові дані (CSV)"
 #: mason/breeders_toolbox/genotyping_trials/detail.mas:239
 msgctxt "genotype.plate.download_all_genotype_data_dosage_matrix"
 msgid "Download All Genotype Data Dosage Matrix"
-msgstr "Завантажити всі генотипові дані у вигляді матриці доз алелів"
+msgstr "Вивантажити всі генотипові дані у вигляді матриці доз алелів"
 
 #: mason/breeders_toolbox/genotype_data_project.mas:72
 #: mason/breeders_toolbox/genotype_data_project.mas:74
@@ -1108,45 +1108,45 @@ msgstr "Завантажити всі генотипові дані у вигл�
 #: mason/breeders_toolbox/genotyping_trials/detail.mas:239
 msgctxt "genotype.plate.download_all_genotype_data_vcf"
 msgid "Download All Genotype Data VCF"
-msgstr "Завантажити всі генотипові дані у форматі VCF"
+msgstr "Вивантажити всі генотипові дані у форматі VCF"
 
 #: mason/breeders_toolbox/genotype_data_project.mas:77
 msgctxt "genotype.plate.download_archived_vcf_files_associated_with_this_genotyping_project"
 msgid "Download archived VCF files associated with this genotyping project."
-msgstr "Завантажити архівні файли VCF, пов’язані з цим проєктом генотипування."
+msgstr "Вивантажити архівні файли VCF, пов’язані з цим проєктом генотипування."
 
 #: mason/breeders_toolbox/genotyping_trials/detail.mas:99
 #: mason/breeders_toolbox/genotyping_trials/download_genotyping_trial_layouts_dialogs.mas:16
 msgctxt "genotype.plate.download_breedbase_formatted_file"
 msgid "Download Breedbase Formatted File"
-msgstr "Завантажити файл у форматі Breedbase"
+msgstr "Вивантажити файл у форматі Breedbase"
 
 #: mason/breeders_toolbox/genotyping_trials/detail.mas:101
 #: mason/breeders_toolbox/genotyping_trials/download_genotyping_trial_layouts_dialogs.mas:18
 msgctxt "genotype.plate.download_dartseq_formatted_file"
 msgid "Download DartSeq Formatted File"
-msgstr "Завантажити файл у форматі DartSeq"
+msgstr "Вивантажити файл у форматі DartSeq"
 
 #: mason/breeders_toolbox/genotyping_trials/detail.mas:100
 #: mason/breeders_toolbox/genotyping_trials/download_genotyping_trial_layouts_dialogs.mas:17
 msgctxt "genotype.plate.download_intertek_formatted_file"
 msgid "Download Intertek Formatted File"
-msgstr "Завантажити файл у форматі Intertek"
+msgstr "Вивантажити файл у форматі Intertek"
 
 #: mason/breeders_toolbox/genotyping_trials/detail.mas:135
 msgctxt "genotype.plate.download_pdf"
 msgid "Download PDF"
-msgstr "Завантажити PDF"
+msgstr "Вивантажити PDF"
 
 #: mason/breeders_toolbox/genotype_data_project.mas:70
 msgctxt "genotype.plate.download_ssr_data"
 msgid "Download SSR Data"
-msgstr "Завантажити дані SSR"
+msgstr "Вивантажити дані SSR"
 
 #: mason/breeders_toolbox/genotyping_data_project/pcr_genotype_data.mas:31
 msgctxt "genotype.plate.download_ssr_genotype_data"
 msgid "Download SSR Genotype Data"
-msgstr "Завантажити генотипові дані SSR"
+msgstr "Вивантажити генотипові дані SSR"
 
 #: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas:552
 msgctxt "genotype.plate.dp_combined_depth_across_samples_e_g_dp_154"
@@ -2809,18 +2809,18 @@ msgstr "Переглядайте й створюйте зразки тканин
 #: mason/breeders_toolbox/genotype_data_project.mas:74
 msgctxt "genotype.plate.view_and_download_genotyping_data"
 msgid "View and download genotyping data."
-msgstr "Переглянути й завантажити генотипові дані."
+msgstr "Переглянути й вивантажити генотипові дані."
 
 #: mason/breeders_toolbox/genotyping_trials/detail.mas:237
 #: mason/breeders_toolbox/genotyping_trials/detail.mas:239
 msgctxt "genotype.plate.view_and_download_genotyping_data_derived_from_this_genotyping_plate"
 msgid "View and download genotyping data derived from this genotyping plate."
-msgstr "Переглянути й завантажити генотипові дані, отримані з цього планшета для генотипування."
+msgstr "Переглянути й вивантажити генотипові дані, отримані з цього планшета для генотипування."
 
 #: mason/breeders_toolbox/genotype_data_project.mas:70
 msgctxt "genotype.plate.view_and_download_genotyping_data_from_this_project"
 msgid "View and download genotyping data from this project."
-msgstr "Переглянути й завантажити генотипові дані з цього проєкту."
+msgstr "Переглянути й вивантажити генотипові дані з цього проєкту."
 
 #: mason/breeders_toolbox/genotyping_trials/detail.mas:274
 msgctxt "genotype.plate.view_any_field_trial_to_genotyping_plate_linkage"
@@ -3128,7 +3128,7 @@ msgstr "Керування проєктами генотипування"
 #: lib/SGN/Controller/AJAX/TissueSample.pm:64
 msgctxt "genotype.sample.download_layout"
 msgid "Download Layout"
-msgstr "Завантажити схему"
+msgstr "Вивантажити схему"
 
 #: mason/breeders_toolbox/sampling_trials/create_sampling_trials_dialogs.mas:39
 msgctxt "genotype.sampling.create.basic_title"
@@ -3430,7 +3430,7 @@ msgstr "Селекційна програма"
 #: mason/breeders_toolbox/sampling_trials/detail.mas:66
 msgctxt "genotype.sampling.detail.download_layout"
 msgid "Download Layout"
-msgstr "Завантажити схему розміщення"
+msgstr "Вивантажити схему розміщення"
 
 #: mason/breeders_toolbox/sampling_trials/detail.mas:50
 msgctxt "genotype.sampling.detail.title"
@@ -4243,7 +4243,7 @@ msgstr "Створіть записи тканинних зразків для �
 #: mason/help/workflow_guided/tissue_sample_help.mas:172
 msgctxt "help.tissue.download_layout"
 msgid "Download Field Trial Layout!"
-msgstr "Завантажити схему польового досліду!"
+msgstr "Вивантажити схему польового досліду!"
 
 #: mason/help/workflow_guided/tissue_sample_help.mas:50
 msgctxt "help.tissue.field_trial_irrelevant"
@@ -4438,7 +4438,7 @@ msgstr "Схема досліду"
 #: mason/help/workflow_guided/tissue_sample_help.mas:73
 msgctxt "help.tissue.table.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/help/workflow_guided/tissue_sample_help.mas:66
 msgctxt "help.tissue.table.folder"

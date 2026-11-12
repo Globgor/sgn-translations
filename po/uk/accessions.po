@@ -232,7 +232,7 @@ msgstr "Зображення, пов’язані зі зразком, напр�
 #: mason/stock/upload_additional_accessions_file.mas:57
 msgctxt "accession.files.intro"
 msgid "This is for uploading any additional files you may have for the accession."
-msgstr "Тут можна завантажити до системи будь-які додаткові файли для зразка."
+msgstr "Тут можна завантажити будь-які додаткові файли для зразка."
 
 #: mason/stock/upload_additional_accessions_file.mas:8
 msgctxt "accession.files.loading"
@@ -810,7 +810,7 @@ msgstr "підтримуються)"
 #: mason/breeders_toolbox/upload_accession_rename_dialog.mas:38
 msgctxt "accession.forms.the_accession_renaming_list_upload_was_successful"
 msgid "The accession renaming list upload was successful."
-msgstr "Список перейменування зразків успішно завантажено до системи."
+msgstr "Список перейменування зразків успішно завантажено."
 
 #: mason/breeders_toolbox/trial/greenhouse_add_additional_accessions_dialog.mas:99
 msgctxt "accession.forms.the_additional_stocks_were_added_successfully"
@@ -860,7 +860,7 @@ msgstr "зразки тканин"
 #: mason/breeders_toolbox/derived_accession_usage_info_dialog.mas:47
 msgctxt "accession.forms.to_upload_derived_accessions_please_use_a_file_with_three"
 msgid "To upload derived accessions, please use a file with three columns: source_name, derived_accession_name, description. Please see 'Upload a File' link"
-msgstr "Щоб завантажити похідні зразки до системи, використайте файл із трьома стовпцями: source_name, derived_accession_name, description. Див. посилання «Завантажити файл до системи»"
+msgstr "Щоб завантажити похідні зразки, використайте файл із трьома стовпцями: source_name, derived_accession_name, description. Див. посилання «Завантажити файл»"
 
 #: mason/breeders_toolbox/trial/accession_rank_workflow.mas:63
 msgctxt "accession.forms.trait_weightings"
@@ -870,12 +870,12 @@ msgstr "Ваги ознак"
 #: mason/breeders_toolbox/derived_accession_usage_info_dialog.mas:47
 msgctxt "accession.forms.upload_a_file"
 msgid "Upload a File:"
-msgstr "Завантажити файл до системи:"
+msgstr "Завантажити файл:"
 
 #: mason/breeders_toolbox/upload_derived_accessions_dialog.mas:10
 msgctxt "accession.forms.upload_derived_accessions"
 msgid "Upload Derived Accessions"
-msgstr "Завантажити похідні зразки до системи"
+msgstr "Завантажити похідні зразки"
 
 #: mason/breeders_toolbox/upload_derived_accessions_dialog.mas:66
 msgctxt "accession.forms.upload_derived_accessions_error"
@@ -1030,7 +1030,7 @@ msgstr "Кореляційний аналіз Pearson"
 #: cgi-bin/phenome/population.pl:702
 msgctxt "accession.population_cgi.correlation_download"
 msgid "Download:"
-msgstr "Завантажити з системи:"
+msgstr "Вивантажити:"
 
 #: cgi-bin/phenome/population.pl:704
 msgctxt "accession.population_cgi.correlation_table"
@@ -1055,7 +1055,7 @@ msgstr "Відомості про популяцію"
 #: cgi-bin/phenome/population.pl:156
 msgctxt "accession.population_cgi.download"
 msgid "Download:"
-msgstr "Завантажити з системи:"
+msgstr "Вивантажити:"
 
 #: cgi-bin/phenome/population.pl:158
 msgctxt "accession.population_cgi.email_sgn"
@@ -1720,7 +1720,7 @@ msgstr "Запис збережено. Дякуємо!"
 #: lib/SGN/Controller/Stock.pm:524
 msgctxt "accession.server.genotype_id_missing"
 msgid "Genotype data download for the stock is missing an associated genotype id. "
-msgstr "Для завантаження даних генотипу матеріалу бракує пов’язаного ідентифікатора генотипу. "
+msgstr "Для вивантаження даних генотипу матеріалу бракує пов’язаного ідентифікатора генотипу. "
 
 #: lib/SGN/Controller/Stock.pm:525
 msgctxt "accession.server.go_back"
@@ -1825,12 +1825,12 @@ msgstr "Безпосереднє фенотипування ділянки"
 #: mason/stock/index.mas:77
 msgctxt "accession.stock.action.download_all_phenotypes"
 msgid "Download All Phenotypes"
-msgstr "Завантажити всі фенотипові дані з системи"
+msgstr "Вивантажити всі фенотипові дані"
 
 #: mason/stock/index.mas:78
 msgctxt "accession.stock.action.download_phenotypes"
 msgid "Download Phenotypes"
-msgstr "Завантажити фенотипи"
+msgstr "Вивантажити фенотипи"
 
 #: mason/stock/index.mas:609
 msgctxt "accession.stock.action.hide_qr"
@@ -1885,7 +1885,7 @@ msgstr "Скасувати позначення матеріалу як заст
 #: mason/stock/index.mas:83 mason/transformation/transformation.mas:87
 msgctxt "accession.stock.action.upload_qpcr"
 msgid "Upload qPCR Data"
-msgstr "Завантажити дані qPCR до системи"
+msgstr "Завантажити дані qPCR"
 
 #: mason/stock/additional_info_section.mas:64
 msgctxt "accession.stock.additional_info.additional_info"
@@ -2005,7 +2005,7 @@ msgstr "Дата й час"
 #: lib/SGN/Controller/AJAX/Stock.pm:2320
 msgctxt "accession.stock.genotype_download"
 msgid "Download"
-msgstr "Завантажити з системи"
+msgstr "Вивантажити"
 
 #: mason/stock/index.mas:355
 msgctxt "accession.stock.image.none"
@@ -2220,7 +2220,7 @@ msgstr "Сталася помилка під час додавання нови�
 #: lib/SGN/Controller/AJAX/Stock.pm:2903 lib/SGN/Controller/AJAX/Stock.pm:2912
 msgctxt "accession.stock.message_43"
 msgid "You must be logged in to upload derived accessions!"
-msgstr "Щоб завантажити похідні зразки до системи, потрібно увійти в систему!"
+msgstr "Щоб завантажити похідні зразки, потрібно увійти в систему!"
 
 #: lib/SGN/Controller/AJAX/Stock.pm:2921
 msgctxt "accession.stock.message_44"
@@ -2585,7 +2585,7 @@ msgstr "Досліджені ознаки"
 #: mason/stock/index.mas:458
 msgctxt "accession.stock.section.traits_help"
 msgid "View and download phenotypic data for this stock."
-msgstr "Переглянути та завантажити з системи фенотипові дані цього матеріалу."
+msgstr "Переглянути та вивантажити фенотипові дані цього матеріалу."
 
 #: mason/stock/index.mas:435
 msgctxt "accession.stock.section.transformation"
@@ -2615,7 +2615,7 @@ msgstr "Завантаження файлів даних"
 #: mason/stock/index.mas:482
 msgctxt "accession.stock.section.upload_files_help"
 msgid "Upload any additional files for this Accession."
-msgstr "Завантажити до системи будь-які додаткові файли для цього зразка."
+msgstr "Завантажити будь-які додаткові файли для цього зразка."
 
 #: lib/SGN/Controller/AJAX/Stock.pm:492
 msgctxt "accession.stock.show_obsolete"
@@ -2883,7 +2883,7 @@ msgstr "Комірка A%{row_num}: дубльована назва зразка
 #: mason/stock/accession_usage.mas:38 mason/stock/accession_usage.mas:52
 msgctxt "accession.usage.download"
 msgid "Download"
-msgstr "Завантажити з системи"
+msgstr "Вивантажити"
 
 #: mason/stock/accession_usage.mas:28
 msgctxt "accession.usage.female"
@@ -3022,7 +3022,7 @@ msgstr "Додати похідні зразки"
 #: mason/breeders_toolbox/manage_accessions.mas:66
 msgctxt "accessions.actions.download_pedigree"
 msgid "Download All Accessions and Pedigree Info"
-msgstr "Завантажити всі зразки та інформацію про родовід"
+msgstr "Вивантажити всі зразки та інформацію про родовід"
 
 #: mason/breeders_toolbox/manage_accessions.mas:40
 msgctxt "accessions.actions.grafts_upload"
@@ -3506,7 +3506,7 @@ msgstr "Внести зміни та продовжити"
 #: mason/breeders_toolbox/add_vectors_dialogs.mas:180
 msgctxt "accessions.review.fuzzy_download"
 msgid "Download Fuzzy Matches"
-msgstr "Завантажити схожі назви"
+msgstr "Вивантажити схожі назви"
 
 #: js/source/legacy/CXGN/BreedersToolbox/Accessions.js:984
 #: js/source/legacy/CXGN/BreedersToolbox/Vector.js:380

@@ -965,7 +965,7 @@ msgstr ""
 "          їхнім вирівнюванням із CDS, обрізаючи UTR\n"
 "          і виправляючи помилки секвенування. Пептидну послідовність\n"
 "          транслювали з відредагованої послідовності у рамці\n"
-"          1 (для унігенів) або завантажували з"
+"          1 (для унігенів) або вивантажували з"
 
 #: cgi-bin/solpeople/submit_marker.pl:63
 msgctxt "genotype.marker.band_sizes"
@@ -1159,7 +1159,7 @@ msgstr "динуклеотиди"
 #: cgi-bin/search/markers/markersearch.pl:221
 msgctxt "genotype.marker.download_these_results_as_a_text_file"
 msgid "download these results as a text file"
-msgstr "завантажити ці результати як текстовий файл"
+msgstr "вивантажити ці результати як текстовий файл"
 
 #: cgi-bin/search/markers/rflp_list.pl:91
 msgctxt "genotype.marker.drug"
@@ -1292,7 +1292,7 @@ msgstr ""
 "(для Arabidopsis). Положення інтронів\n"
 "          унігенів прогнозували за вирівнюванням\n"
 "          із CDS Arabidopsis; положення\n"
-"          інтронів Arabidopsis завантажено з"
+"          інтронів Arabidopsis вивантажено з"
 
 #: cgi-bin/markers/cosii_markers.pl:51
 msgctxt "genotype.marker.for_arabidopsis_or_predicted_intron_location_in_the_sequence_for_unigenes"
@@ -1779,12 +1779,12 @@ msgstr ""
 #: cgi-bin/markers/cos_markers.pl:52
 msgctxt "genotype.marker.old_plain_text_download"
 msgid "Old plain text download"
-msgstr "Завантажити старий текстовий файл"
+msgstr "Вивантажити старий текстовий файл"
 
 #: cgi-bin/markers/cos_markers.pl:53
 msgctxt "genotype.marker.old_plain_text_download_2"
 msgid "Old plain text download 2"
-msgstr "Завантажити старий текстовий файл 2"
+msgstr "Вивантажити старий текстовий файл 2"
 
 #: cgi-bin/markers/microsats.pl:28
 msgctxt "genotype.marker.old_text_version_ssr_list"
@@ -1841,7 +1841,7 @@ msgid ""
 "          text format for download."
 msgstr ""
 "- текстовий формат\n"
-"          для завантаження."
+"          для вивантаження."
 
 #: cgi-bin/phenotype/display_plants_from_genotype.pl:23
 #: cgi-bin/phenotype/display_plants_from_genotype.pl:29
@@ -2088,7 +2088,7 @@ msgid ""
 "          Sequence text files and other associated COSII data can be downloaded from our"
 msgstr ""
 ". Таблиця іноді містить актуальніші дані, ніж результати пошуку. Текстові файли\n"
-"          послідовностей та інші пов’язані дані COSII можна завантажити з нашого"
+"          послідовностей та інші пов’язані дані COSII можна вивантажити з нашого"
 
 #: cgi-bin/search/markers/ssr_list.pl:116
 msgctxt "genotype.marker.there_has_been_an_error_generating_data"
@@ -2449,7 +2449,7 @@ msgstr "Створити новий список"
 #: mason/breeders_toolbox/markers/manage_markers.mas:372
 msgctxt "genotype.marker_sets.help.filter_downloads"
 msgid " to filter the results of genotype downloads."
-msgstr " для фільтрування результатів завантаження генотипових даних."
+msgstr " для фільтрування результатів вивантаження генотипових даних."
 
 #: mason/breeders_toolbox/markers/manage_markers.mas:374
 msgctxt "genotype.marker_sets.help.go_caption"
@@ -2575,7 +2575,7 @@ msgstr "Поверніться на екран «"
 #: mason/breeders_toolbox/markers/manage_markers.mas:374
 msgctxt "genotype.marker_sets.help.step3_body"
 msgid ". Select the list that was just created. Then add the marker name and allele values that you are searching for. The easiest way of getting the name and allele values is to use the \"Search Wizard\" and download the genotype data from step 1. Note that you should not use markers that have missing genotype data."
-msgstr "». Виберіть створений список. Додайте назви маркерів і значення алелів, які потрібно знайти. Найпростіше отримати їх через Майстер пошуку, завантаживши генотипові дані з кроку 1. Не використовуйте маркери з відсутніми генотиповими даними."
+msgstr "». Виберіть створений список. Додайте назви маркерів і значення алелів, які потрібно знайти. Найпростіше отримати їх через Майстер пошуку, вивантаживши генотипові дані з кроку 1. Не використовуйте маркери з відсутніми генотиповими даними."
 
 #: mason/breeders_toolbox/markers/manage_markers.mas:374
 msgctxt "genotype.marker_sets.help.step4_find"
@@ -3108,29 +3108,29 @@ msgstr "Назва протоколу генотипування"
 #: mason/breeders_toolbox/genotyping_protocol/index.mas:57
 msgctxt "genotype.protocol.download_all_csv"
 msgid "Download All Genotype Data (CSV)"
-msgstr "Завантажити всі генотипові дані (CSV)"
+msgstr "Вивантажити всі генотипові дані (CSV)"
 
 #: mason/breeders_toolbox/genotyping_protocol/index.mas:53
 msgctxt "genotype.protocol.download_all_marker_info"
 msgid "Download All Marker Info (CSV)"
-msgstr "Завантажити всі відомості про маркери (CSV)"
+msgstr "Вивантажити всі відомості про маркери (CSV)"
 
 #: mason/breeders_toolbox/genotyping_protocol/index.mas:57
 #: mason/breeders_toolbox/genotyping_protocol/index.mas:63
 msgctxt "genotype.protocol.download_all_vcf"
 msgid "Download All Genotype Data VCF"
-msgstr "Завантажити всі генотипові дані у форматі VCF"
+msgstr "Вивантажити всі генотипові дані у форматі VCF"
 
 #: mason/breeders_toolbox/genotyping_protocol/index.mas:57
 #: mason/breeders_toolbox/genotyping_protocol/index.mas:63
 msgctxt "genotype.protocol.download_dosage_matrix"
 msgid "Download All Genotype Data Dosage Matrix"
-msgstr "Завантажити всі генотипові дані як матрицю доз алелів"
+msgstr "Вивантажити всі генотипові дані як матрицю доз алелів"
 
 #: mason/breeders_toolbox/genotyping_protocol/index.mas:51
 msgctxt "genotype.protocol.download_ssr_data"
 msgid "Download SSR Data"
-msgstr "Завантажити дані SSR"
+msgstr "Вивантажити дані SSR"
 
 #: mason/breeders_toolbox/genotyping_protocol/edit_genotyping_protocol_details_dialog.mas:185
 msgctxt "genotype.protocol.edit.ajax_failed"
@@ -3450,7 +3450,7 @@ msgstr "Докладна інформація про протокол генот
 #: mason/breeders_toolbox/genotyping_protocol/pcr_genotype_data.mas:40
 msgctxt "genotype.protocol.pcr_data.download_link"
 msgid "Download SSR Genotype Data"
-msgstr "Завантажити дані генотипування SSR"
+msgstr "Вивантажити дані генотипування SSR"
 
 #: mason/breeders_toolbox/genotyping_protocol/pcr_genotype_data.mas:14
 msgctxt "genotype.protocol.pcr_data.ploidy"
@@ -3556,7 +3556,7 @@ msgstr "Генотипові дані"
 #: mason/breeders_toolbox/genotyping_protocol/index.mas:63
 msgctxt "genotype.protocol.section.genotype_data_help"
 msgid "View and download genotyping data from this protocol."
-msgstr "Переглянути й завантажити генотипові дані цього протоколу."
+msgstr "Переглянути й вивантажити генотипові дані цього протоколу."
 
 #: mason/breeders_toolbox/genotyping_protocol/index.mas:49
 #: mason/breeders_toolbox/genotyping_protocol/index.mas:55
@@ -3755,7 +3755,7 @@ msgstr "Файл-сітка Intertek"
 #: mason/breeders_toolbox/manage_genotype_qc.mas:21
 msgctxt "genotype.qc.grid_file.explanation"
 msgid " which has allele calls for each genotype. Download sample file "
-msgstr " із результатами визначення алелів для кожного генотипу. Завантажте зразок файла "
+msgstr " із результатами визначення алелів для кожного генотипу. Вивантажте зразок файла "
 
 #: mason/breeders_toolbox/manage_genotype_qc.mas:22
 msgctxt "genotype.qc.grid_file_link"
@@ -3780,7 +3780,7 @@ msgstr "файл карти"
 #: mason/breeders_toolbox/manage_genotype_qc.mas:21
 msgctxt "genotype.qc.map_file.explanation"
 msgid " which has all the SNP information. Download sample file "
-msgstr " з усією інформацією про SNP. Завантажте зразок файла "
+msgstr " з усією інформацією про SNP. Вивантажте зразок файла "
 
 #: mason/breeders_toolbox/manage_genotype_qc.mas:21
 msgctxt "genotype.qc.map_file_intro"
@@ -4063,7 +4063,7 @@ msgstr "Для %{uniquename} у вашому файлі вже збережен�
 #: lib/SGN/Controller/AJAX/Search/Genotype.pm:330
 msgctxt "genotype.validation.you_need_to_be_logged_in_to_download_genotype_data"
 msgid "You need to be logged in to download genotype data"
-msgstr "Щоб завантажити генотипові дані, потрібно увійти в систему"
+msgstr "Щоб вивантажити генотипові дані, потрібно увійти в систему"
 
 #: mason/breeders_toolbox/genotyping_protocol/marker_metadata.mas:57
 #: mason/breeders_toolbox/manage_drone_imagery.mas:796

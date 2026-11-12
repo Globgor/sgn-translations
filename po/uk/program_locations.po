@@ -2230,7 +2230,7 @@ msgstr "Кількість цифр: "
 #: mason/breeders_toolbox/identifier_generation/list_identifier_generation.mas:68
 msgctxt "program.identifiers.error.download"
 msgid "Error downloading new identifiers!"
-msgstr "Помилка під час завантаження нових ідентифікаторів!"
+msgstr "Помилка під час вивантаження нових ідентифікаторів!"
 
 #: mason/breeders_toolbox/identifier_generation/list_identifier_generation.mas:96
 msgctxt "program.identifiers.error.history"
@@ -2300,7 +2300,7 @@ msgstr "Кількість цифр"
 #: mason/breeders_toolbox/identifier_generation/list_identifier_generation.mas:14
 msgctxt "program.identifiers.list.header.download_next"
 msgid "Download Next Identifiers"
-msgstr "Завантажити наступні ідентифікатори"
+msgstr "Вивантажити наступні ідентифікатори"
 
 #: mason/breeders_toolbox/identifier_generation/list_identifier_generation.mas:13
 msgctxt "program.identifiers.list.header.history"
@@ -2340,7 +2340,7 @@ msgstr "Префікс: "
 #: lib/SGN/Controller/AJAX/IdentifierGeneration.pm:130
 msgctxt "program.identifiers.row.download_next"
 msgid "Download Next"
-msgstr "Завантажити наступні"
+msgstr "Вивантажити наступні"
 
 #: lib/SGN/Controller/AJAX/IdentifierGeneration.pm:128
 msgctxt "program.identifiers.row.next_count_label"
@@ -2355,7 +2355,7 @@ msgstr "Напр.: 100"
 #: mason/breeders_toolbox/identifier_generation/manage_identifier_generation.mas:21
 msgctxt "program.identifiers.section_help"
 msgid "View, add, and download identifiers."
-msgstr "Перегляд, додавання та завантаження ідентифікаторів."
+msgstr "Перегляд, додавання та вивантаження ідентифікаторів."
 
 #: mason/breeders_toolbox/identifier_generation/manage_identifier_generation.mas:21
 msgctxt "program.identifiers.section_title"
@@ -2915,7 +2915,7 @@ msgstr "Шаблон профілю продукту створено"
 #: mason/breeders_toolbox/program/create_profile_template_dialog.mas:49
 msgctxt "program.profile_template.download"
 msgid "Download Template"
-msgstr "Завантажити шаблон"
+msgstr "Вивантажити шаблон"
 
 #: mason/breeders_toolbox/program/create_profile_template_dialog.mas:13
 msgctxt "program.profile_template.filename"
@@ -3165,7 +3165,7 @@ msgstr "Додати метадані автоматично згенерова�
 #: mason/breeders_toolbox/breeding_program.mas:24
 msgctxt "program.program.download_template"
 msgid "Download Template"
-msgstr "Завантажити шаблон"
+msgstr "Вивантажити шаблон"
 
 #: mason/breeders_toolbox/breeding_program.mas:21
 msgctxt "program.program.page_title"

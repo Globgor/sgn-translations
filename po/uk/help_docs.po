@@ -62,7 +62,7 @@ msgstr " розкривному меню."
 #: mason/help/blast.mas:24
 msgctxt "help.blast.download_report"
 msgid "The raw BLAST report can be downloaded using the download link in the Results section header."
-msgstr "Необроблений звіт BLAST можна завантажити за посиланням у заголовку розділу Results."
+msgstr "Необроблений звіт BLAST можна вивантажити за посиланням у заголовку розділу Results."
 
 #: mason/help/blast.mas:10
 msgctxt "help.blast.enter_query"
@@ -285,7 +285,7 @@ msgid ""
 "To retrieve a dataset in the Wizard, select the dataset in\n"
 "the “Load Dataset” input then select the “Load” button. This will populate the\n"
 "columns in the Wizard and then allow you to download and analyze the dataset."
-msgstr "Щоб отримати набір у Wizard, виберіть його у полі “Завантажити набір даних”, а потім натисніть “Завантажити”. Стовпці Wizard буде заповнено, після чого можна завантажити й аналізувати набір."
+msgstr "Щоб отримати набір у Wizard, виберіть його у полі “Завантажити набір даних”, а потім натисніть “Завантажити”. Стовпці Wizard буде заповнено, після чого можна вивантажити й аналізувати набір."
 
 #: mason/help/datasets.mas:19
 msgctxt "help.datasets.search_heading"
@@ -339,7 +339,7 @@ msgstr "Результати"
 #: mason/help/heritability.mas:9
 msgctxt "help.heritability.results_text"
 msgid "Results are summarized in a downloadable table in CSV format."
-msgstr "Підсумки подано в таблиці, яку можна завантажити у форматі CSV."
+msgstr "Підсумки подано в таблиці, яку можна вивантажити у форматі CSV."
 
 #: mason/help/heritability.mas:1
 msgctxt "help.heritability.title"

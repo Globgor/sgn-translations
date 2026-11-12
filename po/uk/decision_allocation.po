@@ -39,7 +39,7 @@ msgstr ""
 #: mason/stock/upload_additional_accessions_file.mas:141
 msgctxt "accession.files.files.download"
 msgid "Download"
-msgstr "Завантажити з системи"
+msgstr "Вивантажити"
 
 #: js/source/entries/trialallocation/app.js:1001
 #: mason/stock/related_stock.mas:183 mason/stock/related_stock.mas:20
@@ -459,7 +459,7 @@ msgstr "Схема готова/Re-Run?"
 #: js/source/entries/decision_meeting.js:354
 msgctxt "decision.js.download_excel_template"
 msgid "Download Excel template"
-msgstr "Завантажити шаблон Excel"
+msgstr "Вивантажити шаблон Excel"
 
 #: js/source/entries/trialallocation/app.js:1333
 msgctxt "decision.js.enter_a_valid_yyyy_year"
@@ -690,7 +690,7 @@ msgstr "Перед поворотом розмістіть цей дослід �
 #: js/source/entries/trialallocation/downloads.js:238
 msgctxt "decision.js.place_trials_borders_or_fillers_before_downloading_the_planting_map"
 msgid "Place trials, borders, or fillers before downloading the planting map."
-msgstr "Перед завантаженням карти висіву розмістіть досліди, захисні ділянки або заповнювачі."
+msgstr "Перед вивантаженням карти висіву розмістіть досліди, захисні ділянки або заповнювачі."
 
 #: js/source/entries/trialallocation/app.js:1890
 msgctxt "decision.js.placing_trial"
@@ -1253,7 +1253,7 @@ msgstr "Видалити вигляд"
 #: mason/tools/trialallocation.mas:389
 msgctxt "decision.root.download_planting_map_excel"
 msgid "Download Planting Map Excel"
-msgstr "Завантажити карту сівби Excel"
+msgstr "Вивантажити карту сівби Excel"
 
 #: mason/tools/trialallocation.mas:212
 msgctxt "decision.root.drag_each_trial_box_from_the_trials_panel_into_the"
@@ -1348,7 +1348,7 @@ msgstr "Досліди ще не додано."
 #: mason/tools/trialallocation.mas:217
 msgctxt "decision.root.open_planting_tool_define_planter_settings_such_as_rows_per"
 msgid "Open Planting Tool, define planter settings such as rows per plot, plants per plot, spacing, and planting direction, then download the planting map Excel file or generate layout graphics."
-msgstr "Відкрийте інструмент сівби, задайте кількість рядків і рослин на ділянку, відстані та напрямок сівби, потім завантажте карту сівби Excel або створіть графіку схеми."
+msgstr "Відкрийте інструмент сівби, задайте кількість рядків і рослин на ділянку, відстані та напрямок сівби, потім вивантажте карту сівби Excel або створіть графіку схеми."
 
 #: mason/tools/trialallocation.mas:385
 msgctxt "decision.root.optional_planter_instructions"
@@ -2137,7 +2137,7 @@ msgstr "Цю нараду вже збережено, її неможливо з�
 #: lib/SGN/Controller/AJAX/DecisionMeeting.pm:2572
 msgctxt "decision.server.this_meeting_report_cannot_be_downloaded_because_decisions_have_not_"
 msgid "This meeting report cannot be downloaded because decisions have not been saved yet."
-msgstr "Звіт цієї наради неможливо завантажити, оскільки рішення ще не збережено."
+msgstr "Звіт цієї наради неможливо вивантажити, оскільки рішення ще не збережено."
 
 #: lib/SGN/Controller/AJAX/DecisionMeeting.pm:1755
 msgctxt "decision.server.trait_column_not_found_in_phenotype_file"

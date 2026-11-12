@@ -966,42 +966,42 @@ msgstr "Рух униз не реалізовано, якщо перша діл�
 #: mason/breeders_toolbox/manage_drone_imagery.mas:1274
 msgctxt "drone.interface.download"
 msgid "Download!"
-msgstr "Завантажити!"
+msgstr "Вивантажити!"
 
 #: mason/breeders_toolbox/manage_drone_imagery.mas:4721
 msgctxt "drone.interface.download_activation_result"
 msgid "Download Activation Result"
-msgstr "Завантажити результат активації"
+msgstr "Вивантажити результат активації"
 
 #: mason/breeders_toolbox/manage_drone_imagery.mas:4721
 msgctxt "drone.interface.download_correlation"
 msgid "Download Correlation"
-msgstr "Завантажити кореляцію"
+msgstr "Вивантажити кореляцію"
 
 #: mason/breeders_toolbox/manage_drone_imagery.mas:1237
 msgctxt "drone.interface.download_drone_image_phenotypes_and_plot_images"
 msgid "Download drone image phenotypes and plot images"
-msgstr "Завантажити фенотипи з аерознімків та зображення ділянок"
+msgstr "Вивантажити фенотипи з аерознімків та зображення ділянок"
 
 #: mason/breeders_toolbox/drone_imagery/drone_imagery_export_imaging_events.mas:142
 msgctxt "drone.interface.download_geojson_zipfile"
 msgid "Download GeoJSON Zipfile"
-msgstr "Завантажити ZIP GeoJSON"
+msgstr "Вивантажити ZIP GeoJSON"
 
 #: mason/breeders_toolbox/manage_drone_imagery.mas:28
 msgctxt "drone.interface.download_image_phenotype_file"
 msgid "Download Image-Phenotype File"
-msgstr "Завантажити файл фенотипів зі знімків"
+msgstr "Вивантажити файл фенотипів зі знімків"
 
 #: mason/breeders_toolbox/drone_imagery/drone_imagery_export_imaging_events.mas:142
 msgctxt "drone.interface.download_imaging_event_spreadsheet"
 msgid "Download Imaging Event Spreadsheet"
-msgstr "Завантажити таблицю сеансів знімання"
+msgstr "Вивантажити таблицю сеансів знімання"
 
 #: mason/breeders_toolbox/drone_imagery/drone_imagery_export_imaging_events.mas:142
 msgctxt "drone.interface.download_orthoimage_zipfile"
 msgid "Download Orthoimage Zipfile"
-msgstr "Завантажити ZIP ортофотознімків"
+msgstr "Вивантажити ZIP ортофотознімків"
 
 #: mason/breeders_toolbox/drone_imagery/generate_plot_polygons_standard_process_raw_images_section_ground_control_points.mas:51
 #: mason/breeders_toolbox/manage_drone_imagery.mas:137
@@ -1377,7 +1377,7 @@ msgstr "Помилка стандартної обробки за поперед
 #: mason/breeders_toolbox/manage_drone_imagery.mas:4239
 msgctxt "drone.interface.error_downloading_drone_image_phenotypes"
 msgid "Error downloading drone image phenotypes!"
-msgstr "Помилка завантаження фенотипів зі знімків дрона!"
+msgstr "Помилка вивантаження фенотипів зі знімків дрона!"
 
 #: mason/breeders_toolbox/drone_imagery/drone_imagery_export_imaging_events.mas:148
 msgctxt "drone.interface.error_exporting_imaging_events"
@@ -4543,7 +4543,7 @@ msgstr "Виберіть потрібні змінні спостережень"
 #: mason/breeders_toolbox/manage_drone_imagery.mas:1259
 msgctxt "drone.interface.select_the_observation_variable_s_you_are_interested_in_downloading"
 msgid "Select the observation variable(s) you are interested in downloading"
-msgstr "Виберіть змінні спостережень для завантаження"
+msgstr "Виберіть змінні спостережень для вивантаження"
 
 #: mason/breeders_toolbox/manage_drone_imagery.mas:1376
 #: mason/breeders_toolbox/manage_drone_imagery.mas:1566
@@ -6139,12 +6139,12 @@ msgstr "Протокол"
 #: mason/breeders_toolbox/manage_nirs.mas:19
 msgctxt "nirs.manage.download_nirs"
 msgid "Download NIRS"
-msgstr "Завантажити NIRS"
+msgstr "Вивантажити NIRS"
 
 #: mason/breeders_toolbox/manage_nirs.mas:19
 msgctxt "nirs.manage.download_relationship_matrix"
 msgid "Download Relationship Matrix"
-msgstr "Завантажити матрицю спорідненості"
+msgstr "Вивантажити матрицю спорідненості"
 
 #: mason/breeders_toolbox/manage_nirs.mas:19
 msgctxt "nirs.manage.plot_spectra_button"
@@ -6733,7 +6733,7 @@ msgstr "Обчислити"
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:105
 msgctxt "phenotype.download_file"
 msgid "Download File:"
-msgstr "Файл для завантаження:"
+msgstr "Файл для вивантаження:"
 
 #: mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas:685
 #: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:1059

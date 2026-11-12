@@ -729,7 +729,7 @@ msgstr "Зберегти результати аналізу? :"
 #: mason/tools/boxplotter.mas:76
 msgctxt "analysis.interface.download_boxplot_svg"
 msgid "Download Boxplot SVG"
-msgstr "Завантажити діаграму розмаху у форматі SVG"
+msgstr "Вивантажити діаграму розмаху у форматі SVG"
 
 #: mason/tools/heritability/index.mas:123
 #: mason/tools/heritability/index.mas:359
@@ -737,31 +737,31 @@ msgstr "Завантажити діаграму розмаху у форматі
 #: mason/tools/stability/index.mas:121 mason/tools/stability/index.mas:469
 msgctxt "analysis.interface.download_csv"
 msgid "Download CSV"
-msgstr "Завантажити CSV"
+msgstr "Вивантажити CSV"
 
 #: js/source/legacy/heritability/heritability.js:264
 msgctxt "analysis.interface.download_heritability_coefficients"
 msgid "Download heritability coefficients"
-msgstr "Завантажити коефіцієнти успадковуваності"
+msgstr "Вивантажити коефіцієнти успадковуваності"
 
 #: js/source/legacy/qualityControl/qualityControl.js:264
 msgctxt "analysis.interface.download_qc_comments"
 msgid "Download QC comments"
-msgstr "Завантажити коментарі QC"
+msgstr "Вивантажити коментарі QC"
 
 #: mason/tools/heritability/index.mas:108 mason/tools/heritability/index.mas:85
 #: mason/tools/solgwas/index.mas:96 mason/tools/stability/index.mas:111
 #: mason/tools/stability/index.mas:124 mason/tools/stability/index.mas:88
 msgctxt "analysis.interface.download_results_in_basic_format"
 msgid "Download results in basic format"
-msgstr "Завантажити результати в базовому форматі"
+msgstr "Вивантажити результати в базовому форматі"
 
 #: mason/tools/heritability/index.mas:108 mason/tools/heritability/index.mas:85
 #: mason/tools/solgwas/index.mas:96 mason/tools/stability/index.mas:111
 #: mason/tools/stability/index.mas:124 mason/tools/stability/index.mas:88
 msgctxt "analysis.interface.download_results_in_tabular_format"
 msgid "Download results in tabular format"
-msgstr "Завантажити результати в табличному форматі"
+msgstr "Вивантажити результати в табличному форматі"
 
 #: mason/analytics_protocols/index.mas:29
 msgctxt "analysis.interface.drone_imagery_analytics"
@@ -2584,7 +2584,7 @@ msgstr "генетичні маркери ділянки референтної 
 #: cgi-bin/phenome/qtl.pl:433
 msgctxt "analysis.qtl.server.external_marker_link_label"
 msgid "View/download"
-msgstr "Переглянути/завантажити"
+msgstr "Переглянути/вивантажити"
 
 #: cgi-bin/phenome/qtl.pl:360
 msgctxt "analysis.qtl.server.genome_scan_size"
@@ -2767,7 +2767,7 @@ msgstr "назад"
 #: mason/qtl/qtl_form/intro.mas:51
 msgctxt "analysis.qtl.ui.begin_uploading"
 msgid "Begin Uploading"
-msgstr "Почати завантаження до системи"
+msgstr "Почати завантаження"
 
 #: mason/qtl/qtl/index.mas:94
 msgctxt "analysis.qtl.ui.browse_qtl_region"
@@ -3315,7 +3315,7 @@ msgstr "Ви намагаєтеся завантажити файли з одн�
 #: mason/qtl/qtl_form/confirm.mas:44
 msgctxt "analysis.qtl.ui.you_have_successfully_uploaded_your_qtl_data"
 msgid "You have successfully uploaded your QTL data."
-msgstr "Дані QTL успішно завантажено до системи."
+msgstr "Дані QTL успішно завантажено."
 
 #: mason/analytics_protocols/index.mas:41
 #: mason/breeders_toolbox/cross/intercross_file_info.mas:38
@@ -3495,7 +3495,7 @@ msgstr "Генотипові дані"
 #: mason/qtl/population/download.mas:33 mason/stock/direct_genotypes.mas:15
 msgctxt "global.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/analytics_protocols/analytics_protocols_result_files.mas:9
 #: mason/breeders_toolbox/file_share/file_dump_share_files.mas:7
@@ -3908,7 +3908,7 @@ msgstr "Ділянка:"
 #: mason/analyses/detail.mas:50 mason/breeders_toolbox/trial.mas:187
 msgctxt "trial.spatial_export.open"
 msgid "Download Spatial Layout"
-msgstr "Завантажити просторову схему"
+msgstr "Вивантажити просторову схему"
 
 #: mason/analyses/analysis_details.mas:29
 #: mason/breeders_toolbox/trial/trial_details.mas:124

@@ -98,7 +98,7 @@ msgstr "Видалити"
 #: mason/breeders_toolbox/file_list.mas:24
 msgctxt "file_list.action.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/breeders_toolbox/file_list.mas:106
 msgctxt "file_list.datatable.aria_ascending"
@@ -261,22 +261,22 @@ msgstr "Сторінка"
 #: cgi-bin/bulk/display.pl:61
 msgctxt "global.bulk.display.page_title"
 msgid "Browse Bulk Results"
-msgstr "Перегляд результатів масового завантаження"
+msgstr "Перегляд результатів масового вивантаження"
 
 #: cgi-bin/bulk/display.pl:159
 msgctxt "global.bulk.display.results_title"
 msgid "Bulk download results"
-msgstr "Результати масового завантаження"
+msgstr "Результати масового вивантаження"
 
 #: cgi-bin/bulk/index.pl:10
 msgctxt "global.bulk.index.description"
 msgid "Download information for a list of identifiers, or for complete datasets with FTP."
-msgstr "Завантажте інформацію для списку ідентифікаторів або повні набори даних через FTP."
+msgstr "Вивантажте інформацію для списку ідентифікаторів або повні набори даних через FTP."
 
 #: cgi-bin/bulk/index.pl:11
 msgctxt "global.bulk.index.heading"
 msgid "SGN Bulk"
-msgstr "Масове завантаження SGN"
+msgstr "Масове вивантаження SGN"
 
 #: cgi-bin/bulk/input.pl:776
 msgctxt "global.bulk.input.bac_end_search.arizona"
@@ -346,7 +346,7 @@ msgstr "Файли послідовностей і значень якості �
 #: cgi-bin/bulk/input.pl:879
 msgctxt "global.bulk.input.ftp_intro"
 msgid "Download complete datasets."
-msgstr "Завантажте повні набори даних."
+msgstr "Вивантажте повні набори даних."
 
 #: cgi-bin/bulk/input.pl:923
 msgctxt "global.bulk.input.ftp_manual_annotations"
@@ -391,12 +391,12 @@ msgstr "Набори даних, створені на замовлення ок
 #: cgi-bin/bulk/input.pl:38
 msgctxt "global.bulk.input.intro"
 msgid "Download Unigene or BAC information using a list of identifiers, or complete datasets with FTP."
-msgstr "Завантажте інформацію про Unigene або BAC за списком ідентифікаторів чи повні набори даних через FTP."
+msgstr "Вивантажте інформацію про Unigene або BAC за списком ідентифікаторів чи повні набори даних через FTP."
 
 #: cgi-bin/bulk/input.pl:42
 msgctxt "global.bulk.input.limit_note"
 msgid "The SGN bulk download is limited to 10,000 identifiers per request.  If you need more, please either split your query into multiple parts, download a full dataset from the FTP site, or %{email_link} and we will be happy to generate a custom dataset for you."
-msgstr "Масове завантаження SGN обмежене 10,000 ідентифікаторами на запит.  Якщо потрібно більше, розділіть запит на кілька частин, завантажте повний набір даних із FTP-сайту або %{email_link} — ми із задоволенням підготуємо для вас спеціальний набір даних."
+msgstr "Масове вивантаження SGN обмежене 10,000 ідентифікаторами на запит.  Якщо потрібно більше, розділіть запит на кілька частин, вивантажте повний набір даних із FTP-сайту або %{email_link} — ми із задоволенням підготуємо для вас спеціальний набір даних."
 
 #: cgi-bin/bulk/input.pl:39 cgi-bin/bulk/input.pl:877
 #: cgi-bin/markers/cos_markers.pl:56
@@ -421,7 +421,7 @@ msgstr "Тип виводу:"
 #: cgi-bin/bulk/input.pl:282 cgi-bin/bulk/input.pl:37
 msgctxt "global.bulk.input.page_title"
 msgid "Bulk download"
-msgstr "Масове завантаження"
+msgstr "Масове вивантаження"
 
 #: cgi-bin/bulk/input.pl:198 cgi-bin/bulk/input.pl:281
 #: cgi-bin/bulk/input.pl:405 cgi-bin/bulk/input.pl:532
@@ -1130,7 +1130,7 @@ msgstr "Спільні файли"
 #: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:9
 msgctxt "global.manage_file_share_dump.subtitle"
 msgid "View and download shared data files. Note that these are unstructured data files; please upload structured data into database!"
-msgstr "Переглядайте та завантажуйте спільні файли даних. Зверніть увагу: це неструктуровані файли даних; структуровані дані слід завантажувати до бази даних!"
+msgstr "Переглядайте та вивантажуйте спільні файли даних. Зверніть увагу: це неструктуровані файли даних; структуровані дані слід завантажувати до бази даних!"
 
 #: mason/breeders_toolbox/file_share/manage_file_share_dump.mas:7
 msgctxt "global.manage_file_share_dump.title"
@@ -1271,7 +1271,7 @@ msgstr "Поточна маса"
 #: mason/list/list_details.mas:33
 msgctxt "lists.details.download"
 msgid "Download List Items"
-msgstr "Завантажити елементи списку"
+msgstr "Вивантажити елементи списку"
 
 # Model draft; editorial/native language review remains pending.
 #: mason/list/list_details.mas:23
@@ -1697,12 +1697,12 @@ msgstr "Масове перетворення ідентифікаторів"
 #: mason/tools/bulk/index.mas:18
 msgctxt "lists_datasets.bulk.bulk_download"
 msgid "Bulk Download"
-msgstr "Масове завантаження"
+msgstr "Масове вивантаження"
 
 #: mason/tools/bulk/display/summary_page.mas:20
 msgctxt "lists_datasets.bulk.bulk_download_summary"
 msgid "Bulk download summary"
-msgstr "Підсумок масового завантаження"
+msgstr "Підсумок масового вивантаження"
 
 #: mason/tools/bulk/display/bulk_gene.mas:35
 #: mason/tools/bulk/tabs/gene_tab.mas:38
@@ -1787,7 +1787,7 @@ msgstr "[копіювати]"
 #: lib/SGN/Controller/Bulk.pm:387 lib/SGN/Controller/Bulk.pm:420
 msgctxt "lists_datasets.bulk.dataset_not_found"
 msgid "Bulk dataset not found"
-msgstr "Набір даних масового завантаження не знайдено"
+msgstr "Набір даних масового вивантаження не знайдено"
 
 #: mason/bulk_download.mas:16
 #: mason/tools/bulk/display/bulk_gene_download.mas:15
@@ -1795,44 +1795,44 @@ msgstr "Набір даних масового завантаження не з�
 #: mason/tools/bulk/gene_download.mas:19
 msgctxt "lists_datasets.bulk.download_as"
 msgid "Download as"
-msgstr "Завантажити як"
+msgstr "Вивантажити як"
 
 #: cgi-bin/bulk/input.pl:779 mason/tools/bulk/tabs/bac_end_tab.mas:50
 msgctxt "lists_datasets.bulk.download_bac_end_information"
 msgid "Download BAC end information:"
-msgstr "Завантажити відомості про кінцеві фрагменти BAC:"
+msgstr "Вивантажити відомості про кінцеві фрагменти BAC:"
 
 #: cgi-bin/bulk/input.pl:678 mason/tools/bulk/tabs/bac_tab.mas:49
 msgctxt "lists_datasets.bulk.download_bac_information"
 msgid "Download BAC information:"
-msgstr "Завантажити відомості про BAC:"
+msgstr "Вивантажити відомості про BAC:"
 
 #: mason/tools/bulk/display/features.mas:33
 #: mason/tools/bulk/tabs/feature_tab.mas:33
 msgctxt "lists_datasets.bulk.download_feature_information"
 msgid "Download feature information"
-msgstr "Завантажити відомості про геномні об’єкти"
+msgstr "Вивантажити відомості про геномні об’єкти"
 
 #: mason/tools/bulk/display/bulk_gene.mas:33
 #: mason/tools/bulk/tabs/gene_tab.mas:36
 msgctxt "lists_datasets.bulk.download_gene_information"
 msgid "Download gene information"
-msgstr "Завантажити відомості про гени"
+msgstr "Вивантажити відомості про гени"
 
 #: cgi-bin/bulk/input.pl:389 mason/tools/bulk/tabs/unigene_tab.mas:90
 msgctxt "lists_datasets.bulk.download_member_information"
 msgid "Download member information"
-msgstr "Завантажити відомості про учасників збірки"
+msgstr "Вивантажити відомості про учасників збірки"
 
 #: mason/tools/bulk/display/summary_page.mas:42
 msgctxt "lists_datasets.bulk.download_to_disk"
 msgid "Download to disk"
-msgstr "Завантажити на диск"
+msgstr "Вивантажити на диск"
 
 #: cgi-bin/bulk/input.pl:378 mason/tools/bulk/tabs/unigene_tab.mas:73
 msgctxt "lists_datasets.bulk.download_unigene_information"
 msgid "Download unigene information"
-msgstr "Завантажити відомості про унігени"
+msgstr "Вивантажити відомості про унігени"
 
 #: mason/tools/bulk/display/features.mas:8
 #: mason/tools/bulk/tabs/feature_tab.mas:8
@@ -1897,7 +1897,7 @@ msgstr "Можливо, введений набір перевищує обме�
 #: lib/CXGN/Bulk.pm:184
 msgctxt "lists_datasets.bulk.error_no_ids"
 msgid "You may not have entered any identifiers for download"
-msgstr "Можливо, не введено жодного ідентифікатора для завантаження"
+msgstr "Можливо, не введено жодного ідентифікатора для вивантаження"
 
 #: cgi-bin/bulk/download.pl:232
 msgctxt "lists_datasets.bulk.error_occurred_title"
@@ -1912,7 +1912,7 @@ msgstr "Сталася помилка"
 #: lib/CXGN/Bulk.pm:182
 msgctxt "lists_datasets.bulk.error_title"
 msgid "Bulk download error"
-msgstr "Помилка масового завантаження"
+msgstr "Помилка масового вивантаження"
 
 #: lib/CXGN/Bulk.pm:185
 msgctxt "lists_datasets.bulk.error_unknown_ids"
@@ -1964,12 +1964,12 @@ msgstr "Приклад:"
 #: mason/tools/bulk/display/summary_page.mas:11
 msgctxt "lists_datasets.bulk.fasta_unavailable"
 msgid "Note: Fasta option is not available because you didn't choose a sequence to download."
-msgstr "Примітка: формат Fasta недоступний, оскільки не вибрано послідовність для завантаження."
+msgstr "Примітка: формат Fasta недоступний, оскільки не вибрано послідовність для вивантаження."
 
 #: mason/bulk_download.mas:9 mason/tools/bulk/display/feature_download.mas:11
 msgctxt "lists_datasets.bulk.feature_download_summary"
 msgid "Feature Download Summary"
-msgstr "Підсумок завантаження геномних об’єктів"
+msgstr "Підсумок вивантаження геномних об’єктів"
 
 #: mason/tools/bulk/display/features.mas:35
 #: mason/tools/bulk/tabs/feature_tab.mas:35
@@ -1998,7 +1998,7 @@ msgstr "реєстраційний номер genbank"
 #: mason/tools/bulk/gene_download.mas:12
 msgctxt "lists_datasets.bulk.gene_download_summary"
 msgid "Gene Download Summary"
-msgstr "Підсумок завантаження генів"
+msgstr "Підсумок вивантаження генів"
 
 #: mason/tools/bulk/converter.mas:19
 msgctxt "lists_datasets.bulk.gene_models_itag_2_3"
@@ -2120,7 +2120,7 @@ msgstr "Спробуйте виконати пошук ще раз."
 #: mason/tools/bulk/display/summary_page.mas:28
 msgctxt "lists_datasets.bulk.please_verify_that_you_used_the_correct_search_and_that_you_chose_the_right_un"
 msgid "Please verify that you used the correct search and that you chose the right unigene or bac assembly to download from. Also make sure that the submitted identifiers are appropriately formatted."
-msgstr "Переконайтеся, що використали правильний пошук і вибрали відповідну збірку унігенів або bac для завантаження. Також перевірте формат поданих ідентифікаторів."
+msgstr "Переконайтеся, що використали правильний пошук і вибрали відповідну збірку унігенів або bac для вивантаження. Також перевірте формат поданих ідентифікаторів."
 
 #: cgi-bin/bulk/download.pl:224 lib/SGN/Controller/Bulk/Download.pm:225
 msgctxt "lists_datasets.bulk.post_only"
@@ -2432,7 +2432,7 @@ msgstr "Предки та нащадки"
 #: mason/breeders_toolbox/download.mas:16
 msgctxt "lists_datasets.download.choose_a_list_for_each_parameter_and_click_download"
 msgid "Choose a list for each parameter and click \"Download\"."
-msgstr "Виберіть список для кожного параметра й натисніть «Завантажити»."
+msgstr "Виберіть список для кожного параметра й натисніть «Вивантажити»."
 
 #: mason/breeders_toolbox/download.mas:64
 #: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:49
@@ -2466,58 +2466,58 @@ msgstr "Глибина родоводу:"
 #: mason/breeders_toolbox/download.mas:871
 msgctxt "lists_datasets.download.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/breeders_toolbox/download.mas:293
 msgctxt "lists_datasets.download.download_accession_properties"
 msgid "Download Accession Properties"
-msgstr "Завантажити властивості зразків"
+msgstr "Вивантажити властивості зразків"
 
 #: mason/breeders_toolbox/download.mas:491
 msgctxt "lists_datasets.download.download_crosses_and_families_of_progenies"
 msgid "Download Crosses and Families of Progenies"
-msgstr "Завантажити схрещування та родини потомства"
+msgstr "Вивантажити схрещування та родини потомства"
 
 #: mason/breeders_toolbox/download.mas:763
 msgctxt "lists_datasets.download.download_genotypes"
 msgid "Download Genotypes"
-msgstr "Завантажити генотипи"
+msgstr "Вивантажити генотипи"
 
 #: mason/breeders_toolbox/download.mas:133
 msgctxt "lists_datasets.download.download_metadata"
 msgid "Download Metadata"
-msgstr "Завантажити метадані"
+msgstr "Вивантажити метадані"
 
 #: mason/breeders_toolbox/download.mas:699
 #: mason/transformation/manage_transformation.mas:14
 msgctxt "lists_datasets.download.download_obsolete_metadata"
 msgid "Download Obsolete Metadata"
-msgstr "Завантажити метадані застарілих записів"
+msgstr "Вивантажити метадані застарілих записів"
 
 #: mason/breeders_toolbox/download.mas:374
 msgctxt "lists_datasets.download.download_pedigrees"
 msgid "Download Pedigrees"
-msgstr "Завантажити родоводи"
+msgstr "Вивантажити родоводи"
 
 #: mason/breeders_toolbox/download.mas:20
 msgctxt "lists_datasets.download.download_phenotypes_using_lists"
 msgid "Download Phenotypes Using Lists"
-msgstr "Завантажити фенотипи за списками"
+msgstr "Вивантажити фенотипи за списками"
 
 #: mason/breeders_toolbox/download.mas:555
 msgctxt "lists_datasets.download.download_seedlot_details"
 msgid "Download Seedlot Details"
-msgstr "Завантажити відомості про партії насіння"
+msgstr "Вивантажити відомості про партії насіння"
 
 #: mason/breeders_toolbox/download.mas:622
 msgctxt "lists_datasets.download.download_seedlot_maintenance_events"
 msgid "Download Seedlot Maintenance Events"
-msgstr "Завантажити події роботи з партіями насіння"
+msgstr "Вивантажити події роботи з партіями насіння"
 
 #: mason/breeders_toolbox/download.mas:11
 msgctxt "lists_datasets.download.download_using_lists"
 msgid "Download Using Lists"
-msgstr "Завантаження за списками"
+msgstr "Вивантаження за списками"
 
 #: mason/breeders_toolbox/download.mas:77
 msgctxt "lists_datasets.download.exclude_phenotype_outliers"
@@ -2757,7 +2757,7 @@ msgstr "Потрібно вибрати зразок, дослід або оби
 #: lib/SGN/Controller/AJAX/FileShareDump.pm:99
 msgctxt "lists_datasets.fileshare_api.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: lib/SGN/Controller/AJAX/FileShareDump.pm:63
 msgctxt "lists_datasets.fileshare_api.upload_store_failed"
@@ -2802,7 +2802,7 @@ msgstr "Опис"
 #: mason/dataset/outliers.mas:47
 msgctxt "lists_datasets.pages.download_phenotype_table_without_outliers"
 msgid "Download Phenotype Table without outliers"
-msgstr "Завантажити таблицю фенотипів без викидів"
+msgstr "Вивантажити таблицю фенотипів без викидів"
 
 #: mason/dataset/index.mas:50 mason/dataset/index.mas:69
 msgctxt "lists_datasets.pages.edit"
@@ -3053,12 +3053,12 @@ msgstr "Перевірка набору даних не пройшла"
 #: mason/site/list.mas:156 mason/site/list.mas:233
 msgctxt "lists_datasets.shared.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/site/list.mas:230
 msgctxt "lists_datasets.shared.download_column"
 msgid "Download column:"
-msgstr "Завантажити стовпець:"
+msgstr "Вивантажити стовпець:"
 
 #: mason/site/dataset.mas:78 mason/site/list.mas:76
 msgctxt "lists_datasets.shared.elements_not_found"

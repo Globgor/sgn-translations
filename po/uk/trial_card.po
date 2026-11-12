@@ -770,23 +770,23 @@ msgstr "Зразки тканин"
 #: mason/breeders_toolbox/trial/download_layout_interface_dialog.mas:27
 msgctxt "fieldbook.export.title"
 msgid "Download %{type} for %{trial}"
-msgstr "Завантажити %{type} для %{trial}"
+msgstr "Вивантажити %{type} для %{trial}"
 
 # Model-draft whole mode-title messages; human editorial review pending.
 #: mason/breeders_toolbox/trial/download_layout_interface_dialog.mas:15
 msgctxt "fieldbook.export.title_fieldbook"
 msgid "Download Fieldbook for %{trial}"
-msgstr "Завантажити Fieldbook для %{trial}"
+msgstr "Вивантажити Fieldbook для %{trial}"
 
 #: mason/breeders_toolbox/trial/download_layout_interface_dialog.mas:23
 msgctxt "fieldbook.export.title_trial_field_map"
 msgid "Download trial field map for %{trial}"
-msgstr "Завантажити карту поля досліду для %{trial}"
+msgstr "Вивантажити карту поля досліду для %{trial}"
 
 #: mason/breeders_toolbox/trial/download_layout_interface_dialog.mas:19
 msgctxt "fieldbook.export.title_trial_layout"
 msgid "Download trial layout for %{trial}"
-msgstr "Завантажити план досліду для %{trial}"
+msgstr "Вивантажити план досліду для %{trial}"
 
 #: mason/breeders_toolbox/trial/download_layout_interface_dialog.mas:187
 #: mason/breeders_toolbox/trial/download_layout_interface_dialog.mas:195
@@ -882,13 +882,13 @@ msgstr "Папку успішно видалено."
 #: mason/breeders_toolbox/folder/folder.mas:79
 msgctxt "folder.detail.download_phenotypes"
 msgid "Download Phenotypes"
-msgstr "Завантажити фенотипи"
+msgstr "Вивантажити фенотипи"
 
 #: mason/breeders_toolbox/folder/folder.mas:156
 #: mason/breeders_toolbox/genotyping_trials/download_genotyping_trial_layouts_dialogs.mas:11
 msgctxt "folder.detail.download_plate_layouts"
 msgid "Download Genotyping Plate Layouts"
-msgstr "Завантажити схеми генотипувальних планшетів"
+msgstr "Вивантажити схеми генотипувальних планшетів"
 
 #: mason/breeders_toolbox/folder/folder.mas:195
 msgctxt "folder.detail.folder_breeding_program"
@@ -1530,7 +1530,7 @@ msgstr "Документація досліду, наприклад проток
 #: mason/breeders_toolbox/trial/upload_additional_file.mas:147
 msgctxt "trial.additional_file.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/breeders_toolbox/trial/upload_additional_file.mas:62
 msgctxt "trial.additional_file.examples"
@@ -1704,7 +1704,7 @@ msgstr "Видалити карту"
 #: mason/breeders_toolbox/trial/trial_coords.mas:63
 msgctxt "trial.card.coords.download_image"
 msgid "Download as Image"
-msgstr "Завантажити як зображення"
+msgstr "Вивантажити як зображення"
 
 #: mason/breeders_toolbox/trial/trial_coords.mas:45
 msgctxt "trial.card.coords.even_blocks"
@@ -2319,7 +2319,7 @@ msgstr "Додати нове зображення"
 #: mason/breeders_toolbox/trial.mas:227
 msgctxt "trial.card.page.action_images_download"
 msgid "Download Images"
-msgstr "Завантажити зображення"
+msgstr "Вивантажити зображення"
 
 #: mason/breeders_toolbox/trial.mas:220
 msgctxt "trial.card.page.action_nirs"
@@ -2501,7 +2501,7 @@ msgstr "Перегляд перебігу цього досліду."
 #: mason/breeders_toolbox/trial.mas:216
 msgctxt "trial.card.page.help_summary"
 msgid "View and download uploaded phenotype data."
-msgstr "Перегляд і завантаження наданих фенотипових даних."
+msgstr "Перегляд і вивантаження завантажених фенотипових даних."
 
 #: mason/breeders_toolbox/trial.mas:221
 msgctxt "trial.card.page.help_upload"
@@ -2901,12 +2901,12 @@ msgstr "Має дизайн поля"
 #: mason/breeders_toolbox/trial/trial_status.mas:50
 msgctxt "trial.card.status.has_field_design_tip"
 msgid "This trial has a design type saved. You can view and download this information in the Design section on this page."
-msgstr "Для цього досліду збережено тип дизайну. Переглянути й завантажити ці відомості можна в розділі «Дизайн» на цій сторінці."
+msgstr "Для цього досліду збережено тип дизайну. Переглянути й вивантажити ці відомості можна в розділі «Дизайн» на цій сторінці."
 
 #: mason/breeders_toolbox/trial/trial_status.mas:105
 msgctxt "trial.card.status.has_layout_tip"
 msgid "This trial has plots and their layout information saved in the database. All relationships between accessions, plots, seedlots, plants, and subplots are consistent. You can view and download this information in the Design section on this page."
-msgstr "Для цього досліду збережено ділянки та їхню схему. Усі зв’язки між зразками, ділянками, партіями насіння, рослинами й підділянками узгоджені. Переглянути й завантажити ці дані можна в розділі «Дизайн» на цій сторінці."
+msgstr "Для цього досліду збережено ділянки та їхню схему. Усі зв’язки між зразками, ділянками, партіями насіння, рослинами й підділянками узгоджені. Переглянути й вивантажити ці дані можна в розділі «Дизайн» на цій сторінці."
 
 #: mason/breeders_toolbox/trial/trial_status.mas:142
 msgctxt "trial.card.status.has_phenotypes_label"
@@ -2982,7 +2982,7 @@ msgstr "Для цього досліду не збережено партій н
 #: mason/breeders_toolbox/trial/trial_status.mas:142
 msgctxt "trial.card.status.phenotypes_tip"
 msgid "This trial has phenotypes saved. You can view and download this data in the Traits Assayed section on this page."
-msgstr "Для цього досліду збережено фенотипові дані. Переглянути й завантажити їх можна в розділі «Виміряні ознаки» на цій сторінці."
+msgstr "Для цього досліду збережено фенотипові дані. Переглянути й вивантажити їх можна в розділі «Виміряні ознаки» на цій сторінці."
 
 #: mason/breeders_toolbox/trial/trial_status.mas:73
 #: mason/breeders_toolbox/trial/trial_status.mas:75
@@ -3099,7 +3099,7 @@ msgstr "Сталася неочікувана помилка. Відповідь
 #: mason/breeders_toolbox/trial/trial_entry_numbers_template_dialog.mas:80
 msgctxt "trial.common.download_template"
 msgid "Download Template"
-msgstr "Завантажити шаблон"
+msgstr "Вивантажити шаблон"
 
 #: mason/breeders_toolbox/trial/add_plants_per_plot.mas:230
 #: mason/breeders_toolbox/trial/add_plants_per_plot.mas:328
@@ -3723,12 +3723,12 @@ msgid ""
 "                  you want to assign an entry number to.  An entry number is not required for each Accession, but each entry number \n"
 "                  should be unique for this set of Trial(s).  Once you have filled out the template, you can upload it to the database \n"
 "                  using the <strong>Upload Template</strong> function."
-msgstr "Завантажте створений шаблон і заповніть стовпець <strong>entry_number</strong> для кожного зразка, якому потрібно призначити номер запису.  Номер запису потрібен не для кожного зразка, але кожен номер має бути унікальним для цього набору дослідів.  Заповнивши шаблон, завантажте його до бази даних за допомогою функції <strong>Завантажити шаблон</strong>."
+msgstr "Вивантажте створений шаблон і заповніть стовпець <strong>entry_number</strong> для кожного зразка, якому потрібно призначити номер запису.  Номер запису потрібен не для кожного зразка, але кожен номер має бути унікальним для цього набору дослідів.  Заповнивши шаблон, завантажте його до бази даних за допомогою функції <strong>Завантажити шаблон</strong>."
 
 #: mason/breeders_toolbox/trial/trial_entry_numbers_template_dialog.mas:70
 msgctxt "trial.entry_template.download_title"
 msgid "Download Entry Number Template"
-msgstr "Завантажити шаблон номерів записів"
+msgstr "Вивантажити шаблон номерів записів"
 
 #: mason/breeders_toolbox/trial/trial_entry_numbers_template_dialog.mas:198
 #: mason/breeders_toolbox/trial/trial_entry_numbers_template_dialog.mas:203
@@ -3775,7 +3775,7 @@ msgstr "Згенерувати шаблон номерів записів"
 #: mason/breeders_toolbox/trial/trial_entry_numbers_template_dialog.mas:26
 msgctxt "trial.entry_template.workflow_help"
 msgid "This workflow will generate an Excel spreadsheet which can be used to upload entry numbers (numbers assigned to acccessions in a set of trials).  In the first step, select one or more trials you want to assign accession entry numbers.  Then, download the Excel template containing the selected trials' accessions.  Once you have the entry numbers filled in, use the <strong>Upload Template</strong> function to upload the accession numbers to the database."
-msgstr "Цей процес створить таблицю Excel для завантаження номерів записів (номерів, призначених зразкам у наборі дослідів).  На першому кроці виберіть один або кілька дослідів, яким потрібно призначити номери зразків. Потім завантажте шаблон Excel зі зразками вибраних дослідів. Заповнивши номери записів, скористайтеся функцією <strong>Завантажити шаблон</strong>, щоб завантажити номери зразків до бази даних."
+msgstr "Цей процес створить таблицю Excel для завантаження номерів записів (номерів, призначених зразкам у наборі дослідів).  На першому кроці виберіть один або кілька дослідів, яким потрібно призначити номери зразків. Потім вивантажте шаблон Excel зі зразками вибраних дослідів. Заповнивши номери записів, скористайтеся функцією <strong>Завантажити шаблон</strong>, щоб завантажити номери зразків до бази даних."
 
 #: lib/CXGN/Trial/Download/Plugin/ExcelAssociatedImages.pm:77
 #: lib/CXGN/Trial/Download/Plugin/ExcelBasic.pm:164
@@ -4128,17 +4128,17 @@ msgstr "Подвійне клацання"
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:198
 msgctxt "trial.fieldmap_edit.download_harvest_order"
 msgid "Download Harvesting Order"
-msgstr "Завантажити порядок збирання"
+msgstr "Вивантажити порядок збирання"
 
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:223
 msgctxt "trial.fieldmap_edit.download_map"
 msgid "Download Map"
-msgstr "Завантажити карту"
+msgstr "Вивантажити карту"
 
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:200
 msgctxt "trial.fieldmap_edit.download_plant_order"
 msgid "Download Planting Order"
-msgstr "Завантажити порядок сівби"
+msgstr "Вивантажити порядок сівби"
 
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:185
 msgctxt "trial.fieldmap_edit.editing_options"
@@ -4188,12 +4188,12 @@ msgstr "Подвійне клацання ділянки відкриває її
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:224
 msgctxt "trial.fieldmap_edit.help.download_map_help"
 msgid "Field Map can be downloaded as image using the download button below the map."
-msgstr "Карту поля можна завантажити як зображення кнопкою під картою."
+msgstr "Карту поля можна вивантажити як зображення кнопкою під картою."
 
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:199
 msgctxt "trial.fieldmap_edit.help.harvest_help"
 msgid "This button allows you to download an excel file which has an incrementally ordered list of the harvesting order for your trial based on the current layout of the field map. You can play around with the four options given to experiment with the different traversal patterns available. The harvesting order file will omit border plots, but it will include filler plots."
-msgstr "Ця кнопка завантажує файл Excel із послідовним порядком збирання для досліду відповідно до поточної карти поля. Спробуйте чотири варіанти, щоб переглянути доступні схеми обходу. Файл порядку збирання не міститиме крайових ділянок, але міститиме ділянки-заповнювачі."
+msgstr "Ця кнопка вивантажує файл Excel із послідовним порядком збирання для досліду відповідно до поточної карти поля. Спробуйте чотири варіанти, щоб переглянути доступні схеми обходу. Файл порядку збирання не міститиме крайових ділянок, але міститиме ділянки-заповнювачі."
 
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:207
 msgctxt "trial.fieldmap_edit.help.heatmap_help"
@@ -4223,7 +4223,7 @@ msgstr "- Змінювати фізичну схему можна лише до 
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:201
 msgctxt "trial.fieldmap_edit.help.plant_help"
 msgid "This button allows you to download an excel file which has an incrementally ordered list of the planting order for your trial. It is very similar to the harvesting order, but since you will need to plant the borders too, it includes the border plots in the traversal of your map."
-msgstr "Ця кнопка завантажує файл Excel із послідовністю сівби для досліду. Вона подібна до порядку збирання, але включає крайові ділянки, які також потрібно засіяти."
+msgstr "Ця кнопка вивантажує файл Excel із послідовністю сівби для досліду. Вона подібна до порядку збирання, але включає крайові ділянки, які також потрібно засіяти."
 
 #: mason/breeders_toolbox/trial/edit_fieldMap.mas:189
 msgctxt "trial.fieldmap_edit.help.replace_plot_help"
@@ -4641,7 +4641,7 @@ msgstr "Дата завантаження"
 #: mason/breeders_toolbox/trial/files_section.mas:75
 msgctxt "trial.files.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/breeders_toolbox/trial/files_section.mas:32
 msgctxt "trial.files.fieldbook_exported"
@@ -5000,23 +5000,23 @@ msgstr "Дослід не має коректної схеми розміщен�
 #: lib/CXGN/Trial/TrialLayoutDownload.pm:307
 msgctxt "trial.layout_export.no_plants"
 msgid "Trial does not have plants, so you should not try to download a plant level layout."
-msgstr "Дослід не має рослин, тому не слід завантажувати схему на рівні рослин."
+msgstr "Дослід не має рослин, тому не слід вивантажувати схему на рівні рослин."
 
 #: lib/CXGN/Trial/TrialLayoutDownload.pm:319
 msgctxt "trial.layout_export.no_subplots"
 msgid "Trial does not have subplots, so you should not try to download a subplot level layout."
-msgstr "Дослід не має підділянок, тому не слід завантажувати схему на рівні підділянок."
+msgstr "Дослід не має підділянок, тому не слід вивантажувати схему на рівні підділянок."
 
 #: lib/CXGN/Trial/TrialLayoutDownload.pm:331
 msgctxt "trial.layout_export.no_tissue_samples"
 msgid "Trial does not have tissue samples, so you should not try to download a tissue sample level layout."
-msgstr "Дослід не має зразків тканин, тому не слід завантажувати схему на рівні зразків тканин."
+msgstr "Дослід не має зразків тканин, тому не слід вивантажувати схему на рівні зразків тканин."
 
 #: mason/breeders_toolbox/trial.mas:194 mason/breeders_toolbox/trial.mas:196
 #: mason/breeders_toolbox/trial.mas:201
 msgctxt "trial.layout_export.open"
 msgid "Download Layout"
-msgstr "Завантажити схему досліду"
+msgstr "Вивантажити схему досліду"
 
 #: js/source/entries/field_trial_linkage.js:395
 msgctxt "trial.linkage.error"
@@ -5989,7 +5989,7 @@ msgstr "Схема"
 #: mason/search/trials.mas:29
 msgctxt "trial.search.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/search/trials.mas:22
 msgctxt "trial.search.folder"
@@ -6064,7 +6064,7 @@ msgstr "Ви не маєте права доступу до сторінки н�
 #: lib/SGN/Controller/AJAX/Search/Trial.pm:67
 msgctxt "trial.server.download_plot_layout"
 msgid "Download Plot Layout"
-msgstr "Завантажити схему ділянок"
+msgstr "Вивантажити схему ділянок"
 
 #: lib/SGN/Controller/Folder.pm:109
 msgctxt "trial.server.folder_deleted"
@@ -6120,7 +6120,7 @@ msgstr "Опис"
 #: mason/breeders_toolbox/trial/trial_soil_data.mas:44
 msgctxt "trial.soil_table.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/breeders_toolbox/trial/trial_soil_data.mas:41
 msgctxt "trial.soil_table.gps"
@@ -6321,7 +6321,7 @@ msgstr "Зразки тканин"
 #: mason/breeders_toolbox/trial/create_spreadsheet_dialog.mas:14
 msgctxt "trial.spreadsheet.title"
 msgid "Download Phenotype Spreadsheet for %{trial_name}"
-msgstr "Завантажити таблицю фенотипів досліду %{trial_name}"
+msgstr "Вивантажити таблицю фенотипів досліду %{trial_name}"
 
 #: mason/breeders_toolbox/trial/create_spreadsheet_dialog.mas:36
 msgctxt "trial.spreadsheet.trait_list"
@@ -6763,7 +6763,7 @@ msgstr "Унікальний ID схрещування"
 #: mason/breeders_toolbox/trial/summary_stock_entries.mas:13
 msgctxt "trial.summary_stock.download"
 msgid "Download Entries"
-msgstr "Завантажити матеріали"
+msgstr "Вивантажити матеріали"
 
 #: mason/breeders_toolbox/trial/summary_stock_entries.mas:27
 msgctxt "trial.summary_stock.family_name"
@@ -6893,22 +6893,22 @@ msgstr "Двічі клацніть"
 #: mason/breeders_toolbox/trialtreefolders.mas:46
 msgctxt "trial.tree.download"
 msgid "Download Phenotypes"
-msgstr "Завантажити фенотипи"
+msgstr "Вивантажити фенотипи"
 
 #: mason/breeders_toolbox/trialtreefolders.mas:44
 msgctxt "trial.tree.download_heading"
 msgid "Download Trial Phenotypes"
-msgstr "Завантаження фенотипів дослідів"
+msgstr "Вивантаження фенотипів дослідів"
 
 #: mason/breeders_toolbox/trialtreefolders.mas:46
 msgctxt "trial.tree.download_hint"
 msgid "First Select Trial(s) to Download"
-msgstr "Спочатку виберіть досліди для завантаження"
+msgstr "Спочатку виберіть досліди для вивантаження"
 
 #: mason/breeders_toolbox/trialtree.mas:24
 msgctxt "trial.tree.download_trial"
 msgid "Download Trial"
-msgstr "Завантажити дослід"
+msgstr "Вивантажити дослід"
 
 #: mason/breeders_toolbox/trialtreefolders.mas:61
 msgctxt "trial.tree.edit"
@@ -7005,7 +7005,7 @@ msgstr "Щоб вибрати кілька папок, утримуйте кла
 #: mason/breeders_toolbox/trialtree.mas:26
 msgctxt "trial.tree.select_trial_tip"
 msgid "First Select a Trial to Download"
-msgstr "Спочатку виберіть дослід для завантаження"
+msgstr "Спочатку виберіть дослід для вивантаження"
 
 #: mason/breeders_toolbox/trialtreefolders.mas:45
 msgctxt "trial.tree.select_trials"
@@ -7496,7 +7496,7 @@ msgstr "Кількість стовпців на ділянку"
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:458
 msgctxt "trial.upload.form.cross_info"
 msgid "If you go on to perform crosses on this field trial, each cross can be linked to specific female and male plots. When you upload these crosses we can then automatically link this field trial to the crossing experiment in the database."
-msgstr "Якщо ви проводитимете схрещування в цьому польовому досліді, кожне схрещування можна пов’язати з конкретними материнською та батьківською ділянками. Коли ви завантажите ці схрещування до системи, польовий дослід буде автоматично пов’язано з дослідом зі схрещування в базі даних."
+msgstr "Якщо ви проводитимете схрещування в цьому польовому досліді, кожне схрещування можна пов’язати з конкретними материнською та батьківською ділянками. Коли ви завантажите ці схрещування, польовий дослід буде автоматично пов’язано з дослідом зі схрещування в базі даних."
 
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas:373
 msgctxt "trial.upload.form.design_type_label"

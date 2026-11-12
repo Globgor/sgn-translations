@@ -103,7 +103,7 @@ msgstr "Спроєктувати новий дослід"
 #: mason/breeders_toolbox/trial/create_datacollector_dialog.mas:14
 msgctxt "collection.download_datacollector_for"
 msgid "Download Datacollector for "
-msgstr "Завантажити Datacollector для "
+msgstr "Вивантажити Datacollector для "
 
 #: mason/breeders_toolbox/manage_upload.mas:134
 msgctxt "collection.go_to_accessions_search"
@@ -592,7 +592,7 @@ msgstr "Field Book — це застосунок для збору феноти�
 #: mason/fieldbook/home.mas:64
 msgctxt "fieldbook.layout.move_files"
 msgid "Once you have created and downloaded your Field Layout and Trait files, move them onto your mobile device into the Field Book directories (generally %{layout_path} for your Field Layout Files and %{trait_path} for your trait files.)"
-msgstr "Створивши й завантаживши файли польової схеми та ознак, перенесіть їх на мобільний пристрій у каталоги Field Book (зазвичай %{layout_path} для файлів польової схеми та %{trait_path} для файлів ознак)."
+msgstr "Створивши й вивантаживши файли польової схеми та ознак, перенесіть їх на мобільний пристрій у каталоги Field Book (зазвичай %{layout_path} для файлів польової схеми та %{trait_path} для файлів ознак)."
 
 #: mason/fieldbook/home.mas:62
 msgctxt "fieldbook.layout.software"
@@ -757,7 +757,7 @@ msgstr "Файл ознак створено"
 #: mason/fieldbook/create_trait_file_dialog.mas:65
 msgctxt "fieldbook.trait.ui.download"
 msgid "Download File"
-msgstr "Завантажити файл"
+msgstr "Вивантажити файл"
 
 #: mason/fieldbook/create_trait_file_dialog.mas:35
 #: mason/order/create_ontology_file_dialog.mas:20
@@ -814,7 +814,7 @@ msgstr "Видалити файл"
 #: mason/fieldbook/home.mas:83 mason/fieldbook/home.mas:98
 msgctxt "fieldbook.ui.download_file"
 msgid "Download File"
-msgstr "Завантажити файл"
+msgstr "Вивантажити файл"
 
 #: mason/fieldbook/home.mas:74 mason/fieldbook/home.mas:93
 msgctxt "fieldbook.ui.new"

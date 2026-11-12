@@ -498,32 +498,32 @@ msgstr "Зняти весь вибір"
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:14
 msgctxt "phenotype.download_high_dimensional_phenotype_data"
 msgid "Download High-Dimensional Phenotype Data"
-msgstr "Завантажити високовимірні фенотипові дані"
+msgstr "Вивантажити високовимірні фенотипові дані"
 
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:14
 msgctxt "phenotype.download_high_dimensional_phenotype_relationship_matrix"
 msgid "Download High-Dimensional Phenotype Relationship Matrix"
-msgstr "Завантажити матрицю спорідненості за високовимірними фенотиповими даними"
+msgstr "Вивантажити матрицю спорідненості за високовимірними фенотиповими даними"
 
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:92
 msgctxt "phenotype.download_high_dimensional_phenotypes"
 msgid "Download high dimensional phenotypes"
-msgstr "Завантажити високовимірні фенотипові дані"
+msgstr "Вивантажити високовимірні фенотипові дані"
 
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:92
 msgctxt "phenotype.download_high_dimensional_phenotypes_relationship_matrix"
 msgid "Download high dimensional phenotypes relationship matrix"
-msgstr "Завантажити матрицю спорідненості високовимірних фенотипових даних"
+msgstr "Вивантажити матрицю спорідненості високовимірних фенотипових даних"
 
 #: mason/breeders_toolbox/trial/download_phenotypes_dialog.mas:24
 msgctxt "phenotype.download_phenotypes_for"
 msgid "Download Phenotypes for"
-msgstr "Завантажити фенотипові дані для"
+msgstr "Вивантажити фенотипові дані для"
 
 #: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:20
 msgctxt "phenotype.download_phenotypes_for_trials"
 msgid "Download Phenotypes for Trials"
-msgstr "Завантажити фенотипові дані дослідів"
+msgstr "Вивантажити фенотипові дані дослідів"
 
 #: mason/breeders_toolbox/add_new_trait_dialogs.mas:112
 #: mason/breeders_toolbox/add_new_trait_dialogs.mas:118
@@ -643,12 +643,12 @@ msgstr "Тип обладнання:"
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:224
 msgctxt "phenotype.error_downloading_high_dim_phenotype_file"
 msgid "Error downloading high dim phenotype file!"
-msgstr "Помилка завантаження файлу високовимірних фенотипових даних!"
+msgstr "Помилка вивантаження файлу високовимірних фенотипових даних!"
 
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:214
 msgctxt "phenotype.error_downloading_high_dim_phenotype_relationship_matrix_file"
 msgid "Error downloading high dim phenotype relationship matrix file!"
-msgstr "Помилка завантаження файлу матриці спорідненості високовимірних фенотипових даних!"
+msgstr "Помилка вивантаження файлу матриці спорідненості високовимірних фенотипових даних!"
 
 #: mason/breeders_toolbox/manage_plot_phenotyping.mas:230
 #: mason/breeders_toolbox/manage_trial_phenotyping.mas:337
@@ -1870,7 +1870,7 @@ msgstr "retention_time (обов’язково)"
 #: cgi-bin/phenotype/display_image_and_data.pl:91
 msgctxt "phenotype.root.a_downloadable_copy_is_not_available_at_this_time"
 msgid "A downloadable copy is not available at this time."
-msgstr "Копія для завантаження наразі недоступна."
+msgstr "Копія для вивантаження наразі недоступна."
 
 #: cgi-bin/phenotype/population.pl:116
 msgctxt "phenotype.root.a_group_of_organisms_sharing_a_specific_genetic_constitution.b9c527b"
@@ -2227,12 +2227,12 @@ msgstr "Показати зображення"
 #: cgi-bin/phenotype/display_image_and_data.pl:87
 msgctxt "phenotype.root.download"
 msgid "download"
-msgstr "завантажте"
+msgstr "вивантажте"
 
 #: mason/tools/trait_designer.mas:116
 msgctxt "phenotype.root.download_trait_ontology"
 msgid "Download trait ontology..."
-msgstr "Завантажити онтологію ознак..."
+msgstr "Вивантажити онтологію ознак..."
 
 #: js/source/legacy/CXGN/SelectionIndex.js:165
 #: js/source/legacy/CXGN/SelectionIndex.js:236
@@ -3620,7 +3620,7 @@ msgstr "Виберіть:"
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:81
 msgctxt "phenotype.select_a_dataset_for_the_data_to_download"
 msgid "Select a dataset for the data to download"
-msgstr "Виберіть набір даних для завантаження"
+msgstr "Виберіть набір даних для вивантаження"
 
 #: mason/breeders_toolbox/selection_index.mas:159
 msgctxt "phenotype.select_a_formula"
@@ -3641,7 +3641,7 @@ msgstr "Виберіть протокол отримання даних або �
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:70
 msgctxt "phenotype.select_a_protocol_for_the_data_to_download"
 msgid "Select a protocol for the data to download"
-msgstr "Виберіть протокол даних для завантаження"
+msgstr "Виберіть протокол даних для вивантаження"
 
 #: mason/breeders_toolbox/selection_index.mas:157
 msgctxt "phenotype.select_a_trial_or_analysis"
@@ -3687,7 +3687,7 @@ msgstr "Виберіть тип високовимірних даних для �
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:37
 msgctxt "phenotype.select_the_type_of_high_dimensional_data_to_download"
 msgid "Select the type of high-dimensional data to download"
-msgstr "Виберіть тип високовимірних даних для завантаження"
+msgstr "Виберіть тип високовимірних даних для вивантаження"
 
 #: mason/breeders_toolbox/manage_plot_phenotyping.mas:32
 #: mason/breeders_toolbox/manage_trial_phenotyping.mas:66
@@ -3793,7 +3793,7 @@ msgstr "Потрібно вибрати онтологію ознак, до як
 #: lib/SGN/Controller/AJAX/PhenotypesDownload.pm:56
 msgctxt "phenotype.server.you_need_to_be_logged_in_to_download"
 msgid "You need to be logged in to download a phenotype spreadsheet."
-msgstr "Для завантаження таблиці фенотипів потрібно увійти."
+msgstr "Для вивантаження таблиці фенотипів потрібно увійти."
 
 #: mason/phenotypes/submission_guide.mas:14
 msgctxt "phenotype.sgn_phenotype_submission_guide"
@@ -3879,7 +3879,7 @@ msgstr "Виключати фенотипові викиди, визначені
 #: mason/breeders_toolbox/selection_index.mas:127
 msgctxt "phenotype.tabs_of_the_results_section_where_they_can_be_manipulated"
 msgid "tabs of the results section, where they can be manipulated, copied and downloaded. Below the results table, users have the option to"
-msgstr "розділу результатів, де їх можна змінювати, копіювати й завантажувати. Під таблицею результатів можна"
+msgstr "розділу результатів, де їх можна змінювати, копіювати й вивантажувати. Під таблицею результатів можна"
 
 #: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:322
 msgctxt "phenotype.targeted"
@@ -3962,12 +3962,12 @@ msgstr ": Назва має збігатися з назвою стовпця у
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_relationship_matrix_dialogs.mas:21
 msgctxt "phenotype.this_workflow_will_guide_you_through_downloading_a_relationship_matrix"
 msgid "This workflow will guide you through downloading a relationship matrix from high-dimensional data from the database."
-msgstr "Цей процес допоможе завантажити з бази даних матрицю спорідненості, побудовану за високовимірними даними."
+msgstr "Цей процес допоможе вивантажити з бази даних матрицю спорідненості, побудовану за високовимірними даними."
 
 #: mason/tools/high_dimensional_phenotypes/download_high_dim_phenotypes_dialogs.mas:21
 msgctxt "phenotype.this_workflow_will_guide_you_through_downloading_high_dimensional_data"
 msgid "This workflow will guide you through downloading high-dimensional data from the database."
-msgstr "Цей процес допоможе завантажити високовимірні дані з бази даних."
+msgstr "Цей процес допоможе вивантажити високовимірні дані з бази даних."
 
 #: mason/tools/high_dimensional_phenotypes/upload_high_dim_spreadsheet_dialogs.mas:31
 msgctxt "phenotype.this_workflow_will_guide_you_through_uploading_high_dimensional_data"
@@ -5230,7 +5230,7 @@ msgstr "Помилка заміни зразка на ділянці: "
 #: mason/breeders_toolbox/trial.mas:216
 msgctxt "trial.card.page.action_download"
 msgid "Download Trial Data"
-msgstr "Завантажити дані досліду"
+msgstr "Вивантажити дані досліду"
 
 #: cgi-bin/phenotype/display_image_and_data.pl:49
 #: cgi-bin/phenotype/display_plants_from_property.pl:64
@@ -5334,12 +5334,12 @@ msgstr "Помилка відображення теплової карти ви
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas:273
 msgctxt "trial.heatmap.download_plot_order"
 msgid "Download Plot Order"
-msgstr "Завантажити порядок ділянок"
+msgstr "Вивантажити порядок ділянок"
 
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas:276
 msgctxt "trial.heatmap.download_type"
 msgid "Download Type:"
-msgstr "Тип завантаження:"
+msgstr "Тип вивантаження:"
 
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas:613
 msgctxt "trial.heatmap.edit_plot_info"
@@ -5711,7 +5711,7 @@ msgstr "Приховати вимірювання фенотипу ділянк�
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas:401
 msgctxt "trial.heatmap.suppressed_measurement_help"
 msgid "Suppressed measurement will be seen as an outlier and can be excluded during phenotype analysis and download."
-msgstr "Приховане вимірювання буде позначене як викид і його можна буде виключити під час аналізу фенотипу та завантаження даних."
+msgstr "Приховане вимірювання буде позначене як викид і його можна буде виключити під час аналізу фенотипу та вивантаження даних."
 
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas:240
 msgctxt "trial.heatmap.top_border"
@@ -5834,7 +5834,7 @@ msgstr "Назва схрещування/зразка"
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas:556
 msgctxt "trial.spatial_export.download"
 msgid "Download"
-msgstr "Завантажити"
+msgstr "Вивантажити"
 
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas:527
 msgctxt "trial.spatial_export.include"
@@ -5859,11 +5859,11 @@ msgstr "Номер ділянки"
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas:520
 msgctxt "trial.spatial_export.title"
 msgid "Download Spatial Layout Options"
-msgstr "Параметри завантаження просторової схеми"
+msgstr "Параметри вивантаження просторової схеми"
 
 #: mason/breeders_toolbox/trial/download_trials_phenotypes_dialog.mas:249
 #: mason/breeders_toolbox/trialtree.mas:102
 #: mason/breeders_toolbox/trialtree.mas:111
 msgctxt "trial.tree.no_leaf_nodes"
 msgid "No leaf nodes selected for download."
-msgstr "Не вибрано жодного кінцевого елемента для завантаження."
+msgstr "Не вибрано жодного кінцевого елемента для вивантаження."

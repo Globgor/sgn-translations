@@ -1,9 +1,14 @@
 # Ukrainian terminology rules for tools/check_catalogs.py.
-# One rule per line: forbidden<TAB>preferred<TAB>optional note.
+# One rule per line: forbidden<TAB>preferred<TAB>optional note<TAB>optional English regex.
 # The forbidden text is matched case-insensitively anywhere in a translation,
-# so a word stem (for example "акцесі") catches every word form.
+# so a word stem (for example "акцесі") catches every word form. With the
+# fourth column the rule applies only to messages whose English text matches
+# that Python regular expression.
 #
-# EMPTY ON PURPOSE: the rules wait until the owner confirms glossary/uk.md
-# (a draft, not yet confirmed). Add only confirmed choices here.
+# Add only confirmed choices here (glossary/uk.md is otherwise a draft).
+# Confirmed 2026-11-12: Upload = «завантажити», Download = «вивантажити».
+# Messages that mention both, or a "Load" button, are checked by review.
+завантаж	вивантаж	Download is «вивантажити»	(?is)^(?!.*upload)(?!.*\bload).*download
+вивантаж	завантаж	Upload is «завантажити»	(?is)^(?!.*download).*upload
 # Open decision: "Location" is «місце» (205 translations contain «місц») or «локація» (0);
 # count with: python3 tools/check_catalogs.py --language uk --count 'REGEX'
