@@ -16,8 +16,10 @@
 # .
 # SPDX-FileCopyrightText: 2010 Maxim V. Dziumanenko <dziumanenko@gmail.com>
 # SPDX-FileCopyrightText: 2010-2013, 2015, 2023 Yuri Chornoivan <yurchor@ukr.net>
+# Only the locations.country.* messages (program_locations.po) are adapted from
+# iso-codes (LGPL-2.1-or-later); the other messages are MIT (LICENSE).
 # See docs/TRANSLATION_SOURCES.md and LICENSE.iso-codes.
-# SGN internationalization source catalog. Generated; do not edit.
+# SGN interface translations. Edit msgstr only; see docs/TRANSLATOR.md.
 msgid ""
 msgstr ""
 "Project-Id-Version: SGN i18n prototype 1\n"

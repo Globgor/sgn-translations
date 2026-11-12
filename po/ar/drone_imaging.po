@@ -20,8 +20,10 @@
 # SPDX-FileCopyrightText: 2004 Abdulaziz Al-Arfaj <alarfaj0@yahoo.com>
 # SPDX-FileCopyrightText: 2006, 2008, 2010 Ossama M. Khayat <okhayat@yahoo.com>
 # SPDX-FileCopyrightText: 2019 ButterflyOfFire <ButterflyOfFire@protonmail.com>
+# Only the locations.country.* messages (program_locations.po) are adapted from
+# iso-codes (LGPL-2.1-or-later); the other messages are MIT (LICENSE).
 # See docs/TRANSLATION_SOURCES.md and LICENSE.iso-codes.
-# SGN internationalization source catalog. Generated; do not edit.
+# SGN interface translations. Edit msgstr only; see docs/TRANSLATOR.md.
 msgid ""
 msgstr ""
 "Project-Id-Version: SGN i18n prototype 1\n"

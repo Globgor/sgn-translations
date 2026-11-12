@@ -26,8 +26,10 @@
 # SPDX-FileCopyrightText: 2004-2008, 2010 Javier Fernández-Sanguino <jfs@debian.org>
 # SPDX-FileCopyrightText: 2013 zamir <hades_ni@yahoo.com>
 # SPDX-FileCopyrightText: 2023 Kamborio <Kamborio15@users.noreply.hosted.weblate.org>
+# Only the locations.country.* messages (program_locations.po) are adapted from
+# iso-codes (LGPL-2.1-or-later); the other messages are MIT (LICENSE).
 # See docs/TRANSLATION_SOURCES.md and LICENSE.iso-codes.
-# SGN internationalization source catalog. Generated; do not edit.
+# SGN interface translations. Edit msgstr only; see docs/TRANSLATOR.md.
 msgid ""
 msgstr ""
 "Project-Id-Version: SGN i18n prototype 1\n"
