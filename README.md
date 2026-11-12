@@ -28,18 +28,21 @@ on every page are in `common`.
 SGN reads `build/` of this repository. The default place is
 `../sgn-translations/build`, next to the SGN checkout.
 
-If your Breedbase Docker image contains this repository, the files are already
-built. Add two lines to `sgn_local.conf` and restart SGN:
+If your Breedbase Docker image contains this repository and libintl-perl, the
+files are already built. Add two lines to `sgn_local.conf` and restart SGN:
 
 ```text
 i18n_enabled           1
 i18n_enabled_locales   en,uk
 ```
 
+Without libintl-perl SGN stays English. Breedbase images built before this
+repository was added have neither; install them as below.
+
 Manual install on Debian or Ubuntu:
 
 ```sh
-sudo apt-get install gettext libintl-perl make
+sudo apt-get install gettext libintl-perl make python3 git
 git clone https://github.com/Globgor/sgn-translations.git   # next to the sgn folder
 cd sgn-translations
 make
@@ -47,6 +50,7 @@ make
 
 Then add the two lines above and restart SGN. If the files are in another
 place, also set `i18n_dir /absolute/path/to/sgn-translations/build`.
+The user that runs SGN (for example `www-data`) must be able to read `build/`.
 After `git pull`, run `make` again and restart SGN.
 
 ## Translator

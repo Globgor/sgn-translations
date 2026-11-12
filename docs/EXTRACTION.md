@@ -46,6 +46,8 @@ language. Against upstream SGN with 12 files it stops with
   `7bcd519e17` gave the same files as a direct run against `7bcd519e17`.
 - A message whose English text changed gets the old translation as a fuzzy
   guess. The site shows English until a translator confirms it.
+- A new message can also get a fuzzy guess from a similar message, which is
+  often wrong. Read every new fuzzy entry before you confirm it.
 - A plural message that becomes singular keeps only its first form, as fuzzy.
 - A section that has no messages any more loses its file.
 
@@ -61,7 +63,7 @@ templates stay as they are. No translation is lost.
 |---|---|---|---|
 | Not found | 2 | JavaScript passes the English text in parentheses: `SGN.i18n.p("solgs.browser.job_submission_failed", ("Error occurred ..."))` in `js/source/legacy/solGS/solGS.js:412` and `solgs.browser.predicted_output_check_error` in `js/source/legacy/solGS/listTypeSelectionPopulation.js:392`. `xgettext` reads string literals only. | In SGN: remove the parentheses. |
 | Plural lost | 1 | `cgi-bin/phenome/trait.pl:101` gives the plural in an option hash: `translate($i18n, "phenotype.root.population_count_suffix", "populations", undef, {plural => [...]})`. `xgettext` keywords cannot read a hash, so it extracts a singular message. | In SGN: use the plural call (`np` / `tn`) with the plural text as an argument. |
-| New | 2 | `SGN::I18N::translate($c)->p(...)` in `lib/SGN/Controller/Image.pm:24` and `:57` (`community.image.image_not_found`, `community.image.no_image_file_uploaded`). The #6386 extractor did not see them; `xgettext` does. | None needed; they are added untranslated on the next run. |
+| New | 2 | `SGN::I18N::translate($c)->p(...)` in `lib/SGN/Controller/Image.pm:24` and `:57` (`community.image.image_not_found`, `community.image.no_image_file_uploaded`). The #6386 extractor did not see them; `xgettext` does. | None needed in SGN. `msgmerge` adds them as fuzzy guesses from similar messages (uk: «Дослід не знайдено.» for "Image not found."); the site shows English until a translator rewrites and confirms them. |
 | Line numbers | 3 | Multi-line `np(...)` calls in `js/source/legacy/CXGN/List.js`: `xgettext` gives the line of the English text, one line after the call. | None needed. |
 | R files | 31 files, 0 messages | `sources.txt` lists 31 R files; GNU `xgettext` has no R parser. None of them has interface messages now, so nothing is missing. `make templates` prints a warning. | If R messages are added later, they need another route (R's own `tools::xgettext2pot`). |
 

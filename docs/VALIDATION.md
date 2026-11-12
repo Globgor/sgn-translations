@@ -36,6 +36,17 @@ GNU Make 4.4.1, Node 24) has everything `make` needs.
 | libintl-perl 1.35, `gettext_pp` (after `apt-get install libintl-perl`) | `dpgettext` returns the uk text; `dnpgettext` returns the uk plural forms for 1, 2, 5, 11, 21; a fuzzy entry, a changed English text and an unknown key return English; the `.mo` header gives `X-SGN-Language-Name: Українська`, `X-SGN-Direction: ltr` (ar: `rtl`) |
 | `static/js/sgn-i18n.js` of the SGN core branch, under Node | accepts all 87 JSON files; `p` and `np` return the uk texts |
 
+## Corrections (re-check 2026-11-12)
+
+- `make` created `build/` with mode 0700 (`tempfile.mkdtemp`). A web server
+  that runs as another user (`www-data`) could not read it. `tools/build.py`
+  now gives `build/` the mode of the umask; `tools/test_build.py` checks it.
+- Image `breedbase/breedbase@sha256:a4cec576...` has neither libintl-perl nor
+  this repository; `make check` and `make` work in it (output identical to
+  Ubuntu 24.04).
+- `make check` now rejects a translation with some msgstr forms empty; before,
+  it passed the check and the build silently left it out.
+
 ## Not checked
 
 - A running SGN site with these files (the core branch has its own tests).
