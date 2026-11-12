@@ -1,10 +1,10 @@
 # Working Ukrainian glossary for SGN and breeding interfaces
 
-Draft for Alex's review. This is a consistency aid, not an official or approved terminology standard. Terms follow the current Ukrainian SGN catalog where that usage is clear; alternatives and unresolved choices are called out below. Keep actual organism, accession, trait, project, and person names, IDs, units, stored values, machine keys, and file headers exactly as supplied by the data or interface contract.
+Draft for review by a Ukrainian-speaking breeder. This is a consistency aid, not an official or approved terminology standard. Terms follow the current Ukrainian SGN catalog where that usage is clear; alternatives and unresolved choices are called out below. Keep actual organism, accession, trait, project, and person names, IDs, units, stored values, machine keys, and file headers exactly as supplied by the data or interface contract.
 
 | English term | Chosen Ukrainian rendering | Alternatives / disputed choices |
 |---|---|---|
-| Accession | зразок | Current PO uses both «зразок» and «акцесія». Prefer «зразок» for breeder-facing UI; settle one catalog-wide form after Alex reviews it. |
+| Accession | зразок | Current PO uses both «зразок» and «акцесія». Prefer «зразок» for breeder-facing UI; settle one catalog-wide form after review. |
 | Accession name | назва зразка | Keep accession names themselves unchanged. |
 | Accession synonym | синонім зразка | A synonym is an alternate name, not a translated name. |
 | Stock | матеріал | Broader than accession: a record can represent an accession, plant, plot, cross, or other biological material. PO uses «Назва матеріалу» for Stock Name. Avoid «запас». |
