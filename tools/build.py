@@ -17,6 +17,7 @@ every message that is left out.
 """
 
 import argparse
+import os
 import shutil
 import subprocess
 import sys
@@ -37,6 +38,13 @@ from catalog_format import (
 from plural import parse_plural
 
 BUILD = sections.REPOSITORY / "build"
+
+
+def current_umask():
+    """Return the process umask (os.umask can only read it by setting it)."""
+    mask = os.umask(0o022)
+    os.umask(mask)
+    return mask
 
 
 def template_messages(catalogs):
@@ -179,6 +187,9 @@ def main():
     catalogs = args.catalogs.resolve()
     messages, loaded_by = template_messages(catalogs)
     stage = Path(tempfile.mkdtemp(prefix=".build-", dir=args.output.resolve().parent))
+    # mkdtemp always makes a 0700 folder. build/ is read by the web server, which
+    # may run as another user (www-data), so give it the usual mode for the umask.
+    stage.chmod(0o777 & ~current_umask())
 
     def warn(text):
         print("warning: " + text, file=sys.stderr)

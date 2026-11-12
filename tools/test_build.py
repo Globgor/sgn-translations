@@ -1,6 +1,8 @@
 """make: one gettext .mo per language and browser JSON per section; broken entries stay English."""
 
 import json
+import os
+import stat
 import subprocess
 import sys
 import tempfile
@@ -109,6 +111,19 @@ class BuildTests(unittest.TestCase):
             {"schema": 1, "api": 1, "locale": "uk", "direction": "ltr", "languageName": "Українська", "nplurals": 3},
         )
         self.assertEqual(trial["pluralAst"]["type"], "GROUP")
+
+    def test_build_folders_get_the_mode_of_the_umask(self):
+        # The web server may run as another user than make: build/ must not be 0700.
+        for mask, expected in ((0o022, 0o755), (0o027, 0o750)):
+            previous = os.umask(mask)
+            try:
+                run = self.build()
+            finally:
+                os.umask(previous)
+            self.assertEqual(run.returncode, 0, run.stderr)
+            folders = [self.output, *(path for path in self.output.rglob("*") if path.is_dir())]
+            modes = {str(path.relative_to(self.root)): stat.S_IMODE(path.stat().st_mode) for path in folders}
+            self.assertEqual(modes, {name: expected for name in modes}, oct(mask))
 
     def test_bad_language_keeps_the_previous_build(self):
         self.assertEqual(self.build().returncode, 0)
