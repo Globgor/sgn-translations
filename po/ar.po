@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-14 09:22+0000\n"
+"POT-Creation-Date: 2026-11-14 09:30+0000\n"
 "PO-Revision-Date: 2026-11-14 00:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
@@ -17,14 +17,468 @@ msgstr ""
 "Plural-Forms: nplurals=6; plural=(n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 "
 "&& n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5);\n"
 
+#: mason/site/footer/body.mas
+msgid "Version"
+msgstr "الإصدار"
+
+#: mason/site/footer/common.mas
+msgid "Working"
+msgstr "جارٍ العمل"
+
+#: mason/site/footer/common.mas
+msgid "Progress"
+msgstr "التقدم"
+
+#: mason/site/login_dialog.mas
+msgid "Close"
+msgstr "إغلاق"
+
+#: mason/site/login_dialog.mas mason/site/toolbar/login.mas
+msgid "Login"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Username"
+msgstr "اسم المستخدم"
+
+#: mason/site/login_dialog.mas
+msgid "Password"
+msgstr "كلمة المرور"
+
+#: mason/site/login_dialog.mas
+msgid "Show Password"
+msgstr "إظهار كلمة المرور"
+
+#: mason/site/login_dialog.mas
+msgid "New User"
+msgstr "مستخدم جديد"
+
+#: mason/site/login_dialog.mas
+msgid "Forgot Username"
+msgstr "نسيت اسم المستخدم"
+
+#: mason/site/login_dialog.mas
+msgid ""
+"If you've forgotten your username, enter your email address below. An email "
+"will be sent with any account username(s) associated with your email address."
+msgstr ""
+"إذا نسيت اسم المستخدم، فأدخل عنوان بريدك الإلكتروني أدناه. ستُرسل رسالة تتضمن "
+"أسماء المستخدمين للحسابات المرتبطة بهذا العنوان."
+
+#: mason/site/login_dialog.mas
+msgid "Email Address"
+msgstr "عنوان البريد الإلكتروني"
+
+#: mason/site/login_dialog.mas
+msgid "Get Username(s)"
+msgstr "استرجاع أسماء المستخدمين"
+
+#: mason/site/login_dialog.mas
+msgid "Reset Password"
+msgstr "إعادة تعيين كلمة المرور"
+
+#: mason/site/login_dialog.mas
+msgid ""
+"To reset your password, please enter your email address. A link will be sent "
+"to that address with a link that will enable you to reset your password."
+msgstr ""
+"لإعادة تعيين كلمة المرور، أدخل عنوان بريدك الإلكتروني. سيُرسل إليه رابط يتيح "
+"لك إعادة تعيين كلمة المرور."
+
+#: mason/site/login_dialog.mas
+msgid "Get link"
+msgstr "الحصول على الرابط"
+
+#: mason/site/login_dialog.mas
+msgid "Create New User"
+msgstr "إنشاء مستخدم جديد"
+
+#: mason/site/login_dialog.mas
+msgid "Notice"
+msgstr "تنبيه"
+
+#: mason/site/login_dialog.mas
+msgid ""
+"A link will be emailed to you. Please click on it to activate the account."
+msgstr "سيُرسل إليك رابط بالبريد الإلكتروني. انقر عليه لتفعيل الحساب."
+
+#: mason/site/login_dialog.mas
+msgid "All fields are required."
+msgstr "جميع الحقول مطلوبة."
+
+#: mason/site/login_dialog.mas
+msgid "First Name:"
+msgstr "الاسم الأول:"
+
+#: mason/site/login_dialog.mas
+msgid "Last Name:"
+msgstr "اسم العائلة:"
+
+#: mason/site/login_dialog.mas
+msgid "Breeding Program(s):"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Organization:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Username:"
+msgstr "اسم المستخدم:"
+
+#: mason/site/login_dialog.mas
+msgid "Username must be at least 7 characters long."
+msgstr "يجب أن يتكون اسم المستخدم من 7 أحرف على الأقل."
+
+#: mason/site/login_dialog.mas
+msgid "Password:"
+msgstr "كلمة المرور:"
+
+#: mason/site/login_dialog.mas
+msgid ""
+"Password must be at least 7 characters long and different from your username."
+msgstr ""
+"يجب أن تتكون كلمة المرور من 7 أحرف على الأقل وأن تختلف عن اسم المستخدم."
+
+#: mason/site/login_dialog.mas
+msgid "Confirm Password:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Email Address:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid ""
+"An email will be sent to this address requiring you to confirm its receipt "
+"to activate your account."
+msgstr "ستُرسل رسالة إلى هذا العنوان، ويجب تأكيد استلامها لتفعيل حسابك."
+
+#: mason/site/login_dialog.mas
+msgid "Are you Human?"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+#, perl-brace-format
+msgid "What is {question}?"
+msgstr "ما ناتج {question}؟"
+
+#: mason/site/login_dialog.mas
+msgid "Reset"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Create Account"
+msgstr "إنشاء حساب"
+
+#: mason/site/toolbar/about.mas
+msgid "About"
+msgstr "حول النظام"
+
+#: mason/site/toolbar/about.mas
+msgid "Contact"
+msgstr "التواصل"
+
+#: mason/site/toolbar/about.mas
+msgid "Cite Breedbase"
+msgstr "الاستشهاد بـ Breedbase"
+
+#: mason/site/toolbar/about.mas
+msgid "Wiki"
+msgstr "ويكي"
+
+#: mason/site/toolbar/about.mas
+msgid "Manual"
+msgstr "الدليل"
+
+#: mason/site/toolbar/about.mas
+msgid "Video Tutorials"
+msgstr "دروس فيديو"
+
+#: mason/site/toolbar/about.mas mason/site/toolbar/search_menu.mas
+msgid "FAQ"
+msgstr "الأسئلة الشائعة"
+
+#: mason/site/toolbar/about.mas
+msgid "Forum"
+msgstr "المنتدى"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Analyze"
+msgstr "تحليل"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Phenotype Quality Control"
+msgstr "ضبط جودة البيانات الظاهرية"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Validated Trials"
+msgstr "التجارب التي تم التحقق منها"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Stored Analyses"
+msgstr "التحليلات المحفوظة"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Breeder Tools"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Selection Index"
+msgstr "مؤشر الانتخاب"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Population Structure"
+msgstr "بنية المجموعات"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Clustering"
+msgstr "التحليل العنقودي"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Correlation"
+msgstr "الارتباط"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Kinship & Inbreeding"
+msgstr "القرابة والتزاوج الداخلي"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Stability AMMI/GGE"
+msgstr "الثبات AMMI/GGE"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Environment Stratification"
+msgstr "تقسيم البيئات إلى طبقات"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Heritability"
+msgstr "قابلية التوريث"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Accession Usage"
+msgstr "استخدام العينات الوراثية"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Mixed Models"
+msgstr "النماذج المختلطة"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Compare Trials"
+msgstr "مقارنة التجارب"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Graphical Filtering"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "BoxPlotter Tool"
+msgstr "أداة مخططات الصندوق"
+
+#: mason/site/toolbar/analyze.mas
+msgid "GWAS"
+msgstr "GWAS"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Image Analysis"
+msgstr "تحليل الصور"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Sequence Analysis"
+msgstr "تحليل التسلسلات"
+
+#: mason/site/toolbar/analyze.mas
+msgid "BLAST"
+msgstr "BLAST"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Other"
+msgstr "أخرى"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Ontology Browser"
+msgstr "متصفح الأنطولوجيا"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Compose a New Trait"
+msgstr "إنشاء صفة جديدة"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Compose a New Treatment"
+msgstr "إنشاء معاملة جديدة"
+
 #: mason/site/toolbar/language.mas
 msgid "Language"
 msgstr "اللغة"
+
+#: mason/site/toolbar/manage.mas
+msgid "Manage"
+msgstr "إدارة"
+
+#: mason/site/toolbar/manage.mas
+msgid "User Roles"
+msgstr "أدوار المستخدمين"
+
+#: mason/site/toolbar/manage.mas
+msgid "Breeding Programs"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Locations"
+msgstr "المواقع"
+
+#: mason/site/toolbar/manage.mas
+msgid "Report Factory"
+msgstr "منشئ التقارير"
+
+#: mason/site/toolbar/manage.mas
+msgid "Decision Meetings"
+msgstr "اجتماعات اتخاذ القرارات"
+
+#: mason/site/toolbar/manage.mas
+msgid "Accessions"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Seed Lots"
+msgstr "دفعات البذور"
+
+#: mason/site/toolbar/manage.mas
+msgid "Crosses"
+msgstr "التهجينات"
+
+#: mason/site/toolbar/manage.mas
+msgid "Propagations"
+msgstr "عمليات الإكثار"
+
+#: mason/site/toolbar/manage.mas
+msgid "Order Stocks"
+msgstr "طلب المواد الوراثية"
+
+#: mason/site/toolbar/manage.mas
+msgid "Tracking Activities"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Transformations"
+msgstr "التحويلات الوراثية"
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Field Trials"
+msgstr "التجارب الحقلية"
+
+#: mason/site/toolbar/manage.mas
+msgid "Trial Allocation"
+msgstr "توزيع التجارب"
+
+#: mason/site/toolbar/manage.mas
+msgid "Field Book App"
+msgstr "تطبيق Field Book"
+
+#: mason/site/toolbar/manage.mas
+msgid "Phenotyping"
+msgstr "التنميط الظاهري"
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Images"
+msgstr "الصور"
+
+#: mason/site/toolbar/manage.mas
+msgid "Files"
+msgstr "الملفات"
+
+#: mason/site/toolbar/manage.mas
+msgid "Barcodes"
+msgstr "الرموز الشريطية"
+
+#: mason/site/toolbar/manage.mas
+msgid "Label Designer"
+msgstr "مصمم الملصقات"
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Genotyping Projects"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Genotyping Plates"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Marker Allele Lists"
+msgstr "قوائم أليلات الواسمات"
+
+#: mason/site/toolbar/manage.mas
+msgid "Download"
+msgstr "تنزيل"
+
+#: mason/site/toolbar/manage.mas
+msgid "Upload"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Identifier Generation"
+msgstr "إنشاء المعرّفات"
+
+#: mason/site/toolbar/manage.mas
+msgid "File Share"
+msgstr "مشاركة الملفات"
+
+#: mason/site/toolbar/manage.mas
+msgid "NIRS"
+msgstr "NIRS"
+
+#: mason/site/toolbar/manage.mas
+msgid "Transcriptomics"
+msgstr "علم النسخ الجينية"
 
 #: mason/site/toolbar/search.mas
 msgid "Advanced"
 msgstr "البحث المتقدم"
 
-#: mason/site/toolbar/search.mas
+#: mason/site/toolbar/search.mas mason/site/toolbar/search_menu.mas
 msgid "Search"
 msgstr "بحث"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Wizard"
+msgstr "معالج البحث"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Bulk Search"
+msgstr "البحث الجماعي"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Accessions and Plots"
+msgstr "العينات الوراثية والقطع التجريبية"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Organisms"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Progenies, Parents, Crosses"
+msgstr "النسل والآباء والتهجينات"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Genotyping Protocols"
+msgstr "بروتوكولات التنميط الجيني"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Accessions Using Genotypes"
+msgstr "البحث عن العينات باستخدام الأنماط الجينية"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Vector Constructs"
+msgstr "تراكيب النواقل الوراثية"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Traits"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Treatments"
+msgstr "المعاملات"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "People"
+msgstr "الأشخاص"

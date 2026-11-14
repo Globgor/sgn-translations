@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-14 09:22+0000\n"
+"POT-Creation-Date: 2026-11-14 09:30+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,14 +17,463 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
+#: mason/site/footer/body.mas
+msgid "Version"
+msgstr ""
+
+#: mason/site/footer/common.mas
+msgid "Working"
+msgstr ""
+
+#: mason/site/footer/common.mas
+msgid "Progress"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Close"
+msgstr ""
+
+#: mason/site/login_dialog.mas mason/site/toolbar/login.mas
+msgid "Login"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Username"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Password"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Show Password"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "New User"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Forgot Username"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid ""
+"If you've forgotten your username, enter your email address below. An email "
+"will be sent with any account username(s) associated with your email address."
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Email Address"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Get Username(s)"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Reset Password"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid ""
+"To reset your password, please enter your email address. A link will be sent "
+"to that address with a link that will enable you to reset your password."
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Get link"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Create New User"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Notice"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid ""
+"A link will be emailed to you. Please click on it to activate the account."
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "All fields are required."
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "First Name:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Last Name:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Breeding Program(s):"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Organization:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Username:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Username must be at least 7 characters long."
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Password:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid ""
+"Password must be at least 7 characters long and different from your username."
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Confirm Password:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Email Address:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid ""
+"An email will be sent to this address requiring you to confirm its receipt "
+"to activate your account."
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Are you Human?"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+#, perl-brace-format
+msgid "What is {question}?"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Reset"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Create Account"
+msgstr ""
+
+#: mason/site/toolbar/about.mas
+msgid "About"
+msgstr ""
+
+#: mason/site/toolbar/about.mas
+msgid "Contact"
+msgstr ""
+
+#: mason/site/toolbar/about.mas
+msgid "Cite Breedbase"
+msgstr ""
+
+#: mason/site/toolbar/about.mas
+msgid "Wiki"
+msgstr ""
+
+#: mason/site/toolbar/about.mas
+msgid "Manual"
+msgstr ""
+
+#: mason/site/toolbar/about.mas
+msgid "Video Tutorials"
+msgstr ""
+
+#: mason/site/toolbar/about.mas mason/site/toolbar/search_menu.mas
+msgid "FAQ"
+msgstr ""
+
+#: mason/site/toolbar/about.mas
+msgid "Forum"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Analyze"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Phenotype Quality Control"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Validated Trials"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Stored Analyses"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Breeder Tools"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Selection Index"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Population Structure"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Clustering"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Correlation"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Kinship & Inbreeding"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Stability AMMI/GGE"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Environment Stratification"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Heritability"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Accession Usage"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Mixed Models"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Compare Trials"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Graphical Filtering"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "BoxPlotter Tool"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "GWAS"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Image Analysis"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Sequence Analysis"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "BLAST"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Other"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Ontology Browser"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Compose a New Trait"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Compose a New Treatment"
+msgstr ""
+
 #: mason/site/toolbar/language.mas
 msgid "Language"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Manage"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "User Roles"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Breeding Programs"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Locations"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Report Factory"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Decision Meetings"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Accessions"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Seed Lots"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Crosses"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Propagations"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Order Stocks"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Tracking Activities"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Transformations"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Field Trials"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Trial Allocation"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Field Book App"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Phenotyping"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Images"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Files"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Barcodes"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Label Designer"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Genotyping Projects"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Genotyping Plates"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Marker Allele Lists"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Download"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Upload"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Identifier Generation"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "File Share"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "NIRS"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Transcriptomics"
 msgstr ""
 
 #: mason/site/toolbar/search.mas
 msgid "Advanced"
 msgstr ""
 
-#: mason/site/toolbar/search.mas
+#: mason/site/toolbar/search.mas mason/site/toolbar/search_menu.mas
 msgid "Search"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Wizard"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Bulk Search"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Accessions and Plots"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Organisms"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Progenies, Parents, Crosses"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Genotyping Protocols"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Accessions Using Genotypes"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Vector Constructs"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Traits"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Treatments"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "People"
 msgstr ""

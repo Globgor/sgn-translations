@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-14 09:22+0000\n"
+"POT-Creation-Date: 2026-11-14 09:30+0000\n"
 "PO-Revision-Date: 2026-11-14 00:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
@@ -16,14 +16,474 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
+#: mason/site/footer/body.mas
+msgid "Version"
+msgstr "Versión"
+
+#: mason/site/footer/common.mas
+msgid "Working"
+msgstr "Procesando"
+
+#: mason/site/footer/common.mas
+msgid "Progress"
+msgstr "Progreso"
+
+#: mason/site/login_dialog.mas
+msgid "Close"
+msgstr "Cerrar"
+
+#: mason/site/login_dialog.mas mason/site/toolbar/login.mas
+msgid "Login"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: mason/site/login_dialog.mas
+msgid "Password"
+msgstr "Contraseña"
+
+#: mason/site/login_dialog.mas
+msgid "Show Password"
+msgstr "Mostrar contraseña"
+
+#: mason/site/login_dialog.mas
+msgid "New User"
+msgstr "Nuevo usuario"
+
+#: mason/site/login_dialog.mas
+msgid "Forgot Username"
+msgstr "Olvidé mi nombre de usuario"
+
+#: mason/site/login_dialog.mas
+msgid ""
+"If you've forgotten your username, enter your email address below. An email "
+"will be sent with any account username(s) associated with your email address."
+msgstr ""
+"Si olvidó su nombre de usuario, introduzca su correo electrónico abajo. "
+"Recibirá un mensaje con los nombres de usuario de las cuentas asociadas a "
+"esa dirección."
+
+#: mason/site/login_dialog.mas
+msgid "Email Address"
+msgstr "Correo electrónico"
+
+#: mason/site/login_dialog.mas
+msgid "Get Username(s)"
+msgstr "Obtener nombres de usuario"
+
+#: mason/site/login_dialog.mas
+msgid "Reset Password"
+msgstr "Restablecer contraseña"
+
+#: mason/site/login_dialog.mas
+msgid ""
+"To reset your password, please enter your email address. A link will be sent "
+"to that address with a link that will enable you to reset your password."
+msgstr ""
+"Para restablecer su contraseña, introduzca su correo electrónico. Recibirá "
+"en esa dirección un enlace para restablecerla."
+
+#: mason/site/login_dialog.mas
+msgid "Get link"
+msgstr "Obtener enlace"
+
+#: mason/site/login_dialog.mas
+msgid "Create New User"
+msgstr "Crear nuevo usuario"
+
+#: mason/site/login_dialog.mas
+msgid "Notice"
+msgstr "Aviso"
+
+#: mason/site/login_dialog.mas
+msgid ""
+"A link will be emailed to you. Please click on it to activate the account."
+msgstr ""
+"Recibirá un enlace por correo electrónico. Haga clic en él para activar la "
+"cuenta."
+
+#: mason/site/login_dialog.mas
+msgid "All fields are required."
+msgstr "Todos los campos son obligatorios."
+
+#: mason/site/login_dialog.mas
+msgid "First Name:"
+msgstr "Nombre:"
+
+#: mason/site/login_dialog.mas
+msgid "Last Name:"
+msgstr "Apellido:"
+
+#: mason/site/login_dialog.mas
+msgid "Breeding Program(s):"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Organization:"
+msgstr "Organización:"
+
+#: mason/site/login_dialog.mas
+msgid "Username:"
+msgstr "Nombre de usuario:"
+
+#: mason/site/login_dialog.mas
+msgid "Username must be at least 7 characters long."
+msgstr "El nombre de usuario debe tener al menos 7 caracteres."
+
+#: mason/site/login_dialog.mas
+msgid "Password:"
+msgstr "Contraseña:"
+
+#: mason/site/login_dialog.mas
+msgid ""
+"Password must be at least 7 characters long and different from your username."
+msgstr ""
+"La contraseña debe tener al menos 7 caracteres y ser diferente del nombre de "
+"usuario."
+
+#: mason/site/login_dialog.mas
+msgid "Confirm Password:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Email Address:"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid ""
+"An email will be sent to this address requiring you to confirm its receipt "
+"to activate your account."
+msgstr ""
+"Recibirá un mensaje en esta dirección; deberá confirmar su recepción para "
+"activar la cuenta."
+
+#: mason/site/login_dialog.mas
+msgid "Are you Human?"
+msgstr ""
+
+#: mason/site/login_dialog.mas
+#, perl-brace-format
+msgid "What is {question}?"
+msgstr "¿Cuánto es {question}?"
+
+#: mason/site/login_dialog.mas
+msgid "Reset"
+msgstr "Restablecer"
+
+#: mason/site/login_dialog.mas
+msgid "Create Account"
+msgstr "Crear cuenta"
+
+#: mason/site/toolbar/about.mas
+msgid "About"
+msgstr "Acerca de"
+
+#: mason/site/toolbar/about.mas
+msgid "Contact"
+msgstr "Contacto"
+
+#: mason/site/toolbar/about.mas
+msgid "Cite Breedbase"
+msgstr "Citar Breedbase"
+
+#: mason/site/toolbar/about.mas
+msgid "Wiki"
+msgstr "Wiki"
+
+#: mason/site/toolbar/about.mas
+msgid "Manual"
+msgstr "Manual"
+
+#: mason/site/toolbar/about.mas
+msgid "Video Tutorials"
+msgstr "Tutoriales en vídeo"
+
+#: mason/site/toolbar/about.mas mason/site/toolbar/search_menu.mas
+msgid "FAQ"
+msgstr "Preguntas frecuentes"
+
+#: mason/site/toolbar/about.mas
+msgid "Forum"
+msgstr "Foro"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Analyze"
+msgstr "Analizar"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Phenotype Quality Control"
+msgstr "Control de calidad de datos fenotípicos"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Validated Trials"
+msgstr "Ensayos validados"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Stored Analyses"
+msgstr "Análisis guardados"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Breeder Tools"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Selection Index"
+msgstr "Índice de selección"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Population Structure"
+msgstr "Estructura poblacional"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Clustering"
+msgstr "Agrupamiento"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Correlation"
+msgstr "Correlación"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Kinship & Inbreeding"
+msgstr "Parentesco y endogamia"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Stability AMMI/GGE"
+msgstr "Estabilidad AMMI/GGE"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Environment Stratification"
+msgstr "Estratificación de ambientes"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Heritability"
+msgstr "Heredabilidad"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Accession Usage"
+msgstr "Uso de accesiones"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Mixed Models"
+msgstr "Modelos mixtos"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Compare Trials"
+msgstr "Comparar ensayos"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Graphical Filtering"
+msgstr "Filtrado gráfico"
+
+#: mason/site/toolbar/analyze.mas
+msgid "BoxPlotter Tool"
+msgstr "Diagramas de caja"
+
+#: mason/site/toolbar/analyze.mas
+msgid "GWAS"
+msgstr "GWAS"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Image Analysis"
+msgstr "Análisis de imágenes"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Sequence Analysis"
+msgstr "Análisis de secuencias"
+
+#: mason/site/toolbar/analyze.mas
+msgid "BLAST"
+msgstr "BLAST"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Other"
+msgstr ""
+
+#: mason/site/toolbar/analyze.mas
+msgid "Ontology Browser"
+msgstr "Explorador de ontologías"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Compose a New Trait"
+msgstr "Crear un carácter nuevo"
+
+#: mason/site/toolbar/analyze.mas
+msgid "Compose a New Treatment"
+msgstr "Crear un tratamiento nuevo"
+
 #: mason/site/toolbar/language.mas
 msgid "Language"
 msgstr "Idioma"
+
+#: mason/site/toolbar/manage.mas
+msgid "Manage"
+msgstr "Gestionar"
+
+#: mason/site/toolbar/manage.mas
+msgid "User Roles"
+msgstr "Roles de usuario"
+
+#: mason/site/toolbar/manage.mas
+msgid "Breeding Programs"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Locations"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Report Factory"
+msgstr "Generador de informes"
+
+#: mason/site/toolbar/manage.mas
+msgid "Decision Meetings"
+msgstr "Reuniones de decisión"
+
+#: mason/site/toolbar/manage.mas
+msgid "Accessions"
+msgstr "Accesiones"
+
+#: mason/site/toolbar/manage.mas
+msgid "Seed Lots"
+msgstr "Lotes de semillas"
+
+#: mason/site/toolbar/manage.mas
+msgid "Crosses"
+msgstr "Cruzamientos"
+
+#: mason/site/toolbar/manage.mas
+msgid "Propagations"
+msgstr "Propagaciones"
+
+#: mason/site/toolbar/manage.mas
+msgid "Order Stocks"
+msgstr "Solicitar material"
+
+#: mason/site/toolbar/manage.mas
+msgid "Tracking Activities"
+msgstr ""
+
+#: mason/site/toolbar/manage.mas
+msgid "Transformations"
+msgstr "Transformaciones"
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Field Trials"
+msgstr "Ensayos de campo"
+
+#: mason/site/toolbar/manage.mas
+msgid "Trial Allocation"
+msgstr "Asignación de ensayos"
+
+#: mason/site/toolbar/manage.mas
+msgid "Field Book App"
+msgstr "Aplicación Field Book"
+
+#: mason/site/toolbar/manage.mas
+msgid "Phenotyping"
+msgstr "Fenotipado"
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Images"
+msgstr "Imágenes"
+
+#: mason/site/toolbar/manage.mas
+msgid "Files"
+msgstr "Archivos"
+
+#: mason/site/toolbar/manage.mas
+msgid "Barcodes"
+msgstr "Códigos de barras"
+
+#: mason/site/toolbar/manage.mas
+msgid "Label Designer"
+msgstr "Diseñador de etiquetas"
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Genotyping Projects"
+msgstr "Proyectos de genotipado"
+
+#: mason/site/toolbar/manage.mas mason/site/toolbar/search_menu.mas
+msgid "Genotyping Plates"
+msgstr "Placas de genotipado"
+
+#: mason/site/toolbar/manage.mas
+msgid "Marker Allele Lists"
+msgstr "Listas de alelos de marcadores"
+
+#: mason/site/toolbar/manage.mas
+msgid "Download"
+msgstr "Descargar"
+
+#: mason/site/toolbar/manage.mas
+msgid "Upload"
+msgstr "Cargar"
+
+#: mason/site/toolbar/manage.mas
+msgid "Identifier Generation"
+msgstr "Generación de identificadores"
+
+#: mason/site/toolbar/manage.mas
+msgid "File Share"
+msgstr "Intercambio de archivos"
+
+#: mason/site/toolbar/manage.mas
+msgid "NIRS"
+msgstr "NIRS"
+
+#: mason/site/toolbar/manage.mas
+msgid "Transcriptomics"
+msgstr "Transcriptómica"
 
 #: mason/site/toolbar/search.mas
 msgid "Advanced"
 msgstr "Búsqueda avanzada"
 
-#: mason/site/toolbar/search.mas
+#: mason/site/toolbar/search.mas mason/site/toolbar/search_menu.mas
 msgid "Search"
 msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Wizard"
+msgstr "Asistente de búsqueda"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Bulk Search"
+msgstr "Búsqueda masiva"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Accessions and Plots"
+msgstr "Accesiones y parcelas"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Organisms"
+msgstr "Organismos"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Progenies, Parents, Crosses"
+msgstr "Progenies, parentales y cruzamientos"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Genotyping Protocols"
+msgstr "Protocolos de genotipado"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Accessions Using Genotypes"
+msgstr "Buscar accesiones por genotipos"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Vector Constructs"
+msgstr "Construcciones vectoriales"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Traits"
+msgstr ""
+
+#: mason/site/toolbar/search_menu.mas
+msgid "Treatments"
+msgstr "Tratamientos"
+
+#: mason/site/toolbar/search_menu.mas
+msgid "People"
+msgstr "Personas"
