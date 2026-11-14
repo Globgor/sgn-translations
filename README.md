@@ -57,8 +57,9 @@ each language (the Breedbase image has all locales).
    `i18n_locale_dir /path/to/sgn-translations/locale`.
 4. Restart SGN.
 
-After `git pull`, run `make` and restart SGN again: SGN reads the catalogs only
-when it starts. `make` replaces a catalog by rename, so a running SGN is safe.
+After `git pull`, run `make` and restart SGN again: each SGN process keeps a
+catalog in memory after its first use, so only a restart makes every process
+use the new one. `make` replaces a catalog by rename, so a running SGN is safe.
 To turn translation off, remove `i18n_languages` and restart.
 
 On Debian or Ubuntu: `sudo apt-get install gettext make libintl-perl`.
