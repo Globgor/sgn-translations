@@ -1,0 +1,7 @@
+{
+  "name": "sgn-translations",
+  "private": true,
+  "dependencies": {
+    "gettext-parser": "10.0.0"
+  }
+}

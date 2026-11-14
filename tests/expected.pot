@@ -62,3 +62,25 @@ msgstr ""
 #: mason/site/widget.mas
 msgid "Search trial"
 msgstr ""
+
+#: js/source/nested/messages.js
+msgid "Browser Search"
+msgstr ""
+
+#: js/source/nested/messages.js
+msgid "Browser trial"
+msgid_plural "Browser trials"
+msgstr[0] ""
+msgstr[1] ""
+
+#: js/source/nested/messages.js
+msgctxt "verb"
+msgid "Browser Search"
+msgstr ""
+
+#: js/source/nested/messages.js
+msgctxt "row"
+msgid "Browser row"
+msgid_plural "Browser rows"
+msgstr[0] ""
+msgstr[1] ""

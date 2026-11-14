@@ -18,6 +18,11 @@ jobs:
           sudo apt-get install -y --no-install-recommends gettext make libhtml-mason-perl libintl-perl
       - name: Check catalogs
         run: make check
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Install browser catalog dependencies
+        run: npm ci
       - name: Test extraction, merge and build
         run: make test
       - name: Build

@@ -1,20 +1,33 @@
-# SGN interface translations. Needs GNU gettext, make and Perl.
+# SGN interface translations. Server catalogs need GNU gettext and make only.
 #
-#   make                      locale/<lang>/LC_MESSAGES/sgn.mo from po/<lang>.po
+#   make (or make all)        build mo first, then js
+#   make mo                   server catalogs only; GNU gettext, no Node.js
+#   make js                   browser catalogs only; Node.js 24 and npm ci
 #   make check                msgfmt --check on po/*.po and compendium/*.po
-#   make pot SGN=/path/to/sgn extract po/sgn.pot from SGN (needs HTML::Mason, libintl-perl)
+#   make pot SGN=/path/to/sgn extract po/sgn.pot and po/sgn-js.pot from SGN
 #   make update               merge po/sgn.pot into every po/<lang>.po
 #   make test                 test pot, update and the build on tests/fixture
 #   make clean                remove locale/
 
 SGN ?=
 LANGUAGES := $(basename $(notdir $(wildcard po/*.po)))
+JS := $(LANGUAGES:%=locale/%/sgn.js)
 MO := $(LANGUAGES:%=locale/%/LC_MESSAGES/sgn.mo)
 
-.PHONY: all check pot update test clean
+.PHONY: all mo js check pot update test clean
 .NOTPARALLEL:
 
-all: $(MO)
+all: mo js
+
+mo: $(MO)
+
+# A fresh checkout can build server catalogs before the browser POT is generated.
+js:
+	@if ! command -v node >/dev/null 2>&1 || ! test -d node_modules/gettext-parser; then \
+		echo 'Browser catalogs require Node.js and gettext-parser: run npm ci, or use make mo for server-side translation only' >&2; exit 1; \
+	elif ! test -f po/sgn-js.pot; then \
+		echo 'Browser catalogs skipped: po/sgn-js.pot is missing; run make pot SGN=/path/to/sgn'; \
+	else $(MAKE) --no-print-directory $(JS); fi
 
 # SGN runs as another user (www-data): set modes, do not rely on umask.
 # A running SGN may hold the old file: write a new file, then rename it.
@@ -22,6 +35,17 @@ locale/%/LC_MESSAGES/sgn.mo: po/%.po
 	mkdir -p $(@D) && chmod 755 locale locale/$* $(@D)
 	tmp=$$(mktemp $(@D)/.sgn.mo.XXXXXX) && \
 	{ msgfmt --check --statistics -o "$$tmp" $< && chmod 644 "$$tmp" && mv -f "$$tmp" $@ || { rm -f "$$tmp"; exit 1; }; }
+
+# Restrict browser data to the JavaScript template; msgfmt drops draft entries.
+locale/%/sgn.js: po/%.po po/sgn-js.pot tools/mo2js.js
+	mkdir -p $(@D) && chmod 755 locale $(@D)
+	@tmp=$$(mktemp -d $(@D)/.sgn.js.XXXXXX) && trap 'rm -rf "$$tmp"' EXIT && set -e && \
+	msgfmt --check -o /dev/null $< && \
+	msgattrib --no-obsolete -o "$$tmp/current.po" $< && \
+	msgmerge --quiet --no-fuzzy-matching -o "$$tmp/browser.po" "$$tmp/current.po" po/sgn-js.pot && \
+	msgfmt --check -o "$$tmp/browser.mo" "$$tmp/browser.po" && \
+	node tools/mo2js.js "$$tmp/browser.mo" > "$$tmp/sgn.js" && \
+	chmod 644 "$$tmp/sgn.js" && mv -f "$$tmp/sgn.js" $@
 
 check:
 	@status=0; for po in po/*.po compendium/*.po; do \
@@ -38,12 +62,22 @@ pot:
 	perl tools/mason2perl.pl po/EXCLUDE "$(SGN)" "$$tmp/perl" > "$$tmp/files" && \
 	(cd "$(SGN)" && find lib cgi-bin -type f \( -name '*.pm' -o -name '*.pl' \)) > "$$tmp/perl-files" && \
 	LC_ALL=C sort "$$tmp/perl-files" >> "$$tmp/files" && \
+	nogit=$$(xgettext --help | sed -n 's/^ *\(--no-git\).*/\1/p') && \
 	options=$$(perl -MLocale::TextDomain -e 'print join " ", Locale::TextDomain->options') && \
-	xgettext -L Perl --from-code=UTF-8 --add-location=file --sort-by-file --force-po --package-name=sgn -k $$options \
-		-D "$$tmp/perl" -D "$(SGN)" -f "$$tmp/files" -o "$$tmp/sgn.pot" && \
-	if test -f po/sgn.pot && diff -q -I '^"POT-Creation-Date:' po/sgn.pot "$$tmp/sgn.pot" >/dev/null; \
-	then echo "po/sgn.pot: no change"; \
-	else cp "$$tmp/sgn.pot" po/sgn.pot && echo "po/sgn.pot: $$(grep -c '^msgid ' po/sgn.pot) msgid lines (with the header)"; fi
+	xgettext $$nogit -L Perl --from-code=UTF-8 --add-location=file --sort-by-file --force-po --package-name=sgn -k $$options \
+		-D "$$tmp/perl" -D "$(SGN)" -f "$$tmp/files" -o "$$tmp/server.pot" && \
+	(cd "$(SGN)" && find js/source -type f -name '*.js') > "$$tmp/js-found" && \
+	LC_ALL=C sort "$$tmp/js-found" > "$$tmp/js-sorted" && \
+	perl -lane 'BEGIN { open my $$f, "<", "po/EXCLUDE" or die $$!; while (<$$f>) { $$skip{$$1}=1 if /^(\S+)\s+\S/ } } print unless $$skip{$$_}' "$$tmp/js-sorted" > "$$tmp/js-files" && \
+	xgettext $$nogit -L JavaScript --from-code=UTF-8 --add-location=file --sort-by-file --force-po --package-name=sgn \
+		-k -kgettext -kngettext:1,2 -kpgettext:1c,2 -knpgettext:1c,2,3 \
+		-D "$(SGN)" -f "$$tmp/js-files" -o "$$tmp/sgn-js.pot" && \
+	msgcat --use-first "$$tmp/server.pot" "$$tmp/sgn-js.pot" -o "$$tmp/sgn.pot" && \
+	for pot in sgn sgn-js; do \
+		if test -f po/$$pot.pot && diff -q -I '^"POT-Creation-Date:' po/$$pot.pot "$$tmp/$$pot.pot" >/dev/null; \
+		then echo "po/$$pot.pot: no change"; \
+		else chmod 644 "$$tmp/$$pot.pot" && mv -f "$$tmp/$$pot.pot" po/$$pot.pot; fi; \
+	done
 
 # Exact matches only: no fuzzy matching, and fuzzy compendium entries are left out.
 # Messages that leave the template stay in po/<lang>.po as obsolete (#~) entries;

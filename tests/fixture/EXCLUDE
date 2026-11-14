@@ -1,3 +1,4 @@
 # Fixture exclude list
 mason/legacy_latin1.mas  not UTF-8 (Latin-1 é)
 mason/still_listed.mas   listed although it compiles: must be reported
+js/source/legacy/opencv/opencv.js  excluded browser fixture

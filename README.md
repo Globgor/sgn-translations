@@ -12,6 +12,7 @@ reviewed them yet. Review them before a site relies on them.
 
 ```text
 po/sgn.pot             English texts that SGN marks for translation (made by make pot)
+po/sgn-js.pot          JavaScript texts selected for the browser (made by make pot)
 po/<lang>.po           translations of these texts (text domain "sgn")
 po/EXCLUDE             SGN templates that make pot skips, each with the reason
 compendium/<lang>.po   machine drafts of about 13,500 texts; source for make update
@@ -41,12 +42,20 @@ Ukrainian terms: [glossary/uk.md](glossary/uk.md). For example, Upload is
 
 ## Site administrator
 
-Needs GNU gettext and make. SGN needs `libintl-perl` and the system locale of
+Server catalogs need GNU gettext and make only. Browser catalogs also need
+Node.js 24 and `npm ci`. SGN needs `libintl-perl` and the system locale of
 each language (the Breedbase image has all locales).
 
 1. Put this repository next to the SGN checkout, as `sgn-translations`.
-2. Run `make`. It writes `locale/<lang>/LC_MESSAGES/sgn.mo`, readable by
-   all users (SGN runs as `www-data`).
+2. For server-side translation only, run `make mo`. It writes
+   `locale/<lang>/LC_MESSAGES/sgn.mo`, readable by all users (SGN runs as
+   `www-data`), and does not need Node.js.
+   For browser translation, install Node.js 24 and run `npm ci`, then
+   `make js`. It writes only `locale/<lang>/sgn.js`.
+   `make` (or `make all`) builds `mo` first, then `js`.
+   On a fresh checkout without `po/sgn-js.pot`, browser compilation prints
+   one skip notice and preserves existing catalogs. Generate templates with
+   `make pot SGN=/path/to/sgn` before building browser catalogs.
 3. In `sgn_local.conf`, enable the languages:
 
    ```text
@@ -86,6 +95,14 @@ make check test                    # catalogs and tool tests
   every Mason template in `mason/`. The keyword list comes from
   `Locale::TextDomain->options`. A template that does not compile, or is not
   UTF-8, stops `make pot`, unless `po/EXCLUDE` lists it with a reason.
+- `make pot` also reads `js/source/**/*.js`, except paths in `po/EXCLUDE`,
+  using only `gettext`, `ngettext`, `pgettext` and `npgettext`. These messages
+  appear in both templates. Browser builds select only `po/sgn-js.pot`.
+  Use printf placeholders in JavaScript; `{name}` has no format validation.
+- Use each English message consistently with or without a plural across
+  Perl and JavaScript (`__n`/`ngettext` versus singular calls). Do not use the
+  same English text both ways: `make pot` stops with
+  "is used without plural and with plural".
 - `make update` copies a translation from `compendium/<lang>.po` only for the
   same English text and context, and never from a fuzzy entry. A text with
   context (`__p`) gets no translation from the compendium: translate it by hand.

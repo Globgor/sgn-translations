@@ -1,0 +1,1 @@
+var sgn_locale_data = {"":{"plural_forms":"nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);","language":"uk"},"Browser Search":["Пошук"],"Browser trial":["дослід","досліди","дослідів"],"row\u0004Browser row":["рядок","рядки","рядків"],"verb\u0004Browser Search":["Шукати"]};

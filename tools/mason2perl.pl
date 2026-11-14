@@ -26,7 +26,7 @@ open my $list, '<', $exclude_file or die "$exclude_file: $!\n";
 while (<$list>) {
     next if /^\s*(?:#|$)/;
     my ($path) = /^(\S+)\s+\S/ or die "$exclude_file:$.: write 'path reason'\n";
-    $exclude{$path} = 1;
+    $exclude{$path} = 1 if $path =~ m{\Amason/};
 }
 
 -d "$sgn/mason" or die "$sgn/mason: not a directory\n";
