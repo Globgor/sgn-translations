@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-14 09:30+0000\n"
+"POT-Creation-Date: 2026-11-14 11:01+0000\n"
 "PO-Revision-Date: 2026-11-14 00:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: Ukrainian\n"
@@ -16,6 +16,380 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#: lib/SGN/Controller/AJAX/User.pm mason/site/login_dialog.mas
+#: mason/site/toolbar/login.mas
+msgid "Login"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "Calendar"
+msgstr "Календар"
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "Datasets"
+msgstr "Набори даних"
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "Lists"
+msgstr "Списки"
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "Logout"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "My Profile"
+msgstr "Мій профіль"
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "Your Calendar"
+msgstr "Ваш календар"
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "Phenotype Files Uploaded"
+msgstr "Завантажені файли фенотипових даних"
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "Filename"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "Date Uploaded"
+msgstr "Дата завантаження"
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "Uploaded By"
+msgstr "Завантажив(-ла)"
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "File Type"
+msgstr "Тип файлу"
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "Options"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas mason/index_logged_in_user.mas
+msgid "Trial"
+msgstr "Дослід"
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "View"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas mason/search/trials.mas
+#: mason/site/toolbar/manage.mas
+msgid "Download"
+msgstr "Вивантажити"
+
+#: mason/index.mas
+msgid "What is Breedbase?"
+msgstr "Що таке Breedbase?"
+
+#: mason/index.mas
+msgid ""
+"Breedbase is a comprehensive breeding management and analysis software. It "
+"can be used to design field layouts, collect phenotypic information using "
+"tablets, support the collection of genotyping samples in a field, store "
+"large amounts of high density genotypic information, and provide Genomic "
+"Selection related analyses and predictions. Breedbase supports the BrAPI "
+"standard."
+msgstr ""
+"Breedbase — це комплексне програмне забезпечення для керування селекційною "
+"роботою та аналізу. Воно допомагає планувати польові схеми, збирати "
+"фенотипові дані за допомогою планшетів, організовувати відбір зразків для "
+"генотипування в полі, зберігати великі обсяги генотипових даних високої "
+"щільності та виконувати аналізи й прогнози геномної селекції. Breedbase "
+"підтримує стандарт BrAPI."
+
+#: mason/index.mas
+msgid "How can I use Breedbase?"
+msgstr "Як користуватися Breedbase?"
+
+#: mason/index.mas
+msgid "What crops are using Breedbase?"
+msgstr "Які культури використовують Breedbase?"
+
+#: mason/index.mas
+msgid "How can I learn more about Breedbase?"
+msgstr "Де дізнатися більше про Breedbase?"
+
+#: mason/index_logged_in_user.mas
+msgid "Continue where you left off:"
+msgstr "Продовжити з того місця, де ви зупинилися:"
+
+#: mason/index_logged_in_user.mas
+msgid "Interval:"
+msgstr "Період:"
+
+#: mason/index_logged_in_user.mas
+msgid "10 most recently created trials:"
+msgstr "10 останніх створених дослідів:"
+
+#: mason/index_logged_in_user.mas
+msgid "Trial Type"
+msgstr "Тип досліду"
+
+#: mason/index_logged_in_user.mas
+msgid "Breeding Program"
+msgstr "Селекційна програма"
+
+#: mason/index_logged_in_user.mas
+msgid "Create date"
+msgstr "Дата створення"
+
+#: mason/index_logged_in_user.mas
+msgid "10 most recently modified trials:"
+msgstr "10 останніх змінених дослідів:"
+
+#: mason/index_logged_in_user.mas
+msgid "Last phenotype added"
+msgstr "Останні додані фенотипові дані"
+
+#: mason/index_logged_in_user.mas
+msgid "10 most recently added accessions:"
+msgstr "10 останніх доданих акцесій:"
+
+#: mason/index_logged_in_user.mas
+msgid "Accession"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Search Accessions and Plots"
+msgstr "Пошук зразків і ділянок"
+
+#: mason/search/stocks.mas
+msgid "Stock Name or Description:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "starts with"
+msgstr "починається з"
+
+#: mason/search/stocks.mas
+msgid "contains"
+msgstr "містить"
+
+#: mason/search/stocks.mas
+msgid "ends with"
+msgstr "закінчується на"
+
+#: mason/search/stocks.mas
+msgid "exactly"
+msgstr "точно"
+
+#: mason/search/stocks.mas
+msgid "Type search here..."
+msgstr "Введіть пошуковий запит..."
+
+#: mason/search/stocks.mas
+msgid "Stock Type:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Name Search"
+msgstr "Пошук за назвою"
+
+#: mason/search/stocks.mas
+msgid "Organism:"
+msgstr "Організм:"
+
+#: mason/search/stocks.mas mason/site/login_dialog.mas
+msgid "Organization:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Type to Autocomplete"
+msgstr "Введіть для автодоповнення"
+
+#: mason/search/stocks.mas
+msgid "Search By Another Property:"
+msgstr "Пошук за іншою властивістю:"
+
+#: mason/search/stocks.mas
+msgid "Add"
+msgstr "Додати"
+
+#: mason/search/stocks.mas
+msgid "Is Obsolete?:"
+msgstr "Застарілий?:"
+
+#: mason/search/stocks.mas
+msgid "Not Obsolete"
+msgstr "Не застарілий"
+
+#: mason/search/stocks.mas
+msgid "Is Obsolete"
+msgstr "Застарілий"
+
+#: mason/search/stocks.mas
+msgid "Include Obsolete"
+msgstr "Включити застарілі"
+
+#: mason/search/stocks.mas
+msgid "Properties"
+msgstr "Властивості"
+
+#: mason/search/stocks.mas
+msgid "Project Name:"
+msgstr "Назва проєкту:"
+
+#: mason/search/stocks.mas
+msgid "Project Location:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Project Year:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Breeding Program:"
+msgstr "Селекційна програма:"
+
+#: mason/search/stocks.mas
+msgid "Usage"
+msgstr "Використання"
+
+#: mason/search/stocks.mas
+msgid "Trait:"
+msgstr "Ознака:"
+
+#: mason/search/stocks.mas
+msgid "Minimum Trait Value:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Maximum Trait Value:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Phenotypes"
+msgstr "Фенотипи"
+
+#: mason/search/stocks.mas
+msgid "Go to Search Accessions Using Genotypes Page."
+msgstr "Перейти до пошуку зразків за генотипами."
+
+#: mason/search/stocks.mas
+msgid "Search Accessions Using Genotypes"
+msgstr "Пошук зразків за генотипами"
+
+#: mason/search/stocks.mas
+msgid "Advanced Search"
+msgstr "Розширений пошук"
+
+#: mason/search/stocks.mas mason/site/toolbar/search.mas
+#: mason/site/toolbar/search_menu.mas
+msgid "Search"
+msgstr "Пошук"
+
+#: mason/search/stocks.mas
+msgid "View Another Property:"
+msgstr "Переглянути іншу властивість:"
+
+#: mason/search/stocks.mas
+msgid "Stock Id"
+msgstr "ID матеріалу"
+
+#: mason/search/stocks.mas
+msgid "Stock Name"
+msgstr "Назва матеріалу"
+
+#: mason/search/stocks.mas
+msgid "Stock Type"
+msgstr "Тип матеріалу"
+
+#: mason/search/stocks.mas
+msgid "Organism"
+msgstr "Організм"
+
+#: mason/search/stocks.mas
+msgid "Synonyms"
+msgstr "Синоніми"
+
+#: mason/search/stocks.mas
+msgid "Organization"
+msgstr "Організація"
+
+#: mason/search/stocks.mas mason/search/trials.mas
+msgid "Copy Results to a List"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Search Results"
+msgstr "Результати пошуку"
+
+#: mason/search/stocks.mas
+msgid ""
+"Graphically filter an accessions average performance for combinations of "
+"traits"
+msgstr "Графічно відфільтруйте середні показники зразків за поєднанням ознак"
+
+#: mason/search/stocks_graphicalfiltering.mas
+msgid "[LOADING...]"
+msgstr "[ЗАВАНТАЖЕННЯ...]"
+
+#: mason/search/stocks_graphicalfiltering.mas
+msgid "Copy Filtered Accessions to a List"
+msgstr "Скопіювати відфільтровані зразки до списку"
+
+#: mason/search/stocks_graphicalfiltering.mas
+msgid ""
+"Graphical Filter Accessions By Traits (Includes all Search Criteria From "
+"Above Search Form)"
+msgstr ""
+"Графічно відфільтрувати зразки за ознаками (з урахуванням усіх критеріїв "
+"форми вище)"
+
+#: mason/search/trials.mas
+msgid "Trial Search"
+msgstr "Пошук дослідів"
+
+#: mason/search/trials.mas
+msgid "Trial name"
+msgstr "Назва досліду"
+
+#: mason/search/trials.mas
+msgid "Description"
+msgstr "Опис"
+
+#: mason/search/trials.mas
+msgid "Breeding program"
+msgstr "Селекційна програма"
+
+#: mason/search/trials.mas
+msgid "Folder"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Year"
+msgstr "Рік"
+
+#: mason/search/trials.mas
+msgid "Location"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Trial type"
+msgstr "Тип досліду"
+
+#: mason/search/trials.mas
+msgid "Design"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Planting Date"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Harvest Date"
+msgstr ""
+
+#: mason/site/footer/body.mas
+#, perl-brace-format
+msgid "{breedbase} is located at the {link}Boyce Thompson Institute{end_link}."
+msgstr ""
 
 #: mason/site/footer/body.mas
 msgid "Version"
@@ -29,13 +403,20 @@ msgstr "Обробка"
 msgid "Progress"
 msgstr "Перебіг виконання"
 
+#: mason/site/header/head.mas
+msgid "Search Database"
+msgstr "Пошук у базі даних"
+
+#: mason/site/login_dialog.mas
+#, perl-brace-format
+msgid ""
+"{bold}Before{end_bold} creating a new account, please check if you {bold}"
+"already have an account{end_bold} using the {link}directory search{end_link}."
+msgstr ""
+
 #: mason/site/login_dialog.mas
 msgid "Close"
 msgstr "Закрити"
-
-#: mason/site/login_dialog.mas mason/site/toolbar/login.mas
-msgid "Login"
-msgstr ""
 
 #: mason/site/login_dialog.mas
 msgid "Username"
@@ -119,10 +500,6 @@ msgstr "Прізвище:"
 
 #: mason/site/login_dialog.mas
 msgid "Breeding Program(s):"
-msgstr ""
-
-#: mason/site/login_dialog.mas
-msgid "Organization:"
 msgstr ""
 
 #: mason/site/login_dialog.mas
@@ -414,10 +791,6 @@ msgid "Marker Allele Lists"
 msgstr "Списки алелів маркерів"
 
 #: mason/site/toolbar/manage.mas
-msgid "Download"
-msgstr "Вивантажити"
-
-#: mason/site/toolbar/manage.mas
 msgid "Upload"
 msgstr "Завантажити"
 
@@ -440,10 +813,6 @@ msgstr "Транскриптоміка"
 #: mason/site/toolbar/search.mas
 msgid "Advanced"
 msgstr "Розширений пошук"
-
-#: mason/site/toolbar/search.mas mason/site/toolbar/search_menu.mas
-msgid "Search"
-msgstr "Пошук"
 
 #: mason/site/toolbar/search_menu.mas
 msgid "Wizard"

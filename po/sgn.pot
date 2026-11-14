@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-14 09:30+0000\n"
+"POT-Creation-Date: 2026-11-14 11:01+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -16,6 +16,372 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: lib/SGN/Controller/AJAX/User.pm mason/site/login_dialog.mas
+#: mason/site/toolbar/login.mas
+msgid "Login"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "Calendar"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "Datasets"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "Lists"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "Logout"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "My Profile"
+msgstr ""
+
+#: lib/SGN/Controller/AJAX/User.pm
+msgid "Your Calendar"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "Phenotype Files Uploaded"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "Filename"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "Date Uploaded"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "Uploaded By"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "File Type"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "Options"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas mason/index_logged_in_user.mas
+msgid "Trial"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas
+msgid "View"
+msgstr ""
+
+#: mason/homepage/phenotype_uploads.mas mason/search/trials.mas
+#: mason/site/toolbar/manage.mas
+msgid "Download"
+msgstr ""
+
+#: mason/index.mas
+msgid "What is Breedbase?"
+msgstr ""
+
+#: mason/index.mas
+msgid ""
+"Breedbase is a comprehensive breeding management and analysis software. It "
+"can be used to design field layouts, collect phenotypic information using "
+"tablets, support the collection of genotyping samples in a field, store "
+"large amounts of high density genotypic information, and provide Genomic "
+"Selection related analyses and predictions. Breedbase supports the BrAPI "
+"standard."
+msgstr ""
+
+#: mason/index.mas
+msgid "How can I use Breedbase?"
+msgstr ""
+
+#: mason/index.mas
+msgid "What crops are using Breedbase?"
+msgstr ""
+
+#: mason/index.mas
+msgid "How can I learn more about Breedbase?"
+msgstr ""
+
+#: mason/index_logged_in_user.mas
+msgid "Continue where you left off:"
+msgstr ""
+
+#: mason/index_logged_in_user.mas
+msgid "Interval:"
+msgstr ""
+
+#: mason/index_logged_in_user.mas
+msgid "10 most recently created trials:"
+msgstr ""
+
+#: mason/index_logged_in_user.mas
+msgid "Trial Type"
+msgstr ""
+
+#: mason/index_logged_in_user.mas
+msgid "Breeding Program"
+msgstr ""
+
+#: mason/index_logged_in_user.mas
+msgid "Create date"
+msgstr ""
+
+#: mason/index_logged_in_user.mas
+msgid "10 most recently modified trials:"
+msgstr ""
+
+#: mason/index_logged_in_user.mas
+msgid "Last phenotype added"
+msgstr ""
+
+#: mason/index_logged_in_user.mas
+msgid "10 most recently added accessions:"
+msgstr ""
+
+#: mason/index_logged_in_user.mas
+msgid "Accession"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Search Accessions and Plots"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Stock Name or Description:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "starts with"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "contains"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "ends with"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "exactly"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Type search here..."
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Stock Type:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Name Search"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Organism:"
+msgstr ""
+
+#: mason/search/stocks.mas mason/site/login_dialog.mas
+msgid "Organization:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Type to Autocomplete"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Search By Another Property:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Add"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Is Obsolete?:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Not Obsolete"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Is Obsolete"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Include Obsolete"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Properties"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Project Name:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Project Location:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Project Year:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Breeding Program:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Usage"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Trait:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Minimum Trait Value:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Maximum Trait Value:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Phenotypes"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Go to Search Accessions Using Genotypes Page."
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Search Accessions Using Genotypes"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Advanced Search"
+msgstr ""
+
+#: mason/search/stocks.mas mason/site/toolbar/search.mas
+#: mason/site/toolbar/search_menu.mas
+msgid "Search"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "View Another Property:"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Stock Id"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Stock Name"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Stock Type"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Organism"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Synonyms"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Organization"
+msgstr ""
+
+#: mason/search/stocks.mas mason/search/trials.mas
+msgid "Copy Results to a List"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid "Search Results"
+msgstr ""
+
+#: mason/search/stocks.mas
+msgid ""
+"Graphically filter an accessions average performance for combinations of "
+"traits"
+msgstr ""
+
+#: mason/search/stocks_graphicalfiltering.mas
+msgid "[LOADING...]"
+msgstr ""
+
+#: mason/search/stocks_graphicalfiltering.mas
+msgid "Copy Filtered Accessions to a List"
+msgstr ""
+
+#: mason/search/stocks_graphicalfiltering.mas
+msgid ""
+"Graphical Filter Accessions By Traits (Includes all Search Criteria From "
+"Above Search Form)"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Trial Search"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Trial name"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Description"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Breeding program"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Folder"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Year"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Location"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Trial type"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Design"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Planting Date"
+msgstr ""
+
+#: mason/search/trials.mas
+msgid "Harvest Date"
+msgstr ""
+
+#: mason/site/footer/body.mas
+#, perl-brace-format
+msgid "{breedbase} is located at the {link}Boyce Thompson Institute{end_link}."
+msgstr ""
 
 #: mason/site/footer/body.mas
 msgid "Version"
@@ -29,12 +395,19 @@ msgstr ""
 msgid "Progress"
 msgstr ""
 
-#: mason/site/login_dialog.mas
-msgid "Close"
+#: mason/site/header/head.mas
+msgid "Search Database"
 msgstr ""
 
-#: mason/site/login_dialog.mas mason/site/toolbar/login.mas
-msgid "Login"
+#: mason/site/login_dialog.mas
+#, perl-brace-format
+msgid ""
+"{bold}Before{end_bold} creating a new account, please check if you {bold}"
+"already have an account{end_bold} using the {link}directory search{end_link}."
+msgstr ""
+
+#: mason/site/login_dialog.mas
+msgid "Close"
 msgstr ""
 
 #: mason/site/login_dialog.mas
@@ -112,10 +485,6 @@ msgstr ""
 
 #: mason/site/login_dialog.mas
 msgid "Breeding Program(s):"
-msgstr ""
-
-#: mason/site/login_dialog.mas
-msgid "Organization:"
 msgstr ""
 
 #: mason/site/login_dialog.mas
@@ -403,10 +772,6 @@ msgid "Marker Allele Lists"
 msgstr ""
 
 #: mason/site/toolbar/manage.mas
-msgid "Download"
-msgstr ""
-
-#: mason/site/toolbar/manage.mas
 msgid "Upload"
 msgstr ""
 
@@ -428,10 +793,6 @@ msgstr ""
 
 #: mason/site/toolbar/search.mas
 msgid "Advanced"
-msgstr ""
-
-#: mason/site/toolbar/search.mas mason/site/toolbar/search_menu.mas
-msgid "Search"
 msgstr ""
 
 #: mason/site/toolbar/search_menu.mas
