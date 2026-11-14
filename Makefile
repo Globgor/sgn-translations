@@ -36,8 +36,8 @@ pot:
 	perl tools/mason2perl.pl po/EXCLUDE "$(SGN)" "$$tmp/perl" > "$$tmp/files" && \
 	(cd "$(SGN)" && find lib cgi-bin -type f \( -name '*.pm' -o -name '*.pl' \)) > "$$tmp/perl-files" && \
 	LC_ALL=C sort "$$tmp/perl-files" >> "$$tmp/files" && \
-	xgettext -L Perl --from-code=UTF-8 --add-location=file --sort-by-file --force-po --package-name=sgn \
-		$$(perl -MLocale::TextDomain -e 'print join " ", Locale::TextDomain->options') \
+	options=$$(perl -MLocale::TextDomain -e 'print join " ", Locale::TextDomain->options') && \
+	xgettext -L Perl --from-code=UTF-8 --add-location=file --sort-by-file --force-po --package-name=sgn $$options \
 		-D "$$tmp/perl" -D "$(SGN)" -f "$$tmp/files" -o "$$tmp/sgn.pot" && \
 	if test -f po/sgn.pot && diff -q -I '^"POT-Creation-Date:' po/sgn.pot "$$tmp/sgn.pot" >/dev/null; \
 	then echo "po/sgn.pot: no change"; \

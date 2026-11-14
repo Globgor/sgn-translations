@@ -55,6 +55,14 @@ check "a component that is not UTF-8 fails make pot" test "$rc" -ne 0
 check "the error names the file and line" logged 'mason/legacy_latin1.mas: line 1 is not UTF-8'
 cp "$fixture/EXCLUDE" "$r/po/EXCLUDE"
 
+mkdir -p "$work/nolib/Locale"
+echo 'die "Locale::TextDomain is not installed\n";' > "$work/nolib/Locale/TextDomain.pm"
+log=$work/nolib.log
+if PERL5LIB="$work/nolib:${PERL5LIB:-}" make -s -C "$r" pot SGN="$work/sgn" > "$log" 2>&1; then rc=0; else rc=$?; fi
+check "make pot fails without Locale::TextDomain" test "$rc" -ne 0
+check "the error names the module" logged 'Locale::TextDomain'
+check "po/sgn.pot is kept without the module" cmp -s "$work/sgn.pot.1" "$r/po/sgn.pot"
+
 # 3. Update: only exact, non-fuzzy compendium matches are copied.
 run update update
 check "make update succeeds" test "$rc" -eq 0
