@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-14 14:15+0000\n"
+"POT-Creation-Date: 2026-11-14 15:37+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,7 +22,7 @@ msgid "outliers successfully stored!"
 msgstr ""
 
 #: js/source/entries/dataset_scatterplot.js
-msgid "outliers successfully reseted!"
+msgid "outliers successfully reset!"
 msgstr ""
 
 #: js/source/entries/decision_meeting.js
@@ -541,7 +541,7 @@ msgid ""
 msgstr ""
 
 #: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
-msgid "An error occured retrieving population data."
+msgid "An error occurred retrieving population data."
 msgstr ""
 
 #: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
@@ -1537,7 +1537,7 @@ msgstr ""
 
 #: js/source/legacy/heritability/heritability.js
 msgid ""
-"Error 3 occured preparing the additive genetic data for heritability "
+"Error 3 occurred preparing the additive genetic data for heritability "
 "analysis."
 msgstr ""
 
@@ -1559,7 +1559,7 @@ msgid "Please, check if there is numerical data and replicates for this trial."
 msgstr ""
 
 #: js/source/legacy/heritability/heritability.js
-msgid "Error 2 occured running the heritability analysis."
+msgid "Error 2 occurred running the heritability analysis."
 msgstr ""
 
 #: js/source/legacy/qualityControl/qualityControl.js
@@ -1568,7 +1568,7 @@ msgstr ""
 
 #: js/source/legacy/qualityControl/qualityControl.js
 msgid ""
-"Error 3 occured preparing the additive genetic data for qualityControl "
+"Error 3 occurred preparing the additive genetic data for qualityControl "
 "analysis."
 msgstr ""
 
@@ -1578,7 +1578,7 @@ msgstr ""
 
 #: js/source/legacy/qualityControl/qualityControl.js
 msgid ""
-"Error 1 occured preparing the phenotype data for qualityControl analysis."
+"Error 1 occurred preparing the phenotype data for qualityControl analysis."
 msgstr ""
 
 #: js/source/legacy/qualityControl/qualityControl.js
@@ -1586,7 +1586,7 @@ msgid "There is no qualityControl output for this dataset."
 msgstr ""
 
 #: js/source/legacy/qualityControl/qualityControl.js
-msgid "Error 2 occured running the qualityControl analysis."
+msgid "Error 2 occurred running the qualityControl analysis."
 msgstr ""
 
 #: js/source/legacy/solGS/analysisSelect.js
@@ -1612,7 +1612,7 @@ msgid "There is no correlation output for this dataset."
 msgstr ""
 
 #: js/source/legacy/solGS/analysisSelect.js
-msgid "Error occured running the correlation analysis."
+msgid "Error occurred running the correlation analysis."
 msgstr ""
 
 #: js/source/legacy/solGS/analysisStatus.js
@@ -1646,7 +1646,7 @@ msgid "No, I will wait till it completes."
 msgstr ""
 
 #: js/source/legacy/solGS/combineTrials.js
-msgid "Error occured getting combined trials unique id"
+msgid "Error occurred getting combined trials unique id"
 msgstr ""
 
 #: js/source/legacy/solGS/combineTrials.js
@@ -1659,7 +1659,8 @@ msgstr ""
 
 #: js/source/legacy/solGS/gebvPhenoRegression.js
 msgid ""
-"Error occured requesting for theGEBVs vs observed phenotypes regression data."
+"Error occurred requesting for theGEBVs vs observed phenotypes regression "
+"data."
 msgstr ""
 
 #: js/source/legacy/solGS/gebvsSave.js
@@ -1681,7 +1682,7 @@ msgid "There is no GEBV data for the training population."
 msgstr ""
 
 #: js/source/legacy/solGS/geneticGain.js
-msgid "Error occured checking for GEBV data for the training population."
+msgid "Error occurred checking for GEBV data for the training population."
 msgstr ""
 
 #: js/source/legacy/solGS/geneticGain.js
@@ -1693,7 +1694,7 @@ msgid "There is no GEBV data for the selection population."
 msgstr ""
 
 #: js/source/legacy/solGS/geneticGain.js
-msgid "Error occured checking for GEBV data for the selection population."
+msgid "Error occurred checking for GEBV data for the selection population."
 msgstr ""
 
 #: js/source/legacy/solGS/geneticGain.js
@@ -1721,16 +1722,16 @@ msgid "This population has no kinship output data."
 msgstr ""
 
 #: js/source/legacy/solGS/kinship.js
-msgid "Error occured running the kinship."
+msgid "Error occurred running the kinship."
 msgstr ""
 
 #: js/source/legacy/solGS/listTypeSelectionPopulation.js
 msgid ""
-"Error occured checking if the selection population has predicted output."
+"Error occurred checking if the selection population has predicted output."
 msgstr ""
 
 #: js/source/legacy/solGS/listTypeTrainingPopulation.js
-msgid "Error occured querying for trials ids"
+msgid "Error occurred querying for trials ids"
 msgstr ""
 
 #: js/source/legacy/solGS/loadAcronyms.js
@@ -1766,7 +1767,7 @@ msgid "Searching for more GS trials.."
 msgstr ""
 
 #: js/source/legacy/solGS/searchTrials.js
-msgid "Error occured fetching the next set of GS trials."
+msgid "Error occurred fetching the next set of GS trials."
 msgstr ""
 
 #: js/source/legacy/solGS/searchTrials.js
@@ -1774,7 +1775,7 @@ msgid "No trials phenotyped for the trait were found."
 msgstr ""
 
 #: js/source/legacy/solGS/searchTrials.js
-msgid "Error occured fetching the first set of GS trials."
+msgid "Error occurred fetching the first set of GS trials."
 msgstr ""
 
 #: js/source/legacy/solGS/searchTrials.js
@@ -1786,7 +1787,7 @@ msgid "At least two traits must be assigned relative weight."
 msgstr ""
 
 #: js/source/legacy/solGS/selectionIndex.js
-msgid "Error occured running correlation analysis."
+msgid "Error occurred running correlation analysis."
 msgstr ""
 
 #: js/source/legacy/solGS/selectionPopulations.js
@@ -1794,7 +1795,7 @@ msgid "Please enter trial name."
 msgstr ""
 
 #: js/source/legacy/solGS/solGS.js
-msgid "Error occured checking for cached output."
+msgid "Error occurred checking for cached output."
 msgstr ""
 
 #: js/source/legacy/solGS/solGS.js

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-14 15:17+0000\n"
+"POT-Creation-Date: 2026-11-14 15:37+0000\n"
 "PO-Revision-Date: 2026-11-14 00:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: Arabic\n"
@@ -63,12 +63,12 @@ msgstr "ليست لديك صلاحيات كافية لإعادة تسمية ال
 
 #: lib/SGN/Controller/AJAX/Accessions/Rename.pm
 msgid ""
-"The rename accessions funtion requires a tab delimited file. Excel files "
+"The rename accessions function requires a tab delimited file. Excel files "
 "(.xls and .xlsx) are currently not supported. Please convert the file and "
 "try again."
 msgstr ""
-"تتطلب وظيفة إعادة تسمية العينات الوراثية ملفًا مفصولًا بعلامات جدولة. ملفات "
-"Excel ‏(.xls و.xlsx) غير مدعومة حاليًا. يرجى تحويل الملف والمحاولة مرة أخرى."
+"تتطلب وظيفة إعادة تسمية العينات الوراثية ملفًا مفصولًا بعلامات الجدولة. ملفات "
+"Excel (.xls و.xlsx) غير مدعومة حاليًا. يرجى تحويل الملف والمحاولة مرة أخرى."
 
 #: lib/SGN/Controller/AJAX/Analysis.pm
 msgid "You are trying to save an analysis, but no name was given."
@@ -470,7 +470,7 @@ msgstr ""
 
 #: lib/SGN/Controller/AJAX/DroneImagery/DroneImageryUpload.pm
 msgid ""
-"An imaging event has already occured on this field trial at the same date "
+"An imaging event has already occurred on this field trial at the same date "
 "and time! Please give a unique date/time for each imaging event!"
 msgstr ""
 "سُجّلت عملية تصوير لهذه التجربة الحقلية في التاريخ والوقت نفسيهما بالفعل! يرجى "
@@ -902,7 +902,7 @@ msgstr "لا توجد عوامل متعددة المستويات في مجموع
 
 #: lib/SGN/Controller/AJAX/Nirs.pm
 msgid ""
-"Not enough data! Need atleast 5 samples with a phenotype and spectra! Maybe "
+"Not enough data! Need at least 5 samples with a phenotype and spectra! Maybe "
 "choose a different device type?"
 msgstr ""
 "البيانات غير كافية! يلزم 5 عينات على الأقل، لكل منها نمط ظاهري وأطياف! هل "
@@ -926,8 +926,8 @@ msgstr ""
 
 #: lib/SGN/Controller/AJAX/Nirs.pm
 msgid ""
-"Not enough data! Need atleast 10 samples with a phenotype and spectra! Maybe "
-"choose a different device type?"
+"Not enough data! Need at least 10 samples with a phenotype and spectra! "
+"Maybe choose a different device type?"
 msgstr ""
 "البيانات غير كافية! يلزم 10 عينات على الأقل، لكل منها نمط ظاهري وأطياف! هل "
 "تريد اختيار نوع جهاز آخر?"
@@ -1080,7 +1080,7 @@ msgid "Source name does not exist in the database."
 msgstr "اسم المصدر غير موجود في قاعدة البيانات."
 
 #: lib/SGN/Controller/AJAX/Propagation.pm
-msgid "You must be logged in to upload propagation group identifers!"
+msgid "You must be logged in to upload propagation group identifiers!"
 msgstr "يجب تسجيل الدخول لرفع معرّفات مجموعات الإكثار!"
 
 #: lib/SGN/Controller/AJAX/Propagation.pm
@@ -1088,10 +1088,6 @@ msgid "Only a submitter or a curator can upload propagation group identifiers"
 msgstr ""
 "لا يمكن رفع معرّفات مجموعات الإكثار إلا بواسطة قيّم أو مستخدم مخوّل بإدخال "
 "البيانات"
-
-#: lib/SGN/Controller/AJAX/Propagation.pm
-msgid "You must be logged in to upload propagation group identifiers!"
-msgstr "يجب تسجيل الدخول لرفع معرّفات مجموعات الإكثار!"
 
 #: lib/SGN/Controller/AJAX/Propagation.pm
 msgid "you have insufficient privileges to add a propagation ID."
@@ -1109,10 +1105,6 @@ msgstr "اسم الأصل غير موجود أو ليس اسمًا فريدًا 
 #: lib/SGN/Controller/AJAX/Propagation.pm
 msgid "Error saving status for propagation identifier"
 msgstr "خطأ في حفظ حالة معرّف الإكثار"
-
-#: lib/SGN/Controller/AJAX/Propagation.pm
-msgid "You must be logged in to upload propagation identifers!"
-msgstr "يجب تسجيل الدخول لرفع معرّفات الإكثار!"
 
 #: lib/SGN/Controller/AJAX/Propagation.pm
 msgid "You must be logged in to upload propagation identifiers!"
@@ -1148,10 +1140,6 @@ msgstr "خطأ: معرّف المخزون موجود بالفعل؛ استخدم
 #: lib/SGN/Controller/AJAX/Propagation.pm
 msgid "Error updating status"
 msgstr "خطأ في تحديث الحالة"
-
-#: lib/SGN/Controller/AJAX/Propagation.pm
-msgid "You must be logged in to upload propagation identifer statuses!"
-msgstr "يجب تسجيل الدخول لرفع حالات معرّفات الإكثار!"
 
 #: lib/SGN/Controller/AJAX/Propagation.pm
 msgid "You must be logged in to upload propagation identifier statuses!"
@@ -1989,7 +1977,7 @@ msgstr "تسجيل الخروج"
 msgid "My Profile"
 msgstr "ملفي الشخصي"
 
-#: lib/SGN/Controller/AJAX/User.pm mason/calendar/events_by_user_role.mas
+#: lib/SGN/Controller/AJAX/User.pm
 msgid "Your Calendar"
 msgstr "تقويمك"
 
@@ -2029,10 +2017,6 @@ msgstr "يجب تسجيل الدخول لكي تحفظ النواقل."
 #: lib/SGN/Controller/AJAX/VectorViewer.pm
 msgid "You do not have the privileges to import vector data."
 msgstr "ليس لديك صلاحيات لاستيراد بيانات الناقل."
-
-#: lib/SGN/Controller/AJAX/Vigs.pm
-msgid "Bowtie execution failed"
-msgstr "فشل تنفيذ Bowtie"
 
 #: lib/SGN/Controller/AJAX/Wiki.pm
 msgid "You do not have the privileges to create wiki pages."
@@ -2135,25 +2119,9 @@ msgstr "لم يُرفع أي ملف صورة."
 msgid "Thank you. Your message has been sent."
 msgstr "شكرًا لك. أُرسلت رسالتك."
 
-#: lib/SGN/Controller/Locus.pm
-msgid "Locus ID must be a positive integer."
-msgstr "يجب أن يكون معرّف الموضع الجيني عددًا صحيحًا موجبًا."
-
-#: lib/SGN/Controller/Locus.pm
-msgid "Multiple matching loci"
-msgstr "توجد مواضع جينية متعددة مطابقة"
-
 #: lib/SGN/Controller/Propagation.pm
 msgid "The requested propagation group ID does not exist."
 msgstr "ID مجموعة الإكثار المطلوبة غير موجود."
-
-#: lib/SGN/Controller/Publication.pm
-msgid "Multiple matching publications"
-msgstr "توجد منشورات متعددة مطابقة"
-
-#: lib/SGN/Controller/Publication.pm
-msgid "Publication ID must be a positive integer."
-msgstr "يجب أن يكون معرّف المنشور عددًا صحيحًا موجبًا."
 
 #: lib/SGN/Controller/QuickSearch.pm
 msgid "Must provide a search term"
@@ -2271,7 +2239,7 @@ msgstr ""
 msgid ""
 "The US SOL outreach program focuses on Solanaceae biology and "
 "bioinformatics. The target audience is K-12 and college undergraduates, with "
-"a particular effort to engage underrepresented groups. Activies include "
+"a particular effort to engage underrepresented groups. Activities include "
 "presentations at elementary schools and associated after school programs, "
 "high schools, undergraduate classes, high school teacher curriculum "
 "workshops, and we provide hands-on laboratory activities. Bioinformatics "
@@ -2501,16 +2469,14 @@ msgstr "التصفية حسب تاريخ الإضافة إلى قاعدة الب
 #: mason/about/recent_activity.mas mason/breeders_toolbox/db_stats.mas
 #: mason/breeders_toolbox/trial/phenotype_summary.mas
 #: mason/breeders_toolbox/trial/repetitive_measurements_data.mas
-#: mason/calendar/events_by_user_role.mas mason/dbstats/recent_activity.mas
-#: mason/tools/report.mas
+#: mason/dbstats/recent_activity.mas mason/tools/report.mas
 msgid "Start Date:"
 msgstr "تاريخ البدء:"
 
 #: mason/about/recent_activity.mas mason/breeders_toolbox/db_stats.mas
 #: mason/breeders_toolbox/trial/phenotype_summary.mas
 #: mason/breeders_toolbox/trial/repetitive_measurements_data.mas
-#: mason/calendar/events_by_user_role.mas mason/dbstats/recent_activity.mas
-#: mason/tools/report.mas
+#: mason/dbstats/recent_activity.mas mason/tools/report.mas
 msgid "End Date:"
 msgstr "تاريخ الانتهاء:"
 
@@ -2973,8 +2939,7 @@ msgstr "قاعدة بيانات الجينات والأنماط الظاهرية
 #: mason/breeders_toolbox/upload_seedlots_dialogs.mas
 #: mason/breeders_toolbox/upload_seedlots_inventory_dialogs.mas
 #: mason/breeders_toolbox/upload_transactions_dialogs.mas
-#: mason/calendar/events_by_user_role.mas mason/chado/cvterm.mas
-#: mason/chado/cvtermprops.mas mason/dataset/publish.mas
+#: mason/chado/cvterm.mas mason/chado/cvtermprops.mas mason/dataset/publish.mas
 #: mason/fieldbook/create_trait_file_dialog.mas
 #: mason/fieldbook/upload_phenotype_fieldbook.mas
 #: mason/genomes/sequenced_accessions.mas mason/help/contact.mas
@@ -4786,7 +4751,7 @@ msgstr "الموقع:"
 msgid "Add New Location"
 msgstr "إضافة موقع جديد"
 
-#: mason/barcode/multi_tool_input.mas mason/calendar/events_by_user_role.mas
+#: mason/barcode/multi_tool_input.mas
 msgid "Project:"
 msgstr "المشروع:"
 
@@ -7482,8 +7447,7 @@ msgstr "حفظ تفاصيل برنامج التربية"
 #: mason/breeders_toolbox/trial/trial_upload_dialogs.mas
 #: mason/breeders_toolbox/trial/upload_additional_file.mas
 #: mason/breeders_toolbox/trial/upload_soil_data_dialogs.mas
-#: mason/breeders_toolbox/upload_images.mas
-#: mason/calendar/events_by_user_role.mas mason/dataset/publish.mas
+#: mason/breeders_toolbox/upload_images.mas mason/dataset/publish.mas
 #: mason/propagation/add_propagation_group_id_dialog.mas
 #: mason/propagation/add_propagation_project.mas
 #: mason/propagation/edit_propagation_project_details_dialog.mas
@@ -9710,7 +9674,6 @@ msgstr "الأصول"
 #: mason/breeders_toolbox/trial/add_tissue_sample_per_plant.mas
 #: mason/breeders_toolbox/trial/derived_trait.mas
 #: mason/breeders_toolbox/trial/set_phenotypes_fully_uploaded.mas
-#: mason/calendar/events_by_user_role.mas
 #: mason/collection/add_to_collection_modal.mas
 #: mason/collection/collection_details.mas mason/pedigree/stock_pedigree.mas
 #: mason/site/list.mas mason/tools/document_browser.mas
@@ -9734,7 +9697,7 @@ msgstr "بيانات التهجين الحقلي"
 #: mason/breeders_toolbox/cross/index.mas
 #, perl-brace-format
 msgid ""
-"{bold}WARNING!{end_bold} Changing the parameters can have unpredicatable "
+"{bold}WARNING!{end_bold} Changing the parameters can have unpredictable "
 "results in downstream analyses if they are inconsistent with other data."
 msgstr ""
 "{bold}تحذير!{end_bold} قد يؤدي تغيير المعلمات إلى نتائج غير متوقعة في "
@@ -10243,14 +10206,14 @@ msgid ""
 "You can set target numbers of seeds and/or target numbers of progenies for "
 "parental combinations that you plan to include in this cossing experiment. "
 "Once target numbers are stored in the database, this section will "
-"automatically track crossing acitvities in this crossing experiment. Target "
+"automatically track crossing activities in this crossing experiment. Target "
 "numbers can be added before or after actual crossing activities are stored "
 "in the database."
 msgstr ""
-"يمكنك تحديد الأعداد المستهدفة من البذور و/أو النسل لتركيبات الأبوين التي "
-"تنوي تضمينها في تجربة التهجين هذه. بعد حفظ الأعداد المستهدفة في قاعدة "
-"البيانات، سيتتبع هذا القسم أنشطة التهجين في التجربة تلقائيًا. يمكن إضافة "
-"الأعداد المستهدفة قبل حفظ أنشطة التهجين الفعلية في قاعدة البيانات أو بعده."
+"يمكن تحديد الأعداد المستهدفة للبذور و/أو أفراد النسل للتراكيب الأبوية المخطط "
+"إدراجها في تجربة التهجين هذه. بعد حفظ الأعداد، سيتتبع هذا القسم أنشطة "
+"التهجين تلقائيًا في التجربة. ويمكن إضافة الأعداد المستهدفة قبل حفظ أنشطة "
+"التهجين الفعلية في قاعدة البيانات أو بعدها."
 
 #: mason/breeders_toolbox/cross/target_numbers_usage_info_dialog.mas
 msgid "How to Record Target Numbers:"
@@ -11003,8 +10966,8 @@ msgstr "فئات البيانات"
 
 #: mason/breeders_toolbox/db_stats.mas
 #: mason/breeders_toolbox/program/traits.mas
-msgid "An error occured retrieving trait histogram data."
-msgstr "حدث خطأ أثناء جلب بيانات المدرج التكراري للصفة."
+msgid "An error occurred retrieving trait histogram data."
+msgstr "حدث خطأ أثناء استرداد بيانات المدرج التكراري للصفة."
 
 #: mason/breeders_toolbox/db_stats.mas
 #: mason/breeders_toolbox/program/traits.mas
@@ -11497,16 +11460,16 @@ msgstr "كيفية وسم دفعة بذور بأنها مستبعدة:"
 #: mason/breeders_toolbox/discard_undo_seedlot_usage.mas
 msgid ""
 "Using a List: Several seedlots can be discarded at once by using a list with "
-"seedlots list type. The link can be found at the buttom of Manage Seedlots "
+"seedlots list type. The link can be found at the bottom of Manage Seedlots "
 "(Available Seedlots) page."
 msgstr ""
-"باستخدام قائمة: يمكن استبعاد عدة دفعات بذور مرة واحدة باستخدام قائمة من نوع "
+"باستخدام قائمة: يمكن استبعاد عدة دفعات بذور دفعة واحدة باستخدام قائمة من نوع "
 "دفعات البذور. يوجد الرابط أسفل صفحة إدارة دفعات البذور (دفعات البذور "
 "المتاحة)."
 
 #: mason/breeders_toolbox/discard_undo_seedlot_usage.mas
 msgid ""
-"Discarding single seedlot: The link can be found at the buttom of Seedlot "
+"Discarding single seedlot: The link can be found at the bottom of Seedlot "
 "Details page."
 msgstr "استبعاد دفعة بذور واحدة: يوجد الرابط أسفل صفحة تفاصيل دفعة البذور."
 
@@ -11516,11 +11479,11 @@ msgstr "التراجع عن استبعاد دفعات البذور:"
 
 #: mason/breeders_toolbox/discard_undo_seedlot_usage.mas
 msgid ""
-"Discarded seedlot can be reversed by using UNDO option at the buttom of "
+"Discarded seedlot can be reversed by using UNDO option at the bottom of "
 "Seedlot Details page"
 msgstr ""
-"يمكن التراجع عن استبعاد دفعة بذور باستخدام خيار التراجع أسفل صفحة تفاصيل "
-"دفعة البذور"
+"يمكن التراجع عن استبعاد دفعة البذور باستخدام خيار التراجع أسفل صفحة تفاصيل "
+"الدفعة"
 
 #: mason/breeders_toolbox/download.mas
 msgid "Download Using Lists"
@@ -12042,7 +12005,7 @@ msgid "Analytics Description:"
 msgstr "وصف التحليلات:"
 
 #: mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas
-msgid "Number Interations:"
+msgid "Number Iterations:"
 msgstr "عدد التكرارات:"
 
 #: mason/breeders_toolbox/drone_imagery/drone_imagery_analytics.mas
@@ -13209,10 +13172,10 @@ msgstr "الانتقال إلى الرفع الجماعي لأحداث التص�
 
 #: mason/breeders_toolbox/drone_imagery/upload_drone_imagery_dialogs.mas
 msgid ""
-"Go to bulk upload of previously processed imaging events (GeoJSON defitions "
-"included)"
+"Go to bulk upload of previously processed imaging events (GeoJSON "
+"definitions included)"
 msgstr ""
-"انتقل إلى الرفع المجمع لأحداث التصوير المعالجة سابقًا (بما فيها تعريفات "
+"الانتقال إلى الرفع الجماعي لأحداث التصوير المعالجة مسبقًا (بما فيها تعريفات "
 "GeoJSON)"
 
 #: mason/breeders_toolbox/drone_imagery/upload_drone_imagery_dialogs.mas
@@ -13372,10 +13335,11 @@ msgstr ""
 #: mason/breeders_toolbox/drone_imagery/upload_drone_imagery_dialogs.mas
 msgid ""
 "Raw images are uploaded using a zipfile (.zip). Place all images relevant to "
-"the imaging event into one zipfile. Include atleast 25 images in the zipfile."
+"the imaging event into one zipfile. Include at least 25 images in the "
+"zipfile."
 msgstr ""
-"تُرفع الصور الخام في ملف مضغوط (.zip). ضع جميع الصور المتعلقة بحدث التصوير في "
-"ملف مضغوط واحد. أدرج 25 صورة على الأقل في الملف المضغوط."
+"تُرفع الصور الخام في ملف ZIP (.zip). ضع جميع صور حدث التصوير في ملف واحد "
+"وأدرج 25 صورة على الأقل."
 
 #: mason/breeders_toolbox/drone_imagery/upload_drone_imagery_dialogs.mas
 #, perl-format, perl-brace-format
@@ -15730,10 +15694,10 @@ msgstr "سيرشدك هذا المسار إلى رفع الأنماط الجين
 #: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas
 msgid ""
 "Select a genotyping project on the next screen. This project can represent a "
-"series of genotyping plates sent to a genotyping facilty."
+"series of genotyping plates sent to a genotyping facility."
 msgstr ""
-"اختر مشروع تنميط جيني في الشاشة التالية. يمكن أن يمثل هذا المشروع مجموعة من "
-"صفائح التنميط الجيني المرسلة إلى مرفق التنميط الجيني."
+"اختر مشروعاً للتنميط الجيني في الشاشة التالية. يمكن أن يمثّل المشروع سلسلة من "
+"اللوحات المرسلة إلى منشأة التنميط الجيني."
 
 #: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas
 msgid ""
@@ -16728,7 +16692,7 @@ msgstr ""
 "ويمكن أيضاً طباعة معرّفات الباركود مسبقاً لإسنادها لاحقاً إلى العينات في المختبر."
 
 #: mason/breeders_toolbox/identifier_generation/manage_identifier_generation.mas
-msgid "View, add, and dowload identifiers."
+msgid "View, add, and download identifiers."
 msgstr "عرض المعرّفات وإضافتها وتنزيلها."
 
 #: mason/breeders_toolbox/identifier_generation/manage_identifier_generation.mas
@@ -18807,12 +18771,8 @@ msgid "Error predicting keras model!"
 msgstr "خطأ في التنبؤ باستخدام نموذج keras!"
 
 #: mason/breeders_toolbox/manage_drone_imagery.mas
-msgid "Please select atleast one field trial!"
-msgstr "يرجى اختيار تجربة حقلية واحدة على الأقل!"
-
-#: mason/breeders_toolbox/manage_drone_imagery.mas
-msgid "Please select atleast one imaging event!"
-msgstr "يرجى اختيار حدث تصوير واحد على الأقل!"
+msgid "Please select at least one field trial!"
+msgstr "حدد تجربة حقلية واحدة على الأقل!"
 
 #: mason/breeders_toolbox/manage_drone_imagery.mas
 msgid "Please select one imaging event!"
@@ -19750,11 +19710,11 @@ msgstr "اعرض وأنشئ عينات نسيج لتجارب أخذ عينات �
 
 #: mason/breeders_toolbox/manage_samples.mas
 msgid ""
-"Automatic export to genotyping vendors is currently not avaiable; however, "
+"Automatic export to genotyping vendors is currently not available; however, "
 "you can download the layout and submit to vendor manually."
 msgstr ""
-"التصدير التلقائي إلى مقدمي خدمات التنميط الجيني غير متاح حاليًا؛ لكن يمكنك "
-"تنزيل المخطط وإرساله إلى مقدم الخدمة يدويًا."
+"التصدير التلقائي إلى منشآت التنميط الجيني غير متاح حالياً؛ ومع ذلك، يمكنك "
+"تنزيل تخطيط اللوحة وإرساله إلى المنشأة يدوياً."
 
 #: mason/breeders_toolbox/manage_sequence_metadata.mas
 msgid "Manage Sequence Metadata"
@@ -21517,8 +21477,7 @@ msgstr "الإجراء"
 
 #: mason/breeders_toolbox/seedlot_maintenance/record.mas
 #: mason/breeders_toolbox/seedlot_maintenance/table.mas
-#: mason/calendar/events_by_user_role.mas mason/stock/add_phenotype.mas
-#: mason/stock/phenotypes.mas
+#: mason/stock/add_phenotype.mas mason/stock/phenotypes.mas
 #: mason/tools/sequence_metadata/query_sequence_metadata.mas
 msgid "Value"
 msgstr "القيمة"
@@ -23849,7 +23808,6 @@ msgid "Export {trial} Phenotypes to Expression Atlas"
 msgstr "تصدير البيانات الظاهرية للتجربة {trial} إلى Expression Atlas"
 
 #: mason/breeders_toolbox/trial/export_trial_to_expression_atlas.mas
-#: mason/calendar/events_by_user_role.mas
 #: mason/propagation/add_propagation_project.mas mason/search/stocks.mas
 #: mason/tracking_activities/add_new_activity_project.mas
 #: mason/transformation/add_transformation_project_dialog.mas
@@ -24713,16 +24671,16 @@ msgstr "تعديل معلومات القطعة"
 msgid ""
 "Warning: the new plot name will replace the old plot name in subplots, "
 "plants, and tissue samples if possible. If a plot name template is saved in "
-"assocation with this trial, it will be used to rename the plot unless a new "
+"association with this trial, it will be used to rename the plot unless a new "
 "plot name is manually specified. Changing plot accessions may change plot "
 "replicate numbers. You may need to reprint labels after the changes are "
 "applied."
 msgstr ""
 "تحذير: سيحل اسم القطعة الجديد محل الاسم القديم في القطع الفرعية والنباتات "
-"وعينات الأنسجة إن أمكن. إذا حُفظ قالب لأسماء القطع مرتبط بهذه التجربة، "
-"فسيُستخدم لإعادة تسمية القطعة ما لم يُحدد اسم جديد يدويًا. قد يؤدي تغيير "
-"العينات الوراثية للقطع إلى تغيير أرقام تكراراتها. قد تحتاج إلى إعادة طباعة "
-"الملصقات بعد تطبيق التغييرات."
+"وعينات الأنسجة إن أمكن. إذا كان هناك قالب لأسماء القطع مرتبط بهذه التجربة "
+"فسيُستخدم لإعادة التسمية ما لم يُدخل اسم جديد يدويًا. قد يؤدي تغيير عينات القطع "
+"إلى تغيير أرقام التكرار. قد تحتاج إلى إعادة طباعة الملصقات بعد تطبيق "
+"التغييرات."
 
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas
 #: mason/breeders_toolbox/trial/trial_coords.mas
@@ -24788,8 +24746,8 @@ msgid "No geo reference data in this trial!"
 msgstr "لا توجد بيانات مرجعية جغرافية في هذه التجربة!"
 
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas
-msgid "An error occured while trying to find accession name of filler plots"
-msgstr "حدث خطأ أثناء محاولة العثور على اسم العينة الوراثية لقطع الملء"
+msgid "An error occurred while trying to find accession name of filler plots"
+msgstr "حدث خطأ أثناء البحث عن اسم العينة لقطع الملء"
 
 #: mason/breeders_toolbox/trial/phenotype_heatmap.mas
 msgid "Failed to remove filler plots"
@@ -26978,6 +26936,7 @@ msgid "This is for uploading any additional files you may have for a trial."
 msgstr "هذا القسم مخصص لتحميل أي ملفات إضافية خاصة بالتجربة."
 
 #: mason/breeders_toolbox/trial/upload_additional_file.mas
+#: mason/stock/upload_additional_accessions_file.mas
 msgid "Possible additional files include, but are not limited to:"
 msgstr "تشمل الملفات الإضافية المحتملة، على سبيل المثال لا الحصر:"
 
@@ -27419,7 +27378,7 @@ msgstr ""
 #: mason/breeders_toolbox/upload_locations_dialogs.mas
 #, perl-brace-format
 msgid ""
-"{column} must be an exisiting Breeding Program in the database, or multiple "
+"{column} must be an existing Breeding Program in the database, or multiple "
 "breeding programs separated by {separator}"
 msgstr ""
 "يجب أن يكون {column} برنامج تربية موجودًا في قاعدة البيانات، أو عدة برامج "
@@ -27832,10 +27791,10 @@ msgstr "نقل البذور من دفعة موجودة إلى دفعة أخرى 
 #: mason/breeders_toolbox/upload_transactions_dialogs.mas
 msgid ""
 "Transferring seeds from existing seedlot to a new seedlot. A new seedlot is "
-"created beforing adding new transaction."
+"created before adding new transaction."
 msgstr ""
-"نقل البذور من دفعة بذور موجودة إلى دفعة جديدة. تُنشأ دفعة البذور الجديدة قبل "
-"إضافة الحركة الجديدة."
+"نقل البذور من دفعة موجودة إلى دفعة جديدة. تُنشأ دفعة البذور الجديدة قبل إضافة "
+"الحركة الجديدة."
 
 #: mason/breeders_toolbox/upload_transactions_dialogs.mas
 msgid ""
@@ -27905,8 +27864,8 @@ msgstr "تريد استخدام بذور من دفعات موجودة لقطع �
 
 #: mason/breeders_toolbox/upload_transactions_dialogs.mas
 msgid ""
-"You want to remove seeds from existing seedlots to unspefified seedlots/plots"
-msgstr "تريد إخراج بذور من دفعات بذور موجودة إلى دفعات بذور أو قطع غير محددة"
+"You want to remove seeds from existing seedlots to unspecified seedlots/plots"
+msgstr "تريد سحب بذور من دفعات موجودة إلى دفعات بذور/قطع تجريبية غير محددة"
 
 #: mason/breeders_toolbox/upload_transactions_dialogs.mas
 msgid "You want to add more seeds from accessions/crosses to existing seedlots"
@@ -28116,151 +28075,6 @@ msgstr "تنزيل بصيغة {link}Fasta{end_link}"
 #: mason/tools/bulk/gene_download.mas
 msgid "Your query did not contain any valid identifiers. Please try again."
 msgstr "لم يتضمن الاستعلام أي معرّفات صالحة. حاول مرة أخرى."
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Having trouble viewing events on the calendar?"
-msgstr "هل تواجه صعوبة في عرض الأحداث في التقويم؟"
-
-#: mason/calendar/events_by_user_role.mas
-msgid ""
-"Are you associated with the breeding program you are interested in viewing?"
-msgstr "هل أنت مرتبط ببرنامج التربية الذي ترغب في عرض أحداثه؟"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Calendar Permissions"
-msgstr "أذونات التقويم"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Add New Event"
-msgstr "إضافة حدث جديد"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Event Type:"
-msgstr "نوع الحدث:"
-
-#: mason/calendar/events_by_user_role.mas mason/search/markers/search.mas
-#: mason/tools/sequence_metadata/query_sequence_metadata.mas
-msgid "Start:"
-msgstr "البداية:"
-
-#: mason/calendar/events_by_user_role.mas mason/search/markers/search.mas
-#: mason/tools/sequence_metadata/query_sequence_metadata.mas
-msgid "End:"
-msgstr "النهاية:"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Leave Blank if Not Applicable"
-msgstr "اتركه فارغًا إذا لم ينطبق"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Web URL:"
-msgstr "عنوان الويب:"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Add Event"
-msgstr "إضافة حدث"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Event Info"
-msgstr "معلومات الحدث"
-
-#: mason/calendar/events_by_user_role.mas mason/ontology/compose_trait.mas
-#: mason/ontology/compose_treatment.mas
-#: mason/tools/sequence_metadata/query_sequence_metadata.mas
-msgid "Attribute"
-msgstr "السمة"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Event Description:"
-msgstr "وصف الحدث:"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Event Web URL:"
-msgstr "عنوان ويب الحدث:"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Edit Event"
-msgstr "تعديل الحدث"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Delete Event"
-msgstr "حذف الحدث"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Export Event"
-msgstr "تصدير الحدث"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Error preparing Day dialog!"
-msgstr "خطأ في تجهيز نافذة اليوم!"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Are you sure about this change?"
-msgstr "هل أنت متأكد من هذا التغيير؟"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "You do not have the permissions to edit this event."
-msgstr "ليس لديك إذن لتعديل هذا الحدث."
-
-#: mason/calendar/events_by_user_role.mas
-msgid "The was a problem editing this event."
-msgstr "حدثت مشكلة أثناء تعديل هذا الحدث."
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Error! Did Not Update Event! E.001"
-msgstr "خطأ! لم يُحدَّث الحدث! E.001"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Event Successfully Added!"
-msgstr "أُضيف الحدث بنجاح!"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Error! Event Not Added! E.002"
-msgstr "خطأ! لم يُضَف الحدث! E.002"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "You do not have the permissions to add an event."
-msgstr "ليس لديك إذن لإضافة حدث."
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Error! Event Not Added! E.001"
-msgstr "خطأ! لم يُضَف الحدث! E.001"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Are you sure you want to delete this event?"
-msgstr "هل أنت متأكد من حذف هذا الحدث؟"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "You do not have the permissions to delete an event."
-msgstr "ليس لديك إذن لحذف حدث."
-
-#: mason/calendar/events_by_user_role.mas
-msgid "The event was not deleted!"
-msgstr "لم يُحذَف الحدث!"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Did Not Delete Event! E.001"
-msgstr "لم يُحذَف الحدث! E.001"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Error Preparing Edit Event Dialog!"
-msgstr "خطأ في تجهيز نافذة تعديل الحدث!"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Are you sure you want to save this edit?"
-msgstr "هل أنت متأكد من حفظ هذا التعديل؟"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Event Already Existed! Your Edit Was Not Saved!"
-msgstr "الحدث موجود بالفعل! لم يُحفَظ تعديلك!"
-
-#: mason/calendar/events_by_user_role.mas
-msgid "You do not have the permissions to edit thie event."
-msgstr "ليست لديك صلاحيات لتعديل هذا الحدث."
-
-#: mason/calendar/events_by_user_role.mas
-msgid "Did Not Save Edit! E.001"
-msgstr "لم يُحفَظ التعديل! E.001"
 
 #: mason/captcha.mas
 msgid "Verification Failed"
@@ -30596,7 +30410,7 @@ msgstr ""
 #: mason/genomes/Solanum_lycopersicum/inbreds.mas
 #, perl-brace-format
 msgid ""
-"This line was developed in Guatamala {citation} were it has been tested over "
+"This line was developed in Guatemala {citation} were it has been tested over "
 "multiple seasons and consistently shows very good resistance against high "
 "begomovirus pressure there."
 msgstr ""
@@ -30728,7 +30542,7 @@ msgstr ""
 #: mason/genomes/Solanum_pennellii.mas
 #, perl-brace-format
 msgid ""
-"It was sequenced by a group of scientists at MPI Golm and the Univeristy of "
+"It was sequenced by a group of scientists at MPI Golm and the University of "
 "Aachen and collaborators, under the direction of {person} and {person2}."
 msgstr ""
 "سلسل جينومه فريق من العلماء في MPI Golm وجامعة آخن ومتعاونون معهم، بإشراف "
@@ -31044,7 +30858,7 @@ msgstr "خيارات الإخراج"
 #: mason/help/blast.mas
 msgid ""
 "You can choose different output options. The \"Overview graph\" option will "
-"show a graphic represenations of the hits in the database. The \"Coverage "
+"show a graphic representations of the hits in the database. The \"Coverage "
 "graph\" displays a graphical representation how the matches line up on the "
 "query sequence. The \"Bioperl\" parser displays a formatted version of the "
 "BLAST report with embedded links to other pages on the site. The \"Basic\" "
@@ -31061,16 +30875,15 @@ msgstr ""
 
 #: mason/help/blast.mas
 msgid ""
-"The Results section will show the ouput (depending on your chosen Output "
+"The Results section will show the output (depending on your chosen Output "
 "options) when a BLAST analysis has been run. When the analysis is finished, "
 "the Input parameters sections will be collapsed and the Results section "
 "opened. To re-run a query, simply click on the + sign in the Input parameter "
 "section header to view that section again and adjust the parameters."
 msgstr ""
-"يعرض قسم النتائج المخرجات بعد إجراء تحليل BLAST، وفقًا لخيارات الإخراج "
-"المحددة. عند انتهاء التحليل، تُطوى أقسام معلمات الإدخال ويُفتح قسم النتائج. "
-"لإعادة تشغيل استعلام، انقر على علامة + في عنوان قسم معلمات الإدخال لعرضه "
-"مجددًا وتعديل المعلمات."
+"يعرض قسم Results ناتج تحليل BLAST وفقًا لـ خيارات الإخراج المحددة. عند انتهاء "
+"التحليل، يُطوى قسم معلمات الإدخال ويُفتح قسم Results. لإعادة الاستعلام، انقر "
+"علامة + في عنوان معلمات الإدخال لفتح القسم وتعديل الخيارات."
 
 #: mason/help/blast.mas
 msgid ""
@@ -33123,11 +32936,11 @@ msgstr "حدث خطأ أثناء التحقق من وجود عينات أنسج�
 
 #: mason/help/workflow_guided/tissue_sample_help.mas
 msgid ""
-"You selected to sample on the accession level, meaning that you wil not "
+"You selected to sample on the accession level, meaning that you will not "
 "sample from a field trial. In this case there is no field layout to download!"
 msgstr ""
-"اخترت أخذ العينات على مستوى العينة الوراثية، أي أنك لن تأخذ عينات من تجربة "
-"حقلية. في هذه الحالة لا يوجد مخطط حقل لتنزيله!"
+"اخترت أخذ العينات على مستوى العينة، أي أنك لن تأخذها من تجربة حقلية. لذلك لا "
+"يوجد مخطط حقل لتنزيله!"
 
 #: mason/help/workflow_guided/trial_barcoding_modal.mas
 msgid "Workflow for trial barcoding"
@@ -33745,7 +33558,7 @@ msgid "The display image was set successfully."
 msgstr "تم تعيين صورة العرض بنجاح."
 
 #: mason/image/print_images.mas
-msgid "An error occured while setting the display image"
+msgid "An error occurred while setting the display image"
 msgstr "حدث خطأ أثناء تعيين صورة العرض"
 
 #: mason/index.mas
@@ -35022,6 +34835,11 @@ msgstr "الكائن"
 msgid "Pick the object on which the new trait is measured"
 msgstr "اختر الكائن الذي تُقاس عليه الصفة الجديدة"
 
+#: mason/ontology/compose_trait.mas mason/ontology/compose_treatment.mas
+#: mason/tools/sequence_metadata/query_sequence_metadata.mas
+msgid "Attribute"
+msgstr "السمة"
+
 #: mason/ontology/compose_trait.mas
 msgid "Pick the attribute the new trait measures"
 msgstr "اختر الخاصية التي تقيسها الصفة الجديدة"
@@ -36252,7 +36070,7 @@ msgstr ""
 #, perl-brace-format
 msgid ""
 "Where the experiment was performed. We also support {link}WGS84 geodetic "
-"datum{end_link}. For a full geolocation fill in the longitude, latitide, and "
+"datum{end_link}. For a full geolocation fill in the longitude, latitude, and "
 "altitude fields."
 msgstr ""
 "المكان الذي أُجريت فيه التجربة. ندعم أيضًا {link}المرجع الجيوديسي "
@@ -38600,6 +38418,16 @@ msgstr "الجينوم المرجعي / الخريطة:"
 #: mason/search/markers/search.mas
 msgid "Chromosome:"
 msgstr "الكروموسوم:"
+
+#: mason/search/markers/search.mas
+#: mason/tools/sequence_metadata/query_sequence_metadata.mas
+msgid "Start:"
+msgstr "البداية:"
+
+#: mason/search/markers/search.mas
+#: mason/tools/sequence_metadata/query_sequence_metadata.mas
+msgid "End:"
+msgstr "النهاية:"
 
 #: mason/search/markers/search.mas
 msgid "Filter By Position"
@@ -41208,12 +41036,11 @@ msgstr "اختلافات متعددة في حالة الأحرف"
 
 #: mason/site/list.mas
 msgid ""
-"Items listed here have mulitple case mismatches and must be fixed manually. "
+"Items listed here have multiple case mismatches and must be fixed manually. "
 "If accessions need to be merged, contact the database directly."
 msgstr ""
-"تحتوي العناصر المدرجة هنا على اختلافات متعددة في حالة الأحرف، ويجب تصحيحها "
-"يدويًا. إذا كانت العينات الوراثية بحاجة إلى الدمج، فاتصل بمسؤولي قاعدة "
-"البيانات مباشرةً."
+"العناصر المدرجة لها اختلافات متعددة في حالة الأحرف ويجب تصحيحها يدويًا. إذا "
+"لزم دمج المدخلات، فاتصل بقاعدة البيانات مباشرة."
 
 #: mason/site/list.mas
 msgid "List elements matching a synonym"
@@ -42290,7 +42117,7 @@ msgid "Saved!"
 msgstr "تم الحفظ!"
 
 #: mason/stock/add_vector.mas
-msgid "An Error occured while storing vectors."
+msgid "An Error occurred while storing vectors."
 msgstr "حدث خطأ أثناء حفظ النواقل."
 
 #: mason/stock/add_vector.mas
@@ -42633,10 +42460,6 @@ msgid ""
 msgstr "يمكنك هنا رفع أي ملفات إضافية لديك للعينة الوراثية."
 
 #: mason/stock/upload_additional_accessions_file.mas
-msgid "Possible additional files inlude, but are not limited to:"
-msgstr "تشمل الملفات الإضافية الممكنة، على سبيل المثال لا الحصر:"
-
-#: mason/stock/upload_additional_accessions_file.mas
 msgid ""
 "Accession Related Images, such as a physical field image or an aerial "
 "picture of the field."
@@ -42860,11 +42683,11 @@ msgstr "معرّفات شرائح Affymetrix"
 
 #: mason/tools/bulk/display/bulk_gene.mas mason/tools/bulk/tabs/gene_tab.mas
 msgid ""
-"Enter a list of gene identifier or upload a file containing one identifer "
+"Enter a list of gene identifier or upload a file containing one identifier "
 "separated by whitespace (returns, spaces or tabs):"
 msgstr ""
-"أدخل قائمة بمعرّفات الجينات أو حمّل ملفًا يحتوي على معرّفات مفصولة بمسافات بيضاء "
-"(أسطر جديدة أو مسافات أو علامات جدولة):"
+"أدخل قائمة بمعرّفات الجينات أو ارفع ملفًا بمعرّفات مفصولة بأسطر جديدة أو مسافات "
+"أو علامات جدولة:"
 
 #: mason/tools/bulk/display/bulk_gene.mas mason/tools/bulk/display/features.mas
 #: mason/tools/bulk/tabs/array_tab.mas mason/tools/bulk/tabs/bac_end_tab.mas
@@ -42911,11 +42734,11 @@ msgstr "صفحة الملخص"
 
 #: mason/tools/bulk/display/features.mas mason/tools/bulk/tabs/feature_tab.mas
 msgid ""
-"Enter a list of feature identifier or upload a file containing one identifer "
-"separated by whitespace (returns, spaces or tabs):"
+"Enter a list of feature identifier or upload a file containing one "
+"identifier separated by whitespace (returns, spaces or tabs):"
 msgstr ""
-"أدخل قائمة بمعرّفات المعالم أو حمّل ملفًا يحتوي على معرّفات مفصولة بمسافات بيضاء "
-"(أسطر جديدة أو مسافات أو علامات جدولة):"
+"أدخل قائمة بمعرّفات العناصر الجينومية أو ارفع ملفًا بمعرّفات مفصولة بأسطر جديدة "
+"أو مسافات أو علامات جدولة:"
 
 #: mason/tools/bulk/display/features.mas mason/tools/bulk/tabs/feature_tab.mas
 msgid "Download feature information"
@@ -42998,11 +42821,11 @@ msgstr "أدخل قائمة معرّفات أو ارفع ملفًا يحتوي �
 
 #: mason/tools/bulk/tabs/bac_end_tab.mas mason/tools/bulk/tabs/bac_tab.mas
 msgid ""
-"Enter a list of identifiers or upload a file containing identifers separated "
-"by whitespace (returns, spaces or tabs):"
+"Enter a list of identifiers or upload a file containing identifiers "
+"separated by whitespace (returns, spaces or tabs):"
 msgstr ""
-"أدخل قائمة بالمعرّفات أو حمّل ملفًا يحتوي على معرّفات مفصولة بمسافات بيضاء (أسطر "
-"جديدة أو مسافات أو علامات جدولة):"
+"أدخل قائمة معرّفات أو ارفع ملفًا بمعرّفات مفصولة بأسطر جديدة أو مسافات أو "
+"علامات جدولة:"
 
 #: mason/tools/bulk/tabs/bac_end_tab.mas
 msgid "Download BAC end information:"
@@ -43074,9 +42897,9 @@ msgstr "اسم النسخة مع الكروموسوم (C01HBa0001A01)"
 
 #: mason/tools/bulk/tabs/clone_tab.mas
 msgid ""
-"Enter a list of identifiers or upload a file containing identifers, one per "
+"Enter a list of identifiers or upload a file containing identifiers, one per "
 "line:"
-msgstr "أدخل قائمة بالمعرّفات أو حمّل ملفًا يحتوي على معرّف واحد في كل سطر:"
+msgstr "أدخل قائمة معرّفات أو ارفع ملفًا بمعرّف واحد في كل سطر:"
 
 #: mason/tools/bulk/tabs/clone_tab.mas
 msgid "[copy]"
@@ -43145,12 +42968,11 @@ msgstr "تسلسل unigene"
 #: mason/tools/bulk/tabs/converter_tab.mas
 msgid ""
 "Enter a list of identifiers (SGN unigene ids or TOM1 array ids) or upload a "
-"file containing one identifer separated by whitespace (returns, spaces or "
+"file containing one identifier separated by whitespace (returns, spaces or "
 "tabs):"
 msgstr ""
-"أدخل قائمة بالمعرّفات (معرّفات الجينات الموحدة في SGN أو معرّفات مصفوفة TOM1) "
-"أو حمّل ملفًا يحتوي على معرّفات مفصولة بمسافات بيضاء (أسطر جديدة أو مسافات أو "
-"علامات جدولة):"
+"أدخل قائمة معرّفات (unigene في SGN أو مصفوفات TOM1) أو ارفع ملفًا بمعرّفات "
+"مفصولة بأسطر جديدة أو مسافات أو علامات جدولة:"
 
 #: mason/tools/bulk/tabs/converter_tab.mas
 msgid "Convert unigene ids to tomato genome ids"
@@ -43162,11 +42984,11 @@ msgstr "التحويل إلى أحدث إصدار"
 
 #: mason/tools/bulk/tabs/unigene_tab.mas
 msgid ""
-"Enter a list of identifiers or upload a file containing one identifer "
+"Enter a list of identifiers or upload a file containing one identifier "
 "separated by whitespace (returns, spaces or tabs):"
 msgstr ""
-"أدخل قائمة بالمعرّفات أو حمّل ملفًا يحتوي على معرّفات مفصولة بمسافات بيضاء (أسطر "
-"جديدة أو مسافات أو علامات جدولة):"
+"أدخل قائمة معرّفات أو ارفع ملفًا بمعرّفات مفصولة بأسطر جديدة أو مسافات أو "
+"علامات جدولة:"
 
 #: mason/tools/bulk/tabs/unigene_tab.mas
 msgid ""
@@ -45103,7 +44925,7 @@ msgid "Sequence:{span}({link}example sequence{end_link}){end_span}"
 msgstr "التسلسل:{span}({link}تسلسل مثال{end_link}){end_span}"
 
 #: mason/tools/motifs_finder/index.mas
-msgid "lenght(s) of motif, seperated by comma without space(eg. 4,6)"
+msgid "lenght(s) of motif, separated by comma without space(eg. 4,6)"
 msgstr "طول النمط أو أطواله، مفصولة بفاصلة دون مسافة (مثل 4,6)"
 
 #: mason/tools/motifs_finder/index.mas
@@ -45112,7 +44934,7 @@ msgstr "عرض النمط أو عروضه"
 
 #: mason/tools/motifs_finder/index.mas
 msgid ""
-"Number of sites expected in each sequence, seperated by comma without "
+"Number of sites expected in each sequence, separated by comma without "
 "space(eg. 4,6)"
 msgstr "عدد المواقع المتوقعة في كل تسلسل، مفصولة بفاصلة دون مسافة (مثل 4,6)"
 
@@ -46593,12 +46415,11 @@ msgstr ""
 #: mason/tools/stability/index.mas
 msgid ""
 "4. The same trait must be available in all selected locations. Missing data "
-"is acceptable for some replications, however the model wont work if it is "
+"is acceptable for some replications, however the model won't work if it is "
 "missing data in all replications."
 msgstr ""
-"4. يجب أن تتوفر الصفة نفسها في جميع المواقع المحددة. يمكن قبول البيانات "
-"المفقودة لبعض المكررات، لكن النموذج لن يعمل إذا كانت البيانات مفقودة في جميع "
-"المكررات."
+"4. يجب أن تكون الصفة نفسها متاحة في جميع المواقع المحددة. يُسمح بفقدان "
+"البيانات في بعض المكررات، لكن النموذج لن يعمل إذا كانت مفقودة في جميعها."
 
 #: mason/tools/stability/index.mas
 msgid "Impuation:"
@@ -46620,10 +46441,11 @@ msgstr "المخرجات:"
 
 #: mason/tools/stability/index.mas
 msgid ""
-"The AMMI graphic shows stable varieties with horizintal lines. The slope is "
+"The AMMI graphic shows stable varieties with horizontal lines. The slope is "
 "proportional to their stability index."
 msgstr ""
-"يُظهر مخطط AMMI الأصناف المستقرة بخطوط أفقية. ويتناسب الميل مع مؤشر ثباتها."
+"يُظهر مخطط AMMI الأصناف المستقرة بخطوط أفقية. ويتناسب الميل مع مؤشر الثبات "
+"الخاص بها."
 
 #: mason/tools/stability/index.mas
 msgid "Press control (or cmd) to select multiple accessions."
@@ -48214,14 +48036,14 @@ msgstr ""
 
 #: mason/transformation/manage_transformation.mas
 msgid ""
-"Using transformation tool togehter with autogenerated name feature, new "
+"Using transformation tool together with autogenerated name feature, new "
 "transformants can be added to the database simply by indicating number of "
 "transformants. The generated transformants will be automatically stored in "
 "the database as new accessions."
 msgstr ""
-"باستخدام أداة التحويل مع ميزة إنشاء الأسماء تلقائيًا، يمكن إضافة نباتات محوّلة "
-"جديدة إلى قاعدة البيانات بمجرد تحديد عددها. وستُحفظ النباتات المحوّلة المُنشأة "
-"تلقائيًا في قاعدة البيانات كمدخلات جديدة."
+"باستخدام أداة التحول مع توليد الأسماء تلقائيا، يمكن إضافة نباتات متحولة "
+"جديدة إلى قاعدة البيانات بمجرد تحديد عددها. ستُحفظ النباتات المتحولة الناتجة "
+"تلقائيا كعينات وراثية جديدة."
 
 #: mason/transformation/manage_transformation.mas
 msgid "About Transformation Projects and Transformation IDs"
@@ -48943,7 +48765,7 @@ msgstr "استيراد CSS"
 msgid ""
 "To import CSS one should use the {component} mason component instead of a "
 "{link_tag} element. This will ensure that a link is added to the {head_tag} "
-"instead of being part of the {body_tag}. One provides this mason componant "
+"instead of being part of the {body_tag}. One provides this mason component "
 "with a list of strings which are one of the following:"
 msgstr ""
 "لاستيراد CSS، استخدم مكوّن Mason ‏{component} بدلًا من العنصر {link_tag}. يضمن "
@@ -48967,7 +48789,7 @@ msgstr "استيراد JavaScript"
 msgid ""
 "To import JavaScript one should use the {component} mason component. This "
 "will ensure that the script is loaded in the {head_tag} instead of being "
-"part of the {body_tag}. One provides this mason componant with a list of "
+"part of the {body_tag}. One provides this mason component with a list of "
 "strings which are the path to the JavaScript file with slashes replaced by "
 "periods (e.g. {expression}) and the file extension removed."
 msgstr ""
@@ -49002,8 +48824,8 @@ msgstr "قوائم اختيار HTML (get_select_box)"
 
 #: mason/util/styleguide.mas
 msgid ""
-"HTML Muliple Selects (get_select_box has many options e.g. search for trials "
-"in breeding_program_name)"
+"HTML Multiple Selects (get_select_box has many options e.g. search for "
+"trials in breeding_program_name)"
 msgstr ""
 "قوائم الاختيار المتعدد في HTML (لدى get_select_box خيارات عديدة، مثل البحث "
 "عن التجارب في breeding_program_name)"
@@ -49596,8 +49418,8 @@ msgid "outliers successfully stored!"
 msgstr "تم حفظ القيم المتطرفة بنجاح!"
 
 #: js/source/entries/dataset_scatterplot.js
-msgid "outliers successfully reseted!"
-msgstr "أُعيد تعيين القيم الشاذة بنجاح!"
+msgid "outliers successfully reset!"
+msgstr "تمت إعادة تعيين القيم المتطرفة بنجاح!"
 
 #: js/source/entries/decision_meeting.js
 msgid "Please select one meeting first."
@@ -50074,8 +49896,8 @@ msgstr ""
 "نبات في قاعدة البيانات"
 
 #: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
-msgid "An error occured retrieving population data."
-msgstr "حدث خطأ أثناء استرجاع بيانات المجموعة."
+msgid "An error occurred retrieving population data."
+msgstr "حدث خطأ أثناء جلب بيانات المجموعة."
 
 #: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
 msgid ""
@@ -50917,9 +50739,10 @@ msgstr "لا يحتوي هذا التجربة على صفات صالحة لحس�
 
 #: js/source/legacy/heritability/heritability.js
 msgid ""
-"Error 3 occured preparing the additive genetic data for heritability "
+"Error 3 occurred preparing the additive genetic data for heritability "
 "analysis."
-msgstr "حدث الخطأ 3 أثناء إعداد البيانات الوراثية الإضافية لتحليل التوريث."
+msgstr ""
+"حدث الخطأ 3 أثناء إعداد البيانات الوراثية الإضافية لتحليل قابلية التوريث."
 
 #: js/source/legacy/heritability/heritability.js
 msgid "Running heritability..."
@@ -50939,8 +50762,8 @@ msgid "Please, check if there is numerical data and replicates for this trial."
 msgstr "يرجى التحقق من وجود بيانات رقمية ومكررات لهذه التجربة."
 
 #: js/source/legacy/heritability/heritability.js
-msgid "Error 2 occured running the heritability analysis."
-msgstr "حدث الخطأ 2 أثناء تنفيذ تحليل التوريث."
+msgid "Error 2 occurred running the heritability analysis."
+msgstr "حدث الخطأ 2 أثناء إجراء تحليل قابلية التوريث."
 
 #: js/source/legacy/qualityControl/qualityControl.js
 msgid "This population has no valid traits to qclate."
@@ -50948,10 +50771,10 @@ msgstr "لا توجد صفات صالحة لمراقبة الجودة في هذ�
 
 #: js/source/legacy/qualityControl/qualityControl.js
 msgid ""
-"Error 3 occured preparing the additive genetic data for qualityControl "
+"Error 3 occurred preparing the additive genetic data for qualityControl "
 "analysis."
 msgstr ""
-"حدث الخطأ 3 أثناء إعداد البيانات الوراثية الإضافية لتحليل مراقبة الجودة."
+"حدث الخطأ 3 أثناء إعداد البيانات الوراثية الإضافية لتحليل qualityControl."
 
 #: js/source/legacy/qualityControl/qualityControl.js
 msgid "Running qualityControl... please wait..."
@@ -50959,16 +50782,16 @@ msgstr "جارٍ تشغيل qualityControl... يرجى الانتظار..."
 
 #: js/source/legacy/qualityControl/qualityControl.js
 msgid ""
-"Error 1 occured preparing the phenotype data for qualityControl analysis."
-msgstr "حدث الخطأ 1 أثناء إعداد بيانات النمط الظاهري لتحليل مراقبة الجودة."
+"Error 1 occurred preparing the phenotype data for qualityControl analysis."
+msgstr "حدث الخطأ 1 أثناء إعداد البيانات المظهرية لتحليل qualityControl."
 
 #: js/source/legacy/qualityControl/qualityControl.js
 msgid "There is no qualityControl output for this dataset."
 msgstr "لا توجد نتائج qualityControl لمجموعة البيانات هذه."
 
 #: js/source/legacy/qualityControl/qualityControl.js
-msgid "Error 2 occured running the qualityControl analysis."
-msgstr "حدث الخطأ 2 أثناء تنفيذ تحليل مراقبة الجودة."
+msgid "Error 2 occurred running the qualityControl analysis."
+msgstr "حدث الخطأ 2 أثناء إجراء تحليل qualityControl."
 
 #: js/source/legacy/solGS/analysisSelect.js
 msgid "Please select an analysis type."
@@ -50989,8 +50812,8 @@ msgid "There is no correlation output for this dataset."
 msgstr "لا توجد نتائج ارتباط لمجموعة البيانات هذه."
 
 #: js/source/legacy/solGS/analysisSelect.js
-msgid "Error occured running the correlation analysis."
-msgstr "حدث خطأ أثناء إجراء تحليل الارتباط."
+msgid "Error occurred running the correlation analysis."
+msgstr "حدث خطأ أثناء تحليل الارتباط."
 
 #: js/source/legacy/solGS/analysisStatus.js
 msgid "Jobs cleared from recent activity."
@@ -51018,8 +50841,8 @@ msgid "No, I will wait till it completes."
 msgstr "لا، سأنتظر حتى يكتمل."
 
 #: js/source/legacy/solGS/combineTrials.js
-msgid "Error occured getting combined trials unique id"
-msgstr "حدث خطأ أثناء الحصول على المعرّف الفريد للتجارب المجمعة"
+msgid "Error occurred getting combined trials unique id"
+msgstr "حدث خطأ أثناء الحصول على معرّف التجارب المجمعة"
 
 #: js/source/legacy/solGS/combineTrials.js
 msgid "combined Trials id missing."
@@ -51031,9 +50854,9 @@ msgstr "لا توجد بيانات انحدار GEBVs مقابل الأنماط 
 
 #: js/source/legacy/solGS/gebvPhenoRegression.js
 msgid ""
-"Error occured requesting for theGEBVs vs observed phenotypes regression data."
-msgstr ""
-"حدث خطأ أثناء طلب بيانات انحدار قيم GEBV مقابل الأنماط الظاهرية المرصودة."
+"Error occurred requesting for theGEBVs vs observed phenotypes regression "
+"data."
+msgstr "حدث خطأ أثناء طلب بيانات انحدار GEBVs مقابل الأنماط الظاهرية المرصودة."
 
 #: js/source/legacy/solGS/gebvsSave.js
 msgid "Please wait...saving the GEBVs may take a few minutes."
@@ -51055,7 +50878,7 @@ msgid "There is no GEBV data for the training population."
 msgstr "لا توجد بيانات GEBV لمجموعة التدريب."
 
 #: js/source/legacy/solGS/geneticGain.js
-msgid "Error occured checking for GEBV data for the training population."
+msgid "Error occurred checking for GEBV data for the training population."
 msgstr "حدث خطأ أثناء التحقق من بيانات GEBV لمجموعة التدريب."
 
 #: js/source/legacy/solGS/geneticGain.js
@@ -51067,7 +50890,7 @@ msgid "There is no GEBV data for the selection population."
 msgstr "لا توجد بيانات GEBV لمجموعة الانتخاب."
 
 #: js/source/legacy/solGS/geneticGain.js
-msgid "Error occured checking for GEBV data for the selection population."
+msgid "Error occurred checking for GEBV data for the selection population."
 msgstr "حدث خطأ أثناء التحقق من بيانات GEBV لمجموعة الانتخاب."
 
 #: js/source/legacy/solGS/geneticGain.js
@@ -51095,17 +50918,17 @@ msgid "This population has no kinship output data."
 msgstr "لا توجد بيانات قرابة ناتجة لهذه المجموعة."
 
 #: js/source/legacy/solGS/kinship.js
-msgid "Error occured running the kinship."
-msgstr "حدث خطأ أثناء حساب القرابة."
+msgid "Error occurred running the kinship."
+msgstr "حدث خطأ أثناء تحليل القرابة."
 
 #: js/source/legacy/solGS/listTypeSelectionPopulation.js
 msgid ""
-"Error occured checking if the selection population has predicted output."
-msgstr "حدث خطأ أثناء التحقق مما إذا كانت لمجموعة الانتخاب نتائج متوقعة."
+"Error occurred checking if the selection population has predicted output."
+msgstr "حدث خطأ أثناء التحقق من وجود نتائج تنبؤ لمجموعة الانتخاب."
 
 #: js/source/legacy/solGS/listTypeTrainingPopulation.js
-msgid "Error occured querying for trials ids"
-msgstr "حدث خطأ أثناء الاستعلام عن معرّفات التجارب"
+msgid "Error occurred querying for trials ids"
+msgstr "حدث خطأ أثناء الاستعلام عن معرّفات التجارب."
 
 #: js/source/legacy/solGS/loadAcronyms.js
 msgid "Error occurred loading acronyms"
@@ -51136,7 +50959,7 @@ msgid "Searching for more GS trials.."
 msgstr "جارٍ البحث عن مزيد من تجارب GS.."
 
 #: js/source/legacy/solGS/searchTrials.js
-msgid "Error occured fetching the next set of GS trials."
+msgid "Error occurred fetching the next set of GS trials."
 msgstr "حدث خطأ أثناء جلب المجموعة التالية من تجارب GS."
 
 #: js/source/legacy/solGS/searchTrials.js
@@ -51144,7 +50967,7 @@ msgid "No trials phenotyped for the trait were found."
 msgstr "لم يتم العثور على تجارب ذات بيانات ظاهرية للصفة."
 
 #: js/source/legacy/solGS/searchTrials.js
-msgid "Error occured fetching the first set of GS trials."
+msgid "Error occurred fetching the first set of GS trials."
 msgstr "حدث خطأ أثناء جلب المجموعة الأولى من تجارب GS."
 
 #: js/source/legacy/solGS/searchTrials.js
@@ -51156,15 +50979,15 @@ msgid "At least two traits must be assigned relative weight."
 msgstr "يجب تعيين وزن نسبي لصفتين على الأقل."
 
 #: js/source/legacy/solGS/selectionIndex.js
-msgid "Error occured running correlation analysis."
-msgstr "حدث خطأ أثناء إجراء تحليل الارتباط."
+msgid "Error occurred running correlation analysis."
+msgstr "حدث خطأ أثناء تحليل الارتباط."
 
 #: js/source/legacy/solGS/selectionPopulations.js
 msgid "Please enter trial name."
 msgstr "يرجى إدخال اسم التجربة."
 
 #: js/source/legacy/solGS/solGS.js
-msgid "Error occured checking for cached output."
+msgid "Error occurred checking for cached output."
 msgstr "حدث خطأ أثناء التحقق من النتائج المخزنة مؤقتًا."
 
 #: js/source/legacy/solGS/solGS.js
@@ -51301,6 +51124,556 @@ msgstr "تصغير"
 #: js/source/legacy/tools/vigs.js
 msgid "there are no parameters to change"
 msgstr "لا توجد معلمات لتغييرها"
+
+#~ msgid ""
+#~ "The rename accessions funtion requires a tab delimited file. Excel files "
+#~ "(.xls and .xlsx) are currently not supported. Please convert the file and "
+#~ "try again."
+#~ msgstr ""
+#~ "تتطلب وظيفة إعادة تسمية العينات الوراثية ملفًا مفصولًا بعلامات جدولة. ملفات "
+#~ "Excel ‏(.xls و.xlsx) غير مدعومة حاليًا. يرجى تحويل الملف والمحاولة مرة أخرى."
+
+#~ msgid ""
+#~ "An imaging event has already occured on this field trial at the same date "
+#~ "and time! Please give a unique date/time for each imaging event!"
+#~ msgstr ""
+#~ "سُجّلت عملية تصوير لهذه التجربة الحقلية في التاريخ والوقت نفسيهما بالفعل! "
+#~ "يرجى تحديد تاريخ ووقت فريدين لكل عملية تصوير!"
+
+#~ msgid ""
+#~ "Not enough data! Need atleast 5 samples with a phenotype and spectra! "
+#~ "Maybe choose a different device type?"
+#~ msgstr ""
+#~ "البيانات غير كافية! يلزم 5 عينات على الأقل، لكل منها نمط ظاهري وأطياف! هل "
+#~ "تريد اختيار نوع جهاز آخر?"
+
+#~ msgid ""
+#~ "Not enough data! Need atleast 10 samples with a phenotype and spectra! "
+#~ "Maybe choose a different device type?"
+#~ msgstr ""
+#~ "البيانات غير كافية! يلزم 10 عينات على الأقل، لكل منها نمط ظاهري وأطياف! "
+#~ "هل تريد اختيار نوع جهاز آخر?"
+
+#~ msgid "You must be logged in to upload propagation group identifers!"
+#~ msgstr "يجب تسجيل الدخول لرفع معرّفات مجموعات الإكثار!"
+
+#~ msgid "You must be logged in to upload propagation identifers!"
+#~ msgstr "يجب تسجيل الدخول لرفع معرّفات الإكثار!"
+
+#~ msgid "You must be logged in to upload propagation identifer statuses!"
+#~ msgstr "يجب تسجيل الدخول لرفع حالات معرّفات الإكثار!"
+
+#~ msgid "Bowtie execution failed"
+#~ msgstr "فشل تنفيذ Bowtie"
+
+#~ msgid "Locus ID must be a positive integer."
+#~ msgstr "يجب أن يكون معرّف الموضع الجيني عددًا صحيحًا موجبًا."
+
+#~ msgid "Multiple matching loci"
+#~ msgstr "توجد مواضع جينية متعددة مطابقة"
+
+#~ msgid "Multiple matching publications"
+#~ msgstr "توجد منشورات متعددة مطابقة"
+
+#~ msgid "Publication ID must be a positive integer."
+#~ msgstr "يجب أن يكون معرّف المنشور عددًا صحيحًا موجبًا."
+
+#~ msgid ""
+#~ "The US SOL outreach program focuses on Solanaceae biology and "
+#~ "bioinformatics. The target audience is K-12 and college undergraduates, "
+#~ "with a particular effort to engage underrepresented groups. Activies "
+#~ "include presentations at elementary schools and associated after school "
+#~ "programs, high schools, undergraduate classes, high school teacher "
+#~ "curriculum workshops, and we provide hands-on laboratory activities. "
+#~ "Bioinformatics training is taking place in the form of internships at SGN "
+#~ "for undergraduate students."
+#~ msgstr ""
+#~ "يركز برنامج SOL الأمريكي للتواصل التعليمي على علم الأحياء في الفصيلة "
+#~ "الباذنجانية والمعلوماتية الحيوية. ويستهدف البرنامج طلاب المدارس من الروضة "
+#~ "حتى نهاية الثانوية وطلاب المرحلة الجامعية الأولى، مع بذل جهد خاص لإشراك "
+#~ "الفئات ناقصة التمثيل. وتشمل الأنشطة عروضاً في المدارس الابتدائية وبرامج ما "
+#~ "بعد المدرسة المرتبطة بها، والمدارس الثانوية، والصفوف الجامعية، وورش عمل "
+#~ "مناهج لمعلمي المرحلة الثانوية، إلى جانب أنشطة مختبرية عملية. ويُقدّم "
+#~ "التدريب على المعلوماتية الحيوية في شكل تدريب عملي لطلاب المرحلة الجامعية "
+#~ "الأولى في SGN."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "{bold}WARNING!{end_bold} Changing the parameters can have unpredicatable "
+#~ "results in downstream analyses if they are inconsistent with other data."
+#~ msgstr ""
+#~ "{bold}تحذير!{end_bold} قد يؤدي تغيير المعلمات إلى نتائج غير متوقعة في "
+#~ "التحليلات اللاحقة إذا لم تتوافق مع البيانات الأخرى."
+
+#~ msgid ""
+#~ "You can set target numbers of seeds and/or target numbers of progenies "
+#~ "for parental combinations that you plan to include in this cossing "
+#~ "experiment. Once target numbers are stored in the database, this section "
+#~ "will automatically track crossing acitvities in this crossing experiment. "
+#~ "Target numbers can be added before or after actual crossing activities "
+#~ "are stored in the database."
+#~ msgstr ""
+#~ "يمكنك تحديد الأعداد المستهدفة من البذور و/أو النسل لتركيبات الأبوين التي "
+#~ "تنوي تضمينها في تجربة التهجين هذه. بعد حفظ الأعداد المستهدفة في قاعدة "
+#~ "البيانات، سيتتبع هذا القسم أنشطة التهجين في التجربة تلقائيًا. يمكن إضافة "
+#~ "الأعداد المستهدفة قبل حفظ أنشطة التهجين الفعلية في قاعدة البيانات أو بعده."
+
+#~ msgid "An error occured retrieving trait histogram data."
+#~ msgstr "حدث خطأ أثناء جلب بيانات المدرج التكراري للصفة."
+
+#~ msgid ""
+#~ "Using a List: Several seedlots can be discarded at once by using a list "
+#~ "with seedlots list type. The link can be found at the buttom of Manage "
+#~ "Seedlots (Available Seedlots) page."
+#~ msgstr ""
+#~ "باستخدام قائمة: يمكن استبعاد عدة دفعات بذور مرة واحدة باستخدام قائمة من "
+#~ "نوع دفعات البذور. يوجد الرابط أسفل صفحة إدارة دفعات البذور (دفعات البذور "
+#~ "المتاحة)."
+
+#~ msgid ""
+#~ "Discarding single seedlot: The link can be found at the buttom of Seedlot "
+#~ "Details page."
+#~ msgstr "استبعاد دفعة بذور واحدة: يوجد الرابط أسفل صفحة تفاصيل دفعة البذور."
+
+#~ msgid ""
+#~ "Discarded seedlot can be reversed by using UNDO option at the buttom of "
+#~ "Seedlot Details page"
+#~ msgstr ""
+#~ "يمكن التراجع عن استبعاد دفعة بذور باستخدام خيار التراجع أسفل صفحة تفاصيل "
+#~ "دفعة البذور"
+
+#~ msgid "Number Interations:"
+#~ msgstr "عدد التكرارات:"
+
+#~ msgid ""
+#~ "Go to bulk upload of previously processed imaging events (GeoJSON "
+#~ "defitions included)"
+#~ msgstr ""
+#~ "انتقل إلى الرفع المجمع لأحداث التصوير المعالجة سابقًا (بما فيها تعريفات "
+#~ "GeoJSON)"
+
+#~ msgid ""
+#~ "Raw images are uploaded using a zipfile (.zip). Place all images relevant "
+#~ "to the imaging event into one zipfile. Include atleast 25 images in the "
+#~ "zipfile."
+#~ msgstr ""
+#~ "تُرفع الصور الخام في ملف مضغوط (.zip). ضع جميع الصور المتعلقة بحدث التصوير "
+#~ "في ملف مضغوط واحد. أدرج 25 صورة على الأقل في الملف المضغوط."
+
+#~ msgid ""
+#~ "Select a genotyping project on the next screen. This project can "
+#~ "represent a series of genotyping plates sent to a genotyping facilty."
+#~ msgstr ""
+#~ "اختر مشروع تنميط جيني في الشاشة التالية. يمكن أن يمثل هذا المشروع مجموعة "
+#~ "من صفائح التنميط الجيني المرسلة إلى مرفق التنميط الجيني."
+
+#~ msgid "View, add, and dowload identifiers."
+#~ msgstr "عرض المعرّفات وإضافتها وتنزيلها."
+
+#~ msgid "Please select atleast one field trial!"
+#~ msgstr "يرجى اختيار تجربة حقلية واحدة على الأقل!"
+
+#~ msgid "Please select atleast one imaging event!"
+#~ msgstr "يرجى اختيار حدث تصوير واحد على الأقل!"
+
+#~ msgid ""
+#~ "Automatic export to genotyping vendors is currently not avaiable; "
+#~ "however, you can download the layout and submit to vendor manually."
+#~ msgstr ""
+#~ "التصدير التلقائي إلى مقدمي خدمات التنميط الجيني غير متاح حاليًا؛ لكن يمكنك "
+#~ "تنزيل المخطط وإرساله إلى مقدم الخدمة يدويًا."
+
+#~ msgid ""
+#~ "Warning: the new plot name will replace the old plot name in subplots, "
+#~ "plants, and tissue samples if possible. If a plot name template is saved "
+#~ "in assocation with this trial, it will be used to rename the plot unless "
+#~ "a new plot name is manually specified. Changing plot accessions may "
+#~ "change plot replicate numbers. You may need to reprint labels after the "
+#~ "changes are applied."
+#~ msgstr ""
+#~ "تحذير: سيحل اسم القطعة الجديد محل الاسم القديم في القطع الفرعية والنباتات "
+#~ "وعينات الأنسجة إن أمكن. إذا حُفظ قالب لأسماء القطع مرتبط بهذه التجربة، "
+#~ "فسيُستخدم لإعادة تسمية القطعة ما لم يُحدد اسم جديد يدويًا. قد يؤدي تغيير "
+#~ "العينات الوراثية للقطع إلى تغيير أرقام تكراراتها. قد تحتاج إلى إعادة "
+#~ "طباعة الملصقات بعد تطبيق التغييرات."
+
+#~ msgid "An error occured while trying to find accession name of filler plots"
+#~ msgstr "حدث خطأ أثناء محاولة العثور على اسم العينة الوراثية لقطع الملء"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "{column} must be an exisiting Breeding Program in the database, or "
+#~ "multiple breeding programs separated by {separator}"
+#~ msgstr ""
+#~ "يجب أن يكون {column} برنامج تربية موجودًا في قاعدة البيانات، أو عدة برامج "
+#~ "تربية مفصولة بـ {separator}"
+
+#~ msgid ""
+#~ "Transferring seeds from existing seedlot to a new seedlot. A new seedlot "
+#~ "is created beforing adding new transaction."
+#~ msgstr ""
+#~ "نقل البذور من دفعة بذور موجودة إلى دفعة جديدة. تُنشأ دفعة البذور الجديدة "
+#~ "قبل إضافة الحركة الجديدة."
+
+#~ msgid ""
+#~ "You want to remove seeds from existing seedlots to unspefified seedlots/"
+#~ "plots"
+#~ msgstr ""
+#~ "تريد إخراج بذور من دفعات بذور موجودة إلى دفعات بذور أو قطع غير محددة"
+
+#~ msgid "Having trouble viewing events on the calendar?"
+#~ msgstr "هل تواجه صعوبة في عرض الأحداث في التقويم؟"
+
+#~ msgid ""
+#~ "Are you associated with the breeding program you are interested in "
+#~ "viewing?"
+#~ msgstr "هل أنت مرتبط ببرنامج التربية الذي ترغب في عرض أحداثه؟"
+
+#~ msgid "Calendar Permissions"
+#~ msgstr "أذونات التقويم"
+
+#~ msgid "Add New Event"
+#~ msgstr "إضافة حدث جديد"
+
+#~ msgid "Event Type:"
+#~ msgstr "نوع الحدث:"
+
+#~ msgid "Leave Blank if Not Applicable"
+#~ msgstr "اتركه فارغًا إذا لم ينطبق"
+
+#~ msgid "Web URL:"
+#~ msgstr "عنوان الويب:"
+
+#~ msgid "Add Event"
+#~ msgstr "إضافة حدث"
+
+#~ msgid "Event Info"
+#~ msgstr "معلومات الحدث"
+
+#~ msgid "Event Description:"
+#~ msgstr "وصف الحدث:"
+
+#~ msgid "Event Web URL:"
+#~ msgstr "عنوان ويب الحدث:"
+
+#~ msgid "Edit Event"
+#~ msgstr "تعديل الحدث"
+
+#~ msgid "Delete Event"
+#~ msgstr "حذف الحدث"
+
+#~ msgid "Export Event"
+#~ msgstr "تصدير الحدث"
+
+#~ msgid "Error preparing Day dialog!"
+#~ msgstr "خطأ في تجهيز نافذة اليوم!"
+
+#~ msgid "Are you sure about this change?"
+#~ msgstr "هل أنت متأكد من هذا التغيير؟"
+
+#~ msgid "You do not have the permissions to edit this event."
+#~ msgstr "ليس لديك إذن لتعديل هذا الحدث."
+
+#~ msgid "The was a problem editing this event."
+#~ msgstr "حدثت مشكلة أثناء تعديل هذا الحدث."
+
+#~ msgid "Error! Did Not Update Event! E.001"
+#~ msgstr "خطأ! لم يُحدَّث الحدث! E.001"
+
+#~ msgid "Event Successfully Added!"
+#~ msgstr "أُضيف الحدث بنجاح!"
+
+#~ msgid "Error! Event Not Added! E.002"
+#~ msgstr "خطأ! لم يُضَف الحدث! E.002"
+
+#~ msgid "You do not have the permissions to add an event."
+#~ msgstr "ليس لديك إذن لإضافة حدث."
+
+#~ msgid "Error! Event Not Added! E.001"
+#~ msgstr "خطأ! لم يُضَف الحدث! E.001"
+
+#~ msgid "Are you sure you want to delete this event?"
+#~ msgstr "هل أنت متأكد من حذف هذا الحدث؟"
+
+#~ msgid "You do not have the permissions to delete an event."
+#~ msgstr "ليس لديك إذن لحذف حدث."
+
+#~ msgid "The event was not deleted!"
+#~ msgstr "لم يُحذَف الحدث!"
+
+#~ msgid "Did Not Delete Event! E.001"
+#~ msgstr "لم يُحذَف الحدث! E.001"
+
+#~ msgid "Error Preparing Edit Event Dialog!"
+#~ msgstr "خطأ في تجهيز نافذة تعديل الحدث!"
+
+#~ msgid "Are you sure you want to save this edit?"
+#~ msgstr "هل أنت متأكد من حفظ هذا التعديل؟"
+
+#~ msgid "Event Already Existed! Your Edit Was Not Saved!"
+#~ msgstr "الحدث موجود بالفعل! لم يُحفَظ تعديلك!"
+
+#~ msgid "You do not have the permissions to edit thie event."
+#~ msgstr "ليست لديك صلاحيات لتعديل هذا الحدث."
+
+#~ msgid "Did Not Save Edit! E.001"
+#~ msgstr "لم يُحفَظ التعديل! E.001"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "This line was developed in Guatamala {citation} were it has been tested "
+#~ "over multiple seasons and consistently shows very good resistance against "
+#~ "high begomovirus pressure there."
+#~ msgstr ""
+#~ "طُوّرت هذه السلالة في غواتيمالا {citation}، حيث اختُبرت على مدى مواسم متعددة "
+#~ "وأظهرت باستمرار مقاومة جيدة جدًا تحت ضغط إصابة مرتفع بفيروسات البيغومو."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "It was sequenced by a group of scientists at MPI Golm and the Univeristy "
+#~ "of Aachen and collaborators, under the direction of {person} and "
+#~ "{person2}."
+#~ msgstr ""
+#~ "سلسل جينومه فريق من العلماء في MPI Golm وجامعة آخن ومتعاونون معهم، بإشراف "
+#~ "{person} و{person2}."
+
+#~ msgid ""
+#~ "You can choose different output options. The \"Overview graph\" option "
+#~ "will show a graphic represenations of the hits in the database. The "
+#~ "\"Coverage graph\" displays a graphical representation how the matches "
+#~ "line up on the query sequence. The \"Bioperl\" parser displays a "
+#~ "formatted version of the BLAST report with embedded links to other pages "
+#~ "on the site. The \"Basic\" version shows the raw output of the BLAST "
+#~ "report. Note that if the query contains several sequences (such as multi-"
+#~ "fasta), the output will always default to the \"Basic\" parse option."
+#~ msgstr ""
+#~ "يمكن اختيار خيارات إخراج مختلفة. يعرض خيار \"الرسم البياني العام\" تمثيلًا "
+#~ "رسوميًا للنتائج المطابقة في قاعدة البيانات. ويعرض \"الرسم البياني "
+#~ "للتغطية\" كيفية امتداد التطابقات على تسلسل الاستعلام. يعرض محلل "
+#~ "\"Bioperl\" تقرير BLAST منسقًا مع روابط إلى صفحات أخرى في الموقع. ويعرض "
+#~ "خيار \"Basic\" الناتج الخام لتقرير BLAST. إذا احتوى الاستعلام على عدة "
+#~ "تسلسلات (مثل multi-fasta)، فسيكون خيار التحليل الافتراضي دائمًا \"Basic\"."
+
+#~ msgid ""
+#~ "The Results section will show the ouput (depending on your chosen Output "
+#~ "options) when a BLAST analysis has been run. When the analysis is "
+#~ "finished, the Input parameters sections will be collapsed and the Results "
+#~ "section opened. To re-run a query, simply click on the + sign in the "
+#~ "Input parameter section header to view that section again and adjust the "
+#~ "parameters."
+#~ msgstr ""
+#~ "يعرض قسم النتائج المخرجات بعد إجراء تحليل BLAST، وفقًا لخيارات الإخراج "
+#~ "المحددة. عند انتهاء التحليل، تُطوى أقسام معلمات الإدخال ويُفتح قسم النتائج. "
+#~ "لإعادة تشغيل استعلام، انقر على علامة + في عنوان قسم معلمات الإدخال لعرضه "
+#~ "مجددًا وتعديل المعلمات."
+
+#~ msgid ""
+#~ "You selected to sample on the accession level, meaning that you wil not "
+#~ "sample from a field trial. In this case there is no field layout to "
+#~ "download!"
+#~ msgstr ""
+#~ "اخترت أخذ العينات على مستوى العينة الوراثية، أي أنك لن تأخذ عينات من "
+#~ "تجربة حقلية. في هذه الحالة لا يوجد مخطط حقل لتنزيله!"
+
+#~ msgid "An error occured while setting the display image"
+#~ msgstr "حدث خطأ أثناء تعيين صورة العرض"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "Where the experiment was performed. We also support {link}WGS84 geodetic "
+#~ "datum{end_link}. For a full geolocation fill in the longitude, latitide, "
+#~ "and altitude fields."
+#~ msgstr ""
+#~ "المكان الذي أُجريت فيه التجربة. ندعم أيضًا {link}المرجع الجيوديسي "
+#~ "WGS84{end_link}. لتحديد الموقع الجغرافي كاملًا، املأ حقول خط الطول وخط "
+#~ "العرض والارتفاع."
+
+#~ msgid ""
+#~ "Items listed here have mulitple case mismatches and must be fixed "
+#~ "manually. If accessions need to be merged, contact the database directly."
+#~ msgstr ""
+#~ "تحتوي العناصر المدرجة هنا على اختلافات متعددة في حالة الأحرف، ويجب "
+#~ "تصحيحها يدويًا. إذا كانت العينات الوراثية بحاجة إلى الدمج، فاتصل بمسؤولي "
+#~ "قاعدة البيانات مباشرةً."
+
+#~ msgid "An Error occured while storing vectors."
+#~ msgstr "حدث خطأ أثناء حفظ النواقل."
+
+#~ msgid "Possible additional files inlude, but are not limited to:"
+#~ msgstr "تشمل الملفات الإضافية الممكنة، على سبيل المثال لا الحصر:"
+
+#~ msgid ""
+#~ "Enter a list of gene identifier or upload a file containing one identifer "
+#~ "separated by whitespace (returns, spaces or tabs):"
+#~ msgstr ""
+#~ "أدخل قائمة بمعرّفات الجينات أو حمّل ملفًا يحتوي على معرّفات مفصولة بمسافات "
+#~ "بيضاء (أسطر جديدة أو مسافات أو علامات جدولة):"
+
+#~ msgid ""
+#~ "Enter a list of feature identifier or upload a file containing one "
+#~ "identifer separated by whitespace (returns, spaces or tabs):"
+#~ msgstr ""
+#~ "أدخل قائمة بمعرّفات المعالم أو حمّل ملفًا يحتوي على معرّفات مفصولة بمسافات "
+#~ "بيضاء (أسطر جديدة أو مسافات أو علامات جدولة):"
+
+#~ msgid ""
+#~ "Enter a list of identifiers or upload a file containing identifers "
+#~ "separated by whitespace (returns, spaces or tabs):"
+#~ msgstr ""
+#~ "أدخل قائمة بالمعرّفات أو حمّل ملفًا يحتوي على معرّفات مفصولة بمسافات بيضاء "
+#~ "(أسطر جديدة أو مسافات أو علامات جدولة):"
+
+#~ msgid ""
+#~ "Enter a list of identifiers or upload a file containing identifers, one "
+#~ "per line:"
+#~ msgstr "أدخل قائمة بالمعرّفات أو حمّل ملفًا يحتوي على معرّف واحد في كل سطر:"
+
+#~ msgid ""
+#~ "Enter a list of identifiers (SGN unigene ids or TOM1 array ids) or upload "
+#~ "a file containing one identifer separated by whitespace (returns, spaces "
+#~ "or tabs):"
+#~ msgstr ""
+#~ "أدخل قائمة بالمعرّفات (معرّفات الجينات الموحدة في SGN أو معرّفات مصفوفة "
+#~ "TOM1) أو حمّل ملفًا يحتوي على معرّفات مفصولة بمسافات بيضاء (أسطر جديدة أو "
+#~ "مسافات أو علامات جدولة):"
+
+#~ msgid ""
+#~ "Enter a list of identifiers or upload a file containing one identifer "
+#~ "separated by whitespace (returns, spaces or tabs):"
+#~ msgstr ""
+#~ "أدخل قائمة بالمعرّفات أو حمّل ملفًا يحتوي على معرّفات مفصولة بمسافات بيضاء "
+#~ "(أسطر جديدة أو مسافات أو علامات جدولة):"
+
+#~ msgid "lenght(s) of motif, seperated by comma without space(eg. 4,6)"
+#~ msgstr "طول النمط أو أطواله، مفصولة بفاصلة دون مسافة (مثل 4,6)"
+
+#~ msgid ""
+#~ "Number of sites expected in each sequence, seperated by comma without "
+#~ "space(eg. 4,6)"
+#~ msgstr "عدد المواقع المتوقعة في كل تسلسل، مفصولة بفاصلة دون مسافة (مثل 4,6)"
+
+#~ msgid ""
+#~ "4. The same trait must be available in all selected locations. Missing "
+#~ "data is acceptable for some replications, however the model wont work if "
+#~ "it is missing data in all replications."
+#~ msgstr ""
+#~ "4. يجب أن تتوفر الصفة نفسها في جميع المواقع المحددة. يمكن قبول البيانات "
+#~ "المفقودة لبعض المكررات، لكن النموذج لن يعمل إذا كانت البيانات مفقودة في "
+#~ "جميع المكررات."
+
+#~ msgid ""
+#~ "The AMMI graphic shows stable varieties with horizintal lines. The slope "
+#~ "is proportional to their stability index."
+#~ msgstr ""
+#~ "يُظهر مخطط AMMI الأصناف المستقرة بخطوط أفقية. ويتناسب الميل مع مؤشر ثباتها."
+
+#~ msgid ""
+#~ "Using transformation tool togehter with autogenerated name feature, new "
+#~ "transformants can be added to the database simply by indicating number of "
+#~ "transformants. The generated transformants will be automatically stored "
+#~ "in the database as new accessions."
+#~ msgstr ""
+#~ "باستخدام أداة التحويل مع ميزة إنشاء الأسماء تلقائيًا، يمكن إضافة نباتات "
+#~ "محوّلة جديدة إلى قاعدة البيانات بمجرد تحديد عددها. وستُحفظ النباتات المحوّلة "
+#~ "المُنشأة تلقائيًا في قاعدة البيانات كمدخلات جديدة."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "To import CSS one should use the {component} mason component instead of a "
+#~ "{link_tag} element. This will ensure that a link is added to the "
+#~ "{head_tag} instead of being part of the {body_tag}. One provides this "
+#~ "mason componant with a list of strings which are one of the following:"
+#~ msgstr ""
+#~ "لاستيراد CSS، استخدم مكوّن Mason ‏{component} بدلًا من العنصر {link_tag}. "
+#~ "يضمن ذلك إضافة رابط إلى {head_tag} بدلًا من أن يكون جزءًا من {body_tag}. "
+#~ "يُمرَّر إلى مكوّن Mason قائمة بسلاسل نصية، كل منها أحد الأنواع التالية:"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "To import JavaScript one should use the {component} mason component. This "
+#~ "will ensure that the script is loaded in the {head_tag} instead of being "
+#~ "part of the {body_tag}. One provides this mason componant with a list of "
+#~ "strings which are the path to the JavaScript file with slashes replaced "
+#~ "by periods (e.g. {expression}) and the file extension removed."
+#~ msgstr ""
+#~ "لاستيراد JavaScript، استخدم مكوّن Mason ‏{component}. يضمن ذلك تحميل "
+#~ "البرنامج النصي في {head_tag} بدلًا من أن يكون جزءًا من {body_tag}. يُمرَّر إلى "
+#~ "مكوّن Mason قائمة بسلاسل نصية تمثل مسارات ملفات JavaScript، مع استبدال "
+#~ "الشرطات المائلة بنقاط (مثل {expression}) وحذف امتداد الملف."
+
+#~ msgid ""
+#~ "HTML Muliple Selects (get_select_box has many options e.g. search for "
+#~ "trials in breeding_program_name)"
+#~ msgstr ""
+#~ "قوائم الاختيار المتعدد في HTML (لدى get_select_box خيارات عديدة، مثل "
+#~ "البحث عن التجارب في breeding_program_name)"
+
+#~ msgid "outliers successfully reseted!"
+#~ msgstr "أُعيد تعيين القيم الشاذة بنجاح!"
+
+#~ msgid "An error occured retrieving population data."
+#~ msgstr "حدث خطأ أثناء استرجاع بيانات المجموعة."
+
+#~ msgid ""
+#~ "Error 3 occured preparing the additive genetic data for heritability "
+#~ "analysis."
+#~ msgstr "حدث الخطأ 3 أثناء إعداد البيانات الوراثية الإضافية لتحليل التوريث."
+
+#~ msgid "Error 2 occured running the heritability analysis."
+#~ msgstr "حدث الخطأ 2 أثناء تنفيذ تحليل التوريث."
+
+#~ msgid ""
+#~ "Error 3 occured preparing the additive genetic data for qualityControl "
+#~ "analysis."
+#~ msgstr ""
+#~ "حدث الخطأ 3 أثناء إعداد البيانات الوراثية الإضافية لتحليل مراقبة الجودة."
+
+#~ msgid ""
+#~ "Error 1 occured preparing the phenotype data for qualityControl analysis."
+#~ msgstr "حدث الخطأ 1 أثناء إعداد بيانات النمط الظاهري لتحليل مراقبة الجودة."
+
+#~ msgid "Error 2 occured running the qualityControl analysis."
+#~ msgstr "حدث الخطأ 2 أثناء تنفيذ تحليل مراقبة الجودة."
+
+#~ msgid "Error occured running the correlation analysis."
+#~ msgstr "حدث خطأ أثناء إجراء تحليل الارتباط."
+
+#~ msgid "Error occured getting combined trials unique id"
+#~ msgstr "حدث خطأ أثناء الحصول على المعرّف الفريد للتجارب المجمعة"
+
+#~ msgid ""
+#~ "Error occured requesting for theGEBVs vs observed phenotypes regression "
+#~ "data."
+#~ msgstr ""
+#~ "حدث خطأ أثناء طلب بيانات انحدار قيم GEBV مقابل الأنماط الظاهرية المرصودة."
+
+#~ msgid "Error occured checking for GEBV data for the training population."
+#~ msgstr "حدث خطأ أثناء التحقق من بيانات GEBV لمجموعة التدريب."
+
+#~ msgid "Error occured checking for GEBV data for the selection population."
+#~ msgstr "حدث خطأ أثناء التحقق من بيانات GEBV لمجموعة الانتخاب."
+
+#~ msgid "Error occured running the kinship."
+#~ msgstr "حدث خطأ أثناء حساب القرابة."
+
+#~ msgid ""
+#~ "Error occured checking if the selection population has predicted output."
+#~ msgstr "حدث خطأ أثناء التحقق مما إذا كانت لمجموعة الانتخاب نتائج متوقعة."
+
+#~ msgid "Error occured querying for trials ids"
+#~ msgstr "حدث خطأ أثناء الاستعلام عن معرّفات التجارب"
+
+#~ msgid "Error occured fetching the next set of GS trials."
+#~ msgstr "حدث خطأ أثناء جلب المجموعة التالية من تجارب GS."
+
+#~ msgid "Error occured fetching the first set of GS trials."
+#~ msgstr "حدث خطأ أثناء جلب المجموعة الأولى من تجارب GS."
+
+#~ msgid "Error occured running correlation analysis."
+#~ msgstr "حدث خطأ أثناء إجراء تحليل الارتباط."
+
+#~ msgid "Error occured checking for cached output."
+#~ msgstr "حدث خطأ أثناء التحقق من النتائج المخزنة مؤقتًا."
 
 #, perl-brace-format
 #~ msgid "value = {value}"
