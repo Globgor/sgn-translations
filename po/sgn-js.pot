@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-14 12:16+0000\n"
+"POT-Creation-Date: 2026-11-14 14:15+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,18 +17,1923 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: js/source/legacy/CXGN/Login.js
+#: js/source/entries/dataset_scatterplot.js
+msgid "outliers successfully stored!"
+msgstr ""
+
+#: js/source/entries/dataset_scatterplot.js
+msgid "outliers successfully reseted!"
+msgstr ""
+
+#: js/source/entries/decision_meeting.js
+msgid "Please select one meeting first."
+msgstr ""
+
+#: js/source/entries/decision_meeting.js
+msgid "Please select one accession list first."
+msgstr ""
+
+#: js/source/entries/decision_meeting.js
+msgid "There are no accession decisions to save."
+msgstr ""
+
+#: js/source/entries/decision_meeting.js
+msgid ""
+"Please select one meeting first so the year can be taken from the meeting "
+"date."
+msgstr ""
+
+#: js/source/entries/decision_meeting.js
+msgid "Meeting ID not found."
+msgstr ""
+
+#: js/source/entries/environments.js
+msgid "You must be logged in to use Environment Stratification"
+msgstr ""
+
+#: js/source/entries/environments.js
+msgid "An error occurred while preparing the dataset."
+msgstr ""
+
+#: js/source/entries/environments.js
+msgid "An error occurred while reading the phenotype file."
+msgstr ""
+
+#: js/source/entries/environments.js
+msgid "Please select a trait."
+msgstr ""
+
+#: js/source/entries/environments.js
+msgid "Alpha must be a number between 0 and 1."
+msgstr ""
+
+#: js/source/entries/environments.js
+msgid "Please select one dataset."
+msgstr ""
+
+#: js/source/entries/environments.js
+msgid "Please select only one dataset."
+msgstr ""
+
+#: js/source/entries/environments.js
+msgid "No results are available to download."
+msgstr ""
+
+#: js/source/entries/environments.js
+msgid "XLSX export library is not available."
+msgstr ""
+
+#: js/source/entries/environments.js
+msgid "XLSX export library is not compatible with this page."
+msgstr ""
+
+#: js/source/entries/field_trial_linkage.js
+msgid "Error retrieving field trial to field trial linkage."
+msgstr ""
+
+#: js/source/entries/fieldmap.js
+msgid "An error occurred retrieving plot images"
+msgstr ""
+
+#: js/source/entries/job.js
+msgid ""
+"Job dismissal removes record of this submission, but does not delete any "
+"resulting analyses or other data. Are you sure you want to proceed?"
+msgstr ""
+
+#: js/source/entries/job.js
+msgid "Error dismissing job."
+msgstr ""
+
+#: js/source/entries/job.js
+msgid "Job record deleted."
+msgstr ""
+
+#: js/source/entries/job.js
+msgid "Dismiss all finished and canceled jobs?"
+msgstr ""
+
+#: js/source/entries/job.js
+msgid "Error dismissing jobs."
+msgstr ""
+
+#: js/source/entries/job.js
+msgid "Jobs cleared."
+msgstr ""
+
+#: js/source/entries/job.js
+msgid "Are you sure you want to cancel?"
+msgstr ""
+
+#: js/source/entries/job.js
+msgid "Error canceling job."
+msgstr ""
+
+#: js/source/entries/job.js
+msgid "Job canceled."
+msgstr ""
+
+#: js/source/entries/job.js
+msgid "Dismiss old jobs?"
+msgstr ""
+
+#: js/source/entries/job.js
+msgid "Dismiss failed and timed out jobs?"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js
+msgid "Dropped!"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js
+msgid "ERROR!!!!!"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js
+msgid "Please select only one trait at a time to see the histogram!"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js js/source/entries/qualitycontrol.js
+msgid "Please select at least one dataset!"
+msgstr ""
+
+#: js/source/entries/mixedmodels.js js/source/entries/qualitycontrol.js
+msgid "Please select only one dataset!"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js
+msgid "Please select a trait to see the boxplot!"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js
+msgid "Error during AJAX request!"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js
+msgid "Outliers successfully stored!"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js
+msgid "Data successfully restored!"
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js
+msgid ""
+"Only curators are allowed undo validated trial. Please contact a curator."
+msgstr ""
+
+#: js/source/entries/qualitycontrol.js
+msgid "Error during restore!"
+msgstr ""
+
+#: js/source/entries/sequenced_accessions.js
+msgid "The entry has been saved. Thank you!"
+msgstr ""
+
+#: js/source/entries/sequenced_accessions.js
+msgid "The entry has been deleted."
+msgstr ""
+
+#: js/source/entries/sequenced_accessions.js
+msgid "An error occurred. The entry was not deleted."
+msgstr ""
+
+#: js/source/entries/sequenced_accessions.js
+#: js/source/legacy/CXGN/Phenome/Tools.js
+msgid "an error occurred"
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Year must be in YYYY format, greater than 1960 and smaller than 2100."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "This plot already contains a trial, filler, or border."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Borders cannot be placed on trial or filler plots."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Select a trial plot to place a filler inside the trial."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Select an existing trial first."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "This existing trial is already included in the layout."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Could not add the selected existing trial."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Place this trial in the grid before rotating it."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "This trial is part of a saved layout and cannot be rotated."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Could not load Accessions List"
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Error loading Accessions List."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Could not load Controls List"
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Error loading Controls List."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Generate Design is not available for existing saved trials."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "This trial is part of a saved layout and cannot be moved."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Grid is still loading. Please wait."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Please click 'Generate Design' before placing the trial."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Error generating design."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "This trial is part of a saved layout and cannot be changed."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Could not place trial: starting plot is outside the field."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid ""
+"Could not place trial: the selected path contains another trial, border, or "
+"filler plot."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid ""
+"Could not place trial: not enough available plots from this starting "
+"position."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Cannot rotate - no free space at current position."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid ""
+"This trial is part of a saved layout. Remove it from the saved layout view "
+"on the grid instead."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Only curators can remove saved trials from a layout."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Select location and year before removing a saved trial."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Trial removed from the saved layout view."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Could not remove trial from the saved layout view."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Only curators can delete a saved layout view."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Select location and year before deleting the layout view."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Saved layout view deleted."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Could not delete the saved layout view."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Select location and year before saving the layout."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Layout saved."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Could not save layout."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Select location and year before saving the trials."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Select a breeding program before saving the trials."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid ""
+"There are no new trials or existing-trial coordinate updates to save in the "
+"database."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid "Could not save trials in the database."
+msgstr ""
+
+#: js/source/entries/trialallocation/app.js
+msgid ""
+"It is not possible to turn entire row or column unutilized because there is "
+"a trial or border already placed."
+msgstr ""
+
+#: js/source/entries/trialallocation/downloads.js
+msgid "The XLSX export library is not available on this page."
+msgstr ""
+
+#: js/source/entries/trialallocation/downloads.js
+msgid "Place trials, borders, or fillers before downloading the planting map."
+msgstr ""
+
+#: js/source/entries/trialallocation/downloads.js
+msgid "Set the field rows and columns before exporting the full grid."
+msgstr ""
+
+#: js/source/entries/trialallocation/downloads.js
+msgid "Could not export the full field grid."
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "Save current changes?"
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "Sequence successfully saved!"
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "An error occurred while trying to save the vector data."
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "Add feature"
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "Edit feature"
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "Are you sure that you would like to delete this row with id ? "
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "Feature"
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "Start"
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "End"
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "Color"
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "Orientation"
+msgstr ""
+
+#: js/source/entries/vectorViewer.js
+msgid "Actions"
+msgstr ""
+
+#: js/source/entries/wizard.js
+msgid "List is not of an appropriate type."
+msgstr ""
+
+#: js/source/legacy/CXGN/AJAX/Ontology.js
+msgid "Error submitting ontology term"
+msgstr ""
+
+#: js/source/legacy/CXGN/Blast.js
+msgid "Please enter a sequence :-)"
+msgstr ""
+
+#: js/source/legacy/CXGN/Blast.js
+msgid "The BLAST program does not match the selected database and query."
+msgstr ""
+
+#: js/source/legacy/CXGN/Blast.js js/source/legacy/tools/vigs.js
+msgid "An error occurred. The service may not be available right now."
+msgstr ""
+
+#: js/source/legacy/CXGN/Blast.js
+msgid "An  error occurred. "
+msgstr ""
+
+#: js/source/legacy/CXGN/Blast.js
+msgid ""
+"Multiple sequences were detected. The output will be shown in the tabular "
+"and basic format"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreederSearch.js
+msgid "No filters selected for download."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreederSearch.js
+msgid "Please enter a name for the selection."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreederSearch.js
+msgid "Successfully stored the dataset!"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreederSearch.js
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+#: js/source/legacy/CXGN/List.js js/source/legacy/CXGN/Login.js
+#: js/source/legacy/CXGN/Trial.js
 msgid "An error occurred."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreederSearch.js
+msgid "No trials selected"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreederSearch.js
+msgid "No accessions selected"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreederSearch.js
+msgid "No genotyping protocols selected. Default will be used."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreederSearch.js
+msgid "No Selection"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "Population name is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "Member type is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "A list of accessions is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid ""
+"The accession list did not pass validation. Names in the list must be "
+"uniquenames with accession stock type in the database"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "A list of plots is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid ""
+"The plot list did not pass validation. Names in the list must be uniquenames "
+"with plot stock type in the database"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "A list of plants is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid ""
+"The plant list did not pass validation. Names in the list must be "
+"uniquenames with plant stock type in the database"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "An error occured retrieving population data."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "Member Name"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "Member Type"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "Description"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "Synonyms"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "Remove From Population"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid ""
+"The accession list did not pass validation. Names in the list must be  in "
+"the database"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "An error occurred in adding members to population. sorry"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "An error occurred in deleting population. sorry"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "Are you sure?"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "An error occurred in removing accession from population. sorry"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid ""
+"You will receive an email when the process is complete. Do you want to "
+"continue ?"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "An error occurred. The site may not be available right now."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "Species name required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "No accessions to add"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "ERROR! Try again later."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+#: js/source/legacy/CXGN/BreedersToolbox/Crosses.js
+#: js/source/legacy/CXGN/BreedersToolbox/DerivedAccessions.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadGrafts.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadPedigrees.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadPhenotype.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadRenameAccessions.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js
+#: js/source/legacy/CXGN/Trial.js
+msgid "Please select a file"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js
+msgid ""
+"An unknown error occurred.  Please try again later or contact us for help."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "All accessions in your list already exist in the database. (3)"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+msgid "All accessions in your list now exist in the database. 2"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Accessions.js
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js
+msgid ""
+"An error occurred checking your fuzzy options! Do not try to add a synonym "
+"to a synonym! Also do not use any special characters!"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid ""
+"You need to specify the number of rows and columns to give plant coordinates "
+"within plots."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid ""
+"Only one plant per (row, column) coordinate is allowed. You must specify "
+"fewer plants per plot, or add rows and columns."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Please supply a trial name"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Please select a breeding program"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Please select at least one location"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Please select a trial year"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please check the plot width"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please check the plot width is too high"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please check the plot length"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please check the plot length is too high"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please no more than 500 plants per plot."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Please supply a description!"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Please select a design type"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Please select a stock type"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "An error occurred checking trial name"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Please make sure to select an accession list above!"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Please first select a list of accessions above!"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "An error occurred. sorry"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid ""
+"Number of seeds per plot is required if you have selected a seedlot list!"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "You must supply the number of plants per treatment."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid ""
+"You specified in-plot coordinates, but the number of plants per plot is "
+"greater than the number of positions available in each plot. Please decrease "
+"the number of plants per plot or increase the number of available positions. "
+"If this is a greenhouse trial, make sure no accession is specified to have "
+"more plants than the number of allowed spaces. If this is a splitplot "
+"design, please make sure that the number of plants per plot specified in "
+"section (2) matches the number of plants per treatment."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid ""
+"Row and column numbers were generated on the fly for displaying the physical "
+"layout or map. The plots are displayed in zigzag format. These row and "
+"column numbers will not be saved in the database. Click 'ok' to continue..."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "An error occurred. sorry."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Trial name required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Year and description are required."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Description is required."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid ""
+"Accession list, seedlot list, cross list or family name list is not valid!"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "Unsupported design method"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please select a breeding program first"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/AddTrial.js
+msgid "An error occurred saving the trial."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/CrossDetailPage.js
+#: js/source/legacy/CXGN/Login.js js/source/legacy/solGS/cluster.js
+#: js/source/legacy/solGS/kinship.js js/source/legacy/solGS/pca.js
+#: js/source/legacy/solGS/solGS.js
+msgid "Cancel"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/CrossDetailPage.js
+msgid "Add more progeny"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/CrossDetailPage.js
+#: js/source/legacy/solGS/pca.js
+msgid "Done"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/CrossDetailPage.js
+msgid "Edit Field Crossing Data"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/CrossDetailPage.js
+msgid "Saving it."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/CrossDetailPage.js
+msgid "Not saving."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/CrossDetailPage.js
+msgid "The request for checking the parameters failed. Please try again."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/CrossDetailPage.js
+msgid "The property was successfully saved."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/CrossDetailPage.js
+msgid "Edit Additional Parent Info"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Crosses.js
+msgid "Crossing Experiment name is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Crosses.js
+msgid "Breeding program is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Crosses.js
+msgid "Location is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Crosses.js
+msgid "Year is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Crosses.js
+msgid "Description is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Crosses.js
+msgid "A cross unique id is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Crosses.js
+msgid "A crossing experiment is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Crosses.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadGrafts.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadPedigrees.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadRenameAccessions.js
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+#: js/source/legacy/CXGN/Trial.js
+msgid "No file selected"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Crosses.js
+msgid "Please select your breeding program"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js
+msgid "Layout deleted successfully."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js
+msgid "Traits, from a list or selected individually, are required."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js
+msgid "A trait file name is required."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/FieldBook.js
+msgid "An error occurred creating the trait file."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid ""
+"An error occurred trying to log into the sequencing facility server. Please "
+"try again later."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+msgid "An error occurred trying to submit the order."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid "Genotyping server credentials are not available. Stop."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+msgid "Successfully!. Plate submitted to facility."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+msgid "An error occurred trying to submit your plate to the facility."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+msgid "Order stored successfully."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+msgid "An error occurred trying to store the order."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+msgid "An error occurred trying to get the order status."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+msgid "Something went wrong! Could not get order from submission."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+msgid "Something went wrong!. Complete your order clicking the link."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingSubmission.js
+msgid ""
+"A plate id, client facility id and service are required. Please try again."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid ""
+"A name is required and it should be unique in the database. Please try again."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid ""
+"The list contains elements that are not accessions or plots or subplots or "
+"plants or tissue_samples."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid "There are no elements in the list provided."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid ""
+"The list needs to have less than 96 or 384 elements depending on the plate "
+"format you selected"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid "Sending genotyping experiment entry to genotyping facility..."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid "Successfully submitted the plate to GDF."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid "An error occurred trying the create the layout."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid "BrAPI vendor specifications call to IGD did not work."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid "The genotyping plate has been deleted."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/GenotypingTrial.js
+msgid "An error occurred replacing plot accession"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/HTMLSelect.js
+#: js/source/legacy/CXGN/List.js js/source/legacy/CXGN/Locations.js
+msgid "An error occurred"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "List name is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "Genotyping protocol is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "Genotyping data type is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "Marker name is required"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "Please indicate a dosage"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "Please indicate SNP alleles"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "List Name"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "Number of Markers"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "Are you sure you want to delete this markerset? This cannot be undone"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "An error occurred deleting markerset"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+#: js/source/legacy/CXGN/List.js
+msgid "Item"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "Remove"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "An error occurred getting markerset detail"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/MarkerSet.js
+msgid "Are you sure you want remove this item from the marker set?"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadPedigrees.js
+msgid "An error occurred storing the pedigrees. None were uploaded."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadPhenotype.js
+msgid ""
+"An error occurred while trying to verify this file. Please check the "
+"formatting and try again"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadPhenotype.js
+msgid ""
+"An error occurred while trying to store this file. Please check the "
+"formatting and try again"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadPhenotype.js
+msgid "Deleted successfully."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please give a trial name"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please give a breeding program"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please give a location"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please give a trial year"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please give a description"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please select stock type being evaluated in trial"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Please give a design type"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "There was an error uploading your trial."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Success! All trials successfully loaded."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid ""
+"Your file has been uploaded.  You will receive an email once the process is "
+"complete."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid ""
+"An error occurred while trying to upload this file. Please check the "
+"formatting and try again"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/UploadTrial.js
+msgid "Success! All trials successfully updated."
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js
+msgid "No vectors to add"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js
+msgid "All vectors in your list already exist in the database. (3)"
+msgstr ""
+
+#: js/source/legacy/CXGN/BreedersToolbox/Vector.js
+msgid "All vectors in your list now exist in the database. 2"
+msgstr ""
+
+#: js/source/legacy/CXGN/Dataset.js
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: js/source/legacy/CXGN/Dataset.js
+msgid "The dataset has been deleted."
+msgstr ""
+
+#: js/source/legacy/CXGN/Dataset.js
+msgid "The dataset is now public."
+msgstr ""
+
+#: js/source/legacy/CXGN/Dataset.js
+msgid "The dataset is now private."
+msgstr ""
+
+#: js/source/legacy/CXGN/Dataset.js
+msgid "The dataset description has been updated."
+msgstr ""
+
+#: js/source/legacy/CXGN/Dataset.js
+msgid "This dataset does not contain any selections."
+msgstr ""
+
+#: js/source/legacy/CXGN/Dataset.js
+msgid "A processing error occurred."
+msgstr ""
+
+#: js/source/legacy/CXGN/Effects/Hotlist.js
+msgid "You sent a bad switchTo variable to switchHotlistButton"
+msgstr ""
+
+#: js/source/legacy/CXGN/Hotlist.js
+msgid "buttonId not sent!"
+msgstr ""
+
+#: js/source/legacy/CXGN/Hotlist.js
+msgid "invalid request"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "An error occurred. Cannot determine type. "
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Please provide a name for the new list."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "An error occurred. Cannot create new list right now."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Item names copied"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid ""
+"There is content in the 'Add New Items' field that has not yet been added to "
+"the list. Do you want to proceed with validation?"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "An error occurred in sort."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "No items - Please enter items to add to the list."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "List set to Private"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "List set to Public"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Error Setting List to Public! List May Not Exist."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Error Setting List to Private! List May Not Exist."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Public List Copied to Your Lists."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Error Copying Public List! List May Not Exist."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Please specify a name for the list."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "You must select the list type before validating"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Delete the selected lists? This cannot be undone."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Make selected lists public?"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Make selected lists private?"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "You must enter a new list name first"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid ""
+"The selected lists don't have any list items in common.  New list not "
+"created."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "This list passed validation."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "List"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "No mismatched cases found."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "List elements matching synonym"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Corresponding db names"
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "No synonym matches found."
+msgstr ""
+
+#: js/source/legacy/CXGN/List.js
+msgid "Synonym"
+msgstr ""
+
+#: js/source/legacy/CXGN/Locations.js
+msgid "Could not find matching location"
 msgstr ""
 
 #: js/source/legacy/CXGN/Login.js
 msgid "Working..."
 msgstr ""
 
-#: js/source/legacy/CXGN/Login.js
+#: js/source/legacy/CXGN/Login.js js/source/legacy/solGS/solGS.js
 msgid "Login"
 msgstr ""
 
-#: js/source/legacy/CXGN/Login.js
-msgid "Cancel"
+#: js/source/legacy/CXGN/Onto/Browser.js
+msgid ""
+"An error occurred! The database may currently be unavailable. Please check "
+"back later."
+msgstr ""
+
+#: js/source/legacy/CXGN/Onto/Browser.js
+msgid "Please select a CV before rebuilding its cvterm paths."
+msgstr ""
+
+#: js/source/legacy/CXGN/Onto/Browser.js
+msgid "The search text must be longer than 2 characters"
+msgstr ""
+
+#: js/source/legacy/CXGN/Page/Comments.js
+msgid "cannot do simple request"
+msgstr ""
+
+#: js/source/legacy/CXGN/Page/Form/JSFormPage.js
+msgid "Cannot print from without a objectName, action, and ajaxScript name ! "
+msgstr ""
+
+#: js/source/legacy/CXGN/Phenome/Locus.js
+msgid "You must enter a symbol for the new registry"
+msgstr ""
+
+#: js/source/legacy/CXGN/Phenome/Locus.js
+msgid "You must enter a name for the new registry"
+msgstr ""
+
+#: js/source/legacy/CXGN/Phenome/Locus.js
+msgid "That registry already exists"
+msgstr ""
+
+#: js/source/legacy/CXGN/SelectionIndex.js
+msgid "Add another trait"
+msgstr ""
+
+#: js/source/legacy/CXGN/SelectionIndex.js
+msgid "An error occurred while retrieving average phenotypes"
+msgstr ""
+
+#: js/source/legacy/CXGN/Stock.js
+msgid "Remove a parent"
+msgstr ""
+
+#: js/source/legacy/CXGN/Stock.js
+msgid "an error occurred."
+msgstr ""
+
+#: js/source/legacy/CXGN/Stock.js
+msgid "Are you sure you want to remove this parent?"
+msgstr ""
+
+#: js/source/legacy/CXGN/Stock.js
+msgid "The parent has been removed."
+msgstr ""
+
+#: js/source/legacy/CXGN/Stock.js
+msgid "Error retrieving stock id"
+msgstr ""
+
+#: js/source/legacy/CXGN/Stock.js
+msgid "Error retrieving stock name"
+msgstr ""
+
+#: js/source/legacy/CXGN/Stock.js
+msgid "Error obsoleting stock."
+msgstr ""
+
+#: js/source/legacy/CXGN/Sunshine/NetworkBrowser.js
+msgid "No name or type supplied. How am I supposed to do anything????"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "Show _MENU_ entries"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "Search:"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "Showing _START_ to _END_ of _TOTAL_ entries"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "Showing 0 to 0 of 0 entries"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "(filtered from _MAX_ total entries)"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "No data available in table"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "No matching records found"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "Loading..."
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "Processing..."
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "First"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "Last"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "Next"
+msgstr ""
+
+#: js/source/legacy/CXGN/TableLanguage.js
+msgid "Previous"
+msgstr ""
+
+#: js/source/legacy/CXGN/Transformation.js
+msgid ""
+"Are you sure you want to delete this transformation ID? The deletion cannot "
+"be undone."
+msgstr ""
+
+#: js/source/legacy/CXGN/Transformation.js
+msgid "Deletion was successful"
+msgstr ""
+
+#: js/source/legacy/CXGN/Transformation.js
+msgid "An error occurred during deletion"
+msgstr ""
+
+#: js/source/legacy/CXGN/Transformation.js
+msgid "An error occurred setting transformation control"
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "The phenotypic data has been deleted."
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "The field trial has been deleted."
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "[ An error occurred fetching the breeding program information ]"
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "[ An error occurred ]"
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "An error occurred creating a DataCollector file."
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "No trait selected"
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "Successfully derived and uploaded phenotype"
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "An error occurred creating trait."
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "Field map deletion successful."
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "An error occurred deleting field map."
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "An error occurred replacing accessions."
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "Create"
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "An error occurred trying to retrieve derived traits."
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "Are you sure you want to delete the spatial layout of this trial?"
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid "Error: No response received from server. Please try again."
+msgstr ""
+
+#: js/source/legacy/CXGN/Trial.js
+msgid ""
+"An unexpected error occurred. The server response was not in the expected "
+"format. Please check the console for details or contact support."
+msgstr ""
+
+#: js/source/legacy/CXGN/TrialTreeFolders.js
+msgid "An error occurred refreshing trial jstree html"
+msgstr ""
+
+#: js/source/legacy/CXGN/TrialTreeFolders.js
+msgid "An error occurred refreshing crosses jstree html"
+msgstr ""
+
+#: js/source/legacy/CXGN/TrialTreeFolders.js
+msgid "An error occurred refreshing genotype trial jstree html"
+msgstr ""
+
+#: js/source/legacy/CXGN/TrialTreeFolders.js
+msgid "An error occurred refreshing genotype project jstree html"
+msgstr ""
+
+#: js/source/legacy/CXGN/TrialTreeFolders.js
+msgid "An error occurred refreshing activity jstree html"
+msgstr ""
+
+#: js/source/legacy/CXGN/TrialTreeFolders.js
+msgid "An error occurred refreshing transformation project jstree html"
+msgstr ""
+
+#: js/source/legacy/CXGN/TrialTreeFolders.js
+msgid "An error occurred refreshing propagation project jstree html"
+msgstr ""
+
+#: js/source/legacy/brapi/Table.js
+msgid "An error occurred constructing table after moving to the previous page."
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js
+msgid "This trial has no valid traits to calculate heritability."
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js
+msgid ""
+"Error 3 occured preparing the additive genetic data for heritability "
+"analysis."
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js
+msgid "Running heritability..."
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js
+#: js/source/legacy/qualityControl/qualityControl.js
+msgid "This population has no phenotype data."
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js
+msgid "Please check if the data has replicates."
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js
+msgid "Please, check if there is numerical data and replicates for this trial."
+msgstr ""
+
+#: js/source/legacy/heritability/heritability.js
+msgid "Error 2 occured running the heritability analysis."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js
+msgid "This population has no valid traits to qclate."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js
+msgid ""
+"Error 3 occured preparing the additive genetic data for qualityControl "
+"analysis."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js
+msgid "Running qualityControl... please wait..."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js
+msgid ""
+"Error 1 occured preparing the phenotype data for qualityControl analysis."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js
+msgid "There is no qualityControl output for this dataset."
+msgstr ""
+
+#: js/source/legacy/qualityControl/qualityControl.js
+msgid "Error 2 occured running the qualityControl analysis."
+msgstr ""
+
+#: js/source/legacy/solGS/analysisSelect.js
+msgid "Error retrieving tool compatibility."
+msgstr ""
+
+#: js/source/legacy/solGS/analysisSelect.js
+msgid "Please select an analysis type."
+msgstr ""
+
+#: js/source/legacy/solGS/analysisSelect.js
+msgid "Please select an analysis population."
+msgstr ""
+
+#: js/source/legacy/solGS/analysisSelect.js
+#: js/source/legacy/solGS/correlation.js
+#: js/source/legacy/solGS/selectionIndex.js
+msgid "Running correlation... please wait..."
+msgstr ""
+
+#: js/source/legacy/solGS/analysisSelect.js
+msgid "There is no correlation output for this dataset."
+msgstr ""
+
+#: js/source/legacy/solGS/analysisSelect.js
+msgid "Error occured running the correlation analysis."
+msgstr ""
+
+#: js/source/legacy/solGS/analysisStatus.js
+msgid "Jobs cleared from recent activity."
+msgstr ""
+
+#: js/source/legacy/solGS/anova.js
+msgid "Alert"
+msgstr ""
+
+#: js/source/legacy/solGS/clearCache.js
+msgid "Error occurred while clearing cache"
+msgstr ""
+
+#: js/source/legacy/solGS/cluster.js
+msgid "Running cluster... please wait...it may take minutes."
+msgstr ""
+
+#: js/source/legacy/solGS/cluster.js
+msgid "cluster job submission"
+msgstr ""
+
+#: js/source/legacy/solGS/cluster.js js/source/legacy/solGS/kinship.js
+#: js/source/legacy/solGS/pca.js js/source/legacy/solGS/solGS.js
+msgid "Yes"
+msgstr ""
+
+#: js/source/legacy/solGS/cluster.js js/source/legacy/solGS/kinship.js
+#: js/source/legacy/solGS/pca.js
+msgid "No, I will wait till it completes."
+msgstr ""
+
+#: js/source/legacy/solGS/combineTrials.js
+msgid "Error occured getting combined trials unique id"
+msgstr ""
+
+#: js/source/legacy/solGS/combineTrials.js
+msgid "combined Trials id missing."
+msgstr ""
+
+#: js/source/legacy/solGS/gebvPhenoRegression.js
+msgid "There is no GEBVs vs observed phenotypes regression data."
+msgstr ""
+
+#: js/source/legacy/solGS/gebvPhenoRegression.js
+msgid ""
+"Error occured requesting for theGEBVs vs observed phenotypes regression data."
+msgstr ""
+
+#: js/source/legacy/solGS/gebvsSave.js
+msgid "Please wait...saving the GEBVs may take a few minutes."
+msgstr ""
+
+#: js/source/legacy/solGS/gebvsSave.js
+msgid ""
+"Please wait...saving the genetic values (adjusted means) may take a few "
+"minutes."
+msgstr ""
+
+#: js/source/legacy/solGS/geneticGain.js
+msgid "Please wait... plotting genetic gain"
+msgstr ""
+
+#: js/source/legacy/solGS/geneticGain.js
+msgid "There is no GEBV data for the training population."
+msgstr ""
+
+#: js/source/legacy/solGS/geneticGain.js
+msgid "Error occured checking for GEBV data for the training population."
+msgstr ""
+
+#: js/source/legacy/solGS/geneticGain.js
+msgid "Please wait... plotting gebvs"
+msgstr ""
+
+#: js/source/legacy/solGS/geneticGain.js
+msgid "There is no GEBV data for the selection population."
+msgstr ""
+
+#: js/source/legacy/solGS/geneticGain.js
+msgid "Error occured checking for GEBV data for the selection population."
+msgstr ""
+
+#: js/source/legacy/solGS/geneticGain.js
+msgid "This selection population has no predicted traits."
+msgstr ""
+
+#: js/source/legacy/solGS/heatMap.js
+msgid "The heatmap canvas div element is missing."
+msgstr ""
+
+#: js/source/legacy/solGS/kinship.js
+msgid "Running kinship... please wait...it may take minutes."
+msgstr ""
+
+#: js/source/legacy/solGS/kinship.js
+msgid "Generating heatmap... please wait..."
+msgstr ""
+
+#: js/source/legacy/solGS/kinship.js
+msgid "Kinship job submission"
+msgstr ""
+
+#: js/source/legacy/solGS/kinship.js
+msgid "This population has no kinship output data."
+msgstr ""
+
+#: js/source/legacy/solGS/kinship.js
+msgid "Error occured running the kinship."
+msgstr ""
+
+#: js/source/legacy/solGS/listTypeSelectionPopulation.js
+msgid ""
+"Error occured checking if the selection population has predicted output."
+msgstr ""
+
+#: js/source/legacy/solGS/listTypeTrainingPopulation.js
+msgid "Error occured querying for trials ids"
+msgstr ""
+
+#: js/source/legacy/solGS/loadAcronyms.js
+msgid "Error occurred loading acronyms"
+msgstr ""
+
+#: js/source/legacy/solGS/pca.js
+msgid "Run PCA"
+msgstr ""
+
+#: js/source/legacy/solGS/pca.js
+msgid "pca job submission"
+msgstr ""
+
+#: js/source/legacy/solGS/pca.js
+msgid "Running pca... please wait..."
+msgstr ""
+
+#: js/source/legacy/solGS/pcaSave.js
+msgid "Please wait...saving the PCs may take a few minutes."
+msgstr ""
+
+#: js/source/legacy/solGS/searchTrials.js
+msgid "Searching for GS trials.."
+msgstr ""
+
+#: js/source/legacy/solGS/searchTrials.js
+msgid "No trials were found."
+msgstr ""
+
+#: js/source/legacy/solGS/searchTrials.js
+msgid "Searching for more GS trials.."
+msgstr ""
+
+#: js/source/legacy/solGS/searchTrials.js
+msgid "Error occured fetching the next set of GS trials."
+msgstr ""
+
+#: js/source/legacy/solGS/searchTrials.js
+msgid "No trials phenotyped for the trait were found."
+msgstr ""
+
+#: js/source/legacy/solGS/searchTrials.js
+msgid "Error occured fetching the first set of GS trials."
+msgstr ""
+
+#: js/source/legacy/solGS/searchTrials.js
+msgid "Please enter a trial name."
+msgstr ""
+
+#: js/source/legacy/solGS/selectionIndex.js
+msgid "At least two traits must be assigned relative weight."
+msgstr ""
+
+#: js/source/legacy/solGS/selectionIndex.js
+msgid "Error occured running correlation analysis."
+msgstr ""
+
+#: js/source/legacy/solGS/selectionPopulations.js
+msgid "Please enter trial name."
+msgstr ""
+
+#: js/source/legacy/solGS/solGS.js
+msgid "Error occured checking for cached output."
+msgstr ""
+
+#: js/source/legacy/solGS/solGS.js
+msgid "Job submission"
+msgstr ""
+
+#: js/source/legacy/solGS/solGS.js
+msgid "To use this feature, you need to log in and start over the process."
+msgstr ""
+
+#: js/source/legacy/solGS/solGS.js
+msgid "Info about the analysis"
+msgstr ""
+
+#: js/source/legacy/solGS/solGS.js
+msgid "Submit"
+msgstr ""
+
+#: js/source/legacy/solGS/solGS.js
+msgid "Analysis name is blank. Please give a name."
+msgstr ""
+
+#: js/source/legacy/solGS/solGS.js
+msgid "The same name exists for another analysis. Please give a new name."
+msgstr ""
+
+#: js/source/legacy/solGS/solGS.js
+msgid "Please provide a proper email address."
+msgstr ""
+
+#: js/source/legacy/solGS/solGS.js
+msgid "Prediction Modeling Message"
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid ""
+"There was a problem checking the data levels available for your field trial. "
+"Please contact us."
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid "A valid type must be selected."
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid "A valid field must be selected."
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid ""
+"No elements in the design. Please add design elements before downloading"
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid "No data source selected. Please select a data source before downloading"
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid "No design. Please define a design before downloading"
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid "Error. Unable to download labels."
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid ""
+"Unable to retrieve design elements of this trial. Please confirm this trial "
+"has a design, or try again with a different trial. Please contact us!"
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid "No page format select. Please select a page format"
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid "No label format select. Please select a label format"
+msgstr ""
+
+#: js/source/legacy/tools/LabelDesigner.js
+msgid "No elements in the design. Please add design elements before saving"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Gene Functional annotation"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Parameters used"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Modify parameters help"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Distribution of n-mers help"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Best region help"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Sequence overview help"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Description of genes mapped help"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid ""
+"An error occurred. The service may not be available right now. Bowtie2 could "
+"not be executed"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid ""
+"Note: The score value is very low!. Increasing the number of targets or the "
+"n-mer length, or decreasing the mismatches the score value will increase"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Expand Graph"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Zoom In"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Collapse Graph"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "Zoom Out"
+msgstr ""
+
+#: js/source/legacy/tools/vigs.js
+msgid "there are no parameters to change"
 msgstr ""
