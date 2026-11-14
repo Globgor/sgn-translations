@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-14 14:55+0000\n"
+"POT-Creation-Date: 2026-11-14 15:17+0000\n"
 "PO-Revision-Date: 2026-11-14 00:00+0000\n"
 "Last-Translator: \n"
 "Language-Team: Spanish\n"
@@ -5204,11 +5204,6 @@ msgstr ""
 "{bold}Nota{end_bold} Escanee el código de barras principal de abajo y luego "
 "utilice el «teclado» para escanear los dígitos y crear el valor numérico."
 
-#: mason/barcode/tool/tool.mas
-#, perl-brace-format
-msgid "value = {value}"
-msgstr "valor = {value}"
-
 #: mason/barcode/trial_barcodes_download_result.mas
 msgid ""
 "Success! Please click the link below to download the barcode label file."
@@ -7820,12 +7815,12 @@ msgstr "Seleccionar lotes de semillas"
 msgid ""
 "Seedlots can be generated from either each {strong}accession{end_strong} or "
 "{strong}plot{end_strong} {span} or {strong}subplot{end_strong}{end_span} "
-"{span2} or {strong}plant{end_strong}{end_span} in this trial."
+"{span2} or {strong}plant{end_strong}{end_span2} in this trial."
 msgstr ""
 "Se pueden generar lotes de semillas a partir de cada {strong}"
 "accesión{end_strong} o {strong}parcela{end_strong} {span} o {strong}"
 "subparcela{end_strong}{end_span} {span2} o {strong}planta{end_strong}"
-"{end_span} de este ensayo."
+"{end_span2} de este ensayo."
 
 #: mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas
 #, perl-brace-format
@@ -16973,19 +16968,6 @@ msgstr ""
 #, perl-brace-format
 msgid "{column} a description of the marker (its associated phenotype, etc)"
 msgstr "{column} una descripción del marcador (su fenotipo asociado, etc.)"
-
-#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas
-#, perl-brace-format
-msgid ""
-"{column} a reference to an entity in an external database (such as a "
-"matching gene entry in GrainGenes). The format of this value should be: "
-"{format} (such as {example}). The database name must already exist as an "
-"external database reference."
-msgstr ""
-"{column} una referencia a una entidad en una base de datos externa (como una "
-"entrada del gen correspondiente en GrainGenes). El formato de este valor "
-"debe ser: {format} (por ejemplo, {example}). El nombre de la base de datos "
-"ya debe existir como referencia a una base de datos externa."
 
 #: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas
 msgid "Marker Metadata Alleles File:"
@@ -29875,23 +29857,6 @@ msgstr ""
 "en la base de datos de SGN."
 
 #: mason/cview/help/map_submission.mas
-#, perl-brace-format
-msgid ""
-"These files should be tab-delimited text files (In Excel, choose type "
-"{format} in the Save As dialog). To submit the files send them as email "
-"attachments to {address}."
-msgstr ""
-"Estos archivos deben ser archivos de texto delimitados por tabulaciones (en "
-"Excel, seleccione el tipo {format} en el cuadro de diálogo Guardar como). "
-"Para enviar los archivos, adjúntelos a un correo electrónico dirigido a "
-"{address}."
-
-#: mason/cview/help/map_submission.mas
-#, perl-brace-format
-msgid "{i}Please make sure to include the column headings{end_i}."
-msgstr "{i}Asegúrese de incluir los encabezados de las columnas{end_i}."
-
-#: mason/cview/help/map_submission.mas
 msgid "The mapping file"
 msgstr "El archivo de mapeo"
 
@@ -30361,13 +30326,13 @@ msgstr "Seleccione el servicio externo donde cargar este conjunto de datos:"
 
 #: mason/dataset/publish.mas
 #, perl-brace-format
-msgid "View your {span}{end_span} account"
-msgstr "Ver su cuenta de {span}{end_span}"
+msgid "View your {service} account"
+msgstr "Ver su cuenta de {service}"
 
 #: mason/dataset/publish.mas
 #, perl-brace-format
-msgid "Grant {project_name} access to your {span}{end_span} account"
-msgstr "Conceder a {project_name} acceso a su cuenta de {span}{end_span}"
+msgid "Grant {project_name} access to your {service} account"
+msgstr "Conceder a {project_name} acceso a su cuenta de {service}"
 
 #: mason/dataset/publish.mas
 msgid "Connect Accounts"
@@ -30375,8 +30340,8 @@ msgstr "Conectar cuentas"
 
 #: mason/dataset/publish.mas
 #, perl-brace-format
-msgid "You are connected to this {span}{end_span} account:"
-msgstr "Está conectado a esta cuenta de {span}{end_span}:"
+msgid "You are connected to this {service} account:"
+msgstr "Está conectado a esta cuenta de {service}:"
 
 #: mason/dataset/publish.mas
 msgid "Disconnect Accounts"
@@ -30384,9 +30349,9 @@ msgstr "Desconectar cuentas"
 
 #: mason/dataset/publish.mas
 #, perl-brace-format
-msgid "Select a {span}{end_span} dataset to associate this data with:"
+msgid "Select a {service} dataset to associate this data with:"
 msgstr ""
-"Seleccione un conjunto de datos de {span}{end_span} al que asociar estos "
+"Seleccione el conjunto de datos de {service} que desea asociar con estos "
 "datos:"
 
 #: mason/dataset/publish.mas
@@ -30404,19 +30369,18 @@ msgstr "Se le añadirá automáticamente como autor"
 #: mason/dataset/publish.mas
 #, perl-brace-format
 msgid ""
-"The dataset metadata can be updated later on {span}{end_span} until the "
-"dataset on {span2}{end_span} is published and made public."
+"The dataset metadata can be updated later on {service} until the dataset on "
+"{service2} is published and made public."
 msgstr ""
 "Los metadatos del conjunto de datos pueden actualizarse posteriormente en "
-"{span}{end_span} hasta que el conjunto de datos en {span2}{end_span} se "
-"publique y esté disponible para el público."
+"{service} hasta que el conjunto de datos en {service2} se publique y esté "
+"disponible para el público."
 
 #: mason/dataset/publish.mas
 #, perl-brace-format
-msgid "Send and attach the files to the selected {span}{end_span} dataset."
+msgid "Send and attach the files to the selected {service} dataset."
 msgstr ""
-"Envíe y adjunte los archivos al conjunto de datos seleccionado de {span}"
-"{end_span}."
+"Envíe y adjunte los archivos al conjunto de datos seleccionado de {service}."
 
 #: mason/dataset/publish.mas
 msgid "Send Files"
@@ -30475,12 +30439,11 @@ msgstr "Reservar un DOI"
 #: mason/dataset/publish.mas
 #, perl-brace-format
 msgid ""
-"This dataset on {span}{end_span} is still private. The generated DOI will "
-"become active once the dataset is published and made public."
+"This dataset on {service} is still private. The generated DOI will become "
+"active once the dataset is published and made public."
 msgstr ""
-"Este conjunto de datos en {span}{end_span} sigue siendo privado. El DOI "
-"generado se activará cuando se publique el conjunto de datos y esté "
-"disponible para el público."
+"Este conjunto de datos en {service} aún es privado. El DOI generado se "
+"activará cuando se publique el conjunto de datos y se haga público."
 
 #: mason/dataset/publish.mas
 msgid "Generate a DOI"
@@ -31116,10 +31079,10 @@ msgstr "Cargando.."
 #, perl-brace-format
 msgid ""
 "This genome is available in {link}blast{end_link} and on the {link2}FTP "
-"site{end_link}."
+"site{end_link2}."
 msgstr ""
 "Este genoma está disponible en {link}blast{end_link} y en el {link2}sitio "
-"FTP{end_link}."
+"FTP{end_link2}."
 
 #: mason/genomes/Capsicum_annuum.mas
 #, perl-brace-format
@@ -32353,83 +32316,8 @@ msgid "Cost Basis"
 msgstr "Base de costos"
 
 #: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"CUGI received a total of \\$100,000 (apx. \\$80K in direct costs) spread "
-"over 3 years in support of clone maintenance and distribution."
-msgstr ""
-"CUGI recibió un total de \\$100,000 (aprox. \\$80K en costos directos) "
-"durante 3 años para apoyar el mantenimiento y la distribución de clones."
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"These funds have been used for a) purchase of 3 -80 freezers and service "
-"contracts to insure their operation b) support a half-time tech position, c) "
-"annual replication of all EST libraries to insure against loss of clone "
-"viability, and d) software upgrades used in clone request tracking and "
-"eventual public dissemination of all clone requests."
-msgstr ""
-"Estos fondos se han utilizado para a) comprar 3 congeladores de -80 y "
-"contratos de mantenimiento que garanticen su funcionamiento, b) financiar un "
-"puesto técnico a media jornada, c) replicar anualmente todas las bibliotecas "
-"de EST para prevenir la pérdida de viabilidad de los clones y d) actualizar "
-"el software utilizado para seguir las solicitudes de clones y difundirlas "
-"posteriormente al público."
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"It is important to realize that with 22 ordered EST libraries (each "
-"containing 4,000 - 15,000 ordered clones) tracking, localizing, and picking "
-"each clone represents a significant effort."
-msgstr ""
-"Es importante tener en cuenta que, con 22 bibliotecas ordenadas de EST (cada "
-"una con entre 4.000 y 15.000 clones ordenados), seguir, localizar y "
-"seleccionar cada clon requiere un esfuerzo considerable."
-
-#: mason/help/clone_policy.mas
 msgid "Clone Request Charges"
 msgstr "Tarifas de solicitud de clones"
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"Up to 150 clones can be requested per laboratory per year at the subsidized "
-"rate of \\$5 per clone."
-msgstr ""
-"Se pueden solicitar hasta 150 clones por laboratorio al año a la tarifa "
-"subvencionada de \\$5 por clon."
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"An unlimited number of additional clones can be requested by any one "
-"laboratory in a 12 month period but at a non-subsidized rate of \\$20 per "
-"clone."
-msgstr ""
-"Cada laboratorio puede solicitar un número ilimitado de clones adicionales "
-"en un período de 12 meses, a la tarifa no subvencionada de \\$20 por clon."
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"This later price is in line with other clone distribution centers, such as "
-"the American Type Culture Collection (ATCC), which recover total costs "
-"through re-charge fees."
-msgstr ""
-"Este último precio es comparable al de otros centros de distribución de "
-"clones, como la American Type Culture Collection (ATCC), que recuperan la "
-"totalidad de los costos mediante tarifas."
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"Cost recovery for the entire non-redundant set will be determined when said "
-"collection is completed (est. late 2001)."
-msgstr ""
-"La recuperación de costos del conjunto completo no redundante se determinará "
-"cuando se complete la colección (estimado para finales de 2001)."
 
 #: mason/help/clone_policy.mas
 msgid "Clones 1 - 150 in any twelve month period:"
@@ -32447,18 +32335,6 @@ msgid "Entire 384 well plates of sequential ESTs from a given library"
 msgstr ""
 "Placas completas de 384 pocillos con EST consecutivos de una biblioteca "
 "determinada"
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid "Shipping and handling (all clones shipped via over-night courier):"
-msgstr ""
-"Envío y manipulación (todos los clones se envían por mensajería con entrega "
-"al día siguiente):"
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid "apx. \\$40/request, depending on specific shipping cost."
-msgstr "aprox. \\$40 por solicitud, según el costo específico del envío."
 
 #: mason/help/clone_policy.mas
 msgid "Acknowledgements"
@@ -32610,30 +32486,6 @@ msgstr ""
 #, perl-brace-format
 msgid "Each tomato EST must pass the following criteria:"
 msgstr "Cada EST de tomate debe cumplir los siguientes criterios:"
-
-#: mason/help/cos_markers.mas mason/help/cosii_markers.mas
-#, perl-brace-format
-msgid "it hits an arabidopsis sequence at a significance level of < e -15"
-msgstr ""
-"coincide con una secuencia de Arabidopsis con un nivel de significación de < "
-"e -15"
-
-#: mason/help/cos_markers.mas mason/help/cosii_markers.mas
-#, perl-brace-format
-msgid ""
-"it is determined to be NOT part of a domain (where several solanaceous "
-"sequences hit the same arabidopsis region)"
-msgstr ""
-"se determina que NO forma parte de un dominio (en el que varias secuencias "
-"de solanáceas coinciden con la misma región de Arabidopsis)"
-
-#: mason/help/cos_markers.mas mason/help/cosii_markers.mas
-#, perl-brace-format
-msgid ""
-"the next best Arabidopsis hit must be of lower significance (delta e > 10)"
-msgstr ""
-"la siguiente mejor coincidencia en Arabidopsis debe tener una significación "
-"menor (delta e > 10)"
 
 #: mason/help/cos_markers.mas mason/help/cosii_markers.mas
 #, perl-brace-format
@@ -33710,27 +33562,6 @@ msgid "4. Locus editor"
 msgstr "4. Editor del locus"
 
 #: mason/help/gene_search_help.mas
-#, perl-brace-format
-msgid ""
-"Each locus in the genes database has an owner (either an SGN curator or a "
-"submitter). the owner also has certain edit privileges. You can search for "
-"loci owned by a specific {link}SGN user{end_link} by typing a first or a "
-"last name. Anyone interested in obtaining an SGN user account may do so by "
-"{link2}signing up for a new account{end_link2}. After obtaining an SGN user "
-"account you may upload new loci to SGN\\'s database. If you are interested "
-"in obtaining editor privileges to a specific locus, please follow the link "
-"in the locus details page."
-msgstr ""
-"Cada locus de la base de datos de genes tiene un responsable (un curador de "
-"SGN o una persona que aportó los datos). El responsable también tiene "
-"ciertos permisos de edición. Puede buscar loci de un {link}usuario de "
-"SGN{end_link} concreto introduciendo su nombre o apellido. Quien desee "
-"obtener una cuenta de SGN puede {link2}registrarse para crear una cuenta "
-"nueva{end_link2}. Una vez obtenida una cuenta de SGN, puede cargar nuevos "
-"loci en la base de datos SGN\\'s. Si desea obtener permisos de edición para "
-"un locus concreto, siga el enlace de la página de detalles del locus."
-
-#: mason/help/gene_search_help.mas
 msgid "5. Annotation features"
 msgstr "5. Características de anotación"
 
@@ -33751,43 +33582,8 @@ msgstr ""
 "unigen de SGN, o ambos)"
 
 #: mason/help/gene_search_help.mas
-#, perl-brace-format
-msgid ""
-"Marker: genes that correspond to a specific marker from SGN\\'s {link}marker "
-"database{end_link}"
-msgstr ""
-"Marcador: genes que corresponden a un marcador específico de la {link}base "
-"de datos de marcadores{end_link} SGN\\'s"
-
-#: mason/help/gene_search_help.mas
-#, perl-brace-format
-msgid ""
-"GO/PO annotation: genes that are annotated to at least one {link}Gene "
-"Ontology{end_link} or {link2}Plant Ontology{end_link2} term"
-msgstr ""
-"Anotación GO/PO: genes anotados con al menos un término de {link}Gene "
-"Ontology{end_link} o {link2}Plant Ontology{end_link2}"
-
-#: mason/help/gene_search_help.mas
 msgid "6. Phenotype"
 msgstr "6. Fenotipo"
-
-#: mason/help/gene_search_help.mas
-#, perl-brace-format
-msgid ""
-"Some genes may have a phenotype description, either as an associated allele, "
-"or an associated phenotyped accession. This option will narrow the search "
-"results for only genes with a phenotype description containing the word or "
-"string you typed in. For searching phenotypes of accessions not necessarily "
-"associated with a gene, you should use SGN\\'s {link}phenotype "
-"search{end_link} page."
-msgstr ""
-"Algunos genes pueden tener una descripción fenotípica, ya sea mediante un "
-"alelo asociado o una accesión asociada que se haya fenotipado. Esta opción "
-"limita los resultados a genes cuya descripción fenotípica contenga la "
-"palabra o cadena introducida. Para buscar fenotipos de accesiones que no "
-"estén necesariamente asociados a un gen, use la página de {link}búsqueda de "
-"fenotipos{end_link} SGN\\'s."
 
 #: mason/help/gene_search_help.mas
 msgid "7. Ontology term"
@@ -35780,15 +35576,6 @@ msgstr "Sitio dedicado a los microarrays de tomate."
 #: mason/links/related_sites.mas
 msgid "California Tomato Commission"
 msgstr "Comisión del Tomate de California"
-
-#: mason/links/related_sites.mas
-#, perl-brace-format
-msgid ""
-"The website of the California Tomato Grower\\'s Association. Contains "
-"nutritional information and recipes."
-msgstr ""
-"El sitio web de la California Tomato Grower\\'s Association. Contiene "
-"información nutricional y recetas."
 
 #: mason/links/related_sites.mas
 msgid "USDA ARS Bioinformatics Homepage"
@@ -37892,22 +37679,6 @@ msgstr ""
 "fruto, planta u hoja, se usará ese número."
 
 #: mason/phenotypes/submission_guide.mas
-#, perl-brace-format
-msgid ""
-"following columns should have trait scored values. Headers should be "
-"ontology IDs. These terms {bold}must{end_bold} be pre-loaded in the database "
-"(e.g. the {link}Solanaceae Phenotype Ontology{end_link} ). If your ontology "
-"does not exist in the database, or if you have terms that need to be added "
-"to an existing ontology,{link2} contact us{end_link2} first."
-msgstr ""
-"las columnas siguientes deben contener los valores medidos de los "
-"caracteres. Los encabezados deben ser ID de ontología. Estos términos {bold}"
-"deben{end_bold} estar cargados previamente en la base de datos (por ejemplo, "
-"la {link}Solanaceae Phenotype Ontology{end_link} ). Si su ontología no "
-"existe en la base de datos, o si necesita añadir términos a una ontología "
-"existente,{link2} póngase primero en contacto con nosotros{end_link2}."
-
-#: mason/phenotypes/submission_guide.mas
 msgid "Upload phenotyping data"
 msgstr "Cargar datos fenotípicos"
 
@@ -38330,38 +38101,8 @@ msgstr ""
 "grupo internacional de científicos para debatir:"
 
 #: mason/projects/solanaceae_project.mas
-#, perl-brace-format
-msgid ""
-"the current status of Solanaceae research - including aspects of plant "
-"biology for which Solanaceous species are a preferred model,"
-msgstr ""
-"el estado actual de la investigación sobre solanáceas, incluidos los "
-"aspectos de la biología vegetal para los que estas especies son un modelo "
-"preferente,"
-
-#: mason/projects/solanaceae_project.mas
-#, perl-brace-format
-msgid ""
-"the impact of sequencing the tomato genome on research in the Solanaceae and "
-"plant biology in general,"
-msgstr ""
-"el impacto de la secuenciación del genoma del tomate en la investigación "
-"sobre solanáceas y en la biología vegetal en general,"
-
-#: mason/projects/solanaceae_project.mas
 msgid "sequencing strategy,"
 msgstr "estrategia de secuenciación,"
-
-#: mason/projects/solanaceae_project.mas
-#, perl-brace-format
-msgid ""
-"mechanisms by which such a sequencing project can be conducted as part of a "
-"multinational consortium, and 5) strategies for sequence information "
-"management, curation and public dissemination."
-msgstr ""
-"los mecanismos para llevar a cabo un proyecto de secuenciación de este tipo "
-"como parte de un consorcio multinacional y 5) las estrategias para "
-"gestionar, curar y difundir públicamente la información de secuencias."
 
 #: mason/projects/solanaceae_project.mas
 msgid "International Solanaceae Meeting, Nov 15, 2003"
@@ -42953,8 +42694,8 @@ msgstr "Procesando"
 
 #: mason/site/header/body.mas
 #, perl-brace-format
-msgid "{span}{end_span} clone(s) in cart ({link}order{end_link})"
-msgstr "{span}{end_span} clon(es) en el carrito ({link}pedir{end_link})"
+msgid "{count} clone(s) in cart ({link}order{end_link})"
+msgstr "{count} clon(es) en el carrito ({link}pedir{end_link})"
 
 #: mason/site/header/browser_alert.mas
 msgid "Old browser version detected"
@@ -53465,6 +53206,307 @@ msgstr "Alejar"
 #: js/source/legacy/tools/vigs.js
 msgid "there are no parameters to change"
 msgstr "no hay parámetros que modificar"
+
+#, perl-brace-format
+#~ msgid "value = {value}"
+#~ msgstr "valor = {value}"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "Seedlots can be generated from either each {strong}accession{end_strong} "
+#~ "or {strong}plot{end_strong} {span} or {strong}subplot{end_strong}"
+#~ "{end_span} {span2} or {strong}plant{end_strong}{end_span} in this trial."
+#~ msgstr ""
+#~ "Se pueden generar lotes de semillas a partir de cada {strong}"
+#~ "accesión{end_strong} o {strong}parcela{end_strong} {span} o {strong}"
+#~ "subparcela{end_strong}{end_span} {span2} o {strong}planta{end_strong}"
+#~ "{end_span} de este ensayo."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "{column} a reference to an entity in an external database (such as a "
+#~ "matching gene entry in GrainGenes). The format of this value should be: "
+#~ "{format} (such as {example}). The database name must already exist as an "
+#~ "external database reference."
+#~ msgstr ""
+#~ "{column} una referencia a una entidad en una base de datos externa (como "
+#~ "una entrada del gen correspondiente en GrainGenes). El formato de este "
+#~ "valor debe ser: {format} (por ejemplo, {example}). El nombre de la base "
+#~ "de datos ya debe existir como referencia a una base de datos externa."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "These files should be tab-delimited text files (In Excel, choose type "
+#~ "{format} in the Save As dialog). To submit the files send them as email "
+#~ "attachments to {address}."
+#~ msgstr ""
+#~ "Estos archivos deben ser archivos de texto delimitados por tabulaciones "
+#~ "(en Excel, seleccione el tipo {format} en el cuadro de diálogo Guardar "
+#~ "como). Para enviar los archivos, adjúntelos a un correo electrónico "
+#~ "dirigido a {address}."
+
+#, perl-brace-format
+#~ msgid "{i}Please make sure to include the column headings{end_i}."
+#~ msgstr "{i}Asegúrese de incluir los encabezados de las columnas{end_i}."
+
+#, perl-brace-format
+#~ msgid "View your {span}{end_span} account"
+#~ msgstr "Ver su cuenta de {span}{end_span}"
+
+#, perl-brace-format
+#~ msgid "Grant {project_name} access to your {span}{end_span} account"
+#~ msgstr "Conceder a {project_name} acceso a su cuenta de {span}{end_span}"
+
+#, perl-brace-format
+#~ msgid "You are connected to this {span}{end_span} account:"
+#~ msgstr "Está conectado a esta cuenta de {span}{end_span}:"
+
+#, perl-brace-format
+#~ msgid "Select a {span}{end_span} dataset to associate this data with:"
+#~ msgstr ""
+#~ "Seleccione un conjunto de datos de {span}{end_span} al que asociar estos "
+#~ "datos:"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "The dataset metadata can be updated later on {span}{end_span} until the "
+#~ "dataset on {span2}{end_span} is published and made public."
+#~ msgstr ""
+#~ "Los metadatos del conjunto de datos pueden actualizarse posteriormente en "
+#~ "{span}{end_span} hasta que el conjunto de datos en {span2}{end_span} se "
+#~ "publique y esté disponible para el público."
+
+#, perl-brace-format
+#~ msgid "Send and attach the files to the selected {span}{end_span} dataset."
+#~ msgstr ""
+#~ "Envíe y adjunte los archivos al conjunto de datos seleccionado de {span}"
+#~ "{end_span}."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "This dataset on {span}{end_span} is still private. The generated DOI will "
+#~ "become active once the dataset is published and made public."
+#~ msgstr ""
+#~ "Este conjunto de datos en {span}{end_span} sigue siendo privado. El DOI "
+#~ "generado se activará cuando se publique el conjunto de datos y esté "
+#~ "disponible para el público."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "This genome is available in {link}blast{end_link} and on the {link2}FTP "
+#~ "site{end_link}."
+#~ msgstr ""
+#~ "Este genoma está disponible en {link}blast{end_link} y en el {link2}sitio "
+#~ "FTP{end_link}."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "CUGI received a total of \\$100,000 (apx. \\$80K in direct costs) spread "
+#~ "over 3 years in support of clone maintenance and distribution."
+#~ msgstr ""
+#~ "CUGI recibió un total de \\$100,000 (aprox. \\$80K en costos directos) "
+#~ "durante 3 años para apoyar el mantenimiento y la distribución de clones."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "These funds have been used for a) purchase of 3 -80 freezers and service "
+#~ "contracts to insure their operation b) support a half-time tech position, "
+#~ "c) annual replication of all EST libraries to insure against loss of "
+#~ "clone viability, and d) software upgrades used in clone request tracking "
+#~ "and eventual public dissemination of all clone requests."
+#~ msgstr ""
+#~ "Estos fondos se han utilizado para a) comprar 3 congeladores de -80 y "
+#~ "contratos de mantenimiento que garanticen su funcionamiento, b) financiar "
+#~ "un puesto técnico a media jornada, c) replicar anualmente todas las "
+#~ "bibliotecas de EST para prevenir la pérdida de viabilidad de los clones y "
+#~ "d) actualizar el software utilizado para seguir las solicitudes de clones "
+#~ "y difundirlas posteriormente al público."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "It is important to realize that with 22 ordered EST libraries (each "
+#~ "containing 4,000 - 15,000 ordered clones) tracking, localizing, and "
+#~ "picking each clone represents a significant effort."
+#~ msgstr ""
+#~ "Es importante tener en cuenta que, con 22 bibliotecas ordenadas de EST "
+#~ "(cada una con entre 4.000 y 15.000 clones ordenados), seguir, localizar y "
+#~ "seleccionar cada clon requiere un esfuerzo considerable."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "Up to 150 clones can be requested per laboratory per year at the "
+#~ "subsidized rate of \\$5 per clone."
+#~ msgstr ""
+#~ "Se pueden solicitar hasta 150 clones por laboratorio al año a la tarifa "
+#~ "subvencionada de \\$5 por clon."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "An unlimited number of additional clones can be requested by any one "
+#~ "laboratory in a 12 month period but at a non-subsidized rate of \\$20 per "
+#~ "clone."
+#~ msgstr ""
+#~ "Cada laboratorio puede solicitar un número ilimitado de clones "
+#~ "adicionales en un período de 12 meses, a la tarifa no subvencionada de \\"
+#~ "$20 por clon."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "This later price is in line with other clone distribution centers, such "
+#~ "as the American Type Culture Collection (ATCC), which recover total costs "
+#~ "through re-charge fees."
+#~ msgstr ""
+#~ "Este último precio es comparable al de otros centros de distribución de "
+#~ "clones, como la American Type Culture Collection (ATCC), que recuperan la "
+#~ "totalidad de los costos mediante tarifas."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "Cost recovery for the entire non-redundant set will be determined when "
+#~ "said collection is completed (est. late 2001)."
+#~ msgstr ""
+#~ "La recuperación de costos del conjunto completo no redundante se "
+#~ "determinará cuando se complete la colección (estimado para finales de "
+#~ "2001)."
+
+#, perl-brace-format
+#~ msgid "Shipping and handling (all clones shipped via over-night courier):"
+#~ msgstr ""
+#~ "Envío y manipulación (todos los clones se envían por mensajería con "
+#~ "entrega al día siguiente):"
+
+#, perl-brace-format
+#~ msgid "apx. \\$40/request, depending on specific shipping cost."
+#~ msgstr "aprox. \\$40 por solicitud, según el costo específico del envío."
+
+#, perl-brace-format
+#~ msgid "it hits an arabidopsis sequence at a significance level of < e -15"
+#~ msgstr ""
+#~ "coincide con una secuencia de Arabidopsis con un nivel de significación "
+#~ "de < e -15"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "it is determined to be NOT part of a domain (where several solanaceous "
+#~ "sequences hit the same arabidopsis region)"
+#~ msgstr ""
+#~ "se determina que NO forma parte de un dominio (en el que varias "
+#~ "secuencias de solanáceas coinciden con la misma región de Arabidopsis)"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "the next best Arabidopsis hit must be of lower significance (delta e > 10)"
+#~ msgstr ""
+#~ "la siguiente mejor coincidencia en Arabidopsis debe tener una "
+#~ "significación menor (delta e > 10)"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "Each locus in the genes database has an owner (either an SGN curator or a "
+#~ "submitter). the owner also has certain edit privileges. You can search "
+#~ "for loci owned by a specific {link}SGN user{end_link} by typing a first "
+#~ "or a last name. Anyone interested in obtaining an SGN user account may do "
+#~ "so by {link2}signing up for a new account{end_link2}. After obtaining an "
+#~ "SGN user account you may upload new loci to SGN\\'s database. If you are "
+#~ "interested in obtaining editor privileges to a specific locus, please "
+#~ "follow the link in the locus details page."
+#~ msgstr ""
+#~ "Cada locus de la base de datos de genes tiene un responsable (un curador "
+#~ "de SGN o una persona que aportó los datos). El responsable también tiene "
+#~ "ciertos permisos de edición. Puede buscar loci de un {link}usuario de "
+#~ "SGN{end_link} concreto introduciendo su nombre o apellido. Quien desee "
+#~ "obtener una cuenta de SGN puede {link2}registrarse para crear una cuenta "
+#~ "nueva{end_link2}. Una vez obtenida una cuenta de SGN, puede cargar nuevos "
+#~ "loci en la base de datos SGN\\'s. Si desea obtener permisos de edición "
+#~ "para un locus concreto, siga el enlace de la página de detalles del locus."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "Marker: genes that correspond to a specific marker from SGN\\'s {link}"
+#~ "marker database{end_link}"
+#~ msgstr ""
+#~ "Marcador: genes que corresponden a un marcador específico de la {link}"
+#~ "base de datos de marcadores{end_link} SGN\\'s"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "GO/PO annotation: genes that are annotated to at least one {link}Gene "
+#~ "Ontology{end_link} or {link2}Plant Ontology{end_link2} term"
+#~ msgstr ""
+#~ "Anotación GO/PO: genes anotados con al menos un término de {link}Gene "
+#~ "Ontology{end_link} o {link2}Plant Ontology{end_link2}"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "Some genes may have a phenotype description, either as an associated "
+#~ "allele, or an associated phenotyped accession. This option will narrow "
+#~ "the search results for only genes with a phenotype description containing "
+#~ "the word or string you typed in. For searching phenotypes of accessions "
+#~ "not necessarily associated with a gene, you should use SGN\\'s {link}"
+#~ "phenotype search{end_link} page."
+#~ msgstr ""
+#~ "Algunos genes pueden tener una descripción fenotípica, ya sea mediante un "
+#~ "alelo asociado o una accesión asociada que se haya fenotipado. Esta "
+#~ "opción limita los resultados a genes cuya descripción fenotípica contenga "
+#~ "la palabra o cadena introducida. Para buscar fenotipos de accesiones que "
+#~ "no estén necesariamente asociados a un gen, use la página de {link}"
+#~ "búsqueda de fenotipos{end_link} SGN\\'s."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "The website of the California Tomato Grower\\'s Association. Contains "
+#~ "nutritional information and recipes."
+#~ msgstr ""
+#~ "El sitio web de la California Tomato Grower\\'s Association. Contiene "
+#~ "información nutricional y recetas."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "following columns should have trait scored values. Headers should be "
+#~ "ontology IDs. These terms {bold}must{end_bold} be pre-loaded in the "
+#~ "database (e.g. the {link}Solanaceae Phenotype Ontology{end_link} ). If "
+#~ "your ontology does not exist in the database, or if you have terms that "
+#~ "need to be added to an existing ontology,{link2} contact us{end_link2} "
+#~ "first."
+#~ msgstr ""
+#~ "las columnas siguientes deben contener los valores medidos de los "
+#~ "caracteres. Los encabezados deben ser ID de ontología. Estos términos "
+#~ "{bold}deben{end_bold} estar cargados previamente en la base de datos (por "
+#~ "ejemplo, la {link}Solanaceae Phenotype Ontology{end_link} ). Si su "
+#~ "ontología no existe en la base de datos, o si necesita añadir términos a "
+#~ "una ontología existente,{link2} póngase primero en contacto con "
+#~ "nosotros{end_link2}."
+
+#, perl-brace-format
+#~ msgid ""
+#~ "the current status of Solanaceae research - including aspects of plant "
+#~ "biology for which Solanaceous species are a preferred model,"
+#~ msgstr ""
+#~ "el estado actual de la investigación sobre solanáceas, incluidos los "
+#~ "aspectos de la biología vegetal para los que estas especies son un modelo "
+#~ "preferente,"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "the impact of sequencing the tomato genome on research in the Solanaceae "
+#~ "and plant biology in general,"
+#~ msgstr ""
+#~ "el impacto de la secuenciación del genoma del tomate en la investigación "
+#~ "sobre solanáceas y en la biología vegetal en general,"
+
+#, perl-brace-format
+#~ msgid ""
+#~ "mechanisms by which such a sequencing project can be conducted as part of "
+#~ "a multinational consortium, and 5) strategies for sequence information "
+#~ "management, curation and public dissemination."
+#~ msgstr ""
+#~ "los mecanismos para llevar a cabo un proyecto de secuenciación de este "
+#~ "tipo como parte de un consorcio multinacional y 5) las estrategias para "
+#~ "gestionar, curar y difundir públicamente la información de secuencias."
+
+#, perl-brace-format
+#~ msgid "{span}{end_span} clone(s) in cart ({link}order{end_link})"
+#~ msgstr "{span}{end_span} clon(es) en el carrito ({link}pedir{end_link})"
 
 #~ msgid "View the dataset for this trial in JBrowse"
 #~ msgstr "Ver el conjunto de datos de este ensayo en JBrowse"

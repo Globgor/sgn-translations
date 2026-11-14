@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sgn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-11-14 14:55+0000\n"
+"POT-Creation-Date: 2026-11-14 15:17+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -4801,11 +4801,6 @@ msgid ""
 "scan the digits to create the numeric value."
 msgstr ""
 
-#: mason/barcode/tool/tool.mas
-#, perl-brace-format
-msgid "value = {value}"
-msgstr ""
-
 #: mason/barcode/trial_barcodes_download_result.mas
 msgid ""
 "Success! Please click the link below to download the barcode label file."
@@ -7267,7 +7262,7 @@ msgstr ""
 msgid ""
 "Seedlots can be generated from either each {strong}accession{end_strong} or "
 "{strong}plot{end_strong} {span} or {strong}subplot{end_strong}{end_span} "
-"{span2} or {strong}plant{end_strong}{end_span} in this trial."
+"{span2} or {strong}plant{end_strong}{end_span2} in this trial."
 msgstr ""
 
 #: mason/breeders_toolbox/create_seedlots_from_trial_dialogs.mas
@@ -15581,15 +15576,6 @@ msgstr ""
 #: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas
 #, perl-brace-format
 msgid "{column} a description of the marker (its associated phenotype, etc)"
-msgstr ""
-
-#: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas
-#, perl-brace-format
-msgid ""
-"{column} a reference to an entity in an external database (such as a "
-"matching gene entry in GrainGenes). The format of this value should be: "
-"{format} (such as {example}). The database name must already exist as an "
-"external database reference."
 msgstr ""
 
 #: mason/breeders_toolbox/genotyping_trials/upload_genotyping_data_dialogs.mas
@@ -27327,19 +27313,6 @@ msgid ""
 msgstr ""
 
 #: mason/cview/help/map_submission.mas
-#, perl-brace-format
-msgid ""
-"These files should be tab-delimited text files (In Excel, choose type "
-"{format} in the Save As dialog). To submit the files send them as email "
-"attachments to {address}."
-msgstr ""
-
-#: mason/cview/help/map_submission.mas
-#, perl-brace-format
-msgid "{i}Please make sure to include the column headings{end_i}."
-msgstr ""
-
-#: mason/cview/help/map_submission.mas
 msgid "The mapping file"
 msgstr ""
 
@@ -27742,12 +27715,12 @@ msgstr ""
 
 #: mason/dataset/publish.mas
 #, perl-brace-format
-msgid "View your {span}{end_span} account"
+msgid "View your {service} account"
 msgstr ""
 
 #: mason/dataset/publish.mas
 #, perl-brace-format
-msgid "Grant {project_name} access to your {span}{end_span} account"
+msgid "Grant {project_name} access to your {service} account"
 msgstr ""
 
 #: mason/dataset/publish.mas
@@ -27756,7 +27729,7 @@ msgstr ""
 
 #: mason/dataset/publish.mas
 #, perl-brace-format
-msgid "You are connected to this {span}{end_span} account:"
+msgid "You are connected to this {service} account:"
 msgstr ""
 
 #: mason/dataset/publish.mas
@@ -27765,7 +27738,7 @@ msgstr ""
 
 #: mason/dataset/publish.mas
 #, perl-brace-format
-msgid "Select a {span}{end_span} dataset to associate this data with:"
+msgid "Select a {service} dataset to associate this data with:"
 msgstr ""
 
 #: mason/dataset/publish.mas
@@ -27783,13 +27756,13 @@ msgstr ""
 #: mason/dataset/publish.mas
 #, perl-brace-format
 msgid ""
-"The dataset metadata can be updated later on {span}{end_span} until the "
-"dataset on {span2}{end_span} is published and made public."
+"The dataset metadata can be updated later on {service} until the dataset on "
+"{service2} is published and made public."
 msgstr ""
 
 #: mason/dataset/publish.mas
 #, perl-brace-format
-msgid "Send and attach the files to the selected {span}{end_span} dataset."
+msgid "Send and attach the files to the selected {service} dataset."
 msgstr ""
 
 #: mason/dataset/publish.mas
@@ -27843,8 +27816,8 @@ msgstr ""
 #: mason/dataset/publish.mas
 #, perl-brace-format
 msgid ""
-"This dataset on {span}{end_span} is still private. The generated DOI will "
-"become active once the dataset is published and made public."
+"This dataset on {service} is still private. The generated DOI will become "
+"active once the dataset is published and made public."
 msgstr ""
 
 #: mason/dataset/publish.mas
@@ -28407,7 +28380,7 @@ msgstr ""
 #, perl-brace-format
 msgid ""
 "This genome is available in {link}blast{end_link} and on the {link2}FTP "
-"site{end_link}."
+"site{end_link2}."
 msgstr ""
 
 #: mason/genomes/Capsicum_annuum.mas
@@ -29441,62 +29414,7 @@ msgid "Cost Basis"
 msgstr ""
 
 #: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"CUGI received a total of \\$100,000 (apx. \\$80K in direct costs) spread "
-"over 3 years in support of clone maintenance and distribution."
-msgstr ""
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"These funds have been used for a) purchase of 3 -80 freezers and service "
-"contracts to insure their operation b) support a half-time tech position, c) "
-"annual replication of all EST libraries to insure against loss of clone "
-"viability, and d) software upgrades used in clone request tracking and "
-"eventual public dissemination of all clone requests."
-msgstr ""
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"It is important to realize that with 22 ordered EST libraries (each "
-"containing 4,000 - 15,000 ordered clones) tracking, localizing, and picking "
-"each clone represents a significant effort."
-msgstr ""
-
-#: mason/help/clone_policy.mas
 msgid "Clone Request Charges"
-msgstr ""
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"Up to 150 clones can be requested per laboratory per year at the subsidized "
-"rate of \\$5 per clone."
-msgstr ""
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"An unlimited number of additional clones can be requested by any one "
-"laboratory in a 12 month period but at a non-subsidized rate of \\$20 per "
-"clone."
-msgstr ""
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"This later price is in line with other clone distribution centers, such as "
-"the American Type Culture Collection (ATCC), which recover total costs "
-"through re-charge fees."
-msgstr ""
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid ""
-"Cost recovery for the entire non-redundant set will be determined when said "
-"collection is completed (est. late 2001)."
 msgstr ""
 
 #: mason/help/clone_policy.mas
@@ -29511,16 +29429,6 @@ msgstr ""
 #: mason/help/clone_policy.mas
 #, perl-brace-format
 msgid "Entire 384 well plates of sequential ESTs from a given library"
-msgstr ""
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid "Shipping and handling (all clones shipped via over-night courier):"
-msgstr ""
-
-#: mason/help/clone_policy.mas
-#, perl-brace-format
-msgid "apx. \\$40/request, depending on specific shipping cost."
 msgstr ""
 
 #: mason/help/clone_policy.mas
@@ -29649,24 +29557,6 @@ msgstr ""
 #: mason/help/cos_markers.mas mason/help/cosii_markers.mas
 #, perl-brace-format
 msgid "Each tomato EST must pass the following criteria:"
-msgstr ""
-
-#: mason/help/cos_markers.mas mason/help/cosii_markers.mas
-#, perl-brace-format
-msgid "it hits an arabidopsis sequence at a significance level of < e -15"
-msgstr ""
-
-#: mason/help/cos_markers.mas mason/help/cosii_markers.mas
-#, perl-brace-format
-msgid ""
-"it is determined to be NOT part of a domain (where several solanaceous "
-"sequences hit the same arabidopsis region)"
-msgstr ""
-
-#: mason/help/cos_markers.mas mason/help/cosii_markers.mas
-#, perl-brace-format
-msgid ""
-"the next best Arabidopsis hit must be of lower significance (delta e > 10)"
 msgstr ""
 
 #: mason/help/cos_markers.mas mason/help/cosii_markers.mas
@@ -30508,19 +30398,6 @@ msgid "4. Locus editor"
 msgstr ""
 
 #: mason/help/gene_search_help.mas
-#, perl-brace-format
-msgid ""
-"Each locus in the genes database has an owner (either an SGN curator or a "
-"submitter). the owner also has certain edit privileges. You can search for "
-"loci owned by a specific {link}SGN user{end_link} by typing a first or a "
-"last name. Anyone interested in obtaining an SGN user account may do so by "
-"{link2}signing up for a new account{end_link2}. After obtaining an SGN user "
-"account you may upload new loci to SGN\\'s database. If you are interested "
-"in obtaining editor privileges to a specific locus, please follow the link "
-"in the locus details page."
-msgstr ""
-
-#: mason/help/gene_search_help.mas
 msgid "5. Annotation features"
 msgstr ""
 
@@ -30537,32 +30414,7 @@ msgid ""
 msgstr ""
 
 #: mason/help/gene_search_help.mas
-#, perl-brace-format
-msgid ""
-"Marker: genes that correspond to a specific marker from SGN\\'s {link}marker "
-"database{end_link}"
-msgstr ""
-
-#: mason/help/gene_search_help.mas
-#, perl-brace-format
-msgid ""
-"GO/PO annotation: genes that are annotated to at least one {link}Gene "
-"Ontology{end_link} or {link2}Plant Ontology{end_link2} term"
-msgstr ""
-
-#: mason/help/gene_search_help.mas
 msgid "6. Phenotype"
-msgstr ""
-
-#: mason/help/gene_search_help.mas
-#, perl-brace-format
-msgid ""
-"Some genes may have a phenotype description, either as an associated allele, "
-"or an associated phenotyped accession. This option will narrow the search "
-"results for only genes with a phenotype description containing the word or "
-"string you typed in. For searching phenotypes of accessions not necessarily "
-"associated with a gene, you should use SGN\\'s {link}phenotype "
-"search{end_link} page."
 msgstr ""
 
 #: mason/help/gene_search_help.mas
@@ -32250,13 +32102,6 @@ msgstr ""
 
 #: mason/links/related_sites.mas
 msgid "California Tomato Commission"
-msgstr ""
-
-#: mason/links/related_sites.mas
-#, perl-brace-format
-msgid ""
-"The website of the California Tomato Grower\\'s Association. Contains "
-"nutritional information and recipes."
 msgstr ""
 
 #: mason/links/related_sites.mas
@@ -34217,16 +34062,6 @@ msgid ""
 msgstr ""
 
 #: mason/phenotypes/submission_guide.mas
-#, perl-brace-format
-msgid ""
-"following columns should have trait scored values. Headers should be "
-"ontology IDs. These terms {bold}must{end_bold} be pre-loaded in the database "
-"(e.g. the {link}Solanaceae Phenotype Ontology{end_link} ). If your ontology "
-"does not exist in the database, or if you have terms that need to be added "
-"to an existing ontology,{link2} contact us{end_link2} first."
-msgstr ""
-
-#: mason/phenotypes/submission_guide.mas
 msgid "Upload phenotyping data"
 msgstr ""
 
@@ -34620,29 +34455,7 @@ msgid ""
 msgstr ""
 
 #: mason/projects/solanaceae_project.mas
-#, perl-brace-format
-msgid ""
-"the current status of Solanaceae research - including aspects of plant "
-"biology for which Solanaceous species are a preferred model,"
-msgstr ""
-
-#: mason/projects/solanaceae_project.mas
-#, perl-brace-format
-msgid ""
-"the impact of sequencing the tomato genome on research in the Solanaceae and "
-"plant biology in general,"
-msgstr ""
-
-#: mason/projects/solanaceae_project.mas
 msgid "sequencing strategy,"
-msgstr ""
-
-#: mason/projects/solanaceae_project.mas
-#, perl-brace-format
-msgid ""
-"mechanisms by which such a sequencing project can be conducted as part of a "
-"multinational consortium, and 5) strategies for sequence information "
-"management, curation and public dissemination."
 msgstr ""
 
 #: mason/projects/solanaceae_project.mas
@@ -38547,7 +38360,7 @@ msgstr ""
 
 #: mason/site/header/body.mas
 #, perl-brace-format
-msgid "{span}{end_span} clone(s) in cart ({link}order{end_link})"
+msgid "{count} clone(s) in cart ({link}order{end_link})"
 msgstr ""
 
 #: mason/site/header/browser_alert.mas

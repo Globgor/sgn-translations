@@ -163,6 +163,23 @@ mv "$work/browser-template.saved" "$r/po/sgn-js.pot"
 run check check
 check "make check passes (fuzzy allowed in the compendium)" test "$rc" -eq 0
 cp "$mo" "$work/sgn.mo.1"
+# msgfmt accepts these three; a translation must not add, repeat or misplace a placeholder.
+cp "$r/po/uk.po" "$work/uk.po.good"
+badplaceholder() {   # badplaceholder NAME MSGID MSGSTR EXPECTED-REASON
+    cp "$work/uk.po.good" "$r/po/uk.po"
+    printf '\n#, perl-brace-format\nmsgid "%s"\nmsgstr "%s"\n' "$2" "$3" >> "$r/po/uk.po"
+    run "$1" check
+    check "make check fails on $1" test "$rc" -ne 0
+    check "make check explains $1" logged "$4"
+}
+badplaceholder "an added placeholder" 'Read the {link}help{end_link}' 'Читайте {link}довідку{end_link} {text}' '{text} is not in the message'
+badplaceholder "a repeated placeholder" 'Found {count} trials' 'Знайдено {count} {count} дослідів' '{count} is there 2 times'
+badplaceholder "a pair that closes before it opens" 'Read the {link}help{end_link}' 'Читайте {end_link}довідку{link}' '{end_link} comes before {link}'
+cp "$work/uk.po.good" "$r/po/uk.po"
+printf '\n#, perl-brace-format\nmsgid "Read the {link}help{end_link} for {name}"\nmsgstr "{name}: читайте {link}довідку{end_link}"\n' >> "$r/po/uk.po"
+run movedplaceholder check
+check "make check accepts placeholders in another order" test "$rc" -eq 0
+cp "$work/uk.po.good" "$r/po/uk.po"
 cat >> "$r/po/uk.po" <<'EOF'
 
 #, perl-brace-format

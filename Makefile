@@ -3,7 +3,7 @@
 #   make (or make all)        build mo first, then js
 #   make mo                   server catalogs only; GNU gettext, no Node.js
 #   make js                   browser catalogs only; Node.js 24 and npm ci
-#   make check                msgfmt --check on po/*.po and compendium/*.po
+#   make check                msgfmt --check on po/*.po and compendium/*.po, placeholders of po/*.po (Perl)
 #   make pot SGN=/path/to/sgn extract po/sgn.pot and po/sgn-js.pot from SGN
 #   make update               merge po/sgn.pot into every po/<lang>.po
 #   make test                 test pot, update and the build on tests/fixture
@@ -47,10 +47,12 @@ locale/%/sgn.js: po/%.po po/sgn-js.pot tools/mo2js.js
 	node tools/mo2js.js "$$tmp/browser.mo" > "$$tmp/sgn.js" && \
 	chmod 644 "$$tmp/sgn.js" && mv -f "$$tmp/sgn.js" $@
 
+# msgfmt finds a lost placeholder; the tool finds an added, repeated or misplaced one.
 check:
 	@status=0; for po in po/*.po compendium/*.po; do \
 		msgfmt --check -o /dev/null "$$po" || { echo "$$po: FAILED" >&2; status=1; }; \
-	done; exit $$status
+	done; \
+	perl tools/check-placeholders.pl po/*.po || status=1; exit $$status
 
 # Mason components go through tools/mason2perl.pl; Perl files go to xgettext
 # as they are. -D makes xgettext find both but name the SGN paths.
