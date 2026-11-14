@@ -30,6 +30,8 @@ check:
 
 # Mason components go through tools/mason2perl.pl; Perl files go to xgettext
 # as they are. -D makes xgettext find both but name the SGN paths.
+# -k: only the Locale::TextDomain functions mark a message, not every call of
+# gettext() or dgettext() in SGN.
 pot:
 	@test -d "$(SGN)/mason" || { echo 'usage: make pot SGN=/path/to/sgn' >&2; exit 2; }
 	@tmp=$$(mktemp -d) && trap 'rm -rf "$$tmp"' EXIT && set -e && \
@@ -37,7 +39,7 @@ pot:
 	(cd "$(SGN)" && find lib cgi-bin -type f \( -name '*.pm' -o -name '*.pl' \)) > "$$tmp/perl-files" && \
 	LC_ALL=C sort "$$tmp/perl-files" >> "$$tmp/files" && \
 	options=$$(perl -MLocale::TextDomain -e 'print join " ", Locale::TextDomain->options') && \
-	xgettext -L Perl --from-code=UTF-8 --add-location=file --sort-by-file --force-po --package-name=sgn $$options \
+	xgettext -L Perl --from-code=UTF-8 --add-location=file --sort-by-file --force-po --package-name=sgn -k $$options \
 		-D "$$tmp/perl" -D "$(SGN)" -f "$$tmp/files" -o "$$tmp/sgn.pot" && \
 	if test -f po/sgn.pot && diff -q -I '^"POT-Creation-Date:' po/sgn.pot "$$tmp/sgn.pot" >/dev/null; \
 	then echo "po/sgn.pot: no change"; \
