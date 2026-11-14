@@ -1,0 +1,29 @@
+# Spanish translations of the SGN web interface.
+# All translations are machine drafts until a native speaker reviews them.
+# License: MIT (LICENSE). Entries marked "iso-codes" are country names under
+# LGPL-2.1-or-later: see docs/TRANSLATION_SOURCES.md and LICENSE.iso-codes.
+msgid ""
+msgstr ""
+"Project-Id-Version: sgn\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-14 09:22+0000\n"
+"PO-Revision-Date: 2026-11-14 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Spanish\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mason/site/toolbar/language.mas
+msgid "Language"
+msgstr "Idioma"
+
+#: mason/site/toolbar/search.mas
+msgid "Advanced"
+msgstr "Búsqueda avanzada"
+
+#: mason/site/toolbar/search.mas
+msgid "Search"
+msgstr ""

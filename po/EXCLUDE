@@ -1,0 +1,4 @@
+# SGN Mason components that "make pot" skips. One per line: path, then the reason.
+# tools/mason2perl.pl reports a listed component that compiles again: then remove it here.
+mason/solgs/search/result/all_projects.mas  does not compile: "</&>" at line 31 closes a component call that has no content block
+mason/secretom/detail/profiling.mas  not UTF-8: Latin-1 letters at line 167 (a citation); xgettext stops on it

@@ -2,11 +2,13 @@
 
 This is the source and license record. For setup, see the [README](../README.md).
 
-Some Ukrainian, Spanish and Arabic country-caption draft records are adapted
-from the iso-codes project's version v4.20.1 ISO 3166-1 and historical ISO 3166-3
-translation catalogs. The application stores its original country names/codes;
-these records supply display captions only. The application has no runtime
-dependency on iso-codes or the operating system locale catalogs.
+Some Ukrainian, Spanish and Arabic country names are adapted from the
+iso-codes project's version v4.20.1 ISO 3166-1 and historical ISO 3166-3
+translation catalogs. They are the 246 entries marked `# iso-codes v4.20.1,
+LGPL-2.1-or-later` in `compendium/<lang>.po`; `make update` keeps that mark
+when it copies one into `po/<lang>.po`. SGN stores its original country
+names and codes; these entries supply display captions only. SGN has no
+runtime dependency on iso-codes or the operating system locale catalogs.
 
 The retained source catalogs state LGPL-2.1-or-later.
 Preserve the accompanying original copyright/translator notices and the license

@@ -12,9 +12,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install GNU gettext
-        run: sudo apt-get update && sudo apt-get install -y gettext
-      - name: Check catalogs and tools
+      - name: Install GNU gettext, HTML::Mason and libintl-perl
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends gettext make libhtml-mason-perl libintl-perl
+      - name: Check catalogs
         run: make check
+      - name: Test extraction, merge and build
+        run: make test
       - name: Build
         run: make

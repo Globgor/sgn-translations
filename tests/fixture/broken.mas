@@ -1,0 +1,2 @@
+<& /site/widget.mas, label => __('Never extracted') &>
+</&>
