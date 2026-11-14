@@ -1,0 +1,2 @@
+<p>Café</p>
+<% __('Excluded: not UTF-8') %>

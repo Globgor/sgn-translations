@@ -1,0 +1,2 @@
+<title><% __('Site title') |h %></title>
+% $m->call_next;

@@ -1,4 +1,3 @@
-/build/
-/.build-*/
+/locale/
 /manual/node_modules/
 __pycache__/

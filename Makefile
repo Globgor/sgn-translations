@@ -1,39 +1,67 @@
-# SGN translations. Needs GNU gettext, Python 3 and make; nothing else.
+# SGN interface translations. Needs GNU gettext, make and Perl.
 #
-#   make                            build/ for SGN: .mo files and browser JSON
-#   make check                      catalog checks, msgfmt --check, tool tests
-#   make templates SGN=/path/to/sgn regenerate po/templates, msgmerge every language
-#   make clean                      remove build/
-#
-# make check SGN=/path/to/sgn also runs the manual tests that read SGN files.
-# make templates ... ALLOW_OBSOLETE=1 accepts translations that lose their message.
+#   make                      locale/<lang>/LC_MESSAGES/sgn.mo from po/<lang>.po
+#   make check                msgfmt --check on po/*.po and compendium/*.po
+#   make pot SGN=/path/to/sgn extract po/sgn.pot from SGN (needs HTML::Mason, libintl-perl)
+#   make update               merge po/sgn.pot into every po/<lang>.po
+#   make test                 test pot, update and the build on tests/fixture
+#   make clean                remove locale/
 
-PYTHON ?= python3
 SGN ?=
-ALLOW_OBSOLETE ?=
-LANGUAGES := $(filter-out templates,$(notdir $(patsubst %/,%,$(wildcard po/*/))))
+LANGUAGES := $(basename $(notdir $(wildcard po/*.po)))
+MO := $(LANGUAGES:%=locale/%/LC_MESSAGES/sgn.mo)
 
-.PHONY: all build check templates clean
+.PHONY: all check pot update test clean
+.NOTPARALLEL:
 
-all: build
+all: $(MO)
 
-build:
-	$(PYTHON) -B tools/build.py
+# SGN runs as another user (www-data): set modes, do not rely on umask.
+# A running SGN may hold the old file: write a new file, then rename it.
+locale/%/LC_MESSAGES/sgn.mo: po/%.po
+	mkdir -p $(@D) && chmod 755 locale locale/$* $(@D)
+	tmp=$$(mktemp $(@D)/.sgn.mo.XXXXXX) && \
+	{ msgfmt --check --statistics -o "$$tmp" $< && chmod 644 "$$tmp" && mv -f "$$tmp" $@ || { rm -f "$$tmp"; exit 1; }; }
 
-# Every step runs; make check fails at the end if any step failed.
 check:
-	@status=0; \
-	$(PYTHON) -B tools/check_catalogs.py || status=1; \
-	for lang in $(LANGUAGES); do \
-		echo "msgfmt --check $$lang:"; \
-		msgcat --use-first po/$$lang/*.po | msgfmt --check --statistics -o /dev/null - || status=1; \
-	done; \
-	(cd tools && SGN_CHECKOUT="$(SGN)" $(PYTHON) -B -m unittest discover -s . -p 'test_*.py') || status=1; \
-	exit $$status
+	@status=0; for po in po/*.po compendium/*.po; do \
+		msgfmt --check -o /dev/null "$$po" || { echo "$$po: FAILED" >&2; status=1; }; \
+	done; exit $$status
 
-templates:
-	@test -n "$(SGN)" || { echo "usage: make templates SGN=/path/to/sgn" >&2; exit 2; }
-	$(PYTHON) -B tools/templates.py --sgn "$(SGN)" $(if $(ALLOW_OBSOLETE),--allow-obsolete)
+# Mason components go through tools/mason2perl.pl; Perl files go to xgettext
+# as they are. -D makes xgettext find both but name the SGN paths.
+pot:
+	@test -d "$(SGN)/mason" || { echo 'usage: make pot SGN=/path/to/sgn' >&2; exit 2; }
+	@tmp=$$(mktemp -d) && trap 'rm -rf "$$tmp"' EXIT && set -e && \
+	perl tools/mason2perl.pl po/EXCLUDE "$(SGN)" "$$tmp/perl" > "$$tmp/files" && \
+	(cd "$(SGN)" && find lib cgi-bin -type f \( -name '*.pm' -o -name '*.pl' \)) > "$$tmp/perl-files" && \
+	LC_ALL=C sort "$$tmp/perl-files" >> "$$tmp/files" && \
+	xgettext -L Perl --from-code=UTF-8 --add-location=file --sort-by-file --force-po --package-name=sgn \
+		$$(perl -MLocale::TextDomain -e 'print join " ", Locale::TextDomain->options') \
+		-D "$$tmp/perl" -D "$(SGN)" -f "$$tmp/files" -o "$$tmp/sgn.pot" && \
+	if test -f po/sgn.pot && diff -q -I '^"POT-Creation-Date:' po/sgn.pot "$$tmp/sgn.pot" >/dev/null; \
+	then echo "po/sgn.pot: no change"; \
+	else cp "$$tmp/sgn.pot" po/sgn.pot && echo "po/sgn.pot: $$(grep -c '^msgid ' po/sgn.pot) msgid lines (with the header)"; fi
+
+# Exact matches only: no fuzzy matching, and fuzzy compendium entries are left out.
+# Messages that leave the template stay in po/<lang>.po as obsolete (#~) entries;
+# msgfmt ignores them, and msgmerge restores them if the text comes back.
+update:
+	@test -f po/sgn.pot || { echo 'po/sgn.pot is missing: run make pot SGN=/path/to/sgn' >&2; exit 2; }
+	@tmp=$$(mktemp -d) && trap 'rm -rf "$$tmp"' EXIT && set -e && \
+	for lang in $(LANGUAGES); do \
+		compendium=; \
+		if test -f compendium/$$lang.po; then \
+			msgattrib --no-fuzzy -o "$$tmp/$$lang.po" compendium/$$lang.po; \
+			compendium="-C $$tmp/$$lang.po"; \
+		fi; \
+		echo "po/$$lang.po:"; \
+		msgmerge --update --backup=off --no-fuzzy-matching --quiet $$compendium po/$$lang.po po/sgn.pot; \
+		msgfmt --statistics -o /dev/null po/$$lang.po; \
+	done
+
+test:
+	sh tests/run.sh
 
 clean:
-	rm -rf build
+	rm -rf locale

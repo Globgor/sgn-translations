@@ -1,0 +1,5 @@
+<%args>
+$label
+</%args>
+<label><% $label |h %></label>
+<button><% __('Search trial') %></button>

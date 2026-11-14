@@ -1,0 +1,64 @@
+#: cgi-bin/page.pl
+msgid "Legacy page"
+msgstr ""
+
+#: lib/SGN/Fixture.pm
+msgid "Saved"
+msgstr ""
+
+#: lib/SGN/Fixture.pm
+#, perl-brace-format
+msgctxt "button"
+msgid "Save {what}"
+msgstr ""
+
+#: lib/SGN/Fixture.pm
+msgid "one plot"
+msgid_plural "many plots"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mason/autohandler
+msgid "Site title"
+msgstr ""
+
+#: mason/site/page.mas
+msgid "Default label"
+msgstr ""
+
+#: mason/site/page.mas
+msgid "Trial detail"
+msgstr ""
+
+#: mason/site/page.mas
+msgid "Search"
+msgstr ""
+
+#: mason/site/page.mas
+msgctxt "verb"
+msgid "Search"
+msgstr ""
+
+#: mason/site/page.mas
+#, perl-brace-format
+msgid "Trial {name}"
+msgstr ""
+
+#: mason/site/page.mas
+#, perl-brace-format
+msgid "{count} trial"
+msgid_plural "{count} trials"
+msgstr[0] ""
+msgstr[1] ""
+
+#: mason/site/page.mas
+msgid "Filename"
+msgstr ""
+
+#: mason/site/page.mas
+msgid "Don't save"
+msgstr ""
+
+#: mason/site/widget.mas
+msgid "Search trial"
+msgstr ""

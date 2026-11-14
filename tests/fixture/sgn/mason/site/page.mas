@@ -1,0 +1,15 @@
+<%args>
+$name
+$count => 1
+$label => __('Default label')
+</%args>
+<%init>
+my $title = __('Trial detail');
+</%init>
+<h1><% $title |h %></h1>
+<p>Don't stop here: it's "plain" HTML text, not code.</p>
+<p title="<% __('Search') |h %>"><% __p('verb', 'Search') %></p>
+<p><% __x('Trial {name}', name => $name) |h %></p>
+<p><% __nx('{count} trial', '{count} trials', $count, count => $count) %></p>
+<& /site/widget.mas, label => __('Filename') &>
+% my $note = __("Don't save");
