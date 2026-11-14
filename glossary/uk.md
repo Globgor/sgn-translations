@@ -57,8 +57,8 @@ Draft for review by a Ukrainian-speaking breeder. This is a consistency aid, not
 | Unit of measure | одиниця виміру | Never convert or localize the stored unit code. |
 | Dataset | набір даних | Keep dataset names and identifiers unchanged. |
 | List | список | For a BreedBase List object; use «перелік» in ordinary prose where it reads more naturally. |
-| Upload | завантажити | Confirmed 2026-11-12; enforced by glossary/uk.tsv. No «до системи»: the verb already gives the direction. Keep upload headers and payload fields canonical. |
-| Download | вивантажити | Confirmed 2026-11-12; enforced by glossary/uk.tsv. Noun «вивантаження». No «з системи». |
+| Upload | завантажити | Confirmed 2026-11-12; checked in review. No «до системи»: the verb already gives the direction. Keep upload headers and payload fields canonical. |
+| Download | вивантажити | Confirmed 2026-11-12; checked in review. Noun «вивантаження». No «з системи». |
 | Import | імпортувати | Keep file headers, API names, and parser keys unchanged. |
 | Export | експортувати | Keep output column names and machine formats unchanged. |
 | Create | створити | Use for a new record or object; do not alter the associated endpoint. |

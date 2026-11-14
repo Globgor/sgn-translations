@@ -2,6 +2,7 @@
 """Protect scientific examples and canonical navigation in translated manuals."""
 
 import collections
+import os
 import re
 import shutil
 import subprocess
@@ -12,11 +13,12 @@ import unittest
 # pylint: disable=missing-function-docstring
 from pathlib import Path
 
-from sgn_checkout import SGN, needs_sgn
-
-# English chapters come from the SGN checkout; translations live in manual/ here.
+# English chapters come from an SGN checkout (SGN_CHECKOUT=/path/to/sgn);
+# translations live next to this file. Without SGN_CHECKOUT the tests are skipped.
+SGN = Path(os.environ["SGN_CHECKOUT"]).resolve() if os.environ.get("SGN_CHECKOUT") else None
+needs_sgn = unittest.skipUnless(SGN is not None, "set SGN_CHECKOUT to an SGN source checkout")
 ROOT = SGN / "docs/r_markdown_docs" if SGN else None
-MANUAL = Path(__file__).resolve().parents[1] / "manual"
+MANUAL = Path(__file__).resolve().parent
 LANGUAGES = ("uk", "es", "ar")
 
 

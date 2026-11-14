@@ -123,22 +123,22 @@ examples unchanged in translations.
 After editing paragraphs, run from this repository:
 
 ```sh
-make check SGN=/path/to/sgn
+SGN_CHECKOUT=/path/to/sgn python3 -B manual/test_manual.py
 Rscript --vanilla manual/build.R --sgn /path/to/sgn all "$HOME/sgn-manual-v2"
 ```
 
-The first command also runs `tools/test_manual.py` (Python only; its build
-test runs only when `Rscript` is installed). It checks consistency with
-English; it does not build a preview.
+The first command runs `manual/test_manual.py` (Python 3, standard library
+only; its build test runs only when `Rscript` is installed). It checks that
+code blocks, formulas, numbers and heading IDs match English; it does not
+build a preview. `make check` does not run it.
 The second builds the pages. Open `~/sgn-manual-v2/index.html` and check the
 changed chapters and language links. Building does not publish the reader.
 
 ## Publish
 
-Publish the English root and three language folders together. In the branch
-of solgenomics/sgn PR #6386 the site settings `i18n_manual_base_url` and
-`i18n_manual_locales` let the Manual link open the matching language. Upstream
-SGN does not have these settings yet.
+Publish the English root and three language folders together. SGN does not
+yet have a setting that points its Manual link to the reader of the user's
+language.
 
 SGN's documentation CI builds English only. A maintainer publishes the
 translated output separately. Keep generated HTML, PDFs, caches and tools
